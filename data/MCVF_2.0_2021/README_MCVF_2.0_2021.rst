@@ -13,6 +13,7 @@ Citation
 
 France, Martineau, Paul Hirschbühler, Anthony Kroch, and Yves Charles
 Morin, eds.  2021.  MCVF Corpus, parsed, version 2.0.
+<https://github.com/beatrice57/mcvf-plus-ppchf>
 
 Contents
 ========

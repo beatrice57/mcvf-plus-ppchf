@@ -18,13 +18,16 @@ cited as follows.
 * Martineau, France, Paul Hirschbühler, Serge Lusignan, Christiane
   Marchello-Nizia, Yves Charles Morin, and François Rouget, eds.  2009a.
   MCVF Corpus, XML annotated, version 1.0.
+  Available for download at: <https://github.com/beatrice57/mcvf-plus-ppchf>
 
 * Martineau, France,  Fernande Dupuis, Monique Dufresne, Paul
   Hirschbühler, Anthony Kroch, and Yves Charles Morin, eds.  2009b.
   MCVF Corpus, part-of-speech tagged, version 1.0.
+  Available for download at: <https://github.com/beatrice57/mcvf-plus-ppchf>
 
 * Martineau, France, Paul Hirschbühler, Anthony Kroch, and Yves Charles
   Morin, eds.  2009c.  MCVF Corpus, parsed, version 1.0.  </ul>
+  Download at: <https://github.com/beatrice57/mcvf-plus-ppchf>
 
 Contents
 ========
