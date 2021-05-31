@@ -26,8 +26,8 @@ cited as follows.
   Available for download at: <https://github.com/beatrice57/mcvf-plus-ppchf>
 
 * Martineau, France, Paul Hirschbühler, Anthony Kroch, and Yves Charles
-  Morin, eds.  2009c.  MCVF Corpus, parsed, version 1.0.  </ul>
-  Download at: <https://github.com/beatrice57/mcvf-plus-ppchf>
+  Morin, eds.  2009c.  MCVF Corpus, parsed, version 1.0.
+  Available for download at: <https://github.com/beatrice57/mcvf-plus-ppchf>
 
 Contents
 ========
