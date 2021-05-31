@@ -14,7 +14,7 @@ French, which together contain over 1.6 million words of running text.
 **Note:** Here and throughout the documentation, "number of words"
 excludes punctuation and metadata and reflects word tokenization in
 accordance with the annotation guidelines
-(<https://www.ling.upenn.edu/~beatrice/corpus-ling/annotation-french>).
+(<https://www.ling.upenn.edu/~beatrice/annotation-french>).
 
 The repository also contains:
 
