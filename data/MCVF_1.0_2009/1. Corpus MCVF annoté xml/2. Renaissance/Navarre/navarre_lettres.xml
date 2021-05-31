@@ -1,0 +1,746 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Lettres</title>
+        <title type="sub"/>
+        <title type="short">Navarre.Lettres</title>
+        <author>
+          <persName>
+            <surname>Navarre</surname>
+            <forename>Margerite de</forename>
+            <addName>Marguerite de Valois</addName>
+          </persName>
+        </author>
+        <editor>Modéliser le changement, les voies du français GTRC/CRSH</editor>
+        <principal>
+          <persName>France Martineau</persName>
+        </principal>
+        <funder>
+          <orgName>Université d'Ottawa</orgName>
+          <orgName>Conseil de recherche en sciences humaines du Canada</orgName>
+        </funder>
+        <respStmt>
+          <resp>Codage</resp>
+          <persName xml:id="Labelle">Simon-Pier Labelle-Hogue</persName>
+          <persName xml:id="Brazeau">Stéphanie Brazeau</persName>
+          <persName xml:id="Martineau">France Martineau</persName>
+        </respStmt>
+      </titleStmt>
+      <extent>5700</extent>
+      <publicationStmt>
+        <date when="2009-06-02"/>
+        <distributor>
+          <orgName>Modéliser le changement : les voies du français GTRC/CRSH</orgName>
+          <address>
+            <addrLine>60, rue Université</addrLine>
+            <addrLine>Ottawa, Ontario</addrLine>
+            <addrLine>K1N 6N5</addrLine>
+            <addrLine>Tél : 613-562-5797</addrLine>
+            <addrLine>Fax : 613-562-5981</addrLine>
+            <addrLine><email>fmartin@uottawa.ca</email></addrLine>
+            <addrLine>http://www.voies.uottawa.ca/</addrLine>                        
+          </address>
+        </distributor>
+        <availability status="restricted">
+          <p>(c) Modéliser le changement : les voies du français (CRSH/GTRC, dirigé par F.
+            Martineau)</p>
+          <p>Les Corpus MCVF demeurent la propriété du projet Modéliser le changement : les voies du
+            français. Les références à ces Corpus devraient apparaître ainsi : Corpus MCVF,
+            Modéliser le changement : les voies du français (F. Martineau (dir.), U. d’Ottawa).Tous
+            les documents du Corpus MCVF ne peuvent être divulgués à de tierces parties sans
+            l’autorisation préalable de la Directrice du Projet </p>
+          <p>Pour tout autre usage, contacter : <persName>France Martineau</persName>
+            <orgName>Modéliser le changement : les voies du français, Université d'Ottawa</orgName>
+            <email>fmartin@uottawa.ca</email></p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct type="Source_publique">
+          <monogr>
+            <author>
+              <persName>
+                <surname>Navarre</surname>
+                <forename>Marguerite de</forename>
+              </persName>
+            </author>
+            <editor>
+              <persName>
+                <surname>Génin</surname>
+                <forename>François</forename>
+              </persName>
+            </editor>
+            <title>Lettres de Marguerite d’Angoulême, soeur de François 1er, reine de Navarre</title>
+            <title type="sub"/>
+            <imprint>
+              <pubPlace>Paris</pubPlace>
+              <publisher>J. Renouard et cie</publisher>
+              <date when="1841">1841</date>
+            </imprint>
+          </monogr>
+          <series/>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Projet : Modéliser le changement les voies du français (GTRC/CRSH) <lb/>Resp. :
+          <persName>France Martineau</persName> Institution : Département de français, Université
+          d'Ottawa
+          <address>
+            <addrLine>60, rue Université</addrLine>
+            <addrLine>Ottawa, Ontario</addrLine>
+            <addrLine>K1N 6N5</addrLine>
+            <addrLine>Tél : 613-562-5797</addrLine>
+            <addrLine>Fax : 613-562-5981</addrLine>
+            <addrLine><email>fmartin@uottawa.ca</email></addrLine>
+            <addrLine>www.voies.uottawa.ca</addrLine>                        
+          </address></p>
+      </projectDesc>
+      <editorialDecl>
+        <p>Voir le manuel d'annotation TEI au http://www.voies.uottawa.ca</p>
+        <p>L'édition de référence a été respectée quant à l'orthographe, la ponctuation, la mise en
+          page et la pagination. Cependant, la césure des mots en fin de lignes (ou de pages) a été
+          supprimée, le mot est placé dans la ligne ou la page où il commence. </p>
+        <p>Les paragraphes sont notés par P pour la prose. Pour les vers, P rend="gv" indique que le
+          paragraphe est constitué d'un groupe de vers. </p>
+        <p> Les débuts des vers sont encodés par LB. Cette balise peut également servir dans les
+          textes en prose à indiquer les débuts des lignes selon la pagination de l'édition. </p>
+        <p>Les changements de pages sont indiqués par la balise PB</p>
+        <p>Le corps du texte est obligatoirement compris dans le BODY. Le FRONT contenant le titre
+          et/ou le prologue et le BACK (explicit) sont facultatifs et ne sont mis qu'au besoin. </p>
+        <p>Les différentes parties du texte (livre, chapitre...) sont encodées par DIV, auquel
+          s'ajoute l'attribut TYPE qui spécifie sa nature. </p>
+        <p>Les paragraphes (P), lignes (LB) et pages (PB) de même de certaines divisions (DIV) sont
+          ou peuvent être numérotés par l'attribut N s'ils le sont dans l'édition. </p>
+        <p>Quelques commentaires ou corrections ont été introduits à l'aide de la balise NOTE, CORR
+          ou SIC. </p>
+        <p>Les discours directs et les citations ont été encodés par la balise Q. Cette balise est
+          mise à chaque fois que des guillemets sont utilisés dans l'édition. </p>
+        <p>L'élément FOREIGN indique un passage en latin qui est noté en italique dans l'édition,
+          les occurrences non en italique sont signalées par l'attribut ROMAIN. </p>
+        <p>Les folios sont notés par la balise <tag>pb rend="folio"</tag></p>
+        <p>Les notes de bas de pages ont été retirées. </p>
+        <p>Les paragraphes entièrement en latin ont été retirés, une balise P et une NOTE les
+          signalent. </p>
+        <p>Note spécifique au texte ci-dessous: Aucune.</p>
+      </editorialDecl>
+      <samplingDecl>
+        <p>Pages 148 à 179</p>
+      </samplingDecl>
+    </encodingDesc>
+    <profileDesc>
+      <creation>
+        <date notBefore="1521" notAfter="1525"/>
+        <placeName/>
+      </creation>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+      <textDesc>
+        <channel/>
+        <constitution>Texte intégral</constitution>
+        <derivation/>
+        <domain/>
+        <factuality/>
+        <interaction/>
+        <preparedness/>
+        <purpose/>
+      </textDesc>
+      <textClass>
+        <keywords scheme="GTRC">
+          <list>
+            <item n="domaine">Non littéraire</item>
+            <item n="genre">Correspondance</item>
+            <item n="forme">Prose</item>
+            <item n="docRegion1">France</item>
+            <item n="docRegion2"/>
+            <item n="docRegion3"/>
+            <item n="auteurRegion1">France</item>
+            <item n="auteurRegion2">France Ouest</item>
+            <item n="auteurRegion3">Poitou</item>
+            <item n="auteurSexe">Femme</item>
+            <item n="occupation">Érudit</item>
+            <item n="scribeRegion1"/>
+            <item n="scribeRegion2"/>
+            <item n="scribeRegion3"/>
+            <item n="imprimeurRegion1"/>
+            <item n="imprimeurRegion2"/>
+            <item n="imprimeurRegion3"/>
+          </list>
+        </keywords>
+        <classCode scheme="Indice de Dees"/>
+      </textClass>
+      <particDesc>
+        <listPerson>
+          <person role="auteur">
+            <persName>
+              <surname>Navarre</surname>
+              <forename>Marguerite de</forename>
+            </persName>
+            <birth>
+              <date when="1492-04-11">11 avril 1492</date>
+              <placeName>Angoulême</placeName>
+            </birth>
+          </person>
+          <person role="scribe">
+            <persName>
+              <surname/>
+              <forename/>
+            </persName>
+            <birth/>
+          </person>
+          <person role="imprimeur"/>
+        </listPerson>
+      </particDesc>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2009-06-05" who="#Martineau">Validation de la correction de l'en-tête et du codage</change>
+      <change when="2009-06-02" who="#Labelle">Correction de l'en-tête et du codage</change>
+      <change when="2007-08-06" who="#Brazeau">Correction du codage</change>
+      <change when="2007-08-06" who="#Brazeau">Codage</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <pb n="148"/>
+      <div rend="Lettres adressées à M. de Montmorency le père">
+        <div n="1" rend="lettre">
+          <head> A MON COUSIN, M. DE MONTMORENCY. <date> (Meaux, 1521.) </date>
+          </head>
+          <p> Mon cousin, je ne vous ay plus toust ousé escripre de nouvelles, doubtant que ne
+            sceussiés le siége de Mézières; mais puisque l'entendés, vous veux bien asseurer que
+            votre filz est en aussy bonne santé que je pense estre, et s'en vont les ennemis à la
+            file, comme vous dira vostre évesque de Beauvais, lequel a charge de Madame de vous
+            amener à Meaux; et de ma part, tant pour vostre aise que pour la nostre, vous en prie
+            autant que luy est possible. </p>
+          <p> Vostre bonne cousine et amye, <hi rend="pmaj"> Marguerite </hi> . </p>
+        </div>
+        <div n="2" rend="lettre">
+          <head> AU MÊME. <date> (De Blois, le 30 aoust.) </date>
+          </head>
+          <p> Mon cousin, je sens vostre aise tel pour avoir madame la Mareschale avecques vous,
+            qu'il ne vous souvient de vos amys, et me réputant de ce nombre, ne veulx faillir à vous
+            dire que avons icy le séneschal de Poitou, lequel faict bonne diligence de vous
+            supplanter, parquoy ferez bien de y remédier par présence qui n'aviendra sans assez y
+            estre demandée; et combien que la compaignie en laquelle je sçay que désirez estre <pb
+              n="149"/> se porte bien, si vous asseureray-je que icy en trouveriez une petite tant
+            plaisante, que n'auriez regret d'avoir entreprins ce voyaige. Je ne vous en diray plus
+            pour ceste heure, sinon que je prie Nostre Seigneur vous donner l'aise que vous désire,
+            de Bloys, ce pénultième jour d'aoust, </p>
+          <p> Vostre bonne cousine et amye, <hi rend="pmaj"> Marguerite </hi> . </p>
+        </div>
+        <div n="3" rend="lettre">
+          <head> AU MÊME. <date/>
+          </head>
+          <p> Mon cousin, je voy bien que le séneschal de Pouitou ne vous donnera point le tort pour
+            ceste heure, puisque prenés la paine à m'escripre, dont me faictes ung merveilleux
+            plaisir, et congnois que l'aise de veoir vostre fils ne vous a point ousté la souvenance
+            de moy; sy ne suis-je pas marrie de sa venue, car le maistre n'est guères bien
+            accompagné. Je ne fais doubte que madame et vous luy avés bien dict sa lesson. Je treuve
+            fort estrange que le seigneur de Chasteaubriant use de main mise; mais c'est pour dire
+            gare à ceux quy luy voudroient faire ung mauvais tour. Au regart de la dame, l’on dict
+            voulontiers : Tel se mire qui n'est pas beau, et tel se baigne qui n'est pas nest. II y
+            en <pb n="150"/> a icy quy ne font pas tant de mines, mais sy a-il assés de beauté, de
+            grace et de parole pour donner trente à l'aultre, et le premier des deux <corr
+              resp="editor" rend="crochets"> avecques </corr> . </p>
+          <p> Je aurois grant regret sy ne venés icy avant la grant compaignie, car croyés que sy ce
+            n'estoit le service que je sçay bien que vous faictes à Madame, je ne cesserois de tant
+            vous en prier, que auriés honte de me refuser; mais il n'est pas heure de l'eslongner.
+            Encores me desplaist-il bien dont elle a sy peu de compaignie, craignant qu'elle
+            s'ennuye, vous priant que, en attendant vostre venue, ne vous ennuyiés de souvent faire
+            sçavoir comme il vous va à celle que tousjours trouverés <lb/> Vostre bonne cousine et
+            amye, <hi rend="pmaj"> Marguerite </hi> . </p>
+          <p>
+            <hi rend="ital"> P. S. </hi> Sans oblier, sy vous escripvez à la grant seneschalle, luy
+            faire mes recommandacions, et je loue Dieu de sa guérison. </p>
+        </div>
+        <div n="4" rend="lettre">
+          <head> AU MÊME. <date> (Argentan, .) </date>
+          </head>
+          <p> Mon cousin, j'ay reçeu vostre lettre par où j'ay sceu de vostre santé , que, je vous
+            asseure, m'a esté ung <pb n="151"/> merveilleux plaisir, pour autant que j'en estois en
+            peyne. Vous me louez vostre Escouen, toutesfois que cela ne me gardera de vous souhaiter
+            à Argentan, pour autant qu'il y faict tant beau et que je y treuve l'air si bon, qu'il
+            me semble que vous en trouverez beaucoup mieulx. Je ne vous dis point comme je fais bien
+            le mesnaige, et vous laisse à penser que, en lieu et avecques la compaignie qui y est,
+            peult faire ou dire </p>
+          <note resp="editor"> (Marguerite , au lieu de signer, ajoute de sa main :) </note>
+          <p> J'ay monstré vostre lettre à la damoyselle Marguerite de Lorraine, qui n'a laissé pour
+            son gris habit à avoir souvenance du temps passé, et vous asseure qu'elle s'acquitte sy
+            bien à prier Dieu pour vous, que sy toutes les dames quy vous ont donné la tous en
+            faisoyent aultant, vous ne deveriés point avoir regret au temps passé, car leurs
+            oraisons vous metteroient en paradis, où, après longue et bonne vie, désire vous voir
+            <lb/> Vostre bonne cousine et amye, <hi rend="pmaj"> Marguerite </hi> . </p>
+        </div>
+        <div n="5" rend="lettre">
+          <head> AU MÊME. <date/>
+          </head>
+          <p> Mon cousin, j'ay receu vostre lettre, par laquelle ay veu comme vous deslibérez de
+            faire vostre voyage de Nostre-Dame de Lieuse, où j'ay bien espérance que <pb n="152"/>
+            me rendrez les bonnes prières que j'ay icy faictes pour vous, et si vous voulez pour
+            tousjours me demourer obligé, elles redoubleront. Je vous prie penser que ce m'est ung
+            merveilleux plaisir, après avoir sceu vostre grant maladie, de vous veoir en si bonne
+            santé que puissiez voyaiger, et je supplie de bon cueur la bonne dame en l'honneur de
+            qui vous faictes celle entreprinse vous en donner la joye selon le désir de <lb/> Votre
+            bonne cousine, <hi rend="pmaj"> Marguerite </hi> . </p>
+        </div>
+        <div n="6" rend="lettre">
+          <head> AU MÊME. <date> De Saint-Germain-en-Laye. </date>
+          </head>
+          <p> Mon cousin, je vous feray la response en lieu de madamoiselle de Foix, afin que par ma
+            lettre mieulx que par la sienne soyiés seur de ma santé, quy se porte sy bien, que sy
+            pis ne vient, ce ne me sera pas grant pénitence de passer ce caresme. Mais Madame, ceste
+            nuict, s'est ung peu trouvée mal de sa colique; j'espère que ce ne sera rien. La Roine,
+            plus saine que jamais! Je croy qu'elle ira jusqu'au bout du terme. Sy les prières des
+            pouvres ermites de Saint-Germain vous pouvoient servir, soyés seur que en auriés bonne
+            part de celle que tousjours trouverés <lb/> Vostre bonne cousine, <hi rend="pmaj">
+              Marguerite </hi>
+          </p>
+        </div>
+      </div>
+      <pb n="153"/>
+      <div rend="Lettres adressées à M. de Montmorency, le fils">
+        <note resp="encoder"> Explications faites par l'éditeur supprimées </note>
+        <div n="7" rend="lettre">
+          <head> A MON COUSIN, M. LE MARESCHAL DE MONTMORENCY. <date> Saint-Germain-en-Laye, 31 mars
+              (15..). </date>
+          </head>
+          <p> Mon cousin, pour ce que je suis seure que Babou vous advertit amplement de la maladie
+            de Madame, qui luy survint hier à l’issue du sermon, par un grant desvoiement d'estomac
+            et de gouttes, ne vous en feray longue lettre, espérant que Nostre Seigneur luy donnera
+            ce qu'il sçait luy estre nécessaire pour sa santé; mais vous veuil bien advertir que M.
+            d'Alençon vous a escript une lettre, pensant que feussiez encore <pb n="154"/> icy,
+            laquelle j'ay pensé ne estre besoing vous enyoyer, pour ce que estes au chemin pour
+            aller donner ordre aux maux exécrables dont il vous escripvoit, que font les
+            adventuriers. Je lui ai fait responce qu'il chasse si bien ceulx qui sont au paїs là où
+            il est, qu'il les vous envoye au paїs d'Anjou et du Mayne, pour les chastier en la
+            manière que desjà avez bien commencé, ainsy que Madame a eu nouvelles, dont elle vous
+            sçait merveilleusement bon gré; vous priant de ma part, mon cousin, que en faictes telle
+            et si bonne exécution qu'il en soit mémoire pour l'advenir. En quoy faisant, ferez ung
+            œuvre fort plaisant et agréable à Nostre Seigneur, auquel je prie, mon cousin, vous
+            avoir en sa saincte garde; à Saint-Germain-en-Laye, le dernier jour de mars. </p>
+          <p> Vostre bonne cousine, <hi rend="pmaj"> Marguerite </hi> . </p>
+          <p>
+            <hi rend="ital"> P. S. </hi> Madame m'a dist que je vous asseure qu'elle est guérye, et
+            que demain ira au sermon où M. de Troyes commence la Passion. Croyés que le Roy et elle
+            sont si contens de vous, que je ne vous veux escripre les prepous qu'ils en ont tenus,
+            de peur de vous mettre en gloire; mais je supplie celuy pour l'honneur duquel seul, je
+            croy, avez si bien commencé, vous donner sa grace de parachever, en sorte <pb n="155"/>
+            (que?) son yre soit appaisée, regardant la bonne justice que ferés. </p>
+        </div>
+        <div n="8" rend="lettre">
+          <head> A M. DE MEAUX <date> (1521.) </date>
+          </head>
+          <p> M. de Meaux, congnoissant que ung seul est nécessaire, m'adresse à vous pour vous
+            prier envers luy vouloir estre par oraison moyen qu'il luy plaise conduire selon sa
+            saincte volonté, M. d'Alençon, qui, par le commandement du Roy, s'en va son lieutenant
+            général en son armée, que, je doubte, ne se départira sans guerre. Et pour ce que la
+            paix et la victoire est en sa main, pensant que, oultre le bien publicq du royaulme,
+            avez bon désir de ce qui touche son salut et le mien, vous employe en mes affaires, et
+            vous demande le service spirituel ; car il me fault mesler de beaucoup de choses qui me
+            doibvent bien donner crainte. Et encores demain s'en va ma tante de Nemours en Savoye.
+            Par quoy vous faisant les recommandacions d'elle et de moy, et vous priant que, si
+            congnoissez que le temps feust propre, que maistre Michel peust faire ung voyage, ce me
+            seroit consolacion, que je ne quiers que pour l'honneur de Dieu, le remettant à vostre
+            bonne discrétion et à la sienne. </p>
+          <p> La toute vostre, <hi rend="pmaj"> Marguerite </hi> . </p>
+        </div>
+        <pb n="156"/>
+        <div n="9" rend="lettre">
+          <head> A MON COUSIN, M. LE MARESCHAL DE MONTMORENCY. <date> De Saint-Germain-en-Laye, 28
+              septembre (15..). </date>
+          </head>
+          <p> Mon cousin, j'ay veu ce que m'avez escript pour le fait de l’élection de Senlis, en
+            quoy, par le rapport de messieurs de Sens et président de Rouen, avez si bien commencé
+            vostre voyage, que, oultre le contentement que le Roy et Madame en ont de vous, j'ay
+            ceste fiance que pour le service qu'avez fait au grant Roy, d'avoir esté cause de luy
+            bailler ung tel serviteur, il vous donnera la grace de continuer à tel heur que aurez de
+            plus en plus occasion de le louer. Vous me ferez au surplus plaisir de me faire souvent
+            savoir de vos nouvelles; je feray revanche de vous despartir de celles d'icy, qui
+            jusques à maintenant sont très bien, et en la mesme sorte que à vostre partement les
+            avez laissées; qui sera la fin pour ceste fois, priant Nostre Seigneur vous donner ce
+            que plus désirez. De Sainct-Germain-en-Laye, xxviij <hi rend="exp"> e </hi> jour de
+            septembre. </p>
+          <p> Vostre bonne cousine, <hi rend="pmaj"> Marguerite </hi> . </p>
+          <p>
+            <hi rend="ital"> P. S. </hi> Mais la femme grosse ne l'est plus. </p>
+        </div>
+        <pb n="157"/>
+        <div n="10" rend="lettre">
+          <head> AU MÊME. <date> De Sainct-Germain en Laye, le 11 <hi rend="exp"> e </hi> jour
+              d'octobre. </date>
+          </head>
+          <p> Mon cousin, j'ay receu vos deux lettres, et par la dernière me reprochez que je ne
+            suis femme de promesse et que ne vous ay point escript, ce que toustesfois vous promis à
+            votre partement. En quoy fault que je vous die que vous errez, car je vous feis responce
+            à ce que me mandastes de l'élection de Senlis et du contentement que le Roy et Madame en
+            avoient de vous, et de l'espérance que j'avois que feriez heureux voyage, puisque le
+            commencement y estoit sy bon; et davantage vous faisois sçavoir, sy l'avez oblié, que la
+            femme grosse ne l'estoit plus. Despuis n'y a eu nul changement, et est la compaignie au
+            mesme estat que la laissastes, parquoy et que je voy que bien tost y serez de retour, ne
+            vous en tiendray plus long propos, et feray fin en cest endroit, priant Nostre Seigneur,
+            mon cousin, vous avoir en sa très saincte garde. </p>
+          <p> Vostre bonne cousine, <hi rend="pmaj"> Marguerite </hi> . </p>
+          <p>
+            <hi rend="ital"> P. S. </hi> Vostre père n'oublie rien icy. Je vous prie que ne dormés
+            pas avecques Mezières, car l’on a belle envie de sçavoir sy vous avés riens faict. </p>
+        </div>
+        <pb n="158"/>
+        <div n="11" rend="lettre">
+          <head> AU MÊME. <date> Sainct-Germain-en-Laye, dernier jour de février (15..). </date>
+          </head>
+          <p> Mon cousin, pour vous faire sçavoir des nouvelles de Madame, je vous advertis qu'elle
+            a esté merveilleusement malade d'une forte colicque, accompaignée de beaucoup de
+            foiblesses. Vous povez penser la paine et l'ennuy que ce nous a esté ! Elle fist hier
+            une pierre grosse comme ung pois; depuis, elle s'est tousjours portée de mieulx en
+            mieulx, mais elle se treuve toutesfois fort foible encores. Madicte dame m'a dict
+            qu'elle désire merveilleusement à vous voir en ce lieu, et que j'eusse à le vous mander. </p>
+          <p> M. de Villene m'a advertie que vous aviez quelque mal d'estomac; parquoy, mon cousin,
+            vous en ferez ainsi que vostre santé le pourra porter, que je désire estre telle et si
+            bonne qu'elle permette vostre venue en ceste compaignie. Cependant qu'il plaira à Nostre
+            Seigneur la vous envoyer, je vous prie me souhaiter pour ouїr les bons sermons de vostre
+            Evesque, desquels je pense bien que ferez provision pour m'en faire part une fois. </p>
+          <p> Mon cousin, je prierai Nostre Seigneur en cest endroit vous donner l’heur et le bien
+            que vous désire ( de <pb n="159"/> Sainct-Germain-en-Laye, ce dernier de fébvrier) celle
+            qui est <lb/> Vostre bonne cousine et amye, <hi rend="pmaj"> Marguerite </hi> . </p>
+          <p>
+            <hi rend="ital"> P. S. </hi> Je vous prie sus tout, gardés vostre santé et me mandés
+            comme elle se porte, car vous savés bien que je l’estime comme la mienne propre. </p>
+          <p> Je seray, s'il vous plaist, recommandée à M. de Sanlis. </p>
+        </div>
+        <div n="12" rend="lettre">
+          <head> A M. DE LA ROCHE. <date/>
+          </head>
+          <p> Vileroy vous dira la doubte que j'ay eue sur luy pour vos lettres, car il semble que
+            vous devinés ce que je vous mande avant que l'avoir veu, dont Madame a esté fort
+            contente, et pour ce continués. Et plus n'en puis dire, car la poste part et Madame
+            m'appelle. Sur ce, que vous ferés fort bien, et à moy plaisir, d'escripre à M. de
+            Jonvelles, ou luy faire escripre par Mezières qu'il ne tarde plus à amener sa fille, car
+            nous allons cheux M. Deschenais, où elle pourroit bien se rendre. De ma part le luy
+            ferés entendre, car vous savez que quoy quy vous puisse <pb n="160"/> toucher, ne faudra
+            d'y faire son devoir comme plus que jamais s'y sent obligée <lb/> La toute vostre, <hi
+              rend="pmaj"> Marguerite </hi> . </p>
+        </div>
+        <div n="13" rend="lettre">
+          <head> A MON COUSIN, M. DE MONTMORENCY <hi rend="ital"> (le père). </hi>
+            <date/>
+          </head>
+          <p> Mon cousin, j'ay receu la lettre que m'avez escripte par la main de M. l'admiral, de
+            laquelle ay faict le rapport à Madame, qui au commencement a esté difficile à vous
+            donner congié ; mais regardant à vostre santé et à l'aise qu'il vous sera de veoir un
+            peu vostre fille et les petiz enfans, et aussy que nous ne arrestons en nul lieu, m'a
+            dict qu'elle le treuve bon, non sans regret dont aultrement il ne peult estre ; vous
+            priant faire si bonne chère et tant vous renforcer, que puissiez bien toust retourner
+            vers elle quant elle sera en quelque lieu arrestée. </p>
+          <p> J'escrips à M. de Jonvelle afin de luy ramentevoir la promesse qu'il vous a faicte de
+            me amener sa fille, laquelle je vous asseure, mon cousin, sera la bien venue, et mettray
+            paine de la traicter mieulx que moymesmes. Qui sera pour fin de lettre, vous asseurant
+            que toute ceste compaignie se porte si bien, qu'il est impossible de mieulx, selon le
+            temps et les lieux. Et si vous y mandez souvent de vos nouvelles, croyez qu'elles y
+            seront bien venues, <pb n="161"/> principalement de celle qui à jamais veult demeurez
+            <lb/> Vostre bonne cousine et amye, <hi rend="pmaj"> Marguerite </hi> . </p>
+        </div>
+        <div n="14" rend="lettre">
+          <head> A MON COUSIN, M. LE MARESCHAL DE MONTMORENCY. <date/>
+          </head>
+          <p> II y a sy long temps que nous n'avons eu que malades icy, que je n'eusse sceu escripre
+            que mauvaises nouvelles, car M. d'Angoulesme a sy bien fait veiller Madame, que en
+            sauvant son enfant, a cuidé perdre sa santé pour long temps ; dont, bien que guérie,
+            n'est encores fortifiée. Et puis, pour n'estre désadvouée de la maison, les ay voulu
+            suivre; mais voyant que je n'ay point de grace à faire la malade, ne m’en sens plus.
+            Celuy quy donne les tribulacions pour nostre salut, n'a voulu longuement voir mon
+            impacience, car c'est aux bons et vertueux que les paines sont données. C'est assés pour
+            moy de servir les malades, sans donner la paine de moy à tant quy valent mieulx. Ce
+            porteur, oultre ma lettre, vous en donnera seureté, et de tous les affaires de dessa,
+            vous asseurant que voustre maistre met bonne paine à vous secourir, et s'il luy estoit
+            possible luy mesmes y estre en personne, c'est le plus grant désir que pour ceste <pb
+              n="162"/> heure il faict. Je supplie le Dieu des batailles tellement y mettre sa main,
+            que, à son honneur, celuy de ses servicteurs et leurs vies soient gardées. Vous ferés
+            plaisir à Madame de souvent luy escripre, et plus que vous ne pensés, et croiés <lb/>
+            Vostre bonne cousine, <hi rend="pmaj"> Marguerite </hi> . </p>
+        </div>
+        <div n="15" rend="lettre">
+          <head> AU MÊME. <date/>
+          </head>
+          <p> Mon cousin, pourceque depuis le partement d'Esgvilly Madame a esté si tourmentée de sa
+            goutte que jamais ne luy ay veue pareille de longueur et de peu de repos, elle n'a peu
+            veoir vostre lettre, car jusques à ceste heure qu'elle commence à reposer, elle a esté
+            vingt-quatre heures en estremité de douleurs du pié gauche, après avoir enduré six jours
+            celle du pié droit. Mais elle m'a commandé vous dire que vous luy faictes fort grant
+            plaisir de souvent luy escripre, et qu'elle vous prie ne vous ennuyer de solliciter le
+            Roy comme avez si bien commencé qu'il n'est possible de mieulx, pour le soulagement des
+            gentilshommes et du peuple ; en quoy, oultre le service du maistre et vostre debvoir,
+            faictes chose dont le très grant maistre se contente. J'espère, veu le temps, que n'y
+            ferez long séjour, à quoy elle taschera. Qui me fera finer ceste lettre, vous priant
+            n'oblier ce que vous ay escript par deux aultres, ne sçay si les avez veues? Mais c'est
+            pour ne dormir à ce que vostre bon père a bien commencé, car <pb n="163"/> j’ay eu des
+            lettres de M. de Jonvelle qui désire que vous alliez là huit jours pour espouser sa
+            fille. Je croy son vouloir bon, mais pour si long marché le terme d'amys est bien court.
+            Priant Dieu qu'il vous doint tel conseil et vouloir qu'il sçait vous estre bon ; et plus
+            n'en aurez, sinon que j'espère puisque Madame dort, que son mal ira tousjours en
+            amendant, s'il plaist à celuy auquel vous recommande <lb/> Vostre bonne cousine, <hi
+              rend="pmaj"> Marguerite </hi> . </p>
+        </div>
+        <div n="16" rend="lettre">
+          <head> A M. DE MEAUX. <date> (Janvier 1523.) </date>
+          </head>
+          <p> Non pour vous ramentevoir ce que, je croy, ne vous sera par la charité infinie permis
+            d'oublier, ne pour advancer la promesse dont je ne doubte l'accomplissement au temps que
+            la bonté seule congnoistra la nécessité, mais afin que par ma faulte, négligeant ce que
+            je dois, comme affamé le pain, désirer, ne retarde l'effect de la grace procédant du
+            libéral distributeur, par vous à nous distribuée, j'ay bien voulu commencer par ceste
+            mon mestier de mendiante. </p>
+          <pb n="164"/>
+          <p> Vous me priastes que si de quelque endroit de la très saincte Escripture doubtois ou
+            désirois quelque chose, le vous escripre ; à quoy vous feis promesse présumptueuse de le
+            faire. Je vous prie excuser l'aveugle qui juge des couleurs ; car je confesse que la
+            moindre parole qui y soit est trop pour moy, et la plus clere m'est obscure. Hélas !
+            quel choix puis-je faire où la difference m'est incongneue? Ny comme pourray-je demander
+            viande doulce ou saulce, quant je n'ay nul goust ? Parquoy je ne vous demande riens, car
+            je ne sçay que je vous demande. Mais à vous, ministre de tels biens, qui sçavez les
+            gousts des viandes restaurantes et fortifiantes, je vous prie que en vérité, sans
+            fainte, du demeurant de celles qui vous sont par le donneur données, en vueillez envoyer
+            les miettes, en sorte que vostre vielle mère, enviellie en sa première peau, puisse par
+            ceste doulce et ravissante parolle de vie renouveller sa vielle peau, et estre tellement
+            repolie, arrondie et blanchie, qu'elle puisse estre au seul nécessaire. </p>
+          <p>
+            <hi rend="pmaj"> Marguerite </hi> . </p>
+        </div>
+        <div n="17" rend="lettre">
+          <head> AU MÊME. <date> 4 mai 1524. </date>
+          </head>
+          <p> La dépesche qu'il a fallu faire selon vostre bon conseil, me contraindra, par faulte
+            de temps, à faire du <pb n="165"/> porteur lettre, qui m'ennuye, que ma propre main ne
+            peult escrire. II vous dira l'estat où il a laissé ceste compagnie, en laquelle j'espère
+            bientost avoir une heure de loysir à plorer, non celle qui a son désir accomply, mais
+            celle qui n'a commencé à désirer. La fin est selon la vie! sa fin estoit en sa vie ;
+            vous en sçavez plus que moy. Et puis mon imparfaite foiblesse ne peult porter
+            l'indiscrétion d'amour. Parquoy la recommandant à vostre immortelle mère va faire fin
+            sur la fiance du porteur <lb/> La vivante en mort, <hi rend="pmaj"> Marguerite </hi> .
+          </p>
+        </div>
+        <pb n="166"/>
+        <div n="18" rend="lettre">
+          <head> AU MÊME. <hi rend="ital"> (Fragment.) </hi>
+            <date> (Herbault), du dernier jour d'aoust 1524. </date>
+          </head>
+          <p>
+            <gap rend="points"/> Parquoy vous prie en ce temps de tribulacion que mieulx se doibt le
+            contraire sentir, veoiant la fin des labeurs et douleurs importables finis, et le repos
+            de l'ame éternelle de celle que Dieu nous avoit donnée à Royne, de qui se peult dire ce
+            que de nulle autre, avoir laissé au royaume les plus beaux dons dont soit mémoire :
+            c'est bonne renommée des vertus, graces et bonté dont Dieu l'avoit douée ; figure telle
+            que au souhaict d'ung chacun n'eust sceu estre plus belle, et parfaicte de trois filz et
+            trois filles. Et, pour la fin faire conclusion suivant le cours de sa vie, remettant
+            toutes ordonnances de son testament en la main de son seul très aimé mary, le faict son
+            exécuteur, luy donnant la duché de Bretaigne, et après sa mort, à son fils ainsné, pour
+            perpétuer union en ce royaulme. Confessée et <gap rend="points"/> en bon sens et parole
+            jusques à la fin, s'en est allée, comme j'estime, en joye, laissant à ses <pb n="167"/>
+            amis tristesse telle que j'ay grant paour que la santé de Madame s'en diminue de trop ;
+            car faisant grans journées pour retourner la veoir et servir, dont elle estoit partie
+            contre son vouloir, par la seureté que les médecins luy baillèrent qu'elle vivroit
+            encores plus de trois mois ; ayant sceu en ce lieu de Herbault la nouvelle, avec le
+            travail du chemin et l'extremité de l'ennuy qu'elle porte incréable, est venue à faire
+            du sang, comme en sa grant fiebvre, par tous endroits, en telle quantité et esmoution,
+            que s'il duroit ne se pourroit porter. Mais j'espère que se tenant à repos de corps et
+            esprit, Nostre Seigneur la fortifiera. </p>
+          <p> D'aultre part, le Roy ne faict moings, que nous laissasmes à Bourges attendant la fin;
+            mais veoiant qu'elle approchoit, feit ung merveilleux dueil, disant à Madame : Si je
+            pensois la rachapter pour ma vie, je la luy bailleroys de bon cueur. Et n'eusse jamais
+            pensé que le lyen de mariage conjoinct de Dieu feust si dur et difficile à rompre! Et en
+            larmes nous despartismes, et n'avons eu nouvelles de ce qu'il en a sceu, mais je crains
+            fort qu'il le porte à peine. — Je vous départs de mon gasteau. </p>
+          <p> Vostre inutile mère, <hi rend="pmaj"> Marguerite </hi> . </p>
+        </div>
+        <pb n="168"/>
+        <div n="19" rend="lettre">
+          <head> AU MÊME. <date> Du 15 septembre 1524. </date>
+          </head>
+          <p> Vous rendant mal pour bien, où tant suis tenue de mercier Dieu et vous de la
+            consolacion que vostre lettre m'a donnée et donne, (que j'ay leue, et si ne la tiens
+            encore pour veue!) Je vous voys départir de la doulce tribulacion qu'il plaist a N. S.
+            m'envoyer, (forte à porter à ce corps trop foible en Adam!) C'est qu'il a pleu à N. S.
+            donner à madame Charlotte une si griesve maladie de fiebvre et flux après sa rougeole,
+            que je ne sçay s'il luy plaira la tirer à luy, sans plus luy permettre gouster les
+            misères de ce monde. Et pour ce que Madame n'est encores assés forte pour soustenir
+            moindre ennuy que cestuy cy, je le luy fais celer, et au Roy pareillement, qui, vous
+            sçavez, a assez ailleurs à penser. Par quoy, puisqu'il fault que <pb n="169"/> sur moy
+            tombe ceste crainte, je demande le secours de vos bonnes prières, ainsy que le tout seul
+            bon et puissant congnoist et veult en estre faict ; vous priant que ne vous veuillés
+            ennuyer de donner secours où ma nulle foy en met la nécessité espérant que avant que ce
+            porteur soit à vous, (elle sera) ou du tout quitte de la mort, ou remise en l'attente
+            que nous devons plus désirer que craindre; ce que ne peult entendre, si par grace ne
+            l'entend (dont en toutes sortes son imperfection a plus de besoing ), <lb/> Vostre trop
+            inutile mère, <hi rend="pmaj"> Marguerite </hi> . </p>
+        </div>
+        <div n="20" rend="lettre">
+          <head> AU MÊME. <date> Du 18 novembre 1524. </date>
+          </head>
+          <p>
+            <gap rend="points"/> Où le très fort est venu, il a vaincu le feu armé et a commandé à
+            la mer cesser ses ondes, et a laissé content , joyeux, et congnoissant à jamais ne le
+            pouvoir louer de sa grace mon cueur et mon esprit, jusques, (à vous dire la vérité)
+            avoir guéry et fortifié le corps en vain travaillant en peu de repos l'espace de près
+            d'ung mois, tant que la petite dame estoit malade, qui a esté trente jours tenue de
+            fiebvre et flux, comme le pouvez avoir sceu. Mais après son trespas, j'ay eu l'ennuy du
+            Roy à qui je l'avois faict céler, qui, pour avoir <pb n="170"/> songé trois fois,
+            qu'elle luy disoit: <hi rend="ital"> Adieu mon Roy, je voys en paradis </hi> , devina sa
+            mort, qu'il print en grant extresme douleur, (par la bonté de Dieu!) patiemment. Et
+            m'escript qu'il aimeroit mieulx mourir que de la désirer ence monde, contrevenant au
+            vouloir de son Dieu, lequel il en bénissoit. Après avoir esté reconfortée en sa
+            patience, Madame, qui n'en avoit oüy parler, par un capitaine d'adventuriers l'a sceu,
+            qui l'a porté de sorte que depuis au disner jusques au souper, une larme n'attendant
+            l'autre, sans jetter souspirs de despit ou impatience, ne cessa de me prescher et faire
+            envers moy l'office de réconfort que je luy debvois; où je vous souhaicte, car veoiant
+            son corps naturel souffrir douleur, ce sembloit, importable, les yeux levés au ciel, ne
+            cessant jamais de louer Dieu, pensois veoir un esprit ravy en luy. Mais elle a si bien
+            continué qu'elle a receu la dame tribulacion, non comme hostesse d'ung jour, mais comme
+            sa soeur avec laquelle a esté nourrie et qu'elle désire à jamais avoir pour compagne. Et
+            la doulceur en quoy N. S. la luy faict prendre la garde que sa santé n'en a pis. Je la
+            recommande à vos bonnes prières, sans oublier celle qui n'eust esté à son aise sans vous
+            en avoir escript ce qu'elle en pense, que vous congnoissez, et qui désire, comme pour le
+            mieulx qu'elle peult souhaicter en ce monde, estre <lb/> Vostre bonne mère, <hi
+              rend="pmaj"> Marguerite </hi> . </p>
+        </div>
+        <pb n="171"/>
+        <div n="21" rend="lettre">
+          <head> A MON COUSIN, M. LE MARESCHAL DE MONTMORENCY. <date> Lyon, 18 novembre (1524)
+            </date>
+          </head>
+          <p> Mon cousin, depuis le partement de Sansac n'est survenue aulcune chouse par deçà, qui
+            soit d'escripre <pb n="172"/> , fors la continuation de la bonne santé de Madame. Elle
+            et la compaignie est ce soir descendue à Saint-Just, au logis de Sainct Jehan, pour
+            faire faire les processions et dimanche prouchain recepvoir tous N. S., suivant le
+            jubilé ottroyé par le pape. Je croy que par de là vous n'en ferez pas moins. Je laisse
+            ce propos pour vous prier bien fort, mon cousin, de m'escripre le plus souvent que
+            pourrez de la bonne prospérité du Roy et de son affaire, car vous entendez assez que de
+            là dépend tout l'heur, le bien, et le plaisir de ceste compaignie. Je prie N. S. vouloir
+            le tout conduire à telle et si heureuse fin que de très-bon cueur le désire, et qu'il
+            vous doint, mon cousin, ce que bien leur sçavez demander. À Lyon, ce xviii <hi
+              rend="exp"> e </hi> jour de novembre. </p>
+          <p> Vostre bonne cousine, <hi rend="pmaj"> Marguerite </hi> . </p>
+        </div>
+        <div n="22" rend="lettre">
+          <head> AU MÊME. <date> De Sainct-Yon, le 7 decembre (1524). </date>
+          </head>
+          <p> Mon cousin, pour recepvoir de vous eschangement de quelques bonnes nouvelles espérées
+            en l'affaire de par de là, je vous asseure de la bonne santé de Madame et de ceste
+            compaignie, qui, en la souvenance de la continuelle paine où vous estes, continue chacun
+              <pb n="173"/> jour à faire processions et prières. Et se faict dymanche prochain une
+            procession generalle de jeunes et petis enfans, pour la bonne intencion du Roy et
+            prospérité de son affaire. Je supplie celluy qui des enfans a parfaict la louange,
+            vouloir donner tel exsaulcement à leurs innocentes prières que nous tous le désirons.
+            Pendant je vous prieray continuer à souvent me rescripre et je continueray à pryer Dieu,
+            mon cousin, vous avoir en sa saincte grace. </p>
+          <p> Vostre bonne cousine, <hi rend="pmaj"> Marguerite </hi> . </p>
+        </div>
+        <div n="23" rend="lettre">
+          <head> AU MÊME. <date/>
+          </head>
+          <p> Mon cousin, depuis le partement de Sansac, j'ay receu les lettres que m'avez
+            escriptes, en quoy m'avez faict très grand plaisir, et vous prie continuer en cela, et
+            aussi souvent mander à Madame des nouvelles du Roy et de son affaire, car je suis seure
+            que ne luy pourriez faire chouze plus agréable. Vous l'entendez assez, et congnoissez
+            que tout le bien et plaisir que pouvons avoir viennent de la part où vous estes. Madame
+            et la compaignie remonte aujourd'huy à son logis de Saint-Just, après avoir faict les
+            processions générales par ceste ville, où la plus part a receu le sainct sacrement. Je
+            croy qu'on n'en fera pas moins par delà. Je supplie celuy qui ensemble est le donné et
+            le donneur, nous <pb n="174"/> donner bien toust l'ung des fruicts d'iceluy: C'est bonne
+            paix que le monde ne peult donner, ainsi que de très bon cueur le désire <lb/> Vostre
+            bonne cousine, <hi rend="pmaj"> Marguerite </hi> . </p>
+        </div>
+        <div n="24" rend="lettre">
+          <head> A M. DE MEAUX. <date> (Lyon? 1524.) </date>
+          </head>
+          <p> Bien que je sçay que ce qu'on estime bonnes nouvelles ne vous ont été célées, si faut
+            il que je vous die que Dieu a faict la grace au Roy de non seulement en son cueur le
+            recongnoistre, mais souvent publiquement à tous dire et monstrer la grande miséricorde
+            de Dieu avoir conduit son affaire, et par toutes les lettres qu'il a escript à Madame,
+            ne fault à l'article d'en sentir tout venir du tout puissant, disant que nul n'en doibt
+            ou peult prendre gloire; car il n'est en la puissance de raison de pouvoir entendre
+            telle armée et artillerie en si peu de temps passer tels chemins, et qui, sans estapes,
+            n'ont eu faulte de pain, mais abondance et à bon marché. Les rivières gaiables ; que à
+            tard se voit la ville de Milan forcée (les ennemis fuis dehors) sans estre pillée ;
+            leurs gens battus, nuls des nostres morts; la peste par tout le quartier, sans que nul
+            des nostres l'ait prise. Parquoy le Roy faict sa conclusion que c'est œuvre miraculeuse,
+            où seulement a mis la main la bonté divine, qui, sans bataille ny assault, a donné
+            victoire à ceulx qui croyent en luy et qui, sans rien <pb n="175"/> espérer de leur sens
+            ou force, se confient en sa paternelle bonté ; et requiert que Madame le fasse partout
+            prescher et donner à entendre que le grant Dieu des exercites doibt avoir l'honneur,
+            gloire et louange du tout. J’ay bien voulu retenir et vous escripre ces paroles, estant
+            seure que aultant les sentirez comme <lb/> Vostre bonne mère , <hi rend="pmaj">
+              Marguerite </hi> . </p>
+        </div>
+      </div>
+      <pb n="176"/>
+      <div rend="Lettres écrites l'année de la bataille de Pavie, le 25 février 1525.">
+        <div n="25" rend="lettre">
+          <head> A MON COUSIN, M. LE MARESCHAL DE MONTMORENCY'. <date> (1525.) </date>
+          </head>
+          <p>
+            <gap rend="points"/> Le despit de vous veoir si bon servicteur n'est pas sy grant qu'il
+            me garde de louer Dieu de la grace qu'il vous a faite de servir à heure et besoing celuy
+            qui l'a mérité ; car croyés que la joye qu'il en a eue a esté sy bien sentie icy, qu'il
+            n'est plus question d'ennuy ne de foiblesse de maladie, mais seulement se délibérer de
+            faire ce qu'il a mandé. Bien est vray que toute ma vie j'auray envie que je ne puis
+            faire pour luy office pareil au vostre, car où la voulenté passe toute celle que pouriés
+            avoir, la fortune me tient tort, qui, pour estre femme, me rend le moyen difficile. Mais
+            j'espère que Dieu quy voit mon désir, me garde heure où j'auray mon tour ; à quoy vie,
+            mort, et tout ce quy se peult craindre ou désirer, sera voulontairement sacrifié pour
+            luy ; et j'en supplie le tout puissant, vous <pb n="177"/> priant (sy voyés que bon
+            soit) faire mes recommandacions à M. le Vis-Roy, car l'honnesteté qu'il garde envers le
+            Roy me rent si affecsionnée à luy, que je ne me puis tenir de vous prier luy en dire ce
+            que vous connoissés que j'en doy penser ; et le plus souvent que vous pourrez faire
+            sçavoir à Madame toutes nouvelles de son fils, en la délivrance et santé duquel pend sa
+            vie et consolacion, et sur les deux à la sienne fondée <lb/> Vostre bonne cousine, <hi
+              rend="pmaj"> Marguerite </hi> . </p>
+        </div>
+        <div n="26" rend="lettre">
+          <head> AU MÊME. <date> (1525.) </date>
+          </head>
+          <p> Mon cousin, il y a quelque recluse fort dévote, qui trois ans a, n'a faict que inviter
+            ung homme que je congnoys à prier Dieu pour le Roy et luy faire service, ce qu'il a
+            faict ; et m'a mandé qu'il est asseuré que s'y plaist au Roy par manière d'oraison, tous
+            les jours, quand il sera retiré, lire les épistres de Sainct-Pol, il est asseuré qu'il
+            sera delivré à la gloire de Dieu et l'honneur de luy ; car il promet en son évangile que
+            qui <pb n="178"/> aime la vérité, la vérité le délivrera. Et pour ce que je pense qu'il
+            n'en a point, vous envoye les miennes, vous priant le supplier de ma part qu'i les
+            veuille lire, et je croy fermement que le Sainct-Esperit, qui est demouré en la lettre,
+            fera par luy chouses ainsy grandes comme il a faict par ceulx qui les ont escriptes ;
+            car Dieu n'est pas moins puissant ne bon qu'il a esté, et ses promesses sont toujours
+            véritables. Il nous a humiliez par prison, mais il ne nous a pas abandonnez, nous
+            donnant pacience et espérience en sa bonté, qui est tousjours accompagnée de consolation
+            et plus parfaicte congnoissance de luy, ce que, je suis seure, mieux que jamais le Roy
+            cognoist, n'ayant pour la prison de son corps l'esprit moins en liberté, et plain et
+            remply de la grace de celuy que je supplie parfaire en luy son commandement. En quoy ne
+            peult avoir plus grand ennuy que se sentir pour son service inutile <lb/> Vostre bonne
+            cousine, <hi rend="pmaj"> Marguerite </hi>
+          </p>
+        </div>
+        <div n="27" rend="lettre">
+          <head> AU ROY. <date> (Mai 1525.) </date>
+          </head>
+          <p> Monseigneur, j'ay par l’escuyer Présilles receu deux lettres de vostre main qu'il vous
+            a pleu m'escripre, et vouldroys bien que Dieu me feist ceste grace d'avoir <pb n="179"/>
+            le pouvoir tel en vostre deslivrance comme vous plaist le m'escripre, car l'une des
+            choses de ce monde que plus j'ay désirée et désire, c'est de veoir une bonne et seure
+            paix d'entre l'Empereur et vous. Monseigneur, vos bons amis et alliés congnoissent que
+            ce seroit le grant bien de toute la chrestienté et le repos de vos deux magestés. Et
+            s'il est possible que ainsy il peust advenir, je ne doubte, Monseigneur, que ne
+            parveniés à vostre désir de liberté, pour laquelle, en ensuyvant ce qu'il vous plaist
+            m'en mander, ay escript à madame la Régente, pour avoir un saufconduit pour le
+            personnaige que doibt envoyer vers l'Empereur. Et pouvés estre seur que à moy ne tiendra
+            vous donner à congnoistre la voulenté que j'ay de vous y faire service. Mais,
+            monseigneur, comme il vous plaist dire que j'ay tout pouvoir en cest affaire, il me
+            semble que vous vous y pouvés trop mieulx ayder que moy, parce que, je suis bien seure,
+            avés affaire à ung prince si vertueux et bon, que en chose que sera raisonnable ne serés
+            refusé. Par quoy en bonne espérance vous y faire quelque bon service, comme celle qui
+            veult tousjours demourer <lb/> Vostre très humble, <hi rend="pmaj"> Marguerite </hi> .
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

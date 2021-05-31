@@ -1,0 +1,759 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">Lettres de Louis XI, roi de France</title>
+                <title type="sub">Tome III (1469-1472)</title>
+                <title type="short">LouisXI.TomeIV</title>
+                <author>
+                    <persName>
+                        <surname>Louis XI</surname>
+                        <forename/>
+                    </persName>
+                </author>
+                <editor>Modéliser le changement, les voies du français GTRC/CRSH</editor>
+                <principal>
+                    <persName>France Martineau</persName>
+                </principal>
+                <funder>
+                    <orgName>Université d'Ottawa</orgName>
+                    <orgName>Conseil de recherche en sciences humaines du Canada</orgName>
+                </funder>
+                <respStmt>
+                    <resp>Codage</resp>
+                    <persName xml:id="Fauchon">Caroline Fauchon</persName>
+                    <persName xml:id="Brazeau">Stéphanie Brazeau</persName>
+                    <persName xml:id="Labelle">Simon-Pier Labelle-Hogue</persName>
+                </respStmt>
+            </titleStmt>
+            <extent type="words">3474</extent>
+            <publicationStmt>
+                <date when="2008-11-03"/>
+                <publisher>
+                    <orgName>Modéliser le changement : les voies du français GTRC/CRSH</orgName>
+                    <address>
+                    <addrLine>60, rue Université</addrLine>
+                    <addrLine>Ottawa, Ontario</addrLine>
+                    <addrLine>K1N 6N5</addrLine>
+                    <addrLine>Tél : 613-562-5797</addrLine>
+                    <addrLine>Fax : 613-562-5981</addrLine>
+                    <addrLine><email>fmartin@uottawa.ca</email></addrLine>
+                    <addrLine>http://www.voies.uottawa.ca/</addrLine>                        
+                </address>
+                </publisher>
+                <distributor>
+                    <orgName>Modéliser le changement : les voies du français GTRC/CRSH</orgName>
+                    <address>
+                    <addrLine>60, rue Université</addrLine>
+                    <addrLine>Ottawa, Ontario</addrLine>
+                    <addrLine>K1N 6N5</addrLine>
+                    <addrLine>Tél : 613-562-5797</addrLine>
+                    <addrLine>Fax : 613-562-5981</addrLine>
+                    <addrLine><email>fmartin@uottawa.ca</email></addrLine>
+                    <addrLine>http://www.voies.uottawa.ca/</addrLine>                        
+                </address>
+                </distributor>
+                <availability status="restricted">
+                    <p>(c) Modéliser le changement : les voies du français (CRSH/GTRC, dirigé par F.
+                        Martineau)</p>
+                    <p>Les Corpus MCVF demeurent la propriété du projet Modéliser le changement :
+                        les voies du français. Les références à ces Corpus devraient apparaître
+                        ainsi : Corpus MCVF, Modéliser le changement : les voies du français (F.
+                        Martineau (dir.), U. d’Ottawa).Tous les documents du Corpus MCVF ne peuvent
+                        être divulgués à de tierces parties sans l’autorisation préalable de la
+                        Directrice du Projet </p>
+                    <p>Pour tout autre usage, contacter : <persName>France Martineau</persName>
+                        <orgName>Modéliser le changement : les voies du français, Université
+                            d'Ottawa</orgName>
+                        <email>fmartin@uottawa.ca</email></p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <biblStruct type="Source_publique">
+                    <monogr>
+                        <author>
+                            <persName>
+                                <surname>Louis XI</surname>
+                                <forename/>
+                            </persName>
+                        </author>
+                        <editor>
+                            <persName>
+                                <surname>Vaesen</surname>
+                                <forename>Joseph</forename>
+                            </persName>
+                            <persName>
+                                <surname>Charavay</surname>
+                                <forename>Étienne</forename>
+                            </persName>
+                        </editor>
+                        <title>Lettres de Louis XI, roi de France</title>
+                        <title type="sub">Tome IV (1469-1472)</title>
+                        <imprint>
+                            <pubPlace>Paris</pubPlace>
+                            <publisher>Librairie Renouard</publisher>
+                            <date when="1890">1890</date>
+                        </imprint>
+                    </monogr>
+                    <series/>
+                </biblStruct>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Projet : Modéliser le changement les voies du français (GTRC/CRSH) <lb/>Resp. :
+                        <persName>France Martineau</persName> Institution : Département de français,
+                    Université d'Ottawa
+                    <address>
+                    <addrLine>60, rue Université</addrLine>
+                    <addrLine>Ottawa, Ontario</addrLine>
+                    <addrLine>K1N 6N5</addrLine>
+                    <addrLine>Tél : 613-562-5797</addrLine>
+                    <addrLine>Fax : 613-562-5981</addrLine>
+                    <addrLine><email>fmartin@uottawa.ca</email></addrLine>
+                    <addrLine>www.voies.uottawa.ca</addrLine>                        
+                </address></p>
+            </projectDesc>
+            <editorialDecl>
+                <p>Voir le manuel d'annotation TEI au http://www.voies.uottawa.ca</p>
+                <p>L'édition de référence a été respectée quant à l'orthographe, la ponctuation, la
+                    mise en page et la pagination. Cependant, la césure des mots en fin de lignes
+                    (ou de pages) a été supprimée, le mot est placé dans la ligne ou la page où il
+                    commence. </p>
+                <p>Les paragraphes sont notés par P pour la prose. Pour les vers, P rend="gv"
+                    indique que le paragraphe est constitué d'un groupe de vers. </p>
+                <p> Les débuts des vers sont encodés par LB. Cette balise peut également servir dans
+                    les textes en prose à indiquer les débuts des lignes selon la pagination de
+                    l'édition. </p>
+                <p>Les changements de pages sont indiqués par la balise PB</p>
+                <p>Le corps du texte est obligatoirement compris dans le BODY. Le FRONT contenant le
+                    titre et/ou le prologue et le BACK (explicit) sont facultatifs et ne sont mis
+                    qu'au besoin. </p>
+                <p>Les différentes parties du texte (livre, chapitre...) sont encodées par DIV,
+                    auquel s'ajoute l'attribut TYPE qui spécifie sa nature. </p>
+                <p>Les paragraphes (P), lignes (LB) et pages (PB) de même de certaines divisions
+                    (DIV) sont ou peuvent être numérotés par l'attribut N s'ils le sont dans
+                    l'édition. </p>
+                <p>Quelques commentaires ou corrections ont été introduits à l'aide de la balise
+                    NOTE, CORR ou SIC. </p>
+                <p>Les discours directs et les citations ont été encodés par la balise Q. Cette
+                    balise est mise à chaque fois que des guillemets sont utilisés dans l'édition. </p>
+                <p>L'élément FOREIGN indique un passage en latin qui est noté en italique dans
+                    l'édition, les occurrences non en italique sont signalées par l'attribut ROMAIN. </p>
+                <p>Les folios sont notés par la balise <tag>pb rend="folio"</tag></p>
+                <p>Les notes de bas de pages ont été retirées. </p>
+                <p>Les paragraphes entièrement en latin ont été retirés, une balise P et une NOTE
+                    les signalent. </p>
+                <p>Note spécifique au texte ci-dessous: Aucune.</p>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <creation>
+                <date notBefore="1469" notAfter="1472">De 1469 à 1472</date>
+            </creation>
+            <langUsage>
+                <language ident="frm"/>
+            </langUsage>
+            <textDesc>
+                <channel/>
+                <constitution>Extrait</constitution>
+                <derivation/>
+                <domain/>
+                <factuality/>
+                <interaction/>
+                <preparedness/>
+                <purpose/>
+            </textDesc>
+            <textClass>
+                <keywords scheme="GTRC">
+                    <list>
+                        <item n="domaine">Non littéraire</item>
+                        <item n="genre">Correspondance</item>
+                        <item n="forme">Prose</item>
+                        <item n="docRegion1">France</item>
+                        <item n="docRegion2"/>
+                        <item n="docRegion3"/>
+                        <item n="auteurRegion1">France</item>
+                        <item n="auteurRegion2">France Centre</item>
+                        <item n="auteurRegion3">Berry</item>
+                        <item n="auteurSexe">Homme</item>
+                        <item n="occupation">Noble</item>
+                        <item n="scribeRegion1"/>
+                        <item n="scribeRegion2"/>
+                        <item n="scribeRegion3"/>
+                        <item n="imprimeurRegion1"/>
+                        <item n="imprimeurRegion2"/>
+                        <item n="imprimeurRegion3"/>
+                    </list>
+                </keywords>
+                <classCode scheme="Indice de Dees"/>
+            </textClass>
+            <particDesc>
+                <listPerson>
+                    <person role="auteur">
+                        <persName>
+                            <surname>Louis XI</surname>
+                            <forename/>
+                        </persName>
+                        <birth>
+                            <date when="1423-07-03">1423-07-03</date>
+                            <placeName>Bourges, France</placeName>
+                        </birth>
+                    </person>
+                    <person role="scribe">
+                        <persName>
+                            <surname>Inconnu</surname>
+                            <forename/>
+                        </persName>
+                        <birth/>
+                    </person>
+                </listPerson>
+            </particDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2009-03-31" who="#Labelle">Vérification des en-têtes</change>
+            <change when="2009-03-26" who="#Fauchon">Retour sur le codage et le header pour
+                regrouper toutes les lettres de Louis XI par volumes</change>
+            <change when="2009-03-19" who="#Fauchon">Vérification et correction du TEI et du header
+                d'après les normes du P5 et du schéma MCVF</change>
+            <change when="2008-11-03" who="#Labelle">Vérification dates et lieux</change>
+            <change when="2008-07-25" who="#Labelle">En-tête</change>
+            <change when="2005-05-20" who="#Brazeau">Vérification du codage</change>
+            <change when="2005-05-17" who="#Brazeau">Codage TEI</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <docTitle>
+                <titlePart>LETTRES DE LOUIS XI</titlePart>
+                <titlePart>LOUIS DAUPHIN</titlePart>
+                <titlePart>1469-1472</titlePart>
+            </docTitle>
+        </front>
+        <group>
+
+            <text n="469">
+                <pb n="50"/>
+                <front>
+                    <head>
+                        <hi rend="gras">AU DUC DE GUIENNE (D.). </hi>
+                    </head>
+                    <docDate>Montils-lès-Tours, 12 novembre 1469. </docDate>
+                    <docEdition>Orig. Bibl. nat., Fr. 20489, fol. 139.</docEdition>
+                </front>
+                <body>
+                    <pb n="51"/>
+                    <p> Mon frere, mon amy, je me recommande à vous tant comme je puis. J'ay veu les
+                        lettres que m'avez escriptes, et aussi celles que maistre Guillaume Chommart
+                        vous a envoiées. Pareillement j'ay receu lettres de maistre Baude et oy ce
+                        que maistre Pierre qui estoit allé en Espaigne a raporté. Mon frere, à chose
+                            <pb n="52"/> que ledit maistre Pierre ait dicte, il ne vous fault point
+                        arrester, car je vous asseure que ce qu'il aroit oy dire en une court, il ne
+                        le saroit raporter en la chambre, et ce qu'il dit ne sont que nouvelles de
+                        paiges, et n'en doit on tenir compte. Tenez vous sceur que le maistre de
+                        Saint Jacques, tant qu'il vive, ne prandra parti avec le roy d'Arragon; car
+                        il cognoist bien que ce seroit sa totalle destruccion. Aussi vous povez
+                        estre certain que ledit maistre n'anbandonnera jamès mon parti, car il sçait
+                        bien que s'est le plus sceur reffuge qu'il puisse avoir et qu'il n'a point
+                        de si sceur chemin pour sa seureté et des siens, que de tenir le parti de
+                        vous et de moy. Autreffois, durant que je tenoie le parti du roy d'Arragon,
+                        et moy estant à Baionne, Monseigneur le general maistre Pierre Doriolle
+                        offrit de par moy audit maistre le parti <corr resp="editor" rend="crochets"
+                            >que</corr> le roy d'Arragon lui offre à present, lequel le roy
+                        d'Arragon me faisoit offrir; mès oncques il n'y voult entendre. Je vous
+                        envoie les lettres que ledit maistre m'a envoiées, aussi sa creance, par
+                        lesquelles verrez comme le roy d'Espaigne envoiera brief devers moy pour
+                        ceste matiere. Aussi j'ay envoyé querir monseigneur d'Albi, et le
+                        despescheré avec <pb n="53"/> monseigneur de Torcy incontinent, pour aller
+                        par delà. Et tenez vous sceur que se le mariaige se faisoit de la princesse
+                        avec le filz du roy d'Arragon, ce que je ne croy pas, que incontinent le
+                        maistre mectroit en avant la fille du roy d'Espaigne.</p>
+                    <p>Mon frere, Perot d'Aidie est ycy venu, disant que son frere se vouloit
+                        excuser de ce cas que on lui mectoit sus touchant ma personne. Je lui ay
+                        respondu qu'il ne se peut mieulx excuser que par <hi rend="susp"/> ce qui
+                        lui a donné la charge; et lui ay fait bailler le double de ce que l'evesque
+                        de Saint Pons me dist, afin qu'il en <pb n="54"/> sache mieulx la verité, et
+                        pareillement de ce que les seigneur et dame de Pompadour en on dit, disans
+                        le savoir par le prothonotaire de <hi rend="points"/> lequel j'ay envoié
+                        prandre et ce qui s'en pourra savoir par le procès, je vous en advertiré.
+                        Aussi ledit Perot m'a dit, comme de lui, car il dit qu'il n'en avoit point
+                        de charge, que le duc ne vouloit point de ma niepce; et je lui ay respondu
+                        que je ne l'avoie presentée ne à lui ne à autre.</p>
+                    <p>Mon frere, le prince de Vienne a envoié ung chevalier devers moy nommé <corr
+                            resp="editor" n="essire" rend="[m]essire">messire</corr> Corberan. Je
+                        vous <pb n="55"/> envoie la lettre qu'il m'a escripte, et le double de la
+                        creance dudit chevalier, aussi le double de la responce que je luy ay faicte
+                        de bouche, et de <corr resp="editor" rend="crochets">la lettre</corr> que je
+                        lui ay escripte.</p>
+                    <p> Pareillement <corr resp="editor" rend="crochets">le conte d'Armignac</corr>
+                        envoie et aussi les gens des estaz de ses pays, ausquelx j'ay fait faire la
+                        responce en l'ostel de mon chancelier par les gens de mon conseil où n'ay
+                        point esté present. Je vous envoie <corr resp="editor" rend="crochets"
+                        >le</corr> double de leurs instructions et de la responce que leur y ay fait
+                        faire.</p>
+                    <p> Le grant maistre m'a envoié ung gentilhomme qui venoit de devers le conte
+                        d'Armignac, qui dit beaucoup de choses dont je vous envoie le double par
+                        escript.</p>
+                    <p>Touchant monseigneur d'Alenczon, j'ay aujourd'ui recouvré vostre seellé et
+                        l'ay fait canceller, et le vous envoye. S'autre chose me sourvient,
+                        incontinent vous <pb n="56"/> en avertiré; et à Dieu, mon frere, mon amy,
+                        auquel je prie qu'il vous doint ce que desirez. Donné aux Moultiz , le XII
+                            <hi rend="exp">e</hi> jour de novembre.</p>
+                    <p>Mon frere, depuis ces lettres escriptes, j'ay receu les lettres que vous
+                        m'avez envoyées, et au regart de la place de Montoce, je l'avoie baillée
+                        paravant en gaige à Gaston du Lyon, pour la somme de IIII<hi rend="exp"
+                        >m</hi> escuz; de laquelle je me suis obligé, et en ay fait ma propre debte;
+                        et s'en part un homme pour la vous faire delivrer. Je vous mercie de ce que
+                        m'avez adverti de la venue du seigneur d'Achon.</p>
+                    <p>Jehan d'Arson est venu ycy et m'a apporté lettres <pb n="57"/> de monseigneur
+                        de Bourgongne, lesquelles je vous envoie et la responce que je lui ay
+                        faicte. </p>
+                </body>
+            </text>
+            <text n="472">
+                <pb n="61"/>
+                <front>
+                    <head>
+                        <hi rend="gras">AU PARLEMENT OU A LA CHAMBRE DES COMPTES DE PARIS (D.).
+                        </hi>
+                    </head>
+                    <docDate> Amboise, 19 novembre 1469. </docDate>
+                    <docEdition>Orig. Bibl. nat., Fr. 6964, fol. 3.</docEdition>
+                </front>
+                <body>
+                    <p> De par le roy.</p>
+                    <p>Noz amez et feaulx, nous avons puis aucun temps en çà baillé, fieffé,
+                        transporté et delaissé à nostre cher et bien amé escuier d'escuerie Jehan du
+                        Pertuys et à Glaude de Chantemelle, damoiselle, sa femme, pour eulx et les
+                        enffans qui sont ou seront procreez d'eulx deux en loyal mariage, nostre
+                        moulin et deux viviers que nous avons à Lyons ou bailliage de Gisors, pour
+                        le pris et selon le contenu ès lettres patentes, que sur ce leur avons
+                        octroyées, lesquelles vous ont esté presentées et avez esté requis de les
+                        expedier et veriffier; mais vous avez de ce faire esté refusans et n'y avés
+                        aucunement voulu proceder, dont nous donnons grant merveille, consideré
+                        mesmement que les diz deux viviers ne nous estoient paravant de nulle
+                        valeur, et y avoit bien longtemps qu'ilz estoient en ruyne. Et au regard
+                        dudit molin, nous l'avons baillé pour aussi grant pris qu'il avoit esté
+                        autresfois fieffé à feu Estienne Le Marié. Et pour ce que nous voulons que
+                        ledit Jehan du Pertuys et sa <pb n="62"/> dicte femme, et aussi leurs diz
+                        enffans joissent de nostre dit bail et fieffé, nous vous mandons que
+                        incontinent vous expediez et veriffiez nos dictes lettres que leur en avons
+                        octroyées, comme dit est, sans plus y faire de difficulté. Et y faictes par
+                        maniere qu'ilz n'aient plus cause de nous en parler, et gardez que en ce
+                        n'ait faulte. Donné à Amboyse, le XIX <hi rend="exp">e</hi> jour de
+                        novembre.</p>
+                    <p>
+                        <hi rend="pmaj">Loys.</hi>
+                    </p>
+                    <p>
+                        <hi rend="pmaj">Bourré.</hi>
+                    </p>
+                    <p>
+                        <foreign>Allate IX<hi rend="exp">a</hi> decembris M<hi rend="exp">o</hi>
+                                CCCC<hi rend="exp">o</hi> LXIX.<hi rend="exp">o</hi>.</foreign>
+                    </p>
+                </body>
+            </text>
+            <text n="488">
+                <pb n="86"/>
+                <front>
+                    <head>
+                        <hi rend="gras"> A BOURRÉ (D.). </hi>
+                    </head>
+                    <docDate> Amboise, 9 mars 1470. </docDate>
+                    <docEdition>Orig. Bibl. nat., Fr. 20486, fol. 94.</docEdition>
+                </front>
+                <body>
+                    <p> De par le roy.</p>
+                    <p>Bourré, appoinctez Guillaume Cleret, nostre varlet de chambre, de ses gaiges
+                        en la maniere qu'il estoit l'année passée; c'est assavoir dix livres pour
+                        moys, et le faictes paier de ce qu'il luy est deu de ceste presente année et
+                        gardés que en ce n'ait faulte; car tel est nostre plaisir. Donné à Amboise,
+                        le IX<hi rend="exp">me</hi> jour de mars. </p>
+                    <p>
+                        <hi rend="pmaj">Loys.</hi>
+                    </p>
+                </body>
+            </text>
+            <text n="506">
+                <pb n="119"/>
+                <front>
+                    <head>
+                        <hi rend="gras">AUX LYONNAIS (V.). </hi>
+                    </head>
+                    <docDate>Amboise, 29 mai 1470. </docDate>
+                    <docEdition>Orig. Arch. de Lyon, AA 23, no 29. Arch. de Honfleur. Communiqué par
+                        M. R. de Beaurepaire.</docEdition>
+                </front>
+                <body>
+                    <p> De par le roy.</p>
+                    <p>Chers et bien amez, pour ce que depuis nostre avenement à la couronne nous
+                        avons tousjours desiré et desirons sur toutes autres choses de soulager
+                        nostre peuple et oster et abatre pluseurs grans maulx et exactions,
+                        pilleries et roberies qu'ilz ont supportées jusques à present oultre nostre
+                        gré et vouloir, et qui a esté et est la plus grant desplaisance qui nous
+                        peust avenir, et souventes foiz avons deliberé et entreprins de donner ordre
+                        et bonne provision ausdiz maulx et exactions, et mesmement sur le fait,
+                        vivre et gouvernement des gens de guerre de nostre ordonnance, nous, à
+                        l'occasion des troubles, divisions et autres grans affaires qui sont
+                        survenuz en nostre royaume, <pb n="120"/> nous avons esté tellement occupez
+                        que jusques icy n'y avons peu bonnement vacquer ne mectre le remede tel que
+                        avons desiré et desirons de tout nostre cueur. Et pour ce que à l'aide de
+                        Nostre Seigneur et de noz bons et loyaulx subgetz, nous voyons à present les
+                        faiz et affaires de nous et de nostre dit royaume bien dispousez, nous avons
+                        conclud et deliberé de mectre si bonne ordre, police et gouvernement ou fait
+                        de nostre dit royaume, tant ou vivre et gouvernement de nos diz gens de
+                        guerre, que autrement, que les diz maulx, pilleries et roberies cesseront,
+                        et que nos diz subgetz vivront en paix et transquilité. Et pour ce, avons
+                        par l'advis et deliberacion de pluseurs seigneurs de nostre sang, capitaines
+                        et chiefz de guerre, et gens de nostre grant conseil fait certaines
+                        ordonnances, lesquelles, à ce que nul n'en puisse pretendre cause
+                        d'ignorance, nous avons envoyées et fait publier par toutes les
+                        seneschaucées, balliages, bonne villes, et autres lieux de nostre dit
+                        royaume. Et avecques ce, affin que les diz maulx, pilleries et exactions
+                        soient reparées et que les diz gens de guerre soient logiez en villes
+                        fermées et vivent selon le contenu en nosdictes ordonnances, nous envoyons
+                        presentement les mareschaulx de France, les capitaines et autres notables
+                        hommes es païs et lieux où les diz gens de guerre ont esté et sont logez,
+                        desquelles choses nous vous avons bien voulu advertir, affin que
+                        congnoissiez tousjours de plus en plus le bon et grant vouloir que nous
+                        avons eu et avons au bien et soulagement de vous et de nostre dit roiaume et
+                        de nos diz subgetz, et que, si les diz gens de guerre ont fait ou commis
+                        faultes, pilleries et exactions, que vous en informez les diz commissaires
+                            <pb n="121"/> et noz officiers des lieux où lesdiz cas auront esté faiz
+                        et commis, pour y estre par eulx pourveu ainsi que de raison. Et s'il
+                        advenoit que nosdiz commissaires ou officiers voulsissent differer ou
+                        delayer par faveur ou autrement, nous voulons et vous mandons bien
+                        expressement que vous nous en advertissez en toute diligence et nous y
+                        pourvoirions en maniere que chascun y prandra example. Donné à Amboise, le
+                        XXIX <hi rend="exp">e</hi> jour de may.</p>
+                    <p>
+                        <hi rend="pmaj">Loys. </hi>
+                    </p>
+                    <p>
+                        <hi rend="pmaj">Demoulins.</hi>
+                    </p>
+                    <p>A noz chers et bien amez les bourgoys, manans et habitans de nostre ville et
+                        cité de Lyon.</p>
+                    <p>
+                        <foreign>Tradite XIIII <hi rend="exp">ta</hi> junii M<hi rend="exp">o</hi>
+                                CCCC<hi rend="exp">o</hi> septuagesimo. </foreign>
+                    </p>
+                </body>
+            </text>
+            <text n="513">
+                <pb n="130"/>
+                <front>
+                    <head>
+                        <hi rend="gras">A BOURRÉ (D.). </hi>
+                    </head>
+                    <docDate> Ponts-de-Cé, 25 juillet 1470.</docDate>
+                    <docEdition>Orig. Bibl. nat., Fr. 6602, fol. 2. Cop. Fr. 20427, fol. 104. Publ.
+                        par Duclos, <hi rend="italique">Histoire de Louis XI,</hi> IV, 355.
+                    </docEdition>
+                </front>
+                <body>
+                    <p> Monseigneur du Plessiz, nagueres ay envoyé messire Yvon du Fou par dela pour
+                        mettre le fait de monseigneur <pb n="131"/> de Warvyk en seureté, et
+                        presentement lui mande qu'il mecte telle provision et ordre, que les gens
+                        dudit monseigneur de Warvyk n'aient point de neccessité jusques à ce qu'il
+                        soit par della. Aujourd'uy avons fait le mariage de la royne d'Angleterre et
+                        de lui, et demain espere l'avoir du tout depesché prest à s'en partir.</p>
+                    <p>Dieu merci et Nostre-Dame, nous avons les scellez de Bretaigne et sommes de
+                        tous poins amys, monseigneur de Lescun et moi, et par ainsi, sommes seurs de
+                        ce costé.</p>
+                    <p>Vous verrez ce que j'escrips audit messire Yvon. Je vous prie que vous
+                        faictes ce qu'il vous dira, et que n'y espargnez riens, en maniere que les
+                        gens dudit Warvyk n'aient aucune disete ou neccessité, et qu'ilz ne se
+                        malcontentent, et vous y employez vous et le general, ainsy que j'en ay en
+                        vous ma fiance. Escript au Pont de Sée, le XXV <hi rend="exp">e</hi> jour de
+                        juillet.</p>
+                    <p>
+                        <hi rend="pmaj">Loys.</hi>
+                    </p>
+                    <p>
+                        <hi rend="pmaj">J. Le Clerc.</hi>
+                    </p>
+                </body>
+            </text>
+            <text n="523">
+                <pb n="148"/>
+                <front>
+                    <head>
+                        <hi rend="gras">A LA CHAMBRE DES COMPTES (D.).</hi>
+                    </head>
+                    <docDate>Amboise, 1<hi rend="exp">er</hi> octobre 1470.</docDate>
+                    <docEdition>Orig. Bibl. nat., Fr. 6964, fol. 25.</docEdition>
+                </front>
+                <body>
+                    <p> De par le roy.</p>
+                    <p>Noz amez et feaulx, nous avons aujourd'uy octroyé noz lettres patentes
+                        signées de nostre main à nostre bien amée Marie de Villebresme, vesve de feu
+                        maistre Jehan Chardon, en son vivant tresorier de feu nostre oncle le duc
+                        d'Orleans, à ce que, nonobstant certaine radiacion par vous faicte sur
+                        aucuns comptes dudit feu Jehan Chardon de la somme de quatre cens quatre <pb
+                            n="149"/> vings huit livres, huit solz tournois, que par noz autres
+                        lettres patentes, aussi signées de nostre main, avons à icelle vesve donnée,
+                        elle demoure quicte et paisible d'icelle somme, ainsi qu'il est plus à plain
+                        contenu ès dictes lettres. Et pour ce que nostre plaisir est que ladicte
+                        vesve joysse entierement de nostre dit don, selon la forme et teneur de nos
+                        dictes premieres et secondes lettres, et nonobstant la responce et autres
+                        choses par vous alleguées plus à plain contenue en icelles noz secondes
+                        lettres, nous vous mandons, commandons et expressement enjoignons, que sans
+                        plus y faire de reffus ou difficulté, vous veriffiez et interinez à icelle
+                        vesve nos dictes secondes lettres, et en ce faisant, la faictes tenir quicte
+                        et paisible de ladicte somme de IIII<hi rend="exp">c</hi> IIII<hi rend="exp"
+                            >xx</hi> XVIII <abbr>l.</abbr> VIII <abbr>s.</abbr>
+                        <abbr>t.</abbr>; et tellement y faictes qu'elle n'ayt plus cause de
+                        retourner pour ceste cause devers nous; car tel est nostre plaisir. Donné à
+                        Amboyse, le premier jour de octobre.</p>
+                    <p>
+                        <hi rend="pmaj">Loys.</hi>
+                    </p>
+                    <p>
+                        <hi rend="pmaj">Flameng.</hi>
+                    </p>
+                    <p>
+                        <hi rend="italique">Apportées le samedi 17<hi rend="exp">e</hi> novembre
+                            1470.</hi>
+                    </p>
+                </body>
+            </text>
+            <text n="559">
+                <pb n="206"/>
+                <front>
+                    <head>
+                        <hi rend="gras">A PIERRE DORIOLE (D.). </hi>
+                    </head>
+                    <docDate>Plessis-de-Roye, 7 mars 1471.</docDate>
+                    <docEdition>Orig. Bibl. nat., Fr. 15537, fol. 116.</docEdition>
+                </front>
+                <body>
+                    <p> Monseigneur le general, j'ay veu voz lettres que m'avez escriptes par vostre
+                        chevaucheur, et me semble bien d'envoyer à Jehan de Nyvenen les lettres et
+                        instructions <pb n="207"/> dont voz dictes lettres font mencion ainsi que
+                        avez advisé, et pareillement d'envoyer aux capitaines de l'arriere ban
+                        lettres pour les haster, ainsi qu'il a esté fait aux autres et si faictes
+                        faire toutes les dictes lettres et instructions incontinent et les envoyez.
+                        Donné au Plessiz Monseigneur de Roye, le VII <hi rend="exp">e</hi> jour de
+                        mars.</p>
+                    <p>
+                        <hi rend="pmaj">Loys.</hi>
+                    </p>
+                    <p>
+                        <hi rend="pmaj">Leclerc.</hi>
+                    </p>
+                    <p>A nostre amé et feal conseiller et general de noz finances, maistre Pierre
+                        Doriole. </p>
+                </body>
+            </text>
+            <text n="582">
+                <pb n="244"/>
+                <front>
+                    <head>
+                        <hi rend="gras">AU SEIGNEUR DE BOUCHAIN (V.). </hi>
+                    </head>
+                    <docDate>Paris, 24 juin 1471.</docDate>
+                    <docEdition>Orig. Bibl. nat. Pièces orig., vol. 472, dossier Bournel 10507, no
+                        15.</docEdition>
+                </front>
+                <body>
+                    <p> Monseigneur de Bouchain, Blanchefort m'a dit ce que luy avez chargé me dire
+                        touchant la venue du neveu de monseigneur de Warvyk et du chambellan à
+                        Calaiz, dont je vous scez bon gré. Je leur escriptz et envoie les lettres au
+                        petit tresorier Jehan Raguier, <pb n="245"/> pour les envoier par homme
+                        seur, et lui mande qu'il se tire devers vous pour estre de tout mieulx
+                        informé. Et pour ce, s'il vous plaist, vous l'advertirez de tout ce qu'il
+                        vous semblera estre bon, et vous prye que souvent me faictes savoir de ce
+                        que saurez qu'il seurviendra de nouveau. Donné à Paris, le XXIIII <hi
+                            rend="exp">e</hi> jour de juing.</p>
+                    <p>
+                        <hi rend="pmaj">Loys.</hi>
+                    </p>
+                    <p>
+                        <hi rend="pmaj">J. Leclerc</hi>
+                    </p>
+                    <p>A nostre amé et feal conseillier et chambellan le sire de Bouchain. </p>
+                </body>
+            </text>
+            <text n="590">
+                <pb n="263"/>
+                <front>
+                    <head>
+                        <hi rend="gras">AU SEIGNEUR DU BOUCHAGE (D.). </hi>
+                    </head>
+                    <docDate>Saint-Michel-sur-Loire, 20 août 1471.</docDate>
+                    <docEdition>Orig. Bibl. nat., Fr. 2909, fol. 6.</docEdition>
+                </front>
+                <body>
+                    <p> Monseigneur du Bouchaige, j'ay à ceste heure receu unes lettres de maistre
+                        Olivier Le Roux, dont je vous envoye le double; pareillement je vous envoye
+                        les pieces qui ont esté trouvées escriptes de la main de maistre Henry
+                        Millet au logeis, ainsi qu'il s'en partoit. Et m'a mandé par son homme ledit
+                        maistre Olivier Le Roux, qu'il congnoist seurement que c'est de sa main.
+                        Quand vous partistes, je me doubtoye <pb n="264"/> que monseigneur de
+                        Guyenne feist ces mariages, et maintenant, veu que lesdictes lettres que
+                        maistre Olivier m'escript, et les pieces qui ont esté trouvées, et les
+                        parolles que maistre Henry Millet a dictes, dont je vous envoye tout par
+                        escript, puis le maistre d'ostel de Chesnay, par qui mon frere m'a bien
+                        mandé qu'ilz tachoient du mariage de la fille de monseigneur de Foix, et ne
+                        m'a point mandé de celuy de Bourgoigne qu'ilz lui en eussent parlé, ne aussi
+                        de bailler son seellé, vous avez à me asseurer avecques lui de ce seellé que
+                        je doubte qu'il ait baillé, s'il vous est possible. Et se d'aventure il
+                        avoit baillé, et vous le pouriez reduire, j'en tiendray tout ce que vous en
+                        promecterez.</p>
+                    <p>Il y a ès petites pieces en ung mot <hi rend="italique">Normandie</hi>, en
+                        une autre <hi rend="italique">connestable</hi>, en ung autre <hi rend="pmaj"
+                            >le roy</hi>, en ung <pb n="265"/> autre <hi rend="italique"
+                        >voyage</hi>, en ung autre <hi rend="italique">Xantonge</hi>, et en pluseurs
+                        autres <hi rend="pmaj">Bourgongne</hi>. En effect, je voy la chose si
+                        suspecte que je ne vous sçay que mander; car mon frere ne me advertist point
+                        si avant comme je trouve par ces memoires, et me advertissez bien au cler de
+                        tout. Escript à Sainct Michel sur Loyre, le XX <hi rend="exp">e</hi> jour
+                        d'aoust.</p>
+                    <p>
+                        <hi rend="pmaj">Loys.</hi>
+                    </p>
+                    <p>
+                        <hi rend="pmaj">Tilhart.</hi>
+                    </p>
+                    <p>A nostre amé et feal conseiller et chambellan le seigneur du Bouchage. </p>
+                </body>
+            </text>
+            <text n="607">
+                <pb n="292"/>
+                <front>
+                    <head>
+                        <hi rend="gras">AU GRAND MAITRE (D.). </hi>
+                    </head>
+                    <docDate>Montbazon, 12 décembre 1471. </docDate>
+                    <docEdition>Orig. Bibl. nat., Fr. 2913, fol. 68.</docEdition>
+                </front>
+                <body>
+                    <p> Monseigneur le grant maistre, vous savez que je vous ay promis la somme de
+                        IIII <hi rend="exp">m</hi> escuz dedens la feste des Roys. Et, afin que vous
+                        congnoissez que je ne vous ay pas oblyé, et que je suis bon paieur, je n'ay
+                        pas voulu actendre le terme, et vous envoye presentement la somme de quatre
+                        mille frans, et ainsi ne vous devray plus que quinze cens frans, lesquelz je
+                        vous envoieray <pb n="293"/> le plus tost que je pourray. Escripvez-moy de
+                        la recepcion de la dicte somme, et m'escripvez aussi de voz nouvelles, et
+                        faites escripre sur la cedule que avez de moy des diz IIII <hi rend="exp"
+                        >m</hi> escuz, comme vous avez receu la dicte somme de IIII <hi rend="exp">m</hi>
+                        <abbr>l.</abbr>
+                        <abbr>t.</abbr>, et adieu. Donné à Montbason, le XII <hi rend="exp">e</hi>
+                        jour de decembre.</p>
+                    <p>
+                        <hi rend="pmaj">Loys.</hi>
+                    </p>
+                    <p>
+                        <hi rend="pmaj">Bourré.</hi>
+                    </p>
+                    <p>A nostre cher et feal cousin le conte de Dampmartin, grant maistre d'ostel de
+                        France. </p>
+                </body>
+            </text>
+            <text n="620">
+                <pb n="314"/>
+                <front>
+                    <head>
+                        <hi rend="gras">AUX CONSEILLERS DE LA VILLE DE LYON (V.). </hi>
+                    </head>
+                    <docDate>Plessis-du-Parc, 28 avril 1472.</docDate>
+                    <docEdition>Orig. Arch. de Lyon, AA 23, no 38.</docEdition>
+                </front>
+                <body>
+                    <p> De par le roy.</p>
+                    <p>Chiers et bien amez, en besongnant avec nostre amé et feal conseillier
+                        maistre Jehan Delaloere ou fait de noz finances de Languedoc, il nous a
+                        voulu mectre en compte la somme de six cens livres tournois, dont maistre
+                        Pierre de Refuge et le dit Delaloere vous <pb n="315"/> feirent leurs
+                        lettres l'année passée, pour la despense qui se faisoit à cause des
+                        bastilles, pons et boulovars, que l'on faisoit à Lyon pour mectre devant
+                        Mascon. Et pour ce que depuis, à vostre grant poursuite, vous avons quictée
+                        la somme de mille escus que nous deviés de reste de III <hi rend="exp"
+                        >m</hi> escus, à quoy aviez esté imposez pour vostre porcion de l'emprunct,
+                        nous avons prinse la dicte somme dudit Delaloere pour employer en noz
+                        affaires, et avons ordonné que la dicte lectre ou obligacion sera par vous
+                        rendue ausdiz de Refuge et Delaloere, ou à l'un d'eulx, comme casse et
+                        nulle; et ainsi a esté dit et appoincté par les gens de noz finances avec
+                        maistre Guillaume Bulloud, docteur, que avez envoyé deça pour voz affaires.
+                        Si voulons et vous mandons bien expressement, que incontinent vous rendez
+                        icelle lettre ou obligacion aux dessus diz, ou à celuy qui y sera envoyé
+                        pour ladicte cause, sans y faire ne mectre aucun delay ou difficulté; car
+                        nous avons commandé noz lettres, pour vous y contraindre en cas de refuz ou
+                        delay, et en voz affaires vous aurons tousjours pour recommandez. Donné au
+                        Plessiz du Parc lez Tours, le XXVIII <hi rend="exp">e</hi> jour d'avril.</p>
+                    <p>
+                        <hi rend="pmaj">Loys.</hi>
+                    </p>
+                    <p>
+                        <hi rend="pmaj">Bourré.</hi>
+                    </p>
+                    <p>A noz chiers et bien amez les conseilliers de la ville de Lyon. </p>
+                </body>
+            </text>
+            <text n="629">
+                <pb n="324"/>
+                <front>
+                    <head>
+                        <hi rend="gras"> AU GRAND MAITRE (D.).</hi>
+                    </head>
+                    <docDate> Montils-lès-Tours, 18 mai 1472.</docDate>
+                    <docEdition>Orig. Bibl. nat., Fr. 2913, fol. 62. Copie du temps. Clairambault,
+                        Mélanges, 481, fol. 283 vo.</docEdition>
+                </front>
+                <body>
+                    <pb n="325"/>
+                    <p> Monseigneur le grant maistre, depuis les derrenieres lettres que je vous ay
+                        escriptes, j'ay eu nouvelles que monseigneur de Guienne se meurt, et qu'il
+                        n'y a point de remede en son fait; et le m'a fait savoir ung des plus privez
+                        qu'il ait avecques lui, par homme exprès, et ne croyt pas, ainsi qu'il dit,
+                        qu'il soit vif à XV jours d'icy, au plus qu'on le puisse mener. S'il m'en
+                        vient autres nouvelles, incontinent les vous feray savoir.</p>
+                    <p>Le seneschal d'Agenaiz est ici; je lui ay appoincté son estat en maniere que
+                        je croy qu'il est bien content.</p>
+                    <p>Afin que soiez seur de celui qui m'a fait savoir les <pb n="326"/> nouvelles,
+                        c'est le moyne qui dit les heures avecques monseigneur de <corr
+                            resp="editor" n="G" rend="G[uyenne]">Guyenne</corr>, dont je me suis
+                        fort esbay, et m'en suis seigné depuis la teste jusques aux piez. Adieu.
+                        Escript aux Montilz lez Tours, le XVIII <hi rend="exp">e</hi> jour de may.</p>
+                    <p>
+                        <hi rend="pmaj">Loys.</hi>
+                    </p>
+                    <p>
+                        <hi rend="pmaj">Tilhart.</hi>
+                    </p>
+                    <p>A nostre chier et amé cousin le conte de Dampmartin, grant maistre d'ostel de
+                        France. </p>
+                </body>
+            </text>
+            <text n="634">
+                <pb n="333"/>
+                <front>
+                    <head>
+                        <hi rend="gras">AU DUC DE MILAN (v.). </hi>
+                    </head>
+                    <docDate>Juin 1472.</docDate>
+                    <docEdition>Orig. autogr. Bibl. nat., Fonds ital. (Archivio Sforzesco) 1591,
+                        fol. 354. Commun. par M. Bruel.</docEdition>
+                </front>
+                <body>
+                    <p> Mon frere, je me recommande à vous; j'ay receu voz lettres et la
+                        protestacion que m'avez envoiée, par laquelle vous renonciez à la nomination
+                        que le duc de Bourgoigne a fait de vous ès treves derrenieres prinses entre
+                        moy et luy, dont, mon frere, je vous remercye tant que je puys; et m'avez
+                        monstré, par effet, la bonne amour que avez à moy, et vous tenez seur que,
+                        de ma part, jamès l'alyance de vous et moy ne fauldra; et, quand besoing
+                        seroit, le vous vouldroye monstrer par effect, ainsy que je vous escriz plus
+                        au long par mes autres lettres. A Dieu, mon frere, qui vous ait en sa sainte
+                        garde. Escript de ma mayn.</p>
+                    <p>
+                        <hi rend="pmaj">Loys.</hi>
+                    </p>
+                    <p>A mon frere le duc de Millan. </p>
+                </body>
+            </text>
+        </group>
+    </text>
+</TEI>

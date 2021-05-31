@@ -1,0 +1,559 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">Les Odes</title>
+                <title type="sub"/>
+                <title type="short">Ronsard.Odes</title>
+                <author>
+                    <persName>
+                        <surname>Ronsard</surname>
+                        <forename>Pierre de</forename>
+                    </persName>
+                </author>
+                <editor>Modéliser le changement, les voies du français GTRC/CRSH</editor>
+                <principal>
+                    <persName>France Martineau</persName>
+                </principal>
+                <funder>
+                    <orgName>Université d'Ottawa</orgName>
+                    <orgName>Conseil de recherche en sciences humaines du Canada</orgName>
+                </funder>
+                <respStmt>
+                    <resp>Codage</resp>
+                    <persName xml:id="Labelle">Simon-Pier Labelle-Hogue</persName>
+                    <persName xml:id="Brazeau">Stéphanie Brazeau</persName>
+                    <persName xml:id="Martineau">France Martineau</persName>
+                </respStmt>
+            </titleStmt>
+            <extent>3321</extent>
+            <publicationStmt>
+                <date when="2009-11-09"/>
+                <distributor>
+                    <orgName>Modéliser le changement : les voies du français GTRC/CRSH</orgName>
+                    <address>
+                        <addrLine>60, rue Université</addrLine>
+                        <addrLine>Ottawa, Ontario</addrLine>
+                        <addrLine>K1N 6N5</addrLine>
+                        <addrLine>Tél : 613-562-5797</addrLine>
+                        <addrLine>Fax : 613-562-5981</addrLine>
+                        <addrLine><email>fmartin@uottawa.ca</email></addrLine>
+                        <addrLine>http://www.voies.uottawa.ca/</addrLine>                        
+                    </address>
+                </distributor>
+                <availability status="restricted">
+                    <p>(c) Modéliser le changement : les voies du français (CRSH/GTRC, dirigé par F.
+                        Martineau)</p>
+                    <p>Les Corpus MCVF demeurent la propriété du projet Modéliser le changement : les voies du
+                        français. Les références à ces Corpus devraient apparaître ainsi : Corpus MCVF,
+                        Modéliser le changement : les voies du français (F. Martineau (dir.), U. d’Ottawa).Tous
+                        les documents du Corpus MCVF ne peuvent être divulgués à de tierces parties sans
+                        l’autorisation préalable de la Directrice du Projet </p>
+                    <p>Pour tout autre usage, contacter : <persName>France Martineau</persName>
+                        <orgName>Modéliser le changement : les voies du français, Université d'Ottawa</orgName>
+                        <email>fmartin@uottawa.ca</email></p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <biblStruct type="Source_publique">
+                    <monogr>
+                        <author>
+                            <persName>
+                                <surname>Ronsard</surname>
+                                <forename>Pierre de</forename>
+                            </persName>
+                        </author>
+                        <editor>
+                            <persName>
+                                <surname>Lamonier</surname>
+                                <forename>Paul</forename>
+                            </persName>
+                        </editor>
+                        <title>Oeuvres complètes I</title>
+                        <title type="sub">Odes et Bocage de 1550, précédés des premières poésies, 1547-1549</title>
+                        <imprint>
+                            <pubPlace>Genève</pubPlace>
+                            <publisher>Droz</publisher>
+                            <date when="1963">1963</date>
+                        </imprint>
+                    </monogr>
+                    <series/>
+                </biblStruct>
+                <biblStruct type="Princeps">
+                    <monogr>
+                        <author>
+                            <persName>
+                                <surname>Ronsard</surname>
+                                <forename>Pierre de</forename>
+                            </persName>
+                        </author>
+                        <editor>
+                            <persName>
+                                <surname/>
+                                <forename/>
+                            </persName>
+                        </editor>
+                        <title>Les Quatre premiers livres des Odes de Pierre de Ronsard, Vandomois.</title>
+                        <title type="sub">Ensemble son Bocage.</title>
+                        <imprint>
+                            <pubPlace>Paris</pubPlace>
+                            <publisher>
+                                <orgName>Imprimerie Guillaume Cavellart</orgName>
+                                <persName>
+                                    <surname>Cavellart</surname>
+                                    <forename>Guillaume</forename>
+                                </persName>
+                            </publisher>
+                            <date when="1550">1550</date>
+                        </imprint>
+                    </monogr>          
+                </biblStruct>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement/>
+                        <repository/>
+                        <collection/>
+                        <idno/>
+                        <msName/>
+                    </msIdentifier>
+                    <history>
+                        <origin>
+                            <origPlace/>
+                            <origDate/>
+                        </origin>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Projet : Modéliser le changement les voies du français (GTRC/CRSH) <lb/>Resp. :
+                    <persName>France Martineau</persName> Institution : Département de français, Université
+                    d'Ottawa
+                    <address>
+                        <addrLine>60, rue Université</addrLine>
+                        <addrLine>Ottawa, Ontario</addrLine>
+                        <addrLine>K1N 6N5</addrLine>
+                        <addrLine>Tél : 613-562-5797</addrLine>
+                        <addrLine>Fax : 613-562-5981</addrLine>
+                        <addrLine><email>fmartin@uottawa.ca</email></addrLine>
+                        <addrLine>www.voies.uottawa.ca</addrLine>                        
+                    </address></p>
+            </projectDesc>
+            <editorialDecl>
+                <p>Voir le manuel d'annotation TEI au http://www.voies.uottawa.ca</p>
+                <p>L'édition de référence a été respectée quant à l'orthographe, la ponctuation, la mise en
+                    page et la pagination. Cependant, la césure des mots en fin de lignes (ou de pages) a été
+                    supprimée, le mot est placé dans la ligne ou la page où il commence. </p>
+                <p>Les paragraphes sont notés par P pour la prose. Pour les vers, P rend="gv" indique que le
+                    paragraphe est constitué d'un groupe de vers. </p>
+                <p> Les débuts des vers sont encodés par LB. Cette balise peut également servir dans les
+                    textes en prose à indiquer les débuts des lignes selon la pagination de l'édition. </p>
+                <p>Les changements de pages sont indiqués par la balise PB</p>
+                <p>Le corps du texte est obligatoirement compris dans le BODY. Le FRONT contenant le titre
+                    et/ou le prologue et le BACK (explicit) sont facultatifs et ne sont mis qu'au besoin. </p>
+                <p>Les différentes parties du texte (livre, chapitre...) sont encodées par DIV, auquel
+                    s'ajoute l'attribut TYPE qui spécifie sa nature. </p>
+                <p>Les paragraphes (P), lignes (LB) et pages (PB) de même de certaines divisions (DIV) sont
+                    ou peuvent être numérotés par l'attribut N s'ils le sont dans l'édition. </p>
+                <p>Quelques commentaires ou corrections ont été introduits à l'aide de la balise NOTE, CORR
+                    ou SIC. </p>
+                <p>Les discours directs et les citations ont été encodés par la balise Q. Cette balise est
+                    mise à chaque fois que des guillemets sont utilisés dans l'édition. </p>
+                <p>L'élément FOREIGN indique un passage en latin qui est noté en italique dans l'édition,
+                    les occurrences non en italique sont signalées par l'attribut ROMAIN. </p>
+                <p>Les folios sont notés par la balise <tag>pb rend="folio"</tag></p>
+                <p>Les notes de bas de pages ont été retirées. </p>
+                <p>Les paragraphes entièrement en latin ont été retirés, une balise P et une NOTE les
+                    signalent. </p>
+                <p>Note spécifique au texte ci-dessous: Aucune.</p>
+            </editorialDecl>
+            <samplingDecl><p>Pages 43-59</p></samplingDecl>
+        </encodingDesc>
+        <profileDesc>
+            <creation>
+                <date notBefore="1547" notAfter="1550"/>
+                <placeName>Vendômois</placeName>
+            </creation>
+            <langUsage>
+                <language ident="fr"/>
+            </langUsage>
+            <textDesc>
+                <channel/>
+                <constitution>Texte intégral</constitution>
+                <derivation/>
+                <domain/>
+                <factuality/>
+                <interaction/>
+                <preparedness/>
+                <purpose/>
+            </textDesc>
+            <textClass>
+                <keywords scheme="GTRC">
+                    <list>
+                        <item n="domaine">Littéraire</item>
+                        <item n="genre">Essai</item>
+                        <item n="forme">Prose</item>
+                        <item n="docRegion1">France</item>
+                        <item n="docRegion2">France Centre</item>
+                        <item n="docRegion3">Orléans</item>
+                        <item n="auteurRegion1">France</item>
+                        <item n="auteurRegion2">France Centre</item>
+                        <item n="auteurRegion3">Orléans</item>
+                        <item n="auteurSexe">Homme</item>
+                        <item n="occupation">Érudit</item>
+                        <item n="scribeRegion1"/>
+                        <item n="scribeRegion2"/>
+                        <item n="scribeRegion3"/>
+                        <item n="imprimeurRegion1">France</item>
+                        <item n="imprimeurRegion2">France Centre</item>
+                        <item n="imprimeurRegion3">Île-de-France</item>
+                    </list>
+                </keywords>
+                <classCode scheme="Indice de Dees"/>
+            </textClass>
+            <particDesc>
+                <listPerson>
+                    <person role="auteur">
+                        <persName>
+                            <surname>Ronsard</surname>
+                            <forename>Pierre de</forename>
+                        </persName>
+                        <birth>
+                            <date when="1524">Septembre 1524</date>
+                            <placeName>Manoir de la Possonière, Vendômois</placeName>
+                        </birth>
+                    </person>
+                    <person role="scribe">
+                        <persName>
+                            <surname/>
+                            <forename/>
+                        </persName>
+                        <birth/>
+                    </person>
+                    <person role="imprimeur"/>
+                </listPerson>
+            </particDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2009-03-31" who="#Martineau">Correction de l'en-tête et correction du codage</change>
+            <change when="2009-03-31" who="#Labelle">En-tête et correction du codage</change>
+            <change when="2005-11-10" who="#Brazeau">Correction du codage</change>
+            <change when="2005-11-10" who="#Brazeau">Relecture</change>
+            <change when="2005-08-08" who="#Brazeau">Codage</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="préface" n="1">
+                <pb n="43"/>
+                <head>AU LECTEUR</head>
+                <p> Si les hommes tant des siecles passés que du nostre, ont merité quelque louange
+                    pour avoir piqué diligentement aprés les traces de ceus qui courant par la
+                    carriere de leurs inventions, ont de bien loin franchi la borne : combien
+                    davantage doit on vanter le coureur, qui galopant librement par les campaignes
+                    Attiques, <abbr type="ligature">et</abbr> Romaines osa tracer un sentier inconnu
+                    pour aller à l’immortalité? Non que je soi, lecteur, si gourmand de gloire, ou
+                    tant tormenté d’ambitieuse presumption, que je te vueille forcer de me bailler
+                    ce que le tens, peut estre, me donnera (tant s’en faut, que c’est la moindre
+                    affection que j’aie, de me voir pour si peu de frivoles jeunesses estimé). Mais
+                    quand tu m’appelleras le premier auteur Lirique François, <abbr type="ligature"
+                        >et</abbr> celui qui a guidé les autres au chemin de si honneste labeur,
+                    lors tu me rendras ce que tu me dois, <abbr type="ligature">et</abbr> je
+                    m’efforcerai te faire apprendre qu’en vain je ne l’aurai receu. Bien que la
+                    jeunesse soit tousjours elongnée de toute studieuse occupation pour les plaisirs
+                    voluntaires qui la maistrisent : si est ce que des mon enfance j’ai tousjours
+                    estimé l’estude des bonnes lettres, l’heureuse <pb n="44"/> felicité de la vie,
+                        <abbr type="ligature">et</abbr> sans laquelle on doit desesperer ne pouvoir
+                    jamais attaindre au comble du parfait contentement. Donques desirant par elle
+                    m’approprier quelque louange, encores non connue, ni atrapée par mes devanciers,
+                        <abbr type="ligature">et</abbr> ne voiant en nos Poëtes François, chose qui
+                    fust suffisante d’imiter : j’allai voir les étrangers, <abbr type="ligature"
+                    >et</abbr> me rendi familier d’Horace, contrefaisant sa naive douceur, des le
+                    méme tens que Clement Marot (seulle lumiere en ses ans de la vulgaire poësie) se
+                    travailloit à la poursuite de son Psautier, <abbr type="ligature">et</abbr> osai
+                    le premier des nostres, enrichir ma langue de ce nom Ode, comme l’on peut veoir
+                    par le titre d’une imprimée sous mon nom dedans le livre de Jaques Peletier du
+                    Mans, l’un des plus excelens Poëtes de nostre âge, affin que nul ne s’atribue ce
+                    que la verité commande estre à moi. Il est certain que telle Ode est imparfaite,
+                    pour n’estre mesurée, ne propre à la lire, ainsi que l’Ode le requiert, comme
+                    sont encores douze, ou treze, que j’ai mises en mon Bocage, sous autre nom que
+                    d’Odes, pour cette méme raison, servans de temoignage par ce vice, à leur
+                    antiquité. Depuis aiant fait quelques uns de mes amis participans de telles
+                    nouvelles inventions, <pb n="45"/> approuvants mon entreprise, se sont
+                    diligentés faire apparoistre combien nostre France est hardie, <abbr
+                        type="ligature">et</abbr> pleine de tout vertueus labeur, laquelle chose
+                    m’est aggreable pour veoir, par mon moien, les vieus Liriques, si heureusement
+                    resuscités. Tu jugeras incontinant, Lecteur, que je suis un vanteur, <abbr
+                        type="ligature">et</abbr> glouton de louange : mais si tu veus entendre le
+                    vrai, je m’assure tant de ton accoustumée honnesteté, que non seulement tu me
+                    favoriseras, mais aussi quand tu liras quelques trais de mes vers, qui se
+                    pourroient trouver dans les oeuvres d’autrui, inconsiderément tu ne me diras
+                    imitateur de leurs écris, car l’imitation des nostres m’est tant odieuse
+                    (d’autant que la langue est encores en son enfance) que pour cette raison je me
+                    suis éloingné d’eus, prenant stile apart, sens apart, euvre apart, ne desirant
+                    avoir rien de commun avecq’ une si monstrueuse erreur. Donques m’acheminant par
+                    un sentier inconnu, <abbr type="ligature">et</abbr> monstrant le moien de suivre
+                    Pindare, <abbr type="ligature">et</abbr> Horace, je puis bien dire (<abbr
+                        type="ligature">et</abbr> certes sans vanterie) ce que lui-méme modestement
+                    témoigne de lui, <lb/><foreign>Libera per vacuum posui vestigia princeps,
+                        <lb/>Non aliena meo pressi pede.</foreign></p>
+                <p>Je fu maintesfois avecques prieres admonesté de mes amis faire imprimer ce mien
+                    petit labeur, <abbr type="ligature">et</abbr> maintesfois <pb n="46"/> j’ai
+                    refusé apreuvant la sentence de mon sententieus Auteur, <lb/><foreign>Nonumque
+                        prematur in annum.</foreign></p>
+                <p>Et mémement solicité par Joachim du Bellai, duquel le jugement, l’etude pareille,
+                    la longue frequentation, <abbr type="ligature">et</abbr> l’ardant desir de
+                    reveiller la Poësie Françoise avant nous foible, <abbr type="ligature">et</abbr>
+                    languissante (je excepte tousjours Heroet, Sceve, <abbr type="ligature"
+                    >et</abbr> Saint Gelais) nous a rendus presque semblables d’esprit,
+                    d’inventions, <abbr type="ligature">et</abbr> de labeur. Je ne te dirai point à
+                    present que signifie Strophe, Antistrophe, Epode (laquelle est tousjours
+                    differente du Strophe <abbr type="ligature">et</abbr> Antistrophe de nombre, ou
+                    de rime) ne quelle estoit la lire, ses coudes, ou ses cornes : aussi peu si
+                    Mercure la façonna de l’escaille d’une tortue, ou Polypheme des cornes d’un cerf
+                    atachant les cordes aus cornes du cerf, le creus de la teste servant de
+                    concavité resonante : en quel honneur estoient jadis les Poëtes liriques, comme
+                    ils accordoient les guerres emeues entre les Rois, <abbr type="ligature"
+                    >et</abbr> quelle somme d’argent ils prenoient pour louer les hommes : je tairai
+                    comme Pindare faisoit chanter les hinnes écris à la louange des vainqueurs
+                    Olympiens, Pithiens, Nemeans, Isthmiens. Je reserve tout ce discours <pb n="47"
+                    /> à un meilleur loisir : si je voi que telles choses meritent quelque breve
+                    exposition, ce ne me sera labeur de te les faire entendre, mais plaisir,
+                    t’assurant que je m’estimerai fortuné, aiant fait diligence qui te soit
+                    agreable. Je ne fai point de doute que ma Poësie tant varie ne semble facheuse
+                    aus oreilles de nos rimeurs, <abbr type="ligature">et</abbr> principalement des
+                    courtizans, qui n’admirent qu’un petit sonnet petrarquizé, ou quelque mignardise
+                    d’amour qui continue tousjours en son propos : pour le moins, je m’assure qu’ils
+                    ne me sçauroient accuser, sans condamner premierement Pindare auteur de telle
+                    copieuse diversité, <abbr type="ligature">et</abbr> oultre que c’est la sauce, à
+                    laquelle on doit gouster l’Ode. Je suis de cette opinion que nulle Poësie se
+                    doit louer pour acomplie, si elle ne ressemble la nature, inconstante, <abbr
+                        type="ligature">et</abbr> variable en ses perfections. Il ne faut aussi que
+                    le volage lecteur me blâme de trop me louer, car s’il n’a autre argument pour
+                    médire que ce point là, ou mon orthographe, tant s’en faut que je prenne égard à
+                    tel ignorant, que ce me sera plaisir de l’ouir japper, <abbr type="ligature"
+                    >et</abbr> caqueter, aiant pour ma deffence l’exemple de tous les Poëtes Grecs
+                        <abbr type="ligature">et</abbr> Latins. Et pour parler rondement, ces petis
+                    lecteurs Poëtastres, qui ont les yeus si agus à noter les frivoles fautes
+                    d’autrui, le blâmant pour un A, mal écrit, pour une rime non riche, ou un point
+                    superflu, <pb n="48"/>
+                    <abbr type="ligature">et</abbr> bref pour quelque legere faute survenue en
+                    l’impression, montrent evidemment leur peu de jugement, de s’attacher à ce qui
+                    n’est rien, laissant couler les beaus mots sans les louer, ou admirer. Pour
+                    telle vermine de gens ignorantement envieuse ce petit labeur n’est publié, mais
+                    pour les gentils espris, ardans de la vertu, <abbr type="ligature">et</abbr>
+                    dedaignans mordre comme les mâtins la pierre qu’ils ne peuvent digerer. Certes
+                    je m’assure que tels debonnaires lecteurs ne me blâmeront, moi de me louer
+                    quelque fois modestement, ni aussi de trop hautement celebrer les honneurs des
+                    hommes, favorisés par mes vers : car outre que ma boutique n’est chargée
+                    d’autres drogues que de louanges, <abbr type="ligature">et</abbr> d’honneurs,
+                    c’est le vrai but d’un poëte Liriq de celebrer jusques à l’extremité celui qu’il
+                    entreprend de louer. Et s’il ne connoist en lui chose qui soit dinne de grande
+                    recommandation, il doit entrer dans sa race, <abbr type="ligature">et</abbr> là
+                    chercher quelqu’un de ses aieus, jadis braves, <abbr type="ligature">et</abbr>
+                    vaillans : ou l’honnorer par le titre de son païs, ou de quelque heureuse
+                    fortune survenue soit à lui, soit aus siens, ou par autres vagabondes
+                    digressions, industrieusement brouillant ores ceci, ores cela, <abbr
+                        type="ligature">et</abbr> par l’un louant l’autre, tellement que tous deus
+                    se sentent d’une méme louange. Telles inventions encores te ferai-je veoir dans
+                    mes autres livres, où tu pourras (si les Muses me favorisent comme j’espere)
+                    contempler de plus prés les saintes conceptions de Pindare, <abbr
+                        type="ligature">et</abbr> ses admirables inconstances, que le tens nous
+                    avoit si longuement celées, <abbr type="ligature">et</abbr> ferai encores
+                    revenir (si je puis) l’usage de la lire aujourdui resuscitée en Italie, laquelle
+                    lire seule doit <abbr type="ligature">et</abbr> peut animer les vers, <abbr
+                        type="ligature">et</abbr> leur donner le juste poix de leur gravité :
+                    n’affectant pour ce livre ici <pb n="49"/> aucun titre de reputation, lequel ne
+                    t’est laché que pour aller découvrir ton jugement, affin de t’envoier aprés un
+                    meilleur combatant, au moins si tu ne te faches dequoi je me travaille faire
+                    entendre aus étrangers que nostre langue (ainsi que nous les surpassons en
+                    prouesses, en foi, <abbr type="ligature">et</abbr> religion) de bien loin
+                    devanceroit la leur, si ces fameus Sciamaches d’au jourdhui vouloient prendre
+                    les armes pour la defendre, <abbr type="ligature">et</abbr> victorieusement la
+                    pousser dans les païs étrangers. Mais que doit-on esperer d’eus? lesquels étants
+                    parvenus plus par opinion, peut estre, que par raison, ne font trouver bon aus
+                    princes sinon ce qu’il leur plaist : <abbr type="ligature">et</abbr> ne pouvants
+                    souffrir que la clarté brusle leur ignorance, en medisant des labeurs d’autrui
+                    deçoivent le naturel jugement des hommes abusés par leurs mines. Tel fut jadis
+                    Bacchylide à l’entour d’Hieron Roi de Sicile tant notté par les vers de Pindare
+                    : <abbr type="ligature">et</abbr> tel encores fut le sçavant envieus Challimaq
+                    impatient <pb n="50"/> d’endurer qu’un autre flattast les oreilles de son Roi
+                    Ptolémée, medisant de ceus qui tâchoient comme lui de gouter les mannes de la
+                    roialle grandeur. Bien que telles gens foisonnent en honneurs, <abbr
+                        type="ligature">et</abbr> qu’ordinerement on les bonnette, pour avoir
+                    quelque titre de faveur : si mourront ils sans renom, <abbr type="ligature"
+                    >et</abbr> reputation, <abbr type="ligature">et</abbr> les doctes folies de
+                    poëtes survivront les innombrables siecles avenir, criants la gloire des princes
+                    consacrés par eus à l’immortalité.</p>
+            </div>
+            <div type="préface" n="2">
+                <head>AVERTISSEMENT AU LECTEUR</head>
+                <p>J’avoi deliberé, lecteur, suivre en l’orthographe de mon livre, la plus grand
+                    part des raisons de Louis Meigret, homme de sain <abbr type="ligature">et</abbr>
+                    parfait jugement, qui a le premier osé desseiller ses yeus pour voir l’abus de
+                    nostre écriture, sans l’avertissement de mes amis, plus studieus de mon renom,
+                    que de la verité : me paignant au <pb n="51"/> devant des yeus, le vulgaire,
+                    l’antiquité, <abbr type="ligature">et</abbr> l’opiniatre avis de plus celebrés
+                    ignorans de nostre tens : laquelle remontrance ne m’a tant sçeu epovanter, que
+                    tu n’i voies encores quelques merques de ses raisons. Et bien qu’il n’ait
+                    totalement raclé la lettre Grecque y, comme il devoit, je me suis hazardé de
+                    l’effacer, ne la laissant servir sinon aus propres noms grecs, comme en Tethys,
+                    Thyeste, Hippolyte, Ulysse, affin qu’en les voiant, de prime face on connoisse
+                    quels ils sont, <abbr type="ligature">et</abbr> de quel païs nouvellement venus
+                    vers nous, non pas en ces vocables abime, Cigne, Nimphe, lire, sire (qui vient
+                    comme l’on dit de <foreign xml:lang="grc"/> changeant la lettre <foreign
+                        xml:lang="grc"/> en <foreign xml:lang="grc"/> ) lesquels sont déjà
+                    reçeus entre nous pour François, sans les marquer de cét epovantable crochet
+                    d’y, ne sonnant non plus en eus que nostre I en ire, simple, nice, lime. Bref je
+                    suis d’opinion (si ma raison a quelque valeur) lors que tels mots grecs auront
+                    long tens demeuré en France, les reçevoir en nostre mégnie, puis les merquer de
+                    l’I François, pour montrer qu’ils sont nostres, <abbr type="ligature">et</abbr>
+                    non plus inconnus étrangers : car qui est celui qui ne jugera incontinent que
+                    Sibille, Cibele, Cipris, Ciclope, Nimphe, Lire, ne soient naturellement Grecs,
+                    ou pour le moins étrangers, puis adoptés en la famille des François, sans les
+                    marquer de tel epovantail de Pythagore? Tu dois sçavoir que un peu devant le
+                    siecle d’Auguste la lettre grecque y, étoit inconnue aus Rommains, comme l’on
+                        <pb n="52"/> peut voir par toutes les comedies de Plaute, où totalement tu
+                    le voiras outé, ne se servant point d’un charactere étranger dans les noms
+                    adoptés, comme Amphitruon pour Amphitryon. Et si tu me dis qu’anciennement ils
+                    prononçoient la lettre y comme aujourdhui nous faisons sonner nostre U latin, il
+                    faut donques que tu le prononces encores ainsi, disant Cubele, pour Cybele. Mais
+                    je te veil dire d’avantage, que l’y n’a pas été tant affecté des Latins (ainsi
+                    qu’assurent nos docteurs) pour le retenir comme enseigne en tous les vocables
+                    des Grecs tournés par eus en leur langue, mais ils l’ont ordinerement
+                    transformé, ores en U comme <foreign xml:lang="grc"/> mus, ores en A <foreign
+                        xml:lang="grc"/> canis, ores en O <foreign xml:lang="xml"/> somnus, tournant
+                    l’esprit aspre notté sur <foreign xml:lang="grc"/> en S, comme étoit presque
+                    leur vieille coutume, avant que l’aspiration H fut trouvée. Je t’ai bien voulu
+                    admonnester de ceci, pour te montrer que tant s’en faut qu’il faille écrire nos
+                    mots François par l’y, que nous le pouvons bien oter suivant ce que j’ai dit
+                    hors du nom naturel, pourveu qu’il soit usité en nostre langue : <abbr
+                        type="ligature">et</abbr> si les Latins le retiennent en quelques lieus,
+                    c’est plus pour montrer l’origine de leur quantité, que pour besoin qu’ils en
+                    aient. S’il avient que nos modernes sçavants se vueillent travailler d’inventer
+                    des dactyles, <abbr type="ligature">et</abbr> spondées en nos vers vulgaires,
+                    lors à l’imitation des Latins nous le pourrons retenir dans les noms venus des
+                    Grecs, pour montrer la méme quantité de leur origine. Et si tu le vois encores
+                    en ce mot yeus seulement, saiche que pour les raisons dessus mentionnées,
+                    obeissant à mes amis, je l’ai laissé maugré moi, pour remedier à l’erreur <pb
+                        n="53"/> auquel pourroient tumber nos scrupuleus vieillars, aiant perdu leur
+                    merque en la lecture de yeus, <abbr type="ligature">et</abbr> de ieus : te
+                    supliant, lecteur, vouloir laisser en mon livre la lettre I en sa naïve
+                    signification, ne la depravant point, soit qu’elle commance la diction, ou
+                    qu’elle soit au meilleu de deus voielles, ou à la fin du vocable, sinon en
+                    quelques mots, comme en ie, en ieus, iugement, ieunesse, <abbr type="ligature"
+                        >et</abbr> autres, où abusant de la voielle I, tu le liras pour I consonne,
+                    inventé par Meigret, atendant que tu reçevras cette merque d’I consonne, pour
+                    restituer l’I voielle, en sa premiere liberté. Quand aus autres diphthongues, je
+                    les ai laissées en leur vieille corruption, avecques insuportables entassemens
+                    de lettres, sinne de nostre ignorance, <abbr type="ligature">et</abbr> de peu de
+                    jugement, en ce qui est si manifeste <abbr type="ligature">et</abbr> certain :
+                    estant satisfait d’avoir déchargé mon livre pour cette heure, d’une partie de
+                    tel faix : atandant que nouveaus characteres seront forgés pour les syllabes, Il
+                    gn ch <abbr type="ligature">et</abbr> autres. Quand à la syllabe ph, il ne nous
+                    faut autre notte que nostre F, qui sonne autant entre nous que <foreign
+                        xml:lang="grc"/> entre les Grecs, comme manifestement tu peus voir par
+                    ce mot <foreign xml:lang="grc"/> feille. Et si tu m’accuses d’estre trop inconstant
+                    en l’orthographe de ce livre, écrivant maintenant espée, épée, accorder,
+                    acorder, vétu, vestu, espandre, épandre, blasmer, blâmer, tu t’en dois collerer
+                    contre toi mémes, qui me fais estre ainsi, cherchant tous les moiens que je puis
+                    de servir aus oreilles du sçavant, <abbr type="ligature">et</abbr> aussi pour
+                    acoutumer le vulgaire à ne regimber contre <pb n="54"/> l’éguillon, lors que on
+                    le piquera plus rudement, montrant par cette inconstance, que si j’estoi reçeu
+                    en toutes les saines oppinions de l’orthographe, tu ne treuverois en mon livre
+                    presque une seulle forme de l’escriture que sans raison tu admires tant.
+                    T’assurant qu’à la seconde impression je ne ferai si grand tort à ma langue que
+                    de laisser étrangler une telle verité, sous couleur de vain abus. Aussi tu ne
+                    treuveras facheus si j’ai quelques fois changé la lettre E en A, <abbr
+                        type="ligature">et</abbr> A en E <abbr type="ligature">et</abbr> bien
+                    souvent, ôtant une lettre d’un mot, ou la lui adjoutant, pour faire ma rime plus
+                    sonoreuse ou parfaite : certes telle licence a tousjours été concedée aus poëmes
+                    de longue alaine, ou de mediocre vertu, pourveu qu’elle soit rarement usurpée,
+                    non à ces rimes vulgaires, orphelines de la vraie humeur poëtique. Et si
+                    quelq’un par curieuse opinion plus tost que par raison se colere contre telle
+                    honteuse liberté, il doit apprendre qu’il est ignorant de sa langue, ne sentant
+                    point que E est fort voisine de la lettre A, voire tel que souvent sans i penser
+                    nous les confondons naturellement, comme en vent, vant, <abbr type="ligature"
+                    >et</abbr> autres infinis : <abbr type="ligature">et</abbr> s’il ne se contente
+                    de ces raisons, qu’il regarde la liberté des Grecs, <abbr type="ligature"
+                    >et</abbr> Latins, qui muent, <abbr type="ligature">et</abbr> changent, changent
+                        <abbr type="ligature">et</abbr> remuent les lettres ainsi qu’il leur plaist,
+                    pour obeir au son, ou à la forçente loi de leurs vers, comme <foreign
+                        xml:lang="grc"/> pour <foreign xml:lang="grc"/>, <foreign>olli</foreign> pour
+                        <foreign>illi</foreign>. Si <pb n="55"/> telles libertés n’ont lieu en
+                    nostre langue, qui est celui qui voudroit se travailler à labourer un champ tant
+                    ingrat <abbr type="ligature">et</abbr> inutile? Au surplus, lecteur, tu ne seras
+                    émerveillé si je redi souvent mémes mots, mémes sentences, <abbr type="ligature"
+                        >et</abbr> mémes trais de vers, en cela imitateur des poëtes Grecs, <abbr
+                        type="ligature">et</abbr> principalement d’Homere, qui jamais, ou bien peu
+                    ne change un bon mot, ou quelque trac de bons vers, quand une fois il se l’est
+                    fait familier. Je parle à ceus qui miserablement épient le moien pour blasonner
+                    les écris d’autrui, courroussés peut estre, pour m’ouir souvent redire, le miel
+                    de mes vers, les ailes de mes vers, l’arc de ma muse, mes vers sucrés, un trait
+                    ailé, empaner la memoire, l’honneur alteré des cieus, <abbr type="ligature"
+                    >et</abbr> autres semblables atomes, par lesquels j’ai composé le petit monde de
+                    mes inventions. Quand tels Grimmaus ne reprennent d’un poëme que telles choses,
+                    ou (comme j'ai desja dit) quelque petit mot, non richement rimé, ou une virgule
+                    pour un point, ou l’orthographe, lors le Poëte se doit assurer d’avoir bien dit,
+                    voire de la victoire, puis que ses adversaires mal embatonnés, le combatent si
+                    foiblement.</p>
+                <p>
+                    <hi rend="gras">FIN</hi>
+                </p>
+            </div>
+            <pb n="56"/>
+            <note resp="encoder">Insertion d'un sonnet. Non reproduit.</note>
+            <div type="préface" n="3">
+                <pb n="57"/>
+                <head>SURAVERTISSEMENT AU LECTEUR</head>
+                <p>Depuis l’achevement de mon livre, Lecteur, j’ai entendu que nos consçiencieus
+                    poëtes ont trouvé mauvais de quoi je parle (comme ils disent) mon Vandomois,
+                    écrivant ores charlit, ores nuaus, ores ullent, <abbr type="ligature">et</abbr>
+                    plusieurs autres mots que je confesse veritablement sentir mon terroi. Mais
+                    d’autant qu’ils n’ont point de raisons suffisantes, je ne daigneroi gaster
+                    l’encre pour leur faire entendre leur peu de verité. T’avertissant seullement de
+                    ne suivre l’erreur de telle grasse ignorence, mais fortifié de la raison qui me
+                    favorise, ne te laisser piper par leurs songes <abbr type="ligature">et</abbr>
+                    vaines bourdes. Car tant s’en faut que je refuze les vocables Picards, Angevins,
+                    Tourangeaus, Mansseaus, lors qu’ils expriment un mot qui defaut en nostre
+                    François, que si j’avoi parlé le naif dialecte de Vandomois, je ne m’estimeroi
+                    bani pour cela d’eloquence des Muses, <pb n="58"/> imitateur de tous les poëtes
+                    Grecs qui ont ordinerement écrit en leurs livres le propre langage de leurs
+                    nations, mais par sur tous Theocrit qui se vante n’avoir jamais attiré une Muse
+                    étrangere en son pais. <foreign xml:lang="grc"/>. Quand à ce mot charlit, qu’ils
+                    reprennent tant, si l’on veut de bien pres regarder l’etymologie, tu le
+                    trouveras meilleur que chalit, <abbr type="ligature">et</abbr> plus antique
+                    François comme sentant encores le vieil age auquel nos premiers devanciers
+                    erroient çà <abbr type="ligature">et</abbr> là, portant leurs lis sur des chars,
+                    comme les Scythes, <abbr type="ligature">et</abbr> ceus qui habitent une partie
+                    de l’Afrique : encores aujourdui voit on en la plus grande part des maisons
+                    champestres les lis estre faits à roue, pour estre plus glissans, <abbr
+                        type="ligature">et</abbr> faciles, à manier. Non que tel etymologie me
+                    plaise, ou qu’il soit necessité d’i avoir égard, ni en cestui-ci, ni aus autres
+                    : seulement j’ai bien voulu reboucher un peu les dens de ces abboieurs par telle
+                    derivation, affin qu’une autrefois ils ne soient si pronts à les afiller contre
+                    celui qui ne les pourroit ouir gronder, sans les pelisser par raisons plus
+                    fortes, que celles qu’ils auroient mises en avant pour me rechigner ou me
+                    mordre. Au surplus lecteur, je te veil bien avertir de ce verbe je va, tu vas,
+                    il vat, en lieu de dire je voi, tu vas, il va, lequel j’ai forgé au patron de je
+                    ba, tu bas, il bat, car en lieu que l’un estoit irregulier, tu en auras un autre
+                    mieus forgé, <abbr type="ligature">et</abbr> plus François, qui est la seule
+                    touche sur laquelle tu dois examiner tes vocables sans les faire monstrueus,
+                        <abbr type="ligature">et</abbr> mal ordonnéz : comme jadis estoit ce mot <pb
+                        n="59"/> hymne, que j’ai refondu dedans la propre forge Françoise, le
+                    finissant par nostre propre terminaizon inne, rimant hinne sur divine, benine,
+                    dinne, outant le g superflu : <abbr type="ligature">et</abbr> si tu me dis qu’il
+                    estoit François au paravant, je te répon que c’estoit un monstre, <abbr
+                        type="ligature">et</abbr> geant, pour n’avoir une seule terminaizon
+                    semblable à la sienne, se finissant en mne : <abbr type="ligature">et</abbr> si
+                    tu en treuves quelque autre, lors j’avourai ta raison, ce pendant je ferai
+                    servir la mienne, qu’avecq’ le tens tu apreuveras, d’autant que c’est une regle
+                    generalle d’aproprier sur la terminaizon françoise tous les mots tirés des
+                    Italiens, Latins, <abbr type="ligature">et</abbr> des Grecs, pour l’ornement
+                        <abbr type="ligature">et</abbr> perfection de nostre langue.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

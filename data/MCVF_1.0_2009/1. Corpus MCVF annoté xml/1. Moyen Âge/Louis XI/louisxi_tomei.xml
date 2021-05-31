@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">Lettres de Louis XI, roi de France</title>
+                <title type="sub">Tome Ier (1438-1461)</title>
+                <title type="short">LouisXI.TomeI</title>
+                <author>
+                    <persName>
+                        <surname>Louis XI</surname>
+                        <forename/>
+                    </persName>
+                </author>
+                <editor>Modéliser le changement, les voies du français GTRC/CRSH</editor>
+                <principal>
+                    <persName>France Martineau</persName>
+                </principal>
+                <funder>
+                    <orgName>Université d'Ottawa</orgName>
+                    <orgName>Conseil de recherche en sciences humaines du Canada</orgName>
+                </funder>
+                <respStmt>
+                    <resp>Codage</resp>
+                    <persName xml:id="Fauchon">Caroline Fauchon</persName>
+                    <persName xml:id="Brazeau">Stéphanie Brazeau</persName>
+                    <persName xml:id="Labelle">Simon-Pier Labelle-Hogue</persName>
+                </respStmt>
+            </titleStmt>
+            <extent>461</extent>
+            <publicationStmt>
+                <date when="2008-11-03"/>
+                <publisher>
+                    <orgName>Modéliser le changement : les voies du français GTRC/CRSH</orgName>
+                    <address>
+                    <addrLine>60, rue Université</addrLine>
+                    <addrLine>Ottawa, Ontario</addrLine>
+                    <addrLine>K1N 6N5</addrLine>
+                    <addrLine>Tél : 613-562-5797</addrLine>
+                    <addrLine>Fax : 613-562-5981</addrLine>
+                    <addrLine><email>fmartin@uottawa.ca</email></addrLine>
+                    <addrLine>http://www.voies.uottawa.ca/</addrLine>                        
+                </address>
+                </publisher>
+                <distributor>
+                    <orgName>Modéliser le changement : les voies du français GTRC/CRSH</orgName>
+                    <address>
+                    <addrLine>60, rue Université</addrLine>
+                    <addrLine>Ottawa, Ontario</addrLine>
+                    <addrLine>K1N 6N5</addrLine>
+                    <addrLine>Tél : 613-562-5797</addrLine>
+                    <addrLine>Fax : 613-562-5981</addrLine>
+                    <addrLine><email>fmartin@uottawa.ca</email></addrLine>
+                    <addrLine>http://www.voies.uottawa.ca/</addrLine>                        
+                </address>
+                </distributor>
+                <availability status="restricted">
+                    <p>(c) Modéliser le changement : les voies du français (CRSH/GTRC, dirigé par F.
+                        Martineau)</p>
+                    <p>Les Corpus MCVF demeurent la propriété du projet Modéliser le changement :
+                        les voies du français. Les références à ces Corpus devraient apparaître
+                        ainsi : Corpus MCVF, Modéliser le changement : les voies du français (F.
+                        Martineau (dir.), U. d’Ottawa).Tous les documents du Corpus MCVF ne peuvent
+                        être divulgués à de tierces parties sans l’autorisation préalable de la
+                        Directrice du Projet </p>
+                    <p>Pour tout autre usage, contacter : <persName>France Martineau</persName>
+                        <orgName>Modéliser le changement : les voies du français, Université
+                            d'Ottawa</orgName>
+                        <email>fmartin@uottawa.ca</email></p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <biblStruct type="Source_publique">
+                    <monogr>
+                        <author>
+                            <persName>
+                                <surname>Louis XI</surname>
+                                <forename/>
+                            </persName>
+                        </author>
+                        <editor>
+                            <persName>
+                                <surname>Vaesen</surname>
+                                <forename>Joseph</forename>
+                            </persName>
+                            <persName>
+                                <surname>Charavay</surname>
+                                <forename>Étienne</forename>
+                            </persName>
+                        </editor>
+                        <title>Lettres de Louis XI, roi de France</title>
+                        <title type="sub">Tome I (1438-1461)</title>
+                        <imprint>
+                            <pubPlace>Paris</pubPlace>
+                            <publisher>Librairie Renouard</publisher>
+                            <date when="1883">1883</date>
+                        </imprint>
+                    </monogr>
+                    <series/>
+                </biblStruct>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Projet : Modéliser le changement les voies du français (GTRC/CRSH) <lb/>Resp. :
+                        <persName>France Martineau</persName> Institution : Département de français,
+                    Université d'Ottawa
+                    <address>
+                    <addrLine>60, rue Université</addrLine>
+                    <addrLine>Ottawa, Ontario</addrLine>
+                    <addrLine>K1N 6N5</addrLine>
+                    <addrLine>Tél : 613-562-5797</addrLine>
+                    <addrLine>Fax : 613-562-5981</addrLine>
+                    <addrLine><email>fmartin@uottawa.ca</email></addrLine>
+                    <addrLine>www.voies.uottawa.ca</addrLine>                        
+                </address></p>
+            </projectDesc>
+            <editorialDecl>
+                <p>Voir le manuel d'annotation TEI au http://www.voies.uottawa.ca</p>
+                <p>L'édition de référence a été respectée quant à l'orthographe, la ponctuation, la
+                    mise en page et la pagination. Cependant, la césure des mots en fin de lignes
+                    (ou de pages) a été supprimée, le mot est placé dans la ligne ou la page où il
+                    commence. </p>
+                <p>Les paragraphes sont notés par P pour la prose. Pour les vers, P rend="gv"
+                    indique que le paragraphe est constitué d'un groupe de vers. </p>
+                <p> Les débuts des vers sont encodés par LB. Cette balise peut également servir dans
+                    les textes en prose à indiquer les débuts des lignes selon la pagination de
+                    l'édition. </p>
+                <p>Les changements de pages sont indiqués par la balise PB</p>
+                <p>Le corps du texte est obligatoirement compris dans le BODY. Le FRONT contenant le
+                    titre et/ou le prologue et le BACK (explicit) sont facultatifs et ne sont mis
+                    qu'au besoin. </p>
+                <p>Les différentes parties du texte (livre, chapitre...) sont encodées par DIV,
+                    auquel s'ajoute l'attribut TYPE qui spécifie sa nature. </p>
+                <p>Les paragraphes (P), lignes (LB) et pages (PB) de même de certaines divisions
+                    (DIV) sont ou peuvent être numérotés par l'attribut N s'ils le sont dans
+                    l'édition. </p>
+                <p>Quelques commentaires ou corrections ont été introduits à l'aide de la balise
+                    NOTE, CORR ou SIC. </p>
+                <p>Les discours directs et les citations ont été encodés par la balise Q. Cette
+                    balise est mise à chaque fois que des guillemets sont utilisés dans l'édition. </p>
+                <p>L'élément FOREIGN indique un passage en latin qui est noté en italique dans
+                    l'édition, les occurrences non en italique sont signalées par l'attribut ROMAIN. </p>
+                <p>Les folios sont notés par la balise <tag>pb rend="folio"</tag></p>
+                <p>Les notes de bas de pages ont été retirées. </p>
+                <p>Les paragraphes entièrement en latin ont été retirés, une balise P et une NOTE
+                    les signalent. </p>
+                <p>Note spécifique au texte ci-dessous: Aucune.</p>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <creation>
+                <date notBefore="1438" notAfter="1461">De 1438 à 1461</date>
+            </creation>
+            <langUsage>
+                <language ident="frm"/>
+            </langUsage>
+            <textDesc>
+                <channel/>
+                <constitution>Extrait</constitution>
+                <derivation/>
+                <domain/>
+                <factuality/>
+                <interaction/>
+                <preparedness/>
+                <purpose/>
+            </textDesc>
+            <textClass>
+                <keywords scheme="GTRC">
+                    <list>
+                        <item n="domaine">Non littéraire</item>
+                        <item n="genre">Correspondance</item>
+                        <item n="forme">Prose</item>
+                        <item n="docRegion1">France</item>
+                        <item n="docRegion2"/>
+                        <item n="docRegion3"/>
+                        <item n="auteurRegion1">France</item>
+                        <item n="auteurRegion2">France Centre</item>
+                        <item n="auteurRegion3">Berry</item>
+                        <item n="auteurSexe">Homme</item>
+                        <item n="occupation">Noble</item>
+                        <item n="scribeRegion1"/>
+                        <item n="scribeRegion2"/>
+                        <item n="scribeRegion3"/>
+                        <item n="imprimeurRegion1"/>
+                        <item n="imprimeurRegion2"/>
+                        <item n="imprimeurRegion3"/>
+                    </list>
+                </keywords>
+                <classCode scheme="Indice de Dees"/>
+            </textClass>
+            <particDesc>
+                <listPerson>
+                    <person role="auteur">
+                        <persName>
+                            <surname>Louis XI</surname>
+                            <forename/>
+                        </persName>
+                        <birth>
+                            <date when="1423-07-03">1423-07-03</date>
+                            <placeName>Bourges, France</placeName>
+                        </birth>
+                    </person>
+                    <person role="scribe">
+                        <persName>
+                            <surname>Inconnu</surname>
+                            <forename/>
+                        </persName>
+                        <birth/>
+                    </person>
+                </listPerson>
+            </particDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2009-03-31" who="#Labelle">Vérification de l'en-tête</change>
+            <change when="2009-03-26" who="#Fauchon">Retour sur le codage et le header pour
+                regrouper toutes les lettres de Louis XI par volumes</change>
+            <change when="2009-03-19" who="#Fauchon">Vérification et correction du TEI et du header
+                d'après les normes du P5 et du schéma MCVF</change>
+            <change when="2008-11-03" who="#Labelle">Vérification dates et lieux</change>
+            <change when="2008-07-25" who="#Labelle">En-tête</change>
+            <change when="2005-05-20" who="#Brazeau">Vérification du codage</change>
+            <change when="2005-05-17" who="#Brazeau">Codage TEI</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <docTitle>
+                <titlePart>LETTRES DE LOUIS XI</titlePart>
+                <titlePart>LOUIS DAUPHIN</titlePart>
+                <titlePart>1438-1461</titlePart>
+            </docTitle>
+        </front>
+        <group>
+            <text n="18" type="lettre">
+                <pb n="28"/>
+                <front>
+                    <head>
+                        <hi rend="gras"> A UN DE SES FAMILIERS.</hi>
+                    </head>
+                    <docDate> Chinon, 4 juillet 1446.</docDate>
+                    <docEdition>Orig. Bibl. nat., Fr. 20436, fol. 29.</docEdition>
+                </front>
+                <body>
+                    <p>Compere, je vous prie que vous baillez à Guillaume Semogni vint escuz et je
+                        vous prometz que je vous bailleray les cent frans que nous avons appoinctez
+                        pour lui, car pour ceste heure je ne lui puis riens bailler. Je vous prie
+                        que en ce n'ait faulte. Et à Dieu soiez. Escript à Chinon le IV<hi
+                            rend="exp">e</hi> jour de juillet.</p>
+                    <p>
+                        <hi rend="pmaj">Loys.</hi>
+                    </p>
+                    <p>
+                        <hi rend="pmaj">M. Heron.</hi>
+                    </p>
+                </body>
+            </text>
+            <text n="20" type="lettre">
+                <pb n="31"/>
+                <front>
+                    <head>
+                        <hi rend="gras">AU DUC D'ORLÉANS.</hi>
+                    </head>
+                    <docDate> Antérieure à 1446.</docDate>
+                    <docEdition>Orig. Coll. de M. A. Morrison, de Londres.</docEdition>
+                </front>
+                <body>
+                    <p>Beaux oncles, jé entendu que vous avés envye d'avoyr ung mulet, mès qu'yl
+                        allast byen ayze, et, à ceste cauze, je vous envoye le myen; mès c'est en
+                        esperance que vous me donerés ung levryer; car on n'en peut pas byen fynés
+                        de bons de par de sa, et sy vous le faytes, et vous prenés playsyr en autre
+                        chouze, soyt ne mulle, mullet ou troton, je vous en recompan seré <pb n="32"
+                        /> byen. Et adyeu, beaux oncles. Escryt de ma main.</p>
+                    <p>
+                        <hi rend="pmaj">Loys.</hi>
+                    </p>
+                    <p> A beaux oncles d’Orlyens.</p>
+                </body>
+            </text>
+            <text n="97" type="lettre">
+                <pb n="128"/>
+                <front>
+                    <head>
+                        <hi rend="gras">A JEAN ARNOULFIN. </hi>
+                    </head>
+                    <docDate> Août 1460.</docDate>
+                    <docEdition>Orig. Bibl. nat., Fr. 20855, n° 25.</docEdition>
+                </front>
+                <body>
+                    <p>Jehan mon amy, jé receu vos lectres par les quelles m'escryvés que n'avés
+                        poynt de velos playn sy non <pb n="129"/> velous sus velous quy est plus
+                        cher. Je l'an aime myeux et vous mersye de se que toujours de ryens ne me
+                        fayllés, et par ma foy, sy Dyeu plest, je vous payré byen de tout, vous
+                        pryant que le bayllés au sieur de la Barde. Et a Dyeu, Jehan mon amy, quy
+                        vous doynt joye. Escryt de ma mayn.</p>
+                    <p>
+                        <hi rend="pmaj">Loys.</hi>
+                    </p>
+                    <p>A Jehan Arnolfyn.</p>
+                    <p>
+                        <hi rend="ital">Au dos:</hi> Je Giscart Garnié, serviteur de monseigneur le
+                        daulfin, ay receu de Jehan Arnoulfin pour delivrer de l'ordonnance de mondit
+                        seigneur à monsieur de la Barde une piece de velu sur velu cramoisy
+                        contenant XLIII aulnes de Bruge, assavoir quarante trois aulnes, et tout par
+                        vertu de ceste presente lectre, tesmoing mon seing manuel cy mis le XII<hi
+                            rend="exp">e</hi> jour d'aoust l'an mil IIII<hi rend="exp">c</hi> LX.</p>
+                    <p>
+                        <hi rend="pmaj">Giscart Garnié.</hi>
+                    </p>
+                </body>
+            </text>
+            <text n="125" type="lettre">
+                <pb n="160"/>
+                <front>
+                    <head>
+                        <hi rend="gras">A JEAN ARNOULFIN.</hi>
+                    </head>
+                    <docDate> Genappe, 8 août.</docDate>
+                    <docEdition>Orig. Bibl. nat., Fr. 20427, fol. 14.</docEdition>
+                </front>
+                <body>
+                    <p> Jehan Arnoulfin, mon amy, j'ay receu les lectres que m'avez escriptes par
+                        Marc Cename. Aussi ay eu mil sept cens quarante huit lions et dix huit pataz
+                        qu'il m'a aportez, qui est, rabatu ce que maistre Charles print
+                        darrenierement de vous et ce que avez baillé à daulphin, la somme que deviez
+                        recevoir pour moy, dont et de la paine que en avez prinse je vous mercie
+                        tant que je puis, et, si Dieu plaist, quelque foiz je le deserviré envers
+                        vous. Marc vous dira de mes nouvelles, et adieu. Escript à Geneppe le
+                        VIII<hi rend="exp">e</hi> jour d'aoust.</p>
+                    <p>
+                        <hi rend="pmaj"> Loys.</hi>
+                    </p>
+                </body>
+            </text>
+        </group>
+    </text>
+</TEI>

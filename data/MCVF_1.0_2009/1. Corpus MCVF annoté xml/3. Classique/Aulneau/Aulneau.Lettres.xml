@@ -1,0 +1,1270 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">Lettre du père Aulneau à sa mère</title>
+                <title type="sub"/>
+                <title type="short">Aulneau.Lettres</title>
+                <author>
+                    <persName>
+                        <surname>Aulneau (de La Touche)</surname>
+                        <forename>Jean-Pierre</forename>
+                    </persName>
+                </author>
+                <editor>Modéliser le changement, les voies du français GTRC/CRSH</editor>
+                <principal>
+                    <persName>France Martineau</persName>
+                </principal>
+                <funder>
+                    <orgName>Université d'Ottawa</orgName>
+                    <orgName>Conseil de recherche en sciences humaines du Canada</orgName>
+                </funder>
+                <respStmt>
+                    <resp>Codage</resp>
+                    <persName xml:id="Gour">Clive Gour</persName>
+                    <persName xml:id="Brière">Emmanuelle Brière</persName>
+                    <persName xml:id="Labelle">Simon-Pier Labelle-Hogue</persName>
+                    <persName xml:id="Martineau">France Martineau</persName>
+                </respStmt>
+            </titleStmt>
+            <extent>11967</extent>
+            <publicationStmt>
+                <date when="2009-05-20"/>
+                <distributor>
+                    <orgName>Modéliser le changement : les voies du français GTRC/CRSH</orgName>
+                    <address>
+                        <addrLine>60, rue Université</addrLine>
+                        <addrLine>Ottawa, Ontario</addrLine>
+                        <addrLine>K1N 6N5</addrLine>
+                        <addrLine>Tél : 613-562-5797</addrLine>
+                        <addrLine>Fax : 613-562-5981</addrLine>
+                        <addrLine><email>fmartin@uottawa.ca</email></addrLine>
+                        <addrLine>http://www.voies.uottawa.ca/</addrLine>                        
+                    </address>
+                </distributor>
+                <availability status="restricted">
+                    <p>(c) Modéliser le changement : les voies du français (CRSH/GTRC, dirigé par F.
+                        Martineau)</p>
+                    <p>Les Corpus MCVF demeurent la propriété du projet Modéliser le changement :
+                        les voies du français. Les références à ces Corpus devraient apparaître
+                        ainsi : Corpus MCVF, Modéliser le changement : les voies du français (F.
+                        Martineau (dir.), U. d’Ottawa).Tous les documents du Corpus MCVF ne peuvent
+                        être divulgués à de tierces parties sans l’autorisation préalable de la
+                        Directrice du Projet </p>
+                    <p>Pour tout autre usage, contacter : <persName>France Martineau</persName>
+                        <orgName>Modéliser le changement : les voies du français, Université
+                            d'Ottawa</orgName>
+                        <email>fmartin@uottawa.ca</email></p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <biblStruct type="Source_publique">
+                    <monogr>
+                        <author>
+                            <persName>
+                                <surname>Aulneau (de La Touche)</surname>
+                                <forename>Jean-Pierre</forename>
+                            </persName>
+                        </author>
+                        <editor>
+                            <persName>
+                                <surname>Roy</surname>
+                                <forename>Pierre-Georges</forename>
+                            </persName>
+                        </editor>
+                        <title>Rapport de l’archiviste de la Province de Québec (1926-1927)</title>
+                        <title type="sub">Lettres du père Aulneau</title>
+                        <imprint>
+                            <pubPlace>Québec</pubPlace>
+                            <publisher>Imprimeur de sa Majesté le Roi</publisher>
+                            <date when="1927">1927</date>
+                        </imprint>
+                    </monogr>
+                    <series/>
+                </biblStruct>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Projet : Modéliser le changement les voies du français (GTRC/CRSH) <lb/>Resp. :
+                        <persName>France Martineau</persName> Institution : Département de français,
+                    Université d'Ottawa
+                    <address>
+                        <addrLine>60, rue Université</addrLine>
+                        <addrLine>Ottawa, Ontario</addrLine>
+                        <addrLine>K1N 6N5</addrLine>
+                        <addrLine>Tél : 613-562-5797</addrLine>
+                        <addrLine>Fax : 613-562-5981</addrLine>
+                        <addrLine><email>fmartin@uottawa.ca</email></addrLine>
+                        <addrLine>www.voies.uottawa.ca</addrLine>                        
+                    </address></p>
+            </projectDesc>
+            <editorialDecl>
+                <p>Voir le manuel d'annotation TEI au http://www.voies.uottawa.ca</p>
+                <p>L'édition de référence a été respectée quant à l'orthographe, la ponctuation, la
+                    mise en page et la pagination. Cependant, la césure des mots en fin de lignes
+                    (ou de pages) a été supprimée, le mot est placé dans la ligne ou la page où il
+                    commence. </p>
+                <p>Les paragraphes sont notés par P pour la prose. Pour les vers, P rend="gv"
+                    indique que le paragraphe est constitué d'un groupe de vers. </p>
+                <p> Les débuts des vers sont encodés par LB. Cette balise peut également servir dans
+                    les textes en prose à indiquer les débuts des lignes selon la pagination de
+                    l'édition. </p>
+                <p>Les changements de pages sont indiqués par la balise PB</p>
+                <p>Le corps du texte est obligatoirement compris dans le BODY. Le FRONT contenant le
+                    titre et/ou le prologue et le BACK (explicit) sont facultatifs et ne sont mis
+                    qu'au besoin. </p>
+                <p>Les différentes parties du texte (livre, chapitre...) sont encodées par DIV,
+                    auquel s'ajoute l'attribut TYPE qui spécifie sa nature. </p>
+                <p>Les paragraphes (P), lignes (LB) et pages (PB) de même de certaines divisions
+                    (DIV) sont ou peuvent être numérotés par l'attribut N s'ils le sont dans
+                    l'édition. </p>
+                <p>Quelques commentaires ou corrections ont été introduits à l'aide de la balise
+                    NOTE, CORR ou SIC. </p>
+                <p>Les discours directs et les citations ont été encodés par la balise Q. Cette
+                    balise est mise à chaque fois que des guillemets sont utilisés dans l'édition. </p>
+                <p>L'élément FOREIGN indique un passage en latin qui est noté en italique dans
+                    l'édition, les occurrences non en italique sont signalées par l'attribut ROMAIN. </p>
+                <p>Les folios sont notés par la balise <tag>pb rend="folio"</tag></p>
+                <p>Les notes de bas de pages ont été retirées. </p>
+                <p>Les paragraphes entièrement en latin ont été retirés, une balise P et une NOTE
+                    les signalent. </p>
+                <p>Note spécifique au texte ci-dessous: Aucune.</p>
+            </editorialDecl>
+            <samplingDecl>
+                <p>p. 261-266; 270-271; 273-281; 288-292</p>
+            </samplingDecl>
+        </encodingDesc>
+        <profileDesc>
+            <creation>
+                <date notBefore="1734-10-10" notAfter="1736-04-30"/>
+                <placeName/>
+            </creation>
+            <langUsage>
+                <language ident="fr"/>
+            </langUsage>
+            <textDesc>
+                <channel/>
+                <constitution>Texte intégral</constitution>
+                <derivation/>
+                <domain/>
+                <factuality/>
+                <interaction/>
+                <preparedness/>
+                <purpose/>
+            </textDesc>
+            <textClass>
+                <keywords scheme="GTRC">
+                    <list>
+                        <item n="domaine">Non littéraire</item>
+                        <item n="genre">Correspondance</item>
+                        <item n="forme">Prose</item>
+                        <item n="docRegion1">Amérique française</item>
+                        <item n="docRegion2"/>
+                        <item n="docRegion3"/>
+                        <item n="auteurRegion1">France</item>
+                        <item n="auteurRegion2">France Ouest</item>
+                        <item n="auteurRegion3">Poitou</item>
+                        <item n="auteurSexe">Homme</item>
+                        <item n="occupation">Religieux</item>
+                        <item n="scribeRegion1"/>
+                        <item n="scribeRegion2"/>
+                        <item n="scribeRegion3"/>
+                        <item n="imprimeurRegion1"/>
+                        <item n="imprimeurRegion2"/>
+                        <item n="imprimeurRegion3"/>
+                    </list>
+                </keywords>
+                <classCode scheme="Indice de Dees"/>
+            </textClass>
+            <particDesc>
+                <listPerson>
+                    <person role="auteur">
+                        <persName>
+                            <surname>Aulneau (de La Touche)</surname>
+                            <forename>Jean-Pierre</forename>
+                        </persName>
+                        <birth>
+                            <date when="1705-04-21"/>
+                            <placeName>Moûtiers-sur-le-Lay</placeName>
+                        </birth>
+                    </person>
+                    <person role="scribe"/>
+                    <person role="imprimeur"/>
+                </listPerson>
+            </particDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2009-06-05" who="#Martineau">Validation de l'en-tête</change>
+            <change when="2009-05-20" who="#Labelle">Imbrication des en-têtes</change>
+            <change when="2009-05-17" who="#Labelle">En-tête et vérification du balisage</change>
+            <change who="#Brière">Vérification de la transcription et du codage</change>
+            <change who="#Gour">Transcription et codage</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <group>
+        <text type="lettre">
+        <pb n="261"/>
+        <body>
+            <opener>
+                <dateline rend="droite">
+                    <placeName>A Québec</placeName>
+                    <date>le 10e̟ octob. 1734.</date>
+                </dateline>
+            </opener>
+            <p>Ma très chère mère,</p>
+            <p>Lorsceque je me separay de vous je vous promis de vous écrire le plus souvent
+                <lb/>qu'il me serait possible, et de vous mander tout ce qui me serait arrivé dans
+                le <lb/>voyage, ou ce qui pouvait m'arriver dans la suite. Je commence avec plaisir
+                à <lb/>m'acquitter de ma promesse, et c'est la première lettre que j'écris depuis
+                mon arri̲vée <lb/>en Canada. Nous nous embarquâmes le <date>29e̟ may</date> sur les
+                deux heures après <lb/>mydy, les vents contraires nous contraignirent de rester en
+                rade le <date>30e̟</date>, ce fut donc <lb/>le <date>31e̟</date> que, sur les trois
+                heures du matin, les vents étant devenus favorables, on <lb/>appareilla et on mit à
+                la voile; dès le mesme jour nous perdîmes les terres de France <lb/>de vûe, et nous
+                fîmes si bonne route, que chacun commençait desja à se flatter de <lb/>l'espérance
+                d'une courte traversée. La joye fut courte et dès le soir les vents con̲traires
+                <lb/>commencèrent à se faire sentir. Nous nous consolions cependant dans
+                l'es̲pérance <lb/>qu'ils changeraient mais la suite ne nous a que trop convaincu que
+                nous <lb/>l'espérions en vain. Nous avons mis quarante sept jours à arriver au grand
+                banc <lb/>de Terreneuve, et pendant tout ce temps là, si vous en exceptez quelques
+                jours de <lb/>calme, nous avons toujours eu des vents de norouest des plus violents,
+                et qui nous <lb/>ont plusieurs fois forcé d'abandoner le vaisseau au gré des flots.
+                Nous n'eusmes <lb/>point de messe dans notre bord ny le jour de la Pentecoste, le
+                dimanche de l'oc̲tave, <lb/>et le jour de la Saint-Pierre, parceque la tempeste
+                estait si violente et le roulis <lb/>et le tangage du vaisseau si forts, qu'il
+                n'estait pas possible de se soutenir... nous <lb/>vécûmes ces jours là de biscuit et
+                de quelques morceaux de pain que chacun attrapait <lb/>comme il pouvait. Le plaisir
+                que nous eûmes le lendemain de nostre arrivée sur <lb/>le grand banc, de voir
+                pescher de la morue, nous délassa un peu de nos fatigues <lb/>passées. Dans moins de
+                deux heures, nos matelots en prirent plus de deux cents. <lb/>On en sala une partie,
+                on en distribua à tout l'équipage, et dès le jour mesme on <lb/>nous en servit à
+                table; les uns la trouvèrent fort bonne, et d'autres fort insipide; <lb/>je fus du
+                nombre des derniers.</p>
+            <p>Nous commençâmes aussy alors à voir différentes espèces d'oyseaux que je ne
+                <lb/>crois pas qu'on voye en Europe; ceux que nous vîmes le plus souvent, estaient
+                ap̲pellés <lb/>par nos mariniers, tangueux, c'est un oyseau fait à peu près comme
+                une oye <lb/>et presque aussi gros; il a le corsage tout blanc et le bout des aisles
+                noir; nous vismes <lb/>aussy quantité de hapefoix, de Godes, de Pelyngoins, et ce
+                sont des espèces de peti̲tes <lb/>canes, qui n'abandonnent jamais les environs du
+                grand banc. La nuit qui sui̲vit <lb/>le jour de notre pesche, il s'éleva un gros
+                brouillard, avec un vent assez fort pour <lb/>que nous pussions mettre à la voile;
+                on appareilla donc et on commença à louvoyer <lb/>comme nous avions fait
+                jusqu'alors, nous allions à l'aventure, et si le brouillard <lb/>eût tardé d'une
+                heure ou deux à se dissiper, il nous serait arrivé quelque accident, <lb/>car après
+                avoir louvoyé pendant un jour dans les ténèbres, nous fûmes bien sur̲pris <lb/>
+                d'apercevoir la terre environ à une lieue et demye de nous. C'estait l'isle de
+                <lb/>Terreneuve dont les costes sont fort élevées; les courants nous avoient
+                insensible̲ment <lb/>entrainés sur cette isle, et à l'entrée de la baye de
+                Plaisance, qui en est la capi̲tale, <pb n="262"/>
+                <lb/>et qui appartient aux Anglais, nous virames sur le champ de bord, et nous
+                <lb/>travaillâmes presque un jour entier à nous éloigner de terre. Lorsceque nous
+                nous <lb/>crûmes en sûreté, nous continuâmes notre route par le banc Cavert. C'est
+                un petit <lb/>banc de sable d'environ quinze lieux de long sur lequel on pesche
+                encore beaucoup <lb/>de morue; nous ne nous arrestâmes point à en pescher; mais un
+                autre brouillard <lb/>s'estant encore eslevé, nous fusmes trois jours entiers à
+                tourner autour du banc <lb/>Cavert. Cependant nous avions un grand nombre de malades
+                dans nostre bord, et <lb/>toujours vents contraires. Nos officiers commençaient à se
+                decourager et à penser <lb/>serieusement à s'arrester à Louisbourg, ville de l'isle
+                Royale qui appartient aux <lb/>François, et à l'entrée du golphe du fleuve
+                Saint-Laurent. Par là nous aurions esté <lb/>dans l'obligation de nous mettre dans
+                quelque petit vaisseau pour faire les deux cents <lb/>lieux qui nous restaient
+                encore à faire pour arriver à Québec, mais les vents estant <lb/>devenus un peu plus
+                favorables, nos officiers abandonnèrent leur projet, et se déter̲minèrent <lb/>
+                enfin à aller jusqu'à Québec. Nous entrâmes donc dans le golphe laissant <lb/>à
+                nostre gauche l'isle Royale et l'isle St̟-Paul, et à nostre droite, les isles
+                St̟-Pierre. <lb/>Ce fut vers ce temps là que nous commencâmes à voir sur nos mats et
+                sur nos ver̲gues <lb/>des oyseaux qu'on appelle cardinaux, apparement parce qu'ils
+                ont tout le <lb/>plumage rouge, excepté la queue et le bout des aisles. Ils sont
+                gros comme des pin̲sons, <lb/>et ont le bec comme les perroquets; on en prit
+                quelques uns, qu'on mit dans <lb/>des cages. Ce fut encore vers ce temps là qu'il
+                fallut changer notre petit hunier, <lb/>qui s'estait cassé à force de secousses,
+                cependant nous avançions peu à peu vers l'em̲bouchure <lb/>du fleuve St̟ Laurent;
+                avant d'y arriver, nous fusmes temoins d'une chose <lb/>que je suis persuadé que la
+                pluspart des gens regardent comme une fable en Europe. <lb/>Vers le milieu du golphe
+                on trouve deux petites isles dont la plus grande peut avoir <lb/>environ demy lieu
+                de tour, on les nomme avec raison les isles aux Oyseaux. Je <lb/>n'en ay de ma vie
+                tant vu qu'on en voit sur ces isles sur lesquelles il n'y a pas <lb/>un seul arbre.
+                La terre en est toute couverte, et l'air obscurci. Ce sont de cette <lb/>même espèce
+                d'oyseaux dont je vous ay parlé en premier lieu. Nostre capitaine <lb/>fit tirer en
+                passant deux coups de canon à boulets sur ces isles affin de faire prendre <lb/>le
+                vol aux oyseaux qui estoient à terre, mais nous estions un peu trop esloignés, et
+                <lb/>les boulets n'arrivèrent pas jusqu'à l’isle. Pendant le reste de notre route
+                dans le <lb/>golphe, nous vismes aussy les isles Brion et de la Magdelaine, et des
+                marsouins <lb/>d'une grosseur prodigieuse, des baleines, des souffleurs, des vaches
+                marines excitèrent <lb/>et contentèrent en partie nostre curiosité. Enfin, nous
+                arrivâmes deux mois après <lb/>nostre départ de France à l'embouchure du fleuve
+                Saint Laurent, nous y entrâmes <lb/>par la coste du sud, laissant à nostre droite
+                l'isle d'Anticosti. Ce fleuve a plus de <lb/>quarante lieux de large. Il est un des
+                plus beaux et des plus grands qu'il y ayt au <lb/>monde. Les vents nous
+                contraignirent bientôt d'abandonner la coste du sud, et de <lb/>gagner celle du
+                nord, qui est moins dangereuse. L'une et l'autre sont des monta̲gnes <lb/>fort
+                eslevées, et qui durent presque jusqu'à Québec; après avoir disputé quel̲ques <lb/>
+                jours contre la violence des vents, qui nous agitèrent plus qu'ils n'avoient
+                <lb/>encore fait jusqu'alors, nous gagnâmes enfin une isle qui est au milieu de
+                fleuve, <lb/>et qu'on appelle l’isle Verte. Un grand calme qui nous prit vis à vis
+                de cette isle, <lb/>nous donna le loisir d'envoyer à terre chercher des
+                raffraichissements, dont nous <lb/>avions grand besoin, car depuis plusieurs jours
+                nous n'avions plus que du bœuf salé; <lb/>et le nombre de nos malades estait
+                considérablement augmenté; depuis le grand <lb/>Banc nous en avions mesme jetté cinq
+                à la mer. La chaloupe que nous avions <lb/>envoyé à la coste du sud, qui commence en
+                cet endroit à estre habitée fut un jour <pb n="263"/>
+                <lb/>et demy dans son petit voyage, et quand elle nous joignit nous estions depuis
+                envi̲ron <lb/>deux ou trois heures sous voile, les vents s'estant eslevés pendant
+                qu'elle estait <lb/>à faire des raffraichissements. Elle en apporta peu, mais ils
+                causèrent grand plaisir <lb/>à tout le bord. Nous continuâmes notre route avec plus
+                de précautions et de crainte <lb/>que jamais, car quoy que nous eussions desja évité
+                bien des dangers, nous avions <lb/>encore les plus grands à éviter.</p>
+            <p>En peu de temps nous gagnâmes une autre isle, qu'on appelle l’isle aux Coudres;
+                <lb/>c'est près de cette isle qu'est un gouffre qui rend cet endroit le plus
+                dangereux de tou̲te <lb/>la route de France en Canada. Ce fut là que nous nous
+                apperçûmes pour la pre̲mière <lb/>fois que nous estions en esté, car depuis notre
+                départ de France nous avions <lb/>toujours eu un temps d'hyver. Nos malades en
+                souffrirent beaucoup aussy. Je <lb/>puis dire que je n'ay de ma vie ressenti tant de
+                chaud. Nous passâmes deux jours <lb/>à l'ancre près du gouffre sans pouvoir le
+                passer accause des vents contraires. Ce <lb/>séjour nous procura encore quelques
+                raffraichissements, et nous donna le loisir <lb/>de considérer à notre aise des
+                marsouins aussy blancs que la neige et des loups ma̲rins. <lb/>Enfin un vent de
+                nordest s'estant eslevé sur les deux heures après mydy, nous <lb/>passâmes
+                heureusement le gouffre et nous fusmes mouiller à deux ou trois lieux <lb/>de là. Le
+                lendemain nous gagnâmes un cap qu'on appelle le cap Maillard. Ce fut <lb/>là ou je
+                quittay le vaisseau de roy. Depuis le gouffre j'avais de grands maux de <lb/>teste
+                qui firent craindre au Père supérieur que je n'eusse la maladie du vaisseau. <lb/>Il
+                m'ordonna donc de me mettre dans une chaloupe qu'un Jésuite avait amené de
+                <lb/>Québec pour chercher ceux d'entre nous qui pouvaient estre malades. Je n'avais
+                <lb/>plus que quinze lieux à faire pour arriver à Québec. Le soir de mon départ du
+                vais̲seau, <lb/>je fus souper à l’isle d'orléans et ayant marché toute la nuit,
+                j'arrivay sur <lb/>les six heures du matin, et dans un canot d'écorse, que nous
+                avions pris à l’isle <lb/>d'Orléans affin d'aller plus viste. Jusques la je m'estais
+                porté à merveille, je n'avais <lb/>pas même eu dans toute la route le mal de mer,
+                quoy que j'y eusse resté pendant <lb/>soixante et quinze jours mais trois jours
+                après mon arrivée a Québec, j'ay esté <lb/>attaqué de la maladie du vaisseau, qui
+                m'a deux fois conduit aux portes de la mort. <lb/>Je suis maintenant grâces à Dieu
+                parfaitement rétabli. Priez ce Père des misé̲ricordes, <lb/>ma chere mère, de me
+                faire la grâce d'employer la santé et la vie qu'il m'a <lb/>rendus, à le servir et à
+                le faire servir et aymer des pauvres sauvages. J'en ay desja <lb/>vu de presque
+                toutes les nations; il n'est rien de plus horrible à voir, mais ils sont le
+                <lb/>prix du sang d'un Dieu, que je seray heureux, s'il veut bien se servir d'un vil
+                ins̲trument <lb/>comme moy, pour les porter à l'aysmer et à l'adorer en esprit et en
+                vérité. <lb/>Je dois passer l'hyver à Québec. C'est une ville située sur le haut
+                d'une montagne <lb/>où il y a d'assez belles maisons, mais basties en partie par
+                nécessité, sans arrange̲ment <lb/>et sans ordre. L’isle d'Orleans, les environs de
+                Québec et les costes, plus de <lb/>cent lieux au dela, sont très bien cultivées, et
+                excepté le vin on y trouve presque <lb/>ce qui est en France. Encore une fois, ma
+                chère mère, conjurez le Seigneur de me <lb/>faire la grâce de profiter des grands
+                exemples de vertus que j'ay devant les yeux. <lb/>Je suis dans un collège composé
+                d'anciens missionnaires qui ont sacrifié leur santé <lb/>et leurs forces à le faire
+                aymer. Le Père Nau vous salue et se porte à merveille. Je <lb/>suis, ma chère mère,
+                avec le plus tendre attachement et seray toute ma vie,</p>
+            <lb/>
+            <p>Vostre d̟. et fils,</p>
+            <p>AULNEAU, J̟.</p>
+        </body>
+        </text>
+            <text type="lettre">
+                <pb n="264"/>
+                <body>
+                    <opener>
+                        <dateline rend="droite">
+                            <placeName>A Québec,</placeName>
+                            <date>le 10e̟ oct̟. 1734.</date>
+                        </dateline>
+                    </opener>
+                    <p>Mon Révérend Père,</p>
+                    <p>P̟. Ch̟.</p>
+                    <p>J’ay reçeu votre lettre du <date>21e̟ juin</date>; je ne pouvais gouster un plus
+                        sensible <lb/>plaisir que celui qu'elle m'a causé. Aussy vous m'y donné tant de
+                        marques d'amitié, <lb/>vous m'y faites une si bonne morale, et vous m'y apprenez de
+                        si belles nouvelles, <lb/>que je crois que tout autre qui ne vous aurait pas été
+                        aussi dévoué que je le suis, <lb/>n'aurait pas eu moins de plaisir que moy. Je puis
+                        vous asseurer que je suis déter̲miné <lb/>à ne rien négliger pour vous engager à
+                        continuer. Vous voulés que je vous <lb/>mande au long les aventures de mon voyage;
+                        je n'ay rien à reffuser à mon frère <lb/>ayné, vous n'y trouverés rien de curieux;
+                        un seul point vous attendrira peut estre <lb/>et vous touchera, et c'est qu'il a
+                        pensé m'estre funeste, et estre le dernier de ma vie. <lb/>Nous n'eusmes point de
+                        messe dans notre bord le jour de la Pentecoste, le dimanche <lb/>de l'octave, et le
+                        jour de la Saint Pierre, parceque la tempeste estait si violente <lb/>qu'il n'estait
+                        pas possible de se soutenir dans le vaisseau et de faire deux pas sans <lb/>courir
+                        risque de se casser la teste ou les bras. Vous pouvés aisement juger que dans
+                        <lb/>de semblables conjonctures, on n'allume point de feu dans la cuisine; aussy
+                        tout <lb/>nostre régal se borna-t-il à quelques morceaux de pain dont par bonheur on
+                        se <lb/>trouva avoir provision; encore ne le mangions nous pas sans secousse, et
+                        sans danger <lb/>de nous froisser les uns contre les autres, quelque précaution que
+                        chacun pût <lb/>prendre. Ce fut vers les environs du grand Banc que nous commençâmes
+                        à satisfaire <lb/>l'envie que nous avions de voir des animaux extraordinaires et que
+                        nous n'eussions <lb/>pas vû en Europe.</p>
+                    <p>Cependant nous avions plus de soixante malades dans le bord, et nos officiers
+                        <lb/>estaient ennuyés de lutter contre les vents contraires, nous n'avions mesme
+                        presque <lb/>plus d'eau et de provisions. Tout cela donnait à penser à Mr̟ de Chaon,
+                        nostre <lb/>capitaine, et le faisait presque désespérer d'arriver encore cette fois
+                        en Canada. <lb/>Un vent assez fort qui s'esleva le lendemain de notre pesche et qui
+                        ne nous estait <lb/>pas plus favorable que ceux que nous avions eu jusqu'alors, luy
+                        fit encore faire <lb/>de nouvelles refflexions; pour comble de malheur ce vent
+                        estait accompagné d'un <lb/>brouillard si épais qu'on ne se voyait pas d'un bout du
+                        vaisseau à l'autre. Il se <lb/>dissipa bientost et bien nous en prit car sans cela
+                        entrainés par les courants, nous <lb/>allions nous briser sur les costes de l’isle
+                        de Terreneuve; nous n'en estions plus <lb/>qu'à une lieu et demie, lorsque nous
+                        apperçûmes la terre et un gros cap qui est à <lb/>l'entrée de la baye de Plaisance
+                        et qu'on appelle Chapeau Rouge.</p>
+                    <p>Cependant nos officiers plus ennuyés que jamais, songèrent tout de bon à
+                        <lb/>abandonner le voyage de Québec, et à s'arrester à Louisbourg, ville de l’isle
+                        Royale <lb/>dont nous n'estions pas fort éloignés. Cela nous inquiétoit beaucoup
+                        parce qu'il <lb/>nous aurait fallu attendre longtemps dans cette isle, pour trouver
+                        des vaisseaux <lb/>qui pussent nous conduire jusqu'à Québec. La Providence a permis
+                        que nous n'en <lb/>eussions que la peur, et le vent favorable qui s'esleva fit enfin
+                        abandonner le dessein <lb/>d'aller mouiller à Louisbourg.</p>
+                    <p>Nous fùmes obligés de louvoyer pendant deux jours (sur le banc Cavert), à <lb/>cause
+                        d'un brouillard plus épais que le premier qui nous empeschait de scavoir <lb/>où
+                        nous allions; tous ces tours inutiles nous procurèrent une visite qui amusa pour <pb
+                            n="265"/>
+                        <lb/>quelques moments nostre curiosité. Ce fut d'un oyseau, habitant de l’isle de
+                        <lb/>Terre Neuve, et qu'on appelle cardinal. Un matelot le prit sur la vergue de
+                        nostre <lb/>grand mat, et le porta à Mr̟ de Chaon.</p>
+                    <p>Nous entrâmes donc dans le golphe St̟-Laurent laissant à nostre droite les <lb/>isles
+                        St̟-Pierre, et à nostre gauche l’isle Royale et les isles St̟-Paul et St̟-Jean. Nous
+                        <lb/>mismes quatre jours à le traverser, car les vents cessèrent bientôt de nous
+                        estre <lb/>favorables<hi rend="susp">…</hi> après avoir passé ces isles (les isles
+                        aux Oyseaux) nous decouvrîmes <lb/>deux autres isles, qu'on appelle, l'une l’isle
+                        Brion, et l'autre l’isle de la Magdelaine; <lb/>on me dit qu'il y allait chaque
+                        année plusieurs petits navires de Québec pour y <lb/>faire la pesche du loup marin
+                        et des vaches marines qu'on y trouve en grand <lb/>nombre. Enfin, sur le soir du
+                        quatrième jour de nostre entrée dans le gouffre <lb/> (golphe), nous découvrîmes la
+                        Table à Roland et Gaspé. La Table à Roland est <lb/>un cap, et Gaspé une baie assez
+                        commode de la coste du Sud du fleuve St̟-Laurent. <lb/>Nous y entrâmes le lendemain
+                        par la mesme coste avec un assez bon vent, laissant <lb/>à nostre droite l’isle
+                        d'Anticosti. Nous ne fîmes pas une longue route dans le fleuve <lb/>le long de la
+                        coste du sud; les vents de nor ouest et les plus violents que nous <lb/>eussions eu
+                        dans tout le voyage, nous contraignirent de gagner la coste du nord, <lb/>qui est
+                        moins dangereuse cela nous donna occasion de reconnaistre les 7 isles où les
+                        <lb/>messieurs de la compagnie du castor envoyent chaque année un commis pour
+                        <lb/>traiter avec les sauvages; et de voir l’isle aux œufs où les Anglais perdirent
+                        leur <lb/>flotte; tout cela ne nous consolait pas beaucoup et nous aurions fort
+                        souhaitté avoir <lb/>du vent favorable qui nous fît un peu plus avancer et passer
+                        les battures de la <lb/>Trinité et de Manikoagan, dont nous n'estions pas
+                        esloignées; et qui sont deux <lb/>passages dangereux, mais il estoit de nostres
+                        destinée de ne gagner Québec qu'en <lb/>louvoyant, et qu'en faisant le double du
+                        chemin qu'il nous aurait fallu faire, si <lb/>nous eussions eu des vents moins
+                        contraires; ce ne fut donc que par des bordées <lb/>que nous passâmes ces deux
+                        ecueils et que nous gagnâmes derechef la coste du sud. <lb/>Le plus fascheux, et ce
+                        qui nous inquiétait le plus, c'est qu'il n'y avait plus assez <lb/>de monde pour
+                        faire la maneuvre; les matelots et les soldats étaient presque tous <lb/>malades et
+                        hors d'estat de travailler. Néanmoins il fallait virer de bord, et changer
+                        <lb/>l'amarre du vaisseau à presque toutes les heures du jour. Dans de si fascheuses
+                        <lb/>conjonctures, vous pouvez croire que les passagers faisoient de leur mieux, et
+                        que <lb/>nous n'estions pas des derniers à border et à brasser les voiles. Les
+                        officiers eux̲mesme <lb/>nous donnèrent plus d'une fois l'exemple, et nous les avons
+                        secondé de <lb/>nostre mieux. Enfin, après bien des fatigues, nous gagnâmes en
+                        rangeant toujours <lb/>la coste du sud, les mouillages, et l’isle Verte. Ce fut
+                        environ à une lieue de cette <lb/>isle qu'on jetta l'ancre pour la première fois. Un
+                        jour de calme qui survint ensuite <lb/>nous laissa le loisir de considérer les loups
+                        marins, les marsouins blancs, et surtout <lb/>les montagnes affreuses qui du nord et
+                        du sud bordent le fleuve presque depuis <lb/>son embouchure jusqu'à Québec. Nous
+                        eusmes aussy la visite de deux sauvages <lb/>Mikmaks de la mission du Père Laure.
+                        Mr̟ nostre capitaine les receut très bien, <lb/>les régala et les renvoya avec des
+                        présents de plomb et de poudre. Vous pouvés <lb/>penser avec quelle attention je les
+                        consideray; c'estoient les premiers que j'eusse <lb/>jamais vû; et je puis vous
+                        assurrer que je ne croyais en voir jamais de plus mal̲propres. <lb/>Le grand nombre
+                        de ceux que j'ay vû a Québec m'a détrompé. L'isle <lb/>Verte est inhabitée, mais
+                        dans la terre ferme du costé du sud, il y a une ou deux <lb/>familles de Français.
+                        Mr̟ de Châon envoya la chaloupe chez eux pour y chercher <lb/>de la viande fraîche
+                        et des raffraichissements; elle n'estait pas encore de retour, <pb n="266"/>
+                        <lb/>lorsceque nous mismes à la voile pour profiter du vent favorable qui s'estait
+                        eslevé, <lb/>et gagner l’isle aux Coudres. Nous ne pûmes pas en venir à bout ce jour
+                        là, les vents <lb/>s'estant calmés, et nous mouillâmes à l’isle aux Lièvres, un peu
+                        en deça de plusieurs <lb/>gros rochers qui forment autant d'isles aux milieu du
+                        fleuve, et qu'on appelle Péle̲rins. <lb/>Cela donna le temps à nostre chaloupe de
+                        venir nous joindre. Elle apporta <lb/>peu de raffraichissements, mais ce peu causa
+                        le plus sensible plaisir à tout le <lb/>monde, et procura un peu de soulagement aux
+                        malades dont le nombre estoit <lb/>considérablement augmenté. Le lendemain nous
+                        profitâmes de quelques grains de <lb/>vents pour arriver à l’isle aux Coudres, et
+                        nous y jettâmes l'ancre environ à deux ou <lb/>trois cents pas de ce fameux gouffre,
+                        l'endroit le plus dangereux de toute la rivière. <lb/>Nous eusmes encore là le
+                        loisir de faire d'autres raffraîchissements car les vents <lb/>contraires nous
+                        firent rester deux jours dans ce mouillage, où nous essuyâmes le <lb/>plus grand
+                        chaud que j'aye ressenti de ma vie. Sur le soir du <num type="ordinal">3e</num> jour
+                        de nostre <lb/>arrivée nous passâmes heureusement le gouffre et le lendemain nous
+                        gagnâmes le <lb/>cap Maillard. Nous n'estions plus qu'à quatorze ou quinze lieux de
+                        Québec. Je <lb/>les fis, par ordre du Père de Lauzon, partie dans une chalouppe
+                        qu'avait amené le <lb/>frere Boispineau, partie dans un canot d'écorce. J'arrivay
+                        enfin à Québec le douze <lb/>d'août, à six heures du matin, soixante et quinze jours
+                        après m'estre embarqué. <lb/>Voilà, mon révérend Père, dans un ennuyeux détail, tout
+                        mon voyage. Pour ce <lb/>qui est des avantures du bord il m'en est arrivé aussy bien
+                        qu'aux autres Jésuites <lb/>que d'agréables. Tous les officiers ont eu toujours
+                        beaucoup d'égards et mesme <lb/>d'amitié pour nous et excepté le Père de la Pierre
+                        nous nous sommes toujours bien <lb/>portés. Au milieu cependant de deux cents
+                        malades ou convalescents, il s'est <lb/>pourtant passé quelques petites scènes de
+                        temps en temps sur tout à la Sainte̲Barbe <lb/>où nous estions tous les uns sur les
+                        autres mais comme nous n'y avons en <lb/>rien contribué et que nous n'avons fait
+                        qu'en rire je ne vous en dis rien. Nous avons <lb/>travaillé de notre mieux auprès
+                        des malades, et vécu toujours dans une grande <lb/>union avec tous les passagers,
+                        surtout avec trois messieurs de St̟-Sulpice qui nous <lb/>ont extrêmement édifiés
+                        par leur zèle et leur attention pour les malades. Deux <lb/>d'entre eux en ont pensé
+                        mourir. Je croyais qu'une fois arrivé à Québec, je serais <lb/>délivré de quelque
+                        maux de teste que je ressentais quelques jours avant mon départ <lb/>et qui avoient
+                        déterminé le Père de Lauzon à me faire quitter le vaisseau; mais le <lb/>lendemain
+                        de la Nostre-Dame d'aoust, jour auquel il arriva devant Québec, avec <lb/>les
+                        Jésuites qui y estoient resté, la fièvre me prit et en moins de cinq jours je fus
+                        <lb/>aux portes de la mort. Les soins du Frère Boispineau et plus que tout cela les
+                        prières <lb/>de nos Pères qui firent pour moy une neuvaine me tirèrent d'affaire. Je
+                        retombay <lb/>cependant encore huit jours après, et je fus encore plus mal que la
+                        première fois. <lb/>Enfin me voylà, grâces à Dieu, entièrement rétabli, priez le
+                        Seigneur de me faire <lb/>la grâce d'employer les forces et la santé qu'il m'a
+                        rendus à le faire aymer et servir <lb/>des pauvres sauvages. Je dois passer l'yver à
+                        Québec, et au printemps aller, dit-on, <lb/>aux Sioux; pourvu que la<gap
+                            resp="scripteur" rend="susp"/>.</p>
+                    <note resp="encoder">Le texte est inachevé.</note>
+                </body>
+            </text>
+            <text type="lettre">
+                <pb n="270"/>
+                <body>
+                    <opener/>
+                    <p>Ma très chère mère,</p>
+                    <p>Je profite encore avec joye et avec empressement du départ d'un vaisseau <lb/>pour la
+                        Rochele, affin de vous donner de nouvelles marques du respectueux atta̲chement <lb/>
+                        que je conserverai toute ma vie pour vous. Je vous ay écrit au long tout <lb/>mon
+                        voyage par le vaisseau du roy; vous avez sans doute reçeu ma lettre. Je sou̲hoitte
+                        <lb/>qu'elle vous ayt trouvé en parfaitte santé. La mienne est maintenant aussy
+                        <lb/>bonne qu'elle a jamais été. J’ay aussy écrit par la mesme voye à mon oncle et
+                        <lb/>à mes sœurs. Il y a desja plus d'un mois que l'hyver a commencé dans ce pays et
+                        <lb/>actuellement que je vous écris la terre est couverte de neige, et il fait aussi
+                        grand <lb/>froid qu'il en fit en France en <date>1729</date>. Le froid augmentera
+                        encore et nous ne verrons <lb/>plus la terre jusqu'au mois de may. Cela ne doit
+                        point allarmer vostre amitié pour <lb/>moy; nous avons icy toutes sortes de secours
+                        pour nous deffendre contre la rigueur <lb/>du climat et de la saison, après tout
+                        quand cela ne serait pas, je ne seray pas à <lb/>plaindre, puisque j'aurois encore
+                        plus d'occasions de souffrir quelque chose pour <lb/>l'amour d'un Dieu qui a tant
+                        souffert pour nous. Continués, ma chère mère, de le <lb/>prier de me rendre digne
+                        par sa grâce de faire quelque chose pour sa gloire et pour <lb/>son service. Le Père
+                        Nau est sur le point de partir ou pour le Montréal ou pour le <lb/>Saut St̟ Louis, à
+                        soixante dix ou douze lieux d'icy; je ne scay pas encore si ce sera <lb/>pour
+                        toujours. Pour moi je ne partiray qu'au printemps; je ne scay pas encore
+                        <lb/>l'endroit que la Providence m'a destiné: mais quelqu'il soit je trouveray
+                        toujours <lb/>le bon Dieu partout, et j'espère qu'il me soutiendra et qu'il ne
+                        m'abandonnera <lb/>pas. J'écris au Père Faye pour une commission; supposé qu'il
+                        puisse la faire, ayez <lb/>la bonté de luy envoyer l'argent que vous me destinés;
+                        comme ce que je luy demande <lb/>n'est point pour moy; on me le remboursera à
+                        Quebec. Que s'il ne pouvoit pas faire <lb/>ma commission, ayez la bonté de l'envoyer
+                        au Père Deceron à la Rochelle qui <lb/>l'employera à m'achetter quelques livres dont
+                        j'auray besoin. Vous voyez, ma <lb/>chère mère, que je profitte bien de vos bontés
+                        pour moy; quand elles ne seroint <lb/>pas aussy grandes qu'elles le sont; cela ne
+                        m'empêcherait pas de conserver toujours <lb/>pour vous les mesmes sentiments de
+                        respect et d'attachement; j'ay dit plusieurs <lb/>fois la messe pour vous et je n'ay
+                        point de plus grand plaisir que de penser à vous; <lb/>je le fais souvent et
+                        toujours avec la plus vive reconnaissance. Je suis, ma chère <lb/>mère, avec un
+                        profond respect, vostre très humble et ob̟t̟ serviteur et fils</p>
+                    <p>J̟. P̟. <hi rend="pmaj">AULNEAU</hi>, J̟., miss̟. du Canada.</p>
+                    <p>Québec, le 29e oct. 1734.</p>
+                    <p>Je vous prie d'assurer de mes respects, mon cher oncle et Mr̟ Pennot.</p>
+                </body>
+            </text>
+            <text type="lettre">
+            <body>
+                <opener/>
+                <p>Le départ des vaisseaux de la Rochelle me donne encore occasion de vous renou̲veller
+                    <lb/>les protestations les plus sincères de mon respect et de mon attachement.
+                    <lb/>Je vous ai écrit par le vaisseau du roy toute l'histoire de mon voyage, comme
+                    <lb/>vous m'aviez témoigné le souhaiter. Depuis ce temps-là je n'ay point parti de
+                    <lb/>Québec, où nous commençons depuis plus de quinze jours à ressentir la rigueur
+                    <lb/>de la saison, ou plutôt du climat. La terre est déja couverte de neige, et nous
+                    ne la <lb/>verrons plus qu'au mois de may prochain. Le Père Nau est sur le point de
+                    partir <lb/>ou pour le Montreal, ou pour le Saut St̟. Louis. Sera-ce pour y demeurer
+                    toujours? <lb/>C'est ce qui ne le dit pas encore. Pour ma disposition elle n'a point
+                    changé; et <lb/>jusqu'icy je dois rester l'hyver à Québec. Le Père Allioux n'est
+                    plus des nôstres <lb/>et il passe à France sur le mesme vaisseau par lequel je vous
+                    écris. Son départ <lb/>nous a tous surpris, et on est encore à en deviner au juste
+                    la cause. Quoy qu'il <lb/>en soit, nous le regrettons beaucoup. J'aurais une grâce a
+                    vous demander, supposé <lb/>que cela ne vous cause point trop d'embarras. Ce serait
+                    de faire faire à Bordeaux <lb/>deux fourneaux semblables aux vostre et deux
+                    caffetières et deux (gratoirs) de la <lb/>mesme façon que votre caffetière et vostre
+                    (gratoire); le Jésuite de ce collège qui <lb/>m'a malgré moy engagé à vous demander
+                    cela ne serait pas fâché qu'un des four̲neaux <lb/>et une des caffetières fût un peu
+                    plus grandes que ne le sont ces deux meubles <lb/>de vostre appartement. Que si cela
+                    peut se faire j'ay écrit à ma mère de vous faire <lb/>tenir 100 l̟. dont vous aurez
+                    la liberté de vous servir pour payer ce qu'il vous auront <lb/>cousté. Vous me
+                    feriez aussy plaisir, si vous vouliez employer ce qui restera d'argent <lb/>en
+                    chocolat. On en fait comme vous savez tous les ans au collège. Que cela ne vous
+                    <lb/>embarrasse pourtant point trop; j'en serois très mortifié. Que si vous
+                    m'accordez <lb/>cette grâce, ayez la charité ou de faire tenir le tout à la
+                    Rochelle, à Mr̟ Dupal, <lb/>marchand, rue du Temple, avec une adresse et un petit
+                    mot de lettre pour le frère <lb/>Boispineau l'aisné, à Québec; ou s'il part quelque
+                    vaisseau de Bordeaux pour le <lb/>Canada, d'y mettre le paquet avec la mesme
+                    adresse. Comme je serai bien loin <lb/>de Québec lorsceque cela arrivera, le Frère
+                    Boispineau le remettra à ceux qui <lb/>m'ont chargé de vous le demander. Mille
+                    excuses, mon R̟. Père, de la liberté que <lb/>je prens. Je suis avec un profond
+                    respect.</p>
+                <p>Votre très humble et très obeissant serviteur,</p>
+                <p rend="align(droite)case(pmaj)">AULNEAU, J̟</p>
+                <closer>
+                    <dateline>
+                        <placeName>Québec</placeName>
+                        <date>1734, le 29 oct̟.</date>
+                    </dateline>
+                </closer>
+                <trailer>Je vous prie d’asseurer de mes très humbles respects nos Reverends
+                    Pères.</trailer>
+            </body>
+            </text>
+            <text type="lettre">
+            <body>
+                <pb n="273"/>
+                <opener>
+                    <dateline rend="droite">
+                        <placeName>Québec,</placeName>
+                        <date>25 avril 1735.</date>
+                    </dateline>
+                </opener>
+                <p>Mon Révérend Père,</p>
+                <p>La paix de N̟.S̟.J̟.C̟.</p>
+                <p>Je profite avec plaisir des derniers moments que j'ai à passer à Quebek pour
+                    <lb/>vous donner de nouvelles marques de mon respect et de mon attachement et pour
+                    <lb/>vous remercier d'avance des lettres, des nouvelles et des autres chauses que je
+                    vous <lb/>avais prié de m'envoyer de France. Je supose que ma mère vous aura fait
+                    toucher <lb/>cens francs et que vous aurés pu vous acquiter sans vous fatiguer de la
+                    commission <lb/>que j'avais bien la liberté de vous donner par ma seconde lettre. Si
+                    vous n'avés <lb/>pu le faire je vous en ay toujours la même obligation. Je suis sur
+                    le point de m'éloi̲gner <lb/>de vous encore de plus de <num type="cardinal"
+                        >1200</num> lieuës. Le Révérend Père de Lauzon m'envoye <lb/>seul à la
+                    decouverte de nouveaux sauvages qu'on a encore jamais vû, et dont on a <lb/>de
+                    connaissance que par les Assiniboels et les Cristinaux qui en sont encore éloi̲gnés
+                    <lb/>de plus de <num type="cardinal">300</num> lieuës; ce sera parmi ces derniers
+                    que je passerai l'hyver, à <num type="cardinal">900</num>
+                    <lb/>lieuës de Quebek, parce que je n'auray pas le temps de pénétrer plus avant; ils
+                    <lb/>appellent les sauvages qui doivent être le terme de ma mission Ouantchipouanes,
+                    <lb/>c'est à dire qui habitent dans des trous. Jusqu'ici ils ont demeurés inconnus
+                    au <lb/>reste des hommes, ainsi si le bon Dieu le veut et me conserve la vie, je
+                    serai le <lb/>premier qui leur annoncera l'Evangile, vous pouvez bien vous imaginer
+                    que je ne <lb/>seray pas en état de travailler sitot avec fruit à leur instruction,
+                    il me faudra aupa̲ravant <lb/>apprendre la langue et je n'ay aucun secours pour
+                    scela, et ce ne sera qu'à <lb/>force de converser avec eux que je pourrai avec le
+                    secours du Seigneur en venir à <lb/>bout et dresser des grammaires qui pouront
+                    servir aux missionnaires qui viendront <pb n="274"/>
+                    <lb/>après moy. Je suis chargé d'en faire autant pour la langue des Cristinaux et
+                    des <lb/>Assiniboels parmi lesquels on est que depuis quelques temps et qui n'ont
+                    presque <lb/>jamais entendu parler de Jésus Christ, parce qu'ils n'ont vû que
+                    quelques Fran̲çois <lb/>qui n'ont jamais pû scavoir que peu de mots de leur langue,
+                    on ne veut pas <lb/>que je m'arrête parmi ces derniers sauvages parce qu'ils sont
+                    errants et qu'ils n'ont <lb/>point de demeures fixes; au lieu que les
+                    Ouantchipouanes, si ce qu'ils en disent est <lb/>vray, sont fixés et par conséquent
+                    il y a plus d'apparence de faire du bien parmi eux, <lb/>voilà, mon Reverend Père,
+                    l'entreprise dont on me charge, elle est certainement <lb/>beaucoup au dessus de mes
+                    forces, et demanderait beaucoup plus de vertu que je n'en <lb/>ay, car me voilà au
+                    moins pour trois ou quatre ans sans le moindre secours spirituel <lb/>et éloigné de
+                    tout prêtre de plusieurs centaines de lieuës, vous n'avés pas de peine à
+                    <lb/>comprendre que c'est la plus rude épreuve que je puisse avoir de ma vie. Je
+                    vous <lb/>avoue que je n'envisage ma situation qu'en frémissant sur mon salut; ce
+                    qui me <lb/>rassure, c'est que ce n'est point de mon choix que je m'expose ainsi à
+                    tant de dan̲gers. <lb/>J'ai même fait ce que jay pu pour avoir avec moy un autre
+                    missionnaire <lb/>mais je n'ai pu gagner autre chose sinon qu'on m'en envoyeroit un,
+                    s'il en venoit de <lb/>France. On en attend quelques uns cette année. Nous avons
+                    actuellement sept ou <lb/>huit missions qu'on a été obligé d'abandonner faute
+                    d'avoir des ouvriers pour y <lb/>envoyer, et d'autres où un seul ne suffit pas pour
+                    y faire du fruit, si vous trouvés <lb/>l'occasion, mon Révérend Père, plaidez en
+                    faveur de nos missions, quoy que les <lb/>missionnaires ny trouvent peut être pas
+                    autant d'agrément et de consolations en <lb/>travaillant au salut des âmes que dans
+                    plusieurs autres pays, ils n'en manquent <lb/>cependant pas et il y a ici plus que
+                    partout ailleurs des occasions de souffrir et de se <lb/>rendre semblable à J̟. C̟.
+                    crucifié. Aussi, mon Reverend Père, la plupart de ceux <lb/>que la Providence
+                    emploie au salut des pauvres barbares sont des hommes en qui on <lb/>voit toutes les
+                    vertus et la saincteté que la compagnie admire dans les plus saincts <lb/>de ses
+                    enfans. Je les ai presque tous vûs cet hiver, et les grands exemples qu'ils
+                    <lb/>m'ont donnés de zèle, de recueillement, de mortification, d'esprit intérieur
+                    ont <lb/>par la miséricorde du Seigneur excité dans mon cœur un véritable et sincère
+                    désir de <lb/>faire tout ce que je pourrais pour les imiter. Je voudrois pouvoir
+                    vous dire tout ce <lb/>que je sçais d'édifiant de quelques uns d'eux et je suis
+                    persuadé que vous seriés <lb/>touché jusqu'aux larmes. J'en connois un entre autres
+                    à qui j'ay ouvert mon <lb/>cœur et qui a bien voulu m'ouvrir le sien, qui m'a fait
+                    admirer en lui tout ce que <lb/>j'avois lû ou entendu dire des plus grands saincts
+                    de notre compagnie.</p>
+                <p>Nous avons perdu cet hiver le Père Guênier, de la province de France; nous <lb/>le
+                    pleurons encore, et si sa saincte vie ne nous donnait une ferme confiance qu'il
+                    <lb/>est maintenant au ciel, occupé à prier pour nous nous donnerions encore un plus
+                    <lb/>libre cours à nos larmes.</p>
+                <p>Il étoit d'un zèle infatiguable, d'une grande mortification, homme d'oraison, <lb/>il
+                    avoit la plus tendre devotion envers la saincte Vierge. On peut dire que c'est
+                    <lb/>en quelque sorte son dévouement à la mère de Dieu qui a été cause de sa mort;
+                    <lb/>accablé de fatigues et de travaux, on fit ce qu'on put pour l'engager à prendre
+                    un <lb/>peu de repos et à se decharger sur un autre du sermon de l'Assomption de
+                    Notre <lb/>Dame, mais il persista toujours à vouloir le prescher, apportant pour
+                    raison qu'il <lb/>croyoit que c'étoit le dernier sermon de sa vie, et qu'il étoit
+                    bien aise avant de <lb/>mourir de donner encore à la Saincte Vierge quelques preuves
+                    de son attachement <lb/>et de son amour. J’eu le bonheur de l'entendre deux jours
+                    après notre débarque̲ment, <lb/>ce fut un sermon des mieux dits, des plus beaux, et
+                    des plus touchans que <pb n="275"/>
+                    <lb/>j'aye jamais entendus, il a été en effet le dernier quil ait préché et le peu
+                    de temps <lb/>qu'il a vécu après, il l'a passé à nous donner des exemples de toutes
+                    sortes de vertus. <lb/>J'ay eû le bonheur de le veiller deux nuits pandant sa
+                    derniere maladie et d'être <lb/>par là même témoin de ses beaux sentimens. Ils
+                    étoient tels, mon Révérend Pere, <lb/>que vous les avés lûs dans les S̟S̟. Louis de
+                    Gonzague et Stanislas; tout ce pays l'a <lb/>regretté comme un apôtre et pendant une
+                    journée entière qu'il a été exposé, il n'est <lb/>personne qui ne soit venu ou
+                    arôser son cercueil de ses larmes, ou le prier d'être <lb/>son intercesseur auprès
+                    de Dieu. Si on n'eût pas eû soin de le garder on aurait enlevé <lb/>tous ses habits
+                    et encore malgré toutes les précautions qu'on prit on ne pût em̲pêcher <lb/>qu'on
+                    enlevât une partie qu'on lui coupât presque tous les cheveux. Il a <lb/>fallu malgré
+                    nous donner presque tout ce qui avait été à son uzage et le distribuer <lb/>au
+                    public. Priés Dieu, mon Révérend Père, qu'il m'accorde une mort aussi pré̲cieuse
+                    <lb/>à ses yeux, que nous avons lieu despérer que la mort de ce saint Jésuite l'a
+                    <lb/>été. Je vais être exposé à bien des dangers, levéz quelques fois les mains au
+                    ciel <lb/>pour m'obtenir les grâces qui me sont nécessaires pour souffrir toutes les
+                    peines <lb/>que la Providence me ménagera pour ma sanctification. Je suis, mon
+                    Révérend <lb/>Père, avec un profond respect et dans l'union de vos saincts
+                    sacrifices,</p>
+                <p>Votre très humble et très obéissant serviteur,</p>
+                <p>J̟. P̟. <hi rend="pmaj">AULNEAU</hi>, de la compagnie de Jésus.</p>
+                <closer/>
+            </body>
+            </text>
+            <text type="lettre">
+                <pb n="275"/>
+                <body>
+                    <opener/>
+                    <p>Ma très chère et honorée mère,</p>
+                    <p>Je continue à garder la parole que je vous ay donné, et c'est avec le plus sen̲sible
+                        <lb/>plaisir que je vous renouvelle les marques du plus sincère et du plus
+                        res̲pectueux <lb/>attachement. J’ay passé l’hyver à Quebek en parfaite santé, et
+                        avec <lb/>toutes sortes d'agréments. Je suis maintenant sur le point d'en partir, et
+                        il me faut <lb/>songer désormais à travailler au salut des sauvages. La joye que
+                        j'en ay eust esté <lb/>complette si j'eusse pu avoir un Jésuite pour m'accompagner
+                        dans les courses qu'il <lb/>me faudra faire; mais la Providence n'a pas permis que
+                        je puisse avoir cette conso̲lation: <lb/>Dieu seul peut donc désormais faire toute
+                        ma consolation, conjurés le de <lb/>me faire la grâce de ne me rendre jamais indigne
+                        par mes péchés de sa protection <lb/>et des effets de sa miséricorde. Le terme de ma
+                        mission est trop éloigné pour que je <lb/>puisse m'y rendre cet esté et je seray
+                        obligé d'hyverner à 900 lieuës d'icy, dans un <lb/>poste qu'ont quelques François
+                        sur le bord d'un grand lac. Ce sera de cet endroit <lb/>que je vous escriray le
+                        printemps prochain; comme il se pourroit pourtant faire <lb/>que mes lettres ne
+                        fussent pas arrivées avant le départ des vaisseaux pour France, <lb/>ne vous
+                        allarmez point, ma chère mère, si vous ne recevés point de mes nouvelles; <lb/>je
+                        prieray cependant le Père Nau, qui est fixé à une mission iroquoise à <num
+                            type="cardinal">64</num> lieuës de <lb/>Quebek, de vous escrire tous les ans et
+                        de supléer à l'impossibilité où je seray de <lb/>le faire moy mesme aussi souvent
+                        que je le voudrais. Les sauvages chés qui on m'en̲ <pb n="276"/>
+                        <lb/>voye ont esté jusqu'à présent inconnus au reste de l'univers et n'ont jamais vû
+                        ny <lb/>François ny missionnaires. Ainsy, si le bon Dieu le veut, je seray le
+                        premier qui <lb/>leur annoncerai Jésus-Christ. Il me faut faire douze cents lieuës
+                        pour y arriver. <lb/>On dit qu'ils sont fort humains, et qu'ils reçoivent bien ceux
+                        qui vont chés eux, <lb/>qu'ils ont des chevaux, des troupeaux, des poules, ainsy, ma
+                        chère mère, vous <lb/>voyés que je ne seray pas fort à plaindre avec eux. Je ne
+                        pourray pas d'abord <lb/>travailler avec grand fruit à leur conversion, faute de
+                        sçavoir leur langue; aussy <lb/>dans les commencements, je ne pourray faire guère
+                        autre chose, que de baptiser <lb/>des enfants moribonds et de les envoyer au ciel,
+                        priés pour la conversion de leurs <lb/>pères, et de celuy qui par le baptême leur
+                        aura procuré ce bonheur. Vous pouvés <lb/>bien compter que je vous instruiray
+                        exactement de tous les succés que le bon Dieu <lb/>voudra bien accorder à mes sueurs
+                        et à mes travaux. Si je n'estois pas aussy pressé, <lb/>j'escrirois à mon cher
+                        oncle, à Me̟l̟l̟e̟ de la Sicaudière et à madame de la Villedieu, <lb/>mais le temps
+                        ne me le permet pas. Je vous prie, ma chère mère, de vouloir bien <lb/>suppléer pour
+                        moy et de me permettre de les assurer de mes très humbles respects. <lb/>Quoy
+                        qu'éloigné, je ne les oublie et ne les oubliray jamais. Je n'escris pas non plus
+                        <lb/>à mes frères pour la mesme raison, je vous prie cependant, quand vous leur
+                        escrirés, <lb/>de les saluer de ma part. Je me recommande à leurs prières. Pour ce
+                        qui est de ce <lb/>que vous jugerés à propos de m'envoyer, ayés la bonté de le faire
+                        tenir à Mr̟ Dupan, <lb/>marchand, rue St̟ Yon à la Rochelle, avec une adresse pour
+                        le Frère Boispineau <lb/>L'ayné, à Quebek, pour faire tenir au Père Aulneau,
+                        missionnaire au fort St̟ Charles, <lb/>sur le lac des Bois en Canada. Enfin, ma
+                        chère mère, redoublés vos prieres pour moy. <lb/>Il ne se passe guère de jours, que
+                        je ne me souvienne de vous au saint Sacrifice de la <lb/>messe et j'espère que le
+                        Seigneur, touché par les prières que nous ferons l'un pour <lb/>l'autre apres nous
+                        avoir séparé sur la terre, nous réunira dans le séjour de sa gloire; <lb/>alors nous
+                        nous féliciterons pendant toute l'éternité d'avoir sacrifié quelque chose <lb/>pour
+                        le service d'un aussy grand maistre: aymons le toujours et n'aymons que luy,
+                        <lb/>luy seul mérite nostre amour: servons le avec ferveur et faisons tous nos
+                        efforts pour <lb/>nous rendre semblables à son fils adorable expirant sur la croix,
+                        c'est là, ma chère <lb/>mère, le modèle de tous les chrestiens, et en particulier
+                        des missionnaires: aussy dans <lb/>nos peines nous n'avons point de ressource plus
+                        sure et de motif plus touchant <lb/>pour nous animer à les souffrir avec joye et
+                        avec reconnaissance. Heureux ceux qui <lb/>sont jugés dignes de mourir pour luy. Je
+                        suis, ma chère mère, avec le respect le <lb/>plus profond et le plus tendre
+                        attachement, vostre très humble et très obéissant <lb/>serviteur et fils,</p>
+                    <p>J.-P. <hi rend="pmaj">AULNEAU</hi>, <abbr type="suspension">J.</abbr> miss̟.</p>
+                    <closer>
+                        <dateline>A Quebeck, le 29e̟ avril 1735.</dateline>
+                    </closer>
+                    <trailer> Mille assurances de respect à Mr̟ Pennot; je me recommande à ses SS̟.
+                        Sa̲crifices. <lb/>Suscription: Monsieur Chaterere, procureur et notaire royal à
+                        Luçon, pour <lb/>faire tenir à madame de la Touche Aulneau, aux Moutiers sur le Hay,
+                        à Luçon. </trailer>
+                </body>
+            </text>
+            <text type="lettre">
+                <pb n="277"/>
+                <body>
+                    <opener/>
+                    <p>Mon Révérend Père, <lb/>La paix de Notre Seigneur Jésus-Christ.</p>
+                    <p>La part que vous avés toujours pris à ce qui me regardoit lorsque j'étais en
+                        <lb/>France, me fait croire que vous ne serés pas fâché d'aprendre quelle est ma
+                        destina̲tion <lb/>maintenant que je suis éloigné de vous. Je ne sçais si elle ne
+                        vous fera pas trem̲bler, <lb/>autant que moy sur mon salut, ce qui me rassure un
+                        peu, c'est que je n'y ay <lb/>contribué en rien, et le Reverend Père de Lauzon, mon
+                        supérieur, a disposé de moy <lb/>pour la mission où il m'envoie sans me prevenir, et
+                        malgré mes répugnances, Dieu <lb/>en soit benit. Luy peut désormais faire toute ma
+                        consollation et je n'ai plus d'au̲tres <lb/>ressources que celles que me peut
+                        fournir Jésus mourant sur la croix. Je suis <lb/>donc, mon Reverend Père, sur le
+                        point de partir pour aller à douze cens lieuës, <lb/>chez des sauvages qui n'ont
+                        jamais vu ny François ny missionnaires. Je ne pourai <lb/>pas me rendre chés eux de
+                        cet été, je serai forcé de passer l'hyver prochain à neuf <lb/>cens lieuës d'ici, en
+                        partie avec les Christinaux, en partie avec les Assiniboels sau̲vages <lb/>errans,
+                        qui dans leurs courses ont, disent-ils, rencontré ces sauvages que je <lb/>vais
+                        chercher; ils les appellent dans leur langue Ouantchipoüanes, c'est à dire
+                        <lb/>hommes qui habitent dans des trous. J'aurai sans doutte dans toutes ces courses
+                        <lb/>bien des peines à essuyer. Elles auroient été bien adoucies si on avait jugé à
+                        propos <lb/>de me donner un Jésuite pour m'accompagner, mais on m'envoye seul parmi
+                        des <lb/>peuples dont on ignore également et la langue et les mœurs. Je vous avoue,
+                        mon <lb/>Révérend Père, qu'il m'en a couté pour me determiner à obéir, Dieu veuille
+                        accep̲ter <lb/>le sacrifice que je luy fais, en obéissant, de ma vie et de toutes
+                        les consollations <lb/>humaines, en expiation de mes péchés. J'espère qu'il ne
+                        m'abandonnera pas, <lb/>et je trouve dans Jésus Christ crucifié de quoy m'animer à
+                        suporter toutes les <lb/>peines, et surmonter toutes les dificultés que la
+                        Providence me ménagera. Je serai <lb/>éloigné de tout prêtre de plusieurs centaines
+                        de lieuës, et voilà ce que je trouve <lb/>de plus dur dans toute ma mission, parce
+                        qu'il s'en faut bien que je n'aye assés de <lb/>vertu pour oser me promettre de
+                        n'avoir pas besoin de laver souvent mes péchés <lb/>dans le sang de Jésus Christ,
+                        mais Dieu semble exiger de moy que je luy sacrifie <lb/>cette consollation là même,
+                        je ne puis le luy refuser. Que son saint nom soit à ja̲mais <lb/>benit. Pour me
+                        rendre au terme de ma mission je doy traverser l'amérique <lb/>septentrionale
+                        presque toute entière, de telle sorte cependant qu'au lieu de passer <lb/>par le
+                        fleuve Mississipi quand je serai une fois à Missilimakinac, où est Le Père
+                        <lb/>Saint-Pé, je prendrai le nordoüest, et traverserai tous ces grands lacs qui
+                        sont en <lb/>deça et au delà des sources du Mississipi, pour me rendre au lac des
+                        Assiniboels, <lb/>d'où je ne partirai que le printemps prochain pour aller à trois
+                        ou quatre cens <lb/>lieuës de là, chés les Ouantchipouanes. Je marcherai alors au
+                        sud-oüest. Voilà, <lb/>mon R̟. Père, la route que je dois tenir pour arriver à un
+                        terme, comme vous voyés <lb/>fort incertain, puisque tout ce qu'on en sçait n'est
+                        fondé que sur le raport des autres <lb/>sauvages, qui pour l'ordinaire ne se font
+                        pas un grand scrupule de parler autrement <lb/>qu'ils ne pensent; si ce qu'ils
+                        ajoutent sur le lieu où sont placés les Ouantchipouanes, <lb/>est vrai, je crois
+                        qu'ils ne doivent pas être fort éloignés de la Californie, car si on les <lb/>veut
+                        croire, ils sont sur les bords d'un grand fleuve qui a flux et reflux, ce qui prouve
+                        <lb/>que la mer n'en est pas fort éloignée. Quel est ce fleuve, c'est ce qui n'est
+                        pas aisé à <pb n="278"/>
+                        <lb/>deviner. Je conjecture cependant que c'est cette grande rivière dont parle le
+                        Père <lb/>King, Jésuite allemand, dans une carte qu'il a faitte de ces parties de
+                        l'Amérique <lb/>qui sont au nord de la Californie. Il l'apelle Rio Colorado ou Del
+                        Norté. Voiés le <lb/>cinquième recueil des <hi rend="italique">Lettres
+                            édifiantes</hi>.</p>
+                    <p>Quoy qu'il en soit de ces conjectures, et du lieu ou sont situés ces sauvages, je
+                        <lb/>suis chargé de les aller chercher, et d'établir parmi eux une mission, s'il est
+                        possible, <lb/>tout cela, mon Révérend Père, est bien au dessus de mes forces, aussi
+                        je me suis mis et <lb/>tout le succès de mon entreprises entre les mains du
+                        Seigneur, conjurés le de disposer <lb/>de tout selon sa très sainte et divine
+                        volonté, n'oubliés pas aussi de donner à mon <lb/>âme quelque nourriture, rien ne me
+                        peut faire plus de plaisir que ce que vous pourés <lb/>me suggérer, pour m'animer à
+                        servir et aimer celui qui seul mérite nos services <lb/>et notre amour. Le Père Nau
+                        est fixé à la mission iroquoise du Sault St̟-Louis, près <lb/>Montréal. Nous
+                        craignons beaucoup que le P̟. Guignas n'ait été pris et brûlé par <lb/>les sauvages
+                        nommés Renards, mais dans ces pauvres contrées on doit bien peu esti̲mer <lb/>une
+                        vie qu'on est si souvent exposé à perdre. Heureux si j’etois jugé digne de la
+                        <lb/>sacrifier pour celuy de qui je l'ai reçu. Je me recommande à vos St̟s̟
+                        Sacrifices <lb/>et c'est dans leur union que je suis, mon Reverend Père,</p>
+                    <p>de votre révérence,</p>
+                    <p>Le très humble et très obéissant serviteur,</p>
+                    <p rend="align(droite)case(pmaj)">AULNEAU, Jésuite missionnaire.</p>
+                    <closer>
+                        <dateline>
+                            <placeName>A Québek</placeName>
+                            <date>le 29 avril 1735.</date>
+                        </dateline>
+                    </closer>
+                </body>
+            </text>
+            <text type="lettre">
+                <pb n="278"/>
+                <body>
+                    <opener/>
+                    <p>Ma très chère mère,</p>
+                    <p>Le long séjour que j'ay esté contre mon attente obligé de faire à Montréal, me
+                        <lb/>procure encore une fois le plaisir de vous donner de nouvelles asseurances de
+                        mon <lb/>respectueux attachement. J'en pars demain, n'ayant, grâces à Dieu, d'autre
+                        peine <lb/>que celle de m'éloigner trop, pour pouvoir vous donner de mes lettres, et
+                        recevoir <lb/>des vostres aussy souvent que je le voudrais. Peut estre qu'à <num
+                            type="cardinal">340</num> lieues d'icy j'auray <lb/>encore le loisir de vous
+                        escrire. J'en profiteray avec le plus sensible plaisir. Voylà <lb/>une grande
+                        carière dans laquelle la Providence me fait entrer ; priés Dieu, ma chère <lb/>mère,
+                        de me faire la grâce de la fournir d'une manière digne de luy. J'espère que
+                        <lb/>separé pour son amour de toutes sortes de consolations humaines il ne
+                        m'abandon̲nera <lb/>pas; et que si au milieu des forêts où je vais passer le reste
+                        de ma vie, au milieu <lb/>des bêtes feroces je ne trouve pas de quoy contenter mon
+                        amour propre, je trouveray <lb/>du moins de quoy le detruire et l'aneantir par mes
+                        souffrances. Conjurés le Sei̲gneur <lb/>de m'en envoyer beaucoup et de me donner la
+                        patience de les supporter <lb/>avec résignation à sa très sainte et divine volonté.
+                        Je prie presque tous les jours pour <lb/>vous au St̟ Sacrifice de la messe, et je
+                        continueray jusqu'à la mort de vous donner <lb/>cette unique marque qui soit en mon
+                        pouvoir de ma juste reconnaissance. Je suis, <lb/>ma chère mère, avec un profond
+                        respect,</p>
+                    <p>Vostre très humble et obéissant serviteur et fils,</p>
+                    <p>J̟.-P̟. <hi rend="pmaj">AULNEAU</hi>, d̟. L̟. c̟. d̟. J̟. Miss̟. ind̟.</p>
+                    <closer>
+                        <dateline>
+                            <placeName>A Montréal</placeName>
+                            <date>le 12e̟ juin 1735.</date>
+                        </dateline>
+                    </closer>
+                    <pb n="279"/>
+                    <trailer> Je vous prie d'asseurer de mes respects mon cher oncle Mr̟ Pennot, Made̟ de la
+                        <lb/>Villedieu. J'embrasse aussy et salue tous mes frères et sœurs. <lb/>Ma très
+                        chère mère, je vous prie de remettre entre les mains du P̟. Bonin la <lb/>pension
+                        que vous avés bien voulu me faire. </trailer>
+                </body>
+            </text>
+            <text type="lettre">
+                <pb n="279"/>
+                <body>
+                    <opener/>
+                    <p>Ma chère sœur, L̟. p̟. d̟. n̟. s̟. J̟c̟. (la paix de Notre Seigneur
+                        Jésus-Christ).</p>
+                    <p>Contre votre atente et la miesme vous recevrés encore une de mes lettres. <lb/>Je
+                        suis persuadé qu'elle ne vous fera pas de peine, si cela étoit votre amitié pour
+                        <lb/>moy aurait bien changé. Je pars demain de Monreal où j'ay fait plus long séjour
+                        <lb/>que je ne croyais. J'espère ariver au premier terme de ma mission vers la fin
+                        du <lb/>mois de novembre, ce ne sera selon les apparences qu'aprets bien des
+                        souffrances, <lb/>heureux, ma plus chère sœur, si j'en fait l'usage que le Seigneur
+                        a droit d'en at̲tendre, <lb/>il ne doit jamais nous paroistre plus aimable et nous
+                        aimer davantage que <lb/>quand il nous fournit des moyens de nous rendre semblables
+                        à son cher fils, dont <lb/>tous les momens de sa vie mortelle, ont été marqués par
+                        quelques nouvelles <lb/>souffrances; de trois ou quatre ans comme je vous le mande
+                        dans ma dernière lettre, <lb/>je n'auray point de demeure fixe et je ne feray guère
+                        autre chose que de parcourir <lb/>les bois et les lacs, pour prendre connaissance
+                        des nouveaux pays où la Providence <lb/>m'envoye, si j'avois plus de vertu que je
+                        n'en ay je me féliciterois beaucoup davan̲tage <lb/>de ce que cela me mettra dans la
+                        nécessité de commencer à me consacrer aux <lb/>missions par où ont commencé tant de
+                        saincts missionaires, qui dans les premiers <lb/>temps de l'établissement des
+                        François dans ce pauvre pays en ont arosés les forets <lb/>de leurs sueurs et de
+                        leur sang, mais mon peu de vertu me fait trembler et quoyque <lb/>j'espère tout de
+                        la miséricorde du bon Dieu je n'envisage l'affreuse solitude où je vais <lb/>entrer
+                        qu'avec frayeur, redoublés donc pour moy vos prières et conjurés toutes les
+                        <lb/>dames de votre communosté d'en faire autant. Je vous prie de les assurer toutes
+                        <lb/>de ma reconnoissance et de mon respect, si vous pouvés sans rien employer de ce
+                        <lb/>qui vous est donné pour vos besoins me procurer quelque linge ou ornement
+                        d'au̲tel, <lb/>vous me ferés un sensible plaisir. Je suis sur ce point dans la
+                        dernière misère. <lb/>Adieu, ma chère sœur; aimés moy en Jésus Christ autant que je
+                        vous aime.</p>
+                    <p>J̟.-P̟. AULNEAU,</p>
+                    <p> J̟. M̟. J̟. </p>
+                    <closer>
+                        <dateline>
+                            <placeName>Au Monreal</placeName>
+                            <date>le 12 juin 1735.</date>
+                        </dateline>
+                    </closer>
+                </body>
+            </text>
+            <text type="lettre">
+                <pb n="280"/>
+                <body>
+                    <opener/>
+                    <p>Mon Révérend Père,</p>
+                    <p>Je croyais que la lettre que je vous ay ecrit de Québek seroit la derniere que je
+                        <lb/>pourois vous écrire cette année, mais le long séjour que j'ay fait contre mon
+                        attente <lb/>au Monreal me procure encore le plaisir de vous écrire une foy avant de
+                        m'enfoncer <lb/>dans les forets. Le Père Nau a eû depuis son séjour à la mission du
+                        Sault St̟ Louis <lb/>une violente attaque de goutte, cela a affligé tout ce qu'il y
+                        a de missionnaire dans <lb/>ce pauvre pays. Pour moy plus je fatigue plus j’ay de
+                        santé, et plus j'envisage <lb/>de peines et de souffrances dans la vie que je vais
+                        mener, plus je ressens de joys <lb/>de ce que Dieu a bien voulu m'appeller aux
+                        missions de ce pauvre pays. Je vous <lb/>ai déjà mandé que je m'en vais dans des
+                        pays inconnûs jusqu'ici et tâcher de faire <lb/>connaître Jésus Christ à des
+                        sauvages, qui n'en ont jamais entendu parler, et qu'on <lb/>a jamais vû. Tout cela
+                        m'anonce bien des peines, et la moindre sera d'errer au <lb/>moins quatre ou cinq
+                        ans dans les Bois, sans avoir de demeure fixe, en cela, mon <lb/>Reverend Père je
+                        ressemblerai, quoy que d'ailleurs bien différand en mérite et en <lb/>vertus, aux
+                        premiers missionnaires qui ont arosés de leurs sueurs et de leur sang ce <lb/>pauvre
+                        pays, conjurés le Seigneur de me faire la grâce de marcher sur les traces de
+                        <lb/>tant de grands saincts et de tant de grands hommes. Depuis ma dernière lettre,
+                        <lb/>nous avons receu des nouvelles du pauvre Pere Guignas qui depuis
+                        <date>1732</date> que nous <lb/>n'avions point entendu parler de luy, a souffert
+                        d'une manière heroïque tout ce que <lb/>la faim, la soif et des dangers presque
+                        continuels d'etre massacré et brulé par les <lb/>Sakis ou Renards ont de plus
+                        affreux. Il n'en peut plus mais la disette où nous <lb/>sommes de missionnaires,
+                        fait qu'on est dans l'impossibilité de le délivrer et de le <lb/>soulager. Prié Dieu
+                        de nous envoyer du secours. Ceux qui viendront se consacrer <lb/>à nos missions,
+                        trouveront encore ici les plus beaux modelles de toutes sortes de <lb/>vertus. Je
+                        suis, mon Révérend Père, avec un profond respect et dans l'union de <lb/>vos saints
+                        sacrifices,</p>
+                    <p>Votre tres humble et tres obéissant serviteur,</p>
+                    <p>J̟.-P̟. AULNEAU, J̟. M̟. J̟.</p>
+                    <closer>
+                        <dateline>
+                            <placeName>A Monreal,</placeName>
+                            <date>le 12 juin 1735.</date>
+                        </dateline>
+                    </closer>
+                    <trailer> Ne soyés pas surpris si vous ne recevés que dans deux ou trois ans de mes
+                        <lb/>nouvelles. Je suis trop éloigné pour pouvoir vous en donner plutôt. Si vous
+                        m'ecrivés, <lb/>ayés la bonté de mettre sur vos lettres au Père Aulneau,
+                        D̟.L̟.C̟.D̟.J̟., missionnaire <lb/>au fort St̟ Charles sur le Lac des bois, en
+                        Canada. </trailer>
+                </body>
+            </text>
+            <text type="lettre">
+                <pb n="280"/>
+                <body>
+                    <opener/>
+                    <p>Mon Révérend Père, la paix de N̟. S̟. J̟c̟.</p>
+                    <p>Je profite avec plaisir de quelques momens qui me restent à passer à Monreal
+                        <lb/>pour vous écrire une seconde foy, et ce sera peut être la dernière de ma vie.
+                        Je <lb/>pars demain pour aller m'enfoncer dans les bois. Dans ma première lettre je
+                        vous ai <lb/>marqué quel était le terme de ma mission. Souffrés, mon Reverend Père,
+                        que je la <pb n="281"/>
+                        <lb/>recommande de nouveau à vos saincts sacrifices. Pour ce qui est du
+                        missionnaire, <lb/>je suis bien persuadé que vous ne l'y oublieré pas. Nous avons
+                        receu depuis quel̲ques <lb/>jours des nouvelles du Père Guignas, on en avoit pas eû
+                        depuis <date>1732</date>, il n'en <lb/>peut plus la faim qu'il a eû a souffrir, les
+                        dangers d'etre massacré par les Sakis et les <lb/>Renards auxquels il a presque
+                        toujours été exposé et mille autres travaux qu'il a <lb/>soufferts de la manière la
+                        plus héroïque l'ont réduit à ce point, que les sauvages <lb/>même qui ne nous
+                        plaignent guères ne peuvent lui refuser des sentiments de com̲passion, <lb/>on est
+                        pourtant encore dans l'impossibilité de le soulager à cause de la <lb/>disette où
+                        l'on est de missionnaires, priés Dieu, mon révérend Père, d'envoyer des
+                        <lb/>ouvriers dans cette pauvre mission. Le Père Nau a eû ce printemps une violente
+                        <lb/>attaque de goutte, ce qui nous afflige beaucoup. Je vous prie de m'envoyer le
+                        calcul <lb/>de quelques éclipses de soleil et de lune qui seront visibles en France
+                        et en Améri̲que. <lb/>Je vous en auray beaucoup d'obligations, je tacherais d'en
+                        faire usage de mon <lb/>mieux pour déterminer les longitudes des nouveaux pays où la
+                        Providence m'en̲voyera. <lb/>Je vous ferai part exactement de tout ce que je pourrai
+                        remarquer qui puisse <lb/>vous faire plaisir; au reste, je ne pourai recevoir ce que
+                        je prend la liberté de vous <lb/>demender que dans trois ou quatre ans à cause de
+                        mon éloignement. Je suis, mon <lb/>Reverend Père, avec un très profond respect et
+                        dans l'union de vos saincts sacri̲fices,</p>
+                    <p>Votre très humble et très obéissant serviteur,</p>
+                    <p>J̟.-P̟. AULNEAU, J̟. M̟. J̟.</p>
+                    <closer>
+                        <dateline>
+                            <placeName>A Monrealle</placeName>
+                            <date>12 juin 1735</date>. </dateline>
+                    </closer>
+                </body>
+            </text>
+            <text type="lettre">
+                <pb n="288"/>
+                <body>
+                    <opener>
+                        <dateline rend="droite">
+                            <placeName>Fort St̟-Charles,</placeName>
+                            <date>30 avril 1736.</date>
+                        </dateline>
+                    </opener>
+                    <p>Mon Reverend Père,</p>
+                    <p>P. Ch.</p>
+                    <p>Les lettres que j'eus l'honneur de vous escrire l'année dernière, <date>1735</date>,
+                        vous <lb/>auront sans doute surpris. Je prends la liberté de vous y demander des
+                        choses que <lb/>mon peu d'expérience dans les missions où la Provindence m'a apelé
+                        et je ne say <lb/>quelle fantaisie ont peû me determiner à vous demander, aussy ne
+                        seray-je nulle̲ment <lb/>surpris sy vous n'avez eû aucun esgard à mes demandes. Je
+                        vous prie seulle̲ment <lb/>de vouloir me pardonner la peine et l'embarras qu'elles
+                        auraient peu vous <lb/>causer. La vie errante qu'il me faut mener m'empesche de
+                        trainer avec moy autre <lb/>chose que ce qui est absolument nécessaire. D'ailleurs,
+                        l'argent qu'on devait vous <lb/>remettre aurait, sans doute, à peine suffi pour
+                        achetter la quatriesme partie de ce <lb/>que je demandois à votre reverance. Encore
+                        une fois, mon R̟. Père, excusés mon <lb/>indiscrétion.</p>
+                    <p>Je suis arrivé au fort St̟ Charle le <date>23e 8b 1735</date>. J'étois party de la
+                        mission des <lb/>Iroquois du Saut Saint Louis le <date>21e juin</date>, jour de
+                        Saint-Louis de Gonzague sous la <lb/>protection de quy, je creu que la Providence
+                        voulait que je me misse en permettant <lb/>ainsy que le jour de mon départ et de mon
+                        entière séparation de tout ce quy pouvait <lb/>encore me faire plaisir, fust contre
+                        toutes les apparances prolongé jusqu'au jour <lb/>de la feste de ce grand saint.
+                        Avecq le secours d'un aussy puissant protecteur, j'ay <lb/>fait tout mon voyage en
+                        parfaite santé. Il a été à compter de <gap resp="transcriptor" rend="points"/> cents
+                        lieues, <lb/>presque tout par eau et en canot <gap resp="transcriptor" rend="points"
+                        /></p>
+                    <pb n="289"/>
+                    <p>J'ai passé chéz le Père Saint Pé à Missilemakina<hi rend="susp">…</hi> Je suis
+                        retourné quinze <lb/>lieues sur mes pas pour aller reprandre la route du lac
+                        Supérieur. J’ay costoyé ce <lb/>lac l'espace de deux <gap resp="transcriptor"
+                            rend="points"/> suivant à l'ordinaire le nord, quelquefois <lb/>l'ouest et le
+                        soroüest <gap resp="transcriptor" rend="points"/> du lac Supérieur. J'ai entré dans
+                        les terres qui <lb/>sont au nord du lac<hi rend="susp">…</hi> et après avoir marché
+                        presque toujours à pied l'espace de <lb/>deux ou trois jours, j'ai fait route
+                        tantost à l'ouest, tantost au soroüest, quelquefois <lb/>mesme au sud, au travers de
+                        plusieurs lacs parsemés. Plusieurs de ces lacs ont plus <lb/>de cent lieues de tour.
+                        On compte du haut du lac Supérieur au fort Saint Charles <lb/>d'où j'ay l'honneur de
+                        vous escrire, trois cent lieues. Je les ay fait presque toujours <lb/>au travers des
+                        flammes et etouffé par une épaisse fumée qui ne nous a jamais per̲mis <lb/>de voir
+                        une seule fois la lumière du soleil. C'estoit les sauvages quy dans leurs
+                        <lb/>chasses avaient mis le feu dans les bois, sans croire cependant qu'il deut
+                        faire un sy <lb/>horrible embrasement. Une si longue route faite en tout autre pays,
+                        aurait fourny <lb/>bien des objets divertissants et capables de piquer la curiosité
+                        mais tout ce qu'on <lb/>voit dans ces vastes contrées se termine à des lacs, des
+                        rochers, des forests immen̲ses, <lb/>des sauvages et quelques bestes feroces. Ainsy,
+                        mon R̟. Père, je ne puis vous <lb/>faire part de rien qui mérite votre attention.
+                        Cependant sur les bords d'un grand <lb/>lac, que nos François appellent le lac de la
+                        Croix et quy est à environ six vingt lieues <lb/>d'icy, je crus voir la lune
+                        éclypsée. C'estait le premier d'octobre; sy ce n'était pas <lb/>de la fumée et que
+                        ce fust véritablement une éclypse, elle finit sur les neuf heures <lb/>du soir. J'ay
+                        aussy aperceu plusieurs fois, surtout dans le lac Huron, de grandes <lb/>lumières
+                        boréales, mais mon incapacité plus encore que la lassitude ne m'a pas per̲mis
+                        <lb/>de les observer d'une manière à vous en donner une juste idée, nous aurons
+                        <lb/>eu icy tout l'hyver le même spectacle et il ne s'est passé presque aucune nuit
+                        sans <lb/>que le nord ne parût en feu et avecq les mesmes lumières. Pour ce qui est,
+                        mon <lb/>R̟. Père, du fort Saint-Charles ou j'ay passé l'hiver ce n'est autre chose
+                        que quatre <lb/>rangs de pieux de douze à quinze pieds de haut quy forment un quarré
+                        long au <lb/>millieu duquel sont renfermées quelques méchantes cabannes de pièces de
+                        bois <lb/>et de terre glaise couvertes d'écorce. Il est environ a une lieue dans
+                        la<gap resp="transcriptor" rend="susp"/> de <num type="cardinal">60</num> a
+                        <lb/><num type="cardinal">70</num> lieues au soroüest du lac des Bois. Ce lac
+                        mesure quarante lieues de tour. Sa <lb/>plus grande longueur est nord<gap
+                            resp="transcriptor" rend="susp"/> Il communique par plusieurs rivières dans
+                        <lb/>d'autres lacs, quy tous se deversent dans un autre que les sauvages disent plus
+                        <lb/>grand que le<gap resp="transcriptor" rend="susp"/> Ils l'appellent Ouinipignon.
+                        Ce dernier forme ensuite trois <lb/>rivières quy ont leurs embouchures dans la mer
+                        au-dela (ainsi que je puis conjec̲turer <lb/>de ce qu'en disent les Kristinaux) du
+                        port Nelson. C'est sur les bords de ce <lb/>dernier lac, environ à cent cinquante
+                        lieues d'icy, que je compte aller passer une <lb/>partie de l’esté prochain et de
+                        l'automne avec les Assiniboels quy occupent toutes <lb/>les terres quy sont au sud
+                        de ce lac. Les autres parties de ce lac sont occupées par <lb/>les Kristinaux qui
+                        tiennent non seulement presque tout le nord jusqu'à la mer mais <lb/>encore une
+                        étendue de pays immense à commencer depuis le lac des Bois quy est <lb/>tout entier
+                        de leur domination, jusque bien avant au delà de Ouinipignon. Vers la
+                        <lb/>Toussaint, si c'est la volonté du bon Dieu, je compte, avec ceux des François
+                        qui <lb/>voudront courir les mesme perils que moy, me joindre aux Assiniboels, quy
+                        tous les <lb/>ans partent sur les premières glaces, pour aller chercher du bled
+                        d'Inde chés les <lb/>Kaotiouak ou Autelsipouncs, pour lesquels mes supérieurs me
+                        font faire ce long <lb/>voyage; de l'Ouinipignon chez eux on compte deux cent
+                        cinquante lieues mais <lb/>comme nous ne marcherons qu'en chassant nous en ferons
+                        peut estre plus de <lb/>quatre cents. Sy j'y puis arriver de bonne heure, je ne me
+                        contenteray pas de voir <pb n="290"/>
+                        <lb/>les premiers villages du Koatiouak mais je m'avanceray le plus long que je
+                        pourray, <lb/>le long de la rivière qu'ils occupent dans laquelle nos Kristinaux
+                        disent avoir vu les <lb/>loups marins ce qui serait une preuve qu'elle ne serait pas
+                        bien esloignée de la mer. <lb/>Vers le milieu de mars je partiray pour retourner sur
+                        les bords de l'Ouinipignon. <lb/>J'oubliais de vous dire, mon R̟. Pere, que le fort
+                        St̟ Charles est, selon Monsieur de <lb/>la Jemmeraye, enseigne dans le detachement
+                        de la marine de ce pays, par les <num type="cardinal">48</num>d̟ <lb/><num
+                            type="cardinal">5</num> minutes. Voilà, mon Révérend Père, tout ce que je puis
+                        vous dire pour le présent <lb/>de ces pauvres pays, peut estre mesme, me suis-je mal
+                        exprimé sur bien des choses, <lb/>mais je suis bien persuadé que vous m'excuserés.
+                        D'ailleurs, je ne vous garantis pas <lb/>tout ce que je vous ay rapporté et que je
+                        ne scais pas par moy-mesme mais seule̲ment <lb/>sur le témoignage des sauvages et de
+                        quelques François dont l'expérience <lb/>est un peu plus grande que la mienne. Peut
+                        estre qu'un jour viendra où je pourray <lb/>vous donner des connaissances plus
+                        certaines de ces vastes pays si peu conneus. <lb/>Je n'ay hazardé de vous parler de
+                        ces contrées que dans le dessein de vous faire <lb/>plaisir. Pour ce quy est des
+                        sauvages de ces contrées et en particulier des Kristinaux, <lb/>je ne crois pas que
+                        sans un miracle on puisse jamais les engager à embrasser la reli̲gion, <lb/>outre
+                        qu'ils n'ont point de demeures fixes et qu'ils vivent toujours erants dans <lb/>les
+                        bois et séparés les uns des autres. Ils sont superstitieux et débauchés à un point
+                        <lb/>qu'on ne saurait exprimer. Ce qu'il y a de plus déplorable c'est que le desmon
+                        se <lb/>sert mesme de ceux qui devraient tacher de les en retirer, pour les retenir
+                        dans <lb/>les fers. Les Anglais et les François par la plus damnable avarice les ont
+                        mis dans <lb/>le goust de l'eau de vie et ont ainsy esté cause qu'ils ont adjouté à
+                        leurs autres vices, <lb/>celuy de leur ivrognerie de telle sorte que l'eau de vie
+                        est toujours l'âme de leur <lb/>conversation et l'objet de leur demande et qu'on ne
+                        peut compter sur eux que autant <lb/>qu'on leur donne de quoy s'ennivrer. Le bon
+                        Dieu a desja puni plusieurs de ceux <lb/>des François qui font ces infâmes commerces
+                        en permettant qu'ils s'y ruinassent, <lb/>mais la perte des biens temporels, ny la
+                        crainte de perdre Dieu mesme pour une <lb/>éternité, n'a encore peu abollir un sy
+                        honteux négoce et voilà mon R̟. Père, une des <lb/>plus grandes croix qu'ayent à
+                        souffrir dans ce pays-cy les missionnaires et ce quy a fait <lb/>détruire plusieurs
+                        belles missions et fait abandonner la religion à plusieurs sauvages. <lb/>Il y a
+                        encore parmi les Mousouis, voisins des Kristinaux, et parmi les sauvages, <lb/>dans
+                        le haut du lac Supérieur, plusieurs sauvages qui ont reçu le saint baptême et
+                        <lb/>que l'ivrognerie a replongés dans leur ancienne superstition. Je dois pourtant
+                        rendre <lb/>cette justice aux François avecq quy j'ay voyagé qu'ils n'ont pas fait
+                        cet infâme <lb/>traficq, et que malgré les demandes que leur ayent faites les
+                        sauvages, ils ont aymé <lb/>mieux refuser les avances qu'ils leur avaient faites
+                        pour des échanges que de leur <lb/>donner de l'eau de vie. Malgré les vices honteux
+                        de ces pauvres infidelles Dieu a <lb/>permis qu'ils conservassent encore parmi eux
+                        certaines idées quy pouraient peut-estre <lb/>servir à les ranger à la religion. Ils
+                        reconnaissent l'immortalité de leurs âmes. Après <lb/>la séparation du corps, elle
+                        va joindre celle des autres sauvages morts mais celles-cy <lb/>n'ont pas toutes la
+                        mesme demeure. Les unes sont dans des prairies enchantées où <lb/>on voit toutes
+                        sortes de bestes qu'elles tuent sans peine et de la viande desquelles <lb/>elles se
+                        regallent perpétuellement les unes les autres, aussy ne voit-on dans ces prai̲ries
+                        <lb/>que chaudières sur le feu, danses, que jeux. Voilà leur paradis. Mais il y a un
+                        <lb/>pas bien dangereux à passer pour y parvenir. Pour cela, il faut traverser un
+                        large <lb/>fossé quy d'un costé est plain d'une eau bourbeuse puante et pleine
+                        d'écume, et de <lb/>l'autre, de feu et de flammes terribles. Tout le secours que
+                        l'on a pour faire ce pas̲sage <lb/>est un sapin appuyé par les deux bouts sur les
+                        côtés du fossé; l'écorce du sapin <pb n="291"/>
+                        <lb/>est toujours fraîchement lavée et d'un bout à l'autre il est couvert d'une
+                        gomme <lb/>aussy glyssante que la glace. Sy les âmes qui veulent aller dans les
+                        prairies enchan̲tées, <lb/>ont le malheur de tomber dans cette dangereuse traversée,
+                        il n'y a plus de res̲source; <lb/>elles sont condamnées pour toujours ou à boire de
+                        cette écume bourbeuse <lb/>et puante, ou a bruler dans les flammes, selon le costé
+                        où elles tombent, voilà leur <lb/>enfer. Voilà quelque idée obscure de ce qu'il en
+                        doit couter pour aller au ciel.</p>
+                    <p>Je ne vous parle point de mille autres extravagances que je ne fais encore
+                        <lb/>qu'entrevoir, parce que je n'entends pas encore assés bien leur langue. Sy cela
+                        vous <lb/>fait plaisir, je pourray dans la suite vous entretenir. Je suis le premier
+                        missionnaire <lb/>quy ait encore entrepris de déchiffrer la langue des
+                        Kristinaux.</p>
+                    <p>Tous p<gap resp="transcriptor" rend="points"/> je n'y suis pas encore fort habile. Je
+                        n'en ap̲prends <lb/>que peu dans tout cet hyver ayant tous été en guerre contre les
+                        Maskoute̲poels <lb/>ou Scioux des Prairies. Ils en ont détruit quelques cabanes et
+                        quelques-uns <lb/>d'eux sont venus avec quelques-uns d'eux et quelques chevelurres
+                        quy sont les plus <lb/>précieux trophées de leurs victoires. Cette guerre a été
+                        cause que nous avons beau̲coup <lb/>à souffrir cet hyver n'ayant eu autre chose pour
+                        nous nourrir que d'assês <lb/>mauvais brochets bouilis ou sechés au feu. Les
+                        Kristinaux ne sont pas à beaucoup <lb/>près aussi nombreux que les Assiniboels, mais
+                        ils sont beaucoup plus braves ou <lb/>plustôt plus féroces et plus cruels; ils se
+                        tuent les uns les autres sur le moindre soup̲çon, <lb/>la guerre et la chasse est
+                        toute leur occupation. Ils n'ayment pas à apprendre <lb/>leur langue, de sorte que
+                        le peu que j'en scay, c'est malgré eux que je l’ay appris. <lb/>J'espère cependant
+                        estre en estat avant mon départ pour les Koatiouaks de leur <lb/>annoncer
+                        l'évangile. Le démon est l'unique idolle qu'ils reconnaissent et c'est à <lb/>luy
+                        que se determinent toujours leurs bizarres sacrifices, quelques-uns d'eux m'ont
+                        <lb/>dit l'avoir veu plusieurs fois visiblement, ils le craignent beaucoup parce que
+                        de leur <lb/>aveu il ne leur fait que du mal, et c'est pourquoy ils l'honorent au
+                        lieu qu'ils ne pen̲sent <lb/>pas mesme à Dieu parce qu'il ne leur fait que du bien.
+                        Ils avouent qu'ils ont <lb/>tout reçu de luy et qu'il est l'auteur de tout, aussy ne
+                        sont-ils pas surpris quand <lb/>on leur parle des prodiges qu'il a souvent operés,
+                        la ressurrection d'un mort n'a rien <lb/>mesme qui les estonne; et un jour un
+                        Mousouis, entendant parler de celle du Lazare, <lb/>dit <q>Belle merveille que Dieu
+                            l'ait ressuscité, Il luy avoit déjà donné une fois la vie, <lb/>il pouvoit
+                            encore bien luy donner une seconde</q>. Quand on leur parle de la religion
+                        <lb/>chrestienne, une de leurs grandes ressources pour ne pas l'embrasser c'est que
+                        les <lb/>sauvages ne sont pas faits pour cette religion. Mais la vraye raison qu'ils
+                        ne veulent <lb/>pas avouer c'est la crainte qu'ils ont du démon et la nécessité où
+                        ils seroient de re̲noncer <lb/>à ce qu'ils appellent leurs religions auxquels ils
+                        s'imaginent ne pouvoir re̲noncer <lb/>sans estre sur le champ frappés de mort. Priés
+                        le Seigneur, mon R̟. Père, <lb/>de vouloir bien éclairer ces malheureux esclaves de
+                        l'enfer et de leur toucher le <lb/>cœur. Conjurés-le surtout d'envoyer dans ses
+                        vastes contrées de zélés ouvriers <lb/>pour leur annoncer l'évangile et les forcer
+                        avecq le secours du ciel d'aymer et d'em̲brasser <lb/>une religion qu'ils ne peuvent
+                        s'empêcher de respecter. Je suis persuadé <lb/>que sy on estoit cinq ou six
+                        missionnaires dans ces pays, on y pourroit faire quelque <lb/>fruit, surtout parmi
+                        les Assiniboels et les Koatiouaks beaucoup plus dociles que les <lb/>autres, mais
+                        que peut faire un seul homme dans une étendue de pays dont on ignore <lb/>les
+                        limites? A peine a-t-on parlé à un de la religion, et a-t-on conçeu quelque faible
+                        <lb/>lueur d'espérance, qu'obligé pour vivre d'errer dans les bois, le démon luy
+                        suscite <lb/>mille suposts quy l'en détournent et quy luy font honte d'avoir mesme
+                        escouté ce <lb/>qu'on luy a dit sur la religion. Au lieu que plusieurs missionnaires
+                        dispersés de <pb n="292"/>
+                        <lb/>différents costés, les tiendraient comme bloqués et à peine seroient-ils sortis
+                        des <lb/>mains de luy qu'ils retomberoient dans celles de l'autre, d'ailleurs je
+                        suis trop faible <lb/>et trop misérable pour commencer un ouvrage qui demanderoit un
+                        homme d'une <lb/>sainteté consommée. J'ay eu beau le représenter avant mon départ on
+                        n'a pas <lb/>vouleu m'escouter. On m'a promis qu'on m'enverroit quelqu'un cette
+                        année; si on <lb/>me tient parole, j'espère de la miséricorde du bon Dieu que dans
+                        quelques années <lb/>je pouray vous donner quelques nouvelles quy vous feront
+                        plaisir. Avant qu'il <lb/>puisse me joindre, je compte savoir passablement la langue
+                        des Kristinaux et un peu <lb/>celle des Assiniboels. Le Bon Dieu m'a donné assés de
+                        facilité pour comprendre <lb/>ces bizarres jargons. Enfin, mon Révérend Père, toute
+                        la réussite de ces projets est <lb/>connue de Dieu seul, peut-estre qu'au lieu
+                        d'apprendre la nouvelle de l'exécution <lb/>vous apprendrés la nouvelle de ma mort.
+                        La route qui me reste à faire est une route <lb/>de <gap resp="transcriptor"
+                            rend="points" extent="1 word"/> lieues sans trouver de tristes restes de la
+                        barbarie et de la <lb/>fureur des sauvages de ces contrées, il en sera comme il
+                        plaira au bon Dieu; du meil̲leur <lb/>de mon cœur je luy feray le sacrifice de ma
+                        vie. Il y a déjà trop longtemps <lb/>que je l'emploie à l'outrager; Il ne scaurait
+                        se venger trop tot de mes perfidies. Je <lb/>vous prie, mon Révérend Père, et me
+                        jette en esprit à vos genoux pour vous con̲jurer <lb/>de vous souvenir dans vos
+                        S̟S̟. S̟S̟.<note resp="encoder">Il est probable que cette abréviation signifie
+                            saints sacrifices, voir la lettre du 1735-04-29, où le scripteur abrège saints
+                            SS.</note> du plus indigne de tous les hommes. C'est <lb/>dans leur union que je
+                        suis de votre Re̟ le très humble et obéissant serviteur,</p>
+                    <p>J̟.-P̟. AULNEAU, J̟. M̟. J̟.</p>
+                    <trailer> Je vous prie, mon R̟. P̟., d'assurer de mon respect le R̟. P̟. supérieur et
+                        tous nos <lb/>R̟. Pères; je me recommande à leur S̟S̟. S̟S̟. <lb/>Cependant comme
+                        nos derniers canots partent et que, apparemment, je n'auray <lb/>plus d'occasion
+                        pour ecrire sytot je me hâte et je finis pressé par ceux qui doivent <lb/>porter
+                        cette lettre. Daignez me recommander souvent à Dieu dans vos saints <lb/>sacrifices
+                        et croyez qu'on ne peut estre avec plus de respect, <lb/>Mon Révérend Père,
+                    </trailer>
+                </body>
+            </text>
+        </group>
+    </text>
+</TEI>

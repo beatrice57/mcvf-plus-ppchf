@@ -1,0 +1,1550 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Acte de Douai de 1204, et quelques autres textes non datés de la fin du XIIe siècle</title>
+        <title type="sub"/>
+        <title type="short">Anonyme.ActeDouai</title>
+        <author>
+          <persName> 
+            <surname>Divers</surname>
+            <forename/>
+          </persName>
+        </author>
+        <editor>Modéliser le changement, les voies du français GTRC/CRSH</editor>
+        <principal>
+          <persName>France Martineau</persName>
+        </principal>
+        <funder>
+          <orgName>Université d'Ottawa</orgName>
+          <orgName>Conseil de recherche en sciences humaines du Canada</orgName>
+        </funder>
+        <respStmt>
+          <resp>Codage</resp>
+          <persName xml:id="Fauchon">Caroline Fauchon</persName>
+          <persName xml:id="Labelle">Simon-Pier Labelle-Hogue</persName>
+          <persName xml:id="Brazeau">Stéphanie Brazeau</persName>
+          <persName xml:id="Morin">Yves Charles Morin</persName>
+        </respStmt>
+      </titleStmt>
+      <extent>8 931</extent>
+      <publicationStmt>
+        <date when="2009-02-23"/>
+        <publisher>
+          <orgName>Modéliser le changement : les voies du français GTRC/CRSH</orgName>
+          <address>
+            <addrLine>60, rue Université</addrLine>
+            <addrLine>Ottawa, Ontario</addrLine>
+            <addrLine>K1N 6N5</addrLine>
+            <addrLine>Tél : 613-562-5797</addrLine>
+            <addrLine>Fax : 613-562-5981</addrLine>
+            <addrLine><email>fmartin@uottawa.ca</email></addrLine>
+            <addrLine>http://www.voies.uottawa.ca/</addrLine>                        
+          </address>
+        </publisher>
+        <distributor>
+          <orgName>Modéliser le changement : les voies du français GTRC/CRSH</orgName>
+          <address>
+            <addrLine>60, rue Université</addrLine>
+            <addrLine>Ottawa, Ontario</addrLine>
+            <addrLine>K1N 6N5</addrLine>
+            <addrLine>Tél : 613-562-5797</addrLine>
+            <addrLine>Fax : 613-562-5981</addrLine>
+            <addrLine><email>fmartin@uottawa.ca</email></addrLine>
+            <addrLine>http://www.voies.uottawa.ca/</addrLine>                        
+          </address>
+        </distributor>
+        <availability status="restricted">
+          <p>(c) Modéliser le changement : les voies du français (CRSH/GTRC, dirigé par F.
+            Martineau)</p>
+          <p>Les Corpus MCVF demeurent la propriété du projet Modéliser le changement : les voies du
+            français. Les références à ces Corpus devraient apparaître ainsi : Corpus MCVF,
+            Modéliser le changement : les voies du français (F. Martineau (dir.), U. d’Ottawa).Tous
+            les documents du Corpus MCVF ne peuvent être divulgués à de tierces parties sans
+            l’autorisation préalable de la Directrice du Projet </p>
+          <p>Pour tout autre usage, contacter : <persName>France Martineau</persName>
+            <orgName>Modéliser le changement : les voies du français, Université d'Ottawa</orgName>
+            <email>fmartin@uottawa.ca</email></p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listBibl>
+          <biblStruct type="Source_publique">
+            <monogr>
+              <author>
+                <persName>
+                  <surname>Gysseling</surname>
+                  <forename>Maurits</forename>
+                </persName>
+              </author>
+              <editor/>
+              <title>Les plus anciens textes français non littéraires en Belgique et dans le Nord de la France</title>
+              <title type="sub"/>
+              <imprint>
+                <pubPlace>Paris</pubPlace>
+                <publisher>
+                  <orgName>Scriptorium 3</orgName>
+                </publisher>
+                <date when="1949">1949</date>
+              </imprint>
+            </monogr>
+          </biblStruct> 
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Projet : Modéliser le changement les voies du français (GTRC/CRSH) <lb/>Resp. :
+          <persName>France Martineau</persName> Institution : Département de français, Université
+          d'Ottawa
+          <address>
+            <addrLine>60, rue Université</addrLine>
+            <addrLine>Ottawa, Ontario</addrLine>
+            <addrLine>K1N 6N5</addrLine>
+            <addrLine>Tél : 613-562-5797</addrLine>
+            <addrLine>Fax : 613-562-5981</addrLine>
+            <addrLine><email>fmartin@uottawa.ca</email></addrLine>
+            <addrLine>www.voies.uottawa.ca</addrLine>                        
+          </address></p>
+      </projectDesc>
+      <editorialDecl>
+        <p>Voir le manuel d'annotation TEI au http://www.voies.uottawa.ca</p>
+        <p>L'édition de référence a été respectée quant à l'orthographe, la ponctuation, la mise en
+          page et la pagination. Cependant, la césure des mots en fin de lignes (ou de pages) a été
+          supprimée, le mot est placé dans la ligne ou la page où il commence. </p>
+        <p>Les paragraphes sont notés par P pour la prose. Pour les vers, P rend="gv" indique que le
+          paragraphe est constitué d'un groupe de vers. </p>
+        <p> Les débuts des vers sont encodés par LB. Cette balise peut également servir dans les
+          textes en prose à indiquer les débuts des lignes selon la pagination de l'édition. </p>
+        <p>Les changements de pages sont indiqués par la balise PB</p>
+        <p>Le corps du texte est obligatoirement compris dans le BODY. Le FRONT contenant le titre
+          et/ou le prologue et le BACK (explicit) sont facultatifs et ne sont mis qu'au besoin. </p>
+        <p>Les différentes parties du texte (livre, chapitre...) sont encodées par DIV, auquel
+          s'ajoute l'attribut TYPE qui spécifie sa nature. </p>
+        <p>Les paragraphes (P), lignes (LB) et pages (PB) de même de certaines divisions (DIV) sont
+          ou peuvent être numérotés par l'attribut N s'ils le sont dans l'édition. </p>
+        <p>Quelques commentaires ou corrections ont été introduits à l'aide de la balise NOTE, CORR
+          ou SIC. </p>
+        <p>Les discours directs et les citations ont été encodés par la balise Q. Cette balise est
+          mise à chaque fois que des guillemets sont utilisés dans l'édition. </p>
+        <p>L'élément FOREIGN indique un passage en latin qui est noté en italique dans l'édition,
+          les occurrences non en italique sont signalées par l'attribut ROMAIN. </p>
+        <p>Les folios sont notés par la balise <tag>pb rend="folio"</tag></p>
+        <p>Les notes de bas de pages ont été retirées. </p>
+        <p>Les paragraphes entièrement en latin ont été retirés, une balise P et une NOTE les
+          signalent. </p>
+        <p>Note spécifique au texte ci-dessous: Aucune.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <profileDesc>
+      <creation>
+        <date notBefore="1163" notAfter="1225"/>
+        <placeName>Belgique et nord de la France</placeName>
+      </creation>
+      <langUsage><language ident="fr"/></langUsage>
+      <textDesc>
+        <channel/>
+        <constitution>Texte intégral</constitution>
+        <derivation/><domain/><factuality/><interaction/><preparedness/><purpose/>
+      </textDesc>
+      <textClass>
+        <keywords scheme="GTRC">
+          <list>
+            <item n="domaine">Non littéraire</item>
+            <item n="genre">Document administratif</item>
+            <item n="forme">Prose</item>
+            <item n="docRegion1"/>
+            <item n="docRegion2"/>
+            <item n="docRegion3"/>
+            <item n="auteurRegion1"/>
+            <item n="auteurRegion2"/>                    
+            <item n="auteurRegion3"/>
+            <item n="auteurSexe"/>
+            <item n="occupation"/>
+            <item n="scribeRegion1"/>
+            <item n="scribeRegion2"/>
+            <item n="scribeRegion3"/>
+            <item n="imprimeurRegion1"/>
+            <item n="imprimeurRegion2"/>
+            <item n="imprimeurRegion3"/>
+          </list>
+        </keywords>
+        <classCode scheme="Indice de Dees"/>
+      </textClass>
+      <particDesc>
+        <listPerson>
+          <person role="auteur"/>
+          <person role="scribe"/>
+        </listPerson>
+      </particDesc> 
+    </profileDesc>
+    <revisionDesc>
+      <change when="2009-03-31" who="#Labelle">Vérification des en-têtes</change>
+      <change when="2009-03-26" who="#Fauchon">Vérification et correction du TEI et du header d'après les normes du P5 et du schéma MCVF</change>
+      <change when="2009-03-05" who="#Labelle">Révision de l'en-tête</change>
+      <change when="2009-02-26" who="#Labelle">En-tête</change>
+      <change when="2005-06-16" who="#Brazeau">Vérification du codage</change>
+      <change when="2005-05-24" who="#Brazeau">Codage</change>
+      <change when="2005-05-20" who="#Brazeau">Vérification de la numérisation</change>
+      <change when="2005-02-05" who="#Morin">Saisie brute de numérisation (légères retouches)</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <group>
+      <pb n="191"/>
+      <text n="1">
+        <front>
+          <head>
+            <hi rend="gras">1</hi>
+            <lb/>Cambrai, 2<hi rend="exp">e</hi> moitié 12<hi rend="exp">e</hi> s. (après 1163).
+          </head>
+        </front>
+        <body>
+          <p>Leurens de Limont tient ou tieroit de Railencor <num>.iii.</num>
+            me<hi>n</hi>c<hi>au</hi>dees de tiere des queles nos auons ens es deus le d<hi>enier</hi>
+            <hi>et</hi> li tierce mencaudee no doit tiece garbe.</p>
+        </body>
+      </text>
+      <text n="2">
+        <front>
+          <head>
+            <hi rend="gras">2</hi>
+            <lb/> Arras, 2<hi rend="exp">e</hi> moitié 12<hi rend="exp">e</hi> s. </head>
+        </front>
+        <body>
+          <p>En quatre pains <hi>et</hi> en quatre capons <hi>et</hi> en viit deniers. a
+                <foreign>S<hi>anctus</hi> Vedast<hi>us</hi>
+            </foreign>
+            <hi>et</hi> si parconier. le quarte part. de co a <foreign>S<hi>anctus</hi>
+              Vedast<hi>us</hi>
+            </foreign> les trois pars <hi>et</hi> si parconier les dex. <hi>et</hi> en dex pains
+              <hi>et</hi> en dex capons <hi>et</hi> en uit deniers a sains Veas <hi>et</hi> si
+            parconier le tierce part <hi>et</hi> de co a <foreign>S<hi>anctus</hi> Vedast<hi>us</hi>
+            </foreign> les trois pars <hi>et</hi> si paconier les dex. del cortil Raol le Breton
+              <hi>et</hi> Waltier. <foreign>in purificat<hi>ion</hi>e debet S<hi>anctus
+                </hi>Vedast<hi>us</hi>
+            </foreign>
+            <hi>et</hi> si parconier dex sestiers de uin. de co doiue<hi>n</hi>t si parconier le
+            quinte part al segneur de Noiel <hi>et</hi> sis deniers de coruee en mi marc <hi>et</hi>
+            a le feste saint Remi altretant <hi>et</hi> si tient S<hi>ains</hi> Veas le quartier dun
+            mez sin doit sains Veas le trois pars <hi>et</hi> de uin <hi>et</hi> de coruee. <hi>et</hi>
+            <foreign>Ioh<hi>annes</hi>
+            </foreign> Crolles <hi>et</hi> si parconier les dex. en latrie. a sis cortils cascuns
+              erb<hi>er</hi>gies si doit dex pains de pers <hi>et</hi> dex capons <hi>et</hi> quatre
+            deniers. si doit Hubers Lotols. un capo<hi>n</hi>
+            <hi>et</hi> Hersens se suer alsi <num>.i.</num> capon al noeel.</p>
+          <p>Co escrit Pieres dEstrees moitie romanz moitie latin.<foreign>
+              te<hi>m</hi>p<hi>or</hi>e Wberti <hi>et</hi> scabinoru<hi>m</hi> Girardi Platel
+              <hi>et</hi> Werelli <hi>et</hi> Hub<hi>er</hi>ti Hapart.</foreign>
+          </p>
+        </body>
+      </text>
+      <text n="3">
+        <front>
+          <head>
+            <hi rend="gras">3</hi>
+            <lb/>(Haute-Avesnes), fin 12<hi rend="exp">e</hi> s. </head>
+        </front>
+        <body>
+          <pb n="192"/>
+          <p>Cou sacent cil ki sunt <hi>et</hi> ki auenir sunt q<hi>ue</hi> Hunes de Belmont
+            <hi>et</hi> Emmeline se femme sunt reciut en le maison del Temple <hi>et</hi> es
+            bienfais. par <num>iiii</num> mencols de tere a <num>.i.</num> capun de rente
+            <hi>et</hi> lor mes <hi>et</hi> lor maison q<hi>ue</hi> il j ont done apres lor deces
+            mais tenant en sunt totes lor uies. <hi>et</hi> se de lon defaut. li altre le tenrra
+            tote se uie.</p>
+        </body>
+      </text>
+      <text n="4">
+        <front>
+          <head>
+            <hi rend="gras">4</hi>
+            <lb/>Marchiennes, fin 12<hi rend="exp">e</hi>-comm. 13<hi rend="exp">e</hi> s. </head>
+        </front>
+        <body>
+          <pb rend="folio" n="0a"/>
+          <div type="section">
+            <head rend="gras">Chi a li rente de Here. si a <num>xvi.</num> cortils <hi>et</hi> les
+                <num>.ii.</num> pars dun.</head>
+            <p>Cascune maisons de Here fors celes des pres doit a le saint Andriu <num>xii.</num>
+                d<hi>eniers</hi> doesins.</p>
+            <p>A le feste sainte Eusebe. doiuent li <num>.x.</num> cortil. cascu<hi>n</hi>s <num>vi.</num>
+              <abbr>d.</abbr> does<hi>ins</hi>. <hi>et</hi> li autre <num>.iij.</num> cortil doiuent
+              cascuns <num>vii.</num>
+              <abbr>d.</abbr> doues<hi>ins</hi>. <hi>et</hi> li autre <num>.iij.</num> cascuns
+                <num>.viij.</num>
+              <abbr>d.</abbr> doesins. <hi>et</hi> les <num>ij.</num> pars dun cortil <num>.iiij.</num>
+              <abbr>d.</abbr> does<hi>ins</hi>. <hi>et</hi> si doiuent autant a pasche florie.
+                <hi>et</hi> a le feste saint Remi doit cascuns cortils <num>.i.</num> pain. <hi>et</hi>
+              <num>i.</num>
+              <abbr>d.</abbr> does<hi>in</hi>
+              <hi>et</hi>
+              <num>i</num> polet.</p>
+            <p>Cascuns cortils doit au noel <num>.ii.</num>
+              <abbr>d.</abbr> de plait. <hi>et</hi> a le pasche <num>.ij.</num>
+              <abbr>d.</abbr>
+              <hi>et</hi> a le saint Remi <num>.ii.</num>
+              <abbr>d.</abbr> de plait.</p>
+            <p>Cascuns cortils des <num>.xvi.</num> doit a le saint Remi <num>.ii.</num>
+                r<hi>asieres</hi> dauaine. <hi> et</hi> les <num>ii.</num> pars dun cortil doiuent
+                <num>.v.</num> cop<hi>es</hi>
+              <hi> et</hi> 1/2 cop<hi>e</hi> dau<hi>aine</hi>.</p>
+            <p>Li <num>.ij.</num> cortil u Grars del Casteller. <hi> et</hi> Jakemes mainent. doit a
+              le saint Remi <num>.ii.</num> capons.</p>
+            <p>Li cortils Gillon <hi> et</hi> Faglain doit <num>.i.</num> cap<hi>on</hi>.</p>
+            <p>Li rente des pres uaut <num>.xxii1/2.</num> r<hi>asieres</hi> dauaine. <hi> et</hi>
+              <num>xxiiij.</num> cap<hi>ons</hi>. <hi> et</hi>
+              <num>xxiiij.</num> sol. does<hi>ins</hi>. <hi>et</hi>
+              <num>xii.</num> pains de sochienes au noel. Si a <num>xii.</num> pieces de pre.</p>
+          </div>
+          <div type="section">
+            <head rend="gras">A Horneng.</head>
+            <p>Maroie dassum le uile. de sen cortil <num>.iiij.</num>
+              <abbr>d.</abbr> does<hi>ins</hi>.</p>
+            <p>Adans de le grange de Helenmes doit a le saint Remi <num>.i.</num> r<hi>asiere</hi>
+              de ble. <hi>et</hi>
+              <num>i.</num> r<hi>asiere</hi> dauaine. <hi>et</hi>
+              <num>ij.</num> capons. <hi>et</hi>
+              <num>vi.</num>
+              <abbr>d.</abbr> does<hi>ins</hi> del camp a le Junchiere.</p>
+          </div>
+          <div type="section">
+            <head rend="gras">Li terre de Pierone ke li abes Giles acata a segneur Gersin.</head>
+            <p>Li piece as tuiles <num>.v.</num> q<hi>ua</hi>rtiers <num>.v.</num> verges mains.
+                <hi>et</hi> le q<hi>ua</hi>rte part dune verge.</p>
+            <p>Li piece encontre le fontaine sainte Roitru. tient <num>.i.</num> bonier. <hi>et</hi>
+              <num>iij.</num> verges. le q<hi>ua</hi>rte p<hi>ar</hi>t dune m<hi>ains</hi>.</p>
+            <p>Li pieche si kom ua a Bouines. boniers <hi>et</hi> demi. <hi>et</hi>
+              <num>iiij.</num> verges. le q<hi>ua</hi>rte part dune mains.</p>
+            <p>En le piece selonc le voie de Bersin. bonier <hi>et</hi> demi. <hi>e</hi>t
+              <num>viij.</num> verges.<pb n="193"/>
+            </p>
+            <p>En <num>.i.</num> piece ki siet pres de cele plus pres de Bersin <num>xxvi<hi
+                  rend="exp">e</hi>.</num>
+              <num>xxij.</num> denrees mains.</p>
+            <p>Aubris de Bersin <num>.iij.</num> r<hi>asieres</hi>
+              <hi>et</hi>1/2 r<hi>asiere</hi> de fourment. </p>
+            <p>Fabiens <num>.iij 1/2.</num>
+              <abbr>r.</abbr> de fourm<hi>en</hi>t.</p>
+            <p>Giles Wignars <num>.iii 1/2.</num>
+              <abbr>r.</abbr> de fourm<hi>en</hi>t.</p>
+            <p>Grars Sakeris <num>.ii.</num>
+              <abbr>r.</abbr> de form<hi>en</hi>t.</p>
+            <p>Watiers <num>.iij.</num>
+              <abbr>r.</abbr> form<hi>en</hi>t.</p>
+            <p>Giles de Conci <num>.vi.</num> hauos de form<hi>en</hi>t.</p>
+            <p>Bauduin de Conci <num>.ii.</num>
+              <abbr>r.</abbr> de form<hi>en</hi>t.</p>
+            <p>Watiers de Grantsart <num>.viii 1/2.</num>
+              <abbr>r.</abbr> de form<hi>en</hi>t.</p>
+            <p>Amolris Fessiaus <num>.iiii.</num>
+              <abbr>r.</abbr> de form<hi>en</hi>t.</p>
+          </div>
+          <pb rend="folio" n="0b"/>
+          <div type="section">
+            <head rend="gras">Li gauel de li rente de Bairi.</head>
+            <p>Li mes le prestre <num>.ii.</num> m<hi>uis</hi> auaine. <hi>et</hi>
+              <num>iiii</num> sol. p<hi>aresis</hi>
+              <hi>et</hi>
+              <num>vi.</num> cap<hi>ons</hi>.</p>
+            <p>Nicholes Uietegans <num>.ii.</num>
+              <abbr>m.</abbr> au<hi>aine</hi>
+              <num>iiij.</num> sol. <abbr>p.</abbr>
+              <hi>et</hi>
+              <num>vi.</num> cap<hi>ons</hi>.</p>
+            <p>Watiers li englois <num>.ii.</num>
+              <abbr>m.</abbr> au<hi>aine</hi>
+              <num>iiii.</num> sol. <abbr>p.</abbr>
+              <hi>et</hi>
+              <num>vi.</num> cap<hi>ons</hi>.</p>
+            <p>Ansiaus <num>.ii.</num>
+              <abbr>m.</abbr> au<hi>aine</hi>
+              <num>iiii.</num> sol. <hi>et</hi>
+              <num>.vi.</num> cap<hi>ons</hi>.</p>
+            <p>Li fe<hi>m</hi>me Bauduin leschieuin <num>ii.</num>
+              <abbr>m.</abbr> au<hi>aine</hi>
+              <num>iiii</num> sol. <hi>et</hi>
+              <num>vi.</num> cap<hi>ons</hi>.</p>
+            <p>Vallans <num>.iij.</num>
+              <abbr>m.</abbr> au<hi>aine</hi>
+              <num>iii.</num> sol. <hi>et</hi>
+              <num>iiii.</num> cap<hi>ons</hi>. </p>
+            <p>Grars de Baileus <num>.ii.</num>
+              <abbr>m.</abbr> au<hi>aine</hi>
+              <hi>et</hi>
+              <num>xiii</num>
+              <abbr>d.</abbr> a <num>iii.</num> t<hi>er</hi>menes.</p>
+            <p>Leurens <num>.ii.</num>
+              <abbr>m.</abbr> au<hi>aine</hi>
+              <hi>et</hi>
+              <num>xiii.</num>
+              <abbr>d.</abbr> a <num>iii.</num> termenes.</p>
+            <p>Jehans Toulonpins <num>.ii.</num>
+              <abbr>m.</abbr> au<hi>aine</hi>
+              <num>iiii.</num> sol. <num>iiii. 1/2</num> cap<hi>ons</hi>.</p>
+            <p>Cokiaus <num>.ii.</num>
+              <abbr>m.</abbr> au<hi>aine</hi>
+              <num>.xiii.</num>
+              <abbr>d.</abbr> a <num>iii.</num> t<hi>er</hi>mines.</p>
+            <p>Maroie de le Crois <num>.ii.</num>
+              <abbr>m.</abbr> au<hi>aine</hi>
+              <num>xiii.</num>
+              <abbr>d.</abbr> a <num>iij.</num> t<hi>er</hi>mines.</p>
+            <p>Simons li carpentiers <num>.ii.</num>
+              <abbr>m.</abbr> au<hi>aine</hi>
+              <num>ii.</num> sol. <hi>et</hi>
+              <num>iiii</num> cap<hi>ons</hi>.</p>
+            <p>Bertelmix li uauasere <num>.ii.</num>
+              <abbr>m.</abbr> au<hi>aine</hi>
+              <num>xiii.</num>
+              <abbr>d.</abbr> a <num>iii.</num> t<hi>er</hi>mines.</p>
+            <p>Li feures <num>.ii.</num>
+              <abbr>m.</abbr> au<hi>aine</hi>
+              <hi>et</hi>
+              <num>v.</num> sol. <hi>et</hi>
+              <num>v.</num> cap<hi>ons</hi>.</p>
+            <p>Warniers Bielos <num>.ii.</num>
+              <abbr>m.</abbr> au<hi>aine</hi>
+              <hi>et</hi>
+              <num>iiii.</num> sol. <hi>et</hi>
+              <num>iiii.</num> cap<hi>ons</hi>.</p>
+            <p>Ernols Capendus <num>.ii.</num>
+              <abbr>m.</abbr> au<hi>aine</hi>
+              <hi>et</hi>
+              <num>v.</num> sol. <hi>et</hi>
+              <num>v.</num> cap<hi>ons</hi>.</p>
+            <p>Ale <num>.ii.</num>
+              <abbr>m.</abbr> au<hi>aine</hi>
+              <hi>et</hi> sol. <hi>et</hi>
+              <num>vi.</num> cap<hi>ons</hi>.</p>
+            <p>Ermouere <num>.ii.</num>
+              <abbr>m.</abbr> au<hi>aine</hi>
+              <hi>et</hi>
+              <num>v.</num> sol. <hi>et</hi>
+              <num>vi.</num> cap<hi>ons</hi>.</p>
+            <p>Maroie Berarde <num>.ii.</num>
+              <abbr>m.</abbr> au<hi>aine</hi>
+              <hi>et</hi>
+              <num>v.</num> sol. <hi>et</hi>
+              <num>vi.</num> cap<hi>ons</hi>.</p>
+            <p>Reniers de le Crois <num>.ii.</num>
+              <abbr>m.</abbr> au<hi>aine</hi>
+              <hi>et</hi>
+              <num>v.</num> sol. <hi>et</hi>
+              <num>v.</num> cap<hi>ons</hi>.</p>
+            <p>Giles Belegambe <num>.ii.</num>
+              <abbr>m.</abbr> au<hi>aine</hi>
+              <hi>et</hi>
+              <num>iiii.</num> sol. <hi>et</hi>
+              <num>iiii.</num> cap<hi>ons</hi>.</p>
+            <p>Maroie li buhie <num>.ii.</num>
+              <abbr>m.</abbr> au<hi>aine</hi>
+              <hi>et</hi>
+              <num>iiii.</num> sol. <hi>et</hi>
+              <num>iiii.</num> cap<hi>ons</hi>.</p>
+            <p>Simons Pauellons <num>.ii.</num>
+              <abbr>m.</abbr> au<hi>aine</hi>
+              <hi>et</hi>
+              <num>iiii</num> sol. <hi>et</hi>
+              <num>iiii.</num> cap<hi>ons</hi>.</p>
+            <p>Bauduins Belegambe <num>.ii.</num>
+              <abbr>m.</abbr> au<hi>aine</hi>
+              <hi>et</hi>
+              <num>ii.</num> sol. <hi>et</hi>
+              <num>vi.</num> poulles.</p>
+            <p>Watiers de Heni<hi>n</hi>
+              <num>.ii.</num>
+              <abbr>m.</abbr> au<hi>aine</hi>
+              <num>xii.</num>
+              <abbr>d.</abbr>
+              <hi>et</hi>
+              <num>iii.</num> cap<hi>ons</hi> de <num>.xiiii.</num> pies de t<hi>er</hi>re.</p>
+            <p>Grigores <num>.ii.</num>
+              <abbr>m.</abbr> au<hi>aine</hi>
+              <hi>et</hi>
+              <num>iiii.</num> sol. <hi>et</hi>
+              <num>iiii.</num> cap<hi>ons</hi>.</p>
+            <p>Grars li berkiers <num>.ii.</num>
+              <abbr>m.</abbr> au<hi>aine</hi>
+              <hi>et</hi>
+              <num>iiii.</num>
+              <abbr>d.</abbr>
+              <hi>et</hi> o<hi>bole</hi>
+              <hi>et</hi>
+              <num>vi</num> poulles. del mes Fauuel.</p>
+            <p>
+              <hi rend="gras"> Tout cist nomet su<hi>n</hi>t hoste de Bairi si su<hi>n</hi>t li
+                  <abbr>d.</abbr> par<hi>esis</hi>
+                <hi>et</hi> li auaine doit estre paie a le mesure dAras.</hi>
+            </p>
+          </div>
+          <div type="section">
+            <head rend="gras">El mont de Fesceu a <num>xiiii1/2.</num> r<hi>asieres</hi> de
+              t<hi>er</hi>re ki est arentee iretaulem<hi>en</hi>t.</head>
+            <p>Simons li carpe<hi>n</hi>tiers. de <num>.ii.</num>
+              <abbr>r.</abbr>
+              <num>iiii.</num> cap<hi>ons</hi>.</p>
+            <p>Leurens li barons Beat<hi>ri</hi>s de <num>ii.</num>
+              <abbr>r.</abbr>
+              <num>iii.</num> cap<hi>ons</hi>.</p>
+            <p>Margos <hi>et</hi> Grars. de <num>ii.</num>
+              <abbr>r.</abbr>
+              <num>iiii.</num> cap<hi>ons</hi>.</p>
+            <p>Simons Pauellons de <num>.ii.</num>
+              <abbr>r.</abbr>
+              <num>iiii.</num> cap<hi>ons</hi>. </p>
+            <pb n="194"/>
+            <p>Bauduins Asseres. de <num>iii.</num>
+              <abbr>r.</abbr>
+              <num>vi.</num> cap<hi>ons</hi>.</p>
+            <p> Cokiaus del remana<hi>n</hi>t de le t<hi>er</hi>re <num>.viii.</num>
+              cap<hi>ons</hi>.</p>
+            <p>Li ruele Bauduin Asseret. doit <num>iiii.</num> poulles.</p>
+            <p>Grars li berkiers de <num>iii.</num> boistiaus de t<hi>er</hi>re as fourkes doit
+                <num>iii.</num> boistiaus. de form<hi>en</hi>t.</p>
+            <p>Li prestres de Baileus de le dime <hi>et</hi> del t<hi>er</hi>age de sen cortil. doit
+              a le saint Remi <num>.i.</num>
+              <abbr>m.</abbr> dauaine.</p>
+          </div>
+          <pb rend="folio" n="224va"/>
+          <div type="section">
+            <head rend="gras">Cest ci li rente de Binc ki ua a Plices.</head>
+            <p>li rente de Binc ki ua a Plices.</p>
+            <p>Watiers Tricars <num>xvij.</num> sol. art<hi>isiens</hi>.</p>
+            <p>Jehans Hunaus p<hi>our</hi> Bauduin le sielier <hi>et</hi> pour Gossuin de
+              Valencienes <num>.iiii.</num> sol.</p>
+            <p>Bertelmix li carpentiers <num>ii.</num> sol.</p>
+            <p>Grars de Geumont <hi>et</hi> Gossuins li machecliers del cortil Gelbergien
+              <num>.ii.</num> sol.</p>
+            <p>Jehans li batere <num>xii.</num>
+              <abbr>d.</abbr>
+            </p>
+            <p>Jehans Manbres <num>v.</num> sol. <hi>et</hi>
+              <num>ii.</num> cap<hi>ons</hi>.</p>
+            <p>Jehans li fix mestre Guion <num>vi.</num>
+              <abbr>s.</abbr>
+              <hi>et</hi>
+              <num>vi.</num>
+              <abbr>d.</abbr>
+              <hi>et</hi>
+              <num>iii 1/2.</num> cap<hi>ons</hi>.</p>
+            <p>Aelis li bounesse <num>iii.</num> sol.</p>
+            <p>Beatrix li feme Foubert <num>.iii.</num> sol.</p>
+            <p>Nicholes de Brai <num>iij.</num> sol.</p>
+            <p>Jehans li feutriers <num>iij.</num> sol.</p>
+            <p>Giles Cantiaus <num>.iii.</num> sol.</p>
+            <p>Jehans Cantiaus <num>xl</num>
+              <abbr>d.</abbr>
+              <hi>et</hi>
+              <num>i.</num> cap<hi>on</hi> del cortil selonc se maison.</p>
+            <p>Giles li marcans <num>ii.</num> sol. <hi>et</hi>
+              <num>iiij.</num> cap<hi>ons</hi>.</p>
+            <p>Bauduins dou Tonboi <num>vi.</num>
+              <abbr>d.</abbr>
+            </p>
+            <p>Audons <hi>et</hi> Jehans Martins <num>xxx.</num>
+              <abbr>s.</abbr>
+              <hi>et</hi>
+              <num>vi</num> cap<hi>ons</hi>.</p>
+            <p>Li quens de le rue sainte Eusebe <num>x.</num> sol. </p>
+            <p>Robers Male geule de le t<hi>er</hi>re. de Morlainwes <num>vij.</num> sol. </p>
+            <p>Adans Ventriers <num>vi.</num>
+              <abbr>d.</abbr></p>
+          </div>
+          <div type="section">
+            <head rend="gras">Li rente de Goi.</head>
+            <p>Willaumes de Belone de sen mes <num>vi.</num>
+              <abbr>d.</abbr>
+              <foreign>duac<hi>enses</hi>
+              </foreign> al noel.</p>
+            <p>Willaumes de Belone de sen cortil al Caisne. as <num>iij.</num> plais. a cascun
+                <num>ii.</num>
+              <abbr>d.</abbr>
+              <foreign>duac<hi>enses</hi>
+              </foreign>. </p>
+            <p>Mahius del mes de lourde <num>iii.</num>
+              <abbr>d.</abbr> duesiens. al noel.</p>
+            <p>Wios del Caisne de sen mes <num>v.</num>
+              <abbr>d.</abbr>
+              <foreign>duac<hi>enses</hi>
+              </foreign>
+              <num>.ii.</num> cap<hi>ons</hi> a le saint Remi. <hi>et</hi>
+              <num>i.</num>
+              <abbr>r.</abbr> de t<hi>er</hi>re <num>.iii.</num>
+              <abbr>d.</abbr> a <num>iii.</num> plais.</p>
+            <p>Henris de Ferin dune <abbr>r.</abbr> de t<hi>er</hi>re a lEspine <num>ii.</num>
+              <abbr>d.</abbr>
+              <foreign>duac<hi>enses</hi>
+              </foreign> a cascun plait.</p>
+            <p>Heinaus de sen mes <num>ii.</num> sol. <foreign>duac<hi>enses</hi>
+              </foreign>
+              <hi>et</hi>
+              <num>ii.</num> cap<hi>ons</hi> al noel.</p>
+            <pb rend="folio" n="224b"/>
+            <p>Willaumes <num>vi</num>
+              <hi rend="points"/>
+            </p>
+            <p>Berniers de le maison en coste Hainau <num>.i.</num> cop<hi>e</hi>.</p>
+            <p>Jehans bone mains. de sen mes <num>.ii.</num> sol. <num>ii.</num> cap<hi>ons</hi> al
+              noel. <hi>et</hi>
+              <num>i.</num>
+              <abbr>d.</abbr>
+              <foreign>duac<hi>ensis</hi>
+              </foreign> a cascun plait.</p>
+            <p>Li manages Disdier <num>.iii.</num> sol. <hi>et</hi>
+              <num>iii.</num> cap<hi>ons</hi> al noel. <hi>et</hi> o<hi>bole</hi> a cascun plait
+              dune cop<hi>e</hi> de t<hi>er</hi>re.</p>
+            <p>Berte li wistasse <num>.iii.</num> sol. <hi>et</hi>
+              <num>iij.</num> cap<hi>ons</hi> al noel de sen mes.</p>
+            <pb n="195"/>
+            <p>Landris de sen mes <num>v.</num>
+              <abbr>d.</abbr>
+              <foreign>duac<hi>enses</hi>
+              </foreign> al noel.</p>
+            <p> Thomas de Belone dun q<hi>ua</hi>rtier de t<hi>er</hi>re <num>.i.</num>
+              <abbr>d.</abbr> a cascun plait.</p>
+            <p> De Pauellon le terre <num>vi.</num>
+              <abbr>d.</abbr> al noel.</p>
+            <p> De le t<hi>er</hi>re Erembourc le ueskesse <num>ii.</num>
+              <abbr>d.</abbr> a cascun plait.</p>
+            <p> Estieuenes li carpentiers de <num>.i.</num> cop<hi>e</hi> t<hi>er</hi>re a lEspine
+                <num>i.</num>
+              <abbr>d.</abbr> a cascun plait.</p>
+            <p> Jakemes li ballius de <num>.ij.</num> cop<hi>es</hi> t<hi>er</hi>re a lEspine
+                <num>ij.</num>
+              <abbr>d.</abbr> a cascun plait.</p>
+            <p> Li prestres de <num>iij.</num> cop<hi>es</hi> de t<hi>er</hi>re. au Cler Marcais
+                <num>.ij.</num>
+              <abbr>d.</abbr> a cascun plait.</p>
+            <p> Sohiers de sen mes <num>ii.</num> sol. <hi>et</hi>
+              <num>ij.</num> cap<hi>ons</hi> al noel. </p>
+            <p>Brandains de sen mes <num>.i.</num> cap<hi>on</hi> al noel.</p>
+            <p>Watiers de Goi de se tere a le Crois Mallel <num>xii.</num>
+              <abbr>d.</abbr></p>
+            <p>Watiers li rois de Berbiere de sen mes <num>xii.</num>
+              <abbr>d.</abbr>
+              <hi>et</hi>
+              <num>ii.</num> cap<hi>ons</hi>
+              <hi>et</hi>
+              <num>.ij.</num>
+              <abbr>r.</abbr> de blet.</p>
+            <p> Doucars de le t<hi>er</hi>re a Nouilere <num>vi.</num>
+              <abbr>d.</abbr>
+              <hi>et</hi>
+              <num>i</num> cap<hi>on</hi> al noel.</p>
+            <p>Engerrans Petis de le t<hi>er</hi>re a Nouilere <num>vi.</num>
+              <abbr>d.</abbr>
+              <hi>et</hi>
+              <num>i.</num> cap<hi>on</hi> al noel.</p>
+            <p>Bone mains de <num>vi.</num> cop<hi>es</hi> a Betun mortier <num>.ij.</num>
+              <abbr>r.</abbr> de blet.</p>
+            <p>Vaas de <num>i.</num>
+              <abbr>r.</abbr> de t<hi>er</hi>re a Castimont <num>i.</num>
+              <abbr>r.</abbr> de blet.</p>
+            <p>Willaumes de Bourlon de <num>i.</num>
+              <abbr>r.</abbr> de t<hi>er</hi>re <num>.iii.</num>
+              <abbr>r.</abbr> de blet. si en a mis <num>ii.</num>
+              <abbr>r.</abbr> en wages. auuec celi. </p>
+            <p>Willaumes des Aubiaus. de <num>vi</num> cop<hi>es</hi> a Nouilere. <num>vi</num>
+                cop<hi>es</hi> de blet.</p>
+            <p>Del Cunoel <num>.ii.</num>
+              <abbr>r.</abbr> de blet.</p>
+            <p>Li capelains de saint mes <num>ii.</num>
+              <abbr>d.</abbr>
+              <foreign>duac<hi>enses</hi>
+              </foreign> a cascun plait.</p>
+            <p>Gilles de Ferin. de <num>i.</num> cortil a Uinnecort. o<hi>bole</hi> a cascun plait.</p>
+            <p>Li mes Sarain <hi>et</hi> ses q<hi>ua</hi>rt<hi>ier</hi> de t<hi>er</hi>re <num>.i.</num>
+              <abbr>d.</abbr>
+              <hi>et</hi> o<hi>bole</hi> a cascun plait.</p>
+            <p>Jeh<hi>ans</hi> de Marchienes de le t<hi>er</hi>e al ca<hi>m</hi>p Bersin
+              <num>.i.</num> cop<hi>e</hi> blet.</p>
+          </div>
+          <div type="section">
+            <head rend="gras">Li rente ke li abes Giles acata a Willaume de Goi. si doiuent ble.
+                <num>viij.</num>
+              <abbr>d.</abbr>
+              <foreign>duac<hi>enses</hi>
+              </foreign> pieur del melleur de Douai.</head>
+            <p>Margerite de Castimont <num>vi.</num>
+              <abbr>r.</abbr> de fourm<hi>en</hi>t sour le camp a Clauee Piere. </p>
+          </div>
+        </body>
+      </text>
+      <text n="5">
+        <front>
+          <head>
+            <hi rend="gras">5</hi>
+            <lb/>(Douai), 1204 février. </head>
+        </front>
+        <body>
+          <p>Co sacent tot cil qui ces letres uerront. q<hi>ue</hi> Will<hi>aum</hi>es de Hornaig
+            doit a Doucet le cangeor. <hi>et</hi> a Weri<hi>n</hi> Mulet. <hi>et</hi> a Enghebrant
+            le dr<hi>a</hi>pier <num>lxxxi</num> m<hi>ois</hi> de form<hi>en</hi>t <num>.ii.</num>
+            sol. pieur de melleur. a <num>.vi.</num> ans a rendre casc<hi>un</hi> an <num>xiii
+            1/2</num> mo<hi>is</hi>. Ceste couenence fu faite <hi>et</hi> reconeve en le sale le
+            conte a Ualencienes deuant . <abbr>B.</abbr> de Roecort. <abbr>E.</abbr> dEscallon.
+              <abbr>G.</abbr> dEscallon. <hi>et</hi> Esteuen<hi>on</hi> de Dedeig. <hi>et</hi> cist
+            i furent come tesmoig. <hi>et</hi> deuant Huon Cheuroel q<hi>ui</hi> la fu
+            c<hi>om</hi>me iustice. <hi>et</hi> si reconut Will<hi>aum</hi>es <pb n="196"/> de
+            Hornaig ceste dete deuant le maieur de Freseig. <hi>et</hi> par deuant les eskieuins de
+            Freseig. sor lui <hi>et</hi> sor le sien.</p>
+          <p>
+            <hi>Et</hi> si le reconut Will<hi>aumes</hi> de Hornaig <hi>et</hi> dame Freessens se
+            feme par deuant les eskieuins de B<hi>re</hi>biere. Michiel de B<hi>re</hi>biere.
+            <hi>et</hi> Haimo<hi>n</hi> de B<hi>re</hi>biere <hi>et</hi> Jehan Platier. <hi>et</hi>
+            Huon le moln<hi>ier</hi> si fu faite ceste conisansce al aubel de Corbehan. de ceste
+            couenence a tenir est pleg. Enghera<hi>n</hi>s de Hamel de <num>xx.</num> ma<hi>rs</hi>
+            par deuant les eskieuins de B<hi>re</hi>biere q<hi>ue</hi> io ai ci nomes. <hi>et</hi>
+            si reconut W<hi>illaumes</hi> de Hornaig ceste dete a paier par deuant. Piero<hi>n</hi>
+            de Lambres sor tot co q<hi>ue</hi> il auoit a Noiele. de co est hom Maroie Potins.
+              <hi>et</hi> Jehans de Guise. si fu faite ceste conissa<hi>n</hi>ce a Doai a le maison
+              Simo<hi>n</hi> Roussel. <hi>et</hi> si en est Pieres de Lambres pleges <hi>et</hi>
+            hostages co<hi>m</hi>me sire<corr resp="editor" rend="crochets">.</corr> de ceste
+            dete paier est ple<hi>n</hi>g. Waltols dObrecicort de <num>xx.</num> ma<hi>rs</hi>.
+            Esteuenes li auoes de <num>x.</num> ma<hi>rs</hi>. <hi>et</hi> Nicholes li auoes de
+              <num>x.</num> ma<hi>rs</hi>. <hi>et</hi> Nicholes de Lalaig de <num>x.</num> ma<hi>rs</hi>
+            <hi>et</hi> Jehans de Mauni de <num>x.</num> ma<hi>rs</hi>. <hi>et</hi> Henris de Mauni
+            de <num>.x.</num> ma<hi>rs</hi>. <hi>et</hi> Henris de Mauni de <num>.x.</num>
+            ma<hi>rs</hi>. <note resp="encoder">passage répété dans le manuscrit et conservé par
+              l'éditeur</note>
+            <hi>et</hi>
+            <abbr>R.</abbr> de Mo<hi>n</hi>tegni de <num>x.</num> ma<hi>rs</hi>. Nicholes de
+              S<hi>aint</hi> Aubi<hi>n</hi> de <num>.x.</num> ma<hi>rs</hi>. <abbr>B.</abbr> de
+            Marchete de <num>.x.</num> ma<hi>rs</hi>. Baud<hi>uins</hi> de Uilers de ma<hi>rc</hi>.
+            Ces letres furent faites al an del incarnation <num>.M<hi rend="exp">o</hi></num>
+            <num>.cc</num><hi rend="exp">o</hi><num>.iii</num><hi rend="exp">o</hi>. el mois de
+            feurier.</p>
+        </body>
+      </text>
+      <text n="6">
+        <front>
+          <head>
+            <hi rend="gras">6</hi>
+            <lb/>Tournai, 1206 avril. </head>
+        </front>
+        <body>
+          <p>Sacent tout cil ki cest escrit veront <hi>et</hi> oront q<hi>ue</hi> Lambiers li Rate
+            de Biekeriel a achate bien <hi>et</hi> loiaume<hi>n</hi>t a Jakemon de Ruieles
+            <num>.i.</num> lon de cens a le .s<hi>aint</hi> Remi <hi>et</hi>
+            <num>xvi.</num> sol. de par<hi>esis</hi> de rente iretaule par an sour se maison en le
+            rue de Moriauporte sierant le maison Jehan de Ruieles sen frere si com li yretages siet
+            deuant <hi>et</hi> deriere a paier <hi>et</hi> a rendre les <num>viij.</num> sol. de
+              par<hi>esis</hi> a le s<hi>aint</hi> Jehan co<hi>n</hi> pent les ciercles <hi>et</hi>
+            les autres <num>.viii.</num> sol. a le noel ap<hi>ri</hi>es ensiuant. <hi>et</hi> ciste
+            rente doit iestre paie premeraine. <hi>et</hi> se lont encouent a aquiter tout quite a
+            Lambiert deuant dit Jakemes de Ruieles <hi>et</hi> Jehans ses freres al assens des
+            eschieuins. Et p<hi>or</hi> cou que ce soit ferme chose <hi>et</hi> estaule si en est
+            fais cyrographies <hi>et</hi> liures en le main des eskieuins de S<hi>aint</hi> Brisse
+            Si co<hi>m</hi>me Jakemon Warison. Watier Copet. Jakemon Costart. Nicholon Cholemer.
+            Jehan Ghierri. Nicholon le Chokut <hi>et</hi> Huon Ghieskiere. tout cist i furent
+              co<hi>m</hi> eschieuin. lan del incarnation Ih<hi>es</hi>u Crist <num>.m. cc.</num>
+            <hi>et</hi>
+            <num>.vi.</num> el mois de auril.</p>
+        </body>
+      </text>
+      <text n="7">
+        <front>
+          <head>
+            <hi rend="gras">7</hi>
+            <lb/>(Arras), 1213. </head>
+        </front>
+        <pb n="197"/>
+        <body>
+          <p>Li maistres de la maison de hospital de Hautauennes par le consel de frere Jofroi de
+            Babilone <hi>et</hi> de capitele par deuant les eschiuins dAras. Audefrois <hi>et</hi>
+            Jahans Mauwine <hi>et</hi> Jahan li tailere <hi>et</hi> Bauduins Fastoul <hi>et</hi>
+            Sauwale Coustest a il doune a rente la maison ki fu Bauduwin de Cilier Alard
+            Claudechiefre a lui e a ses eors p<hi>or</hi>
+            <num>.iiii.</num>
+            <abbr>lib.</abbr> lan <num>.xl.</num>
+            <abbr>s.</abbr> a la s<hi>aint</hi> Remi <hi>et</hi>
+            <num>xl.</num>
+            <abbr>s.</abbr> a le paske. e si defaloient de la rente a paier om se tenroit a la
+            deuant dite maison <hi>et</hi> a saut<hi>re</hi> maison deu Gardin. Cou fu fait
+            <hi>et</hi> creante en lan del i<hi>n</hi>carnation <num>.m<hi rend="exp">o</hi>.cc<hi
+                rend="exp">o</hi></num>.<num>xiij<hi rend="exp">o</hi>.</num> por cou ke ceste cose
+            soit ferme e estabe li maistres le conferme de son seel frere Pieres Pielos.</p>
+        </body>
+      </text>
+      <text n="8">
+        <front>
+          <head>
+            <hi rend="gras">8</hi>
+            <lb/>Cuincy, 1219 mars. </head>
+        </front>
+        <body>
+          <p>Ce sacent cil <corr resp="editor" rend="crochets">ki</corr> or su<hi>n</hi>t
+              <hi>et</hi> ki auenir su<hi>n</hi>t ke jo Bauduins sire de Q<hi>ui</hi>nci. ai donei a
+              Huid<hi>on</hi> de Lanwin mon neueu q<hi>ua</hi>nke io ai el uiuier <hi>et</hi> el
+            molin dEskerchin en totes ap<hi>ar</hi>tena<hi>n</hi>ces en lacroiseme<hi>n</hi>t de sen
+            fief por son seruice <hi>et</hi> por co ke io le cuic bien enploieir. la fu Gerars
+            Faukes co<hi>m</hi>me hom <hi>et</hi> Hernous de Q<hi>ui</hi>nci co<hi>m</hi>me hom.
+              <hi>et</hi> Bertous de Q<hi>ui</hi>nci co<hi>m</hi> aloiiers. <hi>et</hi> Jachemes de
+            Flers com aloiers. <hi>et</hi> Flaiaus de Lespaut co<hi>m</hi> aloiers. <hi>et</hi>
+            Robers de Lanwin co<hi>m</hi> aloiers. <hi>et</hi> Ernous de Q<hi>ui</hi>nci
+            co<hi>m</hi> aloiers. <hi>et</hi> Gerars Faukes co<hi>m</hi> aloiers. <hi>et</hi>
+              p<hi>or</hi> co ke jo uuel ke co soit ferm <hi>et</hi> estaule jo le c<hi>on</hi>ferme
+            de mon sel. <hi>et</hi> co fu fait a Q<hi>ui</hi>nci. el mois de marc <hi>et</hi> li
+              i<hi>n</hi>carnations auoit <num>.m.cc.</num>
+            <hi>et</hi>
+            <num>xviii.</num> ans.</p>
+        </body>
+      </text>
+      <text n="9">
+        <front>
+          <head>
+            <hi rend="gras">9</hi>
+            <lb/>(Cambrai?), 1219 décembre 1. </head>
+        </front>
+        <body>
+          <p>Le couenence de lacat q<hi>ue</hi> li glise nostre Dame de Cambrai. a fait a segnor
+              Thiem<hi>er</hi> de Rogemes. de dismes quele a enwages de lui. dedens le parroche de
+            Brainne lalueth est tele. Sire Thiem<hi>er</hi>s doit loiaument leglise de Cambrai.
+            metre bien. <hi>et</hi> afaitiement. si com lois portera. par segnors <hi>et</hi> par
+            pers. <hi>et</hi> de tos ciaus cui assentemens i doit estre par loi <hi>et</hi> par
+            raison. selo<hi>n</hi>c le costume q<hi>ue</hi> glise entre en dimes. en liretage <pb
+              n="198"/> de dimes q<hi>ue</hi> li glise tient en wages de lui. isi co<hi>m</hi> il
+              <hi>et</hi> si ancestre les ont tenues <hi>et</hi> eles puent croistre en tous preus
+              <hi>et</hi> a camp <hi>et</hi> a uile <hi>et</hi> il doit querre le los des segnors.
+              <hi>et</hi> li glise en doit priier a bone foi sans le sien doner. <hi>et</hi> sire
+              Thiem<hi>er</hi>s doit porueir <hi>et</hi> q<hi>ue</hi>re le iors de uenir
+            deua<hi>n</hi>t le Duc <hi>et</hi> deuant le Castelain de Bruxelle <hi>et</hi> noncier a
+            le glise isi atans que li glise ait ases tans por atirer messages. <hi>et</hi> por
+            enuoier as iors. <hi>et</hi> sil auenoit par defaute de segnor ne par defaute de pers ne
+            par autre maniere mais q<hi>ue</hi> li coupe ne fust as mesages de le glise u de le
+            glise. q<hi>ue</hi> li besoingne ne fust somee si com deuiset est. li despens tout.
+            corroient sor segnor Thiem<hi>er</hi>. li lius des iors prendre doit estre dedens
+            larchedyakene de Brabant. se par le uolente de leglise nest remues <hi>et</hi> puis
+              q<hi>ue</hi> sire Thiem<hi>er</hi>s ara mise le glise en ses dimes si com deuiset est
+            bien <hi>et</hi> afaitiem<hi>en</hi>t. <hi>et</hi> li escrit le duc seront
+            deliu<hi>re</hi> a le glise li glise doit paier dedens Cambrai a segnor Thiem<hi>er</hi>
+            u a son cert message. vit vins liures <hi>et</hi> dis de tel monoie dont on fait
+            paiemens co<hi>m</hi>munaum<hi>en</hi>t. artisiens <hi>et</hi> blans mesleement. isi
+              co<hi>m</hi> li glise recoit les siens paiem<hi>en</hi>s. dedens quarante jors. se par
+            le uolente segnor Thiem<hi>er</hi> nest li paiemens porlongies. <hi>et</hi> li glise
+            doit porcacier lasens mon segnor le veske. estre ichou est deuiset q<hi>ue</hi> li glise
+            doit auoir les dimes q<hi>ui</hi>tes de tos seruices. <hi>et</hi> totes frankes. Iceste
+            couenence a iuree <hi>et</hi> pleuie a tenir a bone foi loiaument sire
+            Thiem<hi>er</hi>s. <hi>et</hi> li glise a encoue<hi>n</hi>t a tenir ceste couenence
+              f<hi>er</hi>mement a bone foit. Se dotance par auenture estoit. ne de le couenence. ne
+            de le teneur de cest esc<hi>ri</hi>t as parties enconuenroit tenir a recort
+            larchedyakene Wautier. <hi>et</hi> sire Willaume de M<hi>er</hi>lemont. <hi>et</hi> por
+            ce que ceste couene<hi>n</hi>ce soit adies ferme <hi>et</hi> sans dotance si a on fait
+            ces letres en saeler. de saiaus larchedyakene Wautier <hi>et</hi> segnor Willelme de
+            Merlemont canone de Niuele. <hi>et</hi> segnor Thiemer. Ces letres furent faites
+            p<hi>re</hi>mier diemence des auens len de lencarnasion millime deucentisme
+            disenueuisme.</p>
+        </body>
+      </text>
+      <text n="10">
+        <front>
+          <head>
+            <hi rend="gras">10</hi>
+            <lb/>(Douai), 1219 décembre 27. </head>
+        </front>
+        <body>
+          <p>Ce sacent cil qui ore sunt <hi>et</hi> ki auenir sunt que Pieres de Lambres <hi>et</hi>
+            Gossuins de Saint Albin ont clame quite frankement sans seruice <hi>et</hi> sans iustice
+            al Temple <num>xxvi</num> r<hi>asieres</hi> de t<hi>er</hi>re en vne piece a le crois a
+            le turele <hi>et</hi> si li offrirent par raim <hi>et</hi> par wason sor lautel de le
+            profie el mostier Saint Amet. <hi>et</hi> li frere del Temple le rendirent a Gosuin
+            dArras par <num>.ii.</num> sol. de par<hi>esis</hi> de rente cascun an a paier al noel.
+            La fu frere Wat<hi>iers</hi> ki le reciut de par le Temple. <hi>et</hi> Sohiers Moreals.
+              <hi>et</hi> Pieres ses frere. por co que co soit estaule i pendons nos nos saiaus. jo
+            Pieres de Lambres <hi>et</hi> io Gossuins de Saint Albin. <hi>et</hi> co fu fait en lan
+            de lincarnation <num>.m.</num>
+            <hi>et</hi>
+            <num>cc.</num>
+            <hi>et</hi>
+            <num>xviiii</num> le tier ior del noel.</p>
+        </body>
+      </text>
+      <text n="11">
+        <front>
+          <head>
+            <hi rend="gras">11</hi>
+            <lb/>Courtrai, 1221 juillet 23. </head>
+        </front>
+        <pb n="199"/>
+        <body>
+          <p>Jo Mehaus dame de Tenremonde fas a sauoir a tous caus q<hi>ui</hi> ces letres uerront
+              q<hi>ue</hi> teus <hi>est</hi> la couenance entre moi <hi>et</hi> me dame le contesse
+            de Flandr<hi>e</hi>
+            <hi>et</hi> de Hain<hi>aut</hi> dendroit le t<hi>er</hi>re dAlost <hi>et</hi> de
+            Tenremonde q<hi>ue</hi> li uns ne puet cacier serf ne aubaine ne ho<hi>m</hi>me dauoerie
+            ne ancele el demaine a lautre. mais es fies le puet il cachier <hi>et</hi> suir
+            <hi>et</hi> leur ho<hi>m</hi>me les suiront p<hi>ar</hi>tot la u il soloient. Et sest
+            asauoir dondroit lauoerie de saint Bauon de Gant q<hi>ue</hi>le remai<hi>n</hi>t en
+            autel point co<hi>m</hi> ele fu al tans q<hi>ue</hi> li cue<hi>n</hi>s Bauduins tenoit
+            ceste costume euers lauoe Will<hi>aum</hi>e. <hi>et</hi> co doit estre seu par le loial
+              enq<hi>ue</hi>ste mon segn<hi>eur</hi> Bernard de Morsele. Ceste couenance doit estre
+            tenue se li cue<hi>n</hi>s nest encontre qua<hi>n</hi>t il ert issus de p<hi>ri</hi>son
+              <hi>et</hi> a co q<hi>ui</hi>l si acort doit me dame li contesse met<hi>re</hi> tot le
+            consel q<hi>ue</hi>le porra en boine foi. Et se del conte defaloit ains q<hi>ui</hi>l
+            iscist de p<hi>ri</hi>son li couenance doit estre tenue ensi q<hi>ue</hi>le est deuiset.
+                <foreign>Dat<hi>um</hi>
+            </foreign> a Curt<hi>ra</hi>i lan <num>M<hi rend="exp">o</hi> cc<hi rend="exp">o</hi>
+              xxi</num> lendemain de le Magd<hi>alene</hi>.</p>
+        </body>
+      </text>
+      <text n="12">
+        <front>
+          <head>
+            <hi rend="gras">12</hi>
+            <lb/>(Saint-Omer), 1222 janvier. </head>
+        </front>
+        <body>
+          <p>Jeo Will<hi>aumes</hi> castellains de Saint Omer conui par deuant eskevins que jeo ai
+            vendu a Folke le fils Johan de Saint Audegund tot le prei que jeo auoie dehors les murs
+            de Saint Omer devers le mostier Saint Michiel a tote le voie <hi>et</hi> a tote le
+            saignorie qui apartienent au prei. <hi>et</hi> trente <abbr>lib.</abbr> de parisis a
+            prendre sor mon forage au plus prest que jeo ai dedens le vile de Saint Omer. chescun an
+            a tos jors tenir Folke <hi>et</hi> tos ses oers. de moi <hi>et</hi> de tos mes oers. de
+            conisanche de vne lanche par an a paier a mon castel dedens le vile de Saint Omer le jor
+            de pentecoste. <hi>et</hi> chest achat alieve cinc cens <abbr>lib.</abbr>
+            <hi>et</hi> quatre vins de p<hi>ar</hi>isis. dont li deuant dit Will<hi>aum</hi>e le
+            doit aquiter <hi>et</hi> tenir sans damage. <hi>et</hi> de ches deniers me a il fait
+            pais a ma dete. <hi>et</hi> de tot ches couennanches li ai jeo encouent aquiter
+            <hi>et</hi> tenir en pais envers tos. <hi>et</hi> Folke conuit par devant eskevins que
+            tos les prous de chest devant dit prei. <hi>et</hi> de chest devant dit forage tenroit
+            le devant dit Johan tote sa vie. Eskevins. Gile de Bodingehem. <hi>et</hi> Motay.
+            <hi>et</hi> Johan le fils dame Ysabel. <hi>et</hi> Dauid de Cassel. <hi>et</hi> Mars le
+            fils Lowig. <hi>et</hi> Dyereman. <hi>et</hi> Symon Canne. <hi>et</hi> Johan Bonenfant.
+              <hi>et</hi> Will<hi>aum</hi>e de Cassel. <hi>et</hi> Johan. le fils Mars. <hi>et</hi>
+            Symon de Lokenes. <hi>et</hi> Will<hi>aume</hi>s Suabble. Ceo est fet en lan del
+            incarnation nostre seignor mil. <hi>et</hi> deus cens. <hi>et</hi> vinte vn. el mois de
+            genvier.</p>
+        </body>
+      </text>
+      <text n="13">
+        <front>
+          <head>
+            <hi rend="gras">13</hi>
+            <lb/> Tournai, 1222/1223 avril. </head>
+        </front>
+        <pb n="200"/>
+        <body>
+          <p>Jo Euras Radols sires de Mortaigne castelains de Tornai. fac a sauoir a tos caus ki
+            ceste chartre ueront. que Watiers de Fraisnoit vendi et clama q<hi>ui</hi>te <hi>et</hi>
+            werpi a Florin le borgois de Tornai <num>.viii.</num> boniers de terre ki gisent en le
+            porofie de Weis pau plus v pau mains <hi>et</hi> pleges len dona del aquiter. et sor co
+            rendi sus Watiers de Fraisnoit a Biernart dEschamaig ceste terre por co quil de lui le
+            tenoit en fief. <hi>et</hi> uoiant ses homes. <hi>et</hi> si que li home Biernart
+            dEschamaig a Watier de Fraisnoit le foriugierent par loi <hi>et</hi> disent que tant en
+            auoit fait que nient ni auoit ne par droit ne par loi. <hi>et</hi> q<hi>ua</hi>nt co fu
+            fait Biernars dEschamaig ki mes hom en estoit. et de mi en fief le tenoit. le me rendi
+            sus uoiant mes homes comme a sourain signeur. si que mi home par loi a Biernart
+            dEschamaig le foriugierent. <hi>et</hi> disent que tant en auoit fait que nient ni auoit
+            ne par droit. ne par loi. et empries co que ciste terre me fu tote quite par loi
+            demoree. se uuel ie io Eurars Radols sires de Mortaigne castelains de Tornai quil sacent
+            cil ki ceste chartre ueront que io a Florin le borgois de Tornai ces <num>.viii.</num>
+            boniers de terre pau plus v pau mains ki gisent en le porofie de Weis ai dones
+            <hi>et</hi> werpis par <num>.ij.</num>
+            <abbr>d.</abbr> de cens de cascun bonier a paier cascun an le ior Saint Remi. Et cest
+            cens ne doit il allors porter qua Tornai v el Bruisle a mi v a men castelain. Et se
+            cestoit chose que par aucune obliance cis cens ne fust paies le ior saint Remi. sains
+            forfait le me puet on paier iusqua le tossains. <hi>et</hi> se fieste tossains passoit.
+            tele amende en aroie que mi escheuin de Duisenpiere me iugeroient par loi. <hi>et</hi>
+            par ces <num>.ij.</num>
+            <abbr>d.</abbr> de cens tornisiens de chascun bonier. doi io <hi>et</hi> mes oiers a
+            Florin <hi>et</hi> a caus ki empries lui le terre tenront aquiter <hi>et</hi> warandir
+            et fere comme sire empais tenir de totes demandes et de totes costumes. <hi>et</hi> de
+            tos seruices franchement. el tesmoig de mes homes ki i furent. <hi>et</hi> des homes
+            Biernart dEschamaig men home ki i furent. si com Fierains de le Porte. Nicoles de
+            Calone. Symons dEsplecing. Johans de Calone. Johans de Biav repaire. li home Biernart
+            dEschamaig. Nicoles de Calone. <hi>et</hi> Johans de Calone ses fils. <hi>et</hi> Johans
+            de Biau repaire. <hi>et</hi> Hernols de Viele vile. tot cist i furent comme home.
+            <hi>et</hi> ce fu fait en labie saint Nicholai des Pres. lan del incarnation nostre
+            signor. mil. <hi>et</hi>
+            <num>.cc.</num> et <num>.xxii.</num> el mois dauril.</p>
+        </body>
+      </text>
+      <text n="14">
+        <front>
+          <head>
+            <hi rend="gras">14</hi>
+            <lb/>Mons, 1222 novembre 26. </head>
+        </front>
+        <body>
+          <p> Jo Colons prouos de Mons fac sauoir a tos chias ki ces let<hi>res</hi> ueru<hi>n</hi>t
+            que jo ai donet a lostelerie des carteriers del Castel une moie de le terre ki mastoit
+            remese ap<hi>re</hi>s le testament q<hi>ue</hi> jo auoie fait par deua<hi>n</hi>t labet
+              <hi>et</hi> les esceui<hi>n</hi>s del Castel. Et les atres .set. moie. ai jo donet a
+            le glise Sai<hi>n</hi>t Andru por faire une capelerie en la moie co<hi>m</hi>memoraciom
+            Mais parmi .cinc. ans. doit li glise rendre a Peri<hi>n</hi> mon cosin cent sos
+            dartisiens. <hi>et</hi> .dis. sos a capelai<hi>n</hi> por mo<hi>n</hi> obit. Et apres
+            les .cinc. ans. li t<hi>er</hi>re iert a le capelerie. se<hi>n</hi>s les dis sos del
+              capelai<hi>n</hi> por mo<hi>n</hi> obit. Et se jo waris de ceste enfermete jo ferai de
+            ma terre ma uole<hi>n</hi>te. Ce fu fait a Mons la<hi>n</hi> Deu <num>.M.</num> ans
+              <num>.cc.</num> ans <num>xxii.</num> ans le<hi>n</hi>demai<hi>n</hi> sai<hi>n</hi>te
+            Katerine.</p>
+        </body>
+      </text>
+      <text n="15">
+        <front>
+          <head>
+            <hi rend="gras">15</hi>
+            <lb/>Douai, 1223/1224 avril. </head>
+        </front>
+        <pb n="201"/>
+        <body>
+          <p>Co sacent tot cil ki ces letres ueront <hi>et</hi> oront. que dame Aelis ki fu feme
+            Baudane le monier a fait pais enuers mon signor Robe de Kieri cheualier. En tele maniere
+            que me sire Robe a clame cuite a dame Aelis <hi>et</hi> a ses oirs quanque il unt en
+            totes uaillances <hi>et</hi> en totes choses <hi>et</hi> dedens le pooir de Doai
+            <hi>et</hi> defors tot si com il lont. <hi>et</hi> si ot encouent me sire Robe que quant
+            dame Aelis v si oir len somonroient que il doit ses oirs amener quant il auront lor aage
+            par deuant eschieuins a Doai por faire autretel cuitance enuers le dame Aelis v enuers
+            ses oirs come sire Robe lor a fait. <hi>et</hi> sil auenoit cose que li enfant faire ne
+            le uolsissent tot si com il est ci deuise. <hi>et</hi> il a dame Aelis ne a ses oirs en
+            croissoit nule paine en aucun tans de p<hi>ar</hi> mon signor Robe ne de par ses oirs.
+            me sire Robe ot encouent q<hi>ue</hi> dame Aelis <hi>et</hi> si oir pooient prendre sor
+            quanque il auoit <num>.x.</num>
+            <abbr>lb.</abbr> de par<hi>isis</hi> que il pooient doner al bailliu por faire le leur
+            tenir en pais. <hi>et</hi> ceste couenence ot encouent me sire Robe enuers dame Aelis si
+            com il est ci deuise. par deuant Bernart de Goi. <hi>et</hi> Wautier Malet. <hi>et</hi>
+            Robert le Blont ki eschieuin estoient a cel tens. <hi>et</hi> cist le reconurent en
+            plaine hale p<hi>ar</hi> deuant les autres eschieuins. <hi>et</hi> por co que ceste
+            couenence soit <hi>et</hi> plus ferme <hi>et</hi> estable nos li eschieuin de Doai auons
+            pendu a ceste p<hi>re</hi>sente cartre no seel. Co fu fait en lan q<hi>ue</hi> li
+            incarnations ot <num>.m.cc.xxiii.</num> el mois dauril.</p>
+        </body>
+      </text>
+      <text n="16">
+        <front>
+          <head>
+            <hi rend="gras">16</hi>
+            <lb/>(Douai?), 1223 mai. </head>
+        </front>
+        <body>
+          <p>Ce sacent cil ki sont <hi>et</hi> ki auenir sont que iou Pieres de Lambres. <hi>et</hi>
+            Hues mes fiels segneur de Lambres. auons uendu <num>.i.</num> mui de tere pau plus pau
+            mains. ki siet a le bouke de le Braiele pres de le uoie ki ua de Lambres a Quinci. as
+            dames de labeie des Pres dencoste Douai. <hi>et</hi> si la creante Beatris me feme.
+              <hi>et</hi> Margarite li feme Huon men fil. <hi>et</hi> se douaires eschaoit a Beatris
+            me feme. <hi>et</hi> ele le demandast en le tere ci deuant nomee. ele met en restor
+              <num>.i.</num> rasiere de tere plus quele ne demandast de sen douaire. en le couture
+            de Corceles. <hi>et</hi> sil eschaoit Margritain le feme Huon douaires en le tere ci
+            deuant dite Hues met en restor <num>.i.</num> rasiere de tere plus quil naferist a sen
+            douaire. au camp del Mui uers le gibet. <hi>et</hi> cou fu fait par loi <hi>et</hi> par
+            iugement des iugeurs de le cort dOisi. <hi>et</hi> fu fait deuant Bauduin dAubencoel
+              co<hi>m</hi>me segneur. ki le creanta <hi>et</hi> grea comme sourains baillieus. de
+            par le segneur dOisi. <hi>et</hi> pour cou que co soit ferme cose <hi>et</hi> estaule.
+            jou Pieres de Lambres deuant dis conferme ceste cartre de men seel. Cou fu fait en lan
+            del incarnation . mil ans. <hi>et</hi>
+            <num>cc.</num>
+            <hi>et</hi>
+            <num>xxiii.</num> el mois de mai.</p>
+        </body>
+      </text>
+      <text n="17">
+        <front>
+          <head>
+            <hi rend="gras">17</hi>
+            <lb/>(Douai?), 1223 mai. </head>
+        </front>
+        <body>
+          <p>Ce sacent cil qui sont et qui auenir sont que io Pieres de Lambres. <hi>et</hi>
+            <pb n="202"/> Hues mes fils segneur de Lambres. auons uendu <num>.i.</num> mui de tere
+            qui siet a le boke de le Braiele sor le uoie de Quinci. as dames des Pres dencoste
+            Douai. <hi>et</hi> si lont creante Beatris me feme. <hi>et</hi> Margarite li feme Huon
+            men fil. <hi>et</hi> se douaires eschaoit a Beatris. <hi>et</hi> ele le demandast en le
+            tere ci deuant nomee. ele met en restor <num>.i.</num> rasiere de tere plus quele ne
+            demandast de sen douaire. en le couture de Corceles. <hi>et</hi> sil eschaoit Margritain
+            le feme Huon douaires en le tere ci deuant dite. Hues met en restor <num>.i.</num>
+            rasiere de tere plus quil naferist a sen douaire al camp del Mui uers le gibet.
+            <hi>et</hi> co fu fait par loi <hi>et</hi> par iugement des iugeurs de le cort dOisi.
+            ens en le capele de Paluel. <hi>et</hi> la fure<hi>n</hi>t iugeur. Alars de Sauci.
+              <hi>et</hi> Wautiers li auoes de Rumauchort. <hi>et</hi> Simons dOisi. <hi>et</hi>
+            Willaumes de Raichort. <hi>et</hi> Landris li maires de Allues. <hi>et</hi> Eubers de
+            Caagnechort. tot ceualier. <hi>et</hi> Pieres li Esterlere ualles. <hi>et</hi> co fu
+            fait deuant Bauduin de Aubencoel co<hi>m</hi>me segneur. qui le creanta <hi>et</hi> grea
+            comme sourains baillius. de par le segneur dOisi. <hi>et</hi> por co que co soit ferme
+            cose <hi>et</hi> estaule jo Pieres de Lambres deuant dis conferme ceste cartre de men
+            seel. Co fu fait en lan del incarnation mil ans. <hi>et</hi>
+            <num>cc.</num>
+            <hi>et</hi>
+            <num>xxiij.</num> el mois de mai.</p>
+        </body>
+      </text>
+      <text n="18">
+        <front>
+          <head>
+            <hi rend="gras">18</hi>
+            <lb/>(Douai?), 1224 juin. </head>
+        </front>
+        <body>
+          <p>Jo Robers prouos de Saint Amei de Doai par lotroi de men capitele. <hi>et</hi> jo
+            Eustacies de le Caucie hom le prouost par le creant Marien me feme. <hi>et</hi> Pieron
+            men ainne fil. otriommes tresore en auant a nos homes des Pumereaus <hi>et</hi> par leur
+            creantement. quil renderont en auant por leur relies <hi>et</hi> p<hi>or</hi> leur
+            uendages. <hi>et</hi> por leur autres remuemens de leur teres des Pumereaus. por cascun
+            bonier tanseulement <num>.iiij.</num> sols <num>.ij.</num> sol. au prouost. <hi>et</hi>
+            <num>.ij.</num> sol. a Eustacie <hi>et</hi> a leur oirs. <hi>et</hi> se plus i auoit de
+            tere plus paieroient al auenant. <hi>et</hi> se mains i auoit de tere mains paieroient.
+              <hi>et</hi> quil plaideront tresore en auant dedens miedi. <hi>et</hi> en aost
+            q<hi>ua</hi>nt io prouos <hi>et</hi> Eustacies u no sergant iermes somons raisnaulement
+            por karier. li home des Pumereaus doiuent le terage <hi>et</hi> le disme des Pumereaus
+            coeillir <hi>et</hi> assambler la u nos uolrons dedens le uile. le partie le prouost en
+            un liu. <hi>et</hi> le partie Eustacie en un autre liu. u assambler ensamble se no doi
+            uolomes. <hi>et</hi> q<hi>ua</hi>nt li grains iert batus se li home des Pumereaus sont
+            somons. il doiuent le partie le prouost porter a sen burc a Verlengehem. <hi>et</hi> le
+            partie Eustacie a se maison a le Caucie. <hi>et</hi> sil nel font il lamendent a nos par
+            le loi de le uile. <hi>et</hi> les rentes <hi>et</hi> les porsous doiuent paier as
+            termines ki i sont assis a mi <hi>et</hi> a Eustacie ki so<hi>m</hi>mes segneur de le
+            uile. <hi>et</hi> si ne doiuent entreprendre es voies de le uile. <hi>et</hi> sil le
+            font il le doiuent a nos amender par les homes de le uile. Tos les autres forfais doit
+            on iucier par les homes de le uile. ki tot sont aseurei le prouost de saint Amei
+            <hi>et</hi> Eustacie de le Caucie. <hi>et</hi> doiue<hi>n</hi>t estre en auant.
+            <hi>et</hi> por co que ce soit ferme cose en auant. jo Robers prouos de saint Amei de
+            Doai. le conferme par men seel. <hi>et</hi> li capiteles de saint Amei par le sien seel.
+              <hi>et</hi> io Eustacies de le Caucie hom le prouost le creanc par me foi pleuie
+            deuant le prouost <hi>et</hi> le capitele saint Amei. <hi>et</hi> deuant mes peirs
+            Brande le tresorier. <hi>et</hi> Bernart de le Meir. Adon del Castel. Bauduin de Quinci.
+            Rainier de Auceel. Bauduin le maieur de Menreuile. <hi>et</hi> Maroie me feme.
+            <hi>et</hi> Pieres mes ainnes fius. par foi pleuie le creantent <hi>et</hi> otroient
+            ausi. <hi>et</hi> co fu fait en lan del incarnation n<hi>ost</hi>re segneur mil. <hi>et</hi>
+            <num>.cc.</num>
+            <hi>et</hi>
+            <num>xxiiij.</num> el mois de Jvin.</p>
+        </body>
+      </text>
+      <pb n="203"/>
+      <text n="19">
+        <front>
+          <head>
+            <hi rend="gras">19</hi>
+            <lb/>Lille, 1224 mai 20. </head>
+        </front>
+        <body>
+          <p>Jo Tirris sire de Beu<hi>er</hi>ne. castelains de Dikemue. fai sauoir tos chaus ki ces
+              let<hi>re</hi>s u<hi>er</hi>ront q<hi>ue</hi> tele est la forme de pais ent<hi>re</hi>
+            moi <hi>et</hi> ma dame la co<hi>n</hi>tesse de Fland<hi>re</hi>
+            <hi>et</hi> de Hain<hi>aut</hi>. q<hi>ue</hi> nos nos su<hi>m</hi>mes mis sor
+            p<hi>ro</hi>domes <hi>et</hi> cil p<hi>ro</hi>dome doue<hi>n</hi>t enq<hi>ue</hi>rre
+            bien <hi>et</hi> loiaum<hi>en</hi>t <hi>et</hi> p<hi>ar</hi> bone foit <hi>et</hi>
+              ent<hi>re</hi>p<hi>re</hi>ndre q<hi>ue</hi> tel tenure cu<hi>m</hi>me li cuens
+            Philippes de Fland<hi>re</hi> tenoit enc<hi>on</hi>tre mo<hi>n</hi> pere <hi>et</hi> mes
+            peres enc<hi>on</hi>t<hi>re</hi> lui au ta<hi>n</hi>s kil estoient tena<hi>n</hi>t andoi
+            li vns enuers laut<hi>re</hi> en la t<hi>er</hi>re de Fland<hi>re</hi> dendroit la
+            peskerie <hi>et</hi> la tenure q<hi>ue</hi> li cuens Philipes tenoit en la vile de
+            Dikemue. <hi>et</hi> sil aue<hi>noi</hi>t q<hi>ua</hi>ucune fie li cuens Philipes
+              p<hi>ar</hi> sa volente desaizi mo<hi>n</hi> pere sans loi <hi>et</hi> sans
+              jugem<hi>en</hi>t che ne doit rien g<hi>re</hi>uer a moi en ceste mize. De cho
+              enq<hi>ue</hi>rre <hi>et</hi> de dire s<hi>un</hi>t dizour li castelains de Saint
+            Omer. me sire Rob<hi>er</hi>s de Betune. <hi>et</hi> me sire Gilleb<hi>er</hi>s de
+              Sott<hi>e</hi>nghe<hi>m</hi>
+            <hi>et</hi> cho douent il ent<hi>re</hi>p<hi>re</hi>ndre sor la foit kil doue<hi>n</hi>t
+            ma dame la contesse. <hi>et</hi> sil aue<hi>noi</hi>t chose ke li vns de ces trois ait
+            loiau so<hi>n</hi>ne p<hi>ar</hi> q<hi>uo</hi>i il ne puist est<hi>re</hi> au jour li
+            doi ki i seront doue<hi>n</hi>t p<hi>re</hi>ndre le tiers p<hi>ar</hi> bone foit
+            <hi>et</hi> de tel dit cu<hi>m</hi> il diront me doit ma dame doner ses letres
+            p<hi>e</hi>ndans ki che soit estable. Che fu fait a Lile lan del incarnat<hi>i</hi>on
+                <num>.m<hi rend="exp">o</hi>.cc<hi rend="exp">o</hi>.xxiiii<hi rend="exp"
+            >o</hi>.</num> au lundi deua<hi>n</hi>t lassce<hi>n</hi>tion.</p>
+        </body>
+      </text>
+      <text n="20">
+        <front>
+          <head>
+            <hi rend="gras">20</hi>
+            <lb/>(Arras), 1224 août 12. </head>
+        </front>
+        <body>
+          <p>Sachont tout cil ki cest escrit uerront ke lauoues del markie kil a fait a Bauduin
+            Lienart <hi>et</hi> a ses compagnons de <num>.xxxvii<hi rend="exp">c</hi>.</num>
+            <abbr>lib.</abbr>
+            <num>vii</num>
+            <abbr>lib.</abbr> m<hi>ains</hi> as anees si com li cartre lauoue le dist. ke li
+            bourgois ont. doit li auoues metre mon segneur Guion de Saint Pol <hi>et</hi> mon
+            segneur Huon sen frere. en dete dedens les <num>.xl.</num> iours kil seront reuenu del
+            ost. sour se fiance aussi vaillans de tant kil monte a le dete. sans okison <hi>et</hi>
+            sans malengien. <hi>et</hi> pour ceste couuenence faire si a on mis cartres en
+            coumandise enuers segneur Simon Fauerel. par tel deuise ke se li auoues aloit contre
+            ceste couuence <hi>et</hi> il defausist <num>.x.</num>
+            <abbr>lib.</abbr> u plus del paiement les bourgois <corr resp="editor"
+              rend="crochets">.</corr> Sire Simons Faueriaus leur doit rendre les cartres kil a en
+            warde <hi>et</hi> il sen doiuent aidier pour auoir leur dete ensi com li cartre lauoues
+            dist. <hi>et</hi> sacon ke en cele coumandise a une cartre de <num>iii<hi rend="exp"
+              >m</hi>.</num>
+            <abbr>lib.</abbr> ke sire Andrius Wagons auoit <hi>et</hi> si compaignon de lauoue.
+              <hi>et</hi> une de segneur Heluin le Boutillier de <num>.xl.</num>
+            <abbr>lib.</abbr>
+            <hi>et</hi> une de celui meisme Heluin de <num>.xxiiii.</num>
+            <abbr>lib.</abbr>
+            <hi>et</hi> une de Simon Fauerel de <num>.ii<hi rend="exp">c</hi>.</num>
+            <abbr>lib.</abbr> et une del conte de Guignes de ceste <pb n="204"/> meisme dete de
+            plegerie. <hi>et</hi> une de <num>xxv.</num>
+            <abbr>lib.</abbr> de celui meisme Symon <hi>et</hi> une de segneur Herbert de Bethune de
+                <num>ii<hi rend="exp">c</hi>.</num>
+            <abbr>lib.</abbr>
+            <hi>et</hi>
+            <num>.lxvi.</num> Cis escris fu fais en lan del incarnacion <num>.m.</num>
+            <hi>et</hi>
+            <num>.ii<hi rend="exp">c.</hi></num>
+            <hi>et</hi>
+            <num>xxiiii.</num> el mois daoust le deluns deuant le nostre dame emmi aoust.</p>
+        </body>
+      </text>
+      <text n="21">
+        <front>
+          <head>
+            <hi rend="gras">21</hi>
+            <lb/>Douai, 1224 août. </head>
+        </front>
+        <body>
+          <p>Ce sachent tot cil q<hi>ui</hi> ore s<hi>on</hi>t <hi>et</hi> q<hi>ui</hi> auenir
+              s<hi>on</hi>t q<hi>ue</hi> Willames de Borgoigne. de Hornaig doit a dame Morain
+            <hi>et</hi> a Nicholon et Michiel ses <num>.ii.</num> fix <num>.viii.</num>
+            <abbr>lib.</abbr>
+            <num>v</num> sol. mains de parisis a <num>.v.</num> ans a paier chascun an al noel
+              <num>.xxxi.</num> sol. de par<hi>isis</hi>
+            <hi>et</hi> sil auenoit chose q<hi>ue</hi> Villam<hi>es</hi> ne fesist les paiemens dan
+            en an si <hi>com</hi> il s<hi>un</hi>t ci deuise. dame More <hi>et</hi> si doi fil
+            porroient doner al bailliu chascun an q<hi>ui</hi>l seroient defaillant de paiement por
+            le lor faire auoir <num>.xx.</num> sol. de <abbr>par.</abbr>
+            <hi>et</hi> Will<hi>ames</hi> solra tot. de ce est pleges. mes sire Waltiers de Hornaig.
+              <hi>et</hi> Gerars de Hartaig. <hi>et</hi> Raols li Blos <hi>et</hi> Robe de le Riue
+            tesmoig c<hi>om</hi>m eschiuin. Ce fu fait el Pont Croisie deuant les <num>.ij.</num>
+            iustices. Balduin de Stres. <hi>et</hi> Rai<hi>n</hi>gier de Laitre. Ceste couenance fu
+            faite en lan de lincarnation <num>.m<hi rend="exp">o</hi>.cc<hi rend="exp">o</hi>.
+              xxiiij.</num> el mois daust.</p>
+        </body>
+      </text>
+      <text n="22">
+        <front>
+          <head>
+            <hi rend="gras">22</hi>
+            <lb/>Lens, 1224 décembre 31. </head>
+        </front>
+        <body>
+          <p>Nous Wistasses de Nueuile li jouegnes. Gui de Inchi sire de Waencort. Loeys de Andifer
+              cheual<hi>iers</hi>. <hi>et</hi> Girars li Noirs. <hi>et</hi> Jakes Esturions escheuin
+            disons sor nos loiautes par n<hi>ost</hi>re dit de le mise ki est sor nous de
+            p<hi>ar</hi>t mon segneur Hellin de Waurig dune p<hi>ar</hi>t. <hi>et</hi> les boriois
+            de Douway daut<hi>re</hi>. ke par lenqueste ke nous en auons faite. ke touz li mares
+            defors Wasiers ki la endroit nous fu moustres. ki estoit sor nous a enquerre. defors le
+            poncel ki ist el mares deuers Seym. <hi>et</hi> defors le uiez mote. <hi>et</hi> defors
+            les uies entrepresures des cortiex de vile de Wasiers. est c<hi>om</hi>mune pasture.
+              <hi>et</hi> c<hi>om</hi>muns herbages. par coustume paiant. ke cil ki i soient por
+            uendre <num>.i.</num> den<hi>ier</hi> en doiuent. par an. de chascune faucille. Et ki i
+            ueut fauchier a fauc. por uendre <num>.ij.</num> den<hi>iers</hi> en doit par an. Et por
+            lor usage sans uendre. nen doiuent nule c<hi>on</hi>stume. Et tex est nos dis por le
+            plus loial enq<hi>ue</hi>ste ke nous en poimes faire. Et por ce ke li dis de ceste mise
+            soit fers <hi>et</hi> estaules. je <pb n="205"/> Hellins de Waurig ai fait cest dit
+              <hi>con</hi>fermer de mon seel. Ce fu rendu a Lens en plaine cort. en lan de
+            lincarnation n<hi>ost</hi>re segneur <num>.m.cc.</num>
+            <hi>et</hi>
+            <num>xxiiij.</num> le deerain jor de dissembre.</p>
+        </body>
+      </text>
+      <text n="23">
+        <front>
+          <head>
+            <hi rend="gras">23</hi>
+            <lb/>Courtrai, 1225 janvier 1. </head>
+        </front>
+        <body>
+          <p>Jo Arnos de Landast sires dAines fa sauoir a tos ciaus ki sunt <hi>et</hi> ki auenir
+              s<hi>un</hi>t. ki ces lettres uerront q<hi>ue</hi> tele est li forme de pais entre me
+            hate dame Jehanne le contesse de Flandres <hi>et</hi> de Hain<hi>aut</hi>
+            <hi>et</hi> mi. que io <hi>et</hi> mi enfant deuons rendre a se m<hi>er</hi>ci
+              q<hi>ua</hi>nq<hi>ue</hi> nos auons pris en le terre me dame. <hi>et</hi> en le terre
+              cu<hi>n</hi> tient de li de cui que nos laiens pris. puis le pais ki fu faite a
+            Hainmonkasnoit le mardi deuant lascention lan del incarnation .mil. <hi>et</hi> deus
+            cens <hi>et</hi> vinte trois. entre li <hi>et</hi> mi. <hi>et</hi> jo <hi>et</hi> mi
+            enfant auons quite clamet a li <hi>et</hi> a ses oirs totes le quereles que nos auons
+            eues enuers li de le terre de Fratrelos <hi>et</hi> de totes autres quereles. Ne jo ne
+            mi enfant ne porrons rien clamer enapres en ces quereles se cho non que mesi Ernos
+            dAudenarde <hi>et</hi> mesi Radous de Moretaigne <hi>et</hi> mesi Jehans de Cyson men
+            donront sans jugement dire. <hi>et</hi> sens uerite enquerre. <hi>et</hi> je en doi
+            auoir les lettres pendans de ces trois ki sunt per de Flandres q<hi>ue</hi> cho quil
+            diront sera fermement tenut <hi>et</hi> il en doiuent estre bien segur de li quele tenra
+            cho q<hi>ue</hi> cil troi diront. <hi>et</hi> des autres q<hi>ue</hi>reles ki ne
+            su<hi>n</hi>t mie encontre li si me doit me dame estre bone de droit faire a mi
+            <hi>et</hi> a mes enfans sans le sien mettre <hi>et</hi> sau cho q<hi>ue</hi>le de cho
+            ne soit esco<hi>m</hi>meniie. Ces lettres furent donees a Cortrai le ior de lan renuef.
+            lan del incarnotion .mil. <hi>et</hi> deus cens. <hi>et</hi> vinte quatre.</p>
+        </body>
+      </text>
+      <text n="24">
+        <front>
+          <head>
+            <hi rend="gras">24</hi>
+            <lb/>(Douai), 1225 février. </head>
+        </front>
+        <body>
+          <p>Ce sacent tout cil ki or sunt <hi>et</hi> ki auenir sunt que iou Rainiers de Gorghechon
+            cheualiers ai vendut a Jehan del cerf <hi>et</hi> a Wagon de Saint Aubin borgois de
+            Dowai <num>viij.</num> muis de tere en tous preus prendans <hi rend="susp"/> a
+              <num>.vij.</num> ans. a le mesure de Dowai. <hi>et</hi> li tierce pars de ces <hi
+              rend="susp"/> tere ne doit ne disme ne terage ne rente ne seruice. <hi>et</hi> leus
+              <num>.ij.</num> p<hi rend="susp"/> droite disme. <hi>et</hi> ces <num>viij.</num> muis
+            de tere doiuent li borgois keusir <hi rend="susp"/> tere. <hi>et</hi> a cest
+            p<hi>re</hi>merain aoust q<hi>ue</hi> nos atendons doiuent il prendre <num>.xvj.</num>
+              r<hi>asieres</hi> de blet le semure. <hi>et</hi>
+            <num>xvj.</num> r<hi>asieres</hi> de marc tout auestit a prendre en quel liu
+            q<hi>ui</hi>l uolront de toutes mes teres ki sunt semencies. <hi>et</hi> qua<hi>n</hi>t
+            cis p<hi>re</hi>miers aous sera passes il doiuent auoir ces <num>viij.</num> muis de
+            tere ki deuant sunt nomet por faire leur uolente dusques adonc q<hi>ue</hi> li termes
+            sera passes ki ci deuant est nomes. <hi>et</hi> sil auenoit cose que li borgois deuant
+            dit estoient a estorse ne a damage dendroit cest vendage <hi>et</hi>
+            <pb n="206"/> ces couenences. io leur doi rendre <hi>et</hi> restorer quanq<hi>ue</hi>
+            il i auroient de damage dusques a leur dit. <hi>et</hi> de ceste couenence est pleges
+              <hi>et</hi> ostages Wautiers de Genlaig. <hi>et</hi> Gilles de Symion <hi>et</hi>
+            Robers dArtre. <hi>et</hi> Auma<hi>n</hi>s de Rouegni. <hi>et</hi> Hues de Markete
+            cheualier. <hi>et</hi> Wautiers de Maucichort. <hi>et</hi> Tieris de Douci. <hi>et</hi>
+            Gillos de Gorgechon. vallet <hi>et</hi> se li borgois estoient a damage dendroit les
+            couenences ki ci deuant sunt nomees tout cist leur renderoient
+            q<hi>ui</hi>nq<hi>ui</hi>l i aroient de damage de chi a leur dis. <hi>et</hi> io
+            Rainiers de Gorghechon ch<hi>eualiers</hi>
+            <hi>et</hi> tout li plege ki deuant s<hi>un</hi>t nomet auo<hi>m</hi>mes toutes ces
+            coses ki ci deuant sunt deuisees encouent <hi>et</hi> otriet a faire <hi>et</hi> a tenir
+            bien <hi>et</hi> loiaume<hi>n</hi>t par deuant escheuins de Dowai Heuvin Malet
+            <hi>et</hi> Symon le conestable. Ce fu fait en lan de lincarnation .mil <num>.cc.</num>
+            <hi>et</hi>
+            <num>xxiiij.</num> ans. el mois de feurier.</p>
+        </body>
+      </text>
+      <text n="25">
+        <front>
+          <head>
+            <hi rend="gras">25</hi>
+            <lb/>(Douai), 1225 mai. </head>
+        </front>
+        <body>
+          <p>Ce sacent tot cil ki or s<hi>un</hi>t <hi>et</hi> ki auenir su<hi>n</hi>t q<hi>ue</hi>
+              Eng<hi>er</hi>rans de V<hi>ir</hi>gelas <hi>et</hi> Robe de le Riue fure<hi>n</hi>t
+              c<hi>om</hi> esch<hi>euin</hi> la Steuenes de Buignecort vendi a Raol le bloc
+            <hi>et</hi> a Jehan de Maucicort <num>.xii.</num> muis de tere a keusir dedens tote le
+            tere ke Steuenes tie<hi>n</hi>t dusq<hi>ue</hi>s a <num>xvi.</num> muis u<num>xvii.</num>
+            <num>xvii.</num> q<hi>ua</hi>rentaines p<hi>or</hi> le r<hi>asiere</hi>. a tenir
+              dusq<hi>ue</hi>s a <num>xvi</num> ans les preus prenda<hi>n</hi>s. en tel maniere
+              q<hi>ue</hi> Steuenes deua<hi>n</hi>t dis a cele tere acensie <num>.v.</num> ans
+              <num>.xx.</num> muis de ble cascu<hi>n</hi> an <hi>et</hi>
+            <num>xvi.</num> muis dau<hi>aine</hi>. <hi>et</hi> Steuenes les doit met<hi>re</hi> en
+            tel point de cele acense co<hi>m</hi> me sires Guifrois. <hi>et</hi> me sire
+              Baud<hi>uins</hi> de Qui<hi>n</hi>ci <hi>et</hi> Alars li maires en estoie<hi>n</hi>t.
+              <hi>et</hi> cist troi ki deua<hi>n</hi>t su<hi>n</hi>t nomet les doiue<hi>n</hi>t ausi
+              met<hi>re</hi> en tel poi<hi>n</hi>t Raol le Bloc. <hi>et</hi> Jehan de Maucicort
+              co<hi>m</hi> il en su<hi>n</hi>t. <hi>et</hi> Raols <hi>et</hi> Jeh<hi>ans</hi>
+              doiue<hi>n</hi>t tenir ceste ce<hi>n</hi>se en tel poi<hi>n</hi>t co<hi>m</hi> il est
+            dit. <hi>et</hi> ap<hi>re</hi>s les <num>.v.</num> ans doiue<hi>n</hi>t il auoir cele
+            tere <num>.xi.</num> ans. les preus p<hi>re</hi>ndans. <hi>et</hi> en cest marchiet les
+            doit Steuenes met<hi>re</hi> bie<hi>n</hi>
+            <hi>et</hi> loiaume<hi>n</hi>t p<hi>ar</hi> sen segn<hi>eur</hi>
+            <hi>et</hi> p<hi>ar</hi> ses pers p<hi>ar</hi> le loi del pais <hi>et</hi> de tot co a
+            tenir est pl<hi>e</hi>g. Baud<hi>uins</hi> de Qui<hi>n</hi>ci. <hi>et</hi> Guifrois de
+            Buignecort <hi>et</hi> Jeh<hi>ans</hi> ses freres <hi>et</hi> Pieres del Forest.
+              ch<hi>eualier</hi>
+            <hi>et</hi> Alars li maires de Buignecort. <hi>et</hi> Phelipes del Gardin. <hi>et</hi>
+            Pieros de Buignecort. <hi>et</hi> Waut<hi>iers</hi> li fils Euelon. <hi>et</hi> Anscris
+            de Lanvin. <hi>et</hi> se cis marchies nestoit ten<hi>us</hi> si c<hi>om</hi> il est
+            deuise tot cist pl<hi>e</hi>g se doiue<hi>n</hi>t met<hi>re</hi> deuers Raol le Bloc en
+              p<hi>ri</hi>son p<hi>ar</hi> si q<hi>ui</hi>l ne poront aler nule part q<hi>ui</hi>l
+            ne reuiegne<hi>n</hi>t dedens le ior en p<hi>ri</hi>son deuers Raol dusq<hi>ues</hi> a
+            tant q<hi>ue</hi> cis marchies seroit ten<hi>us</hi> bie<hi>n</hi>
+            <hi>et</hi> loiaume<hi>n</hi>t p<hi>ar</hi> le loi del pais. <hi>et</hi> par cest
+            marchiet Raols li blos <hi>et</hi> Jeh<hi>ans</hi> de Maucicort doiue<hi>n</hi>t rendre
+            a Steuenon de Buignecort <num>.lx.</num>
+            <abbr>lb.</abbr> par<hi>isis</hi> de feste tossains a le tossai<hi>n</hi>s
+            cascu<hi>n</hi> ans dusq<hi>ues</hi> a <num>.v.</num> ans. deci adont q<hi>ui</hi>l li
+            aront rendu <num>.ccc.</num>
+            <abbr>lb.</abbr> par<hi>isis</hi>
+            <hi>et</hi> ces deniers doit on rendre as to<hi>n</hi>nes q<hi>ui</hi> mis i
+            su<hi>n</hi>t a Baud<hi>uin</hi> de Q<hi>ui</hi>nci. <hi>et</hi> a Guifroi. <hi>et</hi>
+            a Alart le maieur. p<hi>or</hi> aq<hi>ui</hi>ter Steueno<hi>n</hi>. de ses detes la u il
+            les doit. <hi>et</hi> puis q<hi>ue</hi> Raols <hi>et</hi> Jeh<hi>ans</hi>
+            aroie<hi>n</hi>t ces deniers paies a ces <num>.iiij.</num> q<hi>ui</hi> ci
+            deua<hi>n</hi>t su<hi>n</hi>t dit p<hi>ar</hi> tesmoignage de
+            p<hi>ro</hi>do<hi>m</hi>mes il en doiue<hi>n</hi>t estre quite. <hi>et</hi> Steuenes
+            doit aq<hi>ui</hi>t<hi>er</hi> tos ces pl<hi>e</hi>g q<hi>ui</hi> deua<hi>n</hi>t
+              su<hi>n</hi>t nomet de q<hi>ua</hi>nq<hi>ui</hi>l lor costeroit dusq<hi>ues</hi> a lor
+              plai<hi>ns</hi> dis. <hi>et</hi> cist doi escheuins le reconurent <pb n="207"/> deuant
+            autres escheuins Bernart de Goy <hi>et</hi> Doucet le moneier. Ce fu fait en lan del
+            incarnation <num>.m.</num>
+            <hi>et</hi>
+            <num>cc.</num>
+            <hi>et</hi>
+            <num>xxv.</num> ans el mois de mai.</p>
+        </body>
+      </text>
+      <text n="26">
+        <front>
+          <head>
+            <hi rend="gras">26</hi>
+            <lb/>(Douai), 1225 octobre. </head>
+        </front>
+        <body>
+          <p>Jou Wautiers cheualiers castelains de Dowai fac a sauoir a tous ceals ki or sunt
+            <hi>et</hi> ki auenir sunt. que iou ai vendut <hi>et</hi> otroiet a Wautier Pilate
+              <hi>et</hi> a Wion Andefroit borgois de Dowai <num>.v.</num> muis de tere ki gist el
+            teroir de Guelesin. de le quele iou fis escange a mon segneur Wautier de Guelesin
+            cheualier. de tere que iou auoie acatee a mon segneur Jehan Creton. <hi>et</hi> ceste
+            tere ki deuant est nomee leur ai iou encouenent a aquiter <hi>et</hi> a warandir bien
+              <hi>et</hi> loiaument. <hi>et</hi> sil auenoit cose que li borgois deuant dit euissent
+            aucun damage dendroit ceste tere ki chi deuant est nomee. par mi. ne par me feme. ne par
+            mes oirs. ne par arme de le miue part. iou leur doi rendre <hi>et</hi> restorer sour
+            leur plains dis. dusques a <num>.v.</num> cens. <abbr>lib.</abbr> de paresis. que il
+            puent prendre a mi <hi>et</hi> au mien partout. <hi>et</hi> por cou q<hi>ue</hi> ce soit
+            ferme cose <hi>et</hi> estaule. iou Wautiers castelains de Dowai deuant dis ai pendut
+            men seel a ceste presente cartre. Ce fu fait en lan que lincarnations nostre segneur eut
+            mil. <hi>et</hi>
+            <num>cc.</num>
+            <hi>et</hi>
+            <num>xxv.</num> ans el mois de witembre.</p>
+        </body>
+      </text>
+      <text n="27">
+        <front>
+          <head>
+            <hi rend="gras">27</hi>
+            <lb/>(Haute-Avesnes), 1225 novembre 11. </head>
+        </front>
+        <body>
+          <p>Chou sachent tout cil ki or sunt et ki auenir su<hi>n</hi>t ke Margerite del Ual et
+            Ernouls ses baro<hi>n</hi>s ont doune en almosne a Haut Aue<hi>n</hi>ne et as poures de
+            lospital Sai<hi>n</hi>t Jeha<hi>n</hi> de Jherusale<hi>m</hi>
+            <num>.v.i.i.i.</num> me<hi>n</hi>coldees de terre et <num>.v.i.</num> ke ele a acate
+            puis le mort sen baro<hi>n</hi> a Jehan le co<hi>n</hi>tefra<hi>n</hi>ke de teraige et
+            de tous les aques ke ele a fait et kele fera des pourfis ki en uenro<hi>n</hi>t. ele en
+            fera se volente se vie. et ap<hi>re</hi>s sen decet tout remanra a le maiso<hi>n</hi> et
+            li t<hi>er</hi>re et li catel. a cele couenence faire fu sire Baudui<hi>n</hi>s ses
+              p<hi>re</hi>st<hi>re</hi>s. et freres Jeha<hi>n</hi>s p<hi>re</hi>st<hi>re</hi>s del
+            liu. freres Jeha<hi>n</hi>s de Goudinpre. et frere Gilleb<hi>er</hi>s. Ada<hi>n</hi>s
+              Grapeli<hi>n</hi>s. Jeha<hi>n</hi>s Ferto<hi>n</hi>s. Ada<hi>n</hi>s au cinte et
+              G<hi>er</hi>ras Waringo<hi>n</hi>s. <hi>et</hi> Wari<hi>n</hi>s Sauadols. et pour chou
+            ke chou soit estauele me sire Williaumes del Doi<hi>n</hi>gno<hi>n</hi> ki maistres
+            estoit de St<hi>er</hi>pegni et de Haut Auenne a cel jour i pe<hi>n</hi>di sen saiel.
+            chou fu fait le jour sai<hi>n</hi>t Marti<hi>n</hi> lan de lincarnation <num>.m.</num>
+            <hi>et</hi>
+            <num>cc.</num>
+            <hi>et</hi>
+            <num>xx.v.</num></p>
+        </body>
+      </text>
+      <pb n="208"/>
+      <text n="28">
+        <front>
+          <head>
+            <hi rend="gras">28</hi>
+            <lb/>(Cambrai), 1225 novembre 22. </head>
+        </front>
+        <body>
+          <p>Ce sachent cil ki cest escrit ueront. ke tele est li forme de le pais ki faite est
+            entre leuesq<hi>ue</hi> et le clergie de Cambrai. et les prouos les jures <hi>et</hi> le
+            cumun de Cambrai. Dendroit le clerc quil auoient bani. il le doiuent desbanir a cloke
+            sonant. <hi>et</hi> reconoistre quil nont droit en clerc banir. ne iustichier.
+            <hi>et</hi> q<hi>ue</hi> il puet seureme<hi>n</hi>t en le uile reuenir se il uelt. ne na
+            warde de le loi de le vile. <hi>et</hi> se nus hom entrep<hi>re</hi>ndoit uers lui. il
+            en feroient auteil droit <hi>et</hi> auteil amende. kil feroient du<hi>n</hi> boriois de
+            le vile son li auoit forfait.</p>
+          <p>Dendroit le maison le canone de saint Geri. Il fero<hi>n</hi>t leur pooir de resaisir
+            le lieu <hi>et</hi> aro<hi>n</hi>t encoue<hi>n</hi>t que mais nauenra <hi>et</hi>
+              reconistero<hi>n</hi>t q<hi>ue</hi> droit neurent el faire.</p>
+          <p>Dendroit le Conte de que li vesq<hi>ues</hi> Godefrois <hi>et</hi> si ancisseur ki
+            deuant lui ont este. ont quis cartres <hi>et</hi> priuileges des rois <hi>et</hi> des
+            empereurs dAlemaigne. <hi>et</hi> dendroit les cartres <hi>et</hi> les priuileges
+            anchiens ke li vile a des empereurs <hi>et</hi> des rois dAlemaigne. est tele li
+            couenance. kon les portera <hi>et</hi> les uns <hi>et</hi> les autres. u les
+            t<hi>ra</hi>nsscris saieles de saiaus de prodomes. le vesq<hi>ue</hi> de Tornai. le dien
+              <hi>et</hi> larchediakene. en le cort dAlemaigne. <hi>et</hi> ce q<hi>ue</hi> li cors
+            dira par iugement li queil doiuent ualoir <hi>et</hi> estre estaule. u li priuilege le
+              vesq<hi>ue</hi>. u li priuilege de le vile. li vesq<hi>ues</hi>
+            <hi>et</hi> li vile tenront. <hi>et</hi> li capitles n<hi>ost</hi>re Dame le loera
+              <hi>et</hi> tenra de tant co<hi>m</hi> a lui monte <hi>et</hi> de cou tenir doit
+              <hi>et</hi> li une p<hi>ar</hi>tie <hi>et</hi> li autre bone seurte faire. si
+            co<hi>m</hi> on le deuisera apreis. Et doit v li vile v li vesq<hi>ue</hi>s semonre li
+            uns lautre dedens noeil ki uient en vn an. <hi>et</hi> se li vile en defaloit. li
+              vesq<hi>ue</hi>s puet t<hi>ra</hi>ire seurement a ses juges de Noion ki sont de par
+            lapostole. <hi>et</hi> q<hi>ua</hi>nt li plais iert co<hi>m</hi>menchies en Alemaigne.
+            la le doit on t<hi>er</hi>miner. Et se li vile en defaloit de jor porsuir. li
+              vesq<hi>ues</hi> poroit ret<hi>ra</hi>ire a ses iuges de Noion. <hi>et</hi> la doit on
+            porter les p<hi>ri</hi>uileges et les uns <hi>et</hi> les autres u les
+            t<hi>ra</hi>nsscris saieles si co<hi>m</hi> dit est. <hi>et</hi> li juge doiuent dire
+            par iugeme<hi>n</hi>t li quel priuilege doiuent tenir. <hi>et</hi> a leur
+            iugeme<hi>n</hi>t se tenro<hi>n</hi>t les parties. Se li vesques est en defaute de
+            porsuir droit en le cort dAlemaigne. il ne puet por se defaute reuenir a ses juges.
+            Dendroit les damages le vesq<hi>ue</hi>
+            <hi>et</hi> des amendes ki montent <hi>et</hi> a temporalite <hi>et</hi> a spiritualite.
+            par le vesq<hi>ue</hi> de Biauuais. le vesq<hi>ue</hi> de Noion. le vesq<hi>ue</hi> de
+            Tornai. ki par fois <hi>et</hi> par sairemens les oront. li vesq<hi>ues</hi> se tenra a
+            leur dit. <hi>et</hi> li vile. sans les lois ki monte<hi>n</hi>t as
+            escumenieme<hi>n</hi>s. de ce meisme kerra li vesq<hi>ues</hi>
+            <hi>con</hi>seil de prodomes de mesure <hi>et</hi> de raison faire.</p>
+          <p>Dendroit les maisons <hi>et</hi> les mes des canones. <hi>et</hi> des eglises. il les
+            doiuent rewarnir <hi>et</hi> refaire ensi co<hi>m</hi> eles estoient deuant leur fait.
+              <hi>et</hi> des autres damages des eglises. des prestres <hi>et</hi> des canones. cou
+            ke troi preudome ke li vesques nomera par le <hi>con</hi>seil des eglises ki soient
+            manant deuens le vile en trouero<hi>n</hi>t a uerite p<hi>ar</hi> fois <hi>et</hi> par
+              saireme<hi>n</hi>s. il rendero<hi>n</hi>t. se relaissier nes enuelt on. </p>
+          <p>Et de ces coses ki chi deseure so<hi>n</hi>t dites. doit li vile tele seurte faire. li
+              vesq<hi>ues</hi> no<hi>m</hi>mera <num>.ccc.</num> homes. en le vile. Cil
+            <num>.ccc.</num> home i uerro<hi>n</hi>t sorsains de leur endroit ceste pais a tenir
+              f<hi>er</hi>mement. <hi>et</hi> li vile toute <hi>com</hi>muneme<hi>n</hi>t
+            abandonera. <hi>et</hi> aus <hi>et</hi> leur choses al evesq<hi>ue</hi>. <hi>et</hi> a
+            ses amis. <hi>et</hi> a tous chiaus ke li vesq<hi>ues</hi> pora <hi>et</hi> uolra
+              atorn<hi>er</hi> a co q<hi>ue</hi> il enpreigne<hi>n</hi>t se li vile raloit ariere de
+            ceste pais ki escrite est. <hi>et</hi> il ot<hi>ri</hi>ent le vesq<hi>ue</hi> ke il les
+            escumenit sans autre monition. se il enreuo<hi>n</hi>t ariere. <hi>et</hi>
+            doiue<hi>n</hi>t requerre le legat par leur letres penda<hi>n</hi>s ke il ma<hi>n</hi>t
+            a trois p<hi>ro</hi>domes <pb n="209"/> ke se il ne tienent ceste pais. kil les
+              escumenie<hi>n</hi>t par sautoritet. <hi>et</hi> doiuent req<hi>ue</hi>rre a
+            lapoistole ce meisme par leur letres pendans. <hi>et</hi> q<hi>ue</hi> il
+            c<hi>on</hi>ferme les escumeniemens de le vesq<hi>ue</hi>
+            <hi>et</hi> del legat. <hi>et</hi> doiuent t<hi>ra</hi>ueillier <hi>et</hi>
+            req<hi>ue</hi>rre le Roi de Franche a bone foi. ke sil raloie<hi>n</hi>t ariere de ceste
+            pais. q<hi>ue</hi> li rois les remete en autel point c<hi>om</hi> il estoie<hi>n</hi>t
+              deua<hi>n</hi>t le pais. si co<hi>m</hi> de son deueement de se tiere <hi>et</hi> de
+            le tiere ses homes. <hi>et</hi> tout autel al conte de Campai<hi>n</hi>gne. <hi>et</hi>
+            tout autel al conte de Cartres. <hi>et</hi> doiue<hi>n</hi>t requerre <hi>et</hi>
+              porchach<hi>ier</hi> a bone foi. ke li contesse de Flandres en soit ostages par ses
+            letres pendans. <hi>et</hi> Bauduins de Wallaincort. Bauduins de Biauuoir. li castelains
+            de Biaumes. <hi>et</hi> Bauduins dAubencuel. De tous ces escris querre si co<hi>m</hi>
+            dou cardenal dou roi. de le contesse. <hi>et</hi> des autres p<hi>ri</hi>nces. nenkiet
+            li vile en nule paine de cateil sele nes pooit auoir. Se li vile issoit del
+            jugeme<hi>n</hi>t de le cort dAlemaigne. v des juges de Noion se reuenir i couenoit. li
+            vile seroit enkeue en le paine de siet mile <abbr>lib.</abbr> de paresis. <hi>et</hi> de
+            ceste paine doit li vile doner ses letres pendans a le vesq<hi>ue</hi>. Et ausi en autel
+            paine seroie<hi>n</hi>t enkeut. sil ne tenoie<hi>n</hi>t le dit des trois
+            evesq<hi>ue</hi>s ki sont nome. <hi>et</hi> de ceus ki diseur sero<hi>n</hi>t des
+            damages des eglises de Cambrais. <hi>et</hi> de cou doit li vile doun<hi>er</hi> ses
+            letres ouertes dautres siet mile <abbr>lib.</abbr> de paresis a le vesq<hi>ue</hi> et a
+            le glise. Et por cou ke ceste pais soit seue <hi>et</hi> ferme <hi>et</hi> estable. li
+            vesques i pent sen saiel. li eglise n<hi>ost</hi>re Dame le sien. <hi>et</hi> li cites
+            de Cambrai le sien. Et ce <corr resp="editor" rend="crochets">fu</corr> fait lan
+            del incarnation Ih<hi>es</hi>u Crist. mil deus cens. <hi>et</hi> vint <hi>et</hi> cinc.
+            le semedi apreis feste des oct<hi>aue</hi> sai<hi>n</hi>t Marti<hi>n</hi>. el mois de
+              Noue<hi>m</hi>bre.</p>
+        </body>
+      </text>
+      <text n="29">
+        <front>
+          <head>
+            <hi rend="gras">29</hi>
+            <lb/>(Anchin?), 1225 décembre 25. </head>
+        </front>
+        <body>
+          <p>Ce sacent tout cil ki cest escrit ueront que Alars li Bret de Corbriu estoit mes hom
+            dun bonier de tiere que il tenoit de moi en fief a Templueue. pau plus. pau mains.
+              <hi>et</hi> cel bon<hi>ier</hi> pau pl<hi>us</hi> pau mains a Alars <hi>et</hi> se
+            feme <hi>et</hi> si enfant reporte en me mai<hi>n</hi>. el tiesmoi<hi>n</hi>g de mes
+            homes <hi>et</hi> daut<hi>re</hi>s plusors. <hi>et</hi> jou Jehans sire de Cyson lai
+            done hyretauleme<hi>n</hi>t por Deu <hi>et</hi> en aumosne co<hi>m</hi>me quite aluet a
+            le glise sai<hi>n</hi>t Sauueor de Anchin. a cest don <hi>et</hi> a ceste aumosne fu me
+            sire Gilies de Mosnes. sire Mahius de Cyson. sire Nichole de le Riese. ceualier. Baude
+            li Ostes. B<hi>er</hi>nars del Arbroie. Gilies del Ausnoit. <hi>et</hi> aut<hi>re</hi>
+            plusor co<hi>m</hi>me mi home. Et p<hi>or</hi> ce q<hi>ue</hi> ce soit tenu a le glise
+            de Anchin. jou Jehans sire de Cyson len ai donees mes lettres saielees de mon saiel. Ce
+            fu fait en lan del i<hi>n</hi>carnation <num>.m.</num>
+            <hi>et</hi>
+            <num>.cc.</num>
+            <hi>et</hi>
+            <num>xxv.</num> le nuit del Noel.</p>
+        </body>
+      </text>
+    </group>
+  </text>
+</TEI>

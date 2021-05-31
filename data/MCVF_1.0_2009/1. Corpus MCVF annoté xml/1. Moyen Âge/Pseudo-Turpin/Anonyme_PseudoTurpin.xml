@@ -1,0 +1,885 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">Die sonegannte poitevinische Übersetzung des Pseudo-Turpin</title>
+                <title type="sub"/>
+                <title type="short">Anonyme.PseudoTurpin</title>
+                <author>
+                    <persName>
+                        <surname>Anonyme</surname>
+                        <forename/>
+                    </persName>
+                </author>
+                <editor>Modéliser le changement, les voies du français GTRC/CRSH</editor>
+                <principal>
+                    <persName>France Martineau</persName>
+                </principal>
+                <funder>
+                    <orgName>Université d'Ottawa</orgName>
+                    <orgName>Conseil de recherche en sciences humaines du Canada</orgName>
+                </funder>
+                <respStmt>
+                    <resp>Codage</resp>
+                    <persName xml:id="Labelle">Simon-Pier Labelle-Hogue</persName>
+                    <persName xml:id="Martineau">France Martineau</persName>
+                    <persName xml:id="Morin">Yves-Charles Morin</persName>
+                </respStmt>
+            </titleStmt>
+            <extent>4136</extent>
+            <publicationStmt>
+                <date when="2009-11-16"/>
+                <distributor>
+                    <orgName>Modéliser le changement : les voies du français GTRC/CRSH</orgName>
+                    <address>
+                        <addrLine>60, rue Université</addrLine>
+                        <addrLine>Ottawa, Ontario</addrLine>
+                        <addrLine>K1N 6N5</addrLine>
+                        <addrLine>Tél : 613-562-5797</addrLine>
+                        <addrLine>Fax : 613-562-5981</addrLine>
+                        <addrLine><email>fmartin@uottawa.ca</email></addrLine>
+                        <addrLine>http://www.voies.uottawa.ca/</addrLine>                        
+                    </address>
+                </distributor>
+                <availability status="restricted">
+                    <p>(c) Modéliser le changement : les voies du français (CRSH/GTRC, dirigé par F.
+                        Martineau)</p>
+                    <p>Les Corpus MCVF demeurent la propriété du projet Modéliser le changement : les voies du
+                        français. Les références à ces Corpus devraient apparaître ainsi : Corpus MCVF,
+                        Modéliser le changement : les voies du français (F. Martineau (dir.), U. d’Ottawa).Tous
+                        les documents du Corpus MCVF ne peuvent être divulgués à de tierces parties sans
+                        l’autorisation préalable de la Directrice du Projet </p>
+                    <p>Pour tout autre usage, contacter : <persName>France Martineau</persName>
+                        <orgName>Modéliser le changement : les voies du français, Université d'Ottawa</orgName>
+                        <email>fmartin@uottawa.ca</email></p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <biblStruct type="Source_publique">
+                    <monogr>
+                        <author>
+                            <persName>
+                                <surname>Anonyme</surname>
+                            </persName>
+                        </author>
+                        <editor>
+                            <persName>
+                                <surname>Auracher</surname>
+                                <forename>Theodor</forename>
+                            </persName>
+                        </editor>
+                        <title>Die sonegannte poitevinische Übersetzung des Pseudo-Turpin</title>
+                        <title type="sub"/>
+                        <imprint>
+                            <pubPlace>Tübingen</pubPlace>
+                            <publisher>Zeitschift für Romanische Philologie</publisher>
+                            <date when="1877">1877</date>
+                        </imprint>
+                    </monogr>
+                    <series/>
+                </biblStruct>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Bibliothèque nationale</settlement>
+                        <repository>Paris</repository>
+                        <collection/>
+                        <idno>fr. 5714</idno>
+                        <msName>Version poitevine</msName>
+                    </msIdentifier>
+                    <history>
+                        <origin>
+                            <origPlace>Saintonge</origPlace>
+                            <origDate notBefore="1225" notAfter="1250">Entre 1225 et 1250</origDate>
+                        </origin>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Projet : Modéliser le changement les voies du français (GTRC/CRSH) <lb/>Resp. :
+                    <persName>France Martineau</persName> Institution : Département de français, Université
+                    d'Ottawa
+                    <address>
+                        <addrLine>60, rue Université</addrLine>
+                        <addrLine>Ottawa, Ontario</addrLine>
+                        <addrLine>K1N 6N5</addrLine>
+                        <addrLine>Tél : 613-562-5797</addrLine>
+                        <addrLine>Fax : 613-562-5981</addrLine>
+                        <addrLine><email>fmartin@uottawa.ca</email></addrLine>
+                        <addrLine>www.voies.uottawa.ca</addrLine>                        
+                    </address></p>
+            </projectDesc>
+            <editorialDecl>
+                <p>Voir le manuel d'annotation TEI au http://www.voies.uottawa.ca</p>
+                <p>L'édition de référence a été respectée quant à l'orthographe, la ponctuation, la mise en
+                    page et la pagination. Cependant, la césure des mots en fin de lignes (ou de pages) a été
+                    supprimée, le mot est placé dans la ligne ou la page où il commence. </p>
+                <p>Les paragraphes sont notés par P pour la prose. Pour les vers, P rend="gv" indique que le
+                    paragraphe est constitué d'un groupe de vers. </p>
+                <p> Les débuts des vers sont encodés par LB. Cette balise peut également servir dans les
+                    textes en prose à indiquer les débuts des lignes selon la pagination de l'édition. </p>
+                <p>Les changements de pages sont indiqués par la balise PB</p>
+                <p>Le corps du texte est obligatoirement compris dans le BODY. Le FRONT contenant le titre
+                    et/ou le prologue et le BACK (explicit) sont facultatifs et ne sont mis qu'au besoin. </p>
+                <p>Les différentes parties du texte (livre, chapitre...) sont encodées par DIV, auquel
+                    s'ajoute l'attribut TYPE qui spécifie sa nature. </p>
+                <p>Les paragraphes (P), lignes (LB) et pages (PB) de même de certaines divisions (DIV) sont
+                    ou peuvent être numérotés par l'attribut N s'ils le sont dans l'édition. </p>
+                <p>Quelques commentaires ou corrections ont été introduits à l'aide de la balise NOTE, CORR
+                    ou SIC. </p>
+                <p>Les discours directs et les citations ont été encodés par la balise Q. Cette balise est
+                    mise à chaque fois que des guillemets sont utilisés dans l'édition. </p>
+                <p>L'élément FOREIGN indique un passage en latin qui est noté en italique dans l'édition,
+                    les occurrences non en italique sont signalées par l'attribut ROMAIN. </p>
+                <p>Les folios sont notés par la balise <tag>pb rend="folio"</tag></p>
+                <p>Les notes de bas de pages ont été retirées. </p>
+                <p>Les paragraphes entièrement en latin ont été retirés, une balise P et une NOTE les
+                    signalent. </p>
+                <p>Note spécifique au texte ci-dessous: des macrons sont posés au-dessus des voyelles, là où l'édition avait des macrons; les petits caractères sont conservés en indice supérieur, là où l'édition faisait de même; de petites croix ont été placées là où l'édition avait l'italique; la ligne basse sous la lettre sur laquelle un mot est coupé en fin de ligne; le point moyen a été employé pour le point abréviatif (ou numérique) pour ne pas confondre; la balise lb pour les fins de lignes indiquées au moyen d'une barre verticale; type="DoubleBarre" a été ajouté lorsque l'édition séparait à l'aide d'une double barre verticale (on ne connaît pas la nature matérielle précise de ces séparations); les lettrines n'ont pas été codées mais commencent chacun des paragraphes </p>
+            </editorialDecl>
+            <samplingDecl><p>Pages 262-272</p></samplingDecl>
+        </encodingDesc>
+        <profileDesc>
+            <creation>
+                <date notBefore="1201" notAfter="1235"/>
+                <placeName/>
+            </creation>
+            <langUsage>
+                <language ident="frm"/>
+            </langUsage>
+            <textDesc>
+                <channel/>
+                <constitution>Extrait</constitution>
+                <derivation/>
+                <domain/>
+                <factuality/>
+                <interaction/>
+                <preparedness/>
+                <purpose/>
+            </textDesc>
+            <textClass>
+                <keywords scheme="GTRC">
+                    <list>
+                        <item n="domaine">Littéraire</item>
+                        <item n="genre">Chroniques</item>
+                        <item n="forme">Prose</item>
+                        <item n="docRegion1">France</item>
+                        <item n="docRegion2">France Ouest</item>
+                        <item n="docRegion3">Saintonge</item>
+                        <item n="auteurRegion1"></item>
+                        <item n="auteurRegion2"/>
+                        <item n="auteurRegion3"/>
+                        <item n="auteurSexe"/>
+                        <item n="occupation"/>
+                        <item n="scribeRegion1"/>
+                        <item n="scribeRegion2"/>
+                        <item n="scribeRegion3"/>
+                        <item n="imprimeurRegion1"/>
+                        <item n="imprimeurRegion2"/>
+                        <item n="imprimeurRegion3"/>
+                    </list>
+                </keywords>
+                <classCode scheme="Indice de Dees"/>
+            </textClass>
+            <particDesc>
+                <listPerson>
+                    <person role="auteur">
+                        <persName>
+                            <surname>Anonyme</surname>
+                            <forename/>
+                        </persName>
+                        <birth>
+                            <date/>
+                            <placeName/>
+                        </birth>
+                    </person>
+                    <person role="scribe">
+                        <persName>
+                            <surname>Inconnu</surname>
+                            <forename/>
+                        </persName>
+                        <birth/>
+                    </person>
+                    <person role="imprimeur"/>
+                </listPerson>
+            </particDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2009-11-20" who="#Martineau">Validation de la correction des balises et en-tête</change>
+            <change when="2009-11-16" who="#Labelle">Correction des balises et en-tête</change>
+            <change when="2008-01-21" who="#Morin">Numérisation et balisage du texte</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+<body>
+<pb rend="folio" n="41a"/>
+<p>EN lenor nrē seignor 
+<lb/> qui es̟t̟ pere 7 filz e sain̟z 
+<lb/> esperiz . qu̟ⁱ est uns 
+<lb/> des entres pe̟r̟soneˢ . e 
+<lb type="DoubleBarre"/> eu nom la gloriose mere 
+<lb/> ma dama scē Marie . uoil 
+<lb type="DoubleBarre"/> come̟n̟cier lestoíre si cum̟ li bon̟s 
+<lb/> enpereire karlemaíneˢ 
+<lb type="DoubleBarre"/> en ala en Espagníe. por 
+<lb/> la te̟r̟ra con̟querra sor sarra̲zins.
+<lb/> Maintes gens en ont 
+<lb/> oi conter . e chante̟r̟ . meˢ nest 
+<lb type="DoubleBarre"/> si mensongie non . co qu̟ⁱl en 
+<lb/> dient . e chanten̟t cil iogle̲or 
+<lb/>. ne cil c̟o̟n̟teor. nus c̟o̟n̟tes . ri̲mes 
+<lb/> nest ueraís . tot est 
+<lb/> men̟ssongie . co qu̟ⁱl en dient 
+<lb/> qu̟ªr il non seuíent ríen forˢ 
+<lb/> pa̟r̟ oir díre. Li bons Baudoínˢ 
+<lb/> li cuens de Chaínau . si ama 
+<lb/> molt karl'maíne . ne ne uoc 
+<lb/> unqu̟e̟s cr̟ºíre chose qu̟e̟ len chantast 
+<lb/>. ainz fit cercher leˢ 
+<lb/> bones abaies de france . e 
+<pb rend="folio" n="41b"/>
+<lb/> garder pa̟r̟ toz les armaíres por 
+<lb/> sauoír si lom itr̟ºueroít la ue̲raíe
+<lb/> estoíra. nj onqu̟e̟s tr̟ºuer 
+<lb/> ne lj porent li clerc. Tant auin̟t 
+<lb/> qu̟e̟ uns sis cleirz ala en borgo̲gnía
+<lb/> . pa̟r̟ les toire qu̟e̟re . eisi cum 
+<lb/> de plot . si la troua . asan̟z en 
+<lb/> borguonie. Icele estoire do̲meínamen̟t 
+<lb/> qu̟e̟ Turpíns li 
+<lb/> bons arceuesqu̟e̟ˢ de Reins 
+<lb type="DoubleBarre"/> esc̟rⁱt en espaigne . qu̟ⁱ auoc le 
+<lb/> bon̟ <pb n="263"/> enpereor fu . e pa̟r̟ ior . e pa̟r̟ 
+<lb/> nuít e qu̟e̟ il sot qu̟e̟ uers fu 
+<lb/> tot le conqu̟e̟st . toz les míra̲cles
+<lb/> . si com il auenoient le 
+<lb/> ior . tot eissi les escr̟ⁱuoit pa̟r̟ 
+<lb/> nuít e pa̟r̟ ior . qu̟ªnt il enauoit
+<lb/> leisir . don̟t en fait cil mielz
+<lb/> acroíre qu̟ⁱ hi fu e qu̟ⁱ le 
+<lb/> uít : qu̟e̟ ne font cil qu̟ⁱ rien 
+<lb/> nen seuen̟t fors pa̟r̟ oir dire 
+<lb/> Li clers ou bon̟ com̟pte Boudo̲ín
+<lb/> c̟o̟n̟tr̟ᵉ escr̟ⁱt lestoíre . e a son 
+<lb/> seignor laporta qu̟ⁱ molt 
+<pb rend="folio" n="41c"/> lentinc engr̟ªnt cherte . tant cum̟ 
+<lb/> il uesqu̟ⁱ . e qu̟ªnt il dut murír . si 
+<lb/> enueia le líure a sa seror labo̲ne
+<lb/> Jolent . la c̟o̟n̟tessa de saínt 
+<lb/> Po . e si manda qu̟e̟ pa̟r̟ amor de luj 
+<lb/> gardast le liure tan̟t cu̟m̟ ela uí̲ureit
+<lb/> . La bona c̟o̟n̟tessa ha ga̲rde
+<lb/> le líure iu̟s̟qu̟ª ore . or me pr̟o̟ie 
+<lb/> qu̟e̟ ie le meta de latín en roman̟z . 
+<lb/> Por co qu̟e̟ teus set de letra qu̟ⁱ de 
+<lb/> latin ne seust eslire . epor 
+<lb/> romanz sera il mielz gardez 
+<lb/> or si oez qu̟e̟ li bons arceuesqu̟e̟s 
+<lb/> en reconte.</p>
+<p>Turpins pa̟r̟ la graice de de 
+<lb/> arceuesqu̟e̟s de reins qu̟ⁱ fut 
+<lb/> c̟o̟n̟paíngs le gr̟ªnt Karle en 
+<lb/> espaigne . e molt enten̟tis a son
+<lb/> seruíce. si salua leobr̟ªnt le dien 
+<lb/> dais la chapela e si li dist a̲mís
+<lb/> uos me man̟dastes nouela̲ment 
+<lb type="DoubleBarre"/> auíene . lai or ie estoie 
+<lb/> malades . por la forceneure 
+<lb type="DoubleBarre"/> de mes plaíes . qu̟e̟ uos encr̟ᵉssiss̲e
+<pb rend="folio" n="41d"/> 
+<lb/> comen̟t no̟s̟t̟res enpe̟r̟eíres li tr̟ᵉs 
+<lb/> renomez karl'maínes . delíu̲ra
+<lb/> espaigne . e engualice . de 
+<lb/> la poete aus sarrazíns . 
+<lb/> uos en conteraj me̟r̟uelies de ses 
+<lb/> faíz qu̟e̟ il fit sor sarrazíns . 
+<lb/> co qu̟e̟ ie aj ot mes oilz ueu pa̟r̟ 
+<lb/> ·xiiii· anz . qu̟e̟ nos alames pa̟r̟ 
+<lb/> espagnie . epa̟r̟ engualice . auec
+<lb/> luj . e ob ses oz . e ie nen̟ dot 
+<lb/> míe . qu̟e̟ ie nen̟ uos en dia assez 
+<lb/> qu̟e̟ il fit en espaígne . Escr̟ºniqu̟e̟s 
+<lb/> qu̟ⁱ sun̟t amon̟ seignor saint deniˢ 
+<lb/> nena riens . de co qu̟e̟ ie uos 
+<lb/> diraj . or hi enten̟dez sile uos 
+<lb/> c̟o̟n̟teraj . Mis sires sainz Jaqu̟e̟s 
+<lb/> li apostres ihu. cr̟ⁱs . ala ora 
+<lb/> qu̟e̟ no̟s̟t̟ra sireˢ enueia ses apostr̟ᵉs 
+<lb/> e ses decipleˢ pr̟e̟echer pa̟r̟ lemon̟t . 
+<lb/> sen ala en engualice . e co fut 
+<lb/> li pr̟e̟miers qu̟ⁱ les paroles dam̲bredeu
+<lb/> e la fei pr̟e̟echa . Apr̟e̟s 
+<lb/> sen ala en ierlm̅ . e la si fu 
+<lb/> ocis de herode le rej . e sei dis̲ciple 
+<pb rend="folio" n="42a"/> 
+<lb/> pr̟ⁱn̟drent lo cors de luj si 
+<lb/> lenportaren̟t pa̟r̟ mer iu̟s̟qu̟ª en En̲galice
+<lb/>. E la pr̟e̟dicatíon e la fej 
+<lb/> ihū cr̟ⁱst <pb n="264"/> qu̟ⁱl auoient come̟n̟cea . 
+<lb/> iluec la fermerent . Mes li ch̲aitj
+<lb/> den Gualice pa̟r̟ lor peche 
+<lb/> e pa̟r̟ mala auen̟tura si reneeren̟t 
+<lb/> puís nrē seígnor . e furen̟t en 
+<lb/> cela error tr̟ᵉs qu̟e̟ on temps kar̲l'maíne 
+<lb/>. Icist bon̟s eurez kar̲l'maineˢ
+<lb/> si c̟o̟n̟qu̟ⁱst molt en son 
+<lb/> tens . emolt ot peneˢ etr̟ªuauˢ . 
+<lb/> Il co̟n̟qu̟ⁱst angleterra . e norman̲̟die 
+<lb/>. e baíueíre . e saisogníe 
+<lb/> e ongrie . e ge̟r̟manie e lo ere̲gne 
+<lb/>. e lombardie . e frise . e 
+<lb/> autrᵉs regnes assez . e citez 
+<lb/> molt de luna mer . iu̟s̟qu̟e̟n lau̲tre 
+<lb/>. E eco fit il tot pa̟r̟ de . quªr 
+<lb/> il ne fut onqu̟e̟s uen̟cuz . e tot 
+<lb/> co c̟o̟n̟qu̟ⁱst a la cr̟ᵉstiante . e totes 
+<lb/> les te̟r̟res de líura de ceus . qu̟ⁱ eu 
+<lb/> de ne uoloient creire . Qu̟ªr 
+<lb/> il oc tr̟ªualie pa̟r̟ la suor e pa̟r̟ gr̟ⁱef 
+<pb rend="folio" n="42b"/> 
+<lb type="DoubleBarre"/> trauail . si dist qu̟ⁱl seu repouse 
+<lb/> reit . ne plu̟s̟ batalie ne feret. 
+<lb type="DoubleBarre"/> Auna nuít si cu̟m̟ il se geseit en 
+<lb/> son̟ lit . si uít endorman̟t on 
+<lb/> cel uoie tota estelea . si mouet 
+<lb/> de la mer de Frise e si sen̟ alot 
+<lb/> pa̟r̟ Antiocha te̟r̟ra en lonbardie . 
+<lb/> e puís pa̟r̟ mi France . e pa̟r̟ mi . Pe̲ito
+<lb/>. epa̟r̟mi espain̟gne . trᵉs qu̟e̟n Ga̲lice . 
+<lb type="DoubleBarre"/> Laj or li cors mon̟ seignor 
+<lb/> sain̟t Jaqu̟e̟ estoit ṛẹḅọṣ . Meˢ en 
+<lb/> cel tens om ne li conoiseit . Qu̟ªnt 
+<lb/> li bon̟s reis lot ueu . e esgarde 
+<lb/> pa̟r̟ main̟tes nuíz . si come̟n̟sa apor̲penser 
+<lb/> a sei meisme . qu̟e̟ cela uí̲sions 
+<lb/> signefiot.</p>
+<p>A une noit i pensot li rois 
+<lb/> molt duremen̟t si uin̟c 
+<lb/> a luj uns beaus hom̟ . toz 
+<lb/> blancs . qu̟e̟ nu̟s̟ ne porroit dire sa 
+<lb/> beaute . si se aparut aluj . 
+<lb/> e si li dist qu̟e̟ faiz tu filz karla . 
+<lb/> E karl' respont . qu̟ⁱ es tu sire? 
+<lb type="DoubleBarre"/> Je soj fit il Jaqu̟e̟ˢ . li apostres 
+<pb rend="folio" n="42c"/> 
+<lb/>  ihū . cr̟ⁱst . li filz zebedee li frereˢ 
+<lb type="DoubleBarre"/> Joan leuan̟ge̟liste . Je soi cil qu̟e̟ 
+<lb/> no̟s̟t̟ra sires deigna ot luj parler . 
+<lb/> pa̟r̟ la soe gr̟ªice . de lamer den Ga̲lice 
+<lb/>. Je soj cil cuj cors repose 
+<lb/> en Engualice qu̟e̟ li sarrazín 
+<lb/> tenen̟t . mes nj soj mie cone 
+<lb/> uz . Je soi cil cui herodes ocist 
+<lb/> dun glaíue . si me <pb n="265"/> me̟r̟ueil . 
+<lb/> molt qu̟e̟ tu cela te̟r̟ra nas de 
+<lb/> líuree amaínz de sarrazins .
+<lb/> qu̟e̟ tantes te̟r̟res 7 tan̟tes regionˢ 
+<lb/> as c̟o̟n̟qu̟ⁱses aliors . e sosmises 
+<lb/> ata poete . Por la qu̟ªu cho̲se
+<lb/> te fauz assauer . qu̟ªr si cu̟m̟ no̟s̟t̟ra 
+<lb type="DoubleBarre"/> sires ta fait le plu̟s̟ aut 
+<lb/> rej qu̟ⁱ set ente̟r̟ra . tot autr̟ᵉ si 
+<lb type="DoubleBarre"/> ta il es leu por de líurer la 
+<lb/> te̟r̟ra despaigne . de! maíns 
+<lb/> aus mauuaiz sarrazins .
+<lb/> qu̟ⁱ amenent e por aparelli̲er
+<lb/> lauoie aus cr̟ᵉstiens . quj 
+<lb/> me uen̟dront requ̟e̟r̟re . e qu̟e̟ en̲pucheIIt
+<lb/> ren̟qu̟e̟r̟re la pardu̲rabble 
+<pb rend="folio" n="42d"/>
+<lb/> bon̟ eurete . La sem̲blance 
+<lb/> de laueie estelee qu̟e̟ 
+<lb/> tu ueis on cel te seneffie
+<lb/> qu̟e̟ tu ot gr̟ªnt gen̟t ten iras 
+<lb/> en Engualice sor les sarra̲zins 
+<lb/>. e qu̟e̟ te c̟o̟n̟batras ot la 
+<lb/> maluaize gent . e qu̟e̟ tu uei̲ras 
+<lb/> or mis cuers repose . e 
+<lb/> qu̟e̟ tu iferas lauoie . E apr̟e̟s tej 
+<lb/> tuít li poble de luⁿª mer tr̟ᵉs 
+<lb/> qu̟e̟n̟ lautre . iron̟t la enpe̟r̟eli̲nage 
+<lb/>. e iluec cr̟ⁱeront* . me̟r̟cj
+<lb/> de lur pechez . e si rec̟o̟n̟teron̟t 
+<lb/> les loenges no̟s̟t̟r̟a seignor . 
+<lb/> e les ue̟r̟tuz qu̟e̟ il fera . etot 
+<lb/> eissi iron̟t de cest tens . tr̟ᵉs 
+<lb/> qu̟ª lafin del mon̟de . Beaus 
+<lb/> amís or te ua ou plu̟s̟ tost 
+<lb/> qu̟e̟ tu poirras . que ie seraj tís 
+<lb/> aideres entotes choses . e sa̲ches 
+<lb/> qu̟e̟ pa̟r̟ tes trªuaus seras
+<lb/> coronez en lauoie pardurab̲ble 
+<lb/>. de la corona qu̟e̟ no̟s̟t̟ra sires 
+<lb type="DoubleBarre"/> te ha aparelleia . E tis nom̟ps 
+<pb rend="folio" n="43a"/>
+<lb/> sera renomez iu̟s̟ qu̟ªu derreiran̟ 
+<lb type="DoubleBarre"/> ior del segle . En icesta ma̲neire 
+<lb/> mis sira sain̟z Jasqu̟e̟s 
+<lb/> aparut a karla . pa̟r̟ tr̟ᵉs fez 
+<lb/> Li enpe̟r̟eires en fu molt curi̲os 
+<lb/> pa̟r̟ lamonestamen̟t e pa̟r̟ co 
+<lb/> qu̟e̟ li apostr̟ᵉs li aueit dit . si 
+<lb/> fut molt segurs . si manda 
+<lb/> molt gr̟ªnt ost . e si lor dist . qu̟ⁱl 
+<lb/> uoleit aler en espaigne sor 
+<lb/> les sarazins e il si fit. </p>
+<p>LA pr̟e̟meire citez qu̟e̟ il asist 
+<lb/> si fu panpelune . e sist 
+<lb type="DoubleBarre"/> hi entor tres mes . ni onqu̟e̟s 
+<lb/> pr̟e̟n̟dra ne la poc . qu̟ªr ela es̲toit 
+<lb/> close de bons murs. 
+<lb/> Ala donc fit sa pr̟e̟eira an̟o̟s̟t̟ra 
+<lb/> seignor . e sain̟t Jasqu̟e̟ . e si di̲st 
+<lb/> . sira des ihū . cr̟ⁱs pa̟r̟ la cuj 
+<lb type="DoubleBarre"/> fej e por la cuj amor iaj en̲pr̟ⁱs 
+<lb/> cesta uoie . dona mej qu̟e̟ 
+<lb/> ie poisse pr̟e̟ndre cesta cite 
+<lb/> a loenge . e a honor de ton 
+<lb/> nom . E apr̟e̟s fit sa pr̟e̟eire a 
+<pb rend="folio" n="43b"/>
+<lb/> sain̟t Jasqu̟e̟ . O tu bons aurez 
+<lb/> sain̟z Jasqu̟e̟s si co es̟t̟ uerˢ 
+<lb/> qu̟e̟ tu tapareguisses a 
+<lb/> moj : otreia moi qu̟e̟ ie la pr̟e̟n̲gia 
+<lb/>. lores pa̟r̟ <pb n="266"/> la ue̟r̟tu de de . e 
+<lb/> pa̟r̟ pr̟e̟eira sain̟t Jasqu̟e̟ . li mu̟r̟ son̟t de̲pesse 
+<lb/> e fondu pa̟r̟ eus meímeˢ . 
+<lb/> Li reis entra ens . e li sarrazin̟ 
+<lb/> qu̟ⁱ uogren̟t estra baptize cil 
+<lb/> ne moriren̟t mía . ain̟z furent 
+<lb/> cr̟ᵉstien . E cil qu̟ⁱ baptesme re̲fuseren̟t 
+<lb/> cil furent ocis . Qu̟ªnt 
+<lb/> co oiren̟t li autra sarrazín 
+<lb type="DoubleBarre"/> si se rendiren̟t a karla . e lor 
+<lb/> uiles e lor citez . e li enue̲erent 
+<lb/> treu . etota cela te̟r̟ra . 
+<lb/> si fu eissj sosmísse a karla . 
+<lb type="DoubleBarre"/> La gen̟z sarrazíne se me̟r̟uelo̲ient 
+<lb/> molt de la gen̟t de 
+<lb/> france . qu̟ⁱ eissj belamen̟t estoient 
+<lb/> atorne . e si bien 
+<lb/> arme . e qu̟e̟ si auoient bela 
+<lb/> forme . e si estoient fort 
+<lb/> e de beau sen̟blant . si gitoient 
+<pb rend="folio" n="43c"/>
+<lb/> lor armes . si les receuoient 
+<lb type="DoubleBarre"/> enorabblemen̟t e enpais . 
+<lb/> karl' sen ala ueer le se̲puc̅re . 
+<lb/> or li cors de Jasqu̟e̟ giso̲it 
+<lb/>. puis ala tr̟ᵉs qu̟ªu Peiro . e
+<lb/> ficha en lamer sa lance . e ren̟̲dit 
+<lb/> grªices ade e amon̟ seignor 
+<lb type="DoubleBarre"/> sain̟t Jasqu̟e̟ qu̟ⁱ lauoient c̟o̟n̟duít 
+<lb/> tr̟ᵉs qu̟ⁱloc . qu̟ªr oltra ne pooient 
+<lb/> il aler . Les Gualiciens qu̟ⁱ apr̟e̟s 
+<lb/> la pr̟e̟dication sain̟t Jasqu̟e̟ e ses de̲ciples 
+<lb/> se departiren̟t de la fej 
+<lb/> de sain̟t baptesme . cez fit re̲generer 
+<lb/> pa̟r̟ les mainz Turpín la̲rceuesqu̟e̟ 
+<lb/>. co furen̟t cil qu̟ⁱ se coue̟r̲̟tirent 
+<lb/> de lor bon̟ gre . qu̟ⁱ nauoi̲ent 
+<lb/> mie este baptize . e cil qu̟ⁱ 
+<lb/> ne se uogrent c̟o̟ue̟r̟tir ala fej de 
+<lb/> cr̟ⁱst . il les fit ocire . o il reme̲drent 
+<lb/> enchaitiuezons . Di̲loc 
+<lb/> si sen ala pa̟r̟ tota espaigne 
+<lb/> de lune mer tºche en lautre . 
+<lb/> les uiles e les citez qu̟e̟ il c̟o̟n̟qu̟ⁱst 
+<lb/> lors en enGualice . si sun̟t eissj 
+<pb rend="folio" n="43d"/> 
+<lb/> apelees . en la te̟r̟ra del poble . 
+<lb/> Vsímía . Lamecum . Dimua . Colum̟̲bria 
+<lb/>. lucum̟ . Auremia . Vria 
+<lb/> Tuda . Mindonia . bracara . Metrºpol' 
+<lb/>. <foreign>cíuítas sa̟n̟ct̟e Ma̟r̟i̟e </foreign>  . Wunemua 
+<lb/> Erunia . Com̟postelle qu̟ⁱ eu tempˢ 
+<lb/> estoit molt petite en Espaig̲ne 
+<lb/>. Auscala . Godefaliar . Sala̲manca 
+<lb/>. Vsda . Vlma . Canalias . 
+<lb/> Maditas . Maqueda <foreign> sa̟n̟ct̟a . Eulalia </foreign>  
+<lb/> Talaueira . oilanial' . fruit . Medinas 
+<lb/> celin . co es̟t̟ citez auta e 
+<lb/> bela e larga . Osma . Segun̟cia 
+<lb/> Seguobia qu̟ⁱ es̟t̟ magna . aauíla 
+<lb/> Saleamaga . Sepuuulega . Tole̲ta 
+<lb/>. Calatraua . Badiot . Turgel 
+<lb/> Talaueira . Godiana . Emertra 
+<lb/> Altan̟cora . Palenca . lugna . Ventosa 
+<lb/> qu̟e̟ dita es̟t̟ caitensa qu̟ⁱ es̟t̟ en 
+<lb/> ualuert . Capparra AIItu̟r̟ga .<pb n="267"/> 
+<lb/> Oueta . Legio . Kuíonē . bu̟r̟gas 
+<lb/> Nageras . Blaguria . Viance 
+<lb/> e es̟t̟ dita ars . Lestela . Kiartuuˢ . 
+<lb/> Miracula . Tudela . Sarragun̟ca 
+<pb rend="folio" n="43bis a"/>
+<lb/> q· dr· cesa augusta . Panpelu̲na 
+<lb/> . Baiona . Jaka . esca . Osca 
+<lb/> Ouíl . Seur . Auoír . ·xx· tors . Te̟r̟ra̲cona 
+<lb/>. barbastra . borzas . Vrge̲llum̟ 
+<lb/> Vlna . Geruona . barcino̲na 
+<lb/>. te̟r̟rerida . Cortosa . <foreign> Ospidum 
+<lb/> fortissimum . Alganeum̟ . Vrbs 
+<lb/> adanía . Hispalida. Escalona 
+<lb/> hora . barba . Galliospidum̟ forti̲ssimum̟ 
+<lb/>. hora . buriane . hora . O 
+<lb/> or tante vrbs . Vbeda . baccia . 
+<lb/> Pe̟tr̟ºissa </foreign>  . en laqu̟e̟l es̟t̟ faiz li bons ar̲genz 
+<lb/>. Valen̟cia . donia . Satura 
+<lb/> Sibilia . Corduba . Abula . Acen̟tina
+<lb/>. en la qu̟e̟la giest uns bons 
+<lb/> c̟o̟n̟fessors de cr̟ⁱst . qu̟ⁱ fu sergan̟z mon̟ 
+<lb/> seignor sain̟t Jasqu̟e̟ . sepulcr̟ᵉ . si ia 
+<lb/> un olíuer . quⁱ par la ue̟r̟tu de de flo̲rist 
+<lb/> achescun an a sa festa . e 
+<lb/> porta fruít la uelia de la festa
+<lb/> ous uespr̟e̟s isont les folies . e 
+<lb/> les florz . e lendemain li fruís 
+<lb/> toz meurz . Vsibisertum̟ . en la 
+<lb/> qu̟e̟la sun̟t li fort chiuale̟r̟ qu̟ⁱ se 
+<pb rend="folio" n="43bis b"/>
+<lb/> co̟n̟bateren̟t 7 sont dit arabites . 
+<lb/> e sunt ogu maior . Vrbs . Burgs . 
+<lb/> ou il a rej pa̟r̟ costume . Arabiba 
+<lb/> co es̟t̟ una is . Laboran̟ qu̟ⁱ es̟t̟ una cítez 
+<lb/> en barbaria . Melodia . For̲meceria
+<lb type="DoubleBarre"/> . Fincia . Alcorroz . Almaria 
+<lb/>. Moueka . Giūna . trªia . 
+<lb/> kirago . Septil qu̟ⁱ es̟t̟ ons destreis 
+<lb/> despaigne . lai or li corˢ de lamer 
+<lb/> es̟t̟ destreis e gesir . co es̟t̟ assauer 
+<lb/> estaruph . <foreign> Immocum̟ tam̟ te̟r̟ra te̟r̲̟panoru̟m̟ </foreign>  
+<lb type="DoubleBarre"/> co es̟t̟ assauer te̟r̟ra al̲andeluph 
+<lb/>. <foreign> tellu̟s̟ portu̟s̟ . galloru̟m̟ . la 
+<lb/> te̟r̟ra deus sarrazíns . tellu̟s̟ pardoru̟m̟ 
+<lb/> tellu̟s̟ castellanoru̟r̟ . tellu̟s̟ Maurorum . 
+<lb/> tellu̟s̟ Ala̲uarrum̟ . Tellu̟s̟ biscaioru̟m̟ 
+<lb/> tellu̟s̟ bascloru̟m̟ . Tellu̟s̟ palaguorum. </foreign> </p>
+<pb n="268"/>
+<p>De totes cez citez fu karl' 
+<lb/> maínes sires. e des citez 
+<lb/> qu̟e̟ ie uos ai nomees . si pr̟ⁱst 
+<lb/> de tes i ot pa̟r̟ bataille . e tes iot 
+<lb/> pa̟r̟ gr̟ªnt force. e pa̟r̟ molt gr̟ªnt 
+<lb/> engeín . fors bite̟r̟ne qu̟ⁱ es̟t̟ enua̲luert 
+<lb/> . cele ne puec il pr̟e̟ndre 
+<pb rend="folio" n="43bis c"/>
+<lb/> tr̟ᵉs cau derreíran. Auderreí̲ran 
+<lb/> uínt alj e si lacist . e fu 
+<lb/> assegee tres meis. e fit sa 
+<lb/> pr̟e̟eíre ano̟s̟t̟ra seignor e asain̟t 
+<lb/> Jaqu̟e̟ . elor cheiren̟t lí mu̟r̟ . e es̟t̟ 
+<lb/> deserte iu̟s̟ qu̟ªu ior duj . vns lacˢ 
+<lb/> deuin̟t molt nerˢ . or ha peis̲sonz 
+<lb/> assez . mes tuit sont ner . 
+<lb/> Tes iot de cez citez qu̟e̟ arreire 
+<lb/> uos ai nomeeˢ . qu̟e̟ li rej de fran̟ce 
+<lb/> qu̟ⁱ furen̟t auan̟t Karla . e li enpe̟r̟ 
+<lb/> eor de Tiois c̟o̟n̟qu̟ⁱsent qu̟ⁱ apr̟e̟s fu̲ren̟t 
+<lb/> sarrazín e paen tr̟ᵉs qu̟ª 
+<lb type="DoubleBarre"/> lauenamen̟t Karla . e apr̟e̟s 
+<lb/> samort molt rej e molt pr̟ⁱn̲ce 
+<lb type="DoubleBarre"/> alerent en espaigne sor 
+<lb/> sarrazíns . e si c̟o̟n̟batiren̟t . Cl̲oueu̟s 
+<lb/> qu̟ⁱ fut li pr̟e̟míers reiˢ en 
+<lb/> france cr̟ᵉstiens . Clotaires . 
+<lb/> Dagobe̟r̟z . Pepíns . Karl' Mar̲teus 
+<lb/>. cist c̟o̟n̟qu̟ⁱdren̟t pa̟r̟tie despa̲igne 
+<lb/>. e pa̟r̟tie en laissere̟n̟t acon̟̲qu̟e̟re 
+<lb/>. mes iqu̟ⁱst Karl'mai̲nes 
+<lb/> la c̟o̟n̟qu̟ⁱst tota enson̟ tens . E 
+<pb rend="folio" n="43bis d"/>
+<lb/> co sun̟t les citez qu̟e̟ il c̟o̟n̟quist . or 
+<lb/> oct molt grªnt trauail . e 
+<lb/> puís si leˢ moudist . e pa̟r̟ co sunt 
+<lb/> encora sanz habiteors . Lu̲izerna 
+<lb/>. Ven̟touse . capaíra 
+<lb/> Adanía . les ẏdres . e les sẏ̲mulacr̟ᵉs 
+<lb/>. qu̟ⁱl tr̟ºua lors enespa̲igne 
+<lb/>. tot ho destruít fors 
+<lb/> solemen̟t una ẏdre . qu̟ⁱ es̟t̟ en 
+<lb/> la te̟r̟ra alandeluph . qu̟ⁱ est ape̲lea 
+<lb/> salamcadeˢ . cades si est 
+<lb/> apelez li luís pr̟o̟premen̟t or 
+<lb/> es̟t̟ salam . Salam̟ dit autr̟ᵉ̲tant
+<lb/> en lengue sarrazine . cu̟m̟ fait 
+<lb/> des enfranceis . e si dient li 
+<lb type="DoubleBarre"/> sarrazín qu̟e̟ mahomez qu̟e̟ il a̲oren̟t 
+<lb/> fit cela ẏdre . enson̟ nom̟ 
+<lb/> entr̟ªmen̟t qu̟e̟ il uíuoit . e la le̲gion 
+<lb/> daus diables enclot 
+<lb/> en la ẏdre pa̟r̟ enchantemen̟t . 
+<lb/> e si li saila por co qu̟e̟ il uoleít
+<lb/> qu̟e̟ cele ẏmagre . ne eust si 
+<lb/> gr̟ªnt force qu̟e̟ nu̟s̟ ne la poust 
+<lb/> de pesser . Maintes fez auin̟t 
+<pb rend="folio" n="44a"/>
+<lb/> qu̟e̟ qu̟ªnt auscuns cr̟ᵉstiens sapr̟o̟ 
+<lb/> chiot de cela ẏmagre . il pe̟r̟̲iglot 
+<lb type="DoubleBarre"/> enep lepaˢ . E qu̟ªnt auˢ̲cuns 
+<lb/> sarrazíns se apr̟o̟chiot 
+<lb/> decel mahomet . opa̟r̟ luj depr̟e̟̲her 
+<lb/>. opa̟r̟ luj ahorer . toz aliegr̟ᵉs 
+<lb/> sen parteit . Cela yma̲gre 
+<lb/> si estoit si en chantee 
+<lb/> qu̟e̟ si aucuns oiseaus se ase̲sist 
+<lb/> de sus pa̟r̟ auen̟tura . er̲raumen̟t 
+<lb type="DoubleBarre"/> moreit. En la rí̲ue 
+<lb/> de la mer si ha una pie̲rre 
+<lb/> de anciane<pb n="269"/> eure de sa̲rrazin̟s 
+<lb/>. faite e políe molt 
+<lb/> soltilmen̟t sor la te̟r̟ra asise. 
+<lb/> tota cairee par desoz . e mo̲lt 
+<lb/> lee. si es̟t̟ dreite c̟o̟n̟tr̟ª amon̟t 
+<lb/> eisj aute cu̟m̟ uns oiseaus set 
+<lb type="DoubleBarre"/> uoler en aut . e desu̟s̟ cela 
+<lb/> peirre si es̟t̟ assise cele ymagre 
+<lb/> dor. musj qu̟e̟(?) molt tr̟ᵉs 
+<lb/> bien . e si ha sem̟blance do̲me 
+<lb/> . e si es̟t̟ dreita sor seˢ piez . 
+<lb/> e si es̟t̟ sa faise ue̟r̟s meidj . E 
+<pb rend="folio" n="44b"/>
+<lb/> en sa maín destra tient lima̲gre 
+<lb/> una clef qu̟e̟ nu̟s̟ ne li puet
+<lb/> tolír . e dizoent li sarrazín qu̟e̟ les 
+<lb/> clez li chairen̟t de la maín . 
+<lb/> lues qu̟e̟ uns reis naitr̟ᵉt enfran̲ce 
+<lb/> . qu̟ⁱ tota espaigne pendret 
+<lb/> e coue̟r̟tireit atenír crestian̟te . 
+<lb/> Mes co seroit au derreiran 
+<lb/> tens . co aueiant il sortj .
+<lb type="DoubleBarre"/> e main̟tenan̟t qu̟e̟ il ueiroent 
+<lb/> lacleph cheua rebosissant . 
+<lb/> E si auin̟t autens Karl' mai̲ne 
+<lb/> de lor qu̟e̟ li rej e li pr̟ⁱnce do̲naren̟t 
+<lb/> a Karl'=maíne . si fun̟̲da 
+<lb/> le mostier sain̟t Jaqu̟e̟ . e 
+<lb/> cruít pa̟r̟ tr̟ᵉs anz . qu̟e̟ il demora 
+<lb/> en ces parties . e si mist ar̲ceuesqu̟e̟ 
+<lb/>. e che̟noines segon̟t 
+<lb/> la reula . sain̟t ẏsẏdoẏre . qu̟ⁱ 
+<lb/> fu euesqu̟e̟s e c̟o̟n̟fessors. e si la̲orna 
+<lb/> bien de líures . e de pa̲iles 
+<lb/> . e de bones escheileˢ . e
+<lb/> dautr̟ᵉs ornemen̟z. Il aueient 
+<lb/> molt or . e argent . si se partj 
+<pb rend="folio" n="44c"/>
+<lb/> despaigne . e si fit main̟tes igli̲ses 
+<lb/> . qu̟ªr il fit liglise ma dama 
+<lb type="DoubleBarre"/> scē Ma̟r̟i̟e . dais lachapela . e una i̲glise 
+<lb/> de mon seignor sain̟t Jasqu̟e̟ .
+<lb/> enmeíme lauile . en̤ liglise 
+<lb/> mon̟ seignor sain̟t Jaqu̟e̟ abeor 
+<lb/> geˢ. E una autra a tolose . e 
+<lb/> una autre en Guascoígne . 
+<lb/> entra una cite qu̟ⁱ a nom ax . 
+<lb/> e sain̟t Joan de sorges . sor le 
+<lb/> chamín sain̟t Jasqu̟e̟ . e liglise 
+<lb/> saín̟t Jasqu̟e̟ de Paris . qu̟ⁱ es̟t̟ entra 
+<lb/> Seíne . e mon̟t Martre . Igli̲ses 
+<lb/> e abaies fit assez autres 
+<lb/> en sa te̟r̟ra qu̟ⁱ nest mie encest 
+<lb/> líure a mentauer. </p>
+<p>Apres ce qu̟e̟ Karl'maines 
+<lb/> senfu uenuz enfrance 
+<lb/> si uin̟c uns reis daffriqu̟e̟ . 
+<lb/> qu̟ⁱ auoit nom Aiguolanz en 
+<lb/> espainge . si amena molt gr̟ªnt 
+<lb/> ost . e si pr̟ⁱst tota la te̟r̟ra . e om 
+<lb/> la li ren̟dj tote . e si ocist tant 
+<lb/> de cr̟ᵉstiens qu̟e̟ il nen̟ fu nu̟s̟ nom̟br̟ᵉs 
+<pb rend="folio" n="44d"/>
+<lb/> si mist toz les cr̟ᵉstiens forz des 
+<lb/> citez . e deus chasteus qu̟e̟ Karl'
+<lb/> maines auoit laissez por 
+<lb/> garder. Qu̟ªnt le sot si assem̟bla 
+<lb/> ses oz . e rala en espaigne . 
+<lb/> e si mena molt gr̟ªnt gen̟t qu̟e̟ il 
+<lb/> nen̟ fu nu̟s̟ non̟bres . A<pb n="270"/> cesta fez 
+<lb/> si mena auec luj le duc mi̲lo 
+<lb/> danglers . qu̟ⁱ fu dux deˢ os .
+<lb/> Mes co ne det lom mie taire 
+<lb/> cu̟m̟ gr̟ªnt essam̟ple no̟s̟t̟ra sires deigna
+<lb/> de mostrer aceus qu̟ⁱ oUt*
+<lb/> enbalie les oumones de do̲ner 
+<lb/> ou poures e il les rete̲nent 
+<lb/> . qu̟ªr qu̟ªnt lioz Karle se 
+<lb/> fu arbe̟r̟giez au ior entor baione 
+<lb/> . une cite daus bacles . 
+<lb/> ·j· chi̟uale̟r̟ oc en lost qu̟ⁱ fu molt 
+<lb/> malades . qu̟ⁱ auot nom Ro̲mastes
+<lb/> . Il man̟da le pr̟o̟uoire 
+<lb/> si se fit c̟o̟n̟fes . e recut <foreign> corpu̟s̟ dnj </foreign>. 
+<lb/> E apr̟e̟s si de partj la soa chose
+<lb/> il aueit un sol che̟ual qu̟ⁱl 
+<lb/> balia a un son̟ paren̟t . si li co 
+<pb rend="folio" n="45a"/>
+<lb/> man̟da qu̟ⁱl lo uendist . E tot co 
+<lb/> qu̟e̟ il en auroit donast pa̟r̟ de . e 
+<lb/> pa̟r̟ sarme . aus clers . e aus pr̟o̟uo̲ireˢ 
+<lb/> . Romaires fu morz . cil ne 
+<lb/> pr̟e̟za gaires la parole dau 
+<lb/> mort . e cil uen̟dj le chi̟ual ·c· 
+<lb/> sol' . cil fu enueíos e coueitoˢ 
+<lb/> diable lengíníaren̟t . qu̟ªr il 
+<lb/> pr̟ⁱst les deniers qu̟e̟ il oc del chi̟ual 
+<lb/> si les despendj en beu̲ra 
+<lb/> . e en mengier . e en íco
+<lb/> don̟t il auoit mestier . e eco 
+<lb/> molt tost . Mes a cel tens sen 
+<lb/> uen̟gia des molt tost . del mal 
+<lb type="DoubleBarre"/> qu̟e̟ lí uns fazeit alautr̟ᵉ . de sof̲frir 
+<lb/> ·xxx· iors . E auchep dau 
+<lb/> ·xxx· iors: aparut li mors 
+<lb/> au uíf . e si li dist . Je te auo̲ie 
+<lb/> comande lamea chose . pa̟r̟ 
+<lb/> doner aus poures por la sa̲lu 
+<lb/> de marme . E tu ne as ri̲en 
+<lb/> faít . saches qu̟e̟ no̟s̟t̟ra sires 
+<lb/> men ha pa̟r̟ donez toz mez pe̲chez 
+<lb/>. e por co qu̟e̟ tu as rete̲nua
+<pb rend="folio" n="45b"/>
+<lb/> laumone atort . Je soj 
+<lb/> en enfer . e si hi aj demore 
+<lb/> gr̟ªnt píece . e suffert les pe̲nes
+<lb type="DoubleBarre"/> . e les trauuaus . e tu hi 
+<lb/> entreras damaín en enfer . 
+<lb/> dont ie soj issuz . e seras 
+<lb/> encel lo meisme . Qu̟ªnt co oit
+<lb/> li morz si ses uanuj . e li uís 
+<lb/> ses uellia . qu̟ⁱ fu molt espa̲ontez 
+<lb/>. Au matin si come̟n̟ca a 
+<lb/> c̟o̟n̟ter sauísion a toz . e tota 
+<lb/> loz encome̟n̟ca aparler . li unˢ 
+<lb/> a lautre . E molt seme̟r̟uelleirent 
+<lb/> de cela uision . E lorˢ 
+<lb/> si oirent sodamen̟t clamors 
+<lb/> en laer sor le chaitif. E cil cr̟ⁱz 
+<lb/> resemblot braiz de lions 
+<lb/> o de lops . o dautr̟ᵉs besteˢ saluagies 
+<lb/>. Main̟tenant si fu ra̲biz 
+<lb/> li chaⁱtis dentra lagen̟t 
+<lb/> e si lenportaren̟t diable tot 
+<lb/> ullant . Il fu qu̟ⁱs pa̟r̟ ·iiii· iorz 
+<lb/> pa̟r̟ les mon̟z e pa̟r̟ les ualees . de
+<lb/> gent a pie . e de gent a cheual 
+<pb rend="folio" n="45c"/>
+<lb/> ne ne lo porent trouer . En 
+<lb/> la fin qu̟ªnt il lorent qu̟ⁱs pa̟r̟ les 
+<lb/> desers los de nauarre . si 
+<lb/> qu̟e̟ tota loz i oct este pa̟r̟ ·xii· 
+<lb/> íors . si fu trouez li cors deu ch̲aitif 
+<lb/>. toz <pb n="271"/> de pecez sor una ro̲che 
+<lb/> . molt aute bien tr̟ᵉs lie̲ues 
+<lb/> de uoie . e sor lamer estet 
+<lb/> cela roche . lonc de la cite 
+<lb/> ·iiii· iornees . Iloc auíent
+<lb/> diable laisse le cors del ch̲aitif 
+<lb/>. E si cu̟m̟ il auíent lar̲me 
+<lb/> portea en enfer: Par 
+<lb/> cestuj sachiant tuít cil 
+<lb/> qu̟ⁱ atort retenen̟t les aumo̲nes 
+<lb/> des mors . qu̟e̟ hom̟ lor ha 
+<lb/> laissees pa̟r de partir : qu̟e̟ il en 
+<lb/> ouron̟t outretal loíer cum̟ 
+<lb/> cil oc . E qu̟e̟ no̟s̟t̟re sires en pr̟e̟nr̲ra 
+<lb/> autretal uen̟giance 
+<lb/> cu̟m̟ il fit de cestuj. </p>
+<p>Apr̟e̟s cesta me̟r̟ueille Kar̲les 
+<lb/> li gr̟ªnz reis . e Miles 
+<lb type="DoubleBarre"/> li dux oblor oz . come̟n̟ce̲ren̟t 
+<pb rend="folio" n="45d"/>
+<lb/> aqu̟e̟re aigolant pa̟r̟ es̲paigne 
+<lb/>. tant qu̟e̟ il le troue̲ren̟t 
+<lb/> enuna te̟r̟ra qu̟ⁱ es̟t̟ apelee 
+<lb/> chaíns . sor una aigue lo̲gie 
+<lb/>. en molt beaus prez . 
+<lb/> e en molt deleitos lo . e en molt beau plain . lors 
+<lb/> apr̟e̟s si fit Karl' una molt 
+<lb/> bela yglise . e molt gr̟ªnt 
+<lb/> en lenor dau glorios mar̲tír 
+<lb type="DoubleBarre"/> sain̟t Fagun̟t . e sain̟t pr̟ⁱ̲mitif 
+<lb/>. qu̟ⁱ hiloc reposent . 
+<lb/> e si establit li bonˢ reis una 
+<lb/> abaie de moínes . Qu̟ªnt Ai̲guolanz
+<lb/> soc qu̟e̟ li oz karle 
+<lb/> ueneit e qu̟e̟ il esteent bien 
+<lb/> pr̟e̟s . si li manda qu̟e̟ il se c̟o̟n̟ba̲tret 
+<lb/> si il uoleit ·xx· che̟uale̟r̟s 
+<lb/> c̟o̟n̟tr̟ª ·xx· o ·xl· c̟o̟n̟tr̟ᵉ ·xl· o ·c· c̟o̟n̟tr̟ᵉ 
+<lb/> cent . o mil c̟o̟n̟tr̟ᵉ mil . o ·i· c̟o̟n̟tr̟ᵉ 
+<lb/> un. o ·jj· c̟o̟n̟tr̟ᵉ ·jj· Karl' pr̟ⁱst 
+<lb/> cent daus sons . c̟o̟n̟tr̟ᵉ les ·c· 
+<lb/> aiguolan̟t . e si furen̟t ocis 
+<lb/> li sarrazín . Lors repr̟ⁱst Ai̲guolan̟z 
+<pb rend="folio" n="46a"/>
+<lb/>  ·cc· c̟o̟n̟tr̟ᵉ ·cc· dau noz . 
+<lb type="DoubleBarre"/> si furen̟t ocis li sarrazin . 
+<lb/> encora en repr̟ⁱst aiguolanz
+<lb/> ·jj· mire̟ c̟o̟n̟tr̟ᵉ . dos mire . si enfu 
+<lb/> ocise lune pa̟r̟tie . e lautra 
+<lb/> pa̟r̟tie si senfuj . Au ters ior 
+<lb type="DoubleBarre"/> si gita son sort Aiguolans 
+<lb/> e síuít qu̟e̟ Karl' aueit gr̟ªnt 
+<lb/> damage en la batalie . si li 
+<lb/> man̟da qu̟ⁱl se uen̟dreit lende̲maín
+<lb/> c̟o̟n̟batre ot luj en pla̲neíre 
+<lb/> batalie . e il lotro̲che 
+<lb/> eissj . Lors i ot teus de 
+<lb type="DoubleBarre"/> noz c̟r̟ᵉstiens qu̟ⁱ le ser deuan̟t 
+<lb/> le ior de labataille aparelaren̟t 
+<lb/> lor armeˢ . e lor lan̲ces 
+<lb/> ficharen̟t ente̟r̟ra deuant 
+<lb/> lor arbe̟r̟ges totes dreites . 
+<lb/> Au matín les tr̟ºuaren̟t totes 
+<lb/> uers . plenes descorses . e 
+<lb/> de br̟ªnches . co fu signefi̲ance 
+<lb/> qu̟e̟ cil receureent 
+<lb/> martire por no̟s̟t̟re seignor . 
+<lb/> E ceau ior tuit se me̟r̟uelie̲rent
+<pb rend="folio" n="46b"/> 
+<lb/> cil<pb n="272"/> qu̟ⁱ co uírent . plu̟s̟ qu̟e̟ 
+<lb/> lom ne poroit dire . de si 
+<lb/> gr̟ªnt miracle cu̟m̟ des aueit 
+<lb/> demostre . e si fu escr̟ⁱz li 
+<lb/> miracles . cil qu̟ⁱ trencheren̟t 
+<lb/> lor lances pr̟e̟s de te̟r̟ra leˢ ra̲cínes 
+<lb/> qu̟ⁱ remedrent si gita̲rent 
+<lb/> puis gr̟ªnz bois . qu̟ⁱ en̲cora 
+<lb/> sun̟t en la te̟r̟ra . molt 
+<lb/> hi aueit de tes lances de 
+<lb/> fraíne . Il uin̟drent enlaba̲taille 
+<lb/> e sarrazin . e cr̟estien . 
+<lb/> Si oct ocis de cr̟ᵉstiens ·xl· míre 
+<lb/> . e li dux de Mile . li peí̲res 
+<lb/> Rollant recut auec 
+<lb/> eaus martyre . co es̟t̟ assa
+<lb type="DoubleBarre"/> uer ob ceus les cuj lances 
+<lb/> floriren̟t . e nes li che̟uaus 
+<lb/> karla fu ocis de soz luj . 
+<lb/> en cela batalie . Karl' se 
+<lb/> c̟o̟n̟tinc cu̟m̟ ardiz . e se míst 
+<lb/> apie ob ·x· mire de ses 
+<lb/> homes qu̟e̟ plu̟s̟ ne len fu re̲mes 
+<lb/>. e se ferit entra les 
+<pb rend="folio" n="46c"/>
+<lb/> sarrazíns . dont tan̟t ni aueit qu̟e̟ 
+<lb/> nu̟s̟ ne los poust num̟brer . qu̟ⁱl assaliren̟t sa 
+<lb/> gent de totes pars . e il tr̟ªit ses̲pee 
+<lb/>. e treUsona* un sarrazín 
+<lb/> par lo mielo . Qu̟ªnt ho come̟n̟ca a 
+<lb/> uesprer si se retraidrent en 
+<lb/> lor arbe̟r̟gⁱes . e li sarrazín e li cr̟ᵉsti̲en 
+<lb/>. Lendemain uindren̟t en lai̲e 
+<lb/> Karle ·iiii· duc si uin̟dren̟t 
+<lb/> deue̟r̟s lombardie . e si li amena
+<lb/> rent ·iiii· mire che̟uali̟e̟r̟s . molt 
+<lb/> bons . e molt ardiz . E qu̟ªnt Ai̲golanz 
+<lb/> le soc si torna enfuíe . 
+<lb/> e ala sen enlemozín . E karl' 
+<lb type="DoubleBarre"/> sen uin̟c en france.
+</p>
+</body>
+</text>
+</TEI>

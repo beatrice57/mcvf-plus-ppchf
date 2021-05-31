@@ -1,0 +1,370 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">Chartes picardes</title>
+                <title type="sub"/>
+                <title type="short">Divers.ChartesP</title>
+                <author>
+                    <persName>
+                        <surname>Anonyme</surname>
+                        <forename/>
+                    </persName>
+                </author>
+                <editor>Modéliser le changement, les voies du français GTRC/CRSH</editor>
+                <principal>
+                    <persName>France Martineau</persName>
+                </principal>
+                <funder>
+                    <orgName>Université d'Ottawa</orgName>
+                    <orgName>Conseil de recherche en sciences humaines du Canada</orgName>
+                </funder>
+                <respStmt>
+                    <resp>Codage</resp>
+                    <persName xml:id="Labelle">Simon-Pier Labelle-Hogue</persName>
+                    <persName xml:id="Brazeau">Stéphanie Brazeau</persName>
+                    <persName xml:id="Martineau">France Martineau</persName>
+                </respStmt>
+            </titleStmt>
+            <extent>940</extent>
+            <publicationStmt>
+                <date when="2009-05-19"/>
+                <distributor>
+                    <orgName>Modéliser le changement : les voies du français GTRC/CRSH</orgName>
+                    <address>
+                        <addrLine>60, rue Université</addrLine>
+                        <addrLine>Ottawa, Ontario</addrLine>
+                        <addrLine>K1N 6N5</addrLine>
+                        <addrLine>Tél : 613-562-5797</addrLine>
+                        <addrLine>Fax : 613-562-5981</addrLine>
+                        <addrLine><email>fmartin@uottawa.ca</email></addrLine>
+                        <addrLine>http://www.voies.uottawa.ca/</addrLine>                        
+                    </address>
+                </distributor>
+                <availability status="restricted">
+                    <p>(c) Modéliser le changement : les voies du français (CRSH/GTRC, dirigé par F.
+                        Martineau)</p>
+                    <p>Les Corpus MCVF demeurent la propriété du projet Modéliser le changement :
+                        les voies du français. Les références à ces Corpus devraient apparaître
+                        ainsi : Corpus MCVF, Modéliser le changement : les voies du français (F.
+                        Martineau (dir.), U. d’Ottawa).Tous les documents du Corpus MCVF ne peuvent
+                        être divulgués à de tierces parties sans l’autorisation préalable de la
+                        Directrice du Projet </p>
+                    <p>Pour tout autre usage, contacter : <persName>France Martineau</persName>
+                        <orgName>Modéliser le changement : les voies du français, Université
+                            d'Ottawa</orgName>
+                        <email>fmartin@uottawa.ca</email></p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <biblStruct type="Source_publique">
+                    <monogr>
+                        <author>
+                            <persName>
+                                <surname>Anonyme</surname>
+                            </persName>
+                        </author>
+                        <editor>
+                            <persName>
+                                <surname>Funck-Brentano</surname>
+                                <forename>Frantz</forename>
+                            </persName>
+                        </editor>
+                        <title>Bibliothèque de l'École des Chartes vol. 57</title>
+                        <title type="sub">Codex Diplomaticus Flandriae de M. le Compte de
+                            Limburg-Stirum (suite)</title>
+                        <imprint>
+                            <pubPlace>Genève</pubPlace>
+                            <publisher>Droz</publisher>
+                            <date when="1869">1896</date>
+                        </imprint>
+                    </monogr>
+                    <series/>
+                </biblStruct>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Lille</settlement>
+                        <repository>Archives départementales du Nord</repository>
+                        <collection>Godefroy</collection>
+                        <idno>4919</idno>
+                        <msName/>
+                    </msIdentifier>
+                    <history>
+                        <origin/>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Projet : Modéliser le changement les voies du français (GTRC/CRSH) <lb/>Resp. :
+                        <persName>France Martineau</persName> Institution : Département de français,
+                    Université d'Ottawa
+                    <address>
+                        <addrLine>60, rue Université</addrLine>
+                        <addrLine>Ottawa, Ontario</addrLine>
+                        <addrLine>K1N 6N5</addrLine>
+                        <addrLine>Tél : 613-562-5797</addrLine>
+                        <addrLine>Fax : 613-562-5981</addrLine>
+                        <addrLine><email>fmartin@uottawa.ca</email></addrLine>
+                        <addrLine>www.voies.uottawa.ca</addrLine>                        
+                    </address></p>
+            </projectDesc>
+            <editorialDecl>
+                <p>Voir le manuel d'annotation TEI au http://www.voies.uottawa.ca</p>
+                <p>L'édition de référence a été respectée quant à l'orthographe, la ponctuation, la
+                    mise en page et la pagination. Cependant, la césure des mots en fin de lignes
+                    (ou de pages) a été supprimée, le mot est placé dans la ligne ou la page où il
+                    commence. </p>
+                <p>Les paragraphes sont notés par P pour la prose. Pour les vers, P rend="gv"
+                    indique que le paragraphe est constitué d'un groupe de vers. </p>
+                <p> Les débuts des vers sont encodés par LB. Cette balise peut également servir dans
+                    les textes en prose à indiquer les débuts des lignes selon la pagination de
+                    l'édition. </p>
+                <p>Les changements de pages sont indiqués par la balise PB</p>
+                <p>Le corps du texte est obligatoirement compris dans le BODY. Le FRONT contenant le
+                    titre et/ou le prologue et le BACK (explicit) sont facultatifs et ne sont mis
+                    qu'au besoin. </p>
+                <p>Les différentes parties du texte (livre, chapitre...) sont encodées par DIV,
+                    auquel s'ajoute l'attribut TYPE qui spécifie sa nature. </p>
+                <p>Les paragraphes (P), lignes (LB) et pages (PB) de même de certaines divisions
+                    (DIV) sont ou peuvent être numérotés par l'attribut N s'ils le sont dans
+                    l'édition. </p>
+                <p>Quelques commentaires ou corrections ont été introduits à l'aide de la balise
+                    NOTE, CORR ou SIC. </p>
+                <p>Les discours directs et les citations ont été encodés par la balise Q. Cette
+                    balise est mise à chaque fois que des guillemets sont utilisés dans l'édition. </p>
+                <p>L'élément FOREIGN indique un passage en latin qui est noté en italique dans
+                    l'édition, les occurrences non en italique sont signalées par l'attribut ROMAIN. </p>
+                <p>Les folios sont notés par la balise <tag>pb rend="folio"</tag></p>
+                <p>Les notes de bas de pages ont été retirées. </p>
+                <p>Les paragraphes entièrement en latin ont été retirés, une balise P et une NOTE
+                    les signalent. </p>
+                <p>Note spécifique au texte ci-dessous: Aucune.</p>
+            </editorialDecl>
+            <samplingDecl>
+                <p>p. 544-551</p>
+            </samplingDecl>
+        </encodingDesc>
+        <profileDesc>
+            <creation>
+                <date/>
+                <placeName/>
+            </creation>
+            <langUsage>
+                <language ident="frm"/>
+            </langUsage>
+            <textDesc>
+                <channel/>
+                <constitution>Extrait</constitution>
+                <derivation/>
+                <domain/>
+                <factuality/>
+                <interaction/>
+                <preparedness/>
+                <purpose/>
+            </textDesc>
+            <textClass>
+                <keywords scheme="GTRC">
+                    <list>
+                        <item n="domaine">Non littéraire</item>
+                        <item n="genre">Document administratif</item>
+                        <item n="forme">Prose</item>
+                        <item n="docRegion1">Picardie</item>
+                        <item n="docRegion2"/>
+                        <item n="docRegion3"/>
+                        <item n="auteurRegion1"/>
+                        <item n="auteurRegion2"/>
+                        <item n="auteurRegion3"/>
+                        <item n="auteurSexe"/>
+                        <item n="occupation"/>
+                        <item n="scribeRegion1"/>
+                        <item n="scribeRegion2"/>
+                        <item n="scribeRegion3"/>
+                        <item n="imprimeurRegion1"/>
+                        <item n="imprimeurRegion2"/>
+                        <item n="imprimeurRegion3"/>
+                    </list>
+                </keywords>
+                <classCode scheme="Indice de Dees"/>
+            </textClass>
+            <particDesc>
+                <listPerson>
+                    <person role="auteur">
+                        <persName>
+                            <surname>Divers</surname>
+                            <forename/>
+                        </persName>
+                        <birth>
+                            <date/>
+                            <placeName/>
+                        </birth>
+                    </person>
+                    <person role="scribe">
+                        <persName>
+                            <surname/>
+                            <forename/>
+                        </persName>
+                        <birth/>
+                    </person>
+                    <person role="imprimeur"/>
+                </listPerson>
+            </particDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2009-06-09" who="#Labelle">Modification de la région</change>
+            <change when="2009-06-05" who="#Martineau">Validation de l'en-tête</change>
+            <change when="2009-05-21" who="#Labelle">En-tête</change>
+            <change when="2009-03-31" who="#Labelle">En-tête</change>
+            <change when="2005-06-17" who="#Brazeau">Correction du codage</change>
+            <change when="2005-05-18" who="#Brazeau">Codage</change>
+            <change when="2005-02-03" who="#Brazeau">Correction de la numérisation</change>
+            <change when="2005-02-03" who="#Brazeau">Numérisation</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <pb n="544"/>
+            <div type="titre">
+                <p>Procès-verbal not. - 1313, 7 déc., Térouanne</p>
+            </div>
+        </front>
+        <body>
+            <pb n="545"/>
+            <div type="acte" n="1">
+                <p>
+                    <note> Acte latin du 7 décembre 1313, Thérouanne</note>
+                </p>
+                <pb n="546"/>
+            </div>
+            <div type="acte" n="2">
+                <p>
+                    <hi rend="ital">Lenars le Sees, garde de le baillie de Amiens, a Jaquemart
+                        d'Estrées, serjant du Roy noseigneur en le provosté de Monstreul, ou a un
+                        autre serjant de le dite provosté, salut. Les lettres du Roy noseigneur
+                        avons veuwes contenans le fourme qui s'ensieut:</hi>
+                </p>
+                <p>
+                    <note>Mandement en latin de Philippe le Bel au bailli d'amiens. Paris, 22
+                        octobre 1313</note>
+                </p>
+                <pb n="547"/>
+                <p>
+                    <hi rend="ital">Pour quoi nous vous mandons que vous, ces lettres voiwes, sans
+                        delai ajournés le bailliu de Cassiel, qui adonques estoit Gerin de
+                        Winnezeles, a che temps sousbailliu de Cassiel, par devant nous a Terewane,
+                        ou pardevant chelui qui en lieu de nous sera commis a le quinzeine de le
+                        fieste s. Climent prochaine, a le queille journée nous, ou no commissaires,
+                        serons pour enquerre et savoir le veritei du fait desus dit, si comme il est
+                        plus plainement contenu es lettres dou Roy, no signeur, desus escriptes. Et
+                        faites savoir a le gent medame d'Artois, ou au bailliu d'Aire, pour li, et a
+                        le dame de Cohem, et a Jehan le Prinche de Blaringhem, sen serjant, que a
+                        ledite journée la nous serons, ou no commis, que il i soient pour tant que
+                        il leur touque, et que il vous nomment tous les coupaules du fait et tous
+                        cheaus par qui li fais porra estre seus, et les ajournés pardevant nous, ou
+                        nos commis, audit jour, pour aler avant et enquerre le veritei, si comme il
+                        apartenra. Et vignent, ou ne veignent, nous, ou no commis, irons avant sour
+                        che, si comme raisons donra, et vous a ledite journée siiés pardevant nous,
+                        ou pardevant no commis, pour dire et tiesmoigner che ke vous en arés fait.
+                        Et de ce vous donnons nous pooir et a cascun, endroit soy, mandons et
+                        commandons a tous, a qui il peut et doit appartenir, que a vous et cascun de
+                        vous en che faisant obeissent et entengent diligaument. Donney à Amiens,
+                        l'an de grace .M. .CCC. et .XllI., le jour des octaves saint Martin
+                        d’yver.</hi>
+                </p>
+                <p>
+                    <note>Suite du procè-verbal en latin. </note>
+                </p>
+            </div>
+            <div type="acte" n="3">
+                <p>
+                    <note>lettres du doyen de Cassel à l'official de Térouanne, datées du 6 décembre
+                        1313, en latin et en français</note>
+                </p>
+                <pb n="549"/>
+                <p>
+                    <hi rend="ital">Signeur, je sui chi venus pardevant vous pour chou qu'on m'a
+                        donnée a entendre que on parole et veut traitier et traite d'aucunes choses
+                        pardevant vous qui touchent l'yretaige et le signorie monsigneur de
+                        Flandres, si fais protestacion avant tout œuvre que, pour chose que je
+                        dieche et proposeche devant vous, che n'est mie l'entencions monsigneur de
+                        Flandres, ne le muewe, d'entreir en plait, ou de plaidier, ne de respondre a
+                        partie pardevant de vous, car messire de Flandres de chose qui touche a sen
+                        hyretaige, n'a se franchise, n'est tenus de respondre, fors devant le Roy no
+                        segneur; mais i entench aucunes choses monstrer et faire aucunes requestes
+                        de par mon signeur qui sont a rechevoir dendroit de ses gens que chi sont
+                        ajournest pardevant vous, ensi que on dist, pour l'oquoison d'une punition
+                        qu'on dist que fu faite sour Jehan le Prinche de Blaringhem, valet le dame
+                        de Cohem, pour un cri qu'il fist d'assanler les os de par le dame
+                        dessusdite, en l'eglise de Blaringhem, li quelz lieus et grant place tout
+                        entour sont tenu de mon signeur de Flandres <foreign rend="romain">in
+                            manu</foreign>, lequel cri elle ne pooit ne devoit faire, ne faire
+                        faire, car nuls n'a dedens les bornes, ne en le tenanche de Flandres
+                        auctorité ne pooir de teil cri faire, fors mesires de Flandres, et dame de
+                        Cohem, qui chi estes presente, et qui maintenés que aucune punicion en soit
+                        faite, s'en avés pau fait, et mains que vous ne devés, envers monsigneur de
+                        Flandres, qui homs vous y estes, si comme je croi, et <pb n="550"/>vos fieus
+                        aisnés, et quant vous maintenés ausi que punitions fu faite en le terre
+                        monsigneur et en se justiche et par ses sougeis et justichaules, car vous,
+                        ne Jehan le Prinches, n'en estes trait a mon signeur, par vous ne par
+                        autrui, ne l'en avés requis, siewi, ne ajournei, coment que vous ce deussiés
+                        avoir fait, et mesires ait esteit et soit encore apparelliés de faire droit
+                        et raison et chou qu'il en appartenist a faire a cascun, ains en este traite
+                        aillieurs, si comme il pert, comment que vous n'aiiés encore en monsigneur
+                        de Flandres trouveit nule defaute. Si vous requier, signeur, par les raisons
+                        desus dites, que vous vous veulliés deporter et cesseir d'aleir avant et de
+                        prochès faire encontre les gens justichaules et sougés monsigneur de
+                        Flandres desusdit, car il est prés et appareilliés de faire a cascun droit
+                        et raison de sa gens et de ses justichaules si avant qu'il appartenroit, et
+                        se vous aliés sour chou avant vous feriés grief a monsigneur de Flandres et
+                        a ses gens.</hi>
+                </p>
+                <p>
+                    <foreign>Et hiis propositis, allegatis et monstratis per dictum magistrum
+                        Jacobum, pro dicta domino Comite, domina de Cohem predicta respondit hec
+                        verba:</foreign>
+                </p>
+                <p>
+                    <hi rend="ital"> J'ai bien oi ce que vous aveis monstreit pour monsigneur de
+                        Flandres; je ne osai aleir ne venir vers monsigneur de Flandres ne li siewir
+                        des coses desusdites.</hi>
+                </p>
+                <p>
+                    <foreign>Et tunc predictus magister Jacobus incontinenti respondit hec
+                        verba:</foreign>
+                </p>
+                <p>
+                    <hi rend="ital">Dame, vous peussiés estre alée seurement, et se vous n'i
+                        osissiés estre alée et vousissiés avoir conduit pour venir pardevant
+                        monsigneur et l'eussiés requis; vous l’eusiés volentiers eu de mon signeur,
+                        non pourquant je tiens que vous n'avés mie oi que on ne puist seurement
+                        aleir et venir pardevant monsigneur qui a a besoignier pardevant lui, et en
+                        demandes a tous les chevaliers et escuiers dont il i a chi plainte et a vous
+                        dame aussi demants se vous en aveis en aucun tans oi le contraire.</hi>
+                </p>
+                <p>
+                    <foreign>Et ipsa respondit dicens :</foreign>
+                </p>
+                <p>
+                    <hi rend="ital">Chertes nenil. </hi>
+                </p>
+                <p>
+                    <foreign>Et iterum predictus magister Jacobus dixit et requisivit per hec
+                        verba:</foreign>
+                </p>
+                <p>
+                    <hi rend="ital"> Signeur, vous aveis oi le response me dame et se defense,
+                        lequelle je dis qu'elle ne doit estre de nulle value, si vous requier, comme
+                        devant, et par les raisons desusdites, ke vous vous vuelliés deporter <pb
+                            n="551"/> et cesseir d'aleir avant en ceste cause encontre les gens et
+                        justichaules monsigneur, et se vous aliés avant vous feriés grief a
+                        monsigneur et a ses gens.</hi>
+                </p>
+                <p>
+                    <note>fin du procès-verbal en latin</note>
+                </p>
+            </div>
+        </body>
+    </text>
+</TEI>

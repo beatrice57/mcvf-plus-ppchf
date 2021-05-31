@@ -1,0 +1,2127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">Mémoire sur l’état de la Nouvelle-France à l’époque de la guerre
+                    de Sept Ans</title>
+                <title type="sub"/>
+                <title type="short">Bougainville.Memoire</title>
+                <author>
+                    <persName>
+                        <surname>Bougainville</surname>
+                        <forename>Louis-Antoine de</forename>
+                    </persName>
+                </author>
+                <editor>Modéliser le changement, les voies du français GTRC/CRSH</editor>
+                <principal>
+                    <persName>France Martineau</persName>
+                </principal>
+                <funder>
+                    <orgName>Université d'Ottawa</orgName>
+                    <orgName>Conseil de recherche en sciences humaines du Canada</orgName>
+                </funder>
+                <respStmt>
+                    <resp>Codage</resp>
+                    <persName xml:id="Labelle">Simon-Pier Labelle-Hogue</persName>
+                    <persName xml:id="Gour">Clive Gour</persName>
+                    <persName xml:id="Bleau">Marie-Pier Bleau</persName>
+                    <persName xml:id="Martineau">France Martineau</persName>
+                </respStmt>
+            </titleStmt>
+            <extent>48 856</extent>
+            <publicationStmt>
+                <date when="2009-05-08"/>
+                <distributor>
+                    <orgName>Modéliser le changement : les voies du français GTRC/CRSH</orgName>
+                    <address>
+                        <addrLine>60, rue Université</addrLine>
+                        <addrLine>Ottawa, Ontario</addrLine>
+                        <addrLine>K1N 6N5</addrLine>
+                        <addrLine>Tél : 613-562-5797</addrLine>
+                        <addrLine>Fax : 613-562-5981</addrLine>
+                        <addrLine><email>fmartin@uottawa.ca</email></addrLine>
+                        <addrLine>http://www.voies.uottawa.ca/</addrLine>                        
+                    </address>
+                </distributor>
+                <availability status="restricted">
+                    <p>(c) Modéliser le changement : les voies du français (CRSH/GTRC, dirigé par F.
+                        Martineau)</p>
+                    <p>Les Corpus MCVF demeurent la propriété du projet Modéliser le changement :
+                        les voies du français. Les références à ces Corpus devraient apparaître
+                        ainsi : Corpus MCVF, Modéliser le changement : les voies du français (F.
+                        Martineau (dir.), U. d’Ottawa).Tous les documents du Corpus MCVF ne peuvent
+                        être divulgués à de tierces parties sans l’autorisation préalable de la
+                        Directrice du Projet </p>
+                    <p>Pour tout autre usage, contacter : <persName>France Martineau</persName>
+                        <orgName>Modéliser le changement : les voies du français, Université
+                            d'Ottawa</orgName>
+                        <email>fmartin@uottawa.ca</email></p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <biblStruct type="Source_publique">
+                    <monogr>
+                        <author>
+                            <persName>
+                                <surname>Bougainville</surname>
+                                <forename>Louis-Antoine de</forename>
+                            </persName>
+                        </author>
+                        <editor>
+                            <persName>
+                                <surname>Magry</surname>
+                                <forename>Pierre</forename>
+                            </persName>
+                        </editor>
+                        <title>Relations et mémoires inédits pour servir à l’histoire de la France
+                            dans les pays d’outre-mer</title>
+
+                        <imprint>
+                            <pubPlace>Paris</pubPlace>
+                            <publisher>Challanel aîné</publisher>
+                            <date when="1867">1867</date>
+                        </imprint>
+                    </monogr>
+                    <series/>
+                </biblStruct>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Projet : Modéliser le changement les voies du français (GTRC/CRSH) <lb/>Resp. :
+                        <persName>France Martineau</persName> Institution : Département de français,
+                    Université d'Ottawa
+                    <address>
+                        <addrLine>60, rue Université</addrLine>
+                        <addrLine>Ottawa, Ontario</addrLine>
+                        <addrLine>K1N 6N5</addrLine>
+                        <addrLine>Tél : 613-562-5797</addrLine>
+                        <addrLine>Fax : 613-562-5981</addrLine>
+                        <addrLine><email>fmartin@uottawa.ca</email></addrLine>
+                        <addrLine>www.voies.uottawa.ca</addrLine>                        
+                    </address></p>
+            </projectDesc>
+            <editorialDecl>
+                <p>Voir le manuel d'annotation TEI au http://www.voies.uottawa.ca</p>
+                <p>L'édition de référence a été respectée quant à l'orthographe, la ponctuation, la
+                    mise en page et la pagination. Cependant, la césure des mots en fin de lignes
+                    (ou de pages) a été supprimée, le mot est placé dans la ligne ou la page où il
+                    commence. </p>
+                <p>Les paragraphes sont notés par P pour la prose. Pour les vers, P rend="gv"
+                    indique que le paragraphe est constitué d'un groupe de vers. </p>
+                <p> Les débuts des vers sont encodés par LB. Cette balise peut également servir dans
+                    les textes en prose à indiquer les débuts des lignes selon la pagination de
+                    l'édition. </p>
+                <p>Les changements de pages sont indiqués par la balise PB</p>
+                <p>Le corps du texte est obligatoirement compris dans le BODY. Le FRONT contenant le
+                    titre et/ou le prologue et le BACK (explicit) sont facultatifs et ne sont mis
+                    qu'au besoin. </p>
+                <p>Les différentes parties du texte (livre, chapitre...) sont encodées par DIV,
+                    auquel s'ajoute l'attribut TYPE qui spécifie sa nature. </p>
+                <p>Les paragraphes (P), lignes (LB) et pages (PB) de même de certaines divisions
+                    (DIV) sont ou peuvent être numérotés par l'attribut N s'ils le sont dans
+                    l'édition. </p>
+                <p>Quelques commentaires ou corrections ont été introduits à l'aide de la balise
+                    NOTE, CORR ou SIC. </p>
+                <p>Les discours directs et les citations ont été encodés par la balise Q. Cette
+                    balise est mise à chaque fois que des guillemets sont utilisés dans l'édition. </p>
+                <p>L'élément FOREIGN indique un passage en latin qui est noté en italique dans
+                    l'édition, les occurrences non en italique sont signalées par l'attribut ROMAIN. </p>
+                <p>Les folios sont notés par la balise <tag>pb rend="folio"</tag></p>
+                <p>Les notes de bas de pages ont été retirées. </p>
+                <p>Les paragraphes entièrement en latin ont été retirés, une balise P et une NOTE
+                    les signalent. </p>
+                <p>Note spécifique au texte ci-dessous: Aucune.</p>
+            </editorialDecl>
+            <samplingDecl>
+                <p>Pages 37-84</p>
+            </samplingDecl>
+        </encodingDesc>
+        <profileDesc>
+            <creation>
+                <date notBefore="1757" notAfter="1759"/>
+                <placeName/>
+            </creation>
+            <langUsage>
+                <language ident="fr"/>
+            </langUsage>
+            <textDesc>
+                <channel/>
+                <constitution>Texte intégral</constitution>
+                <derivation/>
+                <domain/>
+                <factuality/>
+                <interaction/>
+                <preparedness/>
+                <purpose/>
+            </textDesc>
+            <textClass>
+                <keywords scheme="GTRC">
+                    <list>
+                        <item n="domaine">Non littéraire</item>
+                        <item n="genre">Journal / Mémoire personnel</item>
+                        <item n="forme">Prose</item>
+                        <item n="docRegion1"/>
+                        <item n="docRegion2"/>
+                        <item n="docRegion3"/>
+                        <item n="auteurRegion1">France</item>
+                        <item n="auteurRegion2">France Centre</item>
+                        <item n="auteurRegion3">Île-de-France</item>
+                        <item n="auteurSexe">Homme</item>
+                        <item n="occupation">Militaire</item>
+                        <item n="scribeRegion1"/>
+                        <item n="scribeRegion2"/>
+                        <item n="scribeRegion3"/>
+                        <item n="imprimeurRegion1"/>
+                        <item n="imprimeurRegion2"/>
+                        <item n="imprimeurRegion3"/>
+                    </list>
+                </keywords>
+                <classCode scheme="Indice de Dees"/>
+            </textClass>
+            <particDesc>
+                <listPerson>
+                    <person role="auteur">
+                        <persName>
+                            <surname>Bougainville</surname>
+                            <forename>Louis-Antoine de</forename>
+                        </persName>
+                        <birth>
+                            <date when="1729-11-12">12 novembre 1729</date>
+                            <placeName>Paris</placeName>
+                        </birth>
+                    </person>
+                    <person role="scribe"/>
+                    <person role="imprimeur"/>
+                </listPerson>
+            </particDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2009-05-14" who="#Martineau">Validation de l'en-tête</change>
+            <change when="2009-05-13" who="#Labelle">En-tête</change>
+            <change when="2009-05-08" who="#Labelle">Vérification codage et en-tête</change>
+            <change when="2007-06-14" who="#Bleau">Transcription et vérification</change>
+            <change when="2006-05-26" who="#Gour">Codage</change>
+            <change when="2006-03-23" who="#Gour">Numérisation</change>
+        </revisionDesc>
+    </teiHeader>
+    <text type="mémoire">
+        <front/>
+        <body>
+            <pb n="39"/>
+            <p> Le Canada est un pays extrêmement froid, les neiges y <lb/>sont abondantes ; dans
+                certains hivers il y en a jusqu'à neuf <lb/>pieds, dans un hiver ordinaire six; le
+                froid monte jusqu'à <lb/>trente degrés, année commune vingt-quatre et vingt-six.
+                <lb/>L'hiver dure ordinairement six mois; la neige commence à <lb/>rester sur la
+                terre depuis la my-novembre jusques aux pre̠miers <lb/>jours de may. Cette longueur
+                de auvais temps fait <lb/>que les habitans ne peuvent élever d'animaux qu'autant
+                <lb/>qu'ils auront du fourrage pour les nourrir pendant tout ce <lb/>temps qu'ils
+                sont obligés de les tenir dans les étables. De là <lb/>vient que ce pays ne sçauroit
+                jamais être abondant en viande <lb/>de boucherie, surtout quand il y a consommation
+                extraordi̠naire. <lb/>Cependant si le roy vouloit, il y auroit un remède à cet
+                <lb/>inconvénient, et le peuple seroit plus heureux. Il faut re̠marquer <lb/>qu'il
+                n'y a point d'habitans qui n'ayent plusieurs <lb/>chevaux, chaque garçon qui a la
+                force de manier un fouet a <lb/>le sien, c'est ce qui empèche l'habitant d'élever
+                autant de <lb/>boeufs qu'il le feroit. Au lieu de trois ou quatre chevaux, il
+                <lb/>auroit dix à douze bêtes à cornes, et outre cela il pourroit <lb/>élever plus
+                de cochons, parce qu'il n'est point de garçon <lb/>d'habitans qui ne vole son père
+                pour donner de l'avoine ou <lb/>d'autres grains à son cheval, afin qu'il soit gras
+                et vif. Outre <lb/>cela, les habitans ne labourent presque plus qu'avec des
+                <lb/>chevaux, préférant le fouet à l'éguillon, ce qui est un mal̠heur <lb/>pour
+                cette colonie, auquel il n'y a point de remède, à <lb/>moins que le roy ne rende une
+                ordonnance qui défende à <lb/>chaque habitant d'avoir plus d'un cheval , à moins que
+                ce <lb/>ne soit un habitant riche et qui ait beaucoup de terre : lors̠que <lb/>les
+                chevaux auront dix ans, ils pourront avoir un poulin <lb/>pour renouveler leurs
+                chevaux; les habitans qui auront des <lb/>juments pourront avoir leur poulin, et à
+                même qu'ils trou̠veront <pb n="40"/>
+                <lb/>à le vendre ils le feront, afin d'en élever un autre pour <lb/>fournir aux
+                besoins des villes et des campagnes. Les sei̠gneurs <lb/>pourront avoir des juments
+                pour faire des petits <lb/>harats, afin d'avoir des beaux poulins au moyen d'étalons
+                <lb/>choisis. Il ne faudroit cependant pas dès à présent faire tuer <lb/>les chevaux
+                pour en venir an point dont j'ay parlé, car la <lb/>colonie est diminuée de boeufs,
+                et les habitants, s'ils man̠quoient <lb/>de chevaux, ne pourroient plus labourer
+                leurs terres, <lb/>mais dans quatre ou six années on pourroit les amener au
+                <lb/>point dont il s'agist, en chargeant des hommes sages et sans <lb/>partialité de
+                tenir la main à l'exécution d'un arrangement <lb/>qui seroit le bien de cette
+                colonie, contre lequel on pourroit <lb/>d'abord crier, mais dont on remercieroit
+                dans la suite.</p>
+            <p> Il paroît combien le roy a cette colonie à coeur par les <lb/>grandes dépenses qu'il
+                fait pour sa défense. Il est donc ques̠tion <lb/>de trouver le moyen propre pour que
+                le Canada se sou̠tienne <lb/>de lui-même. Le véritable est de permettre à tous les
+                <lb/>soldats de se marier, et de donner à chacun une terre sur <lb/>laquelle il y
+                auroit quatre arpents de déserts faits aux dépens <lb/>du roy, et une petite maison
+                de quinze pieds en carré; le <lb/>prix de ces travaux seroit estimé par les
+                seigneurs et capi̠taines <lb/>des côtes, et payé par Sa Majesté aux habitans qui les
+                <lb/>auroient faits. Cette dépense pourroit être pour chaque terre <lb/>d'environ
+                quatre cents francs. Si le roy ne veut pas donner <lb/>cette somme, la terre sera
+                l'hypothèque de l'argent avancé, <lb/>et l'habitant le remboursera sitost qu'il sera
+                en état. Il faut <lb/>aussi donner aux nouveaux mariés une vache, une brebis,
+                <lb/>une hache, une pioche, son pret et solde pendant deux ans, <lb/>et de quoy
+                semer la première année.</p>
+            <p> Si on ne fait pas d'avance à ce soldat, comment veut-on <lb/>qu'il s'établisse et
+                qu'il fasse des deserts; à peine son travail <lb/>suffiroit-il pour les nourrir, car
+                le défrichement des terres est <lb/>icy très-difficile à cause des gros arbres dont
+                les forêts sont <lb/>remplies; il conviendroit aussi de ne point laisser des
+                trou̠pes <lb/>dans les villes, ou du moins seulement ce qu'il faut pour <lb/>monter
+                une garde, et d'envoyer le reste par compagnie avec <lb/>leurs officiers dans les
+                différentes paroisses où il y a des <lb/>bonnes terres à défricher, pour y faire
+                travailler en payant <lb/>les soldats, comme le roy fait pour les travaux. Ils
+                forme̠roient <pb n="41"/>
+                <lb/>des inclinations avec des filles d'habitans, ce marie̠roient, <lb/>
+                s'accoutumeroient à travailler à la terre, et dans peu <lb/>de temps deviendroient
+                de bons laboureurs, au lieu que ceux <lb/>qui se marient dans les villes épousent
+                des filles de moyennes <lb/>vertus, et qui n'aiment point la campagne. Ces mêmes
+                terres <lb/>que les soldats feroient aux dépens dut roy seroient estimées <lb/>comme
+                je l’ay déjà dit, et données aux mêmes conditions.</p>
+            <p> Il seroit aussi bien nécessaire que le roy prist dans les diffé̠rentes <lb/>grandes
+                villes les gens sans aveu pour les envoyer icy, <lb/>en obligeant par proportion les
+                bâtimens venant de France, de <lb/>les amener à raison de quatre hommes par cent
+                tonneaux, en <lb/>donnant les vivres pour la traversée; aussitôt leur arrivée on
+                <lb/>les établiroit dans les terres, de la même façon que les soldats.</p>
+            <p> Si le roy adopte ce projet, il faudra toujours avoir quarante <lb/>à cinquante
+                terres prêtes à recevoir ceux qui arriveroient, <lb/>afin que d'abord après leur
+                débarquement ils fussent placés <lb/>et en état de travailler avec deffense de
+                dessus leurs terres; <lb/>il faut pour cela placer cet établissement dans
+                l'intérieur de <lb/>la colonie, comme la rivière de Sainte-Anne et celle de
+                Batis̠can, <lb/>Machiche, du Loup et Masquinonge dans le gouverne̠ment <lb/>des
+                Trois Rivières. Dans toutes ces rivières, il y a de <lb/>quoy placer trois mille
+                habitans ; les terres y sont bonnes, <lb/>fertiles et point difficiles à défricher;
+                les rivières montent du <lb/>côté du nord, ce qui est à préférer au côté du sud,
+                surtout <lb/>dans le lac Champlain, où il convient de laisser autant de <lb/>bois
+                que l'on pourra entre nos voisins et nous. Il ne faudroit <lb/>seulement permettre
+                qu'à un certain nombre d’habitans de <lb/>s'établir à Saint-Frédéric, pour fournir à
+                ce fort quelques <lb/>rafraîchissemens et non davantage, ainsi qu'aux forts de
+                <lb/>Frontenac et de Niagara.</p>
+            <p>
+                <hi rend="italique">Détroit</hi>. - Le Détroit est un poste digne d'attention, c'est
+                <lb/>l'entrepôt des forts du sud qui communique aux Illinois; les <lb/>terres y sont
+                fertiles et aisées à défricher, le ciel beau et <lb/>serein, un climat magnifique,
+                presque point d'hiver, très-peu <lb/>de neige; les animaux hivernent dans les champs
+                et s'y nour̠rissent; <lb/>il y a desjà deux cents habitations, ou environ, qui
+                <lb/>sont pleines de vivres et de bestiaux, qui fournissent des fa̠rines <lb/>à
+                différens postes des pays d’en haut. Ce fort est sur <lb/>le bord du fleuve qui
+                sépare le lac Érié du lac Huron, où il <pb n="42"/>
+                <lb/>n'y a d'une pente douce qui forme un petit courant. A vingt <lb/>lieues du lac
+                Huron et à six lieues du lac Érié, la rivière du <lb/>détroit a douze à quinze
+                arpens de large, toutes les eaux des <lb/>lacs supérieurs, Michigan et du lac Huron,
+                y passent et vont <lb/>se décharger dans le lac Érié.</p>
+            <p> Il est donc question de favoriser cet établissement, qui est <lb/>un lieu important
+                à cause de toutes les nations qui l'environ̠nent <lb/>et du chemin pour la
+                communication aux Illinois. Pour <lb/>y parvenir, il faut le mettre en gouvernement,
+                avec un état̠major, <lb/>cinq ou six compagnies complètes d'officiers et sol̠dats,
+                <lb/>et donner à chaque capitaine, et même aux officiers <lb/>subalternes, une
+                seigneurie de quatre-vingt-dix arpens de <lb/>profondeur sur une lieue de front, et
+                obliger chaque soldat <lb/>de prendre une terre sur la seigneurie de son capitaine
+                ou <lb/>officier qui auront chacun un domaine ou fief, et afin d'éta̠blir <lb/>et de
+                défricher ces terres plus promptement, il faudroit <lb/>diviser les compagnies par
+                douze soldats, et un sergent qui <lb/>les conduiroit et les feroit travailler
+                ensemble une semaine <lb/>sur chaque terre d'un arpent et demy sur trente de
+                profon̠deur, <lb/>afin qu'ils fussent près les uns des autres. Par ce moyen <lb/>les
+                paresseux seroient obligés de s'occuper comme les autres, <lb/>puisqu'ils
+                travailleroient en commun, et telle estoit autrefois <lb/>la méthode de la fameuse
+                République de Sparte. Les officiers <lb/>des compagnies seroient intéressés à suivre
+                de près leurs <lb/>soldats, afin qu'ils ne perdissent pas de temps de même que
+                <lb/>pour leur faire faire de petits logemens, et lorsque chaque <lb/>soldat se
+                mariera, lui donner une vache et une brebis, une <lb/>paire de boeufs à deux avec la
+                charrue et autres outils néces̠saires <lb/>pour les travaux, et des marmites. Les
+                boeufs ne leur <lb/>seroient que prêtés ; ils les rendroient au roy dès qu'ils
+                au̠roient <lb/>pu en élever d'autres, et ils ne seroient que plus pro̠pres <lb/>à la
+                boucherie. Pour cet effet, il faut que ces compagnies <lb/>soient stables; car si
+                elles changent, les soldats ne s'attache̠ront <lb/>à rien. Il faut aussi remplacer
+                les soldats qui se marie̠roient, <lb/>afin que les compagnies soient complètes, et
+                autant <lb/>que faire se peut, avoir des gens de bonne volonté, en les
+                <lb/>choisissant dans les autres compagnies.</p>
+            <p> Il faut remarquer que les habitans, dans cet endroit, peu̠vent <lb/>élever autant
+                d'animaux qu'ils veulent, par l'abondance <lb/>des pâturages et la beauté du climat.
+                Ainsi, en suivant l’éta̠blissement <lb/>du Détroit avec attention, l’on peut tirer
+                des grands <lb/>avantages. Ce gouvernement seroit dans peu en état de fournir <pb
+                    n="43"/>
+                <lb/>les postes de Niagara, Frontenac, la Présentation et autres <lb/>du côté de la
+                Belle Rivière, de viande et farine, ce qui soula̠geroit <lb/>beaucoup la capitale,
+                tant par la consommation des <lb/>vivres que pour les hommes qui sont occupés à les
+                trans̠porter <lb/>de Mont-réal au fort Frontenac, ce qui est un trajet <lb/>de
+                soixante-dix lieues, avec des rapides affreux à monter, et <lb/>qui détruisent les
+                meilleurs hommes, qu'ils détournent de <lb/>l'agriculture, ainsi que les transports
+                pour fournir les diffé̠rens <lb/>postes du sud. Le poste du Détroit étant établi,
+                rien ne <lb/>seroit si aisé que de faire descendre tous les secours néces̠saires
+                <lb/>en vivres et en bestiaux pour fournir les postes dont <lb/>nous avons parlé, et
+                cela par le moyen des gabarres à fond <lb/>plat, ou barques que l'on feroit de
+                soixante à soixante-dix <lb/>tonneaux, et qui porteroient, en traversant le lac
+                Érié, le <lb/>produit du gouvernement du Détroit à la pointe à Binot, où <lb/>l'on
+                feroit un petit fort qui serviroit d'entrepôt, tant pour les <lb/>effets venant de
+                Mont-réal pour les postes du sud, que pour <lb/>ceux venant du Détroit pour les
+                postes que ce gouvernement <lb/>fourniroit des vivres, et pour les effets du
+                commerce ; ce qui <lb/>diminueroit beaucoup le nombre des engagés pour les
+                voya̠geurs. <lb/>Et les gabarres allant et venant à la pointe à Binot, <lb/>seroient
+                chargées de différents effets. Il y auroit un va et vient <lb/>de bateaux du petit
+                fort de Niagara à la pointe à Binot, où <lb/>il y a neuf lieues ; les gabarres ne
+                pouvant y aller, elles <lb/>iroient au fort de la presqu'île, qui est l'entrepost
+                des <lb/>effets que l'on envoye aux différens postes de la Belle Rivière.</p>
+            <p>
+                <hi rend="italique">Frontenac , Niagara</hi>. - Les voyageurs feroient seulement
+                <lb/>monter, leurs marchandises au fort Frontenac, où elles em̠barqueroient <lb/>
+                sur les barques qui y sont pour venir à Niagara, <lb/>en traversant le lac Ontario;
+                trajet de soixante-dix lieues, et <lb/>là le portage se feroit avec des chevaux,
+                comme des autres <lb/>effets, et on règleroit combien les voyageurs payeroient par
+                <lb/>cent pesant d'effets et marchandises, du fort Frontenac au <lb/>Détroit, ce qui
+                seroit au dessous de ce qui leur en coûteroit <lb/>avec des canots d'écorce et des
+                engagés comme je vais le <lb/>démontrer.</p>
+            <table rows="5" cols="2">
+                <row>
+                    <cell>Un canot de maître coûte <hi rend="points"/></cell>
+                    <cell>
+                        <num type="cardinal">500</num> fr̟. </cell>
+                </row>
+                <row>
+                    <cell><num type="cardinal">6</num> engagés à <num type="cardinal">250</num> fr̟.
+                            <hi rend="points"/></cell>
+                    <cell>
+                        <num type="cardinal">1 500</num>
+                    </cell>
+                </row>
+                <row>
+                    <cell><num type="cardinal">100</num> livres de biscuits par homme à <num
+                            type="cardinal">20</num> fr̟. <hi rend="points"/></cell>
+                    <cell>
+                        <num type="cardinal">120</num>
+                    </cell>
+                </row>
+                <row>
+                    <cell><num type="cardinal">25</num> livres de lard par homme à <num
+                            type="cardinal">60</num> c̟.<hi rend="points"/></cell>
+                    <cell>
+                        <num type="cardinal">90</num>
+                    </cell>
+                </row>
+                <row>
+                    <cell>Pour ustensiles du canot <hi rend="points"/></cell>
+                    <cell>
+                        <num type="cardinal">50</num>
+                    </cell>
+                </row>
+                <row>
+                    <cell>Total<hi rend="points"/></cell>
+                    <cell>
+                        <num type="cardinal">2260</num> fr̟. </cell>
+                </row>
+            </table>
+            <pb n="44"/>
+            <p> Il faut remarquer qu'un canot d'écorce porte environ <lb/>quatre mille pesant.
+                Ainsi, tous les effets que les voyageurs <lb/>montent dans les Pays d'en Haut pour
+                le commerce coûtent <lb/>plus de dix sols la livre de transport. Il est vray qu'ils
+                des̠cendent <lb/>une partie de leur retour avec ces mêmes hommes <lb/>et canot.
+                Ainsi que le roy pourroit prendre vingt francs par <lb/>cent pesant pour rendre les
+                marchandises du fort de Fron̠tenac <lb/>au Détroit, et douze francs par paquet pour
+                descendre <lb/>du détroit au fort Frontenac, les voyageurs qui suivroient <lb/>leurs
+                paquets se chargeroient de les faire descendre à Mont̠réal ; <lb/>le roy leur
+                prêteroit seulement des canots ou bateaux.</p>
+            <p> Ces mêmes gabarres pourroient dans la suite communi̠quer <lb/>dans le lac Huron, et
+                aller à Michilimakinac, qui est <lb/>l'entrepost des postes du nord, et même aller
+                dans le lac <lb/>Michigan jusqu'à la Baye qui est éloignée de Michilimakinac <lb/>de
+                cent lieues, et plus de même qu'à Saint-Joseph.</p>
+            <p>
+                <hi rend="italique">Michilimakinac</hi>. - Michilimakinac est éloigné de Mont̠réal,
+                <lb/>en passant par la grande rivière, de trois cents lieues, <lb/>du Détroit de
+                cent lieues et plus. Ce poste est situé entre le <lb/>lac Michigan et le lac Huron ;
+                quand les navigateurs auront <lb/>acquis de l'expérience sur ces lacs, en
+                connoissant les diffé̠rens <lb/>abris et mouillages et les relâches en cas de
+                mauvais <lb/>temps, on pourroit se servir de ces voitures pour transporter <lb/>tous
+                les effets qu'il faudroit pour tous les postes du nord. Le <lb/>Détroit, devenant
+                considérable, seroit en état de fournir des <lb/>marchandises à tous ces différens
+                endroits. Par ce moyen, <lb/>on empêcheroit les voyageurs de monter des canots
+                d'écorce <lb/>par la grande rivière, qui est très-pénible par la quantité de
+                <lb/>rapides et de portages que les engagés font. Il monte ordinai̠rement <lb/>
+                chaque année quatre-vingts canots d'écorce, ou en̠viron <lb/>de six à sept hommes
+                pour la partie dont je viens de <lb/>parler, et par ce moyen il n'en faudroit point;
+                ce qui con̠serveroit <lb/>les hommes en Canada et augmenteroit le nombre <lb/>des
+                laboureurs, ce qui est la base de l'État.</p>
+            <p> Dans la suite du temps, les particuliers du Détroit feront <lb/>des bâtimens propres
+                pour ces transports, et le commerce <lb/>se fera avec beaucoup plus de facilité dans
+                les Pays d'en Haut, <lb/>car les barques du lac Érié iront dans les lacs Huron et
+                Mi̠chigan, <lb/>et un bâtiment de quarante tonneaux portera vingt <lb/>canotées, et
+                il faudra pour cette voiture cinq à six hommes, <lb/>au lieu que dans vingt canots
+                il faut cent vingt à cent qua̠rante <lb/>hommes.</p>
+            <pb n="45"/>
+            <p> Le gouverneur général fait ordinairement payer aux <lb/>voyageurs cinq cens francs
+                pour chaque canotée, tant pour <lb/>les gratifications aux officiers que pour les
+                pauvres familles ; <lb/>pour lors, il feroit payer cinq cens francs par quatre mille
+                <lb/>pesant que les voyageurs monteroient dans les Pays d'en Haut, <lb/>et l'un
+                reviendroit à l'autre.</p>
+            <p> En suivant exactement ce qui est stipulé en peu de mots, <lb/>on remédiera à une
+                partie des abus qui sont contraires à <lb/>l'avantage du Canada, et dans peu l'on
+                verra les terres se <lb/>défricher, les habitans augmenter, le commerce fleurir, et
+                <lb/>le peuple devenir plus heureux, ce que je souhaite, ne pou̠vant <lb/>faire
+                davantage et ayant dit la vérité.</p>
+            <p>
+                <hi rend="italique">Détroit entrepost des postes du sud</hi>. - Le Détroit entrepost
+                <lb/>des postes du sud, Grosbourg, situé entre le lac Érié et le lac <lb/>Sainte
+                Claire, de l'entrée du lac Érié au Détroit il y a six lieues, <lb/>du Détroit au lac
+                Sainte Claire il y en a deux, de la sortie de <lb/>ce lac, qui en a sept, au lac
+                Huron on compte onze lieues.</p>
+            <p> La situation de cet établissement est des plus belles, le <lb/>climat en est
+                charmant, l'air très-sain, la terre excellente et <lb/>propre à toutes sortes de
+                productions, la chasse y est abon̠dante. <lb/>Un homme en quinze jours peut
+                rapporter trois cens <lb/>pièces de gibier différens excellens à manger. Le gibier
+                <lb/>passe depuis février jusqu'en mai et depuis septembre jusqu'à <lb/>Noël.</p>
+            <p>Au nord il y a trois lieues de terre habitées par des Fran̠çais <lb/>à trois arpens
+                par habitant, au sud il y en a deux lieues <lb/>et demye ; la rivière partant du lac
+                Érié pour aller au Détroit <lb/>court est nord-est ; à une lieue et demye au dessus
+                du bourg, <lb/>est une isle qui sert de commune, elle a cinquante arpens de
+                <lb/>long et vingt de large; on l'appelle l'<hi rend="italique">Isle au Cochon</hi>
+                ; à un <lb/>quart de lieue au-dessus à l'entrée du lac Sainte Claire est <lb/>une
+                isle nommée l'<hi rend="italique">Isle du Large</hi> de vingt arpens de long sur
+                <lb/>sept à huit de large.</p>
+            <p> Les habitants recueillent année commune deux mille cinq <lb/>cens minots de bled
+                froment, beaucoup d'avoine et de bled <lb/>d'Inde ; ils semoient autrefois du bled
+                d'automne, mais sou̠vent <lb/>il ne produisoit que du seigle. Un habitant du lieu
+                m'a <lb/>assuré avoir semé douze minots de très-beau froment et <lb/>n'avoir
+                recueilli que du très-beau seigle. On sème en février <lb/>et mars et l'on recueille
+                en juillet, le produit pour le froment <lb/>est ordinairement de vingt pour un.</p>
+            <p> A une journée en deçà de la grande pointe du lac Huron <pb n="46"/>
+                <lb/>il y a de la pierre propre à faire des moulanges, ce qui man̠que <lb/>au
+                détroit ; il seroit nécessaire d'encourager les habitans <lb/>du Détroit à la
+                culture en leur assurant le débouché de leurs <lb/>denrées, chose facile en les
+                faisant consommer par les gar̠nisons <lb/>des forts de la Presqu'isle-Marchant, de
+                la Rivière au <lb/>Boeuf et Duquesne. Ces vivres coûteroient moins cher au roy
+                <lb/>que ceux qu'on envoye de Mont-réal ; les frais de transport <lb/>en sont
+                immenses et la difficulté de ces transports rend <lb/>incertaine la subsistance des
+                garnisons.</p>
+            <p> Il faudroit aussi que les commerçans du Détroit ou autres <lb/>qui voudroient aller
+                s'y établir, en la ditte qualité, eussent <lb/>la liberté de reporter au Détroit,
+                sans payer de congés, les <lb/>retours de paquets, lettres de change, ou certificats
+                qu'ils <lb/>apportent à Mont-réal ; tant que cette franchise ne sera pas
+                <lb/>accordée l'établissement du Détroit languira.</p>
+            <p> Il y a dans ce poste un commandant, un major et sous <lb/>leurs ordres <gap
+                    resp="editor" rend="points"/>officiers subalternes, la garnison est <lb/>de<gap
+                    resp="editor" rend="points"/> hommes fournis par les compagnies détachées de
+                <lb/>la marine. Le poste est exploité par congés dont le prix est <lb/>ordinairement
+                de cinq cens francs payables comptant et <lb/>dont le nombre n'est pas fixé ; les
+                charges supportées par les <lb/>congés sont : au commandant, trois mille francs ; au
+                com̠mandant <lb/>en deuxième, mille francs ; aux subalternes, cinq <lb/>cens francs
+                ; au subdelégué, six cens francs ; à l'interprète, <lb/>cinq cens francs; à
+                l'aumônier, cinq cens francs ; au chi̠rurgien, <lb/>trois cens francs ; chaque canot
+                de voyageur est <lb/>obligé de porter quatre cens livres pezant de marchandises
+                <lb/>pour les officiers et autres employés audit poste, par consé̠quent <lb/>ces
+                officiers font la traite, elle n'est donc plus libre, abus <lb/>à corriger.</p>
+            <p> Les sauvages qui viennent ordinairement faire la traite au <lb/>Détroit sont les
+                Hurons de la même famille que ceux de Lo̠rette, <lb/>nation perfide, fourbe, contre
+                laquelle il faut sans cesse <lb/>être sur ses gardes. Les Outawas, les Saulteux et
+                les Pou̠teouatamis, <lb/>ces derniers sont de tous les sauvages les plus
+                <lb/>attachés à nos intérèts, jamais ils n'ont trempé leurs mains <lb/>dans le sang
+                d'aucun Français, ils nous ont même avertis des <lb/>complots formés contre nous par
+                les autres nations. Il sort <lb/>de ce poste entre huit cens à mille paquets de
+                pelleteries.</p>
+            <p>
+                <hi rend="italique">Poste des Miamis</hi>. - Les Miamis (Bellestre lieutenant) poste
+                <lb/>situé sur la rive droite de la rivière de ce nom avec un fort <lb/>de pieux de
+                bout, c'est à ce fort que commence le portage <pb n="47"/>
+                <lb/>pour aller gagner les eaux tombant au sud ouest. - Ce <lb/>poste est affermé an
+                commandant pour trois ans et le prix de <lb/>la ferme est de douze cens francs par
+                année. Il fait la traite <lb/>exclusivement, le roy ne donne ny certificats ny
+                présens aux <lb/>sauvages ; le fermier est chargé de ces dépenses ainsi que de
+                <lb/>celles des gages de l'interprète ; il n'a point de gratification. <lb/>La solde
+                de la garnison se donne en poudre et en plomb que <lb/>le fermier prend au Détroit ;
+                les sauvages qui y viennent <lb/>traiter le plus communément sont les Miamis et les
+                Tepico̠meaux.</p>
+            <p> Ils peuvent fournir cent cinquante guerriers.</p>
+            <p> Année commune il sort de ce poste deux cent cinquante <lb/>à trois cens paquets,
+                voilà donc un poste enlevé au com̠merce.</p>
+            <p>
+                <hi rend="italique">Ouyatanons</hi>. - Les Ouyatanons (Camet Bayeul, enseigne),
+                <lb/>poste situé sur la rive droite de la rivière Ouabache ou Saint̠Jérôme, <lb/>
+                fort de pieux de bout. Ce poste est sur le même pied <lb/>que celui des Miamis, le
+                commandant en est le fermier, et le <lb/>prix de la ferme est de douze cens francs
+                par an.</p>
+            <p> Les sauvages qui viennent y faire la traite sont les <hi rend="italique"
+                    >Ouya̠tanons</hi>, <lb/>les <hi rend="italique">Kikapous</hi>, les <hi
+                    rend="italique">Maskoutins</hi>, les <hi rend="italique">Peanguichias</hi>, ils
+                peu̠vent <lb/> fournir trois cent soixante guerriers.</p>
+            <p> Il sort année commune, de ce poste et de ceux qui en dé̠pendent, <lb/>quatre cens à
+                quatre cent cinquante paquets.</p>
+            <p>
+                <hi rend="italique">Vincennes</hi>. - Poste de Vincennes, joli bourg dépendant de
+                <lb/>la Nouvelle-Orléans qui y envoye un commandant, trois <lb/>moulins à chevaux.
+                Il y a soixante-quinze habitans qui <lb/>labourent et recueillent du bled.</p>
+            <p> Les Peanguichias y traitent; ils peuvent s'y faire quatre̠vingts <lb/>paquets.</p>
+            <p><hi rend="italique">Poste des Illinois</hi>. - Les Illinois, poste dont le principal
+                en̠trepost <lb/>est le fort de Chartres, situé sur le Mississipi; il y a <lb/>pour
+                tous ces postes six compagnies de garnison fournies par <lb/>la Nouvelle-Orléans
+                ainsi que le commandant. Ce poste est <lb/>exploité par congés dont le prix est de
+                six cens francs par <lb/>canot, les voyageurs trois cens francs pesant dans leurs
+                <lb/>canots pour les gratifications ordinaires; et comme on n'est <lb/>tenu qu'au
+                port des provisions des missionnaires des <hi rend="italique">Tamarous</hi>, <lb/>le
+                surplus du port est pour Michilimakinac si l'on passe par <lb/>le nord, ou pour le
+                Détroit si l'on passe par le sud; la gratifi̠cation <pb n="48"/>
+                <lb/>du commandant est payée par la Louisiane sur ses <lb/>fonds ; ce commandant est
+                envoyé de la Nouvelle-Orléans.</p>
+            <p> Voicy les divisions des Illinois : les Cahos̟ sur le bord du <lb/>Mississipi, à la
+                gauche les Metchi, à six lieues des Kas̟ , petite <lb/>ville habitée par les
+                Français ; les <hi rend="italique"> Cahos̟ </hi> et les <hi rend="italique"
+                    >Metchi</hi> ne sont <lb/>plus qu'un village d'environ quatre cens guerriers. Il
+                y a <lb/>environ quatre cens guerriers au <hi rend="italique"> Kas̟ </hi>. Ces trois
+                nations sont <lb/>comprises sous le nom d'Illinois et fournissent année com̠mune
+                <lb/>cent paquets en castors, chevreuils, chats, pichoux, <lb/>renards, loutres,
+                cerfs et daims.</p>
+            <p> Il y a un autre poste sur la rivière des Illinois où réside un <lb/>commandant dans
+                un fort nommé <hi rend="italique">Pimiteoui</hi>; les nations qui <lb/>y traitent
+                sont les <hi rend="italique">Peorias</hi>; sept cens hommes fournissent <lb/>deux
+                cent cinquante paquets, même qualité de pelleteries, <lb/>moins de castors et plus
+                de chats qu'au poste précédent.</p>
+            <p>
+                <hi rend="italique">Missouri</hi>. - Dans le Missouri à quatre-vingts lieues de son
+                <lb/>embouchure dans le Mississipi, sont les <hi rend="italique">Osages</hi> et les
+                    <hi rend="italique">Missouri</hi>, <lb/>nations voisines l'une de l'autre ; la
+                traite que nous y avons <lb/>peut, année commune, monter à quatre-vingts paquets de
+                <lb/>chevreuils et ours, peu d'autres pelleteries.</p>
+            <p>
+                <hi rend="italique">Kansés Pimiteoui</hi>. - En remontant ce fleuve encore
+                qua̠tre-vingts <lb/>lieues on trouve le village des <hi rend="italique">Kansés</hi>;
+                nous y avons <lb/>une garnison avec un commandant fourny, ainsy que ceux de <lb/><hi
+                    rend="italique">Pimiteoui</hi> et du fort de Chartres, par la Nouvelle-Orléans.
+                Il <lb/>sort de ce poste cent paquets, beaucoup de castors, mais mal
+                <lb/>travaillés, les autres pelleteries sont les mêmes qu'au poste <lb/>précédent; à
+                cinquante lieues au-dessus on trouve les Oloks et <lb/>les <hi rend="italique"
+                    >Ayoués</hi>; deux cens hommes fournissant quatre-vingts <lb/>paquets, les mêmes
+                pelleteries que chez les Kanses.</p>
+            <p>
+                <hi rend="italique">Fort Duquesne</hi>. - Le fort Duquesne situé sur la rive gauche
+                <lb/>de la Belle Rivière au confluent de <hi rend="italique">Malangueulé</hi>. Ce
+                fort est en <lb/>bois, petit, mal entendu et dominé par deux endroits, à la
+                <lb/>portée du fusil, insoutenable en un mot s'il était attaqué dans <lb/>l'état
+                présent; il peut contenir au plus cent cinquante hommes <lb/>de garnison qu'il est
+                fort difficile de faire subsister; les Illinois <lb/>ont été cette année leur
+                ressource.</p>
+            <p> Le commandant a trois mille francs de gratification. Cet <lb/>établissement est
+                nécessaire pour empêcher que les Anglais <pb n="49"/>
+                <lb/>ne s'emparent de cette partie; mais il faudrait un fort plus <lb/>respectable
+                et qui pût, en temps de guerre, contenir cinq ou <lb/>six cents hommes de garnison;
+                le pays y est bon, la terre fer̠tile <lb/>l'air sain, des habitants y seroient
+                bien.</p>
+            <p> Ce poste s'exploite par congés qu'on donne gratis pour <lb/>encourager les
+                négociants à y envoyer; on ne sçauroit donner <lb/>trop de soin à ce que les
+                marchandises soient à bas prix, <lb/>afin que les sauvages trouvant à y faire la
+                traite à bon compte, <lb/>n'aillent pas chez les Anglois, objet important pour le
+                com̠merce <lb/>et plus encore pour la politique.</p>
+            <p> Les sauvages qui viennent au fort Duquesne sont les Loups, <lb/>les Chaouanons et
+                les Iroquois, renégats de toutes les nations <lb/>des Cinq Nations.</p>
+            <p> Il en sort, année commune, de deux cents à deux cent <lb/>cinquante paquets.</p>
+            <p>
+                <hi rend="italique">Fort de la rivière au Boeuf</hi>. - Le fort de la rivière au
+                Boeuf, <lb/>fort quarré de pieux debout, situé à trente lieues du fort
+                <lb/>Machault, sur la rivière dont il porte le nom. Cette rivière <lb/>est
+                très-navigable le printemps, l'automne et souvent même <lb/>l'hiver; l'été, l'eau y
+                est très-basse, il faut y traîner dans beau̠coup <lb/>d'endroits.</p>
+            <p> Ce poste est un entrepost necessaire pour le fort Duquesne, <lb/>mais il faudroit le
+                refaire et le mettre à l'abry d'un coup de <lb/>main. Le commandant y a mille
+                francs, la garnison plus ou <lb/>moins forte; ce poste n'est pas un endroit de
+                commerce, <lb/>d'autant plus que l'établissement est nouveau.</p>
+            <p>
+                <hi rend="italique">Fort Machault</hi>. - Le fort Machault, situé à la décharge de
+                <lb/>la rivière au Boeuf, dans l'Ohyo; c'est le dernier entrepost <lb/>pour le fort
+                Duquesne; il faudroit le mettre à l'abry d'un coup <lb/>de main; ce poste n'est pas
+                un endroit de commerce. Le <lb/>commandant y a mille francs de gratification.</p>
+            <p>
+                <hi rend="italique">Fort de la Presqu'Isle</hi>. - La Presqu'Isle, fort quarré de
+                <lb/>pièces équarries, à sept lieues du fort de la rivière au Boeuf <lb/>et du
+                Niagara, situé sur le lac Erié, à l'entrée presque d'une <lb/>grande baye d'environ
+                une lieue et demye de profondeur sur <lb/>une demi-lieue de large; il y a un
+                commandant qui a mille <lb/>francs de gratification et cinquante ou soixante hommes
+                de <lb/>garnison.</p>
+            <p> Ce poste est pour la traite comme les deux précédents; son <lb/>utilité est d'être
+                un entrepost nécessaire, et le premier de <lb/>Niagara à la Belle-Rivière. Le
+                portage de ce fort à celui de la <lb/>rivière au Boeuf est de sept lieues. Pendant
+                les hivers qui sont <pb n="50"/>
+                <lb/>doux, pluvieux, peu sujets à la neige, les transports y sont
+                <lb/>presqu'impraticables; le printemps et l'automne sont dans le <lb/>même cas,
+                l'été est donc la seule saison sur laquelle on puisse <lb/>compter pour faire passer
+                les vivres et autres effets neces̠saires <lb/>à la Belle-Rivière, je parle pour les
+                charrettes; les <lb/>chevaux de selle vont en tous tems ; les sauvages en ont
+                <lb/>beaucoup, et leur secours est presque toujours necessaire <lb/>par la
+                précipitation avec laquelle on est forcé de faire le por̠tage <lb/>afin de profiter
+                des eaux de la rivière au Boeuf; à la <lb/>vérité, si les chemins étoient
+                accommodés, il seroit facile de se <lb/>passer des sauvages.</p>
+            <p> Mais la politique exige qu'on s'en serve, surtout en temps <lb/>de guerre. Quand ils
+                sont chargés du portage, ils empêchent <lb/>les nations qui pourroient être mal
+                intentionnées de troubler <lb/>nos transports, d'ailleurs ce qu'ils gagnent par cela
+                et les <lb/>présens qu'on leur fait les met en état de s'habiller et de <lb/>se
+                fournir des choses qui leur sont nécessaires; sans cette <lb/>ressource ils
+                s'adresseroient aux Anglois qui les traitent <lb/>beaucoup mieux que nous, et il est
+                essentiel qu'ils ne s’aper̠çoivent <lb/>pas de cette différence.</p>
+            <p> Il seroit facile d'attirer auprès de ce fort des sauvages pour <lb/>s'y établir et y
+                former des villages; le terrein y est bon, la <lb/>chasse et la pêche y sont
+                abondantes.</p>
+            <p> Les Mississagués qui sont errants dans le lac Erié s'y fixe̠roient <lb/>d'autant
+                plus volontiers, qu'ils seroient assurés de <lb/>trouver auprès du fort des
+                ressources qui leur manquent <lb/>quand ils en sont éloignés.</p>
+            <p> Les Iroquois qui ont un village à <hi rend="italique">Kanouagon</hi>, distance de la
+                <lb/>Presqu'lsle de trente lieues, s'en rapprocheroient aussi; sou̠vent, <lb/>ils
+                ont été obligés d'avoir recours à nous pour vivre. <lb/>Mais pour réussir à former
+                cet établissement il faudroit :</p>
+            <list>
+                <label>1°</label>
+                <item>Un magasin à la Presqu'Isle abondant en vivres et en <lb/>marchandises de
+                    traite à l'usage des sauvages;</item>
+                <label>2°</label>
+                <item>Leur abandonner le portage. On paye six francs le por̠tage <lb/>d'un sac aux
+                    sauvages, trois francs aux François; mais <lb/>cette différence disparoîtroit
+                    bientôt par le tarif des marchan̠dises <lb/>et des vivres et par l'avantage d'un
+                    commerce qui <lb/>bientôt deviendroit considérable.</item>
+            </list>
+            <p> Le chef des Mississagués se nomme <hi rend="italique">Maccouainité</hi> et celui
+                <lb/>des Iroquois <hi rend="italique">Cocité</hi>; l'un et l'autre sont fort
+                affectionnés aux <lb/>François, et ils en ont donné des preuves.</p>
+            <p>
+                <hi rend="italique">Niagara</hi>. - Niagara peut être regardé maintenant comme <pb
+                    n="51"/>
+                <lb/>une place forte, elle est située à la tête du lac Ontario au <lb/>sud, au
+                confluent de la rivière de Niagara. Ce poste est la clef <lb/>des pays d'en haut.
+                Comme le terrein y est excellent, le cli̠mat <lb/>tempéré, la chasse et la pêche
+                abondantes, il faudroit <lb/>tâcher d'y établir une ville ou au moins des
+                habitations en <lb/>village. Cet établissement et celui du Détroit dirigés, l'un et
+                <lb/>l'autre, par de bonnes loix, seroient le grenier des Pays d'en <lb/>Haut. On
+                épargneroit par là des sommes et des difficultés <lb/>considérables pour les
+                transports, et le Canada seroit en état <lb/>de faire une exportation plus
+                forte.</p>
+            <p> Le roy fait le commerce de ce poste et conséquemment <lb/>paye les gratifications
+                aux commandans et autres employés; <lb/>mais le commerce y est mal régi, la traite
+                s'y fait d'une façon <lb/>onéreuse pour les sauvages et peu lucrative pour le
+                roy.</p>
+            <p> Il seroit bon de l'y rendre libre, la concurrence entre les <lb/>négociants y
+                rendroit les marchandises moins chères; si le <lb/>tarif n'en baisse tôt ou tard,
+                les sauvages, qui n'ont plus Choué̠guen, <lb/>iront à Orange porter leurs
+                pelleteries, et l'on ne doit <lb/>jamais perdre de vue cette réflexion, qu'en cela
+                l'intérêt du <lb/>commerce est encore le moins essentiel, la conservation de <lb/>la
+                colonie en dépend, nous ne nous soutenons que par la <lb/>faveur des sauvages ;
+                c'est le contre-poids qui fait pen̠cher <lb/>la balance de notre côté, et les
+                sauvages accepteront la <lb/>hache de ceux avec lesquels ils feront un commerce
+                avanta̠geux.</p>
+            <p> Les nations qui viennent en traite à Niagara sont les Cinq̠Nations <lb/>et les
+                Mississagués.</p>
+            <p> Il en sort, année commune, deux cent cinquante à trois <lb/>cents paquets.</p>
+            <p> Le portage à Niagara à <gap resp="editor" rend="points" extent="1 wors"/> est de<gap
+                    resp="editor" rend="points" extent="1 word"/> lieues; mêmes ré̠flexions <lb/>
+                pour ce portage que pour celui de la Presqu'Isle, il <lb/>est essentiel de se servir
+                de ces sauvages pour le faire.</p>
+            <p>
+                <hi rend="italique">Toronto</hi>, situé au nord du lac Ontario, vis-à-vis de
+                Niagara, <lb/>établi pour empêcher les sauvages du nord d'aller commercer <lb/>à
+                Chouéguen; Chouéguen n'existant plus, ce poste devient <lb/>inutile.</p>
+            <p> Le roy en fait le commerce, les effets y montent des ba̠teaux <lb/>conduits par des
+                miliciens commandés pour cela; les <lb/>sauvages qui y traitent sont les
+                Mississagués et les Saulteux. <lb/>Il en peut sortir cent cinquante paquets de
+                pelleteries.</p>
+            <p>
+                <hi rend="italique">Frontenac</hi> ou <hi rend="italique">Katarakoui</hi>, mauvais
+                fort à l'entrée du lac <lb/>Ontario; si Chouéguen n'eût pas été détruit, il eût
+                fallu le <pb n="52"/>
+                <lb/>rendre respectable; il y a un commandant, plusieurs officiers <lb/>sous ses
+                ordres et<gap resp="editor" rend="points" extent="1 word"/> hommes de garnison.</p>
+            <p> Ce poste est exploité par le roy qui conséquemment en <lb/>supporte les charges; il
+                faudroit que le commerce y fût libre.</p>
+            <p> Les sauvages qui y viennent en traite sont les Cinq-Nations <lb/>et les
+                Mississagués.</p>
+            <p> Il en peut sortir année commune vingt à trente paquets.</p>
+            <p>
+                <hi rend="italique">La Présentation</hi>, mission pour les sauvages des Cinq-Nations
+                <lb/>établie par M̟. l'abbé Piquet, sur la rive droite du fleuve <lb/>Saint Laurent,
+                    à<gap resp="editor" rend="points" extent="1 word"/> lieue de Mont-réal. Il peut
+                y avoir <lb/>maintenant cent sauvages des Cinq-Nations rassemblés par <lb/>ses
+                soins. Ils y ont des terres qu'ils cultivent, des volailles et <lb/>bestiaux en
+                propriété.</p>
+            <p> Il y a un mauvais fort de pieux debout, un commandant <lb/>et une petite
+                garnison.</p>
+            <p> Ce poste s'exploite par le roy; on n'y donne point d'eau̠de-vie. <lb/>Il en peut
+                sortir année commune trente ou quarante <lb/>paquets.</p>
+            <p><hi rend="italique">Le sault Saint Louis</hi>, mission des jésuites pour les
+                Iroquois. <lb/>Il peut y avoir trois cent cinquante sauvages qui ont terres,
+                <lb/>bestiaux, volailles. Le commerce s'y fait par les jésuites qui <lb/>afferment à
+                Monsieur de Muceaux huit cents francs.</p>
+            <p>
+                <hi rend="italique">Lac des deux montagnes</hi>, mission établie sur le lac de ce
+                <lb/>nom qui est formé par la rivière des Outawais, à douze lieues <lb/>de
+                Mont-réal, et desservie par les Sulpiciens. Il peut y avoir <lb/>deux cent cinquante
+                sauvages Nepissings, Algonkins et Iro̠quois; <lb/>il n'y a ni commandant français ni
+                garnison; le com̠merce <lb/>est affermé par les prêtres pour neuf ans, deux mille
+                <lb/>francs; il en sort année commune cent cinquante paquets.</p>
+            <p>
+                <hi rend="italique">Michilimakinac</hi>, fort de pieux debout situé dans le détroit
+                <lb/>de communication du lac Michigan avec le lac Huron; c'est <lb/>l'entrepost des
+                postes du nord; il est sur le même pied que le <lb/>Détroit, entrepost des postes du
+                sud; il s'exploite par congés <lb/>qui sont de six cents francs par canot; chaque
+                canot est <lb/>obligé de porter cinq cents livres pesant pour les officiers ou
+                <lb/>le nécessaire de la garnison; on la réduit à mille francs de <lb/>présents par
+                an pour les sauvages sans certificats; le com̠mandant <lb/>y a trois mille francs,
+                le commandant en second <lb/>mille francs, l'interprète six cents francs.</p>
+            <p> Les sauvages qui viennent en traite à ce poste sont les <lb/>Saulteux les Outawais;
+                il en peut sortir, année commune, <lb/>six à sept cents paquets<hi rend="points"
+                /></p>
+            <pb n="53"/>
+            <p>
+                <hi rend="italique">Baye des Puants</hi> (Monsieur de Rigaud), poste établi. Il est
+                <lb/>affermé neuf mille francs; on en a supprimé toute dépense <lb/>pour le compte
+                du roy ; il n'y a ni présens, ni certificats, ni <lb/>gages d'interprètes, tous ces
+                frais sont aux dépens du fermier.</p>
+            <p> Le commandant (Coutrol, lieutenant) est un officier inter̠ressé <lb/>dans la ferme
+                et qui fait valoir pour son compte et celui <lb/>de ses associés; il a deux mille
+                francs de gratification. Ce <lb/>poste comprend aussi les Sioux.</p>
+            <p> Les sauvages qui y viennent en traite sont les Folles-Avoines <lb/><hi
+                    rend="italique">Sakis, Outagamis</hi> ou <hi rend="italique">Renards, Puants,
+                    Maskoutens, Kikapous, <lb/>Sioux des Prairies, Sioux des Lacs</hi>. Il en sort,
+                année commune, <lb/>cinq à six cents paquets.</p>
+            <p>
+                <hi rend="italique">La Rivière Saint-Joseph</hi> (Monsieur le Verrier), fort situé
+                sur <lb/>la droite de la rivière de ce nom, à vingt lieues de son embou̠chure, <lb/>
+                dans le lac Michigan. Ce poste est sur le même pied <lb/>que la Baye ; le commandant
+                en est le fermier en tout ou en <lb/>partie, à la volonté du gouverneur général, il
+                en supporte les <lb/>frais, il a deux mille francs de gratification et l'interprète
+                <lb/>cinq cents francs; le prix de la ferme est de<gap resp="editor" rend="points"
+                    extent="1 word"/></p>
+            <p> Les sauvages qui y vont en traite sont les Poutéwatamis, <lb/>quatre cents hommes
+                environ et quelques Myamis. Il en peut <lb/>sortir quatre cents paquets en peaux de
+                chats, ours, pichoux, <lb/>loutres, chevreuils, cerfs.</p>
+            <p>
+                <hi rend="italique">La Mer d'Ouest</hi>, poste qui comprend les forts Saint-Pierre,
+                <lb/>Saint-Charles, Bourbon, de la Reine, Dauphin, Poskoia et <lb/>des Prairies,
+                tous, forts de pieux debout, respectables seule̠ment <lb/>pour les sauvages.</p>
+            <p>
+                <hi rend="italique">Le fort Saint-Pierre</hi> est situé sur la rive gauche du lac de
+                    <lb/><hi rend="italique">Tekamamiouen</hi> ou lac de la Pluie, à cinq cents
+                lieues de <hi rend="italique">Michili̠makinak</hi>
+                <lb/>et trois cents de <hi rend="italique">Kamanistigoyia</hi> ou les Trois-Rivières
+                <lb/>au nord ouest du lac Supérieur.</p>
+            <p>
+                <hi rend="italique">Le fort Saint-Charles</hi> est à soixante lieues de celui de
+                Saint̠Pierre, <lb/>situé sur une presqu'isle fort avancée dans le lac des
+                <lb/>Bois.</p>
+            <p>
+                <hi rend="italique">Le fort Bourbon</hi> est à cent cinquante lieues du précédent,
+                <lb/>situé à l'entrée du lac Ouimpeg.</p>
+            <p>
+                <hi rend="italique">Le fort la Reine</hi> est sur la rive droite de la rivière des
+                    <hi rend="italique">Assini̠boels</hi>, <lb/> à soixante-dix lieues du fort
+                Bourbon. Ces contrées <lb/>offrent partout de vastes prairies; c'est la route pour
+                aller dans <lb/>le haut du Missouri.</p>
+            <p>
+                <hi rend="italique">Le fort Dauphin</hi>, à quatre-vingts lieues du précédent, est
+                <lb/>situé sur la rivière <hi rend="italique">Minanghenachequeké</hi> ou de l'<hi
+                    rend="italique">Eau trouble</hi>.</p>
+            <pb n="54"/>
+            <p><hi rend="italique">Le fort Poskoia</hi> est sur la rivière de ce nom à cent
+                quatre̠vingts <lb/>lieues du précédent; de ce fort on va en dix jours à la
+                <lb/>rivière de <hi rend="italique">Nelson</hi>. Le fort des Prairies est à
+                quatre-vingts lieues <lb/>du fort Poskoia dans le haut de la rivière de ce nom. Ce
+                poste <lb/>a été affermé huit mille francs; le commandant en est le fer̠mier <lb/>et
+                il a le quart dans le poste. Les sauvages qui y vien̠nent <lb/>traiter sont les
+                Cristinaux et les Assiniboels; ces deux <lb/>nations forment chacune douze villages
+                de deux cent cin̠quante <lb/>hommes l'un portant l'autre; année commune il se
+                <lb/>fait dans ce poste de trois à quatre cents paquets en castors, <lb/>pékans,
+                martres, loutres, loups-cerviers, carcajoux, fouines, <lb/>renards; il faut compter
+                de plus cinquante à soixante esclaves <lb/>rouges ou panis de <hi rend="italique"
+                    >Jatihilinine</hi>, nation située sur le Missouri, <lb/>et qui joue, dans
+                l'Amérique, le rôle des nègres en Europe. Il <lb/>n'y a que dans ce poste que l'on
+                fasse ce commerce.</p>
+            <p>
+                <hi rend="italique">Le poste de la mer d'Ouest</hi> mérite une attention
+                particulière <lb/>pour deux raisons, la première en ce qu'il est de tous le plus
+                <lb/>voisin des établissemens des Anglois à la baye d'Hudson, et <lb/>que c'est de
+                là qu'il faut veiller à leurs démarches; la seconde, <lb/>c'est que c'est de ce
+                poste qu'on pourra découvrir la mer de <lb/>l'Ouest; mais pour faire cette
+                découverte il faudroit que les <lb/>voyageurs quittassent les vues d'intérêt.</p>
+            <p>
+                <hi rend="italique">Voyage de la Véranderie</hi>. - Celui qui a le plus avancé cette
+                <lb/>découverte est le sieur de la Véranderie; il alla du fort de la <lb/>Reine
+                gagner le Missouri, il rencontra d'abord sur cette ri̠vière <lb/>les <hi
+                    rend="italique">Mandannes</hi> ou <hi rend="italique">Blancs Barbus</hi> au
+                nombre de sept vil̠lages <lb/>entourés de forts de pieux terrassés avec un fossé,
+                <lb/>ensuite les <hi rend="italique">Kinongewiniris</hi> ou les <hi rend="italique"
+                    >Brochets</hi> au nombre de trois <lb/>villages; dans le haut de la rivière, il
+                trouva <hi rend="italique">les Mahantas</hi>
+                <lb/>faisant aussi trois villages, et le long du Missouri, en le <lb/>descendant
+                jusqu'à la décharge de la rivière <hi rend="italique">Wabiek</hi> ou à la
+                <lb/>Coquille, vingt-trois villages de <hi rend="italique">Panis</hi>.</p>
+            <p> Au sud ouest de cette rivière et sur les deux rives Ouona̠radeba <lb/>ou <hi
+                    rend="italique">à la Graisse</hi> sont les Hactannes ou gens du serpent.
+                <lb/>Ils s'étendent jusqu'au pied d'une chaîne de montagnes fort <lb/>élevées, qui
+                courent nord, est, sud, et au sud de laquelle est la <lb/>rivière <hi
+                    rend="italique">Karoskiou</hi> ou <hi rend="italique">Cerise pelée</hi>, que
+                l'on suppose se rendre <lb/>à la Californie.</p>
+            <pb n="55"/>
+            <p> Il continua sa route et trouva dans ces pays immenses, <lb/>qu'arrose le Missouri,
+                vis-à-vis et à environ quarante lieues <lb/>des <hi rend="italique">Mahantas</hi>,
+                les <hi rend="italique">Owilinioek</hi> ou beaux hommes, quatre vil̠lages, <lb/>
+                vis-à-vis des <hi rend="italique">Brochets</hi>, les <hi rend="italique"
+                    >Macateoualasites ou Pieds Noirs</hi>, <lb/>trois villages de cent cabanes
+                environ chacun vis-à-vis des <lb/>Mandannes sont les <hi rend="italique"
+                    >Ospekakaerenousques</hi> ou gens du plat côté, <lb/>quatre villages; vis-à-vis
+                des <hi rend="italique">Panis</hi> sont les gens de l'arc <lb/><hi rend="italique"
+                    >Atchapcivinioques</hi> en Cristinaux et <hi rend="italique"
+                    >Utasibaoutchactas</hi> en <hi rend="italique">Assini̠boels</hi>, <lb/>trois
+                villages; on trouve ensuite les Makesch ou Petits̠Renards, <lb/>deux villages; les
+                    <hi rend="italique">Piwassa</hi> ou Grands-Parleurs, trois <lb/>villages; les
+                    <hi rend="italique">Kakakoschena</hi> on gens de la Pie, cinq villages, les
+                    <lb/><hi rend="italique">Kiskipisounouinini</hi> ou gens de la Jarretière, sept
+                villages.</p>
+            <p> Il ne put aller plus loin à cause de la guerre qui étoit alors <lb/>entre les gens
+                de la Jarretière et la nation suivante. Au <lb/>reste c'est improprement que je me
+                suis servi du nom de <lb/>village pour toutes ces nations qui habitent les prairies,
+                elles <lb/>forment, comme des Tartares, des hordes errantes, elles <lb/>suivent les
+                bêtes dont la chasse les fait vivre, leurs demeures <lb/>sont des cabanes de
+                peaux.</p>
+            <p>
+                <hi rend="italique">Les Népigons</hi>, poste établi au nord du lac Supérieur; le
+                <lb/>commandant en est le fermier et le prix de la ferme est <lb/>d'environ quatre
+                mille francs; il comprend le lac à la <hi rend="italique">Carpe</hi>
+                <lb/>situé<gap resp="editor" rend="points"/></p>
+            <p> Les sauvages qui y traitent sont les Saulteux; cette na̠tion, <lb/>une des plus
+                nombreuses de ces contrées, est errante, <lb/>ne sème rien, ne vit que de chasse et
+                de pêche. Il en sort com̠munément <lb/>chaque année quatre-vingts à cent paquets
+                    en<gap resp="editor" rend="points"/></p>
+            <p>
+                <hi rend="italique">Pointe de Chagoamigon</hi> (Monsieur de Beaubassin), située<gap
+                    resp="editor" rend="points"/>
+                <lb/>Ce poste est affermé huit mille cent francs au sieur de Saint̠Luc; <lb/>
+                jusqu'en <date>1758</date> il n'y a eu ny présents, ny certificats, seu̠lement <lb/>
+                l'interprète à payer. Le commandant y a trois mille <lb/>francs de
+                gratification.</p>
+            <p> Les sauvages qui y viennent traiter sont les Saulteux. Il en <lb/>sort annuellement
+                environ deux cent cinquante paquets.</p>
+            <p>
+                <hi rend="italique">Kamanistigoya</hi> (Monsieur de Repentigny) ou les
+                Trois-Ri̠vières, <lb/>situé<gap resp="editor" rend="points"/> Ce poste a été
+                affermé, à feu Monsieur Cu̠gnet, <lb/>quatre mille francs; comme il l'a sous-affermé
+                au sieur <lb/>Toussaint Portier, la cour lui en a accordé l'excédant pour le
+                <lb/>dédommager de l'exploitation des congés de Saint Maurice.</p>
+            <p> Le roy n'a plus rien à payer que deux mille livres de gra̠tification <lb/>au
+                commandant, il n'y a ny présents ny certificats; <lb/>la ferme de ce poste finira en
+                    <date>1758</date>. Les sauvages qui y <pb n="56"/>
+                <lb/>viennent en traite sont les Saulteux. Il en sort annuellement <lb/>soixante à
+                soixante-dix paquets en<gap resp="editor" rend="points"/></p>
+            <p>
+                <hi rend="italique">Michipicoton</hi>, poste situé au nord-est du lac Supérieur,
+                <lb/>comme celuy de <hi rend="italique">Kamanistigwia</hi> l'est au nord-ouest. Les
+                <lb/>Saulteux y viennent en traite. Il en sort de cinquante à <lb/>soixante
+                paquets.</p>
+            <p>
+                <hi rend="italique">Sault de Sainte-Marie</hi>, fort de pieux, situé dans le détroit
+                <lb/>de communication du lac Supérieur avec le lac Huron établi <lb/>en
+                    <date>1750</date>.</p>
+            <p> La traite en fut accordée gratis au commandant pour faci̠liter <lb/>
+                l'établissement. Le roy donne cinq cents francs de grati̠fication <lb/>pris sur
+                Michilimakinac, dont ce poste dépend. Les <lb/>sauvages qui y font la traite sont
+                les Saulteux. Il en sort <lb/>annuellement cent paquets. Le sieur Debonne, le sieur
+                de <lb/>Repentigny l'ont par concession, comme seigneurie hérédi̠taire.</p>
+            <p>
+                <hi rend="italique">Temiscanimgue</hi>, poste situé sur le bord d'un lac de ce nom,
+                <lb/>affermé sept mille francs; les sauvages appellent l'endroit où <lb/>est le
+                poste <hi rend="italique">Aubatswenanek</hi>. Les nations qui y traitent sont
+                <lb/>les <hi rend="italique">Têtes de Boules</hi> ou gens des terres et les <hi
+                    rend="italique">Namcosakio</hi> qui <lb/>viennent du côté de la baye
+                d'Hudson.</p>
+            <p>
+                <hi rend="italique">Tabitibi</hi> est un poste dépendant de <hi rend="italique"
+                    >Temiscaming</hi>, à cent <lb/>vingt lieues de l'établissement précédent, du
+                côté de la baye <lb/>d'Hudson; il peut y avoir cent hommes dans les deux postes;
+                <lb/>ils vivent de pêche et de chasse; ne sèment rien et n'ont <lb/>aucun village;
+                tout ce pays est montagneux et peu fertile. Il <lb/>en sort environ cent vingt
+                paquets en castors, loups-cerviers, <lb/>martres, loutres, pekans, carcajoux,
+                cariboux.</p>
+            <p>
+                <hi rend="italique">Le long Sault</hi>, poste situé sur la rive du sud de la grande
+                <lb/>rivière on des Outaouas, comme Carillon l'est sur la rive <lb/>nord, au pied du
+                même sault, à six lieues du lac des deux <lb/>montagnes.</p>
+            <p> Ces deux petits postes ont été établis pour traiter au pas̠sage <lb/>des sauvages ,
+                qui sont les Népisings , Algonkins et <lb/>Iroquois. Il s'y fait environ cent
+                cinquante paquets, les mê̠mes <lb/>pelleteries qu'à Themiscamingue, quelques ours et
+                quel̠ques <lb/>chats de plus.</p>
+            <p> M̟. le marquis de Vaudreuil, commandant du Long Sault, <lb/>en retire <num
+                    type="cardinal">800</num> fr̟. de rente, et en temps de paix <num
+                    type="cardinal">4000</num>.</p>
+            <p>
+                <hi rend="italique">Carillon</hi> à M̟. d'Aillebout de Cuisy.</p>
+            <p> Les pelleteries qui sortent du lac des deux montagnes sont <lb/>de la même espèce
+                que celles de Themiscamingue.</p>
+            <pb n="57"/>
+            <p>
+                <hi rend="italique">Chambly, Saint-Thérèze, Saint-Jean.</hi>
+            </p>
+            <p> Les sauvages Abenakis établis à Missiskouy, Saint-Frédé̠ric, <lb/>Carillon.</p>
+            <lb/>
+            <list>
+                <head>Villages des sauvages domiciliés.</head>
+                <lb/>
+                <item n="1">
+                    <p>Lorette, Hurons;</p>
+                </item>
+                <item n="2">
+                    <p>Bekancourt, Abenakis, <num type="cardinal">5</num> ou <num type="cardinal"
+                            >600</num> hommes;</p>
+                </item>
+                <item n="3">
+                    <p>Missiskouy, Abenakis, <num type="cardinal">100</num> à <num type="cardinal"
+                            >150</num> hommes;</p>
+                </item>
+                <item n="4">
+                    <p>Saint-François, Abenakis;</p>
+                </item>
+                <item n="5">
+                    <p>Sault Saint-Louis, Iroquois;</p>
+                </item>
+                <item n="6">
+                    <p>Lac des deux montagnes;</p>
+                </item>
+                <item n="7">
+                    <p>La Présentation, 5 nations;</p>
+                </item>
+                <item n="8">
+                    <p>Hurons du Détroit;</p>
+                </item>
+                <item n="9">
+                    <p>Miratmitchi (Micmaks).</p>
+                </item>
+            </list>
+            <p>
+                <hi rend="italique">Récapitulation des forts et des postes</hi>. - Cap Charles,
+                Baye̠des-Châteaux, <lb/>Saint-Modet, la Baye-Rouge, l'Anse-au-Loup, <lb/>la Forteau,
+                Baye Phelipeaux, Chichateka, rivière Saint̠Augustin, <lb/>Méchatina, Nontagnaniou,
+                Maingan, les Sept-Isles, <lb/>les Islets de Jérémie, Tadoussac, Chueretimi, Québec,
+                Lo̠rette, <lb/>les Trois-Rivières, Bekancourt, Saint François, Cham̠bly,
+                <lb/>Saint-Jean, Saint-Frédéric, Carillon, Mont-réal, lac des <lb/>deux Montagnes,
+                Carillon, le long Sault, Themiscamingue, <lb/>Abitibis, Michipicotton, Nepigon,
+                Kamanistigouia, la Mer̠d'Ouest, <lb/>Chagouamigon, la Baye-des-Illinois, les
+                Ouyatanons, <lb/>les Miamis, la rivière Saint-Joseph, le Détroit, la Presqu'Isle,
+                <lb/>la rivière au Boeuf, le fort Machault, le fort Duquesne, Nia̠gara,
+                <lb/>Toronto, Catarrakoui, la Présentation, Saint-Regis, le
+                <lb/>Sault-Saint-Louis.</p>
+            <p>OBSERVATIONS</p>
+            <p>
+                <hi rend="italique">Villes. – Québec</hi>, grande ville, mal fortifiée; </p>
+            <p>
+                <hi rend="italique">Trois-Rivières</hi>, ville entourée de quelques mauvaises
+                palis̠sades; </p>
+            <p>
+                <hi rend="italique">Mont-réal</hi>, mal fortifiée avec un mur crénelé. </p>
+            <list>
+                <head rend="italique">Forts</head>
+                <label>1°</label>
+                <item><hi rend="italique">Route de Mont-réal à Carillon :</hi>
+                    <lb/> La Prairie, fort de pieux abandonné; Saint-Jean, fort de <lb/>pieux, avec
+                    quatre bastions, des entrepôts et hangars; fort <lb/>Saint-Frédéric, en pierres;
+                    fort de Carillon, de pièce sur <lb/>pièce;</item>
+                <label>2°</label>
+                <item><hi rend="italique">Route de Mont-réal par Chambly:</hi>
+                    <lb/> Sorel,fort de pieux, abandonné; Chambly, fort en pierres; <pb n="58"/>
+                    <lb/>Sainte-Thérèze, ancien fort de pieux, abandonné, des maga̠sins <lb/>et des
+                    hangards;</item>
+                <label>3°</label>
+                <item><hi rend="italique">Route de Mont-réal au fort Duquesne:</hi>
+                    <lb/>La Chine, hangards et magasins du roy où l'on conduit les <lb/>effets du
+                    roy destinés aux Pays d'en Haut; Sault Saint-Louis, <lb/>fort en pieux, contre
+                    les Agniers; les Cèdres, fort en pieux; <lb/>Saint-Régis, fort en pieux,
+                    nouvelle mission des Jésuites pour <lb/>les Iroquois; la Présentation ou la
+                    Galette, fort en pieux, <lb/>nouvelle mission des Sulpiciens pour attirer les
+                    Cinq-Nations; <lb/>Frontenac ou Katarakoui, mauvais fort sur le lac Ontario,
+                    <lb/>avec une rade; on y avoit commencé en <date>1755</date> et
+                        <date>1756</date> une <lb/>espèce de camp retranché, abandonné après la
+                    prise de <lb/>Chouèguen; Toronto ou Saint-Victor, petit fort de pieux sur
+                    <lb/>le lac Ontario, pour vendre de l'eau-de-vie aux sauvages <lb/>afin de
+                    contre-balancer le commerce qui se faisoit à Choue̠guen; <lb/>Niagara, fort en
+                    terre qu'il faut revêtir de pierre, <lb/>construit en <date>1755</date> et
+                        <date>1756</date> par les troupes françoises, sous la <lb/>direction de
+                    Monsieur Pouchot, capitaine au régiment de <lb/>Béarn; petit fort de Niagara
+                    pour entrepôt; fort de la <lb/>Presqu'Isle pour entrepôt; fort de la rivière au
+                    Boeuf ou fort <lb/>Roial pour entrepôt; fort Machault pour entrepôt, en pieux;
+                    <lb/>fort Duquesne à portée de l'Oyo. Il y a encore un fort au
+                    <lb/>Détroit.</item>
+            </list>
+            <p>
+                <hi rend="italique">Traite et congés</hi>. - Dans presque tous les postes, la maison
+                <lb/>où loge l'officier qui commande, étant entourée de pieux, est <lb/>honorée du
+                nom de fort. On appelle fort, en Canada, des <lb/>espèces de comptoirs où l'on fait
+                le commerce des pelleteries <lb/>avec les sauvages, qui les donnent en retour des
+                marchan̠dises <lb/>dont ils ont besoin, autrefois on les mettoit tous aux
+                <lb/>enchères, les commerçants pouvoient y prétendre; on donnoit <lb/>un produit au
+                roy et l'on payoit l'officier qui y commandoit. <lb/>Aujourd'huy le gouverneur
+                général en dispose pour ses créa̠tures, <lb/>avec l'approbation de la cour. Les plus
+                considérables <lb/>sont: la mer d'Ouest, le poste de la Baye, Saint-Joseph, les
+                <lb/>Nepigons et Michilimakinac, si l'on n'y donnoit pas beaucoup <lb/>de congés. Le
+                poste du Détroit n'est jamais donné; on donne <lb/>des congés.</p>
+            <p> Il y a des postes où la traite se fait pour le compte du roy; <lb/>tels que,
+                Toronto, Frontenac, Niagara, le petit Portage, la <lb/>Presqu'Isle, la rivière au
+                Boeuf, le fort Machault, le fort Du̠quesne. <lb/>Le commerce qui s'y fait est
+                toujours très-onéreux <lb/>au roy, qui y perd, et ne le fait que pour conserver
+                l'affec̠tion <pb n="59"/>
+                <lb/>des sauvages; mais les gardes magasins et les comman̠dans <lb/>ont grand soin
+                de s'y enrichir.</p>
+            <p> Le poste de la Baye a valu en trois ans à Messieurs Rigaud <lb/>et Marin, trois cent
+                douze mille livres, et du temps de <lb/>Monsieur Marin père, qui l'avoit de société
+                avec Messieurs de <lb/>la Jonquière et Bigot, il produisoit plus de cent cinquante
+                <lb/>mille livres par an quitte. Il y a là du sçavoir faire, du bonheur <lb/>et la
+                paix vaut mieux que la guerre.</p>
+            <p> Le poste de la mer d'Ouest est aussi considérable.</p>
+            <p> On appelle congé, les permissions que le gouverneur géné̠ral <lb/>accorde pour un
+                canot chargé de six mille livres de mar̠chandises <lb/>que l'on va vendre dans un
+                des postes indiqués; on <lb/>paye cette permission cinquante pistoles et le
+                gouverneur <lb/>général, maître d'en donner plus ou moins, affecte ces fonds
+                <lb/>pour entretenir les pauvres familles d'officiers. On ne rend <lb/>compte au roy
+                que de vingt-deux congés; le gouverneur en <lb/>donne souvent jusqu'à quarante, la
+                moitié des cinquante <lb/>pistoles fait fonds à la recette du roy et l'autre moitié
+                est à <lb/>la disposition du gouverneur pour gratifications.</p>
+            <p> Michilimakinac est l'entrepôt de tous les postes de la côte <lb/>du nord et le
+                Détroit de ceux de la côte du sud.</p>
+            <p> Le Détroit, beau pays à portée de toutes les Nations d'en <lb/>Haut, climat tempéré
+                où la vigne produiroit.</p>
+            <p> Le castor commerce exclusif fait par la compagnie des <lb/>Indes; il lui coûte
+                quatre francs, dont trois francs seize <lb/>sous pour celui qui le vend, et quatre
+                sous partagés au <lb/>gouverneur général, au gouverneur de Mont-réal, à l'inten̠dant
+                <lb/>général, au commissaire ordonnateur et à l'agent de la <lb/>compagnie, sçavoir
+                : deux pour cent au gouverneur général, <lb/>un et demy à l'intendant, un demy au
+                gouverneur de Mont̠réal, <lb/>un quart au commissaire ordonnateur, les trois quarts
+                <lb/>pour cent pour les frais de régie; le gouverneur et l'intendant <lb/>ayant
+                aussi en présents une balle de café et quatre livres de <lb/>thé; la compagnie
+                achette aussi les rats musqués dont elle <lb/>n’a pas le commerce exclusif, elle les
+                payoit autrefois quinze <lb/>sous pièce, elle les achette actuellement cinq sous; le
+                rat <lb/>musqué a un poil court et propre à entrer dans la composition <lb/>des
+                chapeaux; ses rognons se vendent pour en tirer le <lb/>musc.</p>
+            <p> Les appointemens du gouverneur général consistent en <lb/>cinq mille deux cents
+                francs, mille écus pour la moitié de la <lb/>cantine, environ deux mille francs pour
+                son droit sur le <pb n="60"/>
+                <lb/>castor et avec quelques autres petits émolumens, cela va à <lb/>près de onze
+                mille francs.</p>
+            <p> Le gouverneur des Trois-Rivières a un fort joly logement; <lb/>celui de Mont-réal
+                n'en a point; ses appointemens sont de <lb/>cinq mille deux cents francs, mais il
+                n'a d'autres émolumens <lb/>que sa cantine, objet de cinq à six cents francs.</p>
+            <p> Toutes les lieutenances du roy n'ont que mille huit cents <lb/>francs
+                d'appointemens; la lieutenance de roy de Québec est <lb/>la meilleure à cause de la
+                cantine.</p>
+            <p> Les majorités sont aux appointemens de mille deux cents <lb/>francs.</p>
+            <p>
+                <hi rend="italique">Milice</hi>. - Tous les habitans en état de porter les armes,
+                <lb/>depuis quinze ans jusqu'à soixante, sont inscrits et obligés <lb/>de servir
+                toutes les fois que le gouverneur général les com̠mande. <lb/>Ils ont des officiers
+                dans chaque paroisse; les capi̠taines <lb/>y ont des grandes considérations; un banc
+                à l'église <lb/>avant celui des co-seigneurs; c'est à eux que tous les ordres
+                <lb/>s'adressent, quand ils servent ; ainsi que leurs miliciens, ils <lb/>ne
+                reçoivent aucune solde, mais la subsistance et un équi̠pement; <lb/>ils n'ont aucun
+                rang avec les troupes réglées et <lb/>seroient même commandés par les sergens et les
+                cadets à <lb/>l'aiguillette, cependant on a envie de faire un règlement à <lb/>cette
+                occasion, pour que les officiers de ces milices puissent <lb/>commander les sergens
+                des troupes réglées. Monsieur le <lb/>marquis de Vaudreuil pense proposer pour
+                capitaines de <lb/>milices ceux qui se distingueront et de leur faire venir des
+                <lb/>commissions du roy; et alors ils auront rang avec les officiers <lb/>des
+                troupes réglées, comme lieutenans du jour de cette nou̠velle <lb/>commission;
+                lorsqu'ils sont blessés ou estropiés au <lb/>service, le gouverneur général leur
+                procure une petite gra̠tification <lb/>annuelle.</p>
+            <p> Les distinctions que le gouverneur général accorde aux <lb/>sauvages qui se
+                distinguent à la guerre ou qui ont de la con̠sidération <lb/>dans leur cabane, sont
+                le hausse col, qu'ils se <lb/>font grand honneur de porter, et la grande distinction
+                ce <lb/>sont des médailles où il y a l'effigie du roy.</p>
+            <p> On appelle cadets à l'éguillette, les cadets des troupes de la <lb/>marine ainsi
+                nommés, parce qu'ils portent une éguillette à <lb/>leur uniforme; ils n'ont de fait
+                rang qu'après les sergens et <lb/>caporaux, et on les détache à la guerre comme
+                officiers et on <lb/>leur fait faire le service d'officiers majors.</p>
+            <p>
+                <hi rend="italique">L'hiver en Canada</hi>. - L'hiver est toujours très-rude en
+                Ca̠nada, <pb n="61"/>
+                <lb/>le froid y est cependant toujours beau et fort sec, <lb/>pourvu qu'il n'y ait
+                pas du vent nord-est, qui produit toujours <lb/>de la neige l'hiver et de la pluye
+                le printems. Il est aisé de <lb/>juger de la rigueur de la saison quand on songe que
+                le fleuve <lb/>Saint-Laurent prend tous les hivers, à pouvoir le traverser <lb/>en
+                voiture, et la navigation qui cesse d'être libre à la fin de <lb/>novembre, ne
+                recommence, pour l'ordinaire, que vers le <lb/><date>20 avril</date>; une année même
+                la rivière étoit encore prise, <lb/>vis-à-vis de Québec, au <date>3 mai</date>. Cet
+                hiver a été un des plus <lb/>rudes. Le thermomètre a été jusqu'à <num
+                    type="cardinal">26</num> degrés et demy, et <lb/>pendant le mois de décembre,
+                janvier et février presque <lb/>toujours de <num type="cardinal">12</num> à <num
+                    type="cardinal">20</num>; on ne peut ensemencer les terres <lb/>qu'à la fonte
+                des neiges, dans le mois de may; ce pendant <lb/>la récolte, qui pour l’ordinaire
+                est abondante, se fait à la fin <lb/>d'aoust.</p>
+            <p>
+                <hi rend="italique">Fertilité du Canada</hi>. - Le Canada est très-abondant en
+                <lb/>toutes sortes de bestiaux, de boeufs, cochons, veaux, comme <lb/>en France, le
+                mouton, en général, moins bon, les perdrix <lb/>admirables et en quantité, les
+                lapins, on n'en voit point, les <lb/>lièvres mauvais, le poil leur blanchit en hiver
+                et devient roux <lb/>l'été, la volaille admirable, beaucoup de canards, de
+                bécas̠sines, <lb/>d'outardes, fort au-dessus de celles de France, les <lb/>bécasses
+                médiocres, petites, l'ours bon à manger, la patte <lb/>d'ours fait un morceau
+                délicieux et recherché, l'orignal, <lb/>espèce d'élan, et le caribou, espèce de
+                cerf, fort bons surtout <lb/>en pâté, le mufle est au-dessus de tout ce qu'on peut
+                manger; <lb/>on a aussi des pigeons et une quantité étonnante de toute <lb/>espèce
+                de manne pour le pays et dans l'arrière saison des <lb/>petits oiseaux appelés culs
+                blancs, aussi bons et aussi délicats <lb/>que les rouges-gorges de Verdun. Presque
+                tous les légumes <lb/>et herbages, comme en France y viennent bien, les pois verts
+                <lb/>pour faire de la purée y sont d'une qualité admirable, on n'y <lb/>connoît pas
+                les petits pois de Paris, on fait dans l'arrière <lb/>saison ses provisions
+                d'herbages et de légumes pour tout <lb/>l'hiver et ses provisions de viandes qui,
+                étant gelées, se gar̠dent <lb/>trois ou quatre mois, elles perdent à la vérité un
+                peu de <lb/>saveur, et lorsqu'il arrive des dégels inattendus on est exposé <lb/>de
+                perdre ses provisions pour beaucoup d'argent.</p>
+            <p> Le Canada ne produit presque aucun fruit, que des pommes <lb/>admirables de toute
+                espèce, principalement renettes, cal̠villes <lb/>et api; le plus beau fruit est à
+                Mont-réal dans les ver̠gers <lb/>de Messieurs de Saint-Sulpice; des poires, beaucoup
+                de <pb n="62"/>
+                <lb/>fraizes, framboises et cerises, des melons, très-mauvaises <lb/>noix qui
+                viennent du côté du Niagara, des châtaignes mé̠diocres, <lb/>et un petit fruit
+                sauvage appelé otoka dont on fait des <lb/>confitures qui seroient trouvées
+                délicieuses en France.</p>
+            <p> Le fleuve Saint-Laurent, les rivières et les lacs produisent <lb/>abondamment du
+                poisson dont beaucoup sont d'une grosseur <lb/>énorme ; le saumon y abonde; les
+                truites fort rares; presque <lb/>point d'écrevisses; beaucoup d'anguilles
+                très-bonnes ; beau̠coup <lb/>de carpes et de brochets, inférieurs à ceux qu'on mange
+                <lb/>en France; beaucoup de poissons très-vantés en Canada, <lb/>mais qui
+                n'approchent pas, suivant moy, de notre marée, <lb/>quoiqu'on vante beaucoup les
+                achégans, les poissons dorés <lb/>et les maskinongés ; on n'y trouve aucun
+                coquillage : vers <lb/>Gaspé, de mauvaises huîtres, et vers les Trois-Rivières on
+                <lb/>prend un petit poisson qui est très-bon en friture, que l'on <lb/>appelle
+                petite morue; on le dit de même espèce que les <lb/>grandes morues; je ne le crois
+                pas. J’ay de même ouy dis̠puter <lb/>que les saumonneaux, que l'on mange à Basle et
+                à <lb/>Strasbourg, sont d'une espèce différente que les saumons. <lb/>Le castor,
+                animal amphibie, ayant été décidé maigre est <lb/>d'une grande utilité, les
+                Canadiens l'aiment beaucoup ; il <lb/>ressemble assez à du mouton gras de Beauvais;
+                un goût un <lb/>peu fade; il faut le relever avec une sauce piquante; la queue
+                <lb/>est un des trois morceaux qui font les délices des Canadiens, <lb/>et qu'on
+                donne comme tout ce qu'il y a de plus rare avec le <lb/>mufle d'orignal et la patte
+                d'ours.</p>
+            <p>
+                <hi rend="italique">Bois</hi>. - On trouve beaucoup de bois propre à la
+                construc̠tion <lb/>et à la charpente et à faire du merrain; cependant les
+                <lb/>bâtiments construits à Québec ne sont pas en général de <lb/>durée; l'arbre le
+                plus particulier du Canada est l'érable; on <lb/>lui fait des incisions dans le mois
+                de mars, on en tire une <lb/>eau dont on fait une espèce de sirop
+                très-rafraîchissant et <lb/>fort sain; on en fait un sucre ou cassonade dont se
+                servent <lb/>quasi tous les habitans après l'avoir raffiné; on en fait des
+                <lb/>tablettes qu'on envoye en France; elles sont bonnes pour la <lb/>poitrine.</p>
+            <p>
+                <hi rend="italique">Plantes</hi>. - Il y a beaucoup de plantes rares dont les
+                sau̠vages <lb/>connoissent fort bien les propriétés, il seroit à souhaiter
+                <lb/>qu'on eût quelques habiles botanistes qui les étudiassent avec <lb/>eux; le
+                capillaire est fort au-dessus de celui qu'on recueille <lb/>en Europe; on attribue
+                beaucoup de propriété au cassis; le <lb/>Gin-Seng est une plante dont on fait grand
+                cas aux Indes; la <pb n="63"/>
+                <lb/>Compagnie des Indes en fait le commerce exclusif et n'en fait <lb/>pas venir
+                depuis quelques années, en ayant trop envoyé; on <lb/>prend une infusion des
+                feuilles comme du thé; c'est un sto̠machique. <lb/>On croit que cette plante
+                pourroit aider les faibles <lb/><foreign xml:lang="la" rend="italique">in actu
+                    veneris</foreign>.</p>
+            <p>
+                <hi rend="italique">Animaux</hi>. - On est fort incommodé en Canada d'une
+                <lb/>espèce de mouche plus grosse et plus venimeuse que celles <lb/>du Rhin; on les
+                appelle Maringouins.</p>
+            <p> On y trouve aussi le fameux serpent sonnette dont la queue <lb/>est divisée par
+                noeuds qui marquent les années et qui font <lb/>du bruit en marchant; il paroît
+                plutôt craindre l'homme que <lb/>le chercher; mais si on marche dessus sans s'en
+                apercevoir, <lb/>il mord, et sa blessure seroit mortelle si on n'y apportoit le
+                <lb/>remède, qui est de déchirer la playe jusqu'à ce qu'elle saigne <lb/>et y mettre
+                du sel, dont les sauvages portent toujours un petit <lb/>paquet au col par cette
+                raison.</p>
+            <p> On ne trouve en Canada aucuns oiseaux rares; ce n'est <lb/>qu'à la Louisiane et dans
+                les Pays d'en Haut où l'on voit le <lb/>pape, les cardinaux et les évêques, oiseaux
+                ainsi nommés à <lb/>cause de leur plumage rouge et violet, et d'une espèce de
+                <lb/>thiare qu'ont ceux appelés papes.</p>
+            <p>
+                <hi rend="italique">Commerce</hi>. - Le commerce en Canada consiste en
+                l'exploi̠tation <lb/>des denrées du pays et à faire venir de France celles <lb/>qui
+                sont nécessaires.</p>
+            <p>
+                <hi rend="italique">Importation de France</hi>. - On tire de France toutes les
+                bois̠sons <lb/>(et il se consomme extrêmement de l'eau-de-vie), les <lb/>huiles, les
+                épiceries, une partie des lards et des jambons, <lb/>toutes les étoffes, les toiles,
+                la bougie, une grande partie de <lb/>la chandelle; on en tire aussi le sel qui y est
+                marchandise <lb/>et les cartes à jouer qui ne payent aucun impôt en France; <lb/>on
+                tire aussy les ouvrages d'orfèvrerie et de bijouterie, n'ayant <lb/>point de matière
+                d'argent dans le pays; il s'y trouve cepen̠dant <lb/>trois ou quatre orfèvres qui
+                ont de la peine à vivre; ils <lb/>travaillent les parfitures et quelques piastres
+                que le commerce <lb/>illicite avec les Anglois introduit.</p>
+            <p> Depuis l'arrivée des troupes de France, comme elles sont <lb/>payées en espèces,
+                cela en a introduit dans la colonie où il <lb/>n'y en avoit presque point
+                auparavant.</p>
+            <p> Les habitans se sont munis en couverts, écuelles et go̠belets <lb/>d'argent en
+                faisant fondre des écus; on tire aussi de <lb/>France le papier.</p>
+            <p>
+                <hi rend="italique">Exportation pour la France</hi>. – <hi rend="italique"
+                    >Pelleteries</hi>. Les marchan̠dises <pb n="64"/>
+                <lb/>que l'on porte du Canada en France consistent dans les <lb/>fourrures et
+                pelleteries.</p>
+            <p> Le castor est la plus abondante et celle dont on fait le plus <lb/>grand commerce;
+                la <name>Compagnie des Indes</name> l'a exclusivement.</p>
+            <p> Les martres sont fort inférieures à celles du nord; et en <lb/>Canada on fait une
+                différence entre celles qui sont prises du <lb/>côté du nord et celles qui le sont
+                du côté du sud.</p>
+            <p> Les pecans, espèce de renard d'une pelleterie inférieure et <lb/>que les fourreurs
+                mettent souvent avec les martres.</p>
+            <p> Les renards, surtout les noirs, fourrure très-estimée et fort <lb/>rare.</p>
+            <p> Les loups-cerviers en assez grande quantité.</p>
+            <p> Les chats sauvages.</p>
+            <p> Les ours, on en envoit beaucoup en France malgré la <lb/>quantité de peaux qui se
+                consomme dans le pays.</p>
+            <p> Il en est de même des peaux de chevreuil qui s'y con̠somment <lb/>toutes en temps de
+                guerre; les sauvages et les <lb/>Canadiens ne se servent quasi pas d'autres
+                chaussures.</p>
+            <p> Rats musqués.</p>
+            <p>
+                <hi rend="italique">Productions</hi>. - Le Canada fournit du tabac médiocre; assez
+                <lb/>pour la consommation du pays; il en est de même du fer. <lb/>Le roy a fait
+                établir depuis quelques années des foyers qui <lb/>sont administrés pour son compte;
+                on les a placés auprès des <lb/>Trois-Rivières; le pays ne produit presque aucun
+                chanvre, <lb/>article sur lequel on pourroit encourager l'industrie de l'ha̠bitant. </p>
+            <p>
+                <hi rend="italique">Constructions navales</hi>. - Il faudroit renoncer à construire
+                <lb/>des bâtiments de guerre en Canada, mais y construire des <lb/>bâtiments
+                marchands qui dureroient moins et qui se donne̠roient <lb/>à meilleur marché.</p>
+            <p>
+                <hi rend="italique">Pêcheries</hi>. - Un des commerces du Canada qui seroit le
+                <lb/>plus utile seroit celui des pêches que l'on pourroit établir <lb/>au-dessous de
+                Québec.</p>
+            <p> On fait la pêche de la morue vers Gaspé; les Bayonnais ont <lb/>quelquefois fait la
+                pêche de la baleine vers Kamouraska.</p>
+            <p> La pêche des loups-marins et des marsouins produit beau̠coup <lb/>d'huile, et il se
+                fait un grand commerce de peaux de <lb/>loups-marins.</p>
+            <p>
+                <hi rend="italique">Farines et boissons</hi>. - Le Canada est obligé, dans les
+                mau̠vaises <lb/>années et en temps de guerre, de tirer des farines de <lb/>France;
+                dans les années abondantes il en fournit quelquefois <lb/>aux îles de Saint-Domingue
+                et de la Martinique, avec laquelle <pb n="65"/>
+                <lb/>le Canada a un commerce, et tire de ces îles de la cassonade, <lb/>de la
+                mélasse, des confitures sèches et des liqueurs; car le <lb/>sucre royal se tire de
+                France: la mélasse dont il se fait une <lb/>grande consommation en Canada est la
+                casse du sucre, elle <lb/>est nécessaire pour faire la boisson du pays, que l'on
+                appelle <lb/>sapinette; elle se fait avec les feuilles d'un arbre appelé
+                <lb/>l'épinette; on y met par barrique de cent dix pots, deux pots <lb/>de mélasse;
+                la mélasse qui a une douceur fade est fort estimée <lb/>des sauvages qui l'étendent
+                sur leur pain, et c'est une espèce <lb/>de confiture chez eux; le houblon viendroit
+                en Canada; les <lb/>Récolects de Québec sont les seuls qui ont une houblonnière,
+                <lb/>dont ils font de la bonne bière; celle du pays appelée sapi̠nette <lb/>est
+                très-rafraîchissante et très-saine, mais a un goût <lb/>douceâtre mêlé d'amertume
+                auquel on s'accoutume diffici̠lement. <lb/>On pourroit élever en Canada plus de
+                bestiaux qu'on <lb/>n'y fait, et en ce cas on pourroit y faire un commerce de
+                <lb/>boeuf salé; mais il faudroit pour cela faire un réglement pour <lb/>diminuer le
+                trop grand nombre de chevaux.</p>
+            <p>
+                <hi rend="italique">Chevaux et voitures</hi>. - Tous les habitans, c'est ainsi qu'on
+                <lb/>nomme les paysans en France, ont beaucoup de chevaux et vont <lb/>toujours en
+                voiture. L'été on se sert toujours de voitures appe̠lées <lb/>calèches, ressemblant
+                aux cambiatières d'Italie, et l'hiver <lb/>des voitures appellées carioles, espèces
+                de traineaux pour <lb/>aller sur la glace et sur la neige; un seul cheval mène
+                aisé̠ment <lb/>deux personnes dans ces sortes de voitures; le trans̠port <lb/>des
+                marchandises se fait l'été en barques ou canot et <lb/>l'hiver en traineaux.</p>
+            <p>
+                <hi rend="italique">Moeurs et caractères des Canadiens</hi>. - Les simples habitans
+                <lb/>seroient scandalisés d'être appelés paysans. En effet, ils sont <lb/>d'une
+                meilleure étoffe, ont plus d'esprit, plus d'éducation que <lb/>ceux de France. Cela
+                vient de ce qu'ils ne payent aucun impôt, <lb/>de ce qu'ils ont droit d'aller à la
+                chasse, à la pêche, et de ce <lb/>qu'ils vivent dans une espèce d'indépendance. Ils
+                sont braves, <lb/>leur genre de courage, ainsi que les sauvages, est de s'exposer
+                <lb/>peu, de faire des embuscades; ils sont fort bons dans le bois, <lb/>adroits à
+                tirer; ils se battent en s'éparpillant et se couvrant <lb/>de gros arbres; c'est
+                ainsi qu'à la Belle-Rivière ils ont défait <lb/>le général Bradock. Il faut convenir
+                que les sauvages leur <lb/>sont supérieurs dans ce genre de combattre, et c'est
+                l'affection <lb/>qu'ils nous portent qui jusqu'à présent a conservé le Canada.
+                <lb/>Le Canadien est <hi rend="italique">haut, glorieux, menteur,</hi> obligeant,
+                affable, <lb/>honnête, infatigable pour la chasse, les courses, les voyages <pb
+                    n="66"/>
+                <lb/>qu'ils font dans les Pays d'en Haut, paresseux pour la culture <lb/>des terres.
+                Parmi ces mêmes Canadiens, on met une grande <lb/>différence pour la guerre et les
+                voyages d'en Haut entre ceux <lb/>du gouvernement de Québec et ceux du gouvernement
+                des <lb/>Trois-Rivières et de Mont-Réal, qui l'emportent sur les pre̠miers, <lb/>et
+                ceux de Québec valent mieux pour la navigation; <lb/>parmy ces habitans, ceux qui
+                voyagent dans les Pays d'en <lb/>Haut sont réputés les plus braves.</p>
+            <p> Les manufactures de Carcassonne devroient travailler à <lb/>faire des draps rouges
+                et bleus pour s'attirer cette branche <lb/>de commerce que l'on fait en Canada, en
+                fournissant des <lb/>couvertes aux sauvages.</p>
+            <lb/>
+            <div type="section">
+                <head rend="align(centré)case(pmaj)">GOUVERNEMENT DU CANADA</head>
+
+                <lb/>
+                <p>
+                    <hi rend="italique">Administration militaire</hi>. - Un gouverneur général qui a
+                    <lb/>l'autorité sur la Louisiane et l'Isle royale, où il n'y a que des
+                    <lb/>gouverneurs particuliers, qui cependant rendent compte à <lb/>la cour et en
+                    reçoivent des ordres.</p>
+                <p> Deux gouverneurs particuliers à Mont-Réal et aux Trois̠Rivières; <lb/>le plus
+                    ancien commande dans le pays à défaut du <lb/>gouverneur général. C'est pour
+                    l'ordinaire celui de Mont-Réal <lb/>par l'ordonnance qui a réglé le service à
+                    l'arrivée des troupes <lb/>de France; on leur a donné rang de colonel. Il n'y a
+                    point de <lb/>gouverneur particulier à Québec, les appointemens en sont
+                    <lb/>réunis à ceux du gouverneur général.</p>
+                <p> Trois lieutenans de roy, sçavoir à Mont-Réal, Québec et les <lb/>Trois-Rivières.
+                    Ils ont rang de lieutenans colonels par la même <lb/>ordonnance.</p>
+                <p> Quatre majors à Québec, Mont-Réal et les Trois-Rivières, et <lb/>un major
+                    commandant au Détroit; trois aides majors à Qué̠bec, <lb/>Mont-Réal et les
+                    Trois-Rivières; un capitaine de port à <lb/>Mont-Réal.</p>
+                <p> Trente compagnies de soixante-cinq hommes, chacune <lb/>composée d'un capitaine,
+                    d'un lieutenant, d'un enseigne en <lb/>premier, d'un enseigne en second, un
+                    cadet à l'aiguillette, et <lb/>trois sergens.</p>
+                <p> Une compagnie de soixante canonniers ou bombardiers, <lb/>composée d'un
+                    capitaine, d'un lieutenant et d'un cadet.</p>
+                <p> Deux ingénieurs de la marine.</p>
+                <p> Les milices du pays.</p>
+                <p> Le gouverneur général a aussi une compagnie de gardes <pb n="67"/>
+                    <lb/>qui lui est payée; sa résidence et celle de l'intendant sont <lb/>à Québec,
+                    leur séjour ordinaire. Ils sont cependant logés l'un <lb/>et l'autre à
+                    Mont-Réal.</p>
+                <p> Le gouverneur général s'y tient quasi toujours en temps <lb/>de guerre, et il y
+                    monte toujours en temps de paix, ainsi que <lb/>l'intendant, pour y recevoir les
+                    députations des sauvages, et <lb/>régler leurs affaires.</p>
+                <p>
+                    <hi rend="italique">Administration civile</hi>. - L'intendant, chargé de la
+                    grande <lb/>police, de l'administration des finances et de tout ce qui con̠cerne
+                    <lb/>la marine; ses appointemens sont<gap resp="editor" rend="points"/></p>
+                <p> Un commissaire ordonnateur, résidant à Mont-Réal; ses <lb/>appointemens sont<gap
+                        resp="editor" rend="points"/></p>
+                <p> Un contrôleur; ses appointemens sont<gap resp="editor" rend="points"/></p>
+                <p>
+                    <hi rend="italique">Administration de la justice</hi>. - Il y a un conseil
+                    souverain <lb/>qui juge en dernier ressort les appels des juges inférieurs.
+                    <lb/>Ce conseil est composé du gouverneur général et de l'évêque <lb/>qui ont
+                    les premières places, de l'intendant qui fait les fonc̠tions <lb/>de premier
+                    président, et qui a la troisième place, treize <lb/>conseillers, dont un clerc,
+                    un procureur général, un greffier <lb/>et quelques huissiers; la place de
+                    greffier est bonne; c'est <lb/>le seul qui ait, outre six cents francs
+                    d'appointemens, des <lb/>émoluments.</p>
+                <p> Les appointemens de chaque conseiller sont de quatre <lb/>cent cinquante francs,
+                    les trois premiers ont six cents francs, <lb/>le doyen onze cents francs.</p>
+                <p> Ceux du procureur général mille cinq cents francs, six <lb/>cents francs pour
+                    montrer le droit; celui-ci a neuf cents <lb/>francs de pension.</p>
+                <p> Les séances se tiennent dans la maison de l'intendant ap̠pelée <lb/>le Palais,
+                    tous les lundis. Les juges inférieurs ressortis̠sant <lb/>à ce tribunal sont le
+                    lieutenant général de Québec, celui <lb/>de Mont-Réal et des Trois-Rivières; le
+                    juge de l'amirauté de <lb/>Québec, et le grand voyer. Le commissaire ordonnateur
+                    de <lb/>la marine, résidant à Mont-Réal, a aussi une séance hono̠raire <lb/>à ce
+                    conseil, lorsqu'il se trouve à Québec.</p>
+                <p> La coutume de Paris est admise dans le Canada. Les loys <lb/>du royaume y sont
+                    suivies, excepté sur le fait des mariages, <lb/>où les enfants des simples
+                    habitans sont autorisés à se <lb/>marier sans le consentement de leur père, les
+                    garçons à <lb/>l'âge de seize ans.</p>
+                <p>Toutes les causes se jugent à l'audience ou sur rapport. <lb/>Il n'y a ni
+                    avocats, ni procureurs, les notaires en servent; les <pb n="68"/>
+                    <lb/>parties sont admises à plaider elles-mêmes leurs affaires; les
+                    <lb/>audiences se tiennent à huis clos. Il y a des justices dans <lb/>toutes les
+                    paroisses; il y a un grand voyer, un grand prévôt, <lb/>mais qu'on peut dire
+                    sans maréchaussée, n'ayant que quel̠ques <lb/>archers mal entretenus.</p>
+                <p>
+                    <hi rend="italique">Gouvernement ecclésiastique</hi>. - L'évêque, suffragant
+                    immé̠diat <lb/>du saint-siége, gouverne le Canada, la Louisiane et I'Isle
+                    <lb/>royale; ses revenus sont<gap resp="editor" rend="points"/></p>
+                <p> Le chapitre est composé de<gap resp="editor" rend="points"/>; ses revenus sont
+                    de neuf <lb/>mille francs sur les avènements, cent pistoles sur l'hôtel de
+                    <lb/>ville de Paris. Souvent le clergé de France lui accorde une <lb/>pension.
+                    M̟. de Pontbriand a deux mille francs de pension.</p>
+                <p> Les cures sont au nombre d'environ cent, depuis Kamou̠raska, <lb/>qui est la
+                    première en montant à Québec, jusqu'à <lb/>Château-Gay, qui est au-dessus de
+                    Mont-Réal; leur revenu <lb/>consiste en casuel et en dîme, sur le pied ordinaire
+                    de vingt̠six <lb/>pour un. On ne la prend que sur les grains et les légumes,
+                    <lb/>que les habitans sont obligés de rendre net, réglé par un arrêt <lb/>du
+                    conseil. Le revenu des moindres cures est d'environ mille <lb/>à douze cents
+                    francs, et le revenu des plus considérables est <lb/>de quatre mille francs;
+                    mais comme il y en a qui ne valent <lb/>rien, dan les nouveaux
+                        établisssemens<note resp="encoder">3 s dans l’édition</note>, par le peu de
+                    défri̠chement, <lb/>l'évêque a la disposition d'un fonds de vingt mille
+                    <lb/>francs, que le roy fait pour supplément de ses cures et <lb/>bâtisses des
+                    églises.</p>
+                <p> Les ordres religieux qui sont en Canada sont les Jésuites, <lb/>qui ont une
+                    belle maison à Québec et un hospice à Mont̠Réal; <lb/>leur revenu est de<gap
+                        resp="editor" rend="points"/></p>
+                <p> Ils ont les missions de<gap resp="editor" rend="points"/></p>
+                <p> Ils sont actuellement<gap resp="editor" rend="points"/> et jésuites, censés de
+                    la province <lb/>de Paris.</p>
+                <p> Les prêtres du séminaire de Saint-Sulpice sont seigneurs <lb/>temporels de
+                    Mont-Réal et de son Isle; ils jouissent en revenu <lb/>d'environ quarante mille
+                    francs de rente, non compris les <lb/>revenus des cures, qui servent à nourrir
+                    les prêtres qui les <lb/>desservent. Ils desservent onze cures; ils gouvernent
+                    les mis̠sions <lb/>des Iroquois, des Nepissings et des Algonkins du lac,
+                    <lb/>ainsi que celle de la Présentation. Ils sont actuellement trente̠six <lb/>
+                    prêtres, et dépendent du supérieur de Paris. Le roy don̠noit <lb/>six mille
+                    livres par an pour lever leurs missions; il les <lb/>leur a ôtées en
+                        <date>1755</date>, pour les donner à l'évêque jusqu'à ce <lb/>qu'il eût une
+                    abbaye.</p>
+                <pb n="69"/>
+                <p> Les prêtres des Missions étrangères ont le séminaire de <lb/>Québec; ils
+                        desservent<gap resp="editor" rend="points" extent="1 word"/> cures; ils
+                    gouvernent les missions, <lb/>leur revenu est de<gap resp="editor" rend="points"
+                    />; ils sont actuellement<gap resp="editor" rend="points" extent="1 word"/>
+                        prêtres<gap resp="editor" rend="points"/></p>
+                <p> Les religieuses Ursulines ont deux couvents, l'un à Québec <lb/>et l'autre aux
+                    Trois-Rivières ; leur église est très-belle à <lb/>Québec, riche en ornemens; on
+                    y élève des demoiselles; on <lb/>y tient des écoles externes, et on y travaille
+                    beaucoup en <lb/>broderie, ainsi que quantité des ouvrages faits dans le goût
+                    <lb/>des sauvages, et que l'on envoye comme s'ils les avoient <lb/>faits. Celles
+                    des Trois-Rivières ont encore plus de réputation <lb/>pour ce genre d'ouvrages.
+                    Les Ursulines sont au nombre de<gap resp="editor" rend="points" extent="1 word"/>
+                    <lb/>et ont de revenu<gap resp="editor" rend="points"/></p>
+                <p>
+                    <hi rend="italique">Hôpitaux</hi>. - Les hôpitaux sont au nombre de cinq en
+                    <lb/>Canada, tous bien administrés par des dames religieuses; le <lb/>plus
+                    ancien est l'Hôtel-Dieu de Québec, fondé par une du̠chesse <lb/>d'Aiguillon; le
+                    plus considérable est l'hôpital général <lb/>de Québec; on n'y a guere que des
+                    filles de condition qui se <lb/>consacrent à servir les malades. Ces religieuses
+                    suivent la <lb/>règle de saint Augustin.</p>
+                <p> L'hôpital des Trois-Rivières est composé de<gap resp="editor" rend="points"/>et
+                    servi <lb/>par les Ursulines, qui en même temps tiennent les écoles.</p>
+                <p> L'hôpital pour les malades à Mont-Réal est servi par des <lb/>dames qui suivent
+                    la règle de saint Augustin, mais qui sont <lb/>du même ordre que les dames qui
+                    sont en France.</p>
+                <p> Il y a aussi un cinquième hôpital gouverné par des sécu̠liers, <lb/>à qui
+                    l'évêque a permis de vivre en communauté sous <lb/>la direction de MM̟. de
+                    Saint-Sulpice; c'est dans cette maison <lb/>que l'on enferme les filles de
+                    mauvaise vie, et que l'on a <lb/>établi l'hôpital des vénériens, et pour les
+                    pauvres hors d'état <lb/>de travailler. Toutes ces maisons sont mal rentées et
+                    auroient <lb/>de la peine à vivre, si le roy ne les soutenoit, ainsi que les
+                    <lb/>charités des fidèles.</p>
+                <p> Il y a aussi à Québec et à Mont-Réal deux congrégations <lb/>appelées, dans
+                    quelques provinces de France, Sœurs-Noires; <lb/>elles tiennent des écoles pour
+                    apprendre à lire, écrire et <lb/>travailler. Il y en a de répandues dans presque
+                    toutes les <lb/>paroisses. Mg̟r̟ l'évêque, par un zèle louable, voudroit
+                    qu'el̠les <lb/>apprissent aussi la pharmacie, pour être utiles aux habi̠tans
+                    <lb/>qui sont assez dénués de secours.</p>
+                <p> Le roy entretient pour l'ordinaire un médecin à Québec, <lb/>avec deux
+                    chirurgiens, un à Mont-Réal et un autre aux Trois̠Rivières.</p>
+                <pb n="70"/>
+                <p>
+                    <hi rend="italique">Instruction publique</hi>. - On est peu occupé de
+                    l'éducation <lb/>de la jeunessse <note resp="encoder">3 s dans l’édition</note>,
+                    qui ne songe qu'à s'adonner de bonne heure <lb/>à la chasse et à la guerre;
+                    cependant outre des écoles parti̠culières, <lb/>les jeunes gens vont apprendre
+                    un peu de latin aux <lb/>Jésuites de Québec. Messieurs du séminaire de Québec,
+                    tenu <lb/>par des prêtres des missions étrangères, ont un pensionnat <lb/>avec
+                    des répétiteurs, et les jeunes gens vont au collége des <lb/>Jésuites.</p>
+                <p> Messieurs du séminaire de Saint-Sulpice, qui sont à Mont̠Réal, <lb/>ont aussi un
+                    prêtre occupé à montrer le latin à quel̠ques <lb/>jeunes gens.</p>
+                <p> Il faut convenir que, malgré ce défaut d'éducation, les Ca̠nadiens <lb/>ont de
+                    l'esprit naturellement; ils parlent avec aisance, <lb/>ils ne sçavent pas
+                    écrire, leur accent est aussi bon qu'à Paris, <lb/>leur diction est remplie de
+                    phrases vicieuses empruntées de <lb/>la langue des sauvages ou des termes de
+                    marine, appliquées <lb/>dans le style ordinaire; quoiqu'il n'y ait point de
+                    maîtres à <lb/>danser dans le Canada, les femmes qui ont bonne grâce et <lb/>de
+                    l'oreille dansent assez bien.</p>
+                <p> Le roy entretient un professeur d'hydrographie à Québec; <lb/>c'est le père<gap
+                        resp="editor" rend="points"/>, jésuite, qui remplit cette place aux
+                    appoin̠temens <lb/>de<gap resp="editor" rend="points"/> et le sieur Pellegrin,
+                    capitaine en second <lb/>du port est chargé de former des pilotes pratiques du
+                    fleuve <lb/>Saint-Laurent en les exerçant pendant l'été.</p>
+                <p> En<gap resp="editor" rend="points"/> il se forma une société littéraire par les
+                    soins de <lb/>Messieurs de<gap resp="editor" rend="points"/></p>
+            </div>
+
+            <lb/>
+            <div type="section">
+                <head rend="align(centré)case(pmaj)">DOMAINE DU ROY</head>
+
+                <lb/>
+                <p>
+                    <hi rend="italique">Impôts et revenus</hi>. - Le roy ne lève d'autre impôt en
+                    Ca̠nada <lb/>que quelques droits d'entrée établis seulement depuis <lb/>M̟.
+                    Hocquart, intendant, et une taxe sur les habitans de Qué̠bec <lb/>pour
+                    l'entretien des cazernes.</p>
+                <p> Le revenu du roy en Canada peut être d'environ cent mille <lb/>écus. Le revenu
+                    du roy varie, dépendant du droit d'entrée <lb/>et, par conséquent, du plus ou
+                    moins de marchandises que <lb/>l'on fait venir de France, ce qui varie beaucoup
+                    en temps de <lb/>guerre. En <date>1755</date>, les droits d'entrée ont été à
+                    quatre cent <lb/>mille francs; en <date>1756</date>, à cent vingt mille
+                    francs.</p>
+                <p> Le roy a dépensé, année commune, depuis l'établissement <lb/>de la Belle-Rivière
+                    jusqu'en <date>1755</date> : en <date>1755</date><gap resp="editor"
+                        rend="points"/>, en <date>1756</date><gap resp="editor" rend="points"/></p>
+                <p> Outre que le roy est toujours volé, et qu'on ne s'occupe <pb n="71"/>
+                    <lb/>pour l'ordinaire qu'à enrichir des particuliers, rien ne se <lb/>fait en
+                    Canada par corvée, et l'habitant est payé de ses tra̠vaux, <lb/>soit pour
+                    voitures, voyages, transports, charrois, exprès <lb/>envoyés pour porter des
+                    ordres; on paye les frais de voyage <lb/>à un homme qui a l'air de voyager pour
+                    le service du roy.</p>
+                <p> Le roy, outre la consommation de la poudre pour son <lb/>service, est obligé
+                    d'en faire vendre aux sauvages et aux ha̠bitans; <lb/>la compagnie des Indes en
+                    vend aussi, les particuliers <lb/>peuvent aussi en vendre. En général, le
+                    commerce en gros <lb/>et en détail est exercé par tout le monde; c'est ce qui
+                    est <lb/>cause qu'il y a moins de distinction d'état, et on y regarde <lb/>comme
+                    nobles toutes les familles d'officiers.</p>
+                <p>
+                    <hi rend="italique">Principales familles</hi>. - Celles qui ont le plus de
+                    relief dans <lb/>le pays, sont les plus anciennes, ou celles qui viennent du
+                    <lb/>régiment de Carignan qui passa dans la colonie en <date>1665</date><gap
+                        resp="editor" rend="points"/>
+                    <lb/>La plus distinguée, quoiqu'elle ne soit pas la plus ancienne, <lb/>est les
+                        <hi rend="italique">Longueil</hi>, même famille que M̟. de Bienville,
+                    gouver̠neur <lb/>de la Louisiane, et M̟. d'Iberville, capitaine de vaisseau;
+                    <lb/>leur nom est le même, et ils viennent d'un <hi rend="italique">marchand de
+                        <lb/>Rouen</hi>.</p>
+                <p> Les Hertel, Beaubassin, Rouville, familles du même nom, <lb/>braves gens sans
+                    être nobles.</p>
+                <p> Les Repentigny, Montesson, Courte-Manche, etc̟., dont le <lb/>nom est Legardeur,
+                    sont originaires de Normandie ; les Noyan, <lb/>dont le nom est Charvoix; les
+                    Villers, dont le nom est Coulon; <lb/>les Bois-Hebert, sont tous originaires de
+                    Normandie; les <lb/>Lacorne, dont le nom est Chapt, originaires d'Auvergne; les
+                    <lb/>Sabrevoix sont originaires du Maine; les Contrecoeur vien̠nent <lb/>d'un
+                    officier du régiment de Carignan, ainsi que les <lb/>Lanaudière, les
+                    Deschaillons, Saint-Ours; ces derniers sont <lb/>des bons gentilshommes du
+                    Dauphiné, ce sont les meilleures <pb n="72"/>
+                    <lb/>familles du pays. Celle de Péan est la plus riche famille bour̠geois <lb/>
+                    de Paris.</p>
+                <p> Presque toutes ces familles sont liées de parenté; les ma̠riages <lb/>se font
+                    quasi toujours entre parents, et l'évêque rend <lb/>dispenses volontiers, et
+                    cela sans avoir recours à Rome, à <lb/>moins que ce ne soit entre germains et de
+                    l'oncle à la nièce.</p>
+                <p>
+                    <hi rend="italique">Monnoye de cartes</hi>. - La monnoye du pays est de deux
+                    es̠pèces. <lb/>Avant que les dépenses augmentassent, on se servoit <lb/>de
+                    monnoye de cartes; la forme dont elles sont coupées in̠dique <lb/>la valeur
+                    numéraire de cette monnoye; il y a des <lb/>pièces de sept sols six deniers, de
+                    quinze sols, de trente sols, <lb/>de trois francs, de six francs, de douze
+                    francs, de vingt̠quatre francs.</p>
+                <p> Elles ont une marque, et elles sont signées par le gouver̠neur <lb/>général,
+                    l'intendant et le contrôleur. Il y en a dans le <lb/>pays pour un million.</p>
+                <p>
+                    <hi rend="italique">Monnoye de papier</hi>. - Les dépenses du roy ayant
+                    augmenté, <lb/>on a imaginé de faire la monnoye de papier, qui est imprimé
+                    <lb/>à l'imprimerie royale à Paris, et signé par l'intendant. Il y a <lb/>des
+                    billets de vingt sols, de trente sols, de trois francs, de six <lb/>francs, de
+                    douze francs, de vingt-quatre francs, de quarante̠huit francs, <lb/>de cinquante
+                    francs, de cent francs, et l'on a <lb/>fait cette année-cy des billets de
+                    quatre-vingt-seize francs.</p>
+                <p>
+                    <hi rend="italique">Lettres de change</hi>. - Tous ceux qui ont de l'argent à
+                    faire <lb/>passer en France ou des payemens, rapportent leur papier <lb/>au
+                    Trésor, dans les premiers jours d'octobre, et l'on leur <lb/>donne des lettres
+                    de change sur le Trésor royal, payables en <lb/>trois termes, de sorte que dans
+                    quinze jours presque tout le <lb/>papier se rapporte. Cette monnoye a la
+                    commodité d'être <lb/>portative et le désagrément d'être périssable par beaucoup
+                    <lb/>d'accidens. Il y en a toujours une partie qui n'est pas rap̠portée, <lb/>
+                    qui est celle que les particuliers gardent pour leurs <lb/>dépenses courantes,
+                    et celle qu'ils ne sçauroient rapporter, <lb/>les ayant perdues par accident. Ce
+                    dernier objet fait un profit <lb/>au roy qu'on croit pouvoir évaluer, année
+                    commune, à<gap resp="editor" rend="points"/></p>
+                <pb n="73"/>
+                <p> Depuis l'établissement de ce papier, on compte qu'il en a <lb/>été fait<gap
+                        resp="editor" rend="points"/>, et on compte qu'au mois d'octobre dernier il
+                    en <lb/>restoit dans le pays qui n'a pas été rapporté la somme de<gap
+                        resp="editor" rend="points"/></p>
+                <p> Toutes les dépenses du roy sont payées avec cette monnoye <lb/>de papier; il n'y
+                    a que les seules troupes de terre qui le soient <lb/>en espèces d'or ou
+                    d'argent, que l'on fait passer en cette <lb/>occasion en Canada.</p>
+                <p> Il en a été employé jusqu'au <date>1er janvier 1757</date><hi rend="susp"
+                    >…</hi>; on estime <lb/>que ce qui en est resté dans le pays peut être
+                        environ<gap resp="editor" rend="points"/></p>
+                <p>Il sera fort aisé au gouvernement de faire rentrer ces es̠pèces <lb/>au Trésor en
+                    donnant des lettres de change au premier <lb/>terme à ceux qui en
+                    rapporteront.</p>
+                <p>
+                    <hi rend="italique">Poudrerie</hi>. - On appelle poudrerie en Canada des terres
+                    <lb/>où il fait un vent considérable, pour élever des nuages de <lb/>neiges,
+                    qui, quelquefois, obligent les voyageurs de s'arrêter. <lb/>Cela n'approche pas
+                    des temps qu'il fait dans les montagnes <lb/>du Dauphiné et de Savoye, où il y a
+                    des avalanches qui enter̠rent <lb/>les voyageurs et quelquefois des hameaux.</p>
+                <p>
+                    <hi rend="italique">Industrie</hi>. - Nous n'avons encore établi en Canada
+                    aucune <lb/>espèce de manufactures, et il y a bien loin de notre indus̠
+                    <lb/>trie à celles des colonies anglaises, et leur attention pour la
+                    <lb/>population de ces mêmes colonies.</p>
+            </div>
+            <lb/>
+            <div type="section">
+                <head rend="align(centré)case(pmaj)">ÉTAT DES POSTES OU L'ON FAIT LA TRAITE</head>
+
+                <lb/>
+                <p>
+                    <hi rend="italique">Postes du Nord</hi>. - <list>
+                        <label>1.</label>
+                        <item>Thémiskaming (on n'y met point de <lb/>commandant);</item>
+                        <label>2.</label>
+                        <item>Michilimakinac,</item>
+                        <label>3.</label>
+                        <item>à la Baye,</item>
+                        <label>4.</label>
+                        <item>la Mer̠d'Ouest,</item>
+                        <label>5.</label>
+                        <item>le Sault-Sainte-Marie accorde la seigneurie et le <lb/>commerce
+                            exclusif au sieur Debonne à perpétuité, à lui et <lb/>aux siens,</item>
+                        <label>6.</label>
+                        <item>Chaouamigon,</item>
+                        <label>7.</label>
+                        <item>Kamanistigouya,</item>
+                        <label>8.</label>
+                        <item>Nepigon,</item>
+                        <lb/>
+                        <label>9.</label>
+                        <item>Michipicoton (on n'y met point de commandant),</item>
+                        <label>10.</label>
+                        <item>Saint̠Joseph,</item>
+                        <label>11.</label>
+                        <item>la rivière des Illinois (on n'y a point mis jusqu'à <lb/>présent de
+                            commandant)</item>
+                    </list>. Le général vend des congés aux <lb/>commerçans pour y aller commercer
+                    avec les sauvages.</p>
+                <p>
+                    <hi rend="italique">Postes du Sud</hi>. - La Présentation, Frontenac, Toronto,
+                    <lb/>Niagara, le petit fort de Niagara; la traite s'y fait pour le <lb/>compte
+                    du roy; le Détroit. On y vend des congés aux com̠merçans. <lb/>Les Miamis, à
+                    soixante lieues au-dessus du Détroit; <lb/>les Ouyatanons, à soixante lieues
+                    au-dessus des Miamis, sur <lb/>la rivière de Ouabache; la Presqu'Isle, la
+                    rivière au Boeuf, le <lb/>fort Duquesne, le fort Machaut; le roy y fait la
+                    traite. Au̠dessous <lb/>de Québec il y a les postes de Tadoussac et de Sague̠
+                        <pb n="74"/>
+                    <lb/>nay qui sont au compte du roy; le Mingan engagé au sieur <lb/>Volant sa vie
+                    durant; Labrador au sieur Brouague; Anti̠costy, <lb/> M̟. Hocquart y a une
+                    concession depuis l'année der̠nière; <lb/>on tire aussy du castor, de l'Acadie,
+                    et M̟. de Bois̠ <lb/>Hebert en a envoyé quelques paquets (on appelle paquet de
+                    <lb/>pelleterie quatre-vingt-cinq francs), et le commerce se fait <lb/>par
+                    paquet de castors, chevreuils, peaux d'ours, en payant <lb/>à tant la livre et
+                    en prenant bonne, mauvaise, médiocre; les <lb/>autres pelleteries s'achètent à
+                    la pièce.</p>
+                <p>
+                    <hi rend="italique">Commerce avec les sauvages</hi>. - La compagnie des Indes
+                    <lb/>donne aux sauvages des couvertes pour eux, pour leurs fem̠mes, <lb/>et des
+                    machicottés en draps rouges et bleus avec des <lb/>bandes noires; elle est
+                    obligée de les prendre dans les manu̠factures <lb/>d'Angleterre; elle a voulu
+                    essayer de les prendre <lb/>dans celles de Carcassonne, mais les sauvages n'en
+                    ont pas <lb/>voulu. Ce n'est pas que les draps n'en fussent meilleurs et
+                    <lb/>n'en fussent aussi beaux pour les couleurs, mais on n'a pu <lb/>encore y
+                    faire les bandes d'un beau noir; en général nos <lb/>marchandises valent mieux
+                    pour la qualité que celles des <lb/>Anglois, mais les sauvages préfèrent les
+                    leurs : ils attra̠pent <lb/>mieux leurs goûts. Ils aiment mieux nos fusils
+                    appelés <lb/>Tulle.</p>
+                <p> Les postes valent moins en temps de guerre qu'en temps <lb/>de paix; les
+                    marchandises de France sont à un prix trop <lb/>excessif, et les sauvages qui
+                    sont employés à la guerre et <lb/>qui sont équipés par le gouverneur général
+                    chassent moins.</p>
+                <p>
+                    <hi rend="italique">Moyens de communication</hi>. - Il y a des postes établis de
+                    <lb/>Québec à Mont-Réal; on paye les voitures à une seule place <lb/>sur le pied
+                    d'un cheval, à deux sur le pied de deux chevaux, <lb/>et on les paye à raison de
+                    vingt sols par lieue pour un cheval, <lb/>et on porte les hardes avec des
+                    petites charrettes, on traîne <lb/>pendant les glaces, qui vont avec un cheval
+                    en relais. Ces <lb/>voitures portent de trois à quatre cents, presque tout le
+                    monde <lb/>voyage en poste, et personne ne la court à franc-étrier.</p>
+                <p> Un canot de voyageur porte<gap resp="editor" rend="points"/>pesant; il faut pour
+                    le <lb/>conduire<gap resp="editor" rend="points"/> homme. Un bateau porte<gap
+                        resp="editor" rend="points" extent="1 word"/> pesant; il <lb/>faut pour le
+                        conduire<gap resp="editor" rend="points" extent="1 word"/> hommes, et il
+                    peut avoir<gap resp="editor" rend="points" extent="1 word"/>
+                    <lb/>passagers.</p>
+                <p> Toutes les seigneuries, ayant été concédées également, <lb/>sont de deux lieues
+                    de long, et toutes les habitations concé̠dées <pb n="75"/>
+                    <lb/>dans ces seigneuries, de trois arpens de large sur trente <lb/>de
+                    profondeur.</p>
+                <p>
+                    <hi rend="italique">Mesures de lieues; habitations éparses</hi>. - La mesure des
+                    <lb/>lieues en Canada est, comme la lieue commune de France, <lb/>de deux mille
+                    quatre cents toises. Toutes les habitations sont <lb/>éparses; il n'y a que deux
+                    ou trois villages où elles soient <lb/>rassemblées. L'habitant a plus songé à sa
+                    commodité qu'à <lb/>se défendre contre l'ennemi en se rassemblant. Il y a eu
+                    sou̠vent <lb/>des ordres et des projets de la cour pour rassembler <lb/>des
+                    villages; cela a toujours souffert des contradictions. M̟. de <lb/>la
+                    Galissonnière est un des gouverneurs généraux qui a eu <lb/>le plus à cœur ce
+                    projet, sur lequel il y auroit, je crois, un <lb/>party mitoyen à prendre fort
+                    sage, qui seroit de ne l'exiger <lb/>que dans de nouvelles concessions, ou dans
+                    les villages abso̠lument <lb/>sur la frontière.</p>
+                <p>
+                    <hi rend="italique">Abus sur les bois</hi>. - Quoique les bois soient bien
+                    communs <lb/>en Canada, il faudroit faire des règlemens pour l'exploita̠
+                    <lb/>tion et consommation de ceux qui sont à portée des villes, <lb/>autrement
+                    le bois y sera bientôt rare, et on aura de la peine <lb/>à le tirer; il faudra
+                    le faire venir de loin.</p>
+                <p>
+                    <hi rend="italique">Hospitalité</hi>. - Il n'y a nul cabaret sur la route de
+                    Mont̠Réal <lb/>à Québec, la seule qui soit beaucoup pratiquée en Ca̠nada; <lb/>
+                    mais l'on trouve des maisons de bons habitans qui <lb/>exercent noblement
+                    l'hospitalité, et on les paye encore plus <lb/>noblement et arbitrairement.
+                    Quand on va dans les Pays d'en <lb/>Haut ou du côté du fort Saint-Frédéric, on
+                    campe avec des <lb/>petites tentes de toiles ou des prélats, et souvent les
+                    voya̠geurs <lb/>ne se servent que de leurs canots.</p>
+                <p>
+                    <hi rend="italique">Justice</hi>. - Le procureur général est pour l'ordinaire un
+                    <lb/>avocat du parlement de Paris à qui on donne cette place. <lb/>Outre ses
+                    appointemens ordinaires, il a <num type="cardinal">600</num> fr̟. pour mon̠trer
+                    <lb/>aux conseillers le droit par forme de conférence.</p>
+                <p>
+                    <hi rend="italique">Maisons de fous</hi>. - Il y a un établissement à Québec
+                    pour <lb/>enfermer les fols; il n'y a des hôpitaux en Canada que pour <lb/>les
+                    malades. Il n'y en a point pour les pauvres. Il en pour̠roit <lb/>être de même
+                    partout; les hôpitaux des pauvres ne ser̠vent <lb/>qu'à autoriser la
+                    fainéantise; et il n'y a en effet presque <lb/>point de pauvres et on ne demande
+                    ni dans les rues ni dans <lb/>les églises, mais ceux qui sont dans le vrai
+                    besoin demandent <lb/>avec des permissions du curé.</p>
+                <p>
+                    <hi rend="italique">Agents de la compagnie des Indes</hi>. - La compagnie des
+                    Indes <lb/>entretient deux agents, un à Québec et l'autre à Mont-Réal; un <pb
+                        n="76"/>
+                    <lb/>contrôleur et un visiteur, ce dernier a <num type="cardinal">1000</num>
+                    fr̟. d'appointe̠mens. <lb/>On envoye en France les peaux de castors par ballots,
+                    <lb/>chaque ballot du poids de <num type="cardinal">120</num> livres. Chaque
+                    année on envoye, <lb/><num type="cardinal">1200</num> ballots qui, à <num
+                        type="cardinal">4</num> fr̟. la livre, font de <num type="cardinal">5</num>
+                    à <num type="cardinal">6</num> mille francs, à <lb/>la vérité il faut être en
+                    temps de paix, cette année cy il n'y a <lb/>pas eu plus de cent mille livres en
+                    poids pesant de castor et <lb/>encore la prise de Choueguen y a contribué.</p>
+                <p>
+                    <hi rend="italique">Montant du commerce du Canada</hi>. - Le commerce du Ca̠nada
+                    <lb/>en marchandises d'exportation peut aller en temps de <lb/>paix à environ
+                    deux millions. Celui d'importation à environ <lb/>trois millions. Il est aisé de
+                    le déterminer par les droits d'en̠trée <lb/>établis à Québec; droits qui valent
+                        <num type="cardinal">100</num> mille écus par an <lb/>au roy.</p>
+                <p>
+                    <hi rend="italique">Richesse de la colonie</hi>. - La guerre enrichit le Canada,
+                    avant <lb/>la guerre de <date>1741</date> le Canada devoit trois ou quatre cent
+                    mille <lb/>francs à la France et à la fin de la guerre la France lui de̠
+                    <lb/>voit plus d'un million. Cette guerre cy peut affaiblir le Canada <lb/>par
+                    la destruction des hommes, les soldats qu'on y laissera <lb/>mariés les
+                    remplaceront et il y aura dans la colonie une <lb/>richesse immense et elle
+                    seroit encore plus grande si les <lb/>grandes fortunes n'étoient pas
+                    exclusivement entre les mains <lb/>de trois ou quatre particuliers qui se
+                    trouvant trop riches <lb/>pour le Canada, les emporteront en France.</p>
+                <p>
+                    <hi rend="italique">Impositions</hi>. - Il n'y a d'autres impositions en Canada
+                    que <lb/>les droits d'entrée et une très-modique taxe que l'on paye à
+                    <lb/>Québec pour l'entretien des casernes, aussi le roy paye dans <lb/>cette
+                    ville le logement de ses officiers. Monsieur l'intendant <lb/>l'a réglée à dix
+                    écus par mois par officier cette taxe-là.</p>
+                <p>
+                    <hi rend="italique">Fortifications</hi>. - A Mont-Réal il y a <num
+                        type="cardinal">6500</num> fr̟. affectés pour <lb/>l'entretien des
+                    fortifications, de cette taxe messieurs du sémi̠naire <lb/>en payent <num
+                        type="cardinal">2000</num> francs; quoique messieurs du séminaire
+                    <lb/>soient seigneurs de Mont-Réal ils n'ont que les droits utiles. <lb/>Ils ont
+                    même les droits d'échange pour les lois, mais la jus̠tice <lb/>s'y rend au nom
+                    du roy.</p>
+                <p>
+                    <hi rend="italique">Bailliages</hi>. - Dans les trois baillages il n'y a qu'un
+                    lieute̠nant <lb/>général, et un procureur du roy et on prend les notaires
+                    <lb/>pour assesseurs.</p>
+                <p>
+                    <hi rend="italique">Concessions</hi>. - Toutes les terres que le roy possède
+                    sont <lb/>réunies à son domaine et peuvent être concédées à d'autre, <lb/>si
+                    dans l'an et jour on n'y a placé des habitans faisant feu. <lb/>Le roy se
+                    réserve toujours d'y prendre les bois de chêne, <lb/>qu'il juge à propos. Il
+                    paye les autres sur un pied reglé, mes̠sieurs <pb n="77"/>
+                    <lb/>du séminaire de Saint-Sulpice prétendent avoir une <lb/>exemption pour les
+                    leurs.</p>
+                <p> Les gouverneurs généraux ont paru jusqu'à présent plus <lb/>occupés d'asservir
+                    cette colonie que de la rendre florissante.</p>
+                <p>
+                    <hi rend="italique">Pavé</hi>. - Québec et Montréal devroient avoir déjà des
+                    hôtels <lb/>de ville, aussi il y a peu de police et nulle occupation pour
+                    <lb/>leur agrandissement et embellissement. M̟. Bigot a fait com̠mencer <lb/>à
+                    Québec à paver quelques endroits.</p>
+                <p>
+                    <hi rend="italique">Incendies fréquents</hi>. - Les incendies sont fréquens dans
+                    <lb/>ces deux villes et on n'y a fait encore aucun règlement pour <lb/>y
+                    remédier, que celui de défendre de bâtir et de réparer dans <lb/>les villes les
+                    maisons en bois. Il est encore nécessaire de per̠mettre <lb/>qu'on en construise
+                    des mêmes à la campagne, la <lb/>colonie n'étant pas assez riche ny assez bien
+                    fondée et la <lb/>pierre n'y étant pas également commune, on pourroit y éta̠blir
+                    <lb/>des pompes.</p>
+                <p>
+                    <hi rend="italique">Postes de la mer de l'Ouest</hi>. - Le poste de la Mer
+                    d'Ouest est <lb/>le plus avancé du côté du nord, nous y sommes au milieu
+                    <lb/>avec beaucoup de nations sauvages avec lesquelles nous com̠merçons, <lb/>
+                    ils ne laissent pas que de commercer aussi avec les <lb/>Anglois du côté de la
+                    baye d'Hudson, nous y avons sept forts <lb/>de pieux, établissemens confiés pour
+                    l'ordinaire à la garde <lb/>d'un ou deux officiers, sept à huit soldats et
+                    quatre-vingts Ca̠nadiens <lb/>engagés. On peut pousser encore plus loin les
+                    décou̠vertes <lb/>que nous y avons faites et se communiquer jusqu'à la
+                    <lb/>Californie.</p>
+                <p> Le pays est très-abondant en toutes sortes d'animaux et <lb/>de gibiers. On y
+                    trouve des cerfs, beaucoup de cignes dont on <lb/>assure que la chair est bonne
+                    à manger. Le gros commerce <lb/>du pays est en peaux de castors et martres, en
+                    peaux d'ori̠gnal <lb/>dont on fait des buffles et le poil sert aux différens
+                    ou̠vrages <lb/>des sauvages en espèce de broderie. L'orignal passe
+                    <lb/>communément pour être le même animal que l'élan. On y <lb/>trouve aussi des
+                    peaux de caribous, animal qui passe pour être <lb/>le même que le renne de
+                    Moscovie; on en fait des souliers, il <lb/>en vient beaucoup plus du côté de
+                    Nepigon que partout ailleurs; <lb/>on en rapporte aussi quelques peaux de boeufs
+                    illinois, animal <lb/>de même espèce et de même goût que nos boeufs, mais qui a
+                    <lb/>une bosse sur le dos et une laine frisée comme les cheveux <lb/>des nègres.
+                    Ces peaux valent encore mieux que celles d'ours <lb/>pour faire des sacs; les
+                    sauvages d'en Haut se servent de ces <lb/>peaux dont ils font des robes, c'est
+                    ce qu'on appelle le cas̠tor <pb n="78"/>
+                    <lb/>gras, plus estimé que l'autre parce qu'il est plus facile à <lb/>travailler
+                    et employer pour les manufactures de chapeaux. <lb/>Un des commerces de ce poste
+                    est en Panis; c'est une nation <lb/>sauvage que l'on estime au nombre de <num
+                        type="cardinal">12 000</num> hommes; les <lb/>autres nations lui font la
+                    guerre et nous vendent leurs escla̠ves, <lb/>c'est la seule nation sauvage que
+                    nous croyons pouvoir <lb/>traiter de même.</p>
+                <p>
+                    <hi rend="italique">Sauvages</hi>. - Aouapou, terme sauvage employé par l'usage
+                    <lb/>en Canada dans la langue françoise pour exprimer l'habille̠ment <lb/>
+                    complet que l'on est obligé de donner à un sauvage, il <lb/>consiste dans la
+                    couverte, la chemise, les mitaines, les souliers <lb/>et le brayet; quand on y
+                    joint le capot, c'est présent.</p>
+                <p> L'équipement est comme pour les femmes à l'exception <lb/>qu'au lieu d'un brayet
+                    on leur donne un jupon court appelé <lb/>machicotté, et si un jeune homme
+                    manquoit de courage on <lb/>lui défendroit d'aller à la guerre, et on lui
+                    imposeroit par <lb/>ignominie de porter le machicotté; les Cinq-Nations ayant
+                    <lb/>jadis vaincu les Loups, les adoptèrent, leur défendirent d'al̠ler <lb/>à la
+                    guerre et leur ordonnèrent de porter le machicotté. <lb/>Ces mêmes Loups
+                    attaqués par les Anglois il y a quelques an̠nées <lb/>et s'étant bien battus on
+                    leur a ôté le machicotté et on <lb/>leur a rendu le brayet.</p>
+                <p> Apichimon, terme sauvage usité dans la langue françoise <lb/>parmi les Canadiens
+                    pour exprimer l'équipement d'hiver, où <lb/>il y a de plus une peau d'ours; une
+                    peau de loup marin, des <lb/>raquettes, une traine, un collier de portage, des
+                    mitaines, etc̟.</p>
+                <p>
+                    <hi rend="italique">Courses à pied</hi>. - Il se fait au Détroit des courses à
+                    pied de <lb/>sauvages et de Canadiens, aussi célèbres que celles des che̠
+                    <lb/>vaux en Angleterre, elles se font dans le printemps, commu̠nément <lb/>il y
+                    a cinq cents sauvages, quelquefois jusqu'à quinze <lb/>cents; la course est
+                    d'une demi-lieue aller et revenir du Dé̠troit <lb/>au village des Poutéouatamis,
+                    le chemin est beau et <lb/>large. Il y a des poteaux plantés aux deux
+                    extrémités, les <lb/>paris sont très-considérables et consistent en des paquets
+                    de <lb/>pelleteries contre des marchandises de France et à l'usage <lb/>des
+                    sauvages.</p>
+                <p> Le plus célèbre Canadien qui ait couru et qui gagnoit les <lb/>sauvages est le
+                    nommé Campo; sa supériorité est si reconnue <lb/>qu'il n'est plus admis aux
+                    courses.</p>
+                <p> On trouve dans les moeurs des sauvages des traces des an̠ciens <lb/>usages des
+                    Grecs, principalement je crois toujours voir <lb/>dans leurs moeurs et coutumes
+                    guerrières celles des héros de <pb n="79"/>
+                    <lb/><hi rend="italique">l'Illiade</hi> et de <hi rend="italique"
+                    >l'Odyssée</hi>, quelques-uns d'eux ont la coutume <lb/>comme les Hébreux de
+                    séparer les femmes dans des caban̠nes <lb/>distinctes des leurs et de ne pas
+                    habiter avec elles lors̠qu'elles <lb/>ont leurs règles. La séparation de maison
+                    est peut̠être <lb/>trop forte, mais de ne pas habiter est dans les principes
+                    <lb/>de la saine physique et de l'amour de l'humanité pour ne pas <lb/>procréer
+                    une malheureuse postérité destinée à vivre avec des <lb/>infirmités.</p>
+                <p> Le roy donne beaucoup de présens aux sauvages des Pays <lb/>d'en Haut, cela
+                    coûte année commune <num type="cardinal">150 000</num> francs; on leur
+                    <lb/>fournit leurs besoins en échange de pelleteries, ce qui s'appelle
+                    <lb/>faire la traite, coutume qui enrichit les particuliers à qui il <lb/>est
+                    donné de la faire dans les postes; dans quelques-uns le roy <lb/>s'est réservé
+                    lui-même le commerce, et comme il la fait désa̠vantageusement <lb/>par la seule
+                    raison qu'il est roy, le com̠merce <lb/>lui revient par an à <num
+                        type="cardinal">100 000</num> écus de perte. Ces dé̠penses <lb/>sont encore
+                    fort au-dessous de celles que l'on fait en <lb/>temps de guerre pour équiper,
+                    armer, nourrir, gratifier, <lb/>donner des colliers tant à nos sauvages
+                    domiciliés, qu'à ceux <lb/>du Pays d'en Haut quand nous voulons les faire
+                    descendre.</p>
+                <list>
+                    <label>1°</label>
+                    <item><hi rend="italique">Route de Montréal à Frontenac</hi>. - Cet itinéraire
+                        est fait <lb/>la marche de M̟. le marquis de Montcalm.</item>
+                </list>
+                <p> Le <date>21</date>, à la Chine gros bourg à trois lieues de Mont-Réal où
+                    <lb/>sont les hangards, magasins du roy pour y embarquer tout <lb/>ce qui va
+                    dans les Pays d'en Haut, la rivière n'est pas naviga̠ble <lb/>depuis Mont-Réal;
+                    on propose depuis longtemps de faire <lb/>un canal qui épargneroit beaucoup
+                    d'argent au roy obligé de <lb/>tout faire transporter par terre, de Montréal à
+                    la Chine et <lb/>ôteroit aux plumistes écrivains et commis, le moyen d'avoir
+                    <lb/>des équipages aux dépens du roy.</p>
+                <p> Le <date>22</date>, journée de huit lieues pour venir à la pointe Cou̠longe
+                    <lb/>après avoir passé:</p>
+                <list>
+                    <item n="1">
+                        <p> Vis-à-vis l'isle d'Orval à deux lieues de la Chine;</p>
+                    </item>
+                    <item n="2">
+                        <p> La traverse de Château-Gay;</p>
+                    </item>
+                    <item n="3">
+                        <p> L'isle Perot qui a une lieue de long;</p>
+                    </item>
+                    <item n="4">
+                        <p> La traverse des Cascades;</p>
+                    </item>
+                    <item n="5">
+                        <p> Les Buissons, rapides; forte course; l'on porte par-dessus <lb/>le
+                            coteau les canots et les bagages.</p>
+                    </item>
+                </list>
+                <p> Dans toute cette route, la navigation est fort difficile, mais <lb/>on trouve
+                    les plus beaux points de vue du monde. La rivière <lb/>est remplie d'isles bien
+                    boisées, mais le lit en est embarrassé <lb/>par des roches presque à fleur
+                    d'eau, retrécy d'ailleurs par <pb n="80"/>
+                    <lb/>ces isles. Il y a pendant près de quarante lieues des cascades <lb/>et
+                    rapides presque continuels; aux cascades, la rivière se par̠tage <lb/>en deux
+                    branches, celle du sud se nomme la grande Ri̠vière <lb/>ou rivière des Outaouas,
+                    on va à Michilimakinak en la <lb/>suivant; l'autre branche conduit à Frontenac
+                    et aux Illinois <lb/>par des lacs, la terre qui sépare ces deux rivières est une
+                    <lb/>presqu'isle qui a trois cents lieues de long et va jusqu'au Dé̠troit;
+                    <lb/>cette terre dans sa plus grande largeur peut avoir <lb/>vingt-cinq
+                    lieues.</p>
+                <p> A commencer aux Cascades, il y a une paroisse nommée <lb/>Saint-Joseph, dont
+                    messieurs de Longueil sont seigneurs. Elle <lb/>a douze lieues de long et
+                    s'étend jusqu'à la pointe au Bau̠det. <lb/>Les terres en sont excellentes à la
+                    côte du sud, à prendre <lb/>aussi aux Cascades est une seigneurie appartenant à
+                    M̟. de <lb/>Vaudreuil, sans paroisse; les habitans vont à celle du lac des
+                    <lb/>Deux-Montagnes, la traversée est d'une lieue.</p>
+                <p> Le <date>23</date>, parti de la pointe Coulonge.</p>
+                <p> Le coteau des Cèdres, rapide long de demy-lieue; on y <lb/>traîne les voitures
+                    avec beaucoup de dangers et de peine. Il <lb/>y a portage au-dessus d'un petit
+                    fort de pieux presque aban̠donné <lb/>et qu'il faudroit réparer contre les
+                    courses des Agniers; <lb/>le coteau du Lac a trois lieues, rapide moins long que
+                    celui <lb/>des Cèdres, portage, on entre dans le lac Saint-François qui <lb/>est
+                    à sept lieues des Cascades et il y a sept lieues de long au <lb/>fond du lac,
+                    sur la gauche il y a une rivière qui conduit après <lb/>quinze lieues à une mine
+                    qu'on croit d'argent. Passé aux ar̠bres <lb/>Matachés, à l'anse aux Bateaux.</p>
+                <p> La pointe aux Foins où les habitans des Cèdres viennent <lb/>les faire et les
+                    vont chercher l'hiver sur les glaces.</p>
+                <p> La rivière au Baudet, l'anse au Baudet, journée de huit <lb/>lieues depuis le
+                    lac Saint-François jusques à la Chine; la ri̠vière <lb/>ne prend pas, tout au
+                    plus les bords, le lac prend tou̠jours, <lb/>et la rivière jusqu'au pied du Long
+                    Sault.</p>
+                <p> Le <date>24</date>, passé à la pointe à Lamorandière; l'isle aux Raisins;
+                    <lb/>entré dans les chenaux à trois lieues de l'extrémité du lac. On
+                    <lb/>aperçoit le fort Saint-Régis, qui est sur la rivière à la Mine; <lb/>le
+                    fort est de pieux, établi en <date>1751</date>. Les jésuites y ont une mis̠
+                    <lb/>sion pour y établir quelques Iroquois; beau canton de chasse ; <lb/>on
+                    trouve dans les chenaux le rapide, appelé <hi rend="italique">le Chenail
+                        écarté</hi>, <lb/>le moulinet très-dangereux. La pointe Maline; la pointe au
+                    <lb/>May; la rivière de<gap resp="editor" rend="points"/>; l'isle à la Savate;
+                    les Mille-Roches, <lb/>au-dessus desquelles on campe : journée de dix
+                    lieues.</p>
+                <pb n="81"/>
+                <p> Le <date>25</date>, le rapide du Moulinet; l'isle aux Têtes, ainsi nom̠mée <lb/>
+                    d'une exécution que M̟. de Frontenac y a fait faire; le <lb/>petit chenail du
+                    Long Sault; le Rigolet; le rapide du Long <lb/>Sault où portage de demi-lieue ;
+                    le Grand Campement ; la <lb/>pointe au Fer à Cheval ; le Grand Remou ; le
+                    Courant; la <lb/>pointe Sainte-Marie; l'isle au Chat; la Grosse Roche; le Rapide
+                    <lb/>plat, au-dessus duquel on campe; marche de neuf lieues.</p>
+                <p> Le <date>26</date>, la pointe à Colas ; la pointe au Borgne; le courant <lb/>de
+                    Sainte-Marie; la pointe aux Iroquois; la Presqu'isle ; la <lb/>pointe à
+                    Cardinal; les Galots où un rapide facile ; l'anse aux <lb/>Perches, ainsi nommée
+                    à cause que, n'y ayant plus de rapide, <lb/>les Canadiens jettent les perches
+                    pour se servir des rames; la <lb/>pointe à l'Ivrogne, l'isle aux Galots; la
+                    pointe à la Galette ; le <lb/>fort de la Présentation.</p>
+                <p> La cour avait defendu tout établissement françois au delà <lb/>du Long Sault.
+                    L'abbé Piquet a obtenu une concession de <lb/><num type="cardinal">12</num>
+                    arpens; il y a fait construire un fort de pieux carrés flan̠qué <lb/>de quatre
+                    petits bastions, palissade en dehors et où <lb/>M̟. l'abbé Piquet avait commencé
+                    un retranchement extérieur <lb/>avec un fossé plein d'eau; à côté du fort est un
+                    village sau̠vage <lb/>habité par cent feux ou cabanes iroquoises et des
+                    Cinq̠Nations <lb/>que l'on y a attirées et baptisées. Le marquis de Mont̠calm
+                    <lb/>y trouva des prétendus ambassadeurs des Cinq-Nations <lb/>avec qui il tint
+                    un conseil et qu'il envoya à Mont-Réal en écri̠vant <lb/>à M̟. le marquis de
+                    Vaudreuil de les considérer plus <lb/>comme des espions que comme des
+                    ambassadeurs de <lb/>l'Anglois.</p>
+                <p> Le <date>27</date> les sauvages de la Présentation chantèrent la guerre; <lb/>on
+                    leur accorda une vache et un baril de vin pour faire le <lb/>festin de guerre.
+                    Au départ du marquis de Montcalm, ces Iro̠quois <lb/>se mirent en haye, sous les
+                    armes; un d'eux battant <lb/>aux champs, les chefs saluant de l'esponton, et ils
+                    firent trois <lb/>décharges de mousqueterie après avoir passé la pointe au
+                    <lb/>Baril, à trois lieues du fort. On vint camper cinq lieues <lb/>plus
+                    loin.</p>
+                <p> Le <date>28</date>, après avoir passé la Presqu'isle, à Tonniata, le Petit
+                    <lb/>Détroit; la pointe au Baptême, ainsi nommée parce qu'on <lb/>y baptise ceux
+                    qui n'y ont jamais passé, comme sur le Grand <lb/>Banc ; les Mille Isles; à
+                    l'anse aux Corbeaux; à l'isle aux Ci̠trons; <lb/>campés à l'isle au
+                    Cauchois.</p>
+                <p> Le <date>29</date>, après avoir passé le Petit Rocher, l'isle au Cerf; I'isle
+                    <lb/>aux Cèdres; la pointe de Mont-Réal, nous sommes entrés <pb n="82"/>
+                    <lb/>dans la baye de Katarakoui, et arrivés sur les dix heures du <lb/>matin au
+                    fort de Frontenac.</p>
+                <p> Depuis le lac Saint-François jusques à Frontenac le pays <lb/>abonde en poissons
+                    achigans, poissons dorés, carpes et bar̠bues, <lb/>l'ours et le chevreuil y sont
+                    très communs. On trouve <lb/>beaucoup de marais où l'on tue outardes, cignes,
+                    grues, ca̠nards <lb/>noirs, canards dits de France, canards gris, branchus,
+                    <lb/>la sarcelle à ailes bleues et vertes. Aux environs de I'isle <lb/>de
+                    Toniata, les sauvages font une pêche abondante d'an̠guilles.</p>
+                <p> Le lac Ontario, a cinquante lieues de traverse, trente dans <lb/>sa plus grande
+                    largeur, et deux cents de tour.</p>
+                <p>
+                    <hi rend="italique">De Frontenac à Choueguen</hi>. - De Frontenac à l'isle de la
+                    Forest, <lb/>on traverse de l'isle de la Forest à l'isle au Chevreuil; de l'isle
+                    au <lb/>Chevreuil à l'isle aux Galops; de l'isle aux Galops à la Terre du
+                    <lb/>Sud, ou à la baye de Niouré ; de la baye de Niouré on côtoie <lb/>le sud
+                    pendant dix-sept lieues jusqu'au Choueguen et l'on <lb/>trouve plusieurs
+                    rivières qui se jettent dans le lac, dont la <lb/>première s'appelle la rivière
+                    à Monsieur le Comte, ensuite la <lb/>rivière au Sable, qui est si abondante en
+                    saumons qu'au mois <lb/>de juin et de septembre on les tue à coups de bâtons. La
+                    <lb/>troisième rivière qu'on trouve s'appelle la rivière à la Plan̠che. <lb/>On
+                    trouve ensuite la rivière à la Grosse Écorce à cinq <lb/>lieues de Choueguen, et
+                    à trois lieues de Choueguen, l'anse <lb/>aux Cabanes, où l'armée a campé, allant
+                    au siège de Choue̠guen, <lb/>et à une petite demi-lieue la petite anse où
+                    l'armée a <lb/>campé pour investir cette place.</p>
+                <p> La rivière de Choueguen est appelée aussi la rivière des On̠nontagués <lb/></p>
+                <p> On voit plusieurs oiseaux de proie sur le lac Ontario, beau̠coup <lb/>d'aigles,
+                    et, suivant M̟. de Noyan, un oiseau qui a le <lb/>plumage du corbeau, la
+                    grosseur et la figure du dinde. C'est <lb/>l'oiseau qui vole le plus haut et le
+                    plus vite; il se fait sentir <lb/>d'un quart de lieue et il l'appelle l'oiseau
+                    picquant.</p>
+                <p>
+                    <hi rend="italique">Communication entre l'Europe et l’Amérique par terre</hi>. -
+                    La <lb/>cour de Suède envoya, du temps que M̟. de La Galissonnière <lb/>était
+                    gouverneur général, le sieur Kalm, de l'académie des <lb/>curieux d'Upsal, faire
+                    des observations astronomiques et <lb/>physiques. Ce savant était persuadé qu'il
+                    devait y avoir une <lb/>communication entre l'Europe et l'Amérique et que les
+                    sau̠vages <lb/>avaient une origine commune avec les Tartares. Il se <lb/>fondait
+                    sur ce qu'il assurait que beaucoup de mots d'un <pb n="83"/>
+                    <lb/>usage commun, tels que ceux de couteau, feu, etc̟, étaient <lb/>les mêmes
+                    en langue abenaquise qu'en langue tartare.</p>
+            </div>
+            <lb/>
+            <div type="section">
+                <head rend="align(centré)case(pmaj)">LOUISIANE</head>
+
+                <lb/>
+                <p> Cette colonie est encore plus dans l'enfance, pour ainsi <lb/>dire, que le
+                    Canada, dans un beau climat, riche par ses pro̠ductions. <lb/>Il y a deux villes
+                    sans fortifications, la Nouvelle̠Orléans, <lb/>belle, des rues bien alignées,
+                    une grande, belle <lb/>place, avec deux corps de caserne. On devrait y faire une
+                    en̠ceinte, <lb/>ne serait-ce qu'un fossé palissadé. La Mobile, petite <lb/>ville
+                    comme les Trois-Rivières du Canada, quatre bourgs : <lb/>les Illinois, les
+                    Alibamons, Natchitoches, la Pointe Coupée. <lb/>L'indigo, les meuriers, la cire,
+                    les bois, sont les richesses du <lb/>pays, qui produit de tout en abondance; le
+                    tabac meilleur que <lb/>la Virginie. Un commerce avec le Mexique, le pays
+                    difficile à <lb/>conquérir par l'Anglois; les bâtimens ont peine à y aborder;
+                    <lb/>pays aquatique. Des digues, comme en Hollande, en submer̠gent <lb/>une
+                    partie en cas de besoin. Il peut y avoir trois à <lb/>quatre mille blancs,
+                    quatre mille nègres, quarante compa̠gnies <lb/> détachées de la marine, faisant
+                    deux mille hommes, <lb/>trois cents Suisses du régiment Dalville. On trouve aux
+                    Illi̠nois <lb/>d'abondantes mines de plomb, la place de gouverneur <lb/>vaut
+                    treize mille livres, celle de commissaire ordonnateur, <lb/>moins. Mais le
+                    talent supplée et quelquefois va trop loin. Il n'y <lb/>a d'autres
+                    ecclésiastiques que des capucins et des jésuites. Le <lb/>roi y entretient deux
+                    cents nègres ouvriers pour les divers <lb/>ouvrages ; l'ordonnateur les emploie
+                    communément à son <lb/>utilité, et il en coûte encore cher au roi pour les
+                    nourrir. <lb/>M̟. Le Normant, aujourd'hui adjoint an ministère de la ma̠rine,
+                    <lb/>est le seul qui les ait véritablement employés au ser̠vice <lb/>du roi.</p>
+            </div>
+            <lb/>
+            <div type="section">
+                <head rend="align(centré)case(pmaj)">CONVERSATION AVEC LE SIEUR BLONDEAU</head>
+
+                <lb/>
+                <p>
+                    <hi rend="italique">Médecine</hi>. - Les sauvages ont une médecine naturelle et
+                    <lb/>des médecins. Ils vivent aussi longtemps que nous. Ils ont <lb/>moins de
+                    maladies. Ils les guérissent quasi toutes hors la <lb/>petite vérole, qui fait
+                    toujours de funestes ravages chez eux, <lb/>maladie qui leur était inconnue
+                    avant notre commerce.</p>
+                <p> La vérole et toutes les maladies vénériennes leur sont con̠nues. <lb/>Ils les
+                    traitent avec des tisannes composées de quel̠ques <pb n="84"/>
+                    <lb/>simples qu'il n'y a qu'eux ou quelques voyageurs des <lb/>pays d'en haut
+                    qui les connaissent. Je croirais cependant <lb/>leurs remèdes plus palliatifs
+                    que curatifs.</p>
+                <p> Leurs grands principes pour la guérison de toutes les ma̠ladies <lb/>sont: la
+                    diète rigoureuse, faire suer le malade, employer <lb/>les vomitifs, des
+                    purgatifs et des lavemens. Ils ne connaissent <lb/>ny la casse, ny la manne, ny
+                    le séné, ny la rhubarbe ny les <lb/>quinquinas, mais ils produisent les mêmes
+                    effets que ces <lb/>drogues avec des plantes qu'ils connoissent, dont ils font
+                    des <lb/>infusions. Ils ont des remèdes particuliers pour guérir les
+                    <lb/>tumeurs scrofuleuses ou écrouelles. Ils font peu d'usage de <lb/>la
+                    saignée. Ils ne connoissent point celle du pied. Ils font <lb/>cette opération à
+                    l'aide d'un couteau bien pointu ou d'une <lb/>pierre à fusil. Ils font observer
+                    à leurs malades une diète <lb/>plus rigoureuse que nous. Ils leur font un
+                    bouillon fort <lb/>clair indistinctement de toutes viandes, mais de préfé̠
+                    <lb/>rence de poisson, sentiment que M̟. Héquet auroit bien <lb/>adopté. Ils
+                    n'excluent, pour faire du bouillon à leurs ma̠lades, <lb/> parmi les aliments
+                    maigres, que l'anguille, la truite et <lb/>l'esturgeon, et parmi les alimens
+                    gras, le dinde, la biche, <lb/>l'ours, le cochon et le castor; à juger par leurs
+                    succès, <lb/>ils sont aussi bons médecins que les nôtres. Ils ne connois̠sent
+                    <lb/>point les remèdes chimiques, ils ne sont que grands <lb/>botanistes et
+                    connoissent parfaitement les simples. Je ne <lb/>crois pas que les médecins des
+                    sauvages soient aussi ha̠biles <lb/>sur le fait de la chirurgie. Ils remettent
+                    les os disloqués. <lb/>Ils rétablissent les fractures, ils se servent de
+                    bandages, mais, <lb/>moins adroits que nous, on reste quelquefois estropié. Ils
+                    ne <lb/>connoissent point l'art terrible et malheureusement néces̠saire <lb/>des
+                    amputations. Ils guérissent les blessures qui ne sont <lb/>pas considérables, en
+                    suant. Ils donnent aussi des tisannes <lb/>à leurs blessés. Ils ont des tisannes
+                    adoucissantes pour les <lb/>maux de poitrine; aucun usage du lait; leur
+                    sagamité, qui <lb/>est une préparation du blé d'Inde, fait une nourriture légère
+                    <lb/>et rafraîchissante. Ils ont aussi une tisanne qu'ils regardent <lb/>comme
+                    un très-bon dissolvant de la pierre et des matières <lb/>graveleuses.</p>
+            </div>
+            <div type="signature">
+                <p>DE BOUGAINVILLE</p>
+            </div>
+        </body>
+        <back/>
+    </text>
+</TEI>

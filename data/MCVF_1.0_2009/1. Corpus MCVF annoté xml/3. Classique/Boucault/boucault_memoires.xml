@@ -1,0 +1,2094 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">État présent du Canada, dressé sur un nombre de mémoires et
+                    connaissances acquises sur les lieux, par le sieur Boucault</title>
+                <title type="sub"/>
+                <title type="short">Boucault.Memoires</title>
+                <author>
+                    <persName>
+                        <surname>Boucault</surname>
+                        <forename>Nicolas-Gaspar</forename>
+                    </persName>
+                </author>
+                <editor>Modéliser le changement, les voies du français GTRC/CRSH</editor>
+                <principal>
+                    <persName>France Martineau</persName>
+                </principal>
+                <funder>
+                    <orgName>Université d'Ottawa</orgName>
+                    <orgName>Conseil de recherche en sciences humaines du Canada</orgName>
+                </funder>
+                <respStmt>
+                    <resp>Codage</resp>
+                    <persName xml:id="Martineau">France Martineau</persName>
+                    <persName xml:id="Fauchon">Caroline Fauchon</persName>
+                    <persName xml:id="Gour">Clive Gour</persName>
+                    <persName xml:id="Labelle">Simon-Pier Labelle-Hogue</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Numérisation</resp>
+                    <persName>Clive Gour</persName>
+                </respStmt>
+            </titleStmt>
+            <extent>22 730</extent>
+            <publicationStmt>
+                <date when="2009-04-16"/>
+                <publisher>
+                    <orgName>Modéliser le changement : les voies du français GTRC/CRSH</orgName>
+                    <address>
+                        <addrLine>60, rue Université</addrLine>
+                        <addrLine>Ottawa, Ontario</addrLine>
+                        <addrLine>K1N 6N5</addrLine>
+                        <addrLine>Tél : 613-562-5797</addrLine>
+                        <addrLine>Fax : 613-562-5981</addrLine>
+                        <addrLine><email>fmartin@uottawa.ca</email></addrLine>
+                        <addrLine>http://www.voies.uottawa.ca/</addrLine>                        
+                    </address>
+                </publisher>
+                <distributor>
+                    <orgName>Modéliser le changement : les voies du français GTRC/CRSH</orgName>
+                    <address>
+                        <addrLine>60, rue Université</addrLine>
+                        <addrLine>Ottawa, Ontario</addrLine>
+                        <addrLine>K1N 6N5</addrLine>
+                        <addrLine>Tél : 613-562-5797</addrLine>
+                        <addrLine>Fax : 613-562-5981</addrLine>
+                        <addrLine><email>fmartin@uottawa.ca</email></addrLine>
+                        <addrLine>http://www.voies.uottawa.ca/</addrLine>                        
+                    </address>
+                </distributor>
+                <availability status="restricted">
+                    <p>(c) Modéliser le changement : les voies du français (CRSH/GTRC, dirigé par F.
+                        Martineau)</p>
+                    <p>Les Corpus MCVF demeurent la propriété du projet Modéliser le changement :
+                        les voies du français. Les références à ces Corpus devraient apparaître
+                        ainsi : Corpus MCVF, Modéliser le changement : les voies du français (F.
+                        Martineau (dir.), U. d’Ottawa).Tous les documents du Corpus MCVF ne peuvent
+                        être divulgués à de tierces parties sans l’autorisation préalable de la
+                        Directrice du Projet </p>
+                    <p>Pour tout autre usage, contacter : <persName>France Martineau</persName>
+                        <orgName>Modéliser le changement : les voies du français, Université
+                            d'Ottawa</orgName>
+                        <email>fmartin@uottawa.ca</email></p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl>
+                    <biblStruct type="Source_publique">
+                        <monogr>
+                            <author>
+                                <persName>
+                                    <surname>Boucault</surname>
+                                    <forename>Nicolas-Gaspard</forename>
+                                </persName>
+                            </author>
+                            <title>Extrait des mémoires de Nicolas-Gaspard Boucault</title>
+                            <editor>
+                                <persName>
+                                    <forename>Fernand</forename>
+                                    <surname>Grenier</surname>
+                                </persName>
+                            </editor>
+                            <imprint>
+                                <pubPlace>Québec</pubPlace>
+                                <publisher>
+                                    <orgName>Les Presses Universitaires Laval</orgName>
+                                </publisher>
+                                <date when="1952">1952</date>
+                            </imprint>
+                            <biblScope>pp 11-50</biblScope>
+                        </monogr>
+                    </biblStruct>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Projet : Modéliser le changement les voies du français (GTRC/CRSH) <lb/>Resp. :
+                        <persName>France Martineau</persName> Institution : Département de français,
+                    Université d'Ottawa
+                    <address>
+                        <addrLine>60, rue Université</addrLine>
+                        <addrLine>Ottawa, Ontario</addrLine>
+                        <addrLine>K1N 6N5</addrLine>
+                        <addrLine>Tél : 613-562-5797</addrLine>
+                        <addrLine>Fax : 613-562-5981</addrLine>
+                        <addrLine><email>fmartin@uottawa.ca</email></addrLine>
+                        <addrLine>www.voies.uottawa.ca</addrLine>                        
+                    </address></p>
+            </projectDesc>
+            <editorialDecl>
+                <p>Voir le manuel d'annotation TEI au http://www.voies.uottawa.ca</p>
+                <p>L'édition de référence a été respectée quant à l'orthographe, la ponctuation, la
+                    mise en page et la pagination. Cependant, la césure des mots en fin de lignes
+                    (ou de pages) a été supprimée, le mot est placé dans la ligne ou la page où il
+                    commence. </p>
+                <p>Les paragraphes sont notés par P pour la prose. Pour les vers, P rend="gv"
+                    indique que le paragraphe est constitué d'un groupe de vers. </p>
+                <p> Les débuts des vers sont encodés par LB. Cette balise peut également servir dans
+                    les textes en prose à indiquer les débuts des lignes selon la pagination de
+                    l'édition. </p>
+                <p>Les changements de pages sont indiqués par la balise PB</p>
+                <p>Le corps du texte est obligatoirement compris dans le BODY. Le FRONT contenant le
+                    titre et/ou le prologue et le BACK (explicit) sont facultatifs et ne sont mis
+                    qu'au besoin. </p>
+                <p>Les différentes parties du texte (livre, chapitre...) sont encodées par DIV,
+                    auquel s'ajoute l'attribut TYPE qui spécifie sa nature. </p>
+                <p>Les paragraphes (P), lignes (LB) et pages (PB) de même de certaines divisions
+                    (DIV) sont ou peuvent être numérotés par l'attribut N s'ils le sont dans
+                    l'édition. </p>
+                <p>Quelques commentaires ou corrections ont été introduits à l'aide de la balise
+                    NOTE, CORR ou SIC. </p>
+                <p>Les discours directs et les citations ont été encodés par la balise Q. Cette
+                    balise est mise à chaque fois que des guillemets sont utilisés dans l'édition. </p>
+                <p>L'élément FOREIGN indique un passage en latin qui est noté en italique dans
+                    l'édition, les occurrences non en italique sont signalées par l'attribut ROMAIN. </p>
+                <p>Les folios sont notés par la balise <tag>pb rend="folio"</tag></p>
+                <p>Les notes de bas de pages ont été retirées. </p>
+                <p>Les paragraphes entièrement en latin ont été retirés, une balise P et une NOTE
+                    les signalent. </p>
+                <p>Note spécifique au texte ci-dessous: Aucune.</p>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <creation>
+                <date notBefore="1754" notAfter="1754"/>
+            </creation>
+            <langUsage>
+                <language ident="fr"/>
+            </langUsage>
+            <textDesc>
+                <channel/>
+                <constitution>Extrait</constitution>
+                <derivation/>
+                <domain/>
+                <factuality/>
+                <interaction/>
+                <preparedness/>
+                <purpose/>
+            </textDesc>
+            <textClass>
+                <keywords scheme="GTRC">
+                    <list>
+                        <item n="domaine">Non littéraire</item>
+                        <item n="genre">Journal / Mémoire personnel</item>
+                        <item n="forme">Prose</item>
+                        <item n="docRegion1">France</item>
+                        <item n="docRegion2"/>
+                        <item n="docRegion3"/>
+                        <item n="auteurRegion1">France</item>
+                        <item n="auteurRegion2"/>
+                        <item n="auteurRegion3"/>
+                        <item n="auteurSexe">Homme</item>
+                        <item n="occupation">Administrateur</item>
+                        <item n="scribeRegion1"/>
+                        <item n="scribeRegion2"/>
+                        <item n="scribeRegion3"/>
+                        <item n="imprimeurRegion1"/>
+                        <item n="imprimeurRegion2"/>
+                        <item n="imprimeurRegion3"/>
+                    </list>
+                </keywords>
+                <classCode scheme="Indice de Dees"/>
+            </textClass>
+            <particDesc>
+                <listPerson>
+                    <person role="auteur">
+                        <persName>
+                            <surname>Boucault</surname>
+                            <forename>Nicolas-Gaspard</forename>
+                        </persName>
+                        <birth>
+                            <date when="1689">1689</date>
+                            <placeName>France</placeName>
+                        </birth>
+                    </person>
+                </listPerson>
+            </particDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2009-04-16" who="#Martineau">Validation de l'en-tête</change>
+            <change when="2009-04-16" who="#Labelle">Vérification balisage</change>
+            <change when="2009-04-16" who="#Fauchon">En-tête au complet</change>
+            <change when="2005-12-15" who="#Gour">Codage au complet</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front>
+        <pb n="11"/>
+        <div type="title">
+            <p>
+                <hi rend="maj">ÉTAT PRÉSENT DU CANADA, DRESSÉ SUR NOMBRE DE MÉMOIRES ET
+                    <lb/>CONNAISSANCES ACQUISES SUR LES LIEUX, PAR LE <lb/>SIEUR BOUCAULT
+                    (1754)</hi>
+            </p>
+        </div>
+        <div type="subtitle">
+            <p>
+                <hi rend="maj">IDÉE GÉNÉRALE DU CANADA OU DE LA NOUVELLE- FRANCE</hi>
+            </p>
+        </div>
+        </front>
+        <body>
+            <p> Ce continent fut découvert par des pêcheurs bretons l'an 1504 ; reconnu par Tho̲̲mas
+                <lb/>Aubert, de Dieppe, en 1508 ; par Jean Verazany, florentin, au nom du Roy
+                François <lb/>premier en 1523 ; par Jacques Cartier en 1534 et 1535 ; depuis occupé
+                de l'autorité de <lb/>nos Roys et connu sous le nom du Canada, par corruption de
+                Cacanada, qui signifie <lb/>pays aquatique et montagneux, nom qui lui avait été
+                donné par les sauvages.</p>
+            <p> Le Canada, ou la Nouvelle-France n'est proprement borné au Nord que par la <lb/>Baye
+                d'Hudson, à l'Est par la mer et l'isle de Terre-Neuve, au Sud et au Sud-est par les
+                <lb/>colonies anglaises, au Sud-est par la Louisiane, à l'Ouest par les terres
+                espagnoles et <lb/>par des terres ou des mers inconnues ; il était plus considérable
+                avant le traité d'Utreck, <lb/>par lequel le roy a cédé à la reine d'Angleterre et à
+                ses successeurs, à perpétuité, la <lb/>Nouvelle-Ecosse, ou l'Acadie, conformément à
+                ses anciennes limites, la ville de Port_ <lb/> Royal, l'isle de Terre-Neuve, et la
+                Baye d'Hudson.</p>
+            <p> Son étendue actuelle comprend<hi rend="susp"/>…</p>
+            <p> l"<hi rend="points"/>….. L'Isle Royale qui est à l'entrée du golfe de Canada, (St-
+                Laurent), avec <lb/>toutes les isles qui se trouvent dans cette baye.</p>
+            <p> 2"<hi rend="points"/>….. La terre ferme de l'Acadie, le long de la presqu'isle
+                d'Acadie, jusqu'à la <lb/>mer, et ce qui se trouve jusqu'à la Nouvelle-Angleterre,
+                en tirant à l'Ouest.</p>
+            <p> 3"<hi rend="points"/>….. La terre ferme de Labrador, et toutes les côtes maritimes
+                qui se terminent <lb/> et s'étendent du Détroit de Belle-Isle jusqu'à la Baye
+                d'Hudson.</p>
+            <p> 4"<hi rend="points"/>….. Toutes les terres aboutissantes au fleuve de St-Laurent,
+                depuis son <lb/>embouchure jusqu'à sa source, et à celle de toutes les rivières qui
+                s'y déchargent.</p>
+            <p> C'est sur les rives du fleuve St-Laurent, et des rivières principales qui s'y
+                déchargent <lb/>que la colonie française est établie, toute la profondeur n'est
+                habitée en partie que par <lb/>les diverses nations sauvages.</p>
+            <p> La ville de Québec, capitale du Canada, est située sur le bord du fleuve du côté du
+                <lb/>Nord, à cent vingt lieues de son embouchure.</p>
+
+            <pb n="12"/>
+            <p> A trente lieues au-dessus de Québec, on trouve la ville de Trois-Rivières, et à
+                trente <lb/>lieues au-dessus de la ville de Trois-Rivières, on trouve la ville de
+                Montréal, scituée <lb/>dans une fort belle isle.</p>
+            <p> Le terrain le plus habité est depuis trente lieues ou environ au-dessous de Québec,
+                <lb/>jusqu'au dessus de l'isle de Montréal, les habitations y sont contiguês et tout
+                y est <lb/>habité.</p>
+            <p> A six lieues ou environ de la ville de Montréal, dans les terres du côté sud, on
+                trouve <lb/> le fort de Chambly, scitué sur la rivière de Sorel, qui défend les
+                avenues de la Nouvelle̲̲Angleterre.</p>
+            <p> Dans l'isle de Montréal, au-dessus de la ville, il y a plusieurs petits forts qui
+                ont <lb/>été construits dans les premiers tems de l'établissement, pour empêcher les
+                incursions <lb/>des sauvages iroquois.</p>
+            <p> A soixante lieues ou environ au dessus de l'Isle de Montréal, dans un lieu nommé,
+                <lb/>en terme sauvage, <hi rend="ital">Catarakouy</hi>, on trouve le fort de
+                Frontenac, sur le bord du lac Ontario, <lb/>au travers duquel le fleuve St-Laurent
+                passe ; ce fort a été bâty pour contenir les <lb/>Cinq-Nations d'Iroquois, qui ont
+                leurs villages en haut de ce lac, le long de la côte <lb/>méridionale.</p>
+            <p> Il est difficile d'assigner au juste, la source du fleuve St-Laurent, à cause de la
+                <lb/>quantité de rivières peu connues qui composent le lac Supérieur, d'où sort ce
+                fleuve, <lb/>au lieu nommé le Saut Sainte-Marie ; là, il entre dans le lac Huron,
+                qui, ayant reçu <lb/>les eaux du lac Michigan, autrement lac des Illinois, reprend
+                la forme du fleuve au- dessus <lb/>du lieu nommé le Détroit, puis ayant formé le lac
+                Erié, et couru à l'Est, au travers de ce <lb/>lac, il revient au Nord, tombe par la
+                fameuse chute de Niagara dans le lac Ontario, et <lb/>continue sa course jusqu'au
+                fort de Frontenac, en sorte que depuis son entrée dans le <lb/>lac des Hurons
+                jusqu'à ce fort, il forme un grand demi-cercle.</p>
+            <p> Sur le bord du Détroit par lequel le fleuve passe du lac des Hurons dans le lac
+                <lb/>Erié, il y a, à gauche en montant, un fort appelé le fort du Détroit, ou le
+                fort Pontchar̲̲train, <lb/>qui est éloigné de trois cents et quelques lieues de
+                Québec, et où il y a des habi̲̲tations <lb/>françaises ; il y a aussy des postes
+                Français aux environs du lac Erié.</p>
+            <p> Il y a encore un poste distant de Québec d'environ trois cents lieues, et de plus de
+                <lb/>cent du fort de Détroit, et se nomme Missilimakinac ; il est scitué tout au
+                haut du lac <lb/>des Hurons, sur le rivage de ce lac, à gauche en remontant, à demie
+                lieue de l'embou̲̲chure <lb/>du lac Michigan, appelé par quelques-uns, lac des
+                Illinois ; aux environs de ce <lb/>poste, il y a plusieurs villages sauvages,
+                principalement d'Outaouais, c'est un entrepost <lb/>fort commode aux Français pour
+                la traite avec les Sauvages, le plus court chemin pour <lb/>y aller est de remonter
+                la grande rivière des Outaouais ; on la trouve à six lieues de <lb/>Montréal, du
+                côté du Nord, on la remonte environ cent quarante lieues, au bout duquel <lb/>on
+                trouve, à gauche, une rivière qui vient du lac Nippissing, qui est par les 46 degrés
+                <lb/>et quelques minutes de latitude nord, et de ce lac on fait un portage jusqu'à
+                une autre <pb n="13"/>
+                <lb/>rivière appelée la rivière des Français qui se décharge dans le lac des Hurons,
+                on évite <lb/>par ce moyen, le tour du demi-cercle que fait le fleuve jusqu'au haut
+                du lac des Hurons.</p>
+            <p> Il y a encore dans le lac Supérieur, plusieurs postes occupés par les Français, l'un
+                <lb/>des plus anciens est celui de Kaministigoyan, scitué du côté du Nord, ce fort
+                avait été <lb/>construit en 1683, par deffunt Daniel Greysolon, Sieur du Luth,
+                Claude de Greysolon, <lb/>Sieur de la Tourette, y a commandé.</p>
+            <p> Le gouvernement de la Nouvelle-France ne se borne pas du côté de l'Ouest et du
+                <lb/>Nord-Ouest au lac Supérieur, ny même aux sources du fleuve St-Laurent ; les
+                Français <lb/>ont, depuis plusieurs années, occupé plusieurs postes dont le détail
+                serait trop long <lb/>pour ce mémoire, mais tout ce qu'on en peut dire, c'est qu'il
+                paraît qu'il y a beaucoup <lb/>plus loin du lac Supérieur à ces derniers postes, que
+                de Montréal aux extrémités les plus <lb/>éloignées du lac Supérieur.</p>
+            <p> Le Pays de Louisiane avait été subordonné à ce gouvernement par lettres pattentes
+                <lb/>du mois de septembre 1712, par lesquelles il avait été accordé au sieur Crozat
+                le privilège <lb/>d'y faire commerce exclusif pendant quinze ans, et par les mêmes
+                pattentes, le pays <lb/>des Illinois avait été uni au gouvernement général de la
+                Nouvelle-France, mais le pays <lb/>de la Louisiane a été démembré de ce gouvernement
+                par les lettres pattentes du mois <lb/>d'août 1717, portant établissement de la
+                Compagnie d'Occident, et le pays des Illinois <lb/>a aussi été démembré du même
+                gouvernement, par arrêt du Conseil d'Etat, du 27 <lb/>septembre de la même année
+                1717, qui a uni ce pays à la province de la Louisiane, en <lb/>faveur de la même
+                Compagnie ; il n'y a que pour le spirituel que ces pays étaient restés
+                <lb/>dépendants de l'évêché de Québec, cependant depuis que la Compagnie des Indes a
+                <lb/>remis au Roy la Louisiane, l'administration du temporel a été rétablie sur le
+                même <lb/>pied qu'auparavant, excepté que les Illinois sont sous l'autorité
+                immédiate du gouverneur <lb/>particulier de la Louisiane, qui lui-même reconnaît le
+                gouverneur général de la Nouvelle̲̲France <lb/>pour son supérieur.</p>
+            <p>La ville de Plaisance, scituée en l'isle de Terre-Neuve avec une partie de cette
+                isle, <lb/>et toute la province de l'Acadie qui sont, l'une à droite, l'autre à
+                gauche de l'isle Royalle, <lb/>étaient aussi du gouvernement général du Canada, de
+                même que la baye d'Hudson, <lb/>au Nord, mais le tout a été cédé aux Anglais par le
+                traité d'Utreck.</p>
+            <p> Je ne feray point icy l'énumération de tous les peuples sauvages qui sont répandus
+                <lb/>dans le continent, ny de la position des uns à l'égard des autres ny de
+                l'étendue parti̲̲culière <lb/>qu'ils occupent, les cartes cy-jointes en donnent une
+                idée assé juste et il en sera <lb/>fait mention dans le détail du pays que nous
+                occupons entre eux, autant que leur position <lb/>ou leur commerce est ou peut
+                devenir intéressant à la colonie.</p>
+            <p> Mais pour n'être point engagé à des répétitions trop fréquentes dans ce détail,
+                <lb/>j'ay cru qu'il convenait auparavant de donner une idée générale de ces peuples,
+                avec <lb/>lesquels nous avons eu, et nous entretenons le commerce.</p>
+            <p> Toutes les nations qui occupent cette estendue de pays, viennent des Sioux, des
+                <lb/>Algonquins, et des Hurons, que divers intérests en ont séparés et leurs
+                différents dialectes <lb/>dérivent de ces trois langues mères.</p>
+
+            <pb n="14"/>
+            <p> L'air est généralement bon et sain dans toute cette étendue de pays. L'hiver <lb/>y
+                est très rude et étonne facilement ceux qui n'y sont pas faits ; les premières
+                gelées <lb/>sérieuses arrivent ordinairement vers la fin d'octobre, elles
+                remplissent en peu de temps <lb/>les rivières de glaçons, bientôt après la terre est
+                couverte de neige qui y séjourne l'espace <lb/>de 6 à 7 mois, et s'élèvent
+                communément à la hauteur de 6 à 7 pieds ou le vent n'a point <lb/>de prise, le bois
+                à la vérité, y est très commun, fournit des moyens de se précautionner <lb/>contre
+                le froid, qui bientôt y devient extrême, et empiète beaucoup sur le printemps,
+                <lb/>ce qu'il y a de plus ennuyeux, c'est que pendant ce temps glacial, la neige qui
+                éblouit <lb/>lorsqu'il fait soleil, nous cache toutes les beautés de la nature, et
+                ne laisse plus de <lb/>différence entre les rivières et les campagnes.</p>
+            <p> Lorsque le ciel est serein, il souffle de la partie de l'Ouest, un vent qui coupe le
+                visage, <lb/>s'il tourne au sud ou à l'est, le temps s'adoucit un peu, mais alors il
+                tombe une neige <lb/>si épaisse qu'on ne voit pas à 10 pas en plein midy, un vent
+                succède tantôt du Nord-Est, <lb/>tantôt du Nord-Ouest, qui par son froid rend la
+                neige en poussière, et l'enlève comme <lb/>il fait de cette dernière sur la terre
+                dans les sècheresses de l'été ce qui s'appelle tems de <lb/>poudrerie, qui
+                remplirait les maisons de neige si on n'avait la précaution d'en fermer <lb/>les
+                moindres ouvertures.</p>
+            <p> Malgré ce qu'on a à souffrir de la rigueur du froid, l'on est encore réduit à
+                souhaiter <lb/>qu'il ne discontinue pas, parce que s'il survenait un dégèle dans les
+                formes, les provisions <lb/>de viandes grosses, les volailles et les poissons qu'on
+                a empaillés et mis dans le grenier <lb/>depuis Noël, sur la foi de la bonne gelée,
+                se trouveraient en risque de se gâter, ou au moins, <lb/>de n'avoir plus la même
+                substance dans le cas indubitable où une nouvelle gelée les <lb/>reprendrait, parce
+                que le dégel leur aurait fait perdre tout le suc.</p>
+            <p> L'habitant, pour ménager son fourage, tue, à la fin de décembre, toutes les bêtes
+                <lb/>dont il veut se défaire, et les expose à la gelée pendant une seule nuit, ce
+                qui les rend <lb/>dures comme pierre, ensuitte sa provision faite, il apporte dans
+                les villes ce dont il veut <lb/>se défaire, les boeufs par quartier, ses moutons
+                habillés entiers ou par moitié, et sa volaille <lb/>en plume, ce qui engage un
+                chacun de s'aprovisionner ; le poisson ne peut être pêché <lb/>qu'à travers la glace
+                par des trous que les habitants font de distance en distance d'environ <lb/>12 à 15
+                pieds d'éloignement, faisant gagner d'un bout à l'autre le maître bout d'un filet
+                <lb/>qui est chargé, au bas, de roches croisées et attachées, ou de calles de plomb
+                pour tenir <lb/>le filet en respect contre le courant et faire prendre le poisson
+                dans les mailles.</p>
+            <p> Les filets ont des mailles plus ou moins grandes, et sont mis en usage selon
+                l'expé̲̲rience <lb/>et le jugement des habitants, qui occupent les différents
+                endroits, où il semble <lb/>que la Providence ait permis la fréquentation, et le
+                passage de certains gros poissons, <lb/>plutôt d'un côté du fleuve que d'un autre !
+                Exemple, dans le chenail du sud du fleuve <lb/>St-Laurent, au-dessus du lac
+                St-Pierre, en allant à l'isle du Pas, il se pêche des poissons <lb/>de toutes
+                espèces, comme brochets, maskinongés, poissons dorés, achigants, crapets,
+                <lb/>carpes, de deux espèces, éturgeons maillés et autres, mais beaucoup plus de
+                moyens <lb/>que de gros, et au-dessous de cette isle, en revenant vers la ville des
+                Trois-Rivières, <pb n="15"/>
+                <lb/>sur le lac St-Pierre, qui a plus de sept lieues de tour distant d'environ deux
+                lieues de <lb/>cette ville, il se pêche, en hiver, par des trous faits sur la glace,
+                comme il est cy-devant <lb/>dit, des poissons d'une beauté sans pareille, pour leur
+                grosseur, comme brochets, depuis <lb/>deux pieds jusqu'à trois ou quatre pieds de
+                long, des maskinongés, nommés ainsy en <lb/>sauvage, à peu près ressemblants au
+                brochet, qui ont 4 ou 5 pieds de long, des poissons <lb/>de toute beauté pour la
+                grosseur et grandeur, ainsy que des achigants, poissons blancs <lb/>et autres
+                espèces.</p>
+            <p> Cette pesche sur les glaces se fait par les habitants au-devant de leurs
+                habitations; <lb/>plusieurs voisins pour leur grand avantage s'unissent ensemble
+                pour barer plus d'étendue <lb/>d'eau, et lorsqu'ils veulent tirer leurs filets, par
+                ces trous, dont le bout du maître du filet <lb/>est amarré ou attaché à une perche
+                entrée dans la glace à côté du trou, ils sont obligés <lb/>avec la hache de refaire
+                de nouveau ce trou, qui le plus souvent a plus de 5 à 6 pouces <lb/>d'épaisseur de
+                glace formée du jour au lendemain ; le poisson qu'ils en tirent meurt <lb/>presque à
+                l'instant, ils le laissent sur la glace où il gèle en peu de tems à devenir dur
+                <lb/>comme pierre, et lorsqu'ils en ont de quoy remplir une carriole, autrement
+                traîneau, <lb/>en chargent une traîne comme de bois de corde ils apportent dans les
+                marchés des villes, <lb/>pour le vendre, ceux qui en font leurs provisions, se
+                servent de la scie ou de la hache <lb/>lorsque le poisson est trop gros et trop long
+                pour n'en prendre qu'à leur besoin, et <lb/>étant ainsy gelé et bien entouré de
+                paille, il se conserve jusqu'au dégèle et pour en faire <lb/>usage on jette le
+                poisson ou le morceau dans l'eau froide pour le faire dégeler, et en <lb/>une heure
+                l'opération est faite, il se fait une loque de glace tout autour, laquelle étant
+                <lb/>ôtée le poisson se trouve comme s'il sortait de l'endroit ou il a été pêché et
+                presque <lb/>aussi bon.</p>
+            <p> Outre ces approvisionnements de poissons on a encore la morue verte et sèche,
+                <lb/>et par dessus tout, les anguilles qui sont fort abondantes dans le gouvernement
+                de Québec, <lb/>et que l'on a la précaution de saller dans des quarts et cuves dès
+                l'automne.</p>
+            <p> Les légumes se gardent dans les caves bien fermées, elles perdent beaucoup de leur
+                <lb/>vertu par le long tems qu'elles y sont.</p>
+            <p> Lorsque le mois de may est venu, l'on goûte d'autant mieux la douceur de la saison,
+                <lb/>qui fait pour ainsy dire renaître, qu'elle succède à une très rigoureuse que
+                l'on vient de <lb/>passer ; la chaleur de l'été qui vient subitement, fait voir en
+                moins de 4 mois les semences, <lb/>la récolte, la sérénité de l'automne pendant
+                lequel on jouit pour l'ordinaire d'une suitte <lb/>de beaux jours, ce qu'on voit
+                rarement dans la plupart des provinces de France, fait <lb/>encore un nouvel
+                agrément mais qui n'est point long tout cela joint à la liberté dont on <lb/>jouit
+                dans le pays, forme une compensation qui fait trouver aux Canadiens-Français <lb/>et
+                aux Français qui y vont annuellement, le séjour pour le moins, aussi agréable que
+                <lb/>celui du Royaume, enfin, il n'est pas de climat plus sain que celui-là, il n'y
+                règne aucune <lb/>maladie particulière au pays ; celles que j'y ay vu régner,
+                étaient apportées par les <lb/>vaisseaux français ; il y a cependant, quelques
+                femmes attaquées de gouttes, ce qui <lb/>provient, à ce qu'on prétend, des eaux de
+                neiges.</p>
+
+            <pb n="16"/>
+            <p> Les campagnes et les bois y sont remplis de simples ; les arbres y distillent des
+                <lb/>baumes d'une grande vertu, tels que les pins et épinettes, l'érable et la
+                plaine qui est <lb/>la femelle de<hi rend="points"/>…..? les sapins forment autour
+                du gros de l'arbre des vessies grosses <lb/>comme des petites noix, lesquelles étant
+                percées distillent le beaume ou gomme très <lb/>clair dont bien des habitants se
+                servent pour la médecine et pour les blessures de coups <lb/>de haches quand il leur
+                arrive de se blesser en bûchant.</p>
+            <p> Les érables et plaines rendent dans la fin de mars, lorsque les jours sont bien
+                beaux, <lb/>et que le soleil répand sa force la neige étant au pied des arbres
+                d'environ 5 à 6 pieds de <lb/>haut, une sève qui commence à monter, et qu'on tire de
+                l'arbre par des entailles en pentes <lb/>faites à coups de hache, cette sève qui est
+                une eau très claire un peu ambrée et agréable <lb/>à boire, découle de ces arbres et
+                par conduites d'écorce remplit les vaisseaux que les <lb/>habitants mettent pour la
+                recevoir, et lorsqu'ils en ont remply plusieurs cuves ou <lb/>bariques, ils font
+                bouillir cette eau dans de grandes chaudières qui à force de consommer <lb/>se
+                réduit en sirop et ce dernier étant fait ils le mettent tout chaud dans d'autres
+                vais̲̲seaux <lb/>qu'ils font d'écorce ou autres qu'ils ont pour se prendre en sucre
+                et lui donner la <lb/>forme qu'ils veulent. D'une barique d'eau réduite ils en
+                tirent environ 20 à 25 livres <lb/>de sucre, dont ils font usage en un petit
+                commerce.</p>
+            <p> La colonie y renferme assé de noblesse et pour bien dire plus que toutes les autres
+                <lb/>colonies ensemble, elle descend de plusieurs officiers du régiment de
+                Carignan-Salières <lb/>que Louis XIV y envoya en….., et auxquels Sa Majesté a permis
+                de s'y établir ; beau̲̲coup <lb/>de ceux qui y sont restés ont pris des terres de
+                différentes étendues, dont les conces̲̲sions <lb/>leur ont été accordées à titre de
+                haute, moyenne et basse justice par Mssrs les <lb/>gouverneurs générals et
+                intendant, au nom du Roy et de la Compagnie de la Nouvelle̲̲France, <lb/>et du
+                Domaine d'Occident, qui existait alors, ils ont établi ces terres auxquelles
+                <lb/>ils ont donné leurs noms, et établi des domaines avec bien de la peine car tout
+                était <lb/>en bois debout, mais pour faciliter ces établissements, Sa Majesté
+                permettait de donner <lb/>des congés aux soldats qui prendraient des concessions
+                particulières à titre de cens et <lb/>rentes, et leur accordait une année de solde
+                en s'établissant indépendament d'autres <lb/>secours d'ustensils, outils et vivres
+                qu'on leur fournissait des magasins du Roy, pour les <lb/>mettre en état dans les
+                premières années de faire des déserts et de faire de la terre à la <lb/>pioche pour
+                ensemencer et de ces tems on permit comme il subsiste encore à bien des
+                <lb/>familles de France de s'y aler établir cela a occasionné à bien des ports de la
+                Normandie <lb/>et autres de profiter de ces permissions et d'y former de belles
+                terres et dans ce même <lb/>tems aussy on fit passer des filles de joye et autres
+                sans aveu qu'on adressait, <lb/>à Québec, <lb/>à une nommée Mme Bourdon qui les
+                retirait et les tenait jusqu'après le départ des vais- seaux. (Fausseté).</p>
+            <p> Ensuite, les soldats congédiés pour s'établir sur les terres, et ceux qui ne
+                pouvaient <lb/>garder la continence et qui étaient bien aises de défricher aussy,
+                demandaient leurs <lb/>congés, des terres et des femmes, elles leur étaient
+                accordées à leur choix ; dans la <lb/>première entrevue et au coup d'oeil, la bande
+                féminine était rangée en haye, chacun <pb n="17"/>
+                <lb/>prenait sa compagne dont il était tenu registre pour le bon ordre, ensuitte on
+                passait <lb/>à la célébration du sacrement ; et en faveur du mariage, outre l'année
+                de solde accordée <lb/>aux soldats on leur donnait encore pour dot, la somme de 50
+                lbs, ce qui s'est continué <lb/>jusqu'en 1717, que la colonie se trouvait assé bien
+                établie, le sieur Charon, l'un des <lb/>bienfaiteurs de 1'Hôpital-Général de
+                Montréal, étant passé en France sollicita et obtint <lb/>du Conseil de la marine,
+                les mil écus, à quoy avait été réduit le fond annuel pour 60 <lb/>mariages de
+                filles, et les fit destiner pour l'entretien de plusieurs maîtres d'école qu'il
+                <lb/>avait entrepris d'établir tant dans son hôpital qu'aux Trois-Rivières, et dans
+                quelques <lb/>paroisses de ces deux gouvernements.</p>
+            <p> Pour revenir aux Sauvages, ils s'adonnent peu, ou pour mieux dire, point du tout,
+                <lb/>à la culture de la terre ; ils laissent ce soin à leurs femmes qui n'y font pas
+                grandes façons, <lb/>elles choisissent autour de leur village, (car il n'est point
+                touché aux terres labourées <lb/>par les Français) les endroits qui leur paraissent
+                les plus propres et là, elles font des <lb/>troux larges d'environ deux pieds en
+                carré et éloignés les uns des autres à peu près <lb/>d'autant ; après avoir remué la
+                terre dans chaque trou elles y plantent un certain nombre <lb/>de grains de bled
+                d'Inde qu'on nomme en France, bled de Turquie, elles font autant de <lb/>trous
+                qu'elles croient en avoir de besoin, pour planter le bled nécessaire pour la subsis-
+                <lb/>tance d'une famille.</p>
+            <p> Elles plantent aussi dans de pareils trous des citrouilles du pays bien plus petites
+                <lb/>que celles de France et de différentes formes qui ont la chair jaune comme les
+                melons <lb/>et qui sont excellentes à manger, étant cuites sous les cendres. Les
+                Français en font <lb/>des confitures, qui imitent la marmelade d'apricots, pour les
+                morceaux qui ne se conser̲̲vent <lb/>point entiers, dont le goût approche de celui
+                des coins.</p>
+            <p> Après que le bled d'Inde est sorti de terre, elles plantent autour de chaque tige
+                des <lb/>fèves d'haricots lesquelles en croissant, montent autour de ces tiges qui
+                leur servent <lb/>d'eschalats.</p>
+            <p> Ce sont là toutes les cultures et plantations des Sauvages, c'est-à-dire des femmes
+                <lb/>et des filles car pour les hommes et les garçons leur principale application
+                est à la chasse <lb/>et à la pesche, ils font parfaitement bien les canots d'écorce,
+                pour naviguer sur le fleuve, <lb/>sur les lacs et sur les rivières, les avirons dont
+                ils se servent sont très proprement faits, <lb/>ils font aussi des gamelles de bois,
+                et d'autres d'écorce d'arbres qu'ils appellent des <lb/>ouragans, des mortiers de
+                bois pour piller leur bled d'Inde, dont ils font une espèce de <lb/>bouillie qu'ils
+                nomment de la sagamité, des arcs et des flèches armées d'une pierre ou <lb/>d'un os
+                taillé et éguisé qui perce comme si c'était du feu, des pipes de pierres rouges et
+                <lb/>grises, ces derniers qu'ils noircissent à la fumée et qu'ils nomment des
+                calumets, et <lb/>quantité d'autres ouvrages de cette nature, sont finis avec
+                propreté et une patience <lb/>admirable.</p>
+            <p>Ils ne sont point dans l'usage de se servir de sel dans ce tout ce qu'ils mangent, et
+                <lb/>ils conservent les viandes et les poissons en les faisant boucaner c'est-à-dire
+                fumer.</p>
+
+            <pb n="18"/>
+            <p> Les Sauvages sont très adroits à toutes sortes de chasses et de pesches, ils se
+                servent <lb/>de fusils et de flesches quand la poudre et le plomb leur manquent ;
+                ils font aussi des <lb/>pièges qu'ils appellent des attrapes ; comme ils vont en
+                chasse fort loin, ils partent, <lb/>l'automne, et ne reviennent qu'au printemps qui
+                ne commence en ce pays-là, qu'à la <lb/>fin d'avril, et le plus souvent au mois de
+                may, ayant vu plusieurs fois le pont de glace <lb/>qui se forme sur le fleuve au
+                devant de Québec, malgré le flux et le reflux de la mer, <lb/>se conserver jusqu'au
+                4 et 5 de may et notamment en 1743 ou 44 où il se soutint jusqu'au <lb/>neuf, qu'il
+                partit.</p>
+            <p> Lorsque ces années arrivent, les habitants de la ville vont ordinairement y planter
+                <lb/>un may dans le large, et le traversent à pied, avec les précautions qu'ils ont
+                de prendre <lb/>une perche pour se conserver dans le cas où la glace, plus faible
+                dans quelques endroits <lb/>que dans d'autres, viendrait à manquer sous leurs pieds,
+                et faire le trou, alors la perche <lb/>étendue sur les parties qui subsistent, les
+                empêche de caller à fond ou de passer avec le <lb/>courant de l'eau sous la glace,
+                et ils s'en retirent en assé mauvais état, plusieurs ont <lb/>péri en pareils cas,
+                mais les exemples ne retiennent pas la témérité d'aucuns, qui entre̲̲prennent
+                <lb/>de passer ou pour aller chez eux ou pour affaires, ou pour braver le danger,
+                <lb/>tel est l'esprit du Canadien.</p>
+            <p> Les Français qui ont obtenu les vingt-cinq congés que le Roy a rétabli par sa
+                <lb/>déclaration du 28 avril 1716 partent dans ce même temps pour aller dans les
+                pays d'en <lb/>haut traitter les pelleteries que les sauvages ont fait pendant
+                l'hiver, et portent <lb/>pour cette traitte les marchandises propres pour l'usage de
+                ces nations.</p>
+            <p> Les Sauvages qui sont domiciliés dans les pays d'en bas du fleuve, et dans les
+                terres <lb/>qui sont dans l 'intérieur de la colonie, viennent pendant l'été et
+                apportent leurs pelle̲̲teries <lb/>dans les villes où ils traittent, c'est-à-dire
+                les troquent avec les négociants et habi̲̲tants, <lb/>contre les marchandises dont
+                ils ont besoin.</p>
+            <p> Ces pelleteries consistent en peaux de castor, de loutres, de martres, de chats
+                sau̲̲vages, <lb/>de renards, de pichous, de visons ou fouines, de peccans ou
+                carcajoux, de rats <lb/>musqués, de loups de bois, de loups cerviers, de loups
+                marins, d'ours, de chevreuilles, <lb/>de cerfs,de caribouts et d'orrignaux qui sont
+                d'espèce d'élants.</p>
+            <p> Ils tuent aussy des porcs-épics, ils teignent le poil de ces animaux en divers
+                couleurs, <lb/>et s'en servent à orner plusieurs de leurs ouvrages.</p>
+            <p> Il y a peu de boeufs sauvages dans l'étendue du Canada, on ne commence à en voir
+                <lb/>fréquemment qu'aux environs du pays des Illinois ; ils sont plus puissants que
+                les plus <lb/>gros boeufs de l'Europe, ils ont une bosse sur le dos, les jambes
+                courtes, et le poil extrême̲̲ment <lb/>long, et si fin qu'on peut le nommer laine ;
+                les Sauvages en tuent et en traittent <lb/>les peaux avec les Français, qui s'en
+                servent pour mettre en hiver dans leurs carrioles <lb/>et s'envelopper les jambes et
+                plus de la moitié du cors étant assis.</p>
+            <p> Les habitans du Canada ont la liberté de faire le commerce du castor entre eux
+                <lb/>dans l'intérieur de la colonie, ils peuvent y vendre et acheter en castor ou
+                s'obliger de <lb/>payer en castors ; mais il n'est permis à qui que ce soit,
+                habitant du Canada ou <lb/>autres, de faire passer du castor, soit en France soit
+                dans les pays étrangers.</p>
+
+            <pb n="19"/>
+            <p> On a reconnu depuis longtemps que la liberté du commerce du castor, tant en France
+                <lb/>que dans les pays étrangers, était préjudiciable à ce commerce, et pour en
+                soutenir <lb/>le prix et en même temps la manufacture des chapeaux en France, on a
+                choisi des per̲̲sonnes <lb/>auxquelles on a accordé le privilège exclusif de ce
+                commerce ; c'était d'abord <lb/>la Compagnie d'Occident qui a eu ce privilège pour
+                25 ans, par l'article second de l'édit <lb/>de son établissement ; aujourd'huy c'est
+                la Compagnie des Indes.</p>
+            <p> Cette compagnie a un bureau à Québec ; tous les habitants de la colonie et autres
+                <lb/>qui ont du castor sont obligés de l'y apporter ; il est pezé et pour en payer
+                la valeur <lb/>le directeur du Bureau fournit des recepisses, qui se prennent en
+                payment comme <lb/>billets payables au porteur, et dans l'automne, l'agent à qui on
+                les reporte, délivre des <lb/>lettres de change sur la Compagnie à Paris, payables à
+                différents termes selon la qualité <lb/>du castor gras ou sec.</p>
+            <p> Il y a donc deux sortes de castor, du sec et du gras, le sec est la peau du castor
+                telle <lb/>qu'elle sort de dessus l'animal, le gras est plus difficile à faire, il
+                faut que les Sauvages <lb/>passent plusieurs peaux de castor qu'ils en fassent des
+                couvertes qu'ils portent ces cou̲̲ <lb/>vertes pendant deux ou trois ans du côté du
+                poil et du côté de la peau pour en faire tomber <lb/>le grand poil et les engraisser
+                en y faisant pénétrer par leur sueur les huiles dont ils se <lb/>frottent ; il n'y
+                reste après ce temps que le poil fin ou duvet, lequel étant gras, sert à <lb/>faire
+                des chapeaux de pur castor parce qu'il est liant et qu'il lie le poil du castor Sec.
+                <lb/>Anciennement, les chapelliers mettaient un tiers de sec avec deux tiers de
+                gras, mais <lb/>aujourd'huy ils ont trouvé le secret d'y mettre plus de sec que de
+                gras à l'imitation des <lb/>Anglais à la Nouvelle-Yorck, qui ont aussi trouvé celui
+                de lier le castor sec seulement, <lb/>et de faire des chapeaux de 3, 4 à 5
+                onces.</p>
+            <p> A l'égard de toutes les autres pelleteries chaque particulier les vend ou les envoye
+                <lb/>à des commissionnaires en France pour les vendre, le commerce en étant
+                absolument <lb/>libre, dans la colonie et dehors.</p>
+            <p> On traite aussy avec les sauvages, du capilaire qui est excellent, de la racine de
+                <lb/>gensens et du duvet de Moyac, dont le commerce est de même libre partout. La
+                racine <lb/>de gensens a été découverte en Canada par le Père Laffiteau, Jésuite, en
+                1716, et il <lb/>y en a au Jardin du Roy qu'il a envoyé en motte, on prétend qu'il
+                est de même nature <lb/>et propriété que le gensens de Tartarie si estimé à la
+                Chine.</p>
+            <p> Le duvet de moyac, autrement nommé de l'ydredon en aigledon, est ramassé <lb/>par
+                les Sauvages et par les Français, par ces derniers lorsqu'ils vont faire la pesche
+                du <lb/>loup marin dans la coste de Labrador où il y a présentement quantité de ces
+                pesches <lb/>sédentaires établies tant audessus qu'au dessous de la baye
+                Phelippeaux.</p>
+            <p> Ces oiseaux nommés moyac sont en nombre si prodigieux qu'ils couvrent, pour ainsi
+                <lb/>dire, la surface d'une quantité d'isles et islets non boisés, qui se trouvent
+                du côté du <lb/>Nord ; et vers le milieu de may, ces oiseaux ayant fait leur ponte
+                sur leur duvet dont <lb/>ils se sont dépouillés pour conserver leurs oeufs et les
+                faire éclore, les Français pescheurs <lb/>et les Sauvages vont en canots sur ces
+                isles, font leurs provisions de ces oeufs, dont ils <pb n="20"/>
+                <lb/>emplissent leurs canots, et arrachent de dedans les crans des rochers le duvet
+                qui se <lb/>trouve lié et meslé avec des mousses pour la solidité du nid.</p>
+            <p> Ces oeufs sont aussy gros et même plus gros que les oeufs d'oye, encorre que
+                l'oiseau <lb/>soit deus fois plus petit. Ceux qui ont mangé de ces oeufs en
+                aumelette prétendent que <lb/>les oeufs qui ont été couvés et dont les petits sont
+                formés, sont les meilleurs ; on en croira <lb/>ce qu'on voudra, mais ils ont à leurs
+                secours un grand apétit, que leur donne la dureté du <lb/>travail de la pesche du
+                loup marin et l'air dévorant de ce pays.</p>
+            <p> Ce duvet est d'une extrême chaleur ; on s'en sert à faire des jupons, des gillets,
+                des <lb/>mantelets, couvertures ou couvre-pieds ; si l'on tuait de ces animaux, le
+                duvet que l'on <lb/>en tirerait serait séparé et volatille comme celui des canards,
+                oyes, et outardes, et ne <lb/>serait propre qu'à mettre dans les lits de plumes,
+                oreillers ou traversins ; mais celui <lb/>qui est pris dans leurs nids, est liant
+                comme de l'ouette et du cotton ; on l'étend si <lb/>mince et si épais que l'on veut,
+                ces oiseaux se l'arrachent eux-mêmes pour garnir leurs <lb/>nids, et ils le rendent
+                tels que l'on le trouve, on a seulement la peine de le netoyer des <lb/>morceaux des
+                petits jongs, de la mousse venant du fond des nids où ils se rencontrent
+                <lb/>ordinairement.</p>
+            <p> Le bled, froment, l'orge, l'avoine et toutes sortes de grains viennent parfaitement
+                <lb/>bien au Canada, de même que toutes sortes de légumes et herbes potagères.</p>
+            <p> Les fruits français ont de la peine à y venir principalement à Québec, on ne peut
+                <lb/>y élever ni poiriers, ni abricotiers, ni pesches, ni vignes, on en élève à
+                Montréal en y <lb/>donnant beaucoup de soins, pour les sauver des rigueurs de
+                l'hiver, les pommiers de <lb/>toutes espèces et les pruniers viennent bien partout,
+                et donne d'excellents fruits ; <lb/>on y fait quantité de cidre aussi bien que celui
+                de la basse Normandie.</p>
+            <p> La terre y produit facilement et abondamment en fort peu de tems, et il y a lieu
+                <lb/>de croire que les neiges qui y tombent en abondance pendant l'hiver engraissent
+                la terre <lb/>et lui communique une espèce de nitre qui la rend féconde.</p>
+            <p> On y fait comme en France tous les labours ou guérets en automne, mais on ne
+                <lb/>sème quoy que ce soit avant le mois de may qui y amène le printems ; quand ce
+                mois <lb/>aproche on voit les neiges qui sont souvent de 7 à 8 pieds de hauteur
+                diminuer à vue <lb/>d'oeil ; elles s'insinuent si doucement dans la terre qu'elles
+                en grossissent n'y les rivières, <lb/>n'y le fleuve, et quelques fois il est le 15
+                may avant que la terre soit totalement décou̲̲verte, <lb/>qu'ant elle l'est et
+                quelle est un peu ressuyée chaque habitant fait ses semences <lb/>qui consistent à
+                répandre les grains sur la terre, et en même tems y passer la herse pour <lb/>les
+                recouvrir, on sème aussi sur les couches les grainnes de jardinage, de melons et de
+                <lb/>concombres, et lorsque ces grainnes semées sur couche sont levées et venues à
+                un certain <lb/>point de force, on replante tout ce qui doit être planté, le tout
+                vient à merveille, et la <lb/>récolte des grains se fait dans la même saison qu'en
+                France.</p>
+            <p> On sème peu de seigles dans ce pays, quoy qu'il vienne bien, le froment qui si
+                trouve, <lb/>vient originairement du Nord, c'est un bled qui a la propriété de
+                produire et venir en <lb/>maturité en trois mois ou environ ; il est assé beau, mais
+                plus petit que le bled trémois <lb/>que l'on voit en France, qui est appelé bled de
+                Mars, en quelques provinces.</p>
+
+            <pb n="21"/>
+            <p> Le bled ordinaire de France n'y raporte que de l'herbe au temps de la récolte quant
+                <lb/>on ly sème au printems ; on en a fait l'expérience, un particulier en avait
+                semé, crut <lb/>que c'était du bled perdu, n'y voyant point d'aparence d'epies lors
+                de la récolte, mais <lb/>seulement de grandes tales d'herbe, il y fit mettre ses
+                bestiaux pour en tirer du moins <lb/>leur nourriture, il ne laboura point la pièce
+                de terre l'automne, et au printemps suivant <lb/>il vit que ce bled était devenu
+                beau et bien verd, il le laissa pour voir ce qu'il deviendrait, <lb/>et il
+                recueillit le plus beau froment qu'on peut voir, qui était mûr avant les autres
+                bleds <lb/>du pays.</p>
+            <p> Si on pouvait être sûr d'avoir de la neige avant les grandes gelées, on sèmerait
+                <lb/>du bled de France qu'on nomme en ce pays bled d'automne, parce que les neiges
+                les <lb/>sauveraient des rigueurs de l'hiver, étant certain que la farine qu'il
+                donne est plus solide <lb/>que celle du bled Nord, mais dans l'incertitude on n'oze
+                pas risquer ; néanmoins quelques <lb/>particuliers en ont semé quelque peu chaque
+                automne, et s'en sont bien trouvés.</p>
+            <p> Il s'y fait un grand commerce de fleur de farine et des secondes que l'on fait
+                mettre <lb/>en quarts pour envoyer aux isles de l'Amérique, on y envoye aussy des
+                poids verds de <lb/>Canada, qui sont fort estimés même en France, on y envoye
+                encorre des pommes, des <lb/>chevaux, des planches, des madriers, des bordages, des
+                bois à bâtir, des bardeaux (1) de <lb/>construction pour les bâtiments de mer.</p>
+            <p> Les négocians de Québec envoyaient autrefois du biscuit de mer, des farines, des
+                <lb/>choux, des oignons, ails, eschalottes, pommes, herbes salées, et de toutes
+                sortes de légu̲̲mes, <lb/>et de racines, tant à Plaisance qu'aux autres postes, que
+                nous avions en l'isle de <lb/>Terre-Neuve, et aux environs, ils en envoyaient aussi
+                en la province de l 'Acadie, mais <lb/>présentement que ces lieux sont aux Anglais,
+                ils n'en envoyent qu'en l'isle Royale et en <lb/>l'isle St Jean.</p>
+            <p> Il y a plusieurs moulins à scie aussi bien construits qu'en France, les bois de
+                toutes <lb/>espèces y étant très abondants, des particuliers y font construire tous
+                les ans plusieurs <lb/>bâtiments comme navires, frégattes, batteaux, barques et
+                autres.</p>
+            <p> On a établi à Québec depuis plusieurs années des chantiers de construction pour le
+                <lb/>Roy, tant audevant du Palais, sur la rivière St-Charles, qu'audevant du lieu
+                nommé <lb/>Cul de Sac de la basse-ville, la plus grande partie même des emplacements
+                et maisons <lb/>qui estaient depuis la Batterie Royalle jusqu'en deça du Cap aux
+                Diamants, ont été <lb/>achetés pour le compte du Roy, pour être applanis et former
+                ce chantier qui a deux lits <lb/>de pièces sur pièces bien établis pour construire
+                des vaisseaux de 70 à 80 pièces de canon.</p>
+            <p> Il y avait autrefois du tems de l'intendance de Monsieur Begon, une gaudronnerie
+                <lb/>royalle qu'il avait établie dans la coste de ce Beaupré, au lieu nommé la Baye
+                St-Paul, <lb/>qui produisait beaucoup, et à l'imitation de cette entreprise,
+                plusieurs habitants tant <lb/>au Nord qu'au Sud du fleuve s'étaient adonnés à ce
+                travail ; il a été depuis quelques <pb n="22"/>
+                <lb/>années assez négligé, il y en a cependant encore quelques-uns qui en font vers
+                la Rivière- <lb/>Ouelle, et le Kamouraska, qu'ils fournissent aux magasins du
+                Roy.</p>
+            <p> Le chanvre vient fort beau au Canada, il s'y en fait néanmoins très peu à présent,
+                <lb/>et depuis que M. Bégon est sorti du Canada, parce que le prix a extrêmement
+                changé, <lb/>les habitans aiment mieux semer du lin pour leurs usages ; mais on peut
+                compter y <lb/>avoir beaucoup de chanvre quant on voudra ce qui ne permet pas d'en
+                douter est l'épreuve <lb/>qui en a été faite pendant plusieurs années ; il y vient
+                beau et d'une qualité plus forte <lb/>que celui de France ; l'épreuve en a été faite
+                à Rochefort, et il en a été dressé des procès̲̲ <lb/>verbaux.</p>
+            <p> Si on voulait obliger chaque habitant dont l'habitation serait de 4 arpents de
+                front, <lb/>sur 20 de profondeur, d'en semer seulement un arpent en quarré et en
+                superficie, et les <lb/>autres habitans à proportion de ce qu'ils tiennent de terre,
+                on aurait de quoy fournir <lb/>et établir une corderie, pour faire faire les cables
+                et cordages nécessaires et une manu̲̲facture <lb/>de toilles à voiles dont on aurait
+                de besoin pour les vaisseaux de Sa Majesté, <lb/>qui s'y construiraient y ayant
+                actuellement une forge aux Trois-Rivières pour le compte <lb/>du Roy qui produit du
+                fer qui est aussi beau que celui d'Espagne, on n'aurait rien à <lb/>désirer pour
+                l'accomplissement du service, et en cas de guerre on ne serait pas exposé <lb/>à
+                perdre les agrès qui s'envoyent de France comme cela s'est vu dans la dernière
+                guerre.</p>
+            <p> Les négotiants de Québec envoyent à la pesche des morues, dont ils font aussi
+                <lb/>un grand commerce ; cette pesche se fait aux environs de l'isle de Terre-Neuve
+                dans le <lb/>golfe du Canada, et dans le bas du fleuve St-Laurent, comme il sera
+                expliqué cy-après. <lb/>Dans les mêmes lieux se font les pesches des marsouins et
+                des loups-marins qui four̲̲nissent <lb/>une grande quantité d'huiles de poissons ;
+                on y fait aussy la pesche des vaches <lb/>marines, qui ont deux dents ou crocs à la
+                machoire supérieure, gros environ comme le <lb/>bras, et long d'un pied et quelques
+                pouces, elles s'en aident pour grimper sur les rochers, <lb/>on employe ces dents
+                comme l'yvoire, on pesche aussi dans le golfe du Canada des <lb/>maquereaux qui sont
+                fort bons ; on y faisait autrefois et dans le bas du fleuve la pesche <lb/>des
+                baleines, mais on n'y en voit presque plus ; les Basques ont pourtant recommencé
+                <lb/>cette pesche aux Sept-Isles avec assez de succès depuis 1730, jusqu'en 1745,
+                que la guerre <lb/>les a obligés de se retirer.</p>
+            <p> On fait dans le fleuve jusqu'à 20 ou 30 lieues audessous de Québec, une pesche
+                <lb/>très abondante de harengs et de sardines pendant le printemps et l'automne, on
+                y pesche <lb/>aussi et dans les rivières qui s'y déchargent, des saumons, des
+                alozes, des éperlans, des <lb/>poissons dorés, des poissons blancs, des bars, des
+                achigans, des masquinongés, des <lb/>éturgeons et des anguilles.</p>
+            <p> Le pays est abondant en toute espèce de gibier à poil et à plume, à l'exception du
+                <lb/>lapin n'y en ayant que de domestiques ; les perdrix qui sont une espèce de
+                gelinottes <lb/>de bois et les outardes y sont fort communs, outre les canards
+                ordinaires. Il y en a qui <lb/>se branchent qu'on nomme canarda branchiés ; ils sont
+                excellents et d'un très beau <lb/>plumage. On trouve dans les pays d'en haut depuis
+                le fort Frontenac des dindes <lb/>sauvages, des faisants et des cailles.</p>
+
+            <pb n="23"/>
+            <p> Au commencement du printems il vient des pays chauds une quantité inexprimable
+                <lb/>de pigeons ramiers que les vulgaires nomment tourtes, ils passent par bandes
+                quel̲̲quefois <lb/>de plus de deux à trois mille ; leur passage dure souvent plus de
+                trois semaines <lb/>et est général dans toute l'étendue du pays ; la chasse y étant
+                permise à tout le monde, <lb/>on entend tirer pendant tout ce tems depuis le matin
+                jusqu'au soir, tant dans les villes <lb/>que dans les campagnes ; ces oiseaux ne
+                sont bons alors qu'à mettre en pâte ou au <lb/>pot ; ils vont dans la profondeur des
+                bois pour y faire leur ponte, ils cherchent surtout <lb/>les lieux où il y a
+                beaucoup de hêtres, parce qu'ils trouvent au pied de ces arbres leurs <lb/>fruits,
+                qu'on nomme fêne, ils en vivent et en nourrissent leurs petits, et quand ils sont
+                <lb/>assez forts pour voler ils les enmènent dans les terres ensemencées, ils
+                restent dans le <lb/>pays jusqu'à l'automne, on en fait pendant ce tems une terrible
+                destruction, soit à coups <lb/>de fusils, soit avec des attrapes que les habitans
+                nomment geoles, soit avec des filets <lb/>on en prend alors plus de jeunes que de
+                vieux, les jeunes sont les bons rôtis, ou sur le <lb/>gril ; cet oiseau a la figure,
+                la chair et le goût des pigeons bizets de France, il s'aprivoise <lb/>aisément, on
+                en nourrit dans les greniers avec du gru ou du bled, et en quinze jours <lb/>ils
+                sont comme pelotons de graisse, ils changent pour ainsy dire leur nature, leur chair
+                <lb/>devenant blanche.</p>
+            <p> Il y a des années qu'il vient du nord pendant l'hiver une quantité à peu près
+                sem̲̲blable <lb/>de perdrix, elles ont en cette saison, le plumage blanc comme
+                neige, le bec gros <lb/>et noir, elles sont fort grosses et fort belles, la nature
+                leur a donné de quoy se défendre <lb/>du froid, elles ont des plumes le long des
+                jambes jusqu'au bout des orteils, et le dedans <lb/>ou dessous de leurs pattes est
+                garni d'un poil touffu comme sont les pattes de lièvres ; <lb/>elles ont la chair
+                noire ; les jeunes sont bonnes roties et les vieilles ne sont bonnes qu'en
+                <lb/>pâte, ou en pot.</p>
+            <p> Les lièvres de ce pays deviennent blancs l'hiver et reprennent leur couleur
+                ordinaire <lb/>au printemps, comme il y a beaucoup de sapinières dans le pays et que
+                les graines et les <lb/>feuilles de sapinages sont leur principalle nourriture leur
+                chair contracte cette odeur, <lb/>ce qui les rend moins bons en hiver qu'en été,
+                leur grosseur est dessous du lièvre trois <lb/>quarts de France.</p>
+            <p> Les autres animaux domestiques comme chevaux, bestes à cornes, bestes à laine
+                <lb/>et cochons y sont abondants les espèces en ont été apportées de France, ainsy
+                que celles <lb/>des volailles, tels que sont les canards barbotteux, oyes français,
+                dindes, poules, pigeons, <lb/>et lapins.</p>
+            <p> On a peine à croire que les hivers soient plus longs et plus rudes en ce pays qu'en
+                <lb/>France parce qu'il se trouve à peu près à la même hauteur du soleil ; mais il y
+                a deux <lb/>raisons de cette différence, la première que ce pays n'étant que bois,
+                les neiges s'y con̲̲servent <lb/>plus long tems et augmentent le froid en
+                communiquant leur fraîcheur glaciale <lb/>aux vents qui passent par dessus ; la
+                seconde que ce pays étant plus voisin du nord, <lb/>il est plus exposé au vent du
+                Nord-Ouest, qui est d'un froid insupportable et qui règne <lb/>continuellement
+                pendant cette saison, ou pour mieux dire plus fréquemment que d'autres, <pb n="24"/>
+                <lb/>car si le Nord-Ouest soufflait toujours on ne pourrait pas paraître à la
+                Campagne, c'est <lb/>ce que j'ai observé dans le commencement.</p>
+            <p> Tout n'étant que bois dans la profondeur des habitations, on ne peut juger que
+                <lb/>les habitans ne l'épargnent point pour leur chauffage, ils ne sçavent ce que
+                c'est que de <lb/>faire n'y fagots n'y cotrets, ils laissent pourir dans la forêt
+                tout ce qui pourrait servir <lb/>à en faire ou ils les brûlent sur le champ, ou dans
+                l'été lors qu'ils poussent leurs déserts <lb/>et qu'ils essouchent, parce qu'alors
+                les branches et tous les petits bois servent à brûler <lb/>ces souches qu'ils
+                déracinent pour faire leur terre.</p>
+            <p> La chaleur en été y est aussi grande que le froid est violent et rude en hiver.</p>
+            <p> Après ces idées générales il reste à suivre la route de France en Canada, et parler
+                <lb/>en particulier de tout ce qui se rencontre sur cette route.</p>
+
+            <div>
+                    <head rend="maj">DU GRAND BANC DE TERRE-NEUVE</head>
+            <p> Le Grand banc de Terre-Neuve, est éloigné de la baye ou golfe de Canada d'environ
+                <lb/>deux cent cinquante lieues ; il faut y passer et le reconnaître tant en allant
+                de France <lb/>en Canada qu'en revenant de Canada en France ; on ne peut sans cela
+                bien régler la <lb/>route, à cause de la variation de l'aimant qui se trouve dans
+                cet endroit.</p>
+            <p> Ce grand banc est une grande montagne dans la mer entièrement sous les eaux;
+                <lb/>les géographes ne sont pas bien d'accord sur son étendue, tous lui donnent plus
+                de cent <lb/>lieues de longueur et plus de soixante de largeur dans son milieu, on
+                le dépeint sur les <lb/>cartes de la figure du fer d'une rondache ; les vaisseaux
+                passent dessus, il n'y a point <lb/>de risque en aucun endroit, le milieu qui est la
+                plus grande largeur de ce banc est par 45 <lb/>degrés latitude nord.</p>
+            <p> La mer est toujours fort agitée aux approches de ce banc, qu'on nomme les accords
+                <lb/>du grand banc ; mais quand on est dessus, on trouve une mer assé calme ; comme
+                c'est <lb/>en ce lieu que la pesche des morues commence, et que se trouve les plus
+                belles on en <lb/>profite ordinairement, et pour en pescher on cargue les voiles, et
+                on se laisse dériver <lb/>tout doucement ; les matelots jettent en même tems leurs
+                lignes à la mer ; toute la <lb/>difficulté est de prendre la première morue, dès
+                qu'on en a pris une ses tripailles servent <lb/>de boitte ou d'appas pour en prendre
+                d'autres, alors les pescheurs ne font plus que jetter <lb/>leurs lignes et la
+                retirer, la morue étant un poisson fort glouton.</p>
+            <p> On pesche aussy en ce même lieu des fletans qui sont des poissons plats, gris d'un
+                <lb/>côté et blanc de l'autre, ils ont la figure du turbot, mais ils sont beaucoup
+                plus long et <lb/>plus large, il s'en trouve qui ont jusqu'à quatre pieds de long et
+                qui sont larges à pro̲̲portion ; <lb/>on ne cherche pas à le pescher, c'est par
+                hasard qu'il vient mordre aux boittes <lb/>qu'on met pour les morues, on en fait peu
+                de cas étant si dur que l'équipage n'en peut pas <lb/>manger, il n'y a que les tours
+                qui soient mangeables, après avoir été exposés trois ou <lb/>quatre jours au soleil,
+                ses tours se lèvent à l'endroit où se terminent les pointes de l'arreste <lb/>du
+                milieu, on nomme ces tours les ralingues.</p>
+
+            <pb n="25"/>
+            <p> On voit sur ce banc quantité de requins et de maraches qui sont les femelles de ce
+                <lb/>poisson ; les morues et les tripailles des morues que les pescheurs jettent les
+                attirent, <lb/>ce poisson est un monstre vorace, il dévore les hommes aussi bien que
+                les poissons ; <lb/>il a la figure du chien de mer les dens extrêmement larges et si
+                garnies de crocs aigus <lb/>qu'il semble qu'il ait quatre rangs de dents. En 1719 le
+                vaisseau du Roy, le <hi rend="ital">Chameau</hi>, <lb/>allant en Canada, un requin
+                se prit sur le grand banc à une ligne de morue, le matelot <lb/>connut au mouvement
+                et au poids, qu'il tenait autre chose qu'une morue ; on l'aida <lb/>à tirer ce
+                poisson à fleur d'eau, et ayant été reconnu que c'était un requin, on ne voulut
+                <lb/>pas le tirer hors de l'eau, parce quà la moindre saccade il aurait cassé la
+                ligne et serait <lb/>échappé, on lui lança l'harpon et la gaffe, et étant ainsy
+                fortement retenu, un matelot <lb/>descendit en bas, et lui passa un noeud coulant
+                par dessous les ouies, et ensuitte on le <lb/>tira à bord, où des matelots qui
+                étaient prests avec des haches en main, lui coupèrent <lb/>la queue à trois pieds ou
+                environ, de crainte qu'il ne tua quelqu'un sur le pont, il avait <lb/>18 pieds de
+                longueur ; on prétend qu'il y en a encore de bien plus longs, entre le grand
+                <lb/>banc de Terre-Neuve et le Golfe de Canada, il y a deux autres bancs d'une bien
+                moins <lb/>grande étendue le premier se nomme le banc aux baleines et le second le
+                banc à vent, <lb/>on y pesche aussy des morues.</p>
+            </div>
+            <div>
+                    <head rend="maj">DE L'ISLE DE TERRE-NEUVE</head>
+            <p> La première terre que l'on voit avant d'arriver au golfe de Canada, c'est l'isle de
+                <lb/>Terre-Neuve qui paraît sur la droite, cette isle a environ trois cents lieues
+                de circuit, <lb/>sa figure est triangulaire elle est remplie de montagnes et de bois
+                impraticables, aucuns <lb/>sauvages n'y font leur résidence ; les Esquimaux qui
+                habitent les terres de Labrador <lb/>dont on parlera cy-après, traversent quelques
+                fois le détroit de Belle-Isle, qui n'a que <lb/>sept lieues de trajet, et viennent
+                chasser et faire la pesche dans cette Isle.</p>
+            <p> La coste méridionalle de cette isle était habitée par les Français, avant et pendant
+                <lb/>l'avant dernière guerre ; les Anglais habitaient la coste orientalle et
+                l'occidentalle était <lb/>comme elle l'est encore déserte.</p>
+            <p> Il y a dans cette isle des grêves très belles et très étendues, c'est ce qui faisait
+                recher̲̲cher <lb/>ce terrein comme le plus commode, tant pour la pesche des morues,
+                que pour la <lb/>facilité d'y faire sécher le poisson, ce n'est pas que les Français
+                n'ayent beaucoup <lb/>d'autres lieux comme il sera dit cy après, où ils peuvent
+                pescher de très belles morues ; <lb/>mais ils manquent de graves pour la seicherie
+                qui est l'essentiel ; ils sont obligés de faire <lb/>des vigneaux, c'est-à-dire des
+                clayes, pour étendre leurs poissons, qui ne vallent pas à <lb/>beaucoup près les
+                graves.</p>
+            <p> Les établissements des Français étaient à Plaisance, à l'isle de St-Pierre, et dans
+                <lb/>la baye des Trépassés, dont la rade a une lieue et demie d'étendue.</p>
+            <p> Il y a dans la baye de Plaisance, des ports où les barques venaient faire la pesche
+                <lb/>des morues, sçavoir le Grand et le Petit Burin, Saint-Laurent et le Chapeau
+                Rouge.</p>
+
+            <pb n="26"/>
+            <p> Plaisance était le principal établissement des Français sa situation est par les 47
+                <lb/>dégrés et quelques minutes de latitude nord ; le fort en est placé sur le bord
+                d'un goulet, <lb/>de soixante pas de largeur et de six brasses de profondeur, il
+                faut que les vaisseaux razent <lb/>pour ainsi dire les bastions pour entrer dans le
+                port qui est très sûr et très commode, <lb/>mais par le traité de 1713 tous les
+                établissements que les Français possédaient dans <lb/>l'isle de Terre-Neuve, ont été
+                ceddés aux Anglais, on a seulement réservé aux Français <lb/>la faculté de faire la
+                pesche des morues dans le golfe ou baye de Canada, et de se servir <lb/>des graves
+                de cette isle, qui sont de côté de ce Golfe, c'est-à-dire le long de la coste
+                <lb/>occidentalle, sans qu'ils puissent y faire aucun établissement.</p>
+            <p> En continuant la route on aperçoit de même côté droit dans l'isle de Terre-Neuve
+                <lb/>le cap de Raye et le Cap Breton qui est dans l'isle du même nom, apellée
+                présentement <lb/>l'Isle Royale qui est à gauche ; ces deux caps forment l'entrée du
+                golfe qu'on nomme le <lb/>passage du Sud. Il y a entre ces deux caps, environ dix
+                lieues de largeur.</p>
+            </div>
+            <div>
+                    <head rend="maj">DE L'ISLE DU GAP BRETON OU ISLE ROYALLE</head>
+            
+            <p> Il se trouve dans cette isle des bayes qui forment des ports assés commodes, mais
+                <lb/>il y a peu de bonnes terres ; le plastre et le charbon de terre ou houille y
+                sont assés <lb/>abondants vers la coste occidentalle, le meilleur terrein de cette
+                isle est un lieu nommé <lb/>Ste-Anne ou le sieur Denis surnommé la Grande-barbe,
+                gentilhomme de Touraine, <lb/>s'était établi en conséquence de la concession qu'il
+                en avait obtenue du Roy Louis XIII. <lb/>Il y avait fait des cultures et des
+                plantations.</p>
+            <p> La coste méridionalle de cette isle est sur le bord de la mer du coté du large ; le
+                <lb/>surplus s'étend dans le golfe du Canada, on prétend qu'elle a environ quarante
+                lieues <lb/>de longueur et vingt deux lieues ou environ de largeur dans son milieu ;
+                sa figure est <lb/>triangulaire, son bout du côté de la mer, est par 45 degrés et
+                quelques minutes ; et l'autre <lb/>bout dans le golfe, est par 47 degrés moins
+                quelques minutes de lalitude nord. Les <lb/>terres voisines de cette isle, vis-à-vis
+                sa côte occidentalle sont les terres joignantes la <lb/>province de l'Acadie,
+                laquelle province ne consiste qu'en partie d'une presqu'isle formée <lb/>par la mer
+                au Sud, par la Baye Française à l'ouest et par la Baye Verte et autres terres <lb/>à
+                l'est. Les terres qui joignent cette presqu'isle en sont séparées par une rivière
+                qui <lb/>descend à la mer, et de l'Isle Royalle par un trajet à la suite duquel on
+                trouve un canal <lb/>qui n'a que deux lieues de largeur appelé le passage de
+                Canso.</p>
+            <p> Depuis le traitté de paix de 1713, par lequel on a aussy ceddé aux Anglais la
+                province <lb/>de l'Acadie, le feu Roy Louis XIV ordonna d'établir l'isle du Cap
+                Breton, qu'il nomma <lb/>l'Isle Royalle ; on y a fait plusieurs établissements pour
+                la pesche des morues ; les Fran̲̲çais <lb/>qui étaient à Plaisance et dans les
+                autres postes qu'ils occupaient dans l'isle de <lb/>Terre-Neuve, y passèrent dans ce
+                tems ; les principaux postes qu'on a établi dans l'Isle <lb/>Royalle se nomment
+                Louisbourg qui est le plus considérable, le Port-Dauphin, et le <lb/>port de
+                Toulouze : on y a envoyé des Ingénieurs et des ouvriers pour fortifier. On a <pb
+                    n="27"/>
+                <lb/>établi en 1718, un Conseil Supérieur et un siège d'Amirauté à Louisbourg et des
+                juges <lb/>ordinaires aux ports Dauphin et de Toulouze, il y a un gouverneur
+                particulier, un état̲̲major, <lb/>un commissaire ordonnateur qui fait fonction
+                d'intendant, un controlleur de la <lb/>Marine et plusieurs compagnies du détachement
+                de la marine que le Roy y entretient <lb/>qui sont de 50 hommes chacune. Le
+                gouverneur de cette isle est subordonné au gou̲̲verneur <lb/>général du Canada, et
+                par le spirituel elle dépend aussi de l'évêché de Québec.</p>
+            <p> Les missionnaires qui y sont établis sont Récollets, il y en a de la province de
+                Bre̲̲tagne <lb/>et de celle de St-Denis en France ; il y a aussy des religieux de la
+                Charité qui y <lb/>ont été établis par lettres patentes du mois d'avril 1716.</p>
+            <p> Depuis l'établissement de cette isle les Sauvages de la province de l'Acadie amis
+                <lb/>et alliés des français y vont traiter leurs pelleteries. Il y a un fond pour
+                leur faire des <lb/>présens.</p>
+            <p> Le 15 février 1719, le Roy a concédé au franc-alleu noble au feu sr. Le Poupet de
+                <lb/>la Boularderie, enseigne de ses vaisseaux, et cy-devant capitaine d'une
+                compagnie à <lb/>l'Acadie, une isle de sept lieues d'étendue, ou environ scituée à
+                l'entrée de la Baye Royalle, <lb/>qui se nommait autrefois la baye de Labrador, et
+                les terres qui se trouvent vis-à-vis <lb/>de cette isle en l'Isle Royalle, du côté
+                du Sud, sont les isles et islets adjacents, toutes <lb/>lesquelles isles et terres
+                se nommeraient de son nom de La Boularderie. Cette concession <lb/>a été faite à
+                condition qu'il établirait les dittes isles et terres, qu'il y ferait passer en la
+                <lb/>ditte année 1719 cent hommes et 50 l'année suivante, pourquoy Sa Majesté lui a
+                prêté <lb/>pour deux ans le vaisseau <hi rend="ital">Le Paon</hi> avec tous ses
+                agrés, et apparaux suivant l'inventaire, <lb/>pour le rendre au port de Rochefort au
+                bout de ces deux années.</p>
+            </div>
+            <div>
+                    <head rend="maj">DE L'ACCADIE</head>
+            
+            <p> L'Accadie est une province en terre ferme qui n'est séparée de l'Isle Royalle que
+                <lb/>par quelques terres qui joignent le passage de Canceau ; elle fait partie d'une
+                presqu'isle <lb/>formée comme il est dit cy devant, par la mer, la Baye Française,
+                la Baye Verte et par <lb/>une rivière qui descend de la mer au Sud de la Baye Verte,
+                le principal établissement <lb/>que les Français avaient dans la presqu'isle, se
+                nomme Port-Royal, qui est par les 44 <lb/>degrés et 40 minutes, de latitude nord. Le
+                fort est scitué sur le bord d'un bassin qui <lb/>a deux lieues de long et une de
+                large et outre ce fort les Français y avaient quantité <lb/>d'habitations et
+                établissements particuliers ; on va de Québec en cette province par une <lb/>belle
+                rivière apellée la rivière de St-Jean qui traverse le pays des Abénakis, nation
+                <lb/>sauvage alliés des Français qui s'étend depuis le nord des Bayes Verte et
+                Française, <lb/>le long de la mer, jusqu'aux frontières de la
+                Nouvelle-Angleterre.</p>
+            <p> Dans le pays des Abénakis sont de belles bayes et quantité de rivières saines, pour
+                les <lb/>plus grands vaisseaux, et très abondantes en morues et saumons. Le pays est
+                fertile <lb/>en beaux bois propre pour la construction des bâtiments, et on en
+                pourrait tirer des <lb/>matures plus belles que celles de Norvège.</p>
+
+
+
+            <pb n="28"/>
+            <p> Ce pays est nommé pays des Abénakis, parce qu'ils sont les plus nombreux, il est
+                <lb/>néanmoins habité par d'autres Sauvages, qui sont les MikMaks, et les Canibas,
+                lesquels <lb/>ainsi que les Abénakis sont sous la protection de la France.</p>
+            <p> Il y a encore des Sauvages errants qui vont de l'Acadie à la Nouvelle-Angleterre,
+                <lb/>ils se nomment les Mahingans, les Sokokis et les Openangos.</p>
+            <p> Les Anglais prirent Port-Royal, sur les Français, en 1709, et par le traité de paix
+                <lb/>de 1713, il leur est resté ainsi que l'ancienne Acadie.</p>
+            </div>
+            <div>
+                    <head rend="maj">DU GOLFE DE CANADA, DU FORT ET TERRES DE LABRADOR</head>
+            
+            <p> Lorsque l'on entre dans le golfe de Canada, par le grand passage du Sud, qui a
+                <lb/>le cap de Raye scitué en l'isle de Terre-Neuve, à droite, et le Cap de nord,
+                scitué en l'Isle <lb/>Royalle, à gauche, après la même Isle Royalle du même côté, à
+                gauche, on trouve les <lb/>isles de la Magdeleine, Brion, aux Oiseaux, Ramées, de
+                Bonaventure, et Percée, il y <lb/>a de ce même côté la baye des Chaleurs, qui est
+                fort étendue et très abondante, en morues <lb/>et saumons, on pesche aussi de très
+                belles morues tant aux environs de toutes ces isles <lb/>que sur le banc aux
+                Orphelins qui les joint.</p>
+            <p> Sur la droite au bout de l'isle de Terre Neuve, qui règne tout le long du golfe, et
+                <lb/>dont l'étendue est de plus de 80 lieues on trouve par les 52 degrés latitude
+                nord, le détroit <lb/>de Belle-Isle apellé communément le passage du Nord ; ce
+                détroit est formé par l'extré̲̲mité <lb/>des terres du continent de l'Amérique, et
+                par le bout du côté septentrional de l'isle <lb/>de Terre Neuve. Les terres qui sont
+                vis-à-vis cette coste, se nomment les terres de <lb/>Labrador, elles s'étendent
+                jusqu'à la baye d'Hudson, dont l'entrée est par les 62 degrés <lb/>et quelques
+                minutes de latitude nord.</p>
+            <p> Dans ce détroit, à la distance d'environ 40 lieues du golfe, sur les costes des
+                terres <lb/>de Labrador, près d'une grande baye apellée la baye de Philippaux est
+                scituée le fort <lb/>Pontchartrain de Labrador, qui a été établi par le sieur de
+                Courtemanche, qui y com̲̲mandait ; <lb/>ce fort est par 52 degrés et quelques
+                minutes de latitude nord ; c'est aujour̲̲d 'huy <lb/>le sieur Martel de Berouague
+                qui le possède. Il se fait dans toute cette coste, <lb/>et principalement dans cet
+                endroit, une grande pesche de morues mais elles sont ordi̲̲nairement <lb/>plus
+                petites que celles qu'on pesche audessus de l'Isle de Terre-Neuve, et <lb/>dans le
+                golfe du Canada ; le sieur de Courtemanche y a fait faire la pesche aux loups
+                <lb/>marins qui y sont fort abondants, de même que dans le golfe de Canada, et dans
+                le <lb/>fleuve St-Laurent, cette pesche se continue et se fait au printems, et
+                produit ordinaire̲̲ment <lb/>4 à 500 barriques d'huile, au dit sieur de
+                Berouague.</p>
+            <p> Les Sauvages qui habitent les terres de Labrador se nomment les Esquimaux, ils
+                <lb/>sont différents de tous les autres Sauvages de la Nouvelle-France, ils ont de
+                la barbe <lb/>et du poil sur le corps comme les Européens, au lieu que tous les
+                autres Sauvages n'ont <lb/>absolument d'autre poil que les cheveux, les sourcils et
+                les paupières.</p>
+            <p> On prétend que cette nation vient d'Européens, qui ont été jettés à cette côte par
+                <lb/>un naufrage, et que n'ayant pas de vivres, et ne sachant où en prendre, les
+                plus forts <pb n="29"/>
+                <lb/>tuèrent les plus faibles et les mangèrent ; que c'est ainsy qu'ils se sont
+                accoutumés <lb/>à manger de la chair humaine ; mais ce fait ne paraît pas bien
+                établi, il est néanmoins <lb/>certain, qu'ils sont les seuls sauvages, dans le nord
+                du Canada, qui sont taxés de manger <lb/>les hommes, il en est cependant d'autres
+                dans le pays d'en haut, qui en mangent, mais <lb/>cela devient très rare.</p>
+            <p> Les pelleteries que font ces Sauvages sont des plus belles, ils ont entre autres des
+                <lb/>Renards noirs d'autres blancs, et d'autres argentés, qui sont fort rares
+                ailleurs.</p>
+            <p> Après l'Isle Percée on trouve encorre dans le golfe les Isles de Mingan, celles
+                d'Anti̲̲costi <lb/>et quelques autres du côté du Nord, qui sont peu
+                considérables.</p>
+            <p> L'isle d'Anticosti est remarquable, tant par son étendue, qui est d'environ 40
+                lieues, <lb/>sur 10 ou environ de largeur, que parce qu'elle se trouve devant
+                l'embouchure du fleuve <lb/>St-Laurent ; la pointe d'en bas de cette isle regarde
+                l'isle de Terre-Neuve, elle est <lb/>par 49 degrés, et celle d'en haut qui regarde
+                le fleuve est par 51 degrés moins quelques <lb/>minutes de latitude nord, il n'y a
+                aucun mouillage autour de cette isle et il est très dange̲̲reux <lb/>de l'aprocher
+                avec de gros bâtiments à cause des battures, surtout lorsque les vents <lb/>Sud,
+                Sud-Est, et Sud-Ouest règnent ou se succèdent, c'est ce dernier vent qui en 1736
+                <lb/>fit périr le navire la <hi rend="ital">Renommée</hi>, apartenant à Mrs Pascaud,
+                armateurs à la Rochelle, <lb/>à son retour en France, et en 1747, le navire l'<hi
+                    rend="ital">Alexandre</hi>, de Bordeaux, venant en Canada, <lb/>qui fut pris de
+                brume, entraîné par les courants et ensuitte forcé par le vent du Sudest, <lb/>qui
+                le jetta sur la batture de cette isle ; j'ay envoyé au sauvement des effets de ces
+                deux <lb/>naufrages dont le premier a été des plus terribles, par la fin tragique de
+                48 hommes tant <lb/>passagers que matelots qui s'étaient sauvés, et que la misère a
+                fait périr dans leur hiver̲̲nement <lb/>dans l'isle.</p>
+            <p> Le Père Crépel, récolet, actuellement commissaire de son Ordre à Québec, qui était
+                <lb/>de ce naufrage et qui a eu le bonheur d'estre conservé, lui sixième en a fait
+                une description <lb/>par lettres qu'il m'a remises dont la lecture est très curieuse
+                et très touchante ; ce sont <lb/>les 3me, 4me, 5me, 6me, 7me, 8me lettres de sa
+                relation.</p>
+            <p> Les Sauvages qui habitent les terres qui sont au Nord vis-à-vis les isles de Mingan,
+                <lb/>et celle d'Anticosti, sont les Papinachois.</p>
+            </div>
+            <div type="subtitle">
+                    <head rend="maj">FLEUVE ST-LAURENT</head>
+            
+            <p> De l'embouchure du fleuve St-Laurent jusqu'à Québec, on compte cent vingt
+                <lb/>lieues ; pour entrer dans ce fleuve, on porte entre la pointe d'en haut de
+                l'isle d'Anti̲̲costie, <lb/>qu'on laisse à droite, et le cap de Gaspey, qui est à
+                gauche, du côté du Sud dans <lb/>le continent ; de cette pointe d'Anticostie à ce
+                cap il y a environ 25 lieues et de cette <lb/>même pointe aux terres qui sont au
+                Nord, il y a environ douze lieues, en sorte que dans <lb/>cet endroit, le fleuve a
+                37 lieues ou environ de largeur ; il conserve sa grande largeur, <lb/>l'espace
+                d'environ 30 lieues, et ensuite à mesure qu'on le monte, on le trouve de plus
+                <lb/>étroit en plus étroit.</p>
+
+            <pb n="30"/>
+            <p> Les rivières qui se trouvent du côté du Sud, en montant le fleuve, sont les rivières
+                <lb/>de Gaspé, et la petite rivière où il y a pesche de morues, saumons, loups
+                marins, et mar̲̲ <lb/>souins avec habitations françaises, les rivières du Grand
+                Etang, de la Magdeleine et <lb/>de la Grande Vallée où il y a aussi pesche mais
+                point d'habitations françaises, les rivières <lb/>de Mont Louis, de Ste-Anne du Cap
+                Chat et de Matane dans toutes lesquelles il y a <lb/>pesche et habitations
+                françaises, lesquelles habitations continuent jusqu'à Québec, <lb/>dans les lieux cy
+                après nommés sçavoir, les Rivières du petit Métis, du grand Métis, <lb/>de Rimouski,
+                des Trois-Pistolles, de l'Isle-Verte, du Loup, des Caps de Kamouraska, <lb/>Ouelle,
+                de St-Jean ferrée, des Trois-Saumons, et du Sud, cette dernière rivière n'est
+                <lb/>éloignée de Québec que de dix lieues.</p>
+            <p> Du même côté du Sud on trouve en montant le fleuve, depuis Gaspey jusqu'à la
+                <lb/>traverse, plusieurs isles, on expliquera cy après ce que c'est que cette
+                traverse, ces isles <lb/>sont celles de St-Barnabé, vis-à-vis Rimouski, où il y a un
+                bon mouillage, les isles aux <lb/>Pommes, aux Coqs, aux Basques, Verte, aux Grues,
+                Madame et autres petites isles,</p>
+            <p> Les Sauvages qui habitent la coste du Sud, depuis Gaspey, sont les Gaspéciens
+                <lb/>du Restigouches ; on y voit aussi des Mikmaks, ou malécites, aussi ils sont
+                errants <lb/>et n'ont point de villages formés.</p>
+            <p> Du côté du nord, on trouve, en montant le fleuve les Sept-Isles qui sont sept
+                petites <lb/>isles éloignées les unes des autres, et une rivière du même nom,
+                ensuite l'Isle Rouge, <lb/>l'Isle aux Oeufs, près de laquelle la flotte Anglaise,
+                qui allait pour faire la conqueste <lb/>du Canada en 1711, fit naufrage, la rivière
+                du Saguenay, très belle et qui peut porter <lb/>les plus gros vaisseaux, elle vient
+                du Nord, et son embouchure dans le fleuve est à <lb/>Tadoussac, où était en 1615 le
+                principal village des Sauvages nommés Montagnais <lb/>qui habitent tout le pays qui
+                se trouve depuis l'embouchure du fleuve jusques là, les <lb/>Français qui allèrent
+                en Canada en la même année 1615, pour s'y établir, mirent pied <lb/>à terre à
+                Tadoussac et y firent célébrer le St Sacrifice de la messe, dont il ne parait pas
+                <lb/>qu'on eut oui parler auparavant en ce pays.</p>
+            <p> Morery a mis Tadoussac dans son <hi rend="ital">Dictionnaire historique</hi> pour la
+                ville capitalle <lb/>du Canada ; il y a aparence qu'il a suivi des mémoires où ce
+                lieu était marqué comme le <lb/>principal établissement des Sauvages ; après le
+                Saguenay on trouve la rivière de la <lb/>Malbaye où commencent les habitations
+                françaises du côté du Nord, et au-dessus <lb/>de la rivière de la Baye St-Paul, on
+                trouve aussi l'isle aux Lièvres, les isles de Kamou̲̲raska, <lb/>l'isle aux Coudres
+                et l'isle aux Oyes et enfin l'isle et comté St-Laurent, qui était <lb/>anciennement
+                appelée l'isle d'Orléans et qui l'est encore par la plus grande partie des
+                <lb/>habitants de cette isle et du voisinage.</p>
+            <p> Cette dernière isle a sept lieues de longueur et plus de trois de largeur en
+                certains <lb/>endroits, elle n'est que deux lieues au-dessous de Québec, c'est une
+                des plus belles sei̲̲gneuries <lb/>du pays, et où il y a plusieurs paroisses. Louis
+                XIV l'a érigé en comté en faveur <lb/>du sieur Berthelot de Pleneuf ; elle partage
+                le fleuve, mais le chenail qui passe au nord <lb/>des terres n'est navigable que
+                pour les petits bâtiments, celui qui passe au Sud l'est pour <pb n="31"/>
+                <lb/>les plus forts vaisseaux, et c'est pour venir dans ce chenail qu'il faut faire
+                la traverse <lb/>qui va être expliquée ; il sert à former au dessus de cette isle
+                des bancs de sables qui <lb/>barrent le chenail du Sud, les vaisseaux qui
+                fréquentent ordinairement la coste du Nord <lb/>en allant en Canada (parce que les
+                terres qui sont fort élevées, les mettent à couvert <lb/>des vents du Nord-Ouest qui
+                sont fort à craindre) sont obligés de prendre le tems que <lb/>la marée commence à
+                monter pour passer entre les bancs de sable et gagner la coste <lb/>du Sud, où
+                étant, ils suivent le chenail jusqu'au dessus de cette isle, et de là se rendent
+                <lb/>à Québec.</p>
+            <p> En revenant en France les vaisseaux font la même Traverse, au dessus de cette isle
+                <lb/>avec cette différence qu'alors ils passent de la coste du sud à celle du
+                Nord.</p>
+            <p> A la pointe de cette isle, du côté d'en haut, on voit au Nord, une chute d'eau,
+                <lb/>qu'on appelle le Sault de Montmorency, c'est une rivière qui se précipite de
+                plus de cent <lb/>vingt pieds de haut dans le fleuve St-Laurent, on en entend le
+                bruit à deux lieues sous <lb/>le vent, il y a en cet endroit sur le bord du fleuve
+                un rocher qui semble avoir été taillé <lb/>exprès pour former le lit de cette
+                rivière et retenir dans la largeur de deux arpents ou <lb/>environ toute son eau
+                pour la faire tomber dans le fleuve, on voit de chaque costé de <lb/>la chute, des
+                aisles du même rocher, qui avancent, et le milieu paraît pardessus la nape
+                <lb/>d'eau, droit et uni comme une muraille, on verra cy-après qu'il y a d'autres
+                chutes <lb/>d'eau ou cascades en ce pays, qui sont encore bien plus
+                surprenantes.</p>
+            <p> Du bout d'en haut de cette isle jusqu'à Québec, on voit un bassin de deux lieues
+                <lb/>d'étendue et de beaucoup plus de largeur, ce bassin est entre cette isle et
+                Québec, on <lb/>trouve dans ce bassin du côté du Nord, la baye de la rivière
+                St-Charles dont les eaux <lb/>battent à marée haute, les murailles de la basse ville
+                de Québec aussi scituée du côté <lb/>du nord dans un angle droit formé par cette
+                baye du côté oriental, et par le fleuve St̲̲Laurent <lb/>du côté méridional ; et
+                comme ce fleuve n'a qu'environ demie lieue de largeur <lb/>devant la ville audessus
+                du bassin, cet angle droit parait avancer dans l'eau d'une <lb/>longueur
+                extraordinaire ; on prétend que les Français qui allèrent pour s'établir en
+                <lb/>Canada en 1615, étaient normands, et qu'à l'aspect de cet angle droit,
+                extrêmement <lb/>long, plusieurs s'écrièrent : ha ! Québec ! voulant dire quel bec,
+                ou quelle pointe de <lb/>terre, qu'étant parvenus à ce lieu, ils le choisirent pour
+                s'y établir et continuèrent à le <lb/>nommer Québec.</p>
+            <p> Depuis Tadoussac jusqu'à Québec, il n'y a plus présentement du côté du nord,
+                <lb/>d'autres Sauvages que des Hurons, qui ont leur village au lieu nommé Laurette,
+                scitué <lb/>à trois lieues de Québec, où ils ont pour missionnaire un Jésuite.</p>
+            </div>
+            <div>
+                    <head rend="maj">QUÉBEC</head>
+            
+            <p> Cette ville est scituée, comme on l'a déjà dit, du côté du nord, elles est par 47
+                <lb/>degrés 12 minutes de latitude, son circuit est d'environ deux lieues, il y a
+                haute et basse <lb/>ville.</p>
+
+            <pb n="32"/>
+            <p> La basse ville est bâtie sur le bord de l'eau, elle est divisée en deux parties, la
+                plus <lb/>considérable est sur la pointe de l'angle droit, elle commence à cinq ou
+                six cents pas <lb/>par en dedans de la baye de la rivière St-Charles et s'étend le
+                long du fleuve St-Laurent, <lb/>en le montant jusqu'au dessous du Cap aux Diamants,
+                ce qui peut faire 1000 à 1200 <lb/>pas de longueur.</p>
+            <p> La coste qui reigne le long du fleuve et qui borne la largeur de la basse ville en
+                cet <lb/>endroit est fort escarpée, l'autre partie de la basse ville est au fond de
+                la baye de la <lb/>rivière St-Charles ; la coste qui règne le long de cette baye est
+                aussi fort escarpée <lb/>la grève qui se trouve dans cette baye entre ces deux
+                parties de la basse ville est si plate <lb/>qu'elle est toujours couverte d'eau
+                quand la mer est montée ; il y a environ demie̲̲quart <lb/>de lieu de distance entre
+                ces deux parties, des particuliers ont bâty le long de cet <lb/>espace au bas de la
+                coste nommée la coste du Séminaire, mais la plus grande partie ne <lb/>peut sortir
+                qu'en cannots du côté de la grève quand la marée est haute ; quelques-uns
+                <lb/>cependant se sont pratiqués des passages par derrière leurs maisons pour entrer
+                et sortir <lb/>par le haut de la coste.</p>
+            <p> On pourrait joindre ces deux parties de la basse ville, en construisant sur la grève
+                <lb/>à une distance convenable de la coste, une forte muraille depuis l'une des
+                parties jusqu'à <lb/>l'autre et faisant ensuite amener des terres et matériaux pour
+                élever le terrein à la hauteur <lb/>des murailles, on éloignerait par ce moyen la
+                marée et on pourrait non seulement y <lb/>faire un quai mais aussi y bâtir en
+                sûreté, comme plusieurs particuliers ont déjà fait <lb/>le long de l'entrée de cette
+                baye, et le long du fleuve ; la dépense ne pourrait qu'estre <lb/>grande, mais on
+                serait récompensé par l'utilité et les emplacements que l'on concèderait <lb/>pour
+                bâtir, l'utilité si trouverait parce que l'on pourrait établir des batteries, le
+                long <lb/>de ce quai qui en cas de guerre deffenderaient tout le bassin jusqu'à la
+                pointe de Lévy <lb/>et empescheraient les vaisseaux ennemis de passer et de faire
+                aucune descente.</p>
+            <p> On doit à la sagesse du gouvernement qui a régné en Canada tant que feu Mr. le
+                <lb/>marquis de Beauharnois en a été gouverneur général et Mr. Hocquart, intendant,
+                <lb/>et à l'envie qu'ils ont eu de procurer du bien à la colonie et de la rendre
+                utile à Sa Majesté, <lb/>l'établissement qu'ils ont fait faire par ordre de la Cour,
+                d'un quai de construction sur <lb/>la grève joignant le Palais qui est gardé par une
+                digue qu'ils avaient précédemment <lb/>fait faire à hauteur de la plus haute mer,
+                pour servir de retraite aux bâtiments et les <lb/>mettre à l'abri du nord est, c'est
+                sur ce quay que Mr. Hocquart a fait construire les <lb/>vaisseaux du Roy, nommés le
+                    <hi rend="ital">Canada</hi>, le <hi rend="ital">Carriboux</hi>, le <hi
+                    rend="ital">Castor</hi>, le <hi rend="ital">Martre</hi>, le <hi rend="ital"
+                    >St-Laurent</hi>.</p>
+            <p> Toute la partie de la basse ville qui est dans l'angle est entourée d'une bonne
+                batterie <lb/>construite en pierres, nommée la batterie royalle, elle bat à fleur
+                d'eau quand la mer <lb/>est haute.</p>
+            <p> La guerre n'étant déclarée en Canada qu'en 1744 ces messieurs pour se
+                précau̲̲tionner <lb/>contre les entreprises qu'auraient pu faire les ennemis ont
+                aussi fait faire en <lb/>1745 et 1746 un quai de pièces sur pièces pour former des
+                batteries le long de la basse <lb/>ville à venir gagner le port qui joint l'angle
+                dont il est parlé cy-dessus, et au dessus de <pb n="33"/>
+                <lb/>cet angle ils ont aussy fait faire un nouveau quai de construction, ou il a été
+                établi <lb/>deux lits très solides pour construire des vaisseaux de 60 à 80 pièces
+                de canon.</p>
+            <p> Sur la face de cet angle qui borde le fleuve il y a le port dont il est parlé cy
+                devant <lb/>où abordent les chaloupes des vaisseaux, les barques, les allèges et
+                autres petits bâti̲̲ments ; <lb/>les canots des habitants qui viennent aporter les
+                denrées au marché et les cageux <lb/>de bois qu'ils amènent pour l'approvisionnement
+                de la ville où se tient le marché.</p>
+            <p> A deux cents pas ou environ au-dessus de ce port, il s'en trouve un autre qui est
+                <lb/>manière de cul de sac ou ance, qui est entre la Batterie Royale et le nouveau
+                quai de <lb/>construction ; les grandes barques et les vaisseaux de moyenne grosseur
+                y abordent, <lb/>les bâtiments y sont à couvert des vents de nord-ouest et du
+                sud-ouest qui sont les plus <lb/>à craindre sur ce fleuve, les négociants de Québec
+                y font mettre leurs bâtiments pour <lb/>passer l'hiver, et lorsque ce cul de sac est
+                rempli les autres bâtiments vont entre la digue <lb/>et le quay de construction du
+                palais.</p>
+            <p> Les Français qui allaient en Canada en 1615 se placèrent comme on l'a dit dans
+                <lb/>l'angle où est présentement Québec, ils s'y fortifièrent le mieux qu'ils purent
+                pour se <lb/>garantir des insultes des Sauvages dont ils étaient alors environnés,
+                et qui leur faisaient <lb/>une continuelle guerre pour les empêcher de s'y établir,
+                ils parvinrent par leur persévé̲̲rance <lb/>à se faire amis de quelques unes des
+                nations ; ils travaillèrent à la culture des <lb/>terres, ils en reconnurent la
+                bonté, mais leur établissement faisait peu de progrès parce <lb/>qu'ils étaient en
+                trop petit nombre.</p>
+            <p> Le cardinal de Richelieu, lors ministre d'Etat et surintendant de la Navigation,
+                <lb/>ayant pris connaissance de l'état de cette colonie, jugea que l'établissement
+                de ce pays <lb/>était avantageux et nécessaire, et que pour y parvenir il n'y avait
+                pas de plus sur moyen <lb/>que de former une compagnie qui fut chargée d'y faire
+                passer chaque année un certain <lb/>nombre de personnes.</p>
+            <p> Cette compagnie fut établie par édit du mois de may 1628 par lequel le Roy Louis
+                <lb/>XIII concéda à cette compagnie tout le pays de Canada en toute propriété,
+                seigneurie <lb/>et justice et spécialement l'habitation de Québec.</p>
+            <p> En 1663, le 24 février, cette compagnie fit au feu Roy une démission de la
+                con̲̲cession <lb/>qui lui avait été faitte de tout ce pays qui fut acceptée par Sa
+                Majesté au mois <lb/>de mars suivant.</p>
+            <p> Par l'Edit du mois de may 1664, le feu Roy établit la Compagnie des Indes
+                Occi̲̲dentales, <lb/>à laquelle il concéda entr'autres choses tout le Canada ou
+                Nouvelle-France, <lb/>en toute propriété, seigneurie et justice.</p>
+            <p> Cette compagnie laissa aux habitants la liberté du commerce et de la traitte avec
+                <lb/>les Sauvages et pour l'indemniser de toutes les charges qu'elle était obligée
+                de suporter <lb/>elle se contenta d'un milier de castor que la colonie s'engagea de
+                lui payer annuellement.</p>
+            <p> Depuis elle représenta que cette redevance n'était pas proportionné aux charges,
+                <lb/>et demanda qu'au lieu d'un milier de castors il lui fut payé à l'avenir le
+                quart des castors, <pb n="34"/>
+                <lb/>le dixième des orignaux et qu'elle put faire toute la traitte à Tadoussac ; ces
+                trois chefs <lb/>lui furent accordés par arrêt du Conseil d'Etat du 8 avril
+                1666.</p>
+            <p> Au bout de dix ans, cette compagnie se trouva hors d'état de satisfaire à ses
+                engage̲̲ments, <lb/>le feu Roy voulut bien y entrer, il la révoqua par édit du mois
+                de décembre 1674 <lb/>et réunit à son domaine tout ce pays et toutes les isles de
+                l'Amérique, c'est ce qui compose <lb/>présentement le domaine d'Occident.</p>
+            <p> Le produit de ce domaine consistait dans le Canada, en tous les droits domaniaux,
+                <lb/>fixes et casuels, la traitte de Tadoussac, le quart des castors, et le dixième
+                des orignaux, <lb/>le fermier jouissait aussy du droit de dix pour cent sur les
+                vins, eau-de-vie et liqueurs <lb/>qui entraient dans le pays et de celui de cinq
+                sols pour chaque livre de tabac qu'on y <lb/>aportait quoi que ces droits ne fussent
+                pas domaniaux et qu'ils n'ayent été établis que <lb/>pour acquitter ce qui était dû
+                à la colonie par la Compagnie.</p>
+            <p> Depuis 1706 le Roy y joignit encore la traitte au fort de Frontenac, cette traitte
+                <lb/>qui apartenait à la colonie était exploitée par une compagnie qui s'était
+                formée dans la <lb/>même colonie et avait pris la sous-ferme du domaine d'Occident
+                en ce pays. Cette <lb/>compagnie se trouvant hors d'état de faire valloir cette
+                traitte en fit abandon au profit <lb/>de Sa Majesté entre les mains de M. Raudo,
+                lors intendant, qui fit tirer des magazins <lb/>du Roy les marchandises nécessaires
+                pour cette traitte, et les envoya dans le poste. <lb/>Depuis, cette traitte a été
+                continuée de la même manière, les pelleteries qui en prove̲̲naient <lb/>étaient
+                vendues tous les automnes à Québec, au profit de Sa Majesté, elles pro̲̲duisaient
+                <lb/>tous les ans dix-sept à dix-huit mille livres, sur quoi il y avait le prix des
+                mar- <lb/>chandises, et les frais d'exploitation à déduire, mais tout cela a changé
+                et aujourd'huy <lb/>ce poste ainsy que les autres des pays d'en haut sont affermés à
+                divers particuliers pour <lb/>le compte du Roy.</p>
+            <p> Depuis la même année 1706 le Roy a bien voulu ne point jouir du quart des castors
+                <lb/>qui produisait au moins 60000 livres par an, c'est ce qui a fait que les
+                charges du pays <lb/>qui se prenaient sur le Domaine, étaient beaucoup plus fortes
+                que le produit.</p>
+            <p> Il y a en garnison dans Québec, une partie des vingt compagnies du détachement
+                <lb/>de la marine que le roy entretient dans ce pays.</p>
+            <p> Outre ces troupes les habitans, tant des villes que des costes, sont tous miliciens
+                ; <lb/>ces milices ont été établies par ordre du Roy à M. de Courcelles, en datte du
+                3 avril <lb/>1669. On nomme coste en ce pays ce qu'on apelle Campagne en France. Les
+                costes <lb/>sont divisées en Paroisses, le nom de la coste dénote la paroisse, dans
+                chaque coste il <lb/>y a capitaine, lieutenant, enseigne et tous les bas officiers
+                de chaque compagnie de milice. <lb/>C'est la même chose dans les villes, le colonel
+                de la milice demeure à Québec.</p>
+            <p> Le gouverneur-général de toute la Nouvelle-France a la qualité de
+                lieutenant̲̲général <lb/>et en même tems celle de gouverneur particulier de Québec.
+                C'est Monsieur <lb/>le marquis Duquesne qui occupe actuellement cette place.</p>
+            <p> Il est très important au bien du service du Roy que cette place soit occupée par des
+                <lb/>personnes qui connaissent à fond les différentes nations sauvages, et qui
+                sachent par <lb/>expérience la manière de les conserver unies avec les français.</p>
+
+            <pb n="35"/>
+            <p> Il y a aussy à Québec un lieutenant de Roy, un major de la place, un capitaine
+                <lb/>d'artillerie qui commande un détachement de canoniers, et un maître canonier
+                entre_ <lb/>tenu.</p>
+            <p> La place de commandant des troupes qui étaient autrefois en Canada ne subsiste
+                <lb/>plus depuis la mort de M. le marquis Dollogny qui a péri en passant en France
+                en 1714, <lb/>dans le vaisseau le <hi rend="ital">St-Jérôme</hi>, Sa Majesté n'ayant
+                pas jugé à propos de remplir cette <lb/>place.</p>
+            <p> Les maisons de la haute et de la basse ville sont bien construites, elles sont
+                presque <lb/>toutes de pierre avec chaux et sable, il y en a qui ne sont que de
+                colombages, mais peu, <lb/>et elles sont anciennes, étant deffendu à présent de
+                construire autrement qu'en pierre <lb/>à cause des incendies, il en est de même dans
+                les autres villes et dans la plupart des <lb/>costes. Ces maisons sont couvertes
+                pour la plus grande partie de bardeaux de cèdres, <lb/>et de planches chevauchées ou
+                en couteau, surtout dans les villes. On a aussi fait des <lb/>deffenses de couvrir
+                en bardeaux à cause du feu dont le bardeau est fort susceptible <lb/>dans l'été, les
+                moindres étincelles qui sortent des cheminées, rabattues par le vent <lb/>étant
+                capable d'y mettre le feu, comme il arriva en 1726, sur le toit de la Maison
+                Blanche, <lb/>qu'occupait M. Bégon, intendant, après l'incendie du Palais arrivée en
+                1725.</p>
+            <p> Dans la partie de la basse-ville qui est sur l'angle vis-à-vis le fleuve, il y a une
+                rue <lb/>pour monter à la haute ville, il y en a une autre dans la partie qui est au
+                fond de la baye <lb/>de la rivière St-Charles, elles sont l'une et l'autre commodes
+                pour les carosses, charettes, <lb/>et autres voitures, il y a encore deux chemins
+                pour descendre sur la grève, le long de la <lb/>baye St-Charles l'un pour les
+                voitures, et l'autre pour les gens de pied.</p>
+            <p> La haute ville est présentement fortifiée en bonnes pierres de taille, revêtues de
+                <lb/>terrasses avec de bonnes batteries.</p>
+            <p> Le Sr. Chaussegros de Léry, ingénieur, a été envoyé en Canada, en 1716, c'est lui
+                <lb/>qui a fait faire les nouvelles fortifications de Québec, sous les ordres de
+                Monsieur le <lb/>marquis de Beauharnois et Hocquart, il avait précédemment fortiffié
+                la ville de Montréal, <lb/>et dans les pays d'en haut, le fort de Niagara et celui
+                de St-Frédéric qu'il a construit.</p>
+            <p> Il y a à la haute ville, sur le bord de la coste vis-à-vis le fleuve, un fort qui
+                commande <lb/>sur toute la partie de la basse-ville qui est audessous et sur toute
+                la rade jusqu'à l'isle <lb/>St-Laurent vulgairement nommée l'isle d'Orléans; dans ce
+                fort est construit un château <lb/>apellé le Château St-Louis, ce château a deux
+                pavillons sur les aisles ; c'est la demeure <lb/>du gouverneur général. Tous ceux à
+                qui le roy a concédé des terres en fiefs, qu'on <lb/>appelle terres et seigneuries
+                dans ce pays sont tenus, par leurs titres de concession, de <lb/>prester la foy et
+                l'hommage, à ce château, mais c'est l'intendant et non le gouverneur <lb/>général
+                qui la reçoit.</p>
+            <p> Audessus de ce fort en remontant le fleuve il y a une redoute sur le haut du Cap
+                <lb/>aux Diamants qui est plus élevé que le fort.</p>
+            <p> Le Conseil Supérieur de la Nouvelle-France tient sa séance à Québec, il a été créé
+                <lb/>par édit du mois d'aoust 1663, sous le titre de Conseil Souverain. Il fut
+                composé <pb n="36"/>
+                <lb/>par cet édit du gouverneur général qui aurait la première place, de l'évêque
+                qui aurait <lb/>la seconde, du premier ecclésiastique en l'absence de l'évêque, de
+                cinq conse llers, du <lb/>procureur général, et d'un greffier ou secrétaire, tous
+                ces officiers devaient prester le <lb/>serment entre les mains du gouverneur et de
+                l'évêque qui les pourraient changer ou <lb/>continuer au bout d'un an.</p>
+            <p> Ce pouvoir causa plusieurs différends entre le gouverneur et l'évêque, l'un voulant
+                <lb/>changer des officiers que l'autre voulait maintenir ; pour le terminer, le Roy
+                donna <lb/>une déclaration le 5 juin 1675, qui rend fixes les places des officiers
+                du Conseil, règle le <lb/>nombre des conseillers à sept, érige ces sept places,
+                celles du procureur général et du <lb/>greffier ou secrétaire, en autant de charges,
+                ordonne que le grand vicaire de l'évêque, <lb/>n'aura séance en ce conseil, que
+                lorsque l'évêque sera absent du pays, et que l'intendant <lb/>qui n'aura que la
+                troisième place, recueillera les voix, prononcera les arrêts, et fera <lb/>toutes
+                les fonctions de premier président.</p>
+            <p> Jusqu'au jour de l'enrégistrement de cette déclaration, le gouverneur général qui
+                <lb/>a la première place avait toujours fait les fonctions qui y sont attribuée à
+                l'intendant.</p>
+            <p> En conséqyence de cette déclaration, il fut expédié des provisions à chaque
+                con̲̲seiller <lb/>et officier du Conseil. Le conseiller qui eut le premier des
+                provisions du Roy <lb/>prétendit, lors de sa réception, qu'il devait avoir la
+                préséance sur les autres conseillers <lb/>qui n'avaient pas encore de provisions ;
+                le Conseil Souverain ne lui accorda néanmoins <lb/>que la dernière place, mais par
+                la suite il eut la première parce que les autres furent obligés <lb/>de se faire
+                aussi recevoir, sur les provisions qu'ils eurent, et ne purent avoir séance que
+                <lb/>suivant l'ordre de leur réception. Depuis, la place de conseiller a été
+                considérée comme <lb/>une dignité, on a inséré dans les provisions de cette charge,
+                ces mots : <hi rend="ital">la charge de notre <lb/>premier conseiller</hi>, et celui
+                qui en est présentement pourvu, a la préséance sur le doyen <lb/>ou plus ancien des
+                conseillers, ce qui s'est aussi introduit dans les autres colonies.</p>
+            <p> Le Conseil Souverain établi à Québec tenait sa séance dans le Château St-Louis,
+                <lb/>mais le Roy ayant fait construire un Palais, tant pour loger le Conseil et la
+                jurisdiction <lb/>ordinaire que l'intendant, la séance du Conseil fut transférée
+                dans ce Palais par un <lb/>arrêt du Conseil d'Etat du 10 may 1685.</p>
+            <p> Ce Palais était scitué dans la partie de la basse ville qui est au fond de la baye
+                de <lb/>la rivière St-Charles, il fut réduit en cendres la nuit de la veille des
+                Rois de l'année <lb/>1713. M. Bégon, intendant, qui n'était arrivé dans le pays que
+                le 6 octobre précédent <lb/>y a fait une perte des plus considérables, tous ses
+                meubles et provisions y furent con̲̲sumés <lb/>sans qu'il ait été possible d'en rien
+                sauver, à peine lui, son épouse et quelques <lb/>domestiques eurent-ils le tems de
+                s'échaper, deux filles de chambre périrent dans les <lb/>flammes et le sieur Seurai,
+                son secrétaire, mourut au bout de 8 jours, pour s'estre gelé <lb/>les pieds en se
+                sauvant par le jardin, il aurait été guéri sur le champ s'il avait voulu
+                <lb/>souffrir le remède usité dans ce pays qui est de mettre la partie gelée dans
+                l'eau froide, <lb/>jusqu'à ce que la glace en soit entièrement sortie, il ne voulut
+                pas courir les risques de <lb/>suporter les douleurs que ce remède cause, il fallut
+                lui faire des dissections et amputa̲̲tions, <lb/>la gangraine s'y mit qui
+                l'emporta.</p>
+            <pb n="37"/>
+            <p> On a bâti un nouveau Palais sur le même terrain plus près de l'eau que n'était
+                <lb/>l'autre, il est incomparablement plus magnifique, et sur la place où était
+                l'ancien on a <lb/>construit de fort beaux magasins pour le Roy, et on y a établi
+                les prisons.</p>
+            <p> Ce nouveau Palais a été incendié en 1725. La dernière feste Noêl, entre huit à
+                <lb/>neuf heures du soir, et après dans la chambre du Sr. Daigremont, commissaire de
+                la <lb/>marine, qui était au nord-est, le vent prit avec tant de violence qu'en
+                moins de deux <lb/>heures et demie le feu gagna du nord-est au sud-ouest tout le
+                bâtiment et en consuma <lb/>entièrement toute la charpente qui consistait en plus de
+                40 milliers de pieds de bois, <lb/>Monsieur Bégon y perdit encore considérablement
+                et se retira à la Maison Blanche, où <lb/>il se logea et ses bureaux le mieux qu'il
+                put, et ne songea qu'à faire rétablir ce Palais <lb/>qu'il avait fait construire en
+                1714 pour le mettre en état de recevoir et loger M. Dupuis <lb/>qui vint le
+                remplacer en 1726.</p>
+            <p> Le nombre des conseillers de ce Conseil a été augmenté de cinq par la déclaration
+                <lb/>du 16 juin 1703, ainsy il a présentement douze conseillers ; outre les cinq
+                derniers <lb/>il a été établi un conseiller clerc, moyennant quoy la déclaration
+                porte que le grand <lb/>vicaire n'aura plus de séance au Conseil en l'absence de
+                l'évêque.</p>
+            <p> Il n'y a en ce Conseil qu'un huissier pourvu par le Roy, on lui donne la qualité de
+                <lb/>premier huissier pour le distinguer de quatre autres qui y font les fonctions
+                d'huissier <lb/>sur commissions des intendants.</p>
+            <p> Ce Conseil administre la justice gratuitement ; qui que ce soit n'y reçoit ny
+                épices, <lb/>n'y vacations, le greffier est seulement payé des expéditions qu'il
+                délivre et les huissiers <lb/>de leurs salaires.</p>
+            <p> Le scel de ce Conseil est gardé par celui des conseillers qu'il plait au Roy de
+                nommer, <lb/>et attendu qu'il n'y avait point de chancellerie établie près de ce
+                Conseil, il accorda les <lb/>lettres soit de restitution, de bénéfice d'âge ou
+                d'inventaire, et autres qui s'expédient <lb/>dans les chancelleries, établies près
+                les Parlements.</p>
+            <p> A l'égard des requêtes civilles, elles sont reçues en ce Conseil sur simple
+                requeste, <lb/>suivant la déclaration en forme d'édit du mois de mars 1685.</p>
+            <p> La jurisdiction ordinaire de Québec a le titre de Prévosté. Elle est composée
+                <lb/>d'un lieutenant-général civil et criminel, un lieutenant particulier, un
+                procureur du Roy <lb/>et un greffier ; il y a des notaires et des huissiers qui
+                exercent sur des commissions <lb/>des intendants, le siège de cette jurisdiction est
+                dans le Palais, elle avait été suprimée <lb/>par édit du mois de décembre 1674,
+                portant révocation de la Compagnie des Indes <lb/>Occidentales et elle a été
+                rétablie par édit du mois de may 1677.</p>
+            <p> Les salaires de juges civils et criminels, greffiers, huissiers, sergents et
+                notaires <lb/>des jurisdictions royalles et seigneurialles de tout le pays ont été
+                reglés par déclaration <lb/>du 12 may 1678.</p>
+            <p> Par édit du mois de may 1664, portant établissement de la Compagnie des Indes
+                <lb/>Occidentales, tous les juges de ce pays sont obligés de juger suivant les loix
+                du Royaume, <lb/>et de se conformer à la coutume de Paris suivant laquelle les
+                habitans pourront contracter <lb/>sans qu'on puisse y introduire aucune autre
+                coutume pour éviter la diversité.</p>
+
+            <pb n="38"/>
+            <p> Depuis, cet édit, ayant été représenté au Roy que l'ordonnance de 1667 n'y pouvait
+                <lb/>pas estre exécutée entièrement, d'autant plus que la meilleure partie de ses
+                dispositions <lb/>regarde les procureurs qui n'avaient point été établis en ce pays,
+                et qu'il n'était pas à <lb/>propos d'y établir, Sa Majesté ordonne au Conseil
+                Souverain de faire ses observations <lb/>sur chaque article de cette ordonnance et
+                d'en dresser procès-verbal en forme de règle̲̲ment <lb/>le 7 novembre 1678 et par
+                l'édit du mois de juin 1679 Sa Majesté autorisa <lb/>et donna force de loy à ce
+                règlement.</p>
+            <p> Les compétences du prévost général de la maréchaussée en Canada qui auraient <lb/>dû
+                être jugées, suivant les lois du royaume, au Siège de la Prévôté, sont renvoyées à
+                <lb/>juger au Conseil Souverain par déclaration en forme d'édit du mois de mars
+                1685, <lb/>dans laquelle il est dit, que c'est en attendant que Sa Majesté ait
+                augmenté le nombre <lb/>des officiers de la Prévosté.</p>
+            <p> Les juges de la Prévosté ont connu des causes maritimes jusqu'en l'année 1717.
+                <lb/>Auquel tems Mr. le comte de Toulouze, amiral, ayant obtenu qu'il serait établi
+                sur <lb/>sa nomination des juges de l'amirauté dans toutes les colonies, comme dans
+                le royaume, <lb/>il a été établi à Québec un lieutenant-général de l'amirauté, un
+                procureur du Roy et <lb/>un greffier, le siège de cette jurisdiction est aussi dans
+                le Palais.</p>
+            <p> Outre le prévost général de la Maréchaussée qui fait sa résidence ordinaire à
+                Québec, <lb/>il y a aussi un grand voyer.</p>
+            <p> Le séminaire de Québec dépend de celui des Missions Etrangères de Paris, il est
+                <lb/>bâti sur la haute ville, attenant l'église cathédralle, il est fort grand et
+                fort beau ; la <lb/>principale entrée est sur la place Notre-Dame qui est audevant
+                de cette église. Il a <lb/>été érigé le 26 mars 1663, par feu Mr François de Laval
+                de Montmorency, lors évêque <lb/>de Pétrée, vicaire apostolique en Canada, et nommé
+                par le roy premier évêque de <lb/>Québec, duquel évêché il reçut les bulles peu
+                après, cette érection a été confirmée par <lb/>lettres patentes du mois d'avril de
+                la même année, l'objet de cet établissement a été <lb/>d'élever et former de jeunes
+                clercs, afin qu'on put dans ce séminaire et clergé former un <lb/>chapitre, en tirer
+                des sujets pour les envoyer faire les fonctions curialles, et les retirer <lb/>quand
+                on le jugerait à propos, toutes les dixmes du pays étaient appliquées à ce
+                sémi̲̲naire <lb/>pour estre possédées en commun, mais par édit du mois de may 1679,
+                il a été dérogé <lb/>à cet établissement. Quand aux cures et dixmes ordonnés que les
+                curés seraient fixés <lb/>à l'avenir et non amovibles ; que chacun d'eux jouirait
+                des dixmes de sa paroisse, et <lb/>que si dans la suite il était établi de nouvelles
+                paroisses, les nouveaux curés jouiraient <lb/>des dixmes dans l'étendue de leur
+                paroisse, sans que les anciens curés puissent prétendre <lb/>aucune indemnité n'y
+                reconnaissance pour les terres qui étaient auparavant de leurs <lb/>paroisses.</p>
+            <p> L'article second de cet édit fait mention d'un règlement du 4 7bre 1667, qu'on
+                pré̲̲tend <lb/>estre resté dans le secrétariat de M. Talon, lors intendant, par
+                lequel il a été con̲̲venu <lb/>entre le Séminaire et les habitants, que les dixmes
+                ne se payeraient à l'avenir que <lb/>des grains seulement à raison du vingt sixième
+                minot en considération de ce que les <pb n="39"/>
+                <lb/>habitans seraient tenus d'engranger, battre, vanner, et porter les grains aux
+                presbytères, <lb/>il est aussi fait mention de ce règlement dans un arrêt du Conseil
+                d'Etat du 12 juillet <lb/>1707, rendu contre les curés qui voulaient exiger d'autres
+                dixmes que celle des grains.</p>
+            <p> Depuis l'établissement de ce séminaire, feu M. de Laval a donné de grands biens
+                <lb/>à cette maison, on y reçoit tous les enfants qui veulent se pousser aux études,
+                les uns <lb/>gratuitement suivant l'intention du testateur, et les autres moyennant
+                une pension fort <lb/>modique, on ne peut pas avoir plus d'égards et de bontés qu'en
+                a eu feu M. Ango de <lb/>Maiseret qui a été supérieur de cette maison. Les enfants
+                sont nourris, blanchis, <lb/>logés, et entretenus de linge, habits, livres, papiers
+                et en un mot de tout ce qui leur est <lb/>nécessaire, jusqu'à la fin de leurs études
+                qu'ils font au Collège des Pères Jésuites, ils <lb/>sont tous habillés avec des
+                capots bleus, et un petit liséré blanc sur les coutures, ce qui <lb/>leur fait un
+                habillement fort leste.</p>
+            <p> Feu M. de Laval étant parvenu à un âge fort avancé, suplia le feu Roy de lui donner
+                <lb/>un successeur. Sa Majesté nomma Mr. Jean-Baptiste de la Croix de St-Vallier, il
+                fut <lb/>pourvu et sacré évêque de Québec au commencement de 1678. Il prêta serment
+                en <lb/>cette qualité entre les mains du Roy le 13 février de la même année, et
+                quelque tems <lb/>après il se rendit dans son évêché ; il y trouva M. de Laval
+                encore vivant et qui y est <lb/>décédé en odeur de sainteté en 1692, regretté de
+                tous les habitans de son diocèse.</p>
+            <p> M. de St-Vallier a suivi l'exemple de son prédécesseur en fondant des hôpitaux
+                <lb/>qui seront des monuments éternels de sa piété. Il en sera parlé cy-après. Il a
+                aussi <lb/>fait bâtir un palais épiscopal qui joint la cathédralle avec une belle et
+                grande chapelle, <lb/>il serait à souhaiter que cet édifice fut achevé, il en serait
+                venu à ce point, s'il ne s'était <lb/>volé pour ainsi dire lui-même pour donner à
+                des pauvres familles dont il connaissait <lb/>les pressants besoins, mais il est à
+                craindre que cet édifice ne soit jamais fini à moins <lb/>que Sa Majesté ne le
+                prenne à coeur, ou qu'il ne retourne en ce pays des Montmorency <lb/>ou des
+                St-Valliers.</p>
+            <p> M. Mornay de Montchevreuil, cy-devant capuscin, a été nommé et sacré coadjuteur
+                <lb/>de l'évêque de Québec dès l'année 1713. Mais il n'a pas été curieux de venir
+                prendre <lb/>possession de sa coadjutorerie.</p>
+            <p> C'est aujourd'huy M. de Pontbriant qui remplit le siège épiscopal avec une vertu
+                <lb/>exemplaire, et tel qu'a pu faire M. Dosquet, évêque de Samos, qui a succédé à
+                M. de <lb/>St-Vallier, décédé en 1727.</p>
+            <p> L'église cathédrale de Québec est dédiée à la Ste Vierge, elle a été érigée en
+                cathé̲̲drale <lb/>par le pape Innocent XI ; la bulle d'érection est du 23 aoust
+                1677. Elle porte <lb/>dispense d'être graduée en faveur de ceux qui composeront le
+                chapitre, qu'elle permet <lb/>à l'évêque d'y établir, cette église est scituée à la
+                haute ville, au devant d'une grande <lb/>place appelée place Notre-Dame, à cause que
+                cette église lui est dédiée, elle est en même <lb/>tems cathédrale et paroissiale,
+                le service divin s'y fait avec toute la solennité et la décence <lb/>possible, les
+                voyageurs comme les habitans en sont édifiés.</p>
+            <p> Le chapitre de l'évêque a été établi en conséquence de la bulle cy-dessus par feu
+                <lb/>M. de Laval, premier évêque de Québec, par decret du 6 9bre 1684. Il est
+                composé <pb n="40"/>
+                <lb/>de douze chanoines y compris les cinq dignités sçavoir, le doyen, le chantre,
+                l'archidiacre, <lb/>le théologal et le pénitencier, le feu Roy l'a fondé et dotté,
+                et Sa Majesté s'est réservé <lb/>la nomination du doyen et du chantre.</p>
+            <p> Les revenus de l'évêché et du chapitre consistent principalement en ceux des
+                <lb/>abbayes de l'Estrée, de Maubec et de Bénévent donnés par le feu Roy dont
+                l'union a <lb/>été en cour de Rome, et une somme de 3000 livres par an, à repartir
+                entre les chanoines <lb/>que Sa Majesté a encore donnée et assignée sur les charges
+                du Canada.</p>
+            <p> Le séminaire a prétendu que la cure de Québec lui appartenait et lui était unie ;
+                <lb/>feu M. de St-Vallier a soutenu le contraire, et par l'article 6 d'un règlement
+                fait par <lb/>ordre du Roy par deffunt M. Duharlay, archevêque de Paris, et le Père
+                de la Chaise, <lb/>le 20 janvier 1692, homologué par arrêt du Conseil d'Etat du 11
+                février suivant, il est <lb/>dit que les titres et procédures concernant l'union de
+                cette cure au Séminaire, seront <lb/>raportés à Sa Majesté pour estre ordonné ce que
+                de raison, les choses demeurent en <lb/>l'état, depuis, et en 1714 M. de St-Vallier
+                a fait un projet de statuts pour son chapitre, <lb/>qui porte entr'autres choses que
+                les fonctions de la cure seront unies à la dignité de <lb/>doyen, mais on ne voit
+                point ce que ce projet est devenu.</p>
+            <p> Il y a une église succursale à la basse-ville qui est scituée sur la place dans la
+                partie <lb/>qui est au nord du fleuve, M. de St-Vallier voulait l'ériger en
+                paroisse, l'article sept <lb/>du règlement dont on vient de parler, porte à cet
+                égard que les informations, super <lb/>commodo et incommodo seraient faittes dans
+                les formes canoniques pour le tout, fait <lb/>et raporté au Roy, estre réglé ce que
+                de raison ; il ne paraît pas qu'il a été fait sur cela.</p>
+            <p> Les Jésuites ont été des premiers missionnaires qui sont passés en Canada. Ils
+                <lb/>ont obtenu des lettres pattentes au mois de juillet 1652 qui approuvent et
+                confirment <lb/>leur établissement dans ce pays, leur maison est sur la place
+                Notre-Dame, à la haute <lb/>ville devant l'église cathédralle, elle est grande et
+                spacieuse, ils y ont un collège, une <lb/>fort belle église, des chapelles, des
+                congrégations, de fort beaux jardins et un beau <lb/>clos, garni d'arbres de haute
+                futaye.</p>
+            <p> L'Hôtel-Dieu est aussi fort ancien. Il a été fondé par Mme la duchesse d'Aiguillon;
+                <lb/>cet établissement a été approuvé et autorisé par lettres pattentes du mois
+                d'avril 1639. <lb/>Les première religieuses qu'on y a envoyées étaient hospitalières
+                à Dieppe, il est scitué <lb/>à la haute ville proche la coste qui regarde la baye de
+                la rivière de St-Charles, il a été <lb/>érigé sous ce titre Hôtel-Dieu de la
+                Miséricorde de Jésus ; les bâtiments en sont très <lb/>beaux et très spacieux, il y
+                a des très grands jardins, et au moins 60 religieuses, les <lb/>malades y sont fort
+                bien soignés. Cet hôpital est pour les habitans, les troupes et les <lb/>matelots
+                des vaisseaux du Roy, les habitans conviennent de gré à gré pour s'y faire
+                <lb/>soigner, les officiers malades y abandonnent leur paye, et les soldats
+                également mais <lb/>pour ces derniers Sa Majesté donne un supplément à l'Hôpital,
+                leur solde n'étant pas <lb/>suffisante.</p>
+            <p> Comme le pays est beaucoup augmenté depuis trente années, il serait à souhaiter
+                <lb/>que cet hôpital fut agrandi de quelques salles, pour recevoir ou pour conserver
+                les habi̲̲tans <pb n="41"/>
+                <lb/>qui sont obligés d'en sortir pour faire place à des soldats et matelots des
+                vaisseaux <lb/>du Roy qui arrivent quelquefois malades et en grand nombre, ce qui
+                est à la connaissance <lb/>de M. Hocquart qui en 1743 fut obligé de se servir du
+                lieu nommé la Potasse et d'autres <lb/>lieux, pour retirer un nombre considérable de
+                malades qu'il y eut cette année.</p>
+            <p> Les Religieuses Ursulines sont établies en cette ville par lettres pattentes du mois
+                <lb/>de may 1639. Leur maison est scituée à la haute ville, elles sont fort
+                commodément <lb/>logées et ont de beaux jardins, leur église est jolie, elles sont
+                au moins cinquante reli̲̲gieuses. <lb/></p>
+            <p> Les Récolets ont obtenu des lettres pattentes au mois de mars 1692 qui leur
+                per̲̲mettent <lb/>de s'établir à Québec, Montréal, Plaisance, isle St-Pierre, et en
+                tous autres <lb/>lieux où ils seront jugés nécessaires, avec pouvoir d'y servir
+                d'aumôniers pour les troupes <lb/>et de recevoir par aumône les appointements à ce
+                destinés, ils avaient cy-devant leur <lb/>maison hors de la ville, dans le même lieu
+                ou est actuellement l'Hôpital-général, ils <lb/>sont présentement dans le plus bel
+                endroit de la haute ville, sur une grande place qui <lb/>est devant le fort et
+                château St-Louis ; ils ont une très belle église, un très beau cloître, <lb/>des
+                bâtiments comodes et spacieux, et un fort beau jardin. Ca été feu M. le comte
+                <lb/>de Frontenac, gouverneur général du pays, qui les a placés là, il était leur
+                protecteur <lb/>et père temporel, il a voulu estre enterré par eux, ils ont encore
+                une maison ou hospice <lb/>scituée sur le bord de l'eau, derrière la partie de la
+                basse ville qui est au fond de la baye <lb/>de la rivière St-Charles il y a une
+                église ou chapelle dédiée à St Roch qui est contigüe <lb/>à la maison et un jardin
+                qui est bien retranché, depuis la construction qui se fait vers <lb/>le Palais.</p>
+            <p> Au mois de may 1671 le Roy accorda des lettres pattentes pour l'établisse̲̲ment
+                <lb/>des Sœurs de la Congrégation de Montréal pour l'instruction des jeunes filles,
+                <lb/>on a jugé que ces sœurs étaient nécessaires à Québec, on y en a fait venir,
+                elles ont <lb/>leur maison à la basse-ville, sur le bord du fleuve, il y en a aussi
+                qui sont allées s'établir <lb/>au Château-Richer, audessous de Québec et à la
+                paroisse de la Ste-Famille en l'isle <lb/>St-Laurent. Il y en a encore en la
+                paroisse de Neuville, ditte la Pointe-aux-Trembles, <lb/>à sept lieues audessus de
+                Québec et à Champlain. Ce sont des filles bien sages et bien <lb/>utiles.</p>
+            <p> L'Hôpital-Général est scitué proche le bord de la rivière St-Charles, à un demi
+                quart <lb/>de lieue de Québec. Il a été fondé et bâti par M. de St-Vallier, évêque
+                de Québec, en <lb/>conséquence des lettres pattentes qu'il en avait obtenues au mois
+                de mars 1692; il a fait <lb/>cet établissement pour retirer les pauvres de l'un et
+                de l'autre sexe, hors d'état de tra̲̲vailler <lb/>par vieillesse ou infirmités, il y
+                mit d'abord douze religieuses qu'il tira de l'Hôtel̲̲Dieu <lb/>de Québec, et deux
+                sœurs converses, il a obtenu, le 5 may 1716, d'autres lettres <lb/>pattentes qui
+                permettent d'augmenter de quatre le nombre de religieuses, et le 9 may <lb/>1717 il
+                a encore obtenu d'autres lettres pattentes qui lui permettent d'augmenter <lb/>de
+                deux le nombre des sœurs converses, les bâtiments de cette maison sont beaux et
+                <lb/>très spacieux, il y a des salles particulières pour les hommes et d'autres pour
+                les femmes, <pb n="42"/>
+                <lb/>une église fort propre, des chapelles dans les salles, de beaux jardins et de
+                beaux clos, <lb/>moulin à eau et moulin à vent et généralement tout ce qu'on peut
+                souhaiter pour la <lb/>comodité de la maison et le soulagement des pauvres.</p>
+            <p> Le feu Roy en vue de peupler le pays a ordonné par édit du mois de may 1664
+                <lb/>portant établissement de la Compagnie des Indes Occidentales que tous es sujets
+                <lb/>qui iraient s'y habiter et y résideraient l'espace de dix ans pourraient
+                ensuitte en rappor̲̲tant <lb/>des certificats qu'ils y auraient demeuré pendant ce
+                tems, venir s'établir dans toutes <lb/>les villes du Royaume, et y exercer tels
+                arts, métiers ou professions qu'ils voudraient <lb/>sans être obligés à faire aucun
+                apprentissage. Par arrêt du conseil d'Etat du 12 avril <lb/>1670, Sa Majesté a
+                assigné 300 livres de pension aux habitants de ce pays, qui auraient <lb/>dix
+                enfants, et 400 livres à ceux qui en auraient douze, il est enjoint par le même
+                arrêt <lb/>du Conseil Souverain de Québec d'établir des peines pécuniaires contre
+                les pères qui ne <lb/>marieraient pas leurs enfants à l'âge de vingt ans pour les
+                garçons et de seize <lb/>pour les filles. Cette disposition fait connaître que les
+                religieuses se sont multipliées <lb/>dans la colonie contre les intentions du feu
+                Roy ; par autre arrêt du Conseil d'Etat <lb/>du dix mars 1685, Sa Majesté a permis
+                aux gentilshommes établis dans le Canada <lb/>d'y faire commerce par mer et par
+                terre en gros et en détail, sans qu'ils puissent <lb/>estre reputés avoir dérogé à
+                leur noblesse.</p>
+            <p> Les soins que le feu Roy voulut bien se donner pour procurer l'établissement de
+                <lb/>ce pays et des autres colonies étaient dignes d'un Roy qui a véritablement
+                mérité le <lb/>nom de Grand. Rien ne paraissant plus glorieux pour un puissant
+                monarque que <lb/>d'étendre sa domination, faire révérer son nom et redouter sa
+                suprême puissance dans <lb/>les climats les plus éloignés. Il a été fâcheux à la
+                colonie que les guerres que ce grand <lb/>prince a été engagé de soutenir en Europe,
+                l'ayent empêché de suivre ses nobles projets, <lb/>mais la colonie s'en est trouvé
+                indemnisée par les bontés de Sa Majesté régnante qui a <lb/>mis tout en usage pour
+                lui procurer de nouveaux avantages sur les demandes qui lui <lb/>ont été faites en
+                différents tems, par Messieurs les gouverneurs généraux et inten̲̲dants, <lb/>et
+                c'est sur ces demandes que les chanvres ont été reçus aux magasins du Roy, <lb/>et
+                payés aux habitants du tems de Mr Bégon, et sur sa demande à raison de 60 livres
+                <lb/>le quintal, afin d'engager les colons à cette culture, de la même façon a été
+                établie dans <lb/>ce pays la construction pour les vaisseaux de Sa Majesté, sur les
+                représentations de <lb/>Messieurs le marquis de Beauharnois et Hocquart, ce qui a
+                fait et fait encore une dépense <lb/>assez considérable pour procurer un très grand
+                avantage au pays, et enfin en plusieurs <lb/>autres parties directes au pays que ces
+                sages administrateurs ont proposés suivant les <lb/>occurences, et ont fait
+                entreprendre à l'imitation de ce qui se pratique chez les étrangers <lb/>puisqu'il
+                est certain que l'Espagne, l'Angleterre et la Hollande, en ne tirent du profit
+                <lb/>de leurs colonies, que par l'application continuelle qu'ils ont donnée, tant
+                pour les bien <lb/>établir que pour faire valloir tout ce qui y vient, soit
+                naturellement, soit par le travail <lb/>et l'industrie de l'homme : le Canada est un
+                bon pays pour ceux qui y sont faits ou qui <lb/>peuvent s'accommoder à la dureté du
+                climat, mais ses habitans ont besoin de la conti̲̲nuation <lb/>de la protection
+                toute particulière du Roy pour se soutenir.</p>
+            </div>
+            <pb n="43"/>
+            <div>
+                    <head rend="maj">DE LA VILLE DES TROIS-RIVIÈRES</head>
+            
+            <p> Cette ville est scituée sur le bord du fleuve St-Laurent, du côté du nord, à trente
+                <lb/>lieues au dessus de Québec, elle est par les 46 degrés latitude nord, on la
+                nomme Trois̲̲Rivières <lb/>parce qu'elle est joignante une rivière au bas de
+                laquelle sont deux isles qui <lb/>séparent en trois chenaux son embouchure dans le
+                fleuve.</p>
+            <p> Il y a dans cette ville un gouverneur particulier, un lieutenant de Roy, un major
+                <lb/>de la place et des troupes en garnison.</p>
+            <p> La jurisdiction royalle de cette ville et gouvernement a été établie en 1663, par le
+                <lb/>Conseil Souverain de Québec, en conséquence du pouvoir qui lui a été donné par
+                l'édit <lb/>de sa création. Elle est composée d'un lieutenant général civil et
+                criminel, d'un pro̲̲cureur <lb/>du Roy, et d'un greffier. Il y a aussi des notaires
+                et des huissiers qui exercent <lb/>sur des commissions qui leur ont été données par
+                Mrs les intendants, depuis que les <lb/>fonctions de premier président dans le
+                Conseil Supérieur leur ont été attribuées.</p>
+            <p> L'église paroissialle est desservie par un récolet qui y fait les fonctions
+                curialles.</p>
+            <p> Feu Monsieur de St-Vallier, évêque de Québec, obtint des lettres pattentes au mois
+                <lb/>de may 1702, portant approbation et confirmation d'un Hôtel-Dieu qu'il avait
+                érigé <lb/>et fondé dans cette ville. Il y a mis des religieuses Ursulines qu'il a
+                tirées du couvent <lb/>de Québec.</p>
+            <p> Au surplus, cette ville est fort petite et peu peuplée, elle n'est fortiffiée que de
+                <lb/>pieux, de gasons et de gabions.</p>
+            <p> A trois lieues de cette ville, on trouve le lac St-Pierre au travers duquel le
+                fleuve <lb/>St-Laurent passe ; ce lac a six lieues de longueur.</p>
+            <p> Avant la ville des Trois-Rivières, environ à trois lieues au dessus de Québec, du
+                <lb/>côté du Sud, on trouve dans les terres, à la distance d'une lieue du bord du
+                fleuve, le <lb/>Saut de la Chaudière qui est une cascade ou chute d'une rivière plus
+                considérable que <lb/>celle du Sault de Montmorency dont a cy-devant parlé. On
+                trouve aussi du même côté <lb/>du Sud, la rivière de Bécancourt qui tombe dans le
+                fleuve, et celle de St-François qui se <lb/>décharge dans le lac de St-Pierre, sur
+                chacune de ses rivières ; dans la profondeur sons <lb/>établis des villages de
+                sauvages Abénakis qui ont chacun un Jésuite pour missionnaire ; <lb/>il y a proche
+                des Trois-Rivières des Algonquins, ce sont les seuls Sauvages domiciliés <lb/>qu'il
+                y ait à présent depuis Québec jusqu'à Montréal.</p>
+            </div>
+            <div type="subtitle">
+                    <head rend="maj">DU FORT DE CHAMBLY</head>
+            
+            <p> En continuant de remonter le fleuve, on trouve du même côté du Sud, la rivière
+                <lb/>de Sorel, autrement de Chambly, de Richelieu, ou de St-Pierre, et en remontant
+                cette <lb/>rivière, on trouve à six lieues ou environ de distance de la ville de
+                Montréal, par les <lb/>terres, un fort appelé Chambly, construit de pierres ayant de
+                bonne courtines et flanqué <lb/>de bons bastions.</p>
+
+            <pb n="44"/>
+            <p> Il y a ordinairement un ancien capitaine qui y commande avec une garnison.</p>
+            <p> Il est scitué sur cette rivière, au bord d'un bassin de deux lieues de circonférence
+                <lb/>dans lequel se décharge le lac Champlain, par une cascade d'environ une lieue
+                et demie <lb/>de longueur. Ce lac a 80 lieues de circuit, audessus du St-Sacrement
+                qui conduit <lb/>à la Nouvelle-York, en faisant un portage de deux lieues jusqu'à la
+                rivière de fer, autre̲̲ment <lb/>du Cajeux, qui se décharge dans celle d'Orange.</p>
+            <p> Au bout du lac Champlain, et à environ 50 lieues de Chambly est basti le fort
+                <lb/>St-Frédéric, au lieu nommé cy-devant la pointe à la Chevelure, au pied duquel
+                passe <lb/>la décharge du lac St-Sacrement. Ce fort est commandé par un capitaine
+                qui a une <lb/>forte garnison ; audessus et audessous de ce fort sont plusieurs
+                habitations nord <lb/>et sud.</p>
+            <p> La ville d'Orange, première ville de la Nouvelle-York, de ce costé là, n'est
+                éloignée <lb/>de la ville de Montréal que de soixante lieues et la même rivière dont
+                on vient de parler <lb/>conduit d'Orange à Manathe, autrement New-York, qui est de
+                la Nouvelle- Angleterre.</p>
+            </div>
+            <div>
+                    <head rend="maj">DE L'ISLE ET DE LA VILLE DE MONTRÉAL</head>
+            
+
+            <p> L'isle de Montréal, toutes les isles et islets qui y sont adjacentes ou dans son
+                con̲̲tour <lb/>avec trois isles audessus dans le lac de St-Louis, et deux lieues de
+                front audessous de <lb/>cette isle, sur six lieues de profondeur dans les terres du
+                costé du Nord, apartient pré̲̲sentement <lb/>au séminaire de St-Sulpice de
+                Paris.</p>
+            <p> L'ancienne Compagnie de la Nouvelle-France établie par édit du mois de may
+                <lb/>1628, concéda le dix septembre 1640, aux sieurs Chévrier et le Royer, pour eux
+                et leurs <lb/>associés sous les conditions portées par le titre de concession, une
+                partie de l'isle de <lb/>Montréal à prendre de la pointe d'en bas, jusqu'à la
+                montagne qui a donné le nom à <lb/>cette isle, plus quatre lieues d'étendue dans la
+                même isle depuis cette montagne, et deux <lb/>lieues de large sur six de profondeur
+                sur le bord du fleuve de St-Laurent du côté du nord <lb/>audessus de cette isle, où
+                se décharge la rivière de l'Assomption, pour en jouir par eux, <lb/>leurs
+                successeurs ou ayans causes en toute propriété, seigneurie, justice, de la même
+                <lb/>manière que Louis XIII avait concédé tout le pays à cette ancienne compagnie,
+                et, <lb/>le 21 avril 1659, la même compagnie concéda au même Sr Chévrier pour lui et
+                associés, <lb/>le surplus de cette même isle pour en jouir de la même manière.</p>
+            <p> Le neuf mars 1663 les sieurs Chevriers, le Royer et leurs associés, firent donnation
+                <lb/>au séminaire de St-Sulpice de toutes les concessions qui leurs avaient été
+                faittes par <lb/>cette ancienne Compagnie.</p>
+            <p> Le 4 février 1674, le Sr abbé de Fennelon fit donnation à ce séminaire de trois
+                isles <lb/>dans le lac de St-Louis appellé les isles de Courcelles qui lui avaient
+                été concédées à titre <lb/>de fiefs.</p>
+            <p> Le séminaire de St-Sulpice a obtenu des lettres pattentes au mois de may 1677,
+                <lb/>par lesquelles la seule donnation du 9 mars 1663, a été aprouvée et autorisée,
+                le Roy <pb n="45"/>
+                <lb/>lui permit en même tems d'établir un séminaire dans l'isle de Montréal, et
+                amortit le <lb/>contenu en cette donnation.</p>
+            <p> Le 5 septembre 1679, le séminaire de St-Sulpice obtint de Mr le comte de Frontenac
+                <lb/>gouverneur-général du Canada et le 20 8bre suivant de Mr Duchesneau, intendant
+                au <lb/>même pays, les isles et islets qui sont entre l'isle de Montréal et l'isle
+                de Jésus, il ne <lb/>raporte point de brevet de confirmation de cette concession, ny
+                de celle faitte au S. <lb/>abbé de Fénélon, et comme on l'a dit les lettres
+                pattentes du mois de may 1677 n'ont <lb/>amorti que le contenu en la donnation du 9
+                mars 1663. Néanmoins ils ont fait entendre <lb/>en 1704 que tout ce qu'ils possèdent
+                est compris dans cet amortissement, et l'ont fait <lb/>confirmer par arrêt du
+                Conseil d'Etat du 22 avril de la même année.</p>
+            <p> L'isle de Montréal est à 60 lieues audessus de Québec et à 30 lieues audessus de la
+                <lb/>ville des Trois Rivières, cette isle contient environ 12 lieues de long et
+                trois et demy <lb/>de large dans son milieu, elle est formée par le concours du
+                fleuve St-Laurent et de la <lb/>grande rivière des Outaouais, à la pointe d'en haut
+                de cette isle il y a deux lacs l'un à <lb/>gauche et l'autre à droitte, celui qui
+                est à gauche se nomme le lac de St-Louis, le fleuve <lb/>St-Laurent passe au
+                travers, et continue sa course le long de cette isle, du même côté <lb/>gauche celui
+                qui est à droite se nomme le lac des Deux Montagnes, la rivière des Outa̲̲ouais
+                <lb/>se décharge dedans, vient couler de l'autre côté de l'isle de Montréal et se
+                partage <lb/>en deux lits qui entourent une isle qui est à la droitte de l'isle de
+                Montréal, en remontant <lb/>cette isle, est l'isle Jésus qui appartient au séminaire
+                de Québec, elle contient environ <lb/>8 lieues de long et deux et demie de large
+                dans son milieu. Les deux lits de la rivière <lb/>qui sort du lac des Deux Montagnes
+                sont nommés différemment ; le bras qui passe <lb/>entre l'isle Jésus est apellé la
+                rivière des Prairies, et celui qui passe entre l'isle Jésus <lb/>et la terre ferme
+                du côté du Nord, est apellé la rivière des Mille Isles, à cause de la <lb/>quantité
+                prodigieuse de petites isles qui s'y rencontrent ; audessous des isles de Montréal
+                <lb/>et de Jésus ces bras de rivières se réunissent et tombent dans le fleuve
+                St-Laurent.</p>
+            <p> La ville de Montréal est par 45 degrés et quelques minutes de latitude nord, elle
+                <lb/>est scituée dans l'isle du même nom sur un terrein uni au bord du fleuve
+                St-Laurent, <lb/>à la distance d'environ trois lieues de la pointe d'en bas ; son
+                étendue est d'environ <lb/>un tiers de lieue de longueur. Le séminaire de St-Sulpice
+                avait nommé cette ville <lb/>Ville-Marie, mais l'usage de l'apeler Montréal a
+                prévalu.</p>
+            <p> Le gouverneur de cette ville l'est de toute l'isle et dépendances, il y a un
+                lieutenant <lb/>de Roy, un major de la place et une garnison. Cette ville n'était
+                fortifiée qu'avec des <lb/>pieux et de la terre, mais, en 1716, il y eut ordre de la
+                fortifier de murailles, il y a plusieurs <lb/>années que les fortifications en sont
+                faites.</p>
+            <p> La maison du Séminaire des prestres de St-Sulpice est très belle par ses bâtiments,
+                <lb/>jardins et clos, l'église paroissiale qui y joint est aussi très belle, la cure
+                dépend du <lb/>Séminaire et toutes les cures tant de l'isle de Montréal que de la
+                coste de St-Sulpice <lb/>ont été unies au séminaire par arrêt du Conseil d'Etat du
+                15 may 1702.</p>
+            <p> Il y a un couvent de Jésuites, un de Récollets, un Hôtel-Dieu, établi par lettres
+                <lb/>pattentes du mois d'avril 1669, des Soeurs de la Congrégation établies par
+                lettres pat̲̲tentes <pb n="46"/>
+                <lb/>du mois de may 1671. Un Hôpital-Général établi par lettres pattentes du 15
+                <lb/>avril 1694. Une chapelle de Notre-Dame de Bon Secours et une chapelle de Ste-
+                Anne.</p>
+            <p> Par édit du mois de mars 1693 le feu Roy a créé une justice royalle en conséquence
+                <lb/>de la cession que le séminaire de St-Sulpice avait faite à Sa Majesté de la
+                haute et <lb/>moyenne justice qui lui apartenait, et par cet édit les émoluments du
+                greffe sont laissés <lb/>au Séminaire suivant la réserve qu'il s'en était faite. Sa
+                Majesté aurait pu établir <lb/>cette justice comme étant aux droits de la Compagnie
+                qui s'en était réservé la faculté.</p>
+            <p> Le siège de cette jurisdiction est à Montréal ; elle est composée d'un
+                lieutenant̲̲général <lb/>civil et criminel, d'un procureur du Roy et d'un greffier ;
+                il y a des notaires et <lb/>des huissiers qui exercent sur commission des
+                intendants.</p>
+            <p> La montagne de Montréal de laquelle cette isle tire son nom, n'est éloignée de la
+                <lb/>ville que d'environ demie lieue, il y a sur la coste de cette montagne, qui
+                regarde le bout <lb/>d'en haut de l'isle, un fort apellé le fort Bellemont. Dans ce
+                même lieu il y avait <lb/>cy-devant une mission de Sauvages Nepissingues dirigée par
+                un prestre du séminaire <lb/>de Montréal, mais ils sont retournés dans leur pays,
+                qui est au pied du lac Nepissingue, <lb/>entre la grande rivière des Outaouais, et
+                le lac des Hurons, il vient néanmoins toujours <lb/>de ces Sauvages à l'isle aux
+                Tourtes, qui est dans le lac des Deux Montagnes, ils restent <lb/>jusqu'à la fin de
+                l'automne, c'est un prestre de St-Sulpice qui a soin d'eux pour le spirituel.</p>
+            <p> De l'autre côté de l'isle sur le bord du bras de la rivière des Prairies, à la
+                distance <lb/>d'environ deux lieues de la ville de Montréal, il y a un fort et une
+                mission sauvages, <lb/>dirigée par un prestre de St-Sulpice, dans laquelle cy-devant
+                on en trouvait de diffé̲̲rentes <lb/>nations, mais on prétend que tous ceux qui y
+                sont présentement descendent <lb/>d'Iroquois. Le séminaire de St-Sulpice a obtenu du
+                Roy le 27 avril 1718 un Brevet <lb/>de concession de trois lieues et demie de front,
+                sur trois de profondeur, à commencer <lb/>au ruisseau qui tombe dans la grande baye
+                du lac des Deux Montagnes, en remontant <lb/>le long de ce lac pour y transférer
+                cette mission de Sauvages et en jouir à perpétuité <lb/>quant même cette mission en
+                serait ôtée, à condition de faire la dépense nécessaire pour <lb/>ce changement, d'y
+                faire construire un fort de pierres suivant les plans sur lesquels <lb/>Sa Majesté
+                aura statué et à la charge de la foy et hommage.</p>
+            <p> Du côté du fleuve St-Laurent, à cinq quarts de lieues de la ville de Montréal et
+                <lb/>à un quart de lieue du fort de Bellemont, il y a dans l'isle même de Montréal
+                un lac <lb/>nommé le lac de St-Pierre qui est d'une lieue et demie d'étendue au delà
+                de ce lac, dans les <lb/>terres de l'isle qui sont le long du fleuve, il y a deux
+                forts, le premier à deux lieues et <lb/>demie de la ville apellé le fort Cuillerier,
+                l'autre à demie lieue audessus de ce dernier <lb/>apellé le fort Remy, et un
+                troisième à une lieue audessus de celui-cy, apellé le fort Rolland.</p>
+            <p> En terre ferme du côté du Sud au bord du fleuve, dans un lieu nommé le Sault
+                <lb/>St-Louis, à trois lieues ou environ de la ville de Montréal, il y avait
+                cy-devant une mis_ <lb/>sion de Sauvages Iroquois dirigée par des Jésuites. On
+                prétend que ces sauvages <lb/>sont issus des enfants qui furent enlevés chez les
+                Iroquois des cinq nations, lorsque <lb/>M. de Tracy, lieutenant-général dans
+                l'Amérique méridionalle et septentrionale, et <pb n="47"/>
+                <lb/>M. de Courcelles, gouverneur-général du Canada, allèrent leur faire la guerre
+                dans leur <lb/>pays et brûlèrent quelques-uns de leurs villages ; le terrein nommé
+                le Sault St-Louis <lb/>a trois lieues et demie de front. Les Jésuites ont représenté
+                que les Sauvages voulaient <lb/>changer leur village. Le Roy a accordé à ces pères
+                le 15 juin 1717 un brevet par lequel <lb/>Sa Majesté leur concède de nouveau toutes
+                les terres comprises sous le nom de la terre <lb/>du Sault St-Louis et confirmé les
+                concessions qui leur ont été cy devant faites, pour y <lb/>placer la mission des
+                Sauvages Iroquois, à condition que ces terres reviendront toutes <lb/>défrichées à
+                Sa Majesté, lorsque ces Sauvages abandonneront ce lieu, en conséquence. <lb/>de ce
+                brevet les Sauvages sont allés s'établir sur le même terrein vis-à-vis le fort St-
+                Rémy.</p>
+            <p> Partie de la terre du Sault-St-Louis s'étend le long du lac du même nom, ce lac a
+                <lb/>douze lieues d'étendue ; audessus on trouve les saults des Cèdres et Buisson,
+                ensuitte <lb/>le lac de St-François qui a vingt lieues de circonférence, puis le pas
+                des Galots, et la <lb/>Galette, qui n'est qu'à vingt lieues audessous du fort de
+                Frontenac.</p>
+            </div>
+            <div>
+                <p>
+                    <hi rend="maj">FORT DE FRONTENAC</hi>
+                </p>
+            
+            <p> Le fort de Frontenac est éloigné de Montréal d'environ soixante lieues, il est par
+                <lb/>44 degrés de latitude nord, scitué dans un lieu nommé Catarakouy, au bas du lac
+                Ontario, <lb/>sur le bord de ce lac, il a été nommé Frontenac parce qu'il a été
+                construit par les ordres <lb/>et soins de feu M. le comte de Frontenac pendant qu'il
+                était pour la première fois gou̲̲verneur-général <lb/>du Canada.</p>
+            <p> Ce fort est carré, bâti de pierres, il y a des grandes courtines, et est flanqué de
+                bons <lb/>bastions. Il y a un commandant et une garnison, sa situation est très
+                avantageuse pour <lb/>le trafic avec les cinq nations Iroquoises dont le pays est en
+                haut du lac Ontario, et s'étend <lb/>depuis les environs du sault de Niagara, le
+                long de la coste méridionalle du lac Ontario <lb/>jusque vers la
+                Nouvelle-Angleterre.</p>
+            <p> Du même côté du lac Ontario où est placé le fort de Frontenac, à sept ou huit lieues
+                <lb/>de distance de ce fort, sont Garnereuse et Quinté, deux petits villages
+                d'Irroquois, <lb/>amis des Français, mais il n'y en a plus au premier.</p>
+            <p> Le lac Ontario a cent quatre vingt lieues ou environ de circuit, feu M. de Frontenac
+                <lb/>avait fait faire des barques pour naviguer sur le lac, elles étaient très
+                commodes pour le <lb/>commerce avec les Irroquois, mais les guerres qu'on eut avec
+                eux obligèrent non seule̲̲ment <lb/>de couler ces barques à fond, mais de détruire
+                le fort Frontenac et de l'abandonner, <lb/>tout cela fut fait en 1689, par ordre de
+                M. Denonville, lors gouverneur-général du <lb/>Canada ; il fut rapellé la même année
+                et relevé par M. de Frontenac qui avait été relevé <lb/>par M. de la Barre en 1682.
+                Monsieur de Frontenac, qui connaissait l'importance de <lb/>ce poste, fit réparer ce
+                fort sans perdre de tems, mais les barques ne le furent point de <lb/>son tems,
+                elles l'ont été depuis et subsistent toujours.</p>
+            <p> Les Cinq Nations Irroquoises sont les Sonontouans, les Goyogôans, les Onontagués,
+                <lb/>les Onoyoutes, et les Agniés, quelques-uns de ces derniers nous ont manqué de
+                fidélité <pb n="48"/>
+                <lb/>dans la dernière guerre de 1744. S'étant laissés gagner par l'Anglais, ils ont
+                levé la <lb/>hache sur les Français et en ont détruit. Les villages irroquois sont à
+                trente lieues <lb/>ou environ les uns des autres sur des rivières qui se déchargent
+                dans le haut du lac <lb/>Ontario. Ils passent pour les plus nombreux de toutes les
+                nations sauvages ; on prétend <lb/>qu'il y a jusqu'à quatorze mille âmes tant
+                guerriers que vieillards, femmes et enfants! <lb/>S'ils étaient capables de
+                politique, ils vivraient toujours en paix avec les Français, <lb/>comme ils ont fait
+                depuis près de 50 ans, c'est-à-dire depuis la paix qu'ils obtinrent de <lb/>M. de
+                Callières vers 1703. Ce serait le moyen d'empêcher les Anglais de rien
+                entre̲̲prendre <lb/>contre eux. Leur pays est beau et fertile, mais les chevreuils,
+                les daims et les <lb/>poissons leur manquent, ils sont obligés de venir pêcher dans
+                le lac Ontario, et d'aller <lb/>en chasse du côté de la baye de Ganaraské, vers le
+                bas de ce lac jusqu'à Toronto et même <lb/>jusqu'à la grande rivière des
+                Outaouais.</p>
+            <p> Depuis 1706 la traitte s'est faitte au fort de frontenac au nom et au profit du Roy,
+                <lb/>comme on l'a dit au chapitre de la ville de Québec, mais présentement elle est
+                affermée.</p>
+            <p> Au haut du lac Ontario on trouve par les 42 degrés et quelques minutes de latitude
+                <lb/>nord, le détroit ou chenail par lequel le fleuve St-Laurent vient dans ce lac
+                en sortant du <lb/>lac Erié. Il y a dans ce détroit un sault terrible apellé le
+                sault Niagara, c'est une cascade <lb/>de plus de cent cinquante pieds de haut et
+                demie lieue ou environ de largeur. Il y avait <lb/>autrefois, proche de ce sault un
+                fort apellé le fort de Denonville, qui a été abandonné <lb/>pendant quelques tems,
+                mais qui est rebâti depuis plusieurs années et où il y a une <lb/>garnison, il se
+                nomme aujourd'huy le fort de Niagara. Audessus de ce Sault on trouve
+                <lb/>l'embouchure du lac Erié. Ce lac est par les 41 degrés et quelques minutes de
+                latitude, <lb/>il a deux cent trente lieues de circuit. Les bords et les environs de
+                ce lac, sont garnis <lb/>de chesne, ormeaux, chataigniers, noyers, pommiers,
+                pruniers et treilles, qui donnent <lb/>de beaux et gros raisins blancs et noirs on y
+                trouve quantité de poulets d'indes sauvages, <lb/>de faisans et toutes sortes de
+                bestes fauves, et de très belles et grandes prairies du côté <lb/>du Sud.</p>
+            <p> Audessus du lac Erié on trouve le chenail par lequel le fleuve St-Laurent vient
+                <lb/> dans ce lac.</p>
+            </div>
+            <div>
+                    <head rend="maj">DU FORT DE DÉTROIT</head>
+            
+            <p> Le fort du Détroit cet éloigné d'environ deux cent lieues du fort Frontenac. Il
+                <lb/>est par les 42 degrés latitude nord, sur le rivage du chenail dont on vient de
+                parler <lb/>qu'on apelle le Détroit, il est à main gauche en montant auprès du petit
+                lac qui est dans <lb/>ce même détroit ; audessus on trouve l'embouchure du lac des
+                Hurons au travers <lb/>duquel le fleuve de St-Laurent passe.</p>
+            <p> Ce fort avait été abandonné. Il a été rétabli par M. de la Motthe-Cadillac, lors
+                <lb/>capitaine en Canada, depuis, le gouvernement de la Louisiane ayant été donné à
+                M. de <lb/>la Mothe, on a mis un autre capitaine pour commander dans ce fort. On le
+                relève <lb/>ordinairement tous les trois ans.</p>
+
+            <pb n="49"/>
+            <p> Le lac des Hurons est par 46 degrés de latitude nord, il a 400 lieues de circuit ;
+                <lb/>en remontant ce lac on trouve à gauche, presque tout en haut, l'embouchure du
+                lac <lb/>Michigan, dit des Illinois, à demie lieue audessus de cette embouchure, du
+                même côté. <lb/>on trouve le poste de Missilimakinac.</p>
+            <p> Le lac de Michigan a trois cent lieues de tour, son fond est par les 42 degrés de
+                <lb/>latitude nord, en montant ce lac on y trouve à main gauche à l'embouchure de la
+                rivière <lb/>de St-Joseph, qui prend sa source dans les terres en tirant vers et
+                derrière le lac Erié, <lb/>ceux qui ont nommé ce Lac le lac des Illinois se sont
+                trompés, il est bien vray que dans <lb/>le fond de ce lac à droite en remontant, on
+                trouve à trente lieues de la rivière St-Joseph <lb/>celle de Chikagou par laquelle
+                les Illinois peuvent venir de leur pays sur ce lac, mais <lb/>leur pays en est bien
+                éloigné, puisque le Rocher, qui est le lieu où est leur premier village <lb/>de ce
+                côté là, est à plus de trente lieues de la rivière de Chikagou.</p>
+            <p> Cette observation est importante par raport aux limites de la concession du pays
+                <lb/>des Illinois.</p>
+            <p> Il y a un poste français sur la rivière de Saint-Joseph qui fait la traitte avec les
+                <lb/>Pontouatamis et autres nations des environs du fond du lac Michigan.</p>
+            <p> En descendant le lac Michigan, on trouve à gauche la baye des Puants qui conduit
+                <lb/>chez plusieurs nations, sçavoir les MasKoutins, Kikapous, Outagamis, ou
+                Regnards <lb/>Sakis et autres.</p>
+            </div>
+            <div>
+                    <head rend="maj">FORT DE MISSILLIMAKINAC</head>
+            
+            <p> Le fort de Missillimakinac est éloigné de près de 300 lieues du fort de Frontenac
+                <lb/>et de plus de cent lieues du fort du Détroit, il est par les 46 degrés et
+                quelques minutes <lb/>de latitude nord sçitué sur le bord du lac des Hurons à gauche
+                en remontant proche <lb/>du détroit ou chenail par lequel le fleuve de St-Laurent
+                vient dans ce lac et à demie <lb/>lieue de l'embouchure du lac de Michigan, il y a
+                dans ce poste deux villages de Sauvages, <lb/>l'un des Hurons, l'autre
+                d'Outaouais.</p>
+            <p> Ce poste est des plus commode pour faire la traitte avec les Sauvages des pays
+                <lb/>d'en haut, parce que du côté du Sud, il est voisin du lac de Michigan qui
+                conduit dans <lb/>la baye des Puants, ce qui facilite les moyens à diverses nations
+                sauvages de s'y rendre, <lb/>et du côté du nord, il est voisin du lac Supérieur qui
+                facilite aussi aux nations qui sont <lb/>de ce côté là, d'y venir faire la
+                traitte.</p>
+            <p> Le Conseil de régence, informé de l'avantage que cette traitte produit, a rétably
+                <lb/>par une déclaration du 28 avril 1716, vingt-cinq congés en faveur des pauvres
+                familles <lb/>du Canada, pour y aler faire la traitte, lesquels avaient été
+                supprimés par déclaration <lb/>du 21 may 1696.</p>
+            <p> Missillimakinac est éloigné de Québec, comme on l'a dit au commencement de ce
+                <lb/>sommaire, de trois cents lieues ou environ. Encore faut-il y aler par la
+                rivière des <lb/>Outaouais, comme on l'a aussi dit, car si on y allait par les lacs
+                Ontario, Erié et des <lb/>Hurons, il y aurait au moins cent lieues de plus. Après le
+                fort de Missillimakinac <pb n="50"/>
+                <lb/>en continuant de remonter le lac des Hurons on trouve le chenail du Détroit,
+                par lequel <lb/>le fleuve de St-Laurent se décharge dans le lac ; audessus de ce
+                détroit est l'embou̲̲chure <lb/>du lac Supérieur qui a cinq cent lieues ou environ
+                de circuit, au haut de ce lac, <lb/>sur le bord du côté du Nord, se trouve le fort
+                de Kaministigoyan, dont on a parlé au <lb/>commencement de ce sommaire ; il a été
+                construit comme on l'a dit en 1683. Les <lb/>Sauvages du Nord y viennent traitter
+                leurs pelleteries.</p>
+            <p> Au dessus du lac Supérieur on trouve le chenail ou détroit par lequel le fleuve
+                <lb/>de St-Laurent vient s'y décharger et audessus de ce détroit l'embouchure du lac
+                Alemi̲̲pigon, <lb/>qui est par 50 degrés, audessus de ce lac, on trouve pareillement
+                le chenail ou <lb/>détroit par lequel le fleuve de St-Laurent vient dans ce lac, et
+                en haut de ce détroit, <lb/>le lac des Assenipoils qui est par 52 degrés, duquel lac
+                les Sauvages du nord prétendent <lb/>que le fleuve de St-Laurent sort, quelques
+                géographes le font venir de plus loin, ils placent <lb/>aussi un lac qu'ils nomment
+                des Cristinois entre le lac des Assenipoils, et le lac Alemi̲̲pigon, <lb/>mais il y
+                a aparence qu'ils ont eu de mauvais mémoires, puisque les Sauvages <lb/>qui habitent
+                ces pays-là, parlent autrement, et placent le lac des Cristinois plus proche <lb/>de
+                la baye d'Hudson, au surplus tout le cours du fleuve St-Laurent audessus du lac
+                Supé̲̲rieur <lb/>est jusqu'à présent très mal connu.</p>
+            </div>
+            <div>
+                    <head rend="maj">DE LA BAYE D'HUDSON</head>
+            
+            <p> Cette baye court nord et sud, c'est-à-dire que le coté du large ou de la mer est au
+                <lb/>septentrion, et le fond de la baye au midy, elle s'étend depuis 52 degrés et 30
+                minutes <lb/>jusqu'à 63 degrés latitude nord. On trouve dans la mer du nord proche
+                des terres de <lb/>Labrador, un détroit qui y conduit, dont l'entrée est par 62
+                degrés et quelques minutes. <lb/>Les plus belles pelleteries se font aux environs de
+                cette baye.</p>
+            <p> Il y avait au fond de cette baye deux forts, l'un à gauche en allant au fond, nommé
+                <lb/>le fort Rupert, l'autre à droite nommé le fort St-Louis, ils étaient à 40
+                lieues ou environ <lb/>l'un de l'autre, du côté et au dessus du fort St-Louis en
+                avançant vers l'entrée de la <lb/>baye, il y avait trois autres forts, sçavoir, le
+                fort de Sainte-Anne, par 56 degrés, et celui <lb/>de Bourbon à l'embouchure de la
+                rivière du même nom, par 58 degrés de latitude nord, <lb/>c'est sur cette rivière
+                que les Français avaient leur principal établissement, lorsque cette <lb/>baye a été
+                cedée aux Anglais par le traitté de 1713 (1).</p>
+            <note place="foot" resp="editor">(1) Nous donnons <hi rend="ital">l'Etat présent du
+                    Canada</hi> du sieur Boucault d'après une copie conservée aux Archivesde la
+                province de Québec. L'original de cet intéressant mémoire est la propriété de la
+                Bibliothèque du Parlement, à Ottawa.</note>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">Déclaration de Grégoire II sur les images</title>
+                <title type="sub"/>
+                <title type="short">Anonyme.GregoireII</title>
+                <author>
+                    <persName>
+                        <surname>Grégoire II</surname>
+                        <forename/>
+                    </persName>
+                </author>
+                <editor>Modéliser le changement, les voies du français GTRC/CRSH</editor>
+                <principal>
+                    <persName>France Martineau</persName>
+                </principal>
+                <funder>
+                    <orgName>Université d'Ottawa</orgName>
+                    <orgName>Conseil de recherche en sciences humaines du Canada</orgName>
+                </funder>
+                <respStmt>
+                    <resp>Codage</resp>
+                    <persName xml:id="Labelle">Simon-Pier Labelle-Hogue</persName>
+                    <persName xml:id="Brazeau">Stéphanie Brazeau</persName>
+                    <persName xml:id="Martineau">France Martineau</persName>
+                </respStmt>
+            </titleStmt>
+            <extent>182</extent>
+            <publicationStmt>
+                <date when="2009-06-02"/>
+                <distributor>
+                    <orgName>Modéliser le changement : les voies du français GTRC/CRSH</orgName>
+                    <address>
+                        <addrLine>60, rue Université</addrLine>
+                        <addrLine>Ottawa, Ontario</addrLine>
+                        <addrLine>K1N 6N5</addrLine>
+                        <addrLine>Tél : 613-562-5797</addrLine>
+                        <addrLine>Fax : 613-562-5981</addrLine>
+                        <addrLine><email>fmartin@uottawa.ca</email></addrLine>
+                        <addrLine>http://www.voies.uottawa.ca/</addrLine>                        
+                    </address>
+                </distributor>
+                <availability status="restricted">
+                    <p>(c) Modéliser le changement : les voies du français (CRSH/GTRC, dirigé par F.
+                        Martineau)</p>
+                    <p>Les Corpus MCVF demeurent la propriété du projet Modéliser le changement :
+                        les voies du français. Les références à ces Corpus devraient apparaître
+                        ainsi : Corpus MCVF, Modéliser le changement : les voies du français (F.
+                        Martineau (dir.), U. d’Ottawa).Tous les documents du Corpus MCVF ne peuvent
+                        être divulgués à de tierces parties sans l’autorisation préalable de la
+                        Directrice du Projet </p>
+                    <p>Pour tout autre usage, contacter : <persName>France Martineau</persName>
+                        <orgName>Modéliser le changement : les voies du français, Université
+                            d'Ottawa</orgName>
+                        <email>fmartin@uottawa.ca</email></p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <biblStruct type="Source_publique">
+                    <monogr>
+                        <author>
+                            <persName>
+                                <surname>Anonyme</surname>
+                            </persName>
+                        </author>
+                        <editor>
+                            <persName>
+                                <surname>Stengel</surname>
+                                <forename>E.</forename>
+                            </persName>
+                        </editor>
+                        <title>La Cançun de saint Alexis und einige kleinere altfranzösische
+                            Gedichte des 11. und 12. Jahrhunderts</title>
+                        <title type="sub"/>
+                        <imprint>
+                            <pubPlace>Marburg</pubPlace>
+                            <publisher>N. G. Elwer’sche</publisher>
+                            <date when="1882">1882</date>
+                        </imprint>
+                    </monogr>
+                    <series/>
+                </biblStruct>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Église de Godehard</settlement>
+                        <repository>Hildesheim</repository>
+                        <collection/>
+                        <idno/>
+                        <msName>ms. L</msName>
+                    </msIdentifier>
+                    <history>
+                        <origin>
+                            <origPlace>Angleterre</origPlace>
+                            <origDate notBefore="1115" notAfter="1135"/>
+                        </origin>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Projet : Modéliser le changement les voies du français (GTRC/CRSH) <lb/>Resp. :
+                        <persName>France Martineau</persName> Institution : Département de français,
+                    Université d'Ottawa
+                    <address>
+                        <addrLine>60, rue Université</addrLine>
+                        <addrLine>Ottawa, Ontario</addrLine>
+                        <addrLine>K1N 6N5</addrLine>
+                        <addrLine>Tél : 613-562-5797</addrLine>
+                        <addrLine>Fax : 613-562-5981</addrLine>
+                        <addrLine><email>fmartin@uottawa.ca</email></addrLine>
+                        <addrLine>www.voies.uottawa.ca</addrLine>                        
+                    </address></p>
+            </projectDesc>
+            <editorialDecl>
+                <p>Voir le manuel d'annotation TEI au http://www.voies.uottawa.ca</p>
+                <p>L'édition de référence a été respectée quant à l'orthographe, la ponctuation, la
+                    mise en page et la pagination. Cependant, la césure des mots en fin de lignes
+                    (ou de pages) a été supprimée, le mot est placé dans la ligne ou la page où il
+                    commence. </p>
+                <p>Les paragraphes sont notés par P pour la prose. Pour les vers, P rend="gv"
+                    indique que le paragraphe est constitué d'un groupe de vers. </p>
+                <p> Les débuts des vers sont encodés par LB. Cette balise peut également servir dans
+                    les textes en prose à indiquer les débuts des lignes selon la pagination de
+                    l'édition. </p>
+                <p>Les changements de pages sont indiqués par la balise PB</p>
+                <p>Le corps du texte est obligatoirement compris dans le BODY. Le FRONT contenant le
+                    titre et/ou le prologue et le BACK (explicit) sont facultatifs et ne sont mis
+                    qu'au besoin. </p>
+                <p>Les différentes parties du texte (livre, chapitre...) sont encodées par DIV,
+                    auquel s'ajoute l'attribut TYPE qui spécifie sa nature. </p>
+                <p>Les paragraphes (P), lignes (LB) et pages (PB) de même de certaines divisions
+                    (DIV) sont ou peuvent être numérotés par l'attribut N s'ils le sont dans
+                    l'édition. </p>
+                <p>Quelques commentaires ou corrections ont été introduits à l'aide de la balise
+                    NOTE, CORR ou SIC. </p>
+                <p>Les discours directs et les citations ont été encodés par la balise Q. Cette
+                    balise est mise à chaque fois que des guillemets sont utilisés dans l'édition. </p>
+                <p>L'élément FOREIGN indique un passage en latin qui est noté en italique dans
+                    l'édition, les occurrences non en italique sont signalées par l'attribut ROMAIN. </p>
+                <p>Les folios sont notés par la balise <tag>pb rend="folio"</tag></p>
+                <p>Les notes de bas de pages ont été retirées. </p>
+                <p>Les paragraphes entièrement en latin ont été retirés, une balise P et une NOTE
+                    les signalent. </p>
+                <p>Note spécifique au texte ci-dessous: Aucune.</p>
+            </editorialDecl>
+            <samplingDecl>
+                <p>Page 59</p>
+            </samplingDecl>
+        </encodingDesc>
+        <profileDesc>
+            <creation>
+                <date notBefore="1115" notAfter="1135"/>
+                <placeName/>
+            </creation>
+            <langUsage>
+                <language ident="frm"/>
+            </langUsage>
+            <textDesc>
+                <channel/>
+                <constitution>Texte intégral</constitution>
+                <derivation/>
+                <domain/>
+                <factuality/>
+                <interaction/>
+                <preparedness/>
+                <purpose/>
+            </textDesc>
+            <textClass>
+                <keywords scheme="GTRC">
+                    <list>
+                        <item n="domaine">Non littéraire</item>
+                        <item n="genre">Ouvrage didactique</item>
+                        <item n="forme">Prose</item>
+                        <item n="docRegion1">Angleterre</item>
+                        <item n="docRegion2"/>
+                        <item n="docRegion3"/>
+                        <item n="auteurRegion1"/>
+                        <item n="auteurRegion2"/>
+                        <item n="auteurRegion3"/>
+                        <item n="auteurSexe">Homme</item>
+                        <item n="occupation">Religieux</item>
+                        <item n="scribeRegion1">France</item>
+                        <item n="scribeRegion2"/>
+                        <item n="scribeRegion3"/>
+                        <item n="imprimeurRegion1"/>
+                        <item n="imprimeurRegion2"/>
+                        <item n="imprimeurRegion3"/>
+                    </list>
+                </keywords>
+                <classCode scheme="Indice de Dees"/>
+            </textClass>
+            <particDesc>
+                <listPerson>
+                    <person role="auteur">
+                        <persName>
+                            <surname>Grégoire</surname>
+                            <forename/>
+                        </persName>
+                        <birth>
+                            <date when="0669">669</date>
+                            <placeName>Rome</placeName>
+                        </birth>
+                    </person>
+                    <person role="scribe">
+                        <persName>
+                            <surname>Inconnu</surname>
+                            <forename/>
+                        </persName>
+                        <birth/>
+                    </person>
+                    <person role="imprimeur"/>
+                </listPerson>
+            </particDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2009-06-02" who="#Martineau">Validation de l'en-tête</change>
+            <change when="2009-06-02" who="#Labelle">Vérification des en-têtes</change>
+            <change when="2005-06-17" who="#Brazeau">Correction du codage</change>
+            <change when="2005-04-13" who="#Brazeau">Codage</change>
+            <change when="2005-02-05" who="#Brazeau">Correction de la numérisation</change>
+            <change when="2005-02-05" who="#Brazeau">Numérisation</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <pb n="59"/>
+        <front>
+            <div type="titre">
+                <p>APPENDIX</p>
+            </div>
+        </front>
+        <body>
+            <div type="section" n="1">
+                <head>
+                    <foreign>Ecce responsum s<hi rend="ital">a</hi>n<hi rend="ital">ct</hi>i
+                        gregorii Secundino incluso ratione<hi rend="ital">m</hi> de picturis
+                        interroganti.</foreign>
+                </head>
+                <p>
+                    <foreign xml:lang="la"/>
+                    <note resp="encoder">11 paragraphes en latin nn reproduits</note>
+                </p>
+            </div>
+            <div type="section" n="2">
+                <head> ste uus le respuns saint Gregorie a Secundin <sic n="lereclus">lerechus</sic>
+                    <note resp="encoder">correction d'après le fac-similé</note> cum il demandout
+                    raison des paintures. </head>
+                <p n="1"> Altra c"ose est aúrier la painture ealtra cose est par le historie de
+                    lapainture ap<hi rend="ital">re</hi>ndre quela c"ose seit ad aúrier.</p>
+                <p n="2"> Kar ico que lascripture aprestet as lisanz. ico aprestet la painture
+                    asignoranz.</p>
+                <p n="3"> Kar an icele ueient les ignoranz quet il deiuent siúre. An icele lisent
+                    icels ki letres ne seuent.</p>
+                <p n="4"> ampur laquele c"ose maismement lapeinture est pur <del rend="ital"
+                        type="rature">leceun</del> as genz.</p>
+                <p n="5"> La quele c"ose tu q<hi rend="exp">i</hi> habites entra les genz deuses
+                    antendra. </p>
+                <p n="6"> que tu nangendrasses scandale de crueles curages dementiers que
+                    tuesbraseras nient cuintement par dreit amuidie. </p>
+                <p n="7"> Geres nient ne d<hi rend="exp">e</hi>ut estra fruissiet ic"o que nient ne
+                    parmaint <add place="supralinear">aluiet</add>, ad <del rend="ital"
+                        type="rature">á</del>úrier an eglises. </p>
+                <p n="8"> mais ad anstruire sulement les penses des nient sauanz.</p>
+                <p n="9"> e ampur ic"o que lancienetiet nient senz raisun cumandat les hystories
+                    estra depaint es honurables lius des sainz. </p>
+                <p n="10"> se tu feisses amuidie pardiscrecion. senz dutance poeies saluablem<hi
+                        rend="ital">en</hi>t purtenir les c"oses que tu attendeies e nient dep<hi
+                        rend="ital">er</hi>dra la cuileta fole. </p>
+                <p n="11"> mais maisment ase<hi rend="ital">m</hi>blier que le nient fraint num de
+                    pastur excellist. e nient ani"oust la culpa del dep<hi rend="ital"
+                    >er</hi>dethur.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

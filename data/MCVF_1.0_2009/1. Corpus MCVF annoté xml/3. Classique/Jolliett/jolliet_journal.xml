@@ -1,0 +1,1210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">Journal de Louis Jolliet allant à la descouverte de
+                    Labrador</title>
+                <title type="sub"/>
+                <title type="short">Jolliet.Journal</title>
+                <author>
+                    <persName>
+                        <surname>Jolliet</surname>
+                        <forename>Louis</forename>
+                    </persName>
+                </author>
+                <editor>Modéliser le changement, les voies du français GTRC/CRSH</editor>
+                <principal>
+                    <persName>France Martineau</persName>
+                </principal>
+                <funder>
+                    <orgName>Université d'Ottawa</orgName>
+                    <orgName>Conseil de recherche en sciences humaines du Canada</orgName>
+                </funder>
+                <respStmt>
+                    <resp>Codage</resp>
+                    <persName xml:id="Labelle">Simon-Pier Labelle-Hogue</persName>
+                    <persName xml:id="Gour">Clive Gour</persName>
+                    <persName xml:id="Jacques">Emmanuelle Jacques</persName>
+                    <persName xml:id="Martineau">France Martineau</persName>
+                </respStmt>
+            </titleStmt>
+            <extent>9650</extent>
+            <publicationStmt>
+                <date when="2009-05-16"/>
+                <distributor>
+                    <orgName>Modéliser le changement : les voies du français GTRC/CRSH</orgName>
+                    <address>
+                        <addrLine>60, rue Université</addrLine>
+                        <addrLine>Ottawa, Ontario</addrLine>
+                        <addrLine>K1N 6N5</addrLine>
+                        <addrLine>Tél : 613-562-5797</addrLine>
+                        <addrLine>Fax : 613-562-5981</addrLine>
+                        <addrLine><email>fmartin@uottawa.ca</email></addrLine>
+                        <addrLine>http://www.voies.uottawa.ca/</addrLine>                        
+                    </address>
+                </distributor>
+                <availability status="restricted">
+                    <p>(c) Modéliser le changement : les voies du français (CRSH/GTRC, dirigé par F.
+                        Martineau)</p>
+                    <p>Les Corpus MCVF demeurent la propriété du projet Modéliser le changement :
+                        les voies du français. Les références à ces Corpus devraient apparaître
+                        ainsi : Corpus MCVF, Modéliser le changement : les voies du français (F.
+                        Martineau (dir.), U. d’Ottawa).Tous les documents du Corpus MCVF ne peuvent
+                        être divulgués à de tierces parties sans l’autorisation préalable de la
+                        Directrice du Projet </p>
+                    <p>Pour tout autre usage, contacter : <persName>France Martineau</persName>
+                        <orgName>Modéliser le changement : les voies du français, Université
+                            d'Ottawa</orgName>
+                        <email>fmartin@uottawa.ca</email></p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <biblStruct type="Source_publique">
+                    <monogr>
+                        <author>
+                            <persName>
+                                <surname>Jolliet</surname>
+                                <forename>Louis</forename>
+                            </persName>
+                        </author>
+                        <editor>
+                            <persName>
+                                <surname>Roy</surname>
+                                <forename>Antoine</forename>
+                            </persName>
+                        </editor>
+                        <title>Rapport de l’Archiviste de la Province de Québec (1943-1944)</title>
+                        <title type="sub">Journal de Louis Jolliet allant à la découverte de
+                            Labrador 1694</title>
+                        <imprint>
+                            <pubPlace>Québec</pubPlace>
+                            <publisher>Rédempti Paradis, Imprimeur de Sa Majesté le Roi</publisher>
+                            <date when="1944">1944</date>
+                        </imprint>
+                    </monogr>
+                    <series/>
+                </biblStruct>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Projet : Modéliser le changement les voies du français (GTRC/CRSH) <lb/>Resp. :
+                        <persName>France Martineau</persName> Institution : Département de français,
+                    Université d'Ottawa
+                    <address>
+                        <addrLine>60, rue Université</addrLine>
+                        <addrLine>Ottawa, Ontario</addrLine>
+                        <addrLine>K1N 6N5</addrLine>
+                        <addrLine>Tél : 613-562-5797</addrLine>
+                        <addrLine>Fax : 613-562-5981</addrLine>
+                        <addrLine><email>fmartin@uottawa.ca</email></addrLine>
+                        <addrLine>www.voies.uottawa.ca</addrLine>                        
+                    </address></p>
+            </projectDesc>
+            <editorialDecl>
+                <p>Voir le manuel d'annotation TEI au http://www.voies.uottawa.ca</p>
+                <p>L'édition de référence a été respectée quant à l'orthographe, la ponctuation, la
+                    mise en page et la pagination. Cependant, la césure des mots en fin de lignes
+                    (ou de pages) a été supprimée, le mot est placé dans la ligne ou la page où il
+                    commence. </p>
+                <p>Les paragraphes sont notés par P pour la prose. Pour les vers, P rend="gv"
+                    indique que le paragraphe est constitué d'un groupe de vers. </p>
+                <p> Les débuts des vers sont encodés par LB. Cette balise peut également servir dans
+                    les textes en prose à indiquer les débuts des lignes selon la pagination de
+                    l'édition. </p>
+                <p>Les changements de pages sont indiqués par la balise PB</p>
+                <p>Le corps du texte est obligatoirement compris dans le BODY. Le FRONT contenant le
+                    titre et/ou le prologue et le BACK (explicit) sont facultatifs et ne sont mis
+                    qu'au besoin. </p>
+                <p>Les différentes parties du texte (livre, chapitre...) sont encodées par DIV,
+                    auquel s'ajoute l'attribut TYPE qui spécifie sa nature. </p>
+                <p>Les paragraphes (P), lignes (LB) et pages (PB) de même de certaines divisions
+                    (DIV) sont ou peuvent être numérotés par l'attribut N s'ils le sont dans
+                    l'édition. </p>
+                <p>Quelques commentaires ou corrections ont été introduits à l'aide de la balise
+                    NOTE, CORR ou SIC. </p>
+                <p>Les discours directs et les citations ont été encodés par la balise Q. Cette
+                    balise est mise à chaque fois que des guillemets sont utilisés dans l'édition. </p>
+                <p>L'élément FOREIGN indique un passage en latin qui est noté en italique dans
+                    l'édition, les occurrences non en italique sont signalées par l'attribut ROMAIN. </p>
+                <p>Les folios sont notés par la balise <tag>pb rend="folio"</tag></p>
+                <p>Les notes de bas de pages ont été retirées. </p>
+                <p>Les paragraphes entièrement en latin ont été retirés, une balise P et une NOTE
+                    les signalent. </p>
+                <p>Note spécifique au texte ci-dessous: Aucune.</p>
+            </editorialDecl>
+            <samplingDecl>
+                <p>p. 171-206</p>
+            </samplingDecl>
+        </encodingDesc>
+        <profileDesc>
+            <creation>
+                <date when="1694"/>
+                <placeName/>
+            </creation>
+            <langUsage>
+                <language ident="fr"/>
+            </langUsage>
+            <textDesc>
+                <channel/>
+                <constitution>Texte intégral</constitution>
+                <derivation/>
+                <domain/>
+                <factuality/>
+                <interaction/>
+                <preparedness/>
+                <purpose/>
+            </textDesc>
+            <textClass>
+                <keywords scheme="GTRC">
+                    <list>
+                        <item n="domaine">Non littéraire</item>
+                        <item n="genre">Journal / Mémoire personnel</item>
+                        <item n="forme">Prose</item>
+                        <item n="docRegion1">Amérique française</item>
+                        <item n="docRegion2"/>
+                        <item n="docRegion3"/>
+                        <item n="auteurRegion1">Amérique française</item>
+                        <item n="auteurRegion2">Vallée du Saint-Laurent</item>
+                        <item n="auteurRegion3"/>
+                        <item n="auteurSexe">Homme</item>
+                        <item n="occupation">Divers</item>
+                        <item n="scribeRegion1"/>
+                        <item n="scribeRegion2"/>
+                        <item n="scribeRegion3"/>
+                        <item n="imprimeurRegion1"/>
+                        <item n="imprimeurRegion2"/>
+                        <item n="imprimeurRegion3"/>
+                    </list>
+                </keywords>
+                <classCode scheme="Indice de Dees"/>
+            </textClass>
+            <particDesc>
+                <listPerson>
+                    <person role="auteur">
+                        <persName>
+                            <surname>Jolliet</surname>
+                            <forename>Louis</forename>
+                        </persName>
+                        <birth>
+                            <date when="1645"/>
+                            <placeName/>
+                        </birth>
+                    </person>
+                    <person role="scribe"/>
+                    <person role="imprimeur"/>
+                </listPerson>
+            </particDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2009-06-05" who="#Martineau">Validation de l'en-tête</change>
+            <change when="2009-05-16" who="#Labelle">En-tête et vérification du balisage</change>
+            <change when="2007-03-01" who="#Jacques">Correction du codage</change>
+            <change when="2007-03-01" who="#Jacques">Correction de la transcription</change>
+            <change when="2006-04-15" who="#Gour">Codage</change>
+            <change when="2006-05-01" who="#Gour">Numérisation</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <div type="titre">
+                <pb n="171"/>
+
+                <p>Journal de Loüis Jolliet, <lb/>allant a la descouuerte de Labrador <lb/>1694
+                    <lb/>Louis Jolliet</p>
+
+                <p>Journal de Loüis Jolliet, allant a la descouuerte <lb/>De Labrador, païs des
+                    Esquimaux <lb/>∼ 1694 ∼</p>
+                <p>Sous Les ordres de Monseigneur Le Comte <lb/>de frontenac ∼ Gouuerneur, et
+                    Lieutenant <lb/>General pour le Roy, en toute la france <lb/>Septentrionnale</p>
+            </div>
+        </front>
+        <body>
+            <p>Le 28me D'auril 1694 sur Les trois heures après midy, ie m'embarquay <lb/>sur un
+                vaisseau de six pierriers, et quatorse pieces de canon, auecques <lb/>une Esquipage
+                de <num>18.</num> personnes, compris un R̟. p̟. Recollect et trois
+                <lb/>cadets, tous pour le voyage.</p>
+            <p> Je ne marqueray rien en destail de ma route iusqu'a mingan, <lb/>estant le chemin
+                dont iay tiré les Rumbs de vents tant de fois, auec <lb/>toutes les remarques des
+                haures, isles et bastures du fleuve, sur les¬̲quelles <lb/> les cartes que i'ay
+                enuoyées en cour ont esté faites, auec toute <lb/>l'exactitude possible.</p>
+            <pb n="172"/>
+            <p><add place="left">May 1</add> Je diray seulement que le pr̟. de may ie
+                passay a matanne, qui <lb/>est un meschant endroit de noroüest, et le 3me nous
+                relaschames dans <add place="left">3</add><lb/>l'isles aux oeux ou ayant laissé
+                passer un vent de nordest, est, et <lb/>suest, auecques une nege pendant quatre
+                iours d'une force extraordi̜̲naire, <lb/>en leuant l'ancre d'un temps calme le
+                maistre cable cassa, comme <lb/>il n'y auoit <pb rend="folio" n="2"/>
+                <lb/>point d'horin l'ancre fut perdû.</p>
+            <p><add place="left">May 11me</add>le vent venant bon, nous continuasmes, nostre route
+                iusqu'a Mingan, <lb/>ou ie desbarqué ma femme et mes Enfans, qui y treuua sa mere
+                <lb/>auec trois françois qui y auoient passé l'hyuer;</p>
+            <p> nous y seiournasmes le reste du mois, tant pour faire la traitte <lb/>auec les
+                Sauuages, que pour regler et recommancer nos establissements <add place="left">Jüin
+                    9e</add><lb/>bruslés par les anglois. et le 9me y laissant ma femme, auec sa
+                mere, <lb/>trois de mes Enfans quatre hommes et un garçon nous desployasmes <lb/>les
+                voiles pour la suitte de nostre entreprise le soir nous passasmes <lb/>oüebitchioüen
+                    <num>12.</num> lieuës dans l'est suest; estant par le trauers de la
+                <lb/>montagne de pereoüatchiou elle nous parut ainsy</p>
+            <pb n="173"/>
+            <p>J'oubliois a dire qu'aussitost que nous fusmes arrivez a mingan, on <lb/>mit en
+                deliberation, scauoir si on renuoyeroit a Quebec querir un cable <lb/>et un ancre,
+                les Esprits furent partagés, mais enfin on conclut qu'on <lb/>deuoit risquer a faire
+                le voyage, auec les deux autres et l'ancre de <lb/>touée quoy que tous petits et
+                deux fort meschants cables.</p>
+            <p> le nauire appartenoit a ̲Mr̟ pachot, qui n'auoit rien Espagné <lb/>pour
+                son esquipement, mais il auoit esté trompé; les cables se pour̲¬rissent <lb/>
+                souuent plus tost dans un grenier qu'en pleine mer.</p>
+            <p> Notâ. du trauers de pereoüatchiou la terre la plus loing D anti¬̲costi <lb/>paroist
+                d'un beau temps au sud 1/4 se̟.</p>
+            <p>Nous nous treuuasmes a napesipi, 25 lieuës de nos maisons de min̲gan, <lb/>le vent la
+                pluye et l'apparence d'une meschante nuit, nous firent <lb/>relascher aux islets du
+                soroüest, de la dite Riuiere, ou le reste du iour, <lb/>et la nuit suiuente, nous
+                fusmes a l'abry d'un grand coup de vent, <lb/>auec beaucoup de pluye;</p>
+            <p>Depuis mingan iusqu'a napesipi faites e̟. 1/4 se̟ 28 lieues </p>
+            <p>Le lendemain iour de St̟. Bernabé, sur le midy, le vent se tournant
+                <lb/>bon, et la pluye cessant, nous appareillasmes et faisant d'un beau <lb/>temps
+                le suest <num>7.</num> lieuës. nous arriuasmes a la R̟. noutascoüan qui
+                <lb/>est grande, mais dangereuse, pour ses bastures de sable, et sa pointe <lb/>qui
+                met au large</p>
+            <pb n="174"/>
+            <p> Ainsy paroist noutascoüan de napesipi.</p>
+            <p><add place="left">12</add>La nuit, on mit a la cape, de peur d'arriuer trop tost a
+                Quegasca, et <lb/>au poinct du iour <lb/>faisant depuis noutascoüan e̟
+                1/4 n̟
+                e̟. enuiron 9 lieuës nous y entrasmes, <lb/>et dans le haure qui paroist
+                comme cette figure le represente cy <lb/>dessous.</p>
+            <pb n="175"/>
+            <p><add place="left">Jüin</add>Nous y treuuasmes quelques sauuages, et françois qui y
+                estoient aller <lb/>en traite,</p>
+            <p><add place="left">l3me</add>les affaires estant faites, ie fis repartir les dits
+                françois pour Mingan; <lb/>et les sauuages s'embarquerent pour descendre dix lieuës
+                plus bas, <lb/>ou nous auons coustumés de fondre des huyles de lou marin.</p>
+            <p><add place="left">14</add>le 14me <del rend="overstrike">leur</del> fut beau, mais le
+                    <num>15.</num> et l6me donna du vent et <lb/>de la pluye.</p>
+            <p><add place="left">17</add>le nordest continuant, ie fus tendre une Rez a saumon a une
+                lieuë au <lb/>soroüest de Quegasca, comme ce n'estoit pas encore la saison du
+                <lb/>poisson dans ces quartiers la, ie n'en pris qu'un et ie manquay le se̲cond,
+                    <add place="left">18</add><lb/>le l8me au matin:</p>
+            <p> ensuite le vent venant fauorable, ie retournay a bort, et fis leuer <lb/>l'ancre,
+                pour sortir de nostre haure de Quegasca après la messe dite, <lb/>et les prieres
+                ordinaires pour le Roy, le bourgeois du nauire, ses <lb/>associés, et l'heureuse
+                reussite du voyage.</p>
+            <p> Sortant du hâure, nous fismes se̟
+                <num>2.</num> lieuës.</p>
+            <p> jusqu'a la pointe des isles du large que nous laissasmes toutes <lb/>a babort, quoy
+                que nous eussions pû passer dedans facilement il y a <lb/>partout 4 brasses d'eau et
+                plus :</p>
+            <p> Notâ de la susdite pointe <lb/> paroist n̟o̟. 1/4 d’o̟ celle
+                de Quegasca, <lb/>
+                o̟.
+                n̟o̟. la R̟. au saumon susdite. <lb/>
+                o̟ 1/4 n̟o̟. le plus loing des terres vers noutascoüan.</p>
+            <p>Mais faites O̟. pour la doubler et quelque horloge du s̟o̟. a
+                cause <lb/>des bastures de sable.</p>
+            <p>de la pointe susdite paroist aussi natastigoüa dans l'e̟ 1/4
+                    s̟e̟. enuiron <lb/>9 lieuës. dans lequel espace faut marquer l’ance
+                et les <pb n="176"/>
+                <note resp="encoder">Les folios 3 et 4 ne sont pas indiqués par l’éditeur</note>
+                <pb rend="folio" n="5"/>
+                <lb/>et les Riuieres mascoüarou, et mascoüarouchis, et les sables de <lb/>celle de
+                Oüissacouté suiuant la figure cy dessous. et la montagne <lb/>de mascoüarou</p>
+            <p> nous arriuasmes le soir dans le haure de natastigoüa, ou estoient <lb/>de nos
+                sauuages a faire des huyles. les affaires le mauuais temps nous <lb/>y tinrent
+                iusqu'au 26me.</p>
+            <p><add place="left">hauteur</add>Le 23me iüin d'un beau temps auec L'astrolabe, la
+                hauteur du soleil <lb/>sur l'horison fust treuuée de 62d̟. 50' : a
+                terre; c'est pour le pole <lb/>50d̟ 40'. qui veux dire la latitude du
+                lieu.</p>
+            <p><add place="left">Variation</add>par l'azimut je treuuay la variation de l'aymant
+                estre, 22d̟. 29'. 16". <lb/>noroüest.</p>
+            <p>Ainsy paroist la montagne de mascoüarou.</p>
+            <p>estant deux lieuës au large,</p>
+            <p><add place="left">Jüin 27me</add>Partant de Natastigoüa, ie dis du haure, on fait
+                soroüest pour sortir <lb/>3/4 li̟. et puis sud autant pour doubler
+                natastigoüa et ses islets en des̲cendant, <lb/>car en montant tout est beau,</p>
+            <p> il y a une croix que i'auois plantée dans cette isle, de la qu'elle <lb/>estant
+                enuiron une lieue au large, vous voyez la pointe la plus loing <lb/>vers Quegasca
+                    <num>9.</num> lieuës; et la pointe de bois d'Ouraman a 2 l̟. du
+                <lb/>haure, natastigoüa et l’isle du basteau, bien au large, auec quelques
+                <lb/>islets dans l'est 1/4 s̟e̟. enuiron, a <num>3.</num>
+                <num>1.</num> de natastigoüa</p>
+            <pb n="177"/>
+            <p>Voyez la figure cy après</p>
+            <pb rend="folio" n="6"/>
+            <p> Suitte du 27me iuin</p>
+            <p> Ainsy se montre Natastigoüa et son haure</p>
+            <p>Jusqu’a midy, nous eusmes le cap au sud touiours vent contraire, <lb/>nous voulusmes
+                sonder pour voir si il y auroit quelque molue, nous <lb/>ne prismes rien, et nous
+                perdismes nostre sonde, la ligne estoit pourrie;</p>
+            <p> après midy le vent se mettant soroüest, nous fit faire <num>6.</num> lieuës
+                <lb/>dans 1.e̟
+                s̟e̟. depuis natastigoüa, le quel espace paroist ainsy</p>
+            <p><add place="left">28 Jüin</add>La nuit on ne fit que deux lieuës au mesme Rumb dans
+                le calme, et <lb/>le iour iusqu'a midy de vent de sud et sud suest, enuiron
+                    <num>6.</num> lieuës <lb/>dans e̟. 1/4 n̟e̟. iusqu'aux
+                isles St̟e̟s̟ Maries. entre lesquelles nous <lb/>treuuasmes abry et bon
+                mouillage de vase, grauier et petite roche, <lb/>rouge et cor nue a <num>7.</num>
+                <num>10.</num> et 14 brasses.</p>
+            <pb n="178"/>
+            <pb rend="folio" n="7"/>
+            <p><add place="left">Jüin 29</add>Le reste de la iournée se passa en pluye, nous estions
+                proche d'un <lb/>islet plein de gibier, ou lon en tua ce qu'on voulust. ~</p>
+            <p>la nuit suiuante et le lendemain iour St̟. pierre, le mauuais temps
+                con̲tinua <lb/>toujours auec pluye et brume.</p>
+            <p><add place="left">30</add>Le 30me nous partismes a midy faisant le long des isles
+                stes maries. <lb/>e̟.
+                n̟e̟. et e̟. 5d̟ du s̟e̟. deux lieuës,
+                iusqu'a la derniere du large, a cause <lb/>de la brume.∼</p>
+            <note resp="encoder">Une grande accolade unie les 10 lignes suivantes. À gauche de
+                l’accolade, est écrit :"Rumbs de vens"</note>
+            <p> Notâ du moüillage des isles st̟e̟s̟ maries,
+                    <lb/>e̟.n̟e̟. a l’isle des Esquimaux<hi rend="points"/>2
+                lieuës ensuite <lb/>e̟. 1/4 s̟e̟. passant les sables, l’ance,
+                la coste St̟e̟ marie <lb/> et la Riuiere itaoümiou iusqu'aux isles <lb/>
+                    enragées<hi rend="points"/><num>4.</num>
+                li̟.
+                <lb/>e̟.n̟e̟. passant l’ance et la Riuiere natoüacamiou <lb/>
+                iusqua mecatinachis<hi rend="points"/><num>3.</num>
+                li̟.
+                <lb/>n̟e̟. iusqu'a l'entrée de meccatina<hi rend="points"/><num>5.</num>
+                li̟. 
+                <lb/>ne̟ dans mecatina<hi rend="points"/><num>2.</num>
+                li̟.
+                <lb/>e̟.
+                n̟e̟. de mecatina a pegouasioupi<hi rend="points"/><num>10. </num>
+                li̟.</p>
+            <p> Notâ des susdites isles St̟e̟s̟ marie, par le large iusques a la
+                    R̟.
+                <lb/>pegoüasiou, faites</p>
+            <p>
+                e̟. et e̟. 1/4 n̟e̟. les 10 lieuës.</p>
+            <p><add place="left">Juillet <num>I.</num></add>La nuit, la brume et le vent nous firent
+                prendre le large pour euiter <lb/>les islets de roches qui sont en grand nombre,
+                mais trop, car on se <lb/>treuuâ a <num>10.</num>
+                li̟. du moins <del rend="overstrike">au large</del> en mer </p>
+            <p><add place="left">hauteur de mecatina 51d̟</add>nous tournasmes vers
+                terre et nous entrasmes dans Mecatina qui se <lb/>treuue par 51d̟ sur
+                l'astrolabe, maistre moore, anglois de nation la <lb/>treuue par 50d̟
+                55' ∼</p>
+            <p>Voyez la representation de l’isle mecatina nommée isle St̟e̟ Claire
+                <lb/>qui suit. ∼</p>
+            <pb n="179"/>
+            <pb rend="folio" n="8"/>
+            <pb rend="folio" n="9"/>
+            <p><add place="left">Jüillet pr̟</add>Suitte du pr̟. de
+                iüillet.</p>
+            <p> Aussitost que nous eumes ietté l'ancre a mecatina, les sauuages <lb/>nous
+                apperceurent et firent de la fumée :</p>
+            <p> c'estoit Missinabano, homme aagé de 70 ans et plus, allié a nos <lb/>sauuages de
+                Mingan, mais qui n'y estoit pas venû de nostre temps, <lb/>quoy que vint années
+                s'estoient passées. ∼ en outre homme bien fait, <lb/>d'une des plus haute taille,
+                d'une humeur fort douce, n'aymant que <lb/>le vin et mesme peu, mais qui auoit trois
+                femmes, dont une fort ieune, <lb/>auecques une fille d'un an fort iolie. ∼</p>
+            <p> Ils nous raconterent, que plusieurs Esquimaux auoient hyuerné <lb/>dans ce lieu, et
+                auoient fait trois maisons de bois couuertes, de terre, <lb/>dont une estoit encore
+                entiere; ils ne faisoient point de feu dedans, <lb/>mais auoient un endroit exprès
+                dehors : ils font prouision l'automne</p>
+            <pb n="180"/>
+            <p>de loumarin et de gibier pour l'hyuer, et quand les neges sont bonnes <lb/>ils
+                chassent aux caribous. ∼</p>
+            <p> nos sauuages de mingan y en auoient treuué quatre, le prin̲¬temps <lb/>et les
+                auoient deffaits, il est probable que les autres auoient <lb/>pris la fuite, comme
+                estant gens sans armes; quoyque d'ailleurs fort <lb/>adroits a la fleche.</p>
+            <p> Voyla le commancement de ce que nous apprismes de cette nation.</p>
+            <p><add place="left">2</add> Ce missinabano, partit en canot, pour descendre dix lieues
+                plus <lb/>bas, a la Riuierre pegoüasiou, il ne voulut pas se mettre dans le
+                <lb/>nauire parce que il auoit une cache de loumarin a prendre en chemin: <lb/>deux
+                canots des autres s'y embarquerent et nous nous en fusmes a la <lb/>dite Riuiere,
+                que nous auions choisi auec eux pour l'endroit le plus <lb/>seur, a placer le nauire
+                de touts vents pendant le peu de traitte que <lb/>nous voyons pouuoir faire auecques
+                eux;</p>
+            <p>nous y seiournasmes en l'attendant, et d'autres qui s'y deuoient <lb/>treuuér, cette
+                Riuierre est belle, grande, et profonde</p>
+            <pb rend="folio" n="10"/>
+            <p><add place="left">iüillet 3</add>Suitte du 3me Jüillet,</p>
+            <p>elle nourit plusieurs poissons, comme truites, saumons, et quantité de <lb/>molue au
+                large, les outardes s'y arrestent aussi et le loumarin; les <lb/>caribous sont dans
+                les terres et le castor, mais point d'orignal, et fort <lb/>peu de loutres; ∼</p>
+            <p><add place="left">Latitude de pegoüachiou 5ld̟ 20'.</add>La hauteur du
+                soleil sur l'orizon auec l'astrolabe a este 62d̟. 30'. <lb/> c'est pour
+                la latitude du lieu, 5ld̟. 20'. ∼</p>
+            <p> Notâ de mecatina.</p>
+            <p>
+                ne̟ 1/4 de̟. au destroit St̟e̟ Catherine<hi
+                    rend="points"/>5 lieuës</p>
+            <pb n="181"/>
+            <p>e̟. dans le destroit ou enuiron parce quil vâ un peu en <lb/> serpentant
+                    <hi rend="points"/> 5 lieuës aussi iusqu'a la R̟. pegoüasiou. <lb/>
+                Voyez la figure cy dessous.</p>
+            <p><add place="left">4</add>Nous demeurasmes auec les sauuages iusqu'au 6me au matin et
+                nous <add place="left">5</add><lb/>leuasmes l'ancre, mais le calme et le vent
+                changeant par les orages <add place="left">6</add><lb/>ne nous laissa faire que cinq
+                lieuës dans l'e̟. 1/4 n̟e̟., et e̟. iusqu'aux
+                <lb/>isles St̟. iacques vis a vis de la Baye missina, ainsy nommée par
+                <lb/>les sauuages du lieu : d'ou l'on commance a voir l'isle de terre neuue, <lb/>de
+                beau temps dans le sud 1/4 s̟e̟. entre <num>12.</num> ou <num>15.</num>
+                lieuës : nous y plan̲tasmes <lb/>une croix sur une isle. la molue est icy en
+                abondance, mais fort <lb/>petite, elle n'est propre que pour le sec. ∼Voyez la carte
+                qui suit pour <lb/>la sortie de la R̟. pegoüachiou, ∼</p>
+            <pb rend="folio" n="11"/>
+            <p>Quittant la croix, nous prismes le large, faisant e̟.
+                s̟e̟.
+                <num>2.</num> lieuës laissant <add place="left">Jüillet 7me Isles St̟
+                    Jacques</add><lb/>les isles et passages a gauche auec de grandes Bayes: et nous
+                ren̲trasmes <lb/>aussitost dans l'ance de la R̟. des Esquimaux ainsy
+                nommée <lb/>parce qu'ils y habitoient autre fois, et ne s'en sont retirés quacause
+                <lb/>des guerres, auec les nauires maloïns; d'icy a la croix nous estimons
+                    <lb/><num>3.</num> lieuës et ce sont les isles St̟ Jacques</p>
+            <pb n="182"/>
+            <p><add place="left">R̟. des Esquimaux Sa latitude 51d̟
+                    27'.</add> la hauteur du soleil sur l'horizon fust de 61d̟. 10',
+                c'est pour la <lb/>latitude 51d̟. 27'. ∼</p>
+            <p> Notâ. Estant dessus la grande isle du large des Esquimaux i'ay <lb/> veû les terres
+                vers pegoüachiou dans l'ouest. et balsamon dans l e̟.
+                <lb/>
+                s̟e̟. enuiron 8 lieues qui est le commancement du destroit de belle <lb/>
+                isle : faisant un cercle et une coste, depuis la R̟. des Esquimaux <lb/>
+                qui a deux sorties grandes et un petite dans deux lieuës de dis̲tance, <lb/> pleines
+                de saumons, et truites; les isles finissent un peû <lb/> au dela, qui auaient
+                commancé au portage de la R̟. Oüatessaou.</p>
+            <p> Deux sauuages de ceux qui auoient quitté et fuit mingan a la <lb/>nouuelle du siege
+                des Anglois a Quebec, vinrent a bord auec leurs <lb/>castors, c'est ce qui nous
+                obligea a rester, nonnobstant le vent bon. <lb/>Voyez la carte qui suit, depuis la
+                croix iusqu'a balsamon, et des terres <lb/>de portechoix. ∼</p>
+            <p><add place="left">8me</add>le 8me le vent, la brume, et la pluye nous arrestèrent le
+                9me nous par̲tismes <add place="left">9me</add><lb/>a midy, dans la brume, les
+                sauuages dès le matin s'estoient em̲barqués <lb/>pour s'en retourner a la
+                    R̟. pegoüachiou, ou les autres les atten̲doient, <lb/>pour entrer
+                dans les bois ensembles, chercher leur vie, et les <lb/>lieux propres a hyuerner,
+                comme ils ont coustumes tous les ans. nous <lb/>arriuasmes le soir aux susdites
+                isles de balsamon la carte qui suit <lb/>cy après depuis la croix iusqu'a balsamon
+                et de portechoix <pb rend="folio" n="12"/>
+                <lb/> portchoix dans terre neuue, de la R̟. des Esquimaux ainsy.</p>
+            <pb n="183"/>
+            <p><add place="left">Jüillet 10me</add> Notâ. voulant entrer dans la Baye de la
+                citadelle venant du <lb/> oüest, et doublant la pointe, faites nord, un 1/4 de
+                lieuë, iusqu'a <lb/> lisle du destroit, ensuite n̟o̟. 1/4 de nord, au
+                fond de la baye i̟ 1.50'. <lb/> les poincts marquent le chemin du
+                nauire. ∼</p>
+            <p>De la citadelle a la pointe du soroüest de belle isle, faites se̟ 1/4
+                    d'e̟.
+                <lb/>de la citadelle au port St̟. paul <num>2.</num>
+                <num>1.</num>50'. touiours e̟.
+                ne̟ ce port sera <lb/>quasi dans le s̟e̟. 1/4 sud de la
+                pointe du soroüest de belle isle. <lb/>et de ce port faites encore e̟.
+                n̟e̟. 3/4 de lieuë iusqu'a la pointe du des̲tour, <lb/>pour entrer dans
+                labrador. ∼ voyez la carte cy dessous pour les <pb n="184"/>
+                <lb/>isles et islets depuis le port St̟. paul, iusqu'au destour que
+                quelques uns <lb/>nomment cap charles. ∼</p>
+            <p>Notâ, de cette pointe du destour, a la pointe du s̟o̟. de belle isle
+                faites <lb/>se̟ 1/4 sud. <num>4.</num> lieuës, a celle du
+                    n̟e̟. faites se̟ 1/4 ie luy <lb/>donne 2 li̟.
+                de long̟.
+                n̟e̟.
+                s̟o̟. elle est fort haute</p>
+            <pb rend="folio" n="13"/>
+            <p>ce mesme iour <del rend="overstrike">nous</del> plusieurs glaces parurent comme des
+                chas̲¬teaux <lb/>sur la mer; ce qui est fort a craindre de brume ou de nuit;</p>
+            <p> Notâ de la R̟. des Esquimaux, les terres de portchoix paroissent <lb/>
+                dans le sud s̟e̟. et fort hautes, iusqu'a la pointe d'amoüitch, et <lb/>
+                ensuitte elles sont toutes basses iusqu'a la veüe de belle isle, ou <lb/> estant il
+                paroit quelque montagne dans les terres de terreneuue <lb/> comme il suit</p>
+            <p><add place="left">Jüillet 11me</add>De la citadelle a la p̟. du
+                    s̟o̟. de belle isle se̟ 1/4 d'est 6 li̟.
+                enuiron.</p>
+            <p> a celle du n̟e̟.
+                e̟. 1/4 s̟e̟. et e̟. ∼</p>
+            <p> Le cap grat estoit embrumé vers le sud 1/4 se. ∼</p>
+            <p> Nota depuis balsamon qui est le commancement du destroit de <lb/>belle isle, la
+                coste du nort vâ droit, e̟.
+                n̟e̟. 17 1̟. 25'. iusqu'au destour. ∼ <lb/>la carte monstre
+                ses isles et islets.</p>
+            <p>La citadelle est une isle ainsy nommée parce que c'est un Rocher <lb/>escarpé de 30
+                pieds de haut, et a pic, ou l'on ne peut monter; et fait <lb/>un triangle de plus de
+                15 arpens de tour, auec des faussez naturels, <lb/>et places d'armes tout alentour
+                de grauier, et cailloux.</p>
+            <p><add place="left">Entrée dans Labrador</add> Sur les trois heures après midy doublant
+                la pointe du destour, <lb/>nous entrasmes dans Labrador. ∼ nous voyons deuant nous,
+                une ance <lb/><del rend="overstrike">deuant nous</del> pleine d'isles dont celle du
+                large estoit dans le <lb/>nordest, a 3 lieuës de nous. nous moüillasmes dans les
+                premieres isles <lb/>a cause du vent du sud se̟.</p>
+            <pb n="185"/>
+            <p><add place="left">pointe au caribou</add> Notâ la p̟. vis a vis de cette
+                dite isle, sera nommée pointe au <lb/>caribou pour la raison suiuante.</p>
+            <pb rend="folio" n="14"/>
+            <p>Quoyque bon pour nostre route, parce que nous apprehendions de <lb/>passer les isles,
+                et d'estre pris de mauuais temps, hors des abrys et <lb/>moüillages</p>
+            <p><add place="left">hauteur a belle-isle Jüillet 12</add> Nous prismes hauteur ce iour
+                là, et nous arrestasmes que belle isle <lb/> estoit par 52d̟. 9'.
+                latitude nord et 330d̟. 30'. longitude a raison <lb/> de Quebec qui est
+                par 314d̟ de longitude, et 46d̟. 45'. latitude.</p>
+            <p> On crut le matin auoir entendû deux coups de canon ie m'embar̲quay <lb/>dans un
+                canot auec deux hommes pour aller descouurir, mais <lb/>nous remarquasmes que
+                c'estoit des glaces en mer, qui venant a se <lb/>briser, faisoient en tombant un
+                bruit semblable;</p>
+            <p><add place="left">maison Esquimause</add>Desbarquant proche d'une pointe, nous
+                apperceusmes dans une <lb/>petite ance, entre trois montagnes, une maison des
+                Esquimaux, nous <lb/>la treuuasmes comme nos sauuages nous l'auoient dit: il y auoit
+                <lb/>chambre, et antichambre c'estoit plusieurs pieces de bois rond, de
+                    <num>8.</num>
+                <lb/><num>12.</num> et 15 pieds de long, posées sur un feste, soustenû de poteaux;
+                ces <lb/>bois estoient ioints l'un contre l'autre, et par dessus des tourbes et un
+                <lb/>pied de terre pour couuerture. Une porte a l'antichambre au midy, <lb/>et deux
+                grandes fenestres a la chambre regardant le ciel, qui leur</p>
+            <pb n="186"/>
+            <p>seruoient de cheminée de beau temps, et apparemment de porte, outre <lb/>la petite de
+                trois pieds de haut, par ou on venoit de l'antichambre.</p>
+            <p> Ils faisoient du feû, mais peû, quoyque selon les apparences <lb/>c'estoit un
+                famille de plus de vint personnes, et quantité de chiens, <lb/>mesmes on y auoit
+                hyuerné plusieurs hyuers. des morceaux de graisses <lb/>de loumarins tués depuis peu
+                paroissoient dehors de tous costez, dans <lb/>les chambres plusieurs ossements, et
+                testes de renards, lieures, mar̲¬tres, <lb/>ours, caribous, goilands, et corbeaux;
+                partout aux enuirons du <lb/>logis, et dans le haure, de grands et petits escoipeaux
+                de charpentier,</p>
+            <pb rend="folio" n="15"/>
+            <p>Les restes des bordages de biscayennes et membres faisoient connoistre <lb/>comme ils
+                les auoient accommodés auec soin et adresse. nous vismes <lb/>proche de la maison,
+                plusieurs briques, tuiles, et charbon de forge, <lb/>auec quatre, our cinq douues de
+                bariques ou il y auoit de l'huyle a <lb/>brusler. nous treuuasmes aussi un morceau
+                d'estoffe de croiseau cousû <lb/>auecques de la toille, et un autre morceau de rez a
+                faire une puise. <lb/>dans la maison aussi bien que dehors quelques cloux et fiches,
+                dont <lb/>quelques uns seruoient; il n'y auoit pas longtemps qu'ils en estoient
+                <lb/>partis toutes ces choses font croire qu'ils trafiquent auec quelques
+                <lb/>Europeans.</p>
+            <p> En nous rembarquant, un caribou, vint nous offrir sa peau et sa <lb/>chair, et si
+                nos gens ne s'estoient pas trop presséz nous aurions eu <lb/>l'une et l'autre auec
+                ses cornes qui paroissoient belles et grandes.</p>
+            <p> ce mesme iour on leua l'ancre pour entrer dans la Baye que nous <lb/>nommasmes Baye
+                    St̟. Loüis. on y fit des fumées, et on tira un coup <lb/>de canon
+                pour nous faire connoistre, et les attirer a nous, mais il ne <lb/>parut personne;
+                ∼</p>
+            <pb n="187"/>
+            <p><add place="left">Jüillet l3me</add>Le lendemain de vent contraire nous seiournasmes,
+                on accommoda <lb/>le bateau faisant des fumées en diuers endroits, ie montay sur une
+                <lb/>isle, et nous vismes bien dix lieuës dans la Baye vers le noroüest, <lb/>outre
+                les deux lieuës que nous estions desia entrez et apparence par <lb/>les coupes des
+                montagnes, qu'elle continuoit encore dauantage; elle â <lb/>plusieurs islets de
+                Roches, et isles couuertes de grands bois d'Espinet̲tes, <lb/>trembles, et bouleaux,
+                aussi bien que les hautes montagnes qui <lb/>sont a ses costez : il n'y que les
+                isles du bord de la mer, qui sont pelées, <lb/>et revestues de mousse. ∼ remarquez
+                que la plus part de ses isles <lb/>sont fort hautes, et chacune represente dans son
+                milieu comme des <lb/>montagnes d’une terre ferme,</p>
+            <p><add place="left">Latitude de la Baye St̟. Loüis</add> La hauteur du
+                soleil sur 1 horizon fust de 59d̟.20'. qui dit pour la <lb/> latitude du
+                lieu 52d̟.30'. <lb/> nous voyons belle isle enuiron a 7 lieues de
+                nous.</p>
+            <pb rend="folio" n="16"/>
+            <p> Le soir nous eusmes un vent d'oüest soroüest tres grand, il nous <lb/>fallut mettre
+                deux ancres, quoyque dans un haure, et bon mouillage <lb/>a 20 brasses d'eau, la
+                iournée finit et le soleil se coucha sans nous <lb/>faire voir nos Esquimaux tant
+                souhaitez. ∼</p>
+            <p><add place="left">Jüillet 14me</add> Le vent continuant, nous y demeurasmes, nous
+                aurions esté mal, <lb/>si nous auions esté en mer, a cause de la tempeste qui nous
+                auroit par <lb/>force emportée dans le large. ∼</p>
+            <p> Voyez La carte qui suit depuis balsamon iusqu'icy comme le tout <lb/> paroissoit a
+                la veüe,</p>
+            <p><add place="left">l5me</add>Le vent venant un peu bon, nous partismes, et sortant du
+                haure et <lb/>baye St̟. Louis nous vismes une biscayenne au large, qui
+                faisoit la <lb/>route de terre neuue on crût dabord que c'estoit d'un nauire, parce
+                <lb/>qu'elle retourna sur ses pas, mais deux heures après, nous eusmes les
+                <lb/>Esquimaux a nous.</p>
+            <p><add place="left">Esquimaux</add> il n'y vinrent que deux, chacun dans un canot de
+                loumarin, de leur <lb/>façon, auec quelques peaux a traitter, ils ne voulurent pas
+                aborder <pb rend="folio" n="17"/>
+                <lb/>mais criant incessament ahé ahé, <foreign>thou tcharacou</foreign>; nous voyons
+                bien <lb/>qu'ils nous faisoient signe d'aller a eux, ils estoient a la portée de
+                <lb/>mousquet du nauire, ie pris 3 hommes dans le batteau auec moy et <lb/>quelques
+                couteaux, pour leur traitter, l'abord se fit aisement; c'estoit <lb/>un vieillard,
+                qui auoit la barbe noire, et longue d'un demi doit, qui <lb/>se nommoit capitena
+                ioanis : l'autre sans barbe, s’appeloit <lb/>Kamicterineac. tous deux grands, gras,
+                blancs, et hauts. nous estions a <pb n="188"/>
+                <lb/>demie lieüe de terre; nous ne vismes rien des autres, n'y de la bis¬̲cayenne.
+                <lb/> ils nous firent signe d'entrer, et moüiller dans un haure qui <lb/>paroissoit
+                proche, que nous traiterions, et coucherions ensembles; et <lb/>qu'ils nous
+                donneroient des filles pour nous soulager la nuit; nous <lb/>voulant par lâ faire
+                connoistre que le <foreign>tcharacou</foreign>, (c'est a dire la paix) <lb/>estoit
+                partout. les signes valloient le ieu, aussi en demeura t'on lâ: <lb/>∼ Ec ∼ ils
+                estoient couuerts chacun d'un capot de loumarin a capu¬̲chon <lb/>comme un Recollect
+                finissant auecques une queue derrierre, en <lb/>pointe: ∼ bien passé et cousû;
+                chacun une culotte de peau, auec le <lb/>poil, et des bottes de loumarin, le tout
+                bien cousû e bien fait. ∼ <lb/>leur rencontre et l'esperance de quelque traitte, et
+                descouuerte, nous <lb/>firent resoudre a entrer dans ce haure qui fust nommé du nom
+                du <lb/>nauire. le St̟ françois: tant a cause du vaisseau qu'a Raison du
+                    Sr̞
+                <lb/>françois Pachot qui auoit tout fournit pour l'entreprise.</p>
+            <pb n="189"/>
+            <p> auparauant de passer outre remarquez.</p>
+            <p> Notâ. que i'ay dit de la pointe du destour, ou cap charles, vous <lb/> faites
+                    n̟e̟. 3 1̟. aux isles et pointe du caribou. <lb/> du
+                caribou, n̟. 1/4 n̟o̟. a la pointe du nord de la baye
+                    St̟ loüis <lb/> 2 1̟.
+                <lb/> de cette dite pointe, n̟. 1/4 ne̟ 2 1̟.
+                50' le long des Rochers Esqui̲maux <lb/> iusqu'aux haure St̟. François.
+                de ce cap et haure St̟ fran̲çois <lb/>passant la baye St̟.
+                françoise vous faites n̟. 1/4 ne̟ aussi <hi rend="susp"/>
+                <lb/> 3 lieuës.</p>
+            <p>Notâ de ce cap St̟. françois paroist dans le n̟. 1/4
+                    n̟e̟.
+                <num>12.</num> lieuës comme <lb/>une isle ronde, fort haute, c'est le plus loing de
+                la veüe, <lb/>et belle isle dans le sud 1/4 de suest, paroit aussi mais peû. ∼ la
+                carte <lb/>cy apres vous fera tout et mieux connoistre. ∼</p>
+            <pb rend="folio" n="18"/>
+            <p><add place="left">Jüillet l6me</add>La nuit se passâ auec bon quart, et sur les huit
+                heures, nous enten̲dismes <lb/>les mesmes sur une montagne, crier, ahé, ahé, ie
+                descendis a <lb/>terre dans le batteau auec <num>4.</num> hommes pour traiter
+                auecques eux, parce <lb/>qu'ils ne vouloient pas venir a bord; approchant de nous,
+                ils crioient <lb/>incessament, et a haute voix, ahé, ahé, <foreign>tho,
+                    tchouracou</foreign>, redoublant <lb/>souuent <foreign>thou,
+                    tchouracou</foreign>, qui est un mot pour signifier, bas les armes, <lb/>point
+                de trahison; ils auoient leurs arcs, et fleches, auecques un fusil, <lb/>qu'ils
+                mirent a terre de loing, nous montrant de faire de mesme : Enfin <lb/>eux et nous,
+                criant touiours <foreign>tcharacou</foreign>, ils nous approcherent, portant
+                <lb/>quelques peaux de loumarins qu'ils estendoient et remuoient comme <lb/>des
+                pauillons, disant sans cesse <foreign>tcharacou</foreign>; nous estions dans le
+                bat̲teau <lb/>au bord des roches, ie descendis seul a terre, croyant aller au
+                <lb/>deuant d'eux, mais incontinant, se retirant en arrierre, paroissant tout
+                <lb/>estonnez me firent signe auec la main de retourner au batteau, ce <lb/>que ie
+                fis, et alors, ils montrerent un visage contens, et gay, disant,
+                    <lb/><foreign>catchia</foreign>, Voyla qu'est bien.</p>
+            <p> Enfin ils nous ioignirent, et traitterent auec nous; mais un gardoit <lb/>touiours,
+                les arcs, et les fleches, pendant que l'autre traitoit, et ne <lb/>venoient que l'un
+                après l'autre, disant touiours, <foreign>tcharacou</foreign>, paix par̲tout,
+                <lb/>point de trahison, i'escrivis plusieurs mots de leur langue, qu'ils <lb/>me
+                donnerent auec tesmoignage de ioye.</p>
+            <p> Ils nous firent entendre de retourner au nauire, et qu'eux s'en <lb/>alloient dans
+                leur chaloupe, a leurs gens, qui estoient partis de ce <lb/>haure ou nous contasmes
+                onze cabannes du printemps; ils y auoient <add place="left">l7me</add><lb/>fait des
+                canots, et accomodé quelques biscayennes. nous nous sepa̲rasmes <lb/>sans voir
+                qu'eux deux, et le lendemain nous sortismes en mer, <lb/>mais le vent estant foible,
+                et le courent grand qui porte au sud suest, <lb/>nous fit reculer vers Belle isle,
+                    <space extent="30 lettres"/> sur <pb n="190"/>
+                <pb rend="folio" n="19"/>
+                <add place="left">Suitte de Jüillet 17me</add><lb/>Sur le midy le vent fraichissant
+                nous doublasmes le cap de la croix <lb/>St̟ françois, et aussitost
+                venant a l'est, nous entrasmes dans la baye <lb/>St̟. françois faisant
+                    n̟.
+                n̟o̟. et puis O̟.
+                s̟o̟. dans un beau haure, a <num>12.</num>
+                <lb/>brasses d'eau.</p>
+            <p> notâ le haure St̟. françois est au sud de la dite baye et n'en est <lb/>
+                separé que du cap d'ou vous voyez les isles du caribou au sud, <lb/> et la pointe du
+                suroüest de belle isle un peu a l'est, et la p̟. du <lb/> nordest dans
+                le sud 1/4 suest, peut estre <num>12.</num>
+                li̟. enuiron. ∼</p>
+            <p><add place="left">18me</add>Le iour suiuant estoit un dimanche le vent de suest, et
+                la pluye nous <lb/>arresterent iusques sur les onze heures, venant au sud 1/4 suest
+                on leva <lb/>l'ancre, et faisant nordest 1/4 de nord, nous vinmes au cap de la
+                sortie <lb/>de la baye, que iestime a <num>3.</num> lieuës de celuy de la croix
+                    St̟. françois, <lb/>cette Baye paroist auoir plus de huit lieuës de
+                profondeur et pleines <lb/>d’isles et islets.</p>
+            <p> Du cap de la sortie de la Baye St̟. françois 4 l̟.
+                n̟. 1/4 n̟e̟. passant <lb/> plusieurs bayes et hautes isles,
+                puis une baye, mesme rumb, 2 li̟.
+                <lb/> iusqu'au cap ou est une isle ronde, haute, comme une montagne, <lb/> et un
+                petit islet au pied <lb/> une autre baye, mesme rumb i̟
+                li̟. 50' <lb/> iusqu'au plus haut cap depuis l'entrée dans l'abrador.
+                <lb/> ensuitte touiours mesme rumb. <num>1.</num> lieuë iusqua une pointe ou il y
+                <lb/> a des isles, et islets traversant la baye St̟. michel ou nous
+                en¬̲trasmes <lb/>pour la nuit, sur les sept heures; et nous y treuuasmes <lb/> bon
+                moüillage a <num>12.</num> brasses deau et abry de tout vent.</p>
+            <p> Voyez la carte qui suit depuis le destour. ∼ <lb/> du destroit de belle isle ∼</p>
+            <pb rend="folio" n="20"/>
+            <p>Le l9me et 20me Jüillet le vent de noroüest et la pluye nous y arres̲¬terent, <lb/>
+                ienuoyé le canot voir les petites ances, il remarqua qu'il y <lb/>auoit quantité de
+                bois sur les montagnes, dans les vallées, et apparen̲¬ce <lb/>d'une Riuiere. ∼</p>
+            <p><add place="left">Jüillet 21me</add>Le vent se tournant sud surouest nous sortismes
+                de cette baye St̟.
+                <lb/>michel, et du cap ou sont plusieurs isles selong que le represente la
+                <lb/>carte, nous fismes,</p>
+            <p>
+                n̟.
+                n̟e̟. 5 lieuës iusqu'au gros cap rouge, au pied duquel est une <lb/>isle
+                ronde, haute; et faite en citroüille, <lb/>ensuitte laissant une baye a gauche dans
+                le noroüest, et les isles que <pb n="191"/>
+                <lb/>nous nommasmes, isles St̟. thomas : au large, nous entrasmes dans
+                <lb/>un canal, faisant</p>
+            <p>
+                n̟. 5d̟ du ne̟, 1 lieuë 1/4 .</p>
+            <p>Je descendis a terre, et ie montay auec deux hommes sur une monta̲gnes, <lb/>dans une
+                isle, d'ou lon descouuroit de toutes parts, et bien loing, <lb/>sans neantmoins voir
+                aucun Esquimaux, sinon une vieille cabanne, que <lb/>nous rencontrasmes en chemin;
+                nous ne pusmes faire de feu, n'y fumée <lb/>faute de bois et de tourbe.</p>
+            <p><add place="left">22me</add> Le lendemain, le vent continuant sud soroüest, nous
+                partismes tous <lb/>esperant treuuer du monde ce iour la, et en effet nous allions
+                sortir <lb/>des isles dans le nord nordest, ou nous aurions bien eû 3 lieuës a
+                faire, <add place="left">Esquimaux</add><lb/>lorsque nous aperceusmes une grande
+                baye qui se descouuroit dans la <lb/>n̟.
+                n̟o̟. dont le fond ne paroissoit point, nous iugeasmes aussitost que
+                <lb/>ce pouuoit estre, la grande Riuiere que nous cherchions, ou deuoient <lb/>se
+                treuuer les Esquimaux, ou du moins un passage dans les isles pour <lb/>abreger
+                nostre route aprés auoir tout bien consideré, et d'embas, et du <lb/>haut des mats,
+                ie resolû d'y entrer.</p>
+            <pb n="192"/>
+            <p><add place="left">Esquimaux</add>
+                n̟.
+                n̟o̟.
+                <num>3.</num> lieuës. Laissant une baye a babort, et les isles dans <lb/>le nordest
+                plus de trois lieues, vous verrez la carte cy aprês.</p>
+            <p> Ayant fait enuiron une lieuë, passant le long d'une isle de goüe̲lands, <lb/>nous
+                entendismes dans une autre plusieurs <lb/><space extent="50 lettres"/> voix</p>
+            <pb rend="folio" n="21"/>
+            <p>et au mesme temps parurent les Esquimaux, et leur deux biscayennes <lb/>mastées,
+                qu'ils menerent au plus vite dans une isle pluis criant comme <lb/>les autres, ahé.
+                ahé, montrant des loumarins en guise de pauillon, s'en <lb/>vinrent a bord du
+                vaisseau au nombre de six, chacun dans un canot, <lb/> (remarquez qu'ils ny peuuent
+                ranger qu'un) et nous ayant traitte, <lb/>nous ayant traitté, quelque loumarins,
+                nous firent signes daller dans <lb/>la baye qui paroissoit deuans nous, qu'ils nous
+                alloient suiure avec <lb/>leurs biscayennes, pour nous montrer leur village, ou nous
+                traitterions <lb/>dauantage, (tout roule sur ce mot de traitte, et cependant cette
+                traitte <lb/>n'est pas grande chose iusqu'icy), nous les crüsmes, et peu de temps
+                <lb/>aprés, nous les vismes venir a la voile derriere nous; nous cargasmes <lb/>les
+                nostres pour les attendre; deux canots s'auancerent pour nous <lb/>dire, et montrer
+                le passage ou il falloit entrer, et s'en retournerent a <lb/>leur bord; nous les
+                laissasmes prendre le deuant, et auec plaisir nous <lb/>les suiuismes dans le canal
+                faisant</p>
+            <p>
+                n̟.
+                n̟o̟.
+                <num>4.</num> lieuës iusquaux cabannes, du village</p>
+            <p> Voyez la carte qui suit cy dessous</p>
+            <pb rend="folio" n="22"/>
+            <p> Suitte du 22me Jüillet</p>
+            <p><add place="left">hauteur</add>La hauteur du soleil sur l horison une lieuë deuant la
+                sortie du dit canal, <lb/>fust de 56d̟ 30' iestime estre par
+                    53d̟ 44'. de latitude.</p>
+            <p> Nous moüillasmes sur les deux heures aprés midy, deuant leur <lb/>village, ou aprés
+                quils y furent tout assemblées, nous contasmes neuf <add place="left"
+                    >biscayennes</add><lb/>cabannes, trois biscayennes, et un charoüet; tout en fort
+                bon ordre: <lb/>neuf canots vinrent a nous auec leurs signaux, et harangues, a
+                l'ordi̲naire, <lb/>traitterent et s'en retournerent, tesmoignant beaucoup de
+                ioye.</p>
+            <p> Ils firent de la fumée, sur une montagne dans leur isle, pour <lb/>aduertir les
+                autres, qui estoient dans la baie, c'estoit deux canots, dans <lb/>un estoit le
+                chef, nommé Quignac: qui voulut venir droit au nauire, <lb/>mais ils l'appellerent,
+                et ensuite vinrent dix canots auec luy, tous arran̲gez <lb/>de front, touiours
+                haranguant et disant sans cesse le <foreign>tcharacou</foreign>, <pb n="193"/>
+                <lb/>paix partout, bas les armes, point de trahison, bons cappitaines, de <lb/>tous
+                costez.</p>
+            <p> l'abort, les embrassades, les ceremonies de ioye, et la traite se <lb/>firent dans
+                le batteau, contre le nauire : et puis ils s'en retournerent <lb/>montrant qu'ils
+                reuiendroient le lendemain.</p>
+            <p> ce iouz la ils nous traitterent une chemise neuue, et blanche, un <lb/>mouchoir de
+                toille peinte, et un sac, ou estoient quelques feüilles d'un <lb/>liure Espagnol, on
+                y lisoit en marge quelques passages des actes des <lb/>Apostres; ils auoient aussi
+                des restes de cinture, et de pouche de toille, <lb/>toutes ces choses nous firent
+                iuger, outre leurs biscayennes, qu'ils <lb/>auoient surpris des pescheurs ou traitté
+                auecques eux,</p>
+            <p><add place="left">23me</add> Ils reuinrent donc le matin, le tout se passa comme le
+                iour pre̲cedant; <lb/>i'escrivis plusieurs mots de leur langue qui me paroist assez
+                <lb/>aisée a apprendre; ils nous parurent toujours de bon humeur, affables, <lb/>et
+                aymant a rire; et parfois nous faisoient signe d'aller a leur caban̲nes. </p>
+            <p> le soir ils reuinrent encore, mais ie ne sçay ce qu'ils apperçeurent</p>
+            <pb n="194"/>
+            <pb rend="folio" n="23"/>
+            <p> suitte du 23me de iüillet</p>
+            <p>du bord du nauire, ils n'oserent demeurer, et prirent pretexte d'aller <lb/>querir
+                quelque chose a terre, pour s'en retourner; ils firent garde toute <lb/>la nuit, et
+                incontinant le iour parut une grande fumée, auec des accla̲mations <lb/><add
+                    place="left">Jüillet 24me</add>de ioye, parolles de paix, et de traitte, nous
+                inuitant d'aller a <lb/>eux, firent chanter leurs femmes, dont les voix sont fort
+                douces, et <lb/>agreables; aprés une longue dance, et leur chant melodieux, ie leur
+                <lb/>criay de venir traitter, et de ne rien craindre, ie nommay toutes les
+                mar̲chandises <lb/>en leur langue, ils m'escouterent attentiuement, et
+                s'embar̲querent <lb/>dans onze canots, ils approcherent, traitterent, et on fit
+                comme <lb/>un pacte d'alliance, et de paix, par le moyen d'un petit present, que
+                <lb/>le chef accepta, auec tesmoignage, de ioye, de satisfaction, et de
+                con̲tentement, <lb/> puis s'en retournerent.</p>
+            <p> nous leur fismes entendre a nostre tour, la façon de chanter des <lb/>françois, le
+                    R̟ p̟. Recollect, entonna le <foreign xml:lang="la">Sub
+                    tuum</foreign>, et le <foreign xml:lang="la">domine saluum</foreign>,
+                <lb/>qu'ils escouterent, et ensuitte poursuiuirent leur route, faisant des cris
+                <lb/>de remerciements et de ioye. ∼</p>
+            <p><add place="left">Descente a terre</add> C'estoit sur les huit heures du matin, et
+                aprés le disné, le R̟ p̟.
+                <lb/>Recollect, un de mes enfans, et cinq hommes de l'Esquipage descen̲dirent <lb/>
+                a terre, tous dans le batteau, a dessein de les aller visiter, ce qui <lb/>reussit
+                tres bien, car le chef, nommé Quigna vint au deuant d'eux, <lb/>dans son canot, leur
+                montra le lieu propre pour aborder, a la portée <lb/>du fusil des cabanes, et leur
+                ayant fait paroistre de la ioye de leur <lb/>descente, prit le pere par la main, et
+                le conduisit au village; les fran̲çois <lb/>resterent au batteau auec leurs armes,
+                ou ils furent visités de la <lb/>ieunesse. les femmes estoient dehors, chacune
+                admiroit cette entreueüe, <lb/>personne ne disoit mot, sinon, doucement, et d'un
+                visage riant, <lb/>passant la main sur l'estomac et sur les bras, <foreign>catchia,
+                    catchia</foreign>, Voyla <lb/>qu'est bien. ∼</p>
+            <p> Le pere fut mené droit a la cabanne du chef, sa femme y entra <lb/>la premiere, le
+                pere ensuite, et le chef le dernier, il luy fit voir tout son <lb/>mesnage, et par
+                aprés les autres cabannes, touiours le tenant par la <lb/>main, chaque famille luy
+                faisoit present de viande et d'huyle de lou̲marin, <lb/>c'estoit alors le meilleur
+                de leur viures; ces visites faites, il le <lb/>ramena au batteau, l'embrassa et s'en
+                retourna disant, tcharaco, paix <lb/>partout; <foreign>catchia</foreign>, voyla
+                qu'est bien.</p>
+            <pb rend="folio" n="24"/>
+            <pb n="195"/>
+            <p><add place="left">Jüillet 25me</add> Seconde descente a terre,</p>
+            <p>Le iour suiuant, ie descendis dans le batteau, faisant suiure le canot, <lb/>auec
+                huit hommes tous armez. le Cappitaine Quignac, ne manqua pas <lb/>a la mesme
+                ciuilité, il vint seul dans son canot au deuant de nous <del rend="overstrike">dans
+                    <lb/>son canot</del>, nous haranguer, et nous montrer le desbarquement, <lb/>ils
+                desbarqua le premier, vint me receuoir au batteau, m'ayant embras̲sé, <lb/>me prit
+                par la main droite, et un autre vieillart me tenoit la main <lb/>gauche,
+                    Mr̟. de la ferté estoit tenû par le second chef, toutes les
+                <lb/>ieunesses que nous rencontrions en chemin, nous faisoient de grandes
+                <lb/>amitiez, embrassades, et compliments, en leur langue, que nous expli̲quions
+                <lb/>aisement par leurs gestes.</p>
+            <p> J'entray dans sa cabannes, il me montra sa femme qui estoit vieille, <lb/>elle me
+                prit la main, m'embrassa a la françoise, sa fille fit la mesme <lb/>chose, qui
+                estoit mariée, et auoit un Enfant fort blanc, gras, et bien <lb/>fait, aagé de dix
+                mois; le gendre me montra que c'estoit sa femme et <lb/>son fils, ie les embrassay
+                tous <del rend="overstrike">deux</del> trois faisant reflexion <lb/>aux
+                embrassements de la grande mere, en consequence de quoy ie <lb/>preiugé, que
+                c'estoit une marque d'amitié honneste, et de ciuilité parmi <lb/>eux; (on peut
+                remarquer icy en passant qu'elles n'ont rien de desa̲greable;) <lb/>ils nous
+                menerent par la main dans les autres cabannes, et <lb/>partout on nous reçeu tres
+                bien, et auec les mesmes ciuilitez.</p>
+            <p> ie demanday a les entendre chanter, et dancer; aussitost seize <lb/>femmes se mirent
+                en rang, et le second chef au milieu, qui dançoit <lb/>pendant que les femmes
+                chantoient; leur dance a quelque chose de celle <lb/>de nos sauuages, <del
+                    rend="overstrike">mais</del> leur <del rend="overstrike">voix</del> chant, est
+                plus melo̲dieux <lb/>mais aussi leurs voix sont plus belles;</p>
+            <p><add place="left">habits des hommes</add>Les hommes sont bien habillés, chacun a un
+                iustaucorps de loumarin, <lb/>une culotte de peau de chien, de renard, ou d'ours,
+                auecques une paire <lb/>de bottes, le tout bien passé, bien fait, et bien cousû, les
+                cheueux noirs, <lb/>et coupés au dessous des oreilles, la barbe noire et se la font
+                quasi <lb/>tous, le chef Quigna, n'auoit que de grands cros a l'Espagnol; ils
+                <lb/>ne sont pas si bazanés que les nostres; <lb/><space extent="40 lettres"/>
+                ayment <pb rend="folio" n="25"/>
+                <lb/>ayment surtout a rire, et a l'esgar de l'esprit, et de la facon d'agir
+                <lb/>tiennent tout du françois, et rien du Sauuage.∼</p>
+            <p><add place="left">habits des femmes</add> Les femmes sont bien faites, or qu'elles
+                sont la plus part camuses, <lb/>mais toutes blanches, grandes, grosses, et grasses :
+                elle portent des <lb/>bottes, qui d'un bout a l'autre vont touiours en
+                s'eslargissant, en sorte <lb/>que par en haut, elles ont plus d'un pied de large,
+                elles montent <pb n="196"/>
+                <lb/>iusqu'a la cinture, et par dedans il y en a de petites, qui ne vont que
+                <lb/>iusqu'au genoüil, toutes de loumarin, et bien accommodé</p>
+            <p> depuis le nombril iusqu'au bas du ventre, c'est un tour de peau <lb/>de loutre,
+                caribou, ou d'autre peau, qui passe entre les iambes pour <lb/>cacher ce qu'elle ne
+                doiuent pas montrer; ∼</p>
+            <p> pour le reste du corps, elle le couurent d'un iustaucorps de lou̲¬marin, <lb/>qui
+                descend iusqu'a la cinture, auec des manches comme de <lb/>nos capots, et un
+                capuchon comme celuy d un Recollect, qu'elles met¬̲tent <lb/>par fois sur leurs
+                testes; elle le font grand, parce quelle portent <lb/>leurs Enfans dedans</p>
+            <p> leur sein est touiours caché, et quoy qu'elles le donnent a leurs <lb/>Enfans, on ne
+                le voit iamais, en quoy elles sont plus reseruées que <lb/>nos françoises qui en
+                font gloire, surtout dans les premieres années <lb/>de leur marriage;</p>
+            <p> i'oubliois a dire, qu'au derriere de leur iustaucorps, est une grande <lb/>queüe,
+                large de plus de demi pied, qui descent a deux doits proche <lb/>de terre; pour
+                leurs cheueux, il y en a (ce sont les ieunes), qui <lb/>en font un bouquet sur
+                chacune de leurs oreilles, le reste, se tresse, <lb/>et se met en rond, sur la
+                teste, et finit faisant comme une belle rose <lb/>espanoüie, cette coiffure, auec un
+                visage doux, blanc, et une voix <lb/>qui n'a rien de rude, n'est pas desagreable
+                ∼</p>
+            <p> la pluralité des femmes, est permise parmi eux, elles ont soin du <lb/>mesnage, les
+                hommes de la chasse, et la bonne intelligences paroist <lb/>beaucoup dans leurs
+                familles.∼</p>
+            <p> ie vis dans leurs cabannes trois grandes chaudieres, dans les̲¬quelles <lb/>ils
+                faisoient cuir de la viande, elles sont rares, n'ayant pas <lb/>de commerce asseuré
+                auec personne, et ne traittant que par hazard, a <lb/>quelques nauires pescheurs,
+                dans terre neuue,</p>
+            <pb rend="folio" n="26"/>
+            <p>Ils mettent leurs eaux dans des sçeaux de cuir de vache marine, ̲Mr̟
+                <lb/>de la ferté qui estoit auec moy, voulant voir si elle estoit douce, (car <pb
+                    n="197"/>
+                <lb/>on nous auoit dit quils buuoient de l'eau sallée) en prit dans sa main,
+                <lb/>incontinant, le chef parla, et fit donner une tasse de bois, dont ils se
+                <lb/>seruoient pour boire, l'eau estoit douce, et la cuilité remarquable.</p>
+            <p> leurs lits sont esleués d'un pied sur terre, ou paroissent plusieurs <lb/>peaux
+                passées en poil, de caribous, loumarins, ours, et autres pour se <lb/>couurir la
+                nuit, leur cabannes sont nettes, et propres, faites en rond, <lb/>l’esté, et
+                couuertes de loumarin passé, ce sont des tentes, mais <lb/>l'hyuer ils font des
+                maisons comme i'ai dit cy deuant : ils font aussi <lb/>des pots de terre, grands et
+                petits, pour fondre leurs huyles, et faire <lb/>cuir leur viande, ie n'en ay point
+                veû veu de rotie comme chez nos <lb/>sauuages. ∼</p>
+            <p> La rade n'estoit pas moins agreable, il y auoit trois biscayennes, <lb/>et un
+                charoüet, tous les quatres bastiments, neufs, auec grapins, deuant <lb/>et derriere,
+                mats, voyles, auirons, baril d'arcanson, demi baril de <lb/>cloux, a caruelle, et
+                demi caruelle, barique vüide, et un coffre, sur <lb/>un estoit escrit en gros
+                caractere I̟. H̟. S̟. Maria Joseph. ie ne pus re̲garder <lb/>que dans une,
+                ie ne sçay pas ce qu'il y auoit dans les autres, <lb/>mais tout paroissoit neuf,
+                bien peinturé et accommodé, nous ne pusmes <lb/>pas sçauoir d'ou, comment et en
+                eschange de quoy ils les auoient <lb/>euës; ∼</p>
+            <p> de l'endroit ou estoit nostre basteau, il y auoit une ance a faire <lb/>le tour,
+                pour venir aux cabannes, i'appelay le canot, pour abreger le <lb/>chemin de mon
+                retour, les deux chefs s'embarquerent dedans auec nous; <lb/>et les femmes auec le
+                reste des hommes, vinrent a pied au basteau, <lb/>ou i'auois quelques marchandises
+                que nous traitasmes pour des huyles, <lb/>ensuitte nous nous separasmes, nous
+                embrassant auec les tesmoigna̲ges <lb/>d'amitié a l'ordinaire; ∼ </p>
+            <p><add place="left">26me</add> Le iour de St̟e̟. anne, fut pluuieux, grande
+                brume et grand vent <lb/>on ne fit rien</p>
+            <pb rend="folio" n="27"/>
+            <p>on ne fit rien, la nuit suiuente fut meschante de pluye de vent de suest, <lb/>nord
+                et norouest, auec grand froid,</p>
+            <p><add place="left">Jüillet 27me</add> au iour sur les sept heures du matin la brume
+                s'esleua, de vent <lb/>de noroüest, et aprés le midy le Ciel parut clair, le vent
+                vint au sud <lb/>soroüest, et nos esquimaux de terre a bord, qui apporterent
+                quelques <lb/>graisses de loumarin; les deux chefs, entrerent dans le nauire (ils
+                <lb/>n'auoient encore osé le faire,) l'un aprés l'autre, nous leurs fismes a
+                <lb/>chacun un present en particulier, et furent fort contens.</p>
+            <p> ils nous firent entendre que nous deuions treuuer dans nostre route, <lb/>aprés
+                auoir marché cinq iours, un cappitaine Esquimaux nommé Ipillac, <lb/>auec sa bande;
+                qu'ils partiroient dans leurs chaloupes en mesme temps <pb n="198"/>
+                <lb/>que nous, et que dans dix iours, ils se treuueroient encore icy pour <lb/>nous
+                attendre en retournant;</p>
+            <p> c'estoit le dernier adieu, on s'embrassa, et nous nous separasmes <lb/>auec toutes
+                les ceremonies de ciuilité, et d'amitié, dans de pareilles ren̲¬contres; <lb/>∼ dés
+                le soir, ils appareillerent, pour aller coucher un peu <lb/>plus loing, nous crûsmes
+                que c'estoit pour se mettre en parage du <lb/>vent, ou pour laisser en cache leur
+                viande seiche, ils en auoient plu¬̲sieurs <lb/>paquets qu'ils accommodent pour
+                l'hyuer, c'est une partie de <lb/>leur prouisions.</p>
+            <p><add place="left">28me</add> Nous fismes voyle faisant pour sortir des isles,</p>
+            <p>
+                e̟. 1/4 ne̟, i̟. lieuë 50' <lb/> mesfiez vous de
+                babort a une pointe de Roche ∼ la carte <lb/> vous montrera les basses dangereuses
+                qui ne descouurent <lb/> point. ∼</p>
+            <p> Notâ du moüillage paroist la Riuiere, que ie crois estre Quiche̲¬saquiou, <lb/> dans
+                le n̟o̟. 1/4 n̟. et estant doublé l'isle du village, elle
+                <lb/> paroist N̟O̟ 1/4 d’O̟. tant que la veue peut
+                s'estendre, sans terre <lb/> dans le fond, ny montagnes qu'aux costez. ∼</p>
+            <p>Ayant donc fait la susdite lieuë et demie, laissant les isles deux <lb/>lieuës
+                    <lb/><space extent="8 lettres"/>sur la droite</p>
+            <pb rend="folio" n="28"/>
+            <p><space extent="20 lettres"/>suitte du 28me iüillet</p>
+            <p>nous entrasmes dans un passage, faisant Nord <num>2.</num> lieuës laissant un islet
+                <lb/>en pain de sucre, tout blanc a droit, la pointe susdite dangereuse a
+                <lb/>gauche, et tout contre, a <num>20.</num> arpens un islet de mesme grosseur, et
+                <lb/>façon que le blanc, ou est une grosse roche rouge, fort remarquable <lb/>du
+                costé du nord; ensuite une longue et haute isle, ou est un grand <lb/>blanc de
+                roche, escarpé : entre ces deux isles paroist une terre basse <lb/>et verte, dont le
+                bout fait la susdite pointe que i'ay dit qu'il faut <lb/>craindre; ∼</p>
+            <p> de la sortie de ce passage, faites n̟o̟. 6 lieuës trauersant la baye
+                <lb/> de 3 li̟. de profondeur, laissant quelques isles aux large, et
+                islets; <lb/>ces six lieuës finissent a un destroit, ou l'on entre laissant
+                plusieurs <add place="left">hauteur</add><lb/>grandes isles au large, enuiron deux
+                lieuës, ie l'estime par 54d̟.</p>
+            <p> Voyez la carte qui suit, <lb/>elle est iointe auec la precedente</p>
+            <space/>
+            <note resp="encoder">L’éditeur scientifique n’indique pas la longueur de l’espace laissé
+                en blanc dans le manuscrit</note>
+            <p>Nos esquimaux nous suiuoient auec leur quatre biscayennes a la voyle, <lb/>ils
+                entrerent dans l'autre baye, au dela des 54d̟. le vent changeant
+                <lb/>nous obligea d'y entrer, aussi enuiron 3 lieuës dans l'oüest. ou nous
+                <lb/>treuuasmes abry pour tout vent, et bon moüillage a <num>9.</num> brasses
+                d'eau;</p>
+            <p> c'est une baye de plus de quinse lieuës de profondeur pleine <lb/> d'isles,</p>
+            <p> il paroist une grande, et haute montagne, au fond, et apparence <lb/>d'une Riuiere,
+                il en sortoit des bois le matin, si l'autre n'est pas celle <pb n="199"/>
+                <lb/>de Quichesaquiou, il faut que ce soit cellecy; nous y couchasmes, <lb/>on y tua
+                trois canards, mais il n'y a point de molue, remarquez que ce <lb/>sont des arbres
+                partout sur les montagnes, et dans les vallons, et ances <add place="left">Jüillet
+                    29me</add><lb/>Enuirons, nous n'en auions point tant veû depuis nostre entrée
+                dans <lb/>Labrador.</p>
+            <p> Nous y passasmes la nuit et nous y demeurasmes le 29me de <lb/>vent contraire, mais
+                chaud, comme en esté a Quebec, la nuit fut sem̲blable. </p>
+            <p><add place="left">30me</add> Nous fismes enuiron 6 lieuës dans le N̟O̟ et
+                    n̟.
+                n̟o̟. iusqu'a une <lb/>pointe de bois, ou lon treuua deux auirons
+                d'Esquimaux que lon planta <lb/>debout dans une isle, du costé du nord ou nous
+                estions moüillez.</p>
+            <p> Nous fismes au n̟e̟. 1/4 n̟.
+                <num>10.</num> lieuës pour venir a la pointe basses <lb/>et longue qui n'est qu'une
+                quantité d'isles, et islets; laissant la grande <lb/>baye, a gauche qui a du moins 6
+                lieuës de large, elle sestent dans <lb/>l'ouest, et on n'en voit point de fond.</p>
+            <p> Notâ du destroit de 54d̟ faites</p>
+            <p>
+                n̟. 1/4 n̟o̟. a la pointe des auirons, qui fut nostre couchée
+                du dit <lb/> destroit</p>
+            <p>
+                n̟ 1/4 ne̟, a la dite pointe longue et basse 20 lieuës.</p>
+            <p><add place="left">hauteur</add>a midy la hauteur sur l'horizon du soleil
+                    53d̟ i'estime pour la latitude <lb/>55d̟ 15'.</p>
+            <p> Voyez la carte qui suit depuis le destroit de 54d̟ iusquicy.∼</p>
+            <p>de cette pointe longue, laissant comme une baye au travers des isles <lb/>de la
+                pointe, on destourne, faisant</p>
+            <p> Nord, 1 lieuë au destroit ou ie pris hauteur par 55d̟ 15' comme
+                <lb/>i'ay dit cy dessus : le calme nous y arresta</p>
+            <pb rend="folio" n="30"/>
+            <note resp="encoder">L’éditeur scientifique n’a pas indiqué le folio 29</note>
+            <p><add place="left">Aoust 1</add>Sur le midy, nous leuasmes l'ancre, nous voyons deuant
+                nous au n̟. 1/4 <lb/>n̟o̟. la terre la plus loing, a 10
+                lieuës : dans lequel espace de <num>10.</num> lieuës <lb/>nous fismes 2
+                    li̟.
+                <num>no.</num> ∼ et nous demeurasmes faute de vent, le lende̲main <add place="left"
+                    >2</add><lb/>matin nous en partismes faisant n̟o̟. 3 li̟.
+                iusqu'a une pointe ou <lb/>sont plusieurs islets au large, ensuitte au mesme rumb, 3
+                lieuës, trauer̲sant <pb n="200"/>
+                <lb/>une ance de sable dangereuse pour ses rochers à fleur d'eau, et <lb/>entre une
+                isle et terre ferme, nous moüillasmes pour la nuit, c'estoit une <lb/>ance de sable,
+                et bon moüillage a 7 brasses; ∼</p>
+            <p><add place="left">3</add> incontinant le iour le vent venant bon, nous fismes une
+                lieuë <lb/>trauersant une apparence de grande Riuiere ou est une pointe de sable
+                <lb/>a chaque costé de l'entrée, et terre basses, et dans le fond ce sont des
+                <lb/>montagnes, nous vinmes a la pointe d'une grosse isle, qui est par le
+                <lb/>trauers, de la Riuiere, et ensuitte 2 lieues iusqu’a la pointe marquée <lb/>cy
+                dessus du destroit de la pointe longue et basse, a 10 ou 11 li̟. dans
+                <lb/>le n̟. 1/4 n̟o̟. iusqu'a la pointe seine,</p>
+            <p> ainsy paroist l'ance de sable et la Riuiere</p>
+            <p>Nous couchasmes a un islet dans la baye des montagnes, marqué cy <lb/>aprés par 55d
+                34', a 9 lieuës N̟O̟ 1/4 d'o̟ de la pointe seine, cette
+                <lb/>baye est pleines d'isles montagneuses, et n'a point de fond a la porté <lb/>de
+                la veüe ∼</p>
+            <p><add place="left">Aoust 4me</add>le 4me d'aoust</p>
+            <p>Nous partismes mais de petit vent, a dix heures il augmenta, et sur <lb/>le midy,
+                aprés la hauteur cy deuant prise, nous fismes enuiron trois <lb/>lieuës et nous
+                entrasmes dans la baye pachot, quatre lieuës dans <pb n="201"/>
+                <lb/>l'oüest soroüest; elle ne fut pas sitost nommée de ce nom que nous
+                <lb/>entendismes les voix de plusieurs Esquimaux nous cherchasmes <lb/>moüillage, et
+                nous y demeurasmes trois iours en partie de mauuais <lb/>temps, et en partie a cause
+                d'eux.</p>
+            <p><add place="left">5</add> le chef se nommoit Alienak, ils estoient 14 canots, et
+                trois bis̲cayennes, <add place="left">6</add><lb/>bordées de loumarin; ils vinrent
+                tous, au nauire, canots, <add place="left">7</add><lb/>biscayennes, hommes, femmes,
+                et Enfans, mais a plusieurs fois, auec <lb/>les mesmes ceremonies, et ciuilitez que
+                les autres.</p>
+            <p> Ils auoient un bonet de matelot, ils nou montrerent une pre de <lb/>bas a enfans de
+                la premiere aage, quelques couteaux espagnols, et <lb/>nous remarquasmes que les
+                voiles de leurs biscayennes estoient racom̲modés <lb/>d'estoffe rouge et
+                blanche.</p>
+            <p><add place="left">8me</add> Le dimanche nous les quittasmes d'un vent fauorable pour
+                nostre <lb/>route, mais ayant fait <num>6.</num> lieuës dans le nord noroüest,
+                passant entre <lb/>deux isles nous eschouasmes, la marée baissoit, il fallut
+                demeurer <lb/>iusqu’au soir, attendant l'autre marée : nous nous retirasmes au
+                large, <lb/>et le nauire n'eust aucun dommage;</p>
+            <pb n="202"/>
+            <p><add place="left">9me hauteur </add> la nuit fut meschante, de vent de noroüest et
+                continua iusqu'a midy.</p>
+            <p> La hauteur du soleil sur l'horison auec l'astrolabe, a terre fut <lb/>de
+                    50d̟ i'estime pour la hauteur du pole 55d̟. 45'. et la
+                variation <lb/>de l'aymant 26d̟.</p>
+            <p>par le trauers de cette hauteur, est une grande baye dont on ne voit <lb/>point le
+                fond, non plus que dans la baye pachot, ie ne sçay pas, ou <lb/>elles peuuent
+                trauerser, mais elles ont des vint, et trente lieuës de tour. <lb/>il faut plusieurs
+                voyages pour les desouurir, et sans doute qu'elles ne <lb/>sont pas sans sauuages. ∼
+                pour du profit ie ne vois pas iusqu'icy <lb/>qu'il y en ait beaucoup, les terres me
+                paroissent fort ingrates en <lb/>toutes choses,</p>
+            <pb rend="folio" n="32"/>
+            <note resp="encoder">L’éditeur scientifique n’a pas indiqué le folio 31</note>
+            <p> Notâ de la derniere hauteur <num>3.</num>
+                li̟. au dela de la pointe a pachot, <lb/> iusqu'a lisle de l'eschoüement
+                i'ay fait n̟o̟.
+                <num>13.</num> lieues. ∼ de l’isle <lb/> de l'eschoüement, n̟.
+                <num>8.</num> lieuës. iusqu'a la pointe la plus loing, qui <lb/> ne sont que des
+                isles. et paroissent au n̟. 1/4 n̟o̟. de la p̟. a
+                pachot.</p>
+            <p><add place="left">Aoust 10me</add> le vent du large nous empescha de partir, le soir,
+                nos esquimaux <lb/>nous reioignirent, nous faisant entendre, que le lendemain, ils
+                appor̲teroient <lb/>de la graisse de loumarin. ∼ la nuit se passa auec le mesme
+                <lb/>vent et beaucoup de pluye.</p>
+            <p><add place="left">11me</add> au iour elle continua, et auec brume iusqu'a midy, peû
+                aprés le <lb/>temps changea, et nous aurions fait route, mais trois canots
+                arriuerent <lb/>a bord, qui estoient commandés par le cappitaine Alienak, comme on
+                <lb/>acheuoit de leuer l'ancre, et nous fit entendre, qu'il y auoit dans la
+                <lb/>baye, qui estoit par le trauers de nous, plusieurs sauuages, dont le <lb/>chef
+                se nommoit Amaillouk: qu'il les auoit enuoyé aduertir, et que <lb/>sans faute ils
+                vienderoient le lendemain auant midy, nous ayant fait <lb/>signe de ietter l'ancre,
+                a plusieurs fois, mesme se faschant, de nous <lb/>voir estendre nos voiles, nous
+                resolusmes de demeurer; ∼</p>
+            <p> a peine eust t'on remoüillé, que lon apperçeut les canots, ils <lb/>estoient huit,
+                auec quatres biscayennes; ce iour là il n'y eust que les <lb/>canots qui vinrent a
+                bord, ils traiterent fort peu de chose, puis s'en <lb/>retournerent coucher a
+                terre.</p>
+            <p><add place="left">l2me</add> Aussitost que le iour parut on vit venir, <num>22.</num>
+                canots, et trois bis̲cayennes, <lb/>pleines de femmes, filles, garçons, de tout
+                aage, et gran̲deur, <lb/>ieunes, vieilles, petits et grands : ∼</p>
+            <p> ils traiterent le peu qu'ils auoient de loumarin, et chanterent a leur <lb/>mode,
+                touiours faisant paroistre beaucoup de ioye de nous voir, et de <lb/>pouuoir
+                traitter leur petites necessitez.</p>
+            <p> le R̟.
+                p̟. Recollet entra dans une de leur biscayennes, fit quel̲ques <lb/>
+                presents, aux femmes et aux Enfans : il y fut tres bien reçeu, <lb/>et sur tout des
+                femmes, les une l'embrassaient d'un costé, les autres <lb/>de l'autre, pendant que
+                quelques vieilles le baisoient</p>
+            <p><space extent="60 lettres"/> et</p>
+            <pb n="203"/>
+            <pb rend="folio" n="33"/>
+            <p>et faisoient semblant de le vouloir manger auec les dents, ce qui <lb/>n'estoit a
+                leur façon, que des ceremonies, et marques d'amitié le pere <lb/>leur ayant
+                plusieurs fois, et auec accent, dit, <foreign>tcharacou</foreign>, qui veux dire,
+                <lb/>paix partout, fut bien aise d'auoir le temps de sortir au plus vite de
+                <lb/>leur chaloupe, et se remettre au vaisseau, et depuis ce temps là, ne
+                <lb/>montra pas d'enuie, de retourner leur faire des present, ∼ ils ayment
+                <lb/>beaucoup la rallerie. ∼</p>
+            <p> Amaillouk entra dans le nauire aprés que ie l'en eût prié, et auec <lb/>luy un ieune
+                homme, qui a son entrée, montra l'addresse, qu'ils ont a <lb/>dérober, car estant
+                dans la chambre pendant que ie parlois, au vieillard, <lb/>il prit fort adroitement
+                ma bousserolle, et estant de retour a son canot, <lb/>la donna a sa femme qui estoit
+                dans une de leur chaloupe, on luy vit <lb/>mettre dans une de ses bottes, ie
+                l'enuoyé demander, elle fit difficulté <lb/>de la rendre ie commanday absolument
+                qu'on la foüilla, elle voulut <lb/>la mettre dans un endroit que ie ne veux pas
+                nommer, mais la main de <lb/>celuy qui cherchoit fut aussi prompte que la sienne et
+                prit la bousse̲rolle, <lb/>qui a raison de ce qu'elle contient vaut plus de deux
+                louis. ∼ <lb/>i'aurois fait plus de perte, qu'elle n'auroit fait de gain. ∼ la
+                suitte <lb/>fut un Ris de tous costez; ∼</p>
+            <p> Toutes nos harangues et ceremonies faites, la baye nommé baye <lb/>St̟e̟
+                claire, a cause du iour de sa feste, nous nous separasmes, le vent <lb/>cessa
+                aussitost, et il fallut malgré nous, reietter l'ancre, on ne fit pas <lb/>une lieue
+                de chemin;</p>
+            <p> Il est a remarqué que la molue ne se treuue point dans ces quar̲tiers, <lb/>depuis
+                les 52d̟ 30' nous n'en auons point prise, il est vray que <lb/>nous en
+                auons vuê quelques petites aux Esquimaux, mais quoyque <lb/>nous ayons sondé souuent
+                nous n'en auons pesché aucune, ∼ et nous <lb/>approchons des 56 degrez. ∼</p>
+            <p><add place="left"> Aoust l3me</add> La nuit ne changea point le temps, la brume vint
+                auec le iour, <lb/>et dura iusqu'a dix heures, le soleil alors nous donna un peu de
+                clai̲reté, <lb/>et de vent. un canot Esquimaux reuint a nous, nous aduertir qu'ils
+                <lb/>auoient treuué un poisson a lard.</p>
+            <pb rend="folio" n="34"/>
+            <p>c'estoit comme un marçoin noir, que les femmes l'accommodoient et <pb n="204"/>
+                <lb/>qu'il falloit aller a une isle, qu'il nous montroit deuant nous, pour les
+                <lb/>y attendre; ce que nous fismes, et des le soir deux canots nous en
+                <lb/>apporterent quelques tranches. le lendemain</p>
+            <p><add place="left">l4me</add> les autres, et une biscayenne, apportant le reste de la
+                graisse, <lb/>vinrent a bord, traitterent, chanterent a l'ordinaire, et se
+                diuertirent, <lb/>nous donnerent aussi de la ioye, et bonne esperance pour une autre
+                <lb/>année, nous nommans plusieurs chefs, esloignez ou la saison, nos <lb/>ancres
+                trop foibles, et nos cables usés, qui nous restoient, ne per̲mettoient <lb/>pas
+                d'aller.</p>
+            <p>Quand on fait des descouuertes de cette sorte, auec un nauire au <lb/>trauers des
+                isles, des islets, des rochers, dans des bayes de dix quinze <lb/>et vint lieuës de
+                large, dont on ne voit point le fond, et pleines de <lb/>bastures, il faut auoir
+                bien du temps, auecques une grande experience, <lb/>un bon iugement, et une prudence
+                non commune, et aprés auoir heu̲reusement <lb/>reussit, il faut dire, pour aduouer
+                la verité</p>
+            <p><space extent="20 lettres"/><foreign xml:lang="la">Soli Deo honor et
+                gloria</foreign>. ∼</p>
+            <p> Voyant donc, que, nous estions comme sans ancres, et sans <lb/>cables, pour tenir
+                l'automne, de mauuais temps, dans des moüillages, <pb n="205"/>
+                <lb/>qui ne sont pas touiours bons, que nous estions auancés dans l'esté de <lb/>ces
+                climats touiours froids, ou les glaces nauiguent toute l'année, <lb/>et ou touiours
+                les collines, les vallons, et le sommet des montagnes se <lb/>voyent blancs, ie veux
+                dire pleins, et couuerts de nege, que nous <lb/>auions nostre sel a employer, en
+                molue, qu'il falloit chercher ailleurs, <lb/>que nous nous trouuions cent six lieuës
+                en droite ligne hors de belle̲¬isle. <lb/>a <num>15.</num> ou <num>20.</num> lieuës
+                au plus du haure St̟. pierre, et ne voyant pas <lb/>lieu de treuuer
+                sitost des sauuages, dont le trafic peut payer ce que <lb/>le vaisseau coustoit tous
+                les iours, nous resolumes d'un commun con̲sentement <pb n="206"/>
+                <lb/>de chercher haure, et accommoder le nauire pour le retour <lb/>a Quebec. ∼</p>
+            <p><space extent="50 lettres"/> Nous eusmes</p>
+            <pb rend="folio" n="35"/>
+            <p>Nous eusmes du bon heur ce iour la, car outre que nous en treuuasmes <lb/>un, fort
+                beau a l'abry de tous costez, entre des montagnes a <num>15.</num> et 18
+                <lb/>brasses d'eau, vis a vis d'un beau bois, de beaux russeaux et d'une <lb/>belle
+                greue, tant au nordest qu'au soroüest; le soir au milieu du souper, <lb/>qui estoit
+                fort megre a l'ordinaire, on apperçeut deux caribous qui <lb/>trauersoient le dit
+                haure, a la nage, c'estoit une mere et son petit, le <lb/>canot et le batteau furent
+                bien tost aprés, et nous eusmes le plaisir <lb/>de les voir, et de les auoir en
+                nostre disposition, c'estoit le veau gras <lb/>que la prouidence nous donnoit, dont
+                nous auions bien besoin, i'ai dit <lb/>qu'il n'y auoit point de molue, et le gibier
+                est fort rare, dans ces païs <lb/>de nege, et de rochers; ∼</p>
+            <p><add place="left">Aoust l5me hauteur</add> Le lendemain, iour de l'assomption, se
+                passa en prierres.</p>
+            <p> A midy la hauteur du soleil sur l'horizon auec l'astrolabe, et de <lb/> beau temps
+                fut de 47d̟. 45'. qui dit pour la latitude du lieu <lb/>
+                    56d̟. 11'.</p>
+            <p> D'ou Dieu nous ueüille reconduire, auec le mesme bon heur que <lb/>nous sommes venüs
+                iusqu'icy. ∼</p>
+            <p> Voyez la carte qui suit, qui represente la Baye pachot, et la Baye
+                    <lb/>St̟e̟ Claire. ∼</p>
+        </body>
+    </text>
+</TEI>

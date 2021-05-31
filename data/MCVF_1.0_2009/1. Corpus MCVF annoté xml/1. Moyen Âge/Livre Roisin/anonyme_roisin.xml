@@ -1,0 +1,789 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">Le livre Roisin, coutumier de Lille</title>
+                <title type="sub"/>
+                <title type="short">Anonyme.Roisin</title>
+                <author>
+                    <persName>
+                        <surname>Anonyme</surname>
+                        <forename/>
+                    </persName>
+                </author>
+                <editor>Modéliser le changement, les voies du français GTRC/CRSH</editor>
+                <principal>
+                    <persName>France Martineau</persName>
+                </principal>
+                <funder>
+                    <orgName>Université d'Ottawa</orgName>
+                    <orgName>Conseil de recherche en sciences humaines du Canada</orgName>
+                </funder>
+                <respStmt>
+                    <resp>Codage</resp>
+                    <persName xml:id="Labelle">Simon-Pier Labelle-Hogue</persName>
+                    <persName xml:id="Martineau">France Martineau</persName>
+                    <persName xml:id="Morin">Yves Charles Morin</persName>
+                    <persName xml:id="Brazeau">Stéphanie Brazeau</persName>
+                    <persName xml:id="Fauchon">Caroline Fauchon</persName>
+                </respStmt>
+            </titleStmt>
+            <extent>5256</extent>
+            <publicationStmt>
+                <date when="2008-09-29"/>
+                <publisher>
+                    <orgName>Modéliser le changement : les voies du français GTRC/CRSH</orgName>
+                    <address>
+                        <addrLine>60, rue Université</addrLine>
+                        <addrLine>Ottawa, Ontario</addrLine>
+                        <addrLine>K1N 6N5</addrLine>
+                        <addrLine>Tél : 613-562-5797</addrLine>
+                        <addrLine>Fax : 613-562-5981</addrLine>
+                        <addrLine><email>fmartin@uottawa.ca</email></addrLine>
+                        <addrLine>http://www.voies.uottawa.ca/</addrLine>                        
+                    </address>
+                </publisher>
+                <distributor>
+                    <orgName>Modéliser le changement : les voies du français GTRC/CRSH</orgName>
+                    <address>
+                        <addrLine>60, rue Université</addrLine>
+                        <addrLine>Ottawa, Ontario</addrLine>
+                        <addrLine>K1N 6N5</addrLine>
+                        <addrLine>Tél : 613-562-5797</addrLine>
+                        <addrLine>Fax : 613-562-5981</addrLine>
+                        <addrLine><email>fmartin@uottawa.ca</email></addrLine>
+                        <addrLine>http://www.voies.uottawa.ca/</addrLine>                        
+                    </address>
+                </distributor>
+                <availability status="restricted">
+                    <p>(c) Modéliser le changement : les voies du français (CRSH/GTRC, dirigé par F.
+                        Martineau)</p>
+                    <p>Les Corpus MCVF demeurent la propriété du projet Modéliser le changement :
+                        les voies du français. Les références à ces Corpus devraient apparaître
+                        ainsi : Corpus MCVF, Modéliser le changement : les voies du français (F.
+                        Martineau (dir.), U. d’Ottawa).Tous les documents du Corpus MCVF ne peuvent
+                        être divulgués à de tierces parties sans l’autorisation préalable de la
+                        Directrice du Projet </p>
+                    <p>Pour tout autre usage, contacter : <persName>France Martineau</persName>
+                        <orgName>Modéliser le changement : les voies du français, Université
+                            d'Ottawa</orgName>
+                        <email>fmartin@uottawa.ca</email></p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <biblStruct type="Source_publique">
+                    <monogr>
+                        <author>
+                            <persName>
+                                <surname>Anonyme</surname>
+                                <forename/>
+                            </persName>
+                        </author>
+                        <editor>
+                            <persName>
+                                <surname>Monier</surname>
+                                <forename>Raymond</forename>
+                            </persName>
+                        </editor>
+                        <title>Le livre Roisin, coutumier lillois de la fin du XIIIe siècle, publié
+                            avec une introduction et un glossaire</title>
+                        <title type="sub"/>
+                        <imprint>
+                            <pubPlace>Paris</pubPlace>
+                            <publisher>Domat-Montchrestien / Librairie Émile Raoust</publisher>
+                            <date when="1932">1932</date>
+                        </imprint>
+                    </monogr>
+                    <series/>
+                </biblStruct>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Lille</settlement>
+                        <repository>Archives municipales de Lille</repository>
+                        <idno>n° 15910</idno>
+                        <msName/>
+                    </msIdentifier>
+                    <history>
+                        <origin>
+                            <origPlace/>
+                            <origDate when="1349">1349</origDate>
+                        </origin>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Projet : Modéliser le changement les voies du français (GTRC/CRSH) <lb/>Resp. :
+                        <persName>France Martineau</persName> Institution : Département de français,
+                    Université d'Ottawa
+                    <address>
+                        <addrLine>60, rue Université</addrLine>
+                        <addrLine>Ottawa, Ontario</addrLine>
+                        <addrLine>K1N 6N5</addrLine>
+                        <addrLine>Tél : 613-562-5797</addrLine>
+                        <addrLine>Fax : 613-562-5981</addrLine>
+                        <addrLine><email>fmartin@uottawa.ca</email></addrLine>
+                        <addrLine>www.voies.uottawa.ca</addrLine>                        
+                    </address></p>
+            </projectDesc>
+            <editorialDecl>
+                <p>Voir le manuel d'annotation TEI au http://www.voies.uottawa.ca</p>
+                <p>L'édition de référence a été respectée quant à l'orthographe, la ponctuation, la
+                    mise en page et la pagination. Cependant, la césure des mots en fin de lignes
+                    (ou de pages) a été supprimée, le mot est placé dans la ligne ou la page où il
+                    commence. </p>
+                <p>Les paragraphes sont notés par P pour la prose. Pour les vers, P rend="gv"
+                    indique que le paragraphe est constitué d'un groupe de vers. </p>
+                <p> Les débuts des vers sont encodés par LB. Cette balise peut également servir dans
+                    les textes en prose à indiquer les débuts des lignes selon la pagination de
+                    l'édition. </p>
+                <p>Les changements de pages sont indiqués par la balise PB</p>
+                <p>Le corps du texte est obligatoirement compris dans le BODY. Le FRONT contenant le
+                    titre et/ou le prologue et le BACK (explicit) sont facultatifs et ne sont mis
+                    qu'au besoin. </p>
+                <p>Les différentes parties du texte (livre, chapitre...) sont encodées par DIV,
+                    auquel s'ajoute l'attribut TYPE qui spécifie sa nature. </p>
+                <p>Les paragraphes (P), lignes (LB) et pages (PB) de même de certaines divisions
+                    (DIV) sont ou peuvent être numérotés par l'attribut N s'ils le sont dans
+                    l'édition. </p>
+                <p>Quelques commentaires ou corrections ont été introduits à l'aide de la balise
+                    NOTE, CORR ou SIC. </p>
+                <p>Les discours directs et les citations ont été encodés par la balise Q. Cette
+                    balise est mise à chaque fois que des guillemets sont utilisés dans l'édition. </p>
+                <p>L'élément FOREIGN indique un passage en latin qui est noté en italique dans
+                    l'édition, les occurrences non en italique sont signalées par l'attribut ROMAIN. </p>
+                <p>Les folios sont notés par la balise <tag>pb rend="folio"</tag></p>
+                <p>Les notes de bas de pages ont été retirées. </p>
+                <p>Les paragraphes entièrement en latin ont été retirés, une balise P et une NOTE
+                    les signalent. </p>
+                <p>Note spécifique au texte ci-dessous: Aucune.</p>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <creation>
+                <date when="1283">1283</date>
+                <placeName/>
+            </creation>
+            <langUsage>
+                <language ident="fro"/>
+            </langUsage>
+            <textDesc>
+                <channel/>
+                <constitution>Extrait</constitution>
+                <derivation/>
+                <domain/>
+                <factuality/>
+                <interaction/>
+                <preparedness/>
+                <purpose/>
+            </textDesc>
+            <textClass>
+                <keywords scheme="GTRC">
+                    <list>
+                        <item n="domaine">Littéraire</item>
+                        <item n="genre">Essai</item>
+                        <item n="forme">Prose</item>
+                        <item n="docRegion1">Picardie</item>
+                        <item n="docRegion2"/>
+                        <item n="docRegion3"/>
+                        <item n="auteurRegion1"/>
+                        <item n="auteurRegion2"/>
+                        <item n="auteurRegion3"/>
+                        <item n="auteurSexe">Homme</item>
+                        <item n="occupation"/>
+                        <item n="scribeRegion1"/>
+                        <item n="scribeRegion2"/>
+                        <item n="scribeRegion3"/>
+                        <item n="imprimeurRegion1"/>
+                        <item n="imprimeurRegion2"/>
+                        <item n="imprimeurRegion3"/>
+                    </list>
+                </keywords>
+                <classCode scheme="Indice de Dees"/>
+            </textClass>
+            <particDesc>
+                <listPerson>
+                    <person role="auteur">
+                        <persName>
+                            <surname>Anonyme</surname>
+                            <forename/>
+                        </persName>
+                        <birth>
+                            <date/>
+                            <placeName/>
+                        </birth>
+                    </person>
+                    <person role="scribe">
+                        <persName>
+                            <surname>Inconnu</surname>
+                            <forename/>
+                        </persName>
+                        <birth/>
+                    </person>
+                    <person role="imprimeur"/>
+                </listPerson>
+            </particDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2009-06-09" who="#Labelle">Modification de la région</change>
+            <change when="2009-03-31" who="#Labelle">Vérification des en-têtes</change>
+            <change when="2009-03-19" who="#Fauchon">Vérification et correction du TEI et du header
+                d'après les normes du P5 et du schéma MCVF</change>
+            <change when="2008-10-30" who="#Martineau">Vérification de l'en-tête</change>
+            <change when="2008-09-29" who="#Labelle">En-tête (refaire l'intégralité)</change>
+            <change when="2008-09-24" who="#Martineau">Vérification de l'en-tête</change>
+            <change when="2008-09-24" who="#Labelle">En-tête</change>
+            <change when="2008-09" who="#Morin">Validation de la transcription</change>
+            <change when="2008-06" who="#Simonenko">Vérification de la transcription</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+
+        <body>
+
+            <pb n="1"/>
+
+            <div n="1">
+
+                <p>
+                    <lb/>Trois chozes sunt de droit, des queles tout boin jugeur et <lb/>droiturier
+                    doivent user, et selonc eiaus jugier: s'il est assa̲voir: <lb/>honiestement
+                    vivre, autruy nient bléchier, et donner à <lb/>cascun chou que sien est. Liquel
+                    troi commandement sunt <lb/>contraire au tort et à gille et à barat qui dou tort
+                    naiscent. <lb/>Et pour chou que drois doit y estre et est par tout deseure
+                    <lb/>tort et deseure gille et barat, et que li drois ne se puet à eiaus
+                    <lb/>concorder à nulle loy, ne en nul liu, et que chist troy com̲mandemens
+                    <lb/>sunt et naissent de droit, si doivent tout boin <lb/>juge tous tamps avoir
+                    ces trois commandemens devant leurs <lb/>yols et en cuer en leurs jugemens et ès
+                    besoignes qui à chou <lb/>appartienent, et en doivent user, se il voellent droit
+                    soustenir <lb/>et mettre le droit deseure le tort et deseure gille et barat, et
+                    <lb/>s'il voellent droiturierment jugier : car jugieres qui ne juge
+                    <lb/>droiturièrement et loialment à sen sens et à sen pooir, ne vit <lb/>mie
+                    honniestement et ne donne mie à autruy chou que sien <lb/>est, ains li tolt, et
+                    si blèche autruy. Dont, puis que tors, gille <lb/>et baras qui dou tort
+                    naiscent, n'ont nulle part, à nulle loy, <lb/>leur liu, anchois sont contraire
+                    au droit et as trois comman̲demens <lb/>deseure dis, qui dou droit sont et
+                    naissent, il con̲vient <lb/>que on ne useche mie dou tort, ne de gille, ne de
+                    barat, <lb/>à ceste loy, ains les convient dou tout mettre au nient et
+                    <lb/>abatre, et par ches raisons et par autres, et spécialment pour <lb/>bien et
+                    droiturièrement jugier, et à cascun faire raison et <lb/>avenant, si est gille
+                    et baras abatue à le loy de cest castiel.</p>
+
+            </div>
+
+            <pb n="2"/>
+
+            <div n="2">
+
+                <head>
+
+                    <lb/>
+                    <hi rend="crochets-ital">Des franquises des bourgois</hi>
+
+                </head>
+
+                <p>
+                    <lb/>Lois est et franchize as bourgois, as bourgoizes et as <lb/>enfans des
+                    bourgois de cheste ville, que nuls, dedens le caste̲lerie <lb/>de Lille, n'a à
+                    jugier, ne ne doit jugier les corps, les <lb/>meubles, ne les cateuls des
+                    bourgois, des bourgoises, ne des <lb/>enfans des bourgois de ceste ville, fors
+                    que eschevin de Lille; <lb/>et de chou sunt dou tout et doivent y estre ramenet
+                    au juge̲ment <lb/>d'eschevins de Lille. </p>
+
+                <p>
+                    <lb/>Dont il appert que nuls sires, ne autres quiconque chou <lb/>soit dedens le
+                    castelerie de Lille, ne puet, ne ne doit retenir, <lb/>ne arriester le corps,
+                    les meubles, ne les cateus dou bourgois, <lb/>de le bourgoize, ne del enfant dou
+                    bourgois de ceste ville, <lb/>pour nul fait, quels que il soit, que il ne li
+                    conviegne rendre <lb/>et délivrer à eschevins. Dont se il avenoit que bourgois
+                    ou <lb/>bourgoises ou enfes de bourgois ou meuble catel d'iaus, fuis̲sent
+                    <lb/>arriestet, ne pris dedens le castelerie, de nullui quicon̲ques <lb/>chou
+                    fust qui manans y fust ou signerie y eust, pour <lb/>quelconques fait que chou
+                    fust, li eschevin, se bon leur <lb/>samble ou se li fais n'est griès, doivent
+                    envoyer le vallet de <lb/>le ville ou le lettre de le ville, de pryère, à chelui
+                    qui le <lb/>bourgois, le bourgoize, l'enfant de bourgois, ou leur meubles
+                    <lb/>cateulz tenroit, qu'il le délivreche et que tenir ne les puet, <lb/>par le
+                    franchize de le bourgesie. Et se on le délivrer ensi <lb/>ne les volloit,
+                    eschevin, se bon leur samble, sauf chou que li <lb/>corps dou bourgois ou de le
+                    bourgoize ne soit em péril ou à <lb/>grief, doivent requerre au bailliu de Lille
+                    ou à chelui qui en <lb/>son liu seroit que il, le corps dou bourgois ou de le
+                    bour̲goize, <lb/>que teuls sires ou teuls hom, dedens le castelerie de
+                    <lb/>Lille, ou meubles ou cateuls a ariestet, que on faire ne puet, <lb/>ne
+                    doit, fache délivrer et ramener en le ville, sains et saus, <pb n="3"/>
+                    <lb/>et qu'il y voist ou envoiece si souffissamment, par quoy chou <lb/>soit
+                    fait, et qu'il en face viers le ville chou qu'il doit. Et se <lb/>li baillius ou
+                    chius qui en son liu seroit, en estoit de riens <lb/>de chou faire en défaute,
+                    eschevin ou li rewars li doivent <lb/>dire qu'il le fache par le sierment qu'il
+                    a fait à le ville. Et <lb/>se faire ne le volloit, eschevin s'en doivent traire
+                    au castellain <lb/>de Lille ou à chelluy qui en son liu seroit, et lui requerre
+                    <lb/>tout ensi que devant est dit dou bailliu. Et est bien assavoir <lb/>que li
+                    ville, pour requeste que on fache au bailliu, ne au <lb/>castelain, n'est mie
+                    pour chou arrièré de se franchise, ains <lb/>puet, se plainte vient au reward ou
+                    à eschevins, de tel choze, <lb/>par le franchize de le ville, aller à armes pour
+                    leur bourgois, <lb/>où que il soit retenus ou assis dedens le castellerie, soit
+                    en <lb/>églize ou ailleurs, sans forche faire à sainte églize. Et encore
+                    <lb/>ainschois qu'il requièrent, ne ammoniestechent le bailliu, ne <lb/>le
+                    castelain, d'aler pour le bourgois ou le bourgoize ou leurs <lb/>meubles
+                    cateuls, y puet li ville aler à armes, se eschevin <lb/>entendent que li
+                    bourgois ou li bourgoize soient em péril de <lb/>corps ou de membres, ou li
+                    catel soient em péril de pierdre : <lb/>en tel manière que tantost que teuls
+                    plainte vient, dont li <lb/>bourgois ou li bourgoize ou enfes de bourgois, ou
+                    leur meuble <lb/>catel est em péril, on doit assanler le consel de le ville et
+                    <lb/>monstrer em plain consel tel coze, et requerre au bailliu ou <lb/>chelui
+                    qui seroit en son liu, d'aller avoec le ville, pour le <lb/>bourgois ou le
+                    bourgoize ou l'enfant de bourgois, ou pour <lb/>leur meubles cateuls ramener en
+                    le ville: et se li baillius <lb/>ou chius qui seroit en son liu, en estoient de
+                    riens défaillant, <lb/>on le doit ammoniester par son sierment. Et tout en tel
+                    <lb/>manière, se li baillius ou chius qui en son liu seroit, ne <lb/>voloient ou
+                    ne peuissent aler avoec le ville, doit-on requerre <lb/>le castelain ou cheluy
+                    qui en son liu seroit, de aller avoec <lb/>le ville. Et doit-on sonner le
+                    bancloque et l'escallette, et aler <lb/>toute li commugne à armes, pour le
+                    bourgois ou le bour̲goize, <lb/>ou pour leurs meubles cateuls qui détenut
+                    seroient, si <lb/>que dit est. Et se li baillius ou chius qui en son liu seroit,
+                    <lb/>n'i volsist aler, ou li castelains ou chius qui en son liu seroit, <pb
+                        n="4"/>
+                    <lb/>aussi n'i volsist aler, li rewars à armes, à toute le commu̲gne <lb/>à
+                    banières desployés et à son de cloque, y doit aler et <lb/>faire le bezoigne
+                    pour le franchize de le ville. Et se li bailliu <lb/><corr resp="editor" n="C1"
+                        rend="crochets">n</corr> y volloit aler, et il euist soine par quoi il
+                    s'escusast par <lb/>quoi eschevin l'en creissent, il doit, à le requeste de
+                    esche̲vins, <lb/>livrer homme en son liu qui voist avoec le ville, et qui
+                    <lb/>le ville maint et ramaint, et fache le bezoigne, si que devant <lb/>est
+                    dit; et tout en tel manière doit-on requerre au castelain, <lb/>qu'il est dit
+                    devant dou bailliu, qu'il voist ou envoit homme <lb/>souffissant pour luy, pour
+                    le bourgois ou le bourgoize ou <lb/>l'enfant de bourgois, ou pour leur meubles
+                    cateuls qui arriestet <lb/>seroient. Et se li baillius ou autres qui, en son
+                    liu, seroient, <lb/>ou li castelains ou autres pour luy, aloit pour le bourgois,
+                    <lb/>le bourgoize ou l'enfant de bourgois, sans le commugne de <lb/>le ville, et
+                    mesist ou tenist em prison, en cheste ville ou <lb/>dehors, sans ramener et sans
+                    délivrer à eschevins, sain et <lb/>sauf, on doit siuwir le baillius, s'il estoit
+                    hors de cheste ville, <lb/>ou le castelain, et requerre par son sierment, qu'il
+                    délivreche <lb/>le bourgois ou le bourgoize, ou l'enfant de bourgois, et que
+                    <lb/>tenir ne le puet, ne ne doit par le franchize que li bourgois <lb/>ont, et
+                    par le loi de le ville. Et se li baillius ou autres pour <lb/>luy, ou li
+                    castelains ou autres de par luy, metoit en le ville <lb/>em prison ou tenist
+                    bourgois ou bourgoize ou enfant de bour̲gois <lb/>que ramenet aroit du dehors,
+                    et ne le délivrast, si que <lb/>dit est, li rewars doit requerre au bailliu, em
+                    plain consel, <lb/>qu'il li delivreche le bourgois ou le bourgoize ou l'enfant
+                    de <lb/>bourgois, et qu'il tiegne sen sierment. Et s'il en estoit rebelles,
+                    <lb/>qu'il ne le volsist faire, li rewars doit requerre au bailliu de
+                    <lb/>rechief, qu'il fache chou qu'il doit à le ville. Et doit li rewars
+                    <lb/>dire ensi au bailliu : <lb/>
+                    <q>Sire bailliu, vous avés le loy, le franchize de le <lb/>ville, juret et
+                        enconvent à warder et à tenir par vo sier̲ment, <lb/>et les corps et les
+                        cateuls des bourgois à mener par <lb/>loy et par eschevinage ; jou vos
+                        requier que vous, le bourgois <lb/>(ou le bourgoize ou l'enfant de bourgois)
+                        que vous tenés, <lb/>délivrés; et eschevin apriès en feront bien chou que il
+                        deve̲ront; <pb n="5"/>
+                        <lb/>et vos requier pour le franchize de le ville, que vous <lb/>loy en
+                        faciés, et le tournés sour eschevins, se vous faire me <lb/>le devés ou
+                        non.</q> Et doit li rewars sommer le bailliu ou le <lb/>castelain de chou
+                    faire, par plusieurs fies, et avoir tiesmoi̲gnage <lb/>de gens qui mie ne
+                    seroient bourgois, se besoins estoit. <lb/>Et est assavoir que se li castelains
+                    avoit fait tel arriest que <lb/>dit est, et li rewars le requesist dou délivrer,
+                    et il en fust <lb/>rebelles, on s'en doit traire au bailliu, pour chou qu'il est
+                    ou <lb/>liu le signeur de le tiere, et luy requerre et sommer tout <lb/>ensi que
+                    devant est dit. Et tout en tel manière doit-on faire <lb/>des cateuls des
+                    bourgois, des bourgoises et des enfans des <lb/>bourgois, que devant est
+                    deviset. </p>
+
+                <p>
+                    <lb/>Et se li baillius fust rebelles qu'il chou ne volsist faire ou <lb/>li
+                    castelains, on s'en doit traire au conte. Et se li baillius <lb/>le tournoit
+                    sour eschevins, ou li castelains ou autres qui pooir <lb/>euist de eschevins
+                    semonre, li jugemens, apriès le eschevins <lb/>semons, et coniurés, et apriès
+                    leur consel eut, doit y estre et <lb/>a esté teuls : <lb/><q>Sire bailliu, volés
+                        entendre à eschevins</q>, soit au caste̲lain, <lb/>ou à autrui qui eschevins
+                    puist semonre, et il dira: <lb/><q>dictes</q> ; et <q>nous vos disons que selonc
+                        le loy et le fran̲kize <lb/>des bourgois de ceste vile, que vous, chelui (ou
+                        cheus, <lb/>ou telle femme) de no bourgois, que vous tenés ou faites
+                        <lb/>tenir, que vous le delivrés (ou les délivrés). Et si vos disons
+                        <lb/>que vous en fachiés venir le véritet à eschevins, dou fet ou <lb/>del
+                        avenue que vous leur metés sus (ou que vous li metés <lb/>sus) ; et apriès
+                        le vérité oie et entendue, eschevin en feront <lb/>bien chou qu'il deveront,
+                        s'il est qui les en semoigne.</q>. </p>
+
+            </div>
+
+            <pb n="6"/>
+
+            <div n="3">
+
+                <head>
+
+                    <lb/>
+                    <hi rend="ital">Comment on doit user del arsin et des cierconstansce <lb/>qui
+                        s'em puent ensiuwir</hi>
+
+                </head>
+
+                <p>
+                    <lb/>Lois est et franchize as bourgois de cheste ville, et a esté <lb/>de si
+                    lonc temps dont il n'est memore, de trois cens ans et <lb/>de plus, et a estet
+                    li ville maintenue et li bourgois wardet <lb/>en tel franchize et en tel manière
+                    que se aucuns de forains, <lb/>manans hors de cheste ville, qui maison ait
+                    dedens le caste̲lerie <lb/>de Lille, bat, laidenge, ou navre, ou tueche à tort,
+                    sans <lb/>raison, bourgois de ceste ville, chest assavoir dou tort del
+                    <lb/>homme de forain, et plainte en vient au rewart et à eschevins, <lb/>de
+                    chelui qui batus ou laidengiés seroit, ou de homme de par <lb/>le navret ou de
+                    par le mort, li rewars, se li bourgois batus <lb/>ne set ou ne puet monstrer se
+                    plainte, li doit, de son offisce, <lb/>monstrer à eschevins, et apriès le
+                    plainte monstrée à esche̲vins <lb/>et au consel, on doit prendre eschevins
+                        <num>II</num> au mains et <lb/><num>II</num> voirs jurés au mains, ou
+                        <num>II</num> jurés, lequel que eschevin vor̲ront, <lb/>qui yront pour oir
+                    et pour enquerre le vérité dou bour̲gois, <lb/>qui batus, leddengiés, ou navrés
+                    ou mors aroit estet. Et <lb/>apriès chou, eschevin le feront savoir au bailliu,
+                    que li bour̲gois <lb/>est batus, laidengiés, navrés ou ochis, et qu'il viegne,
+                    <lb/>si qu'il doit, ou envoit avoec eschevins, souffissamment per̲sone <lb/>ou
+                    personnes qui soit en son luy, pour le vérité faire <lb/>oir et enquerre dou
+                    fait. Et doit-on le vérité oir et enquerre <lb/>as tiesmoins par leur siermens,
+                    et examiner dilliganment, <lb/>pour le franchize de le ville warder. Et se
+                    bourgois ou bour̲goize <lb/>de cheste ville, ou manant de cheste ville, sevent
+                    parler <lb/>dou fait, on les puet bien oir, et doit, et sour le dépossistion
+                    <lb/>de leur tiesmoignage, faire le venianche pour le franchize <lb/>de le
+                    ville, proec que li fais soit prouvés par eiaus, jusques <lb/>à le souffissanche
+                    d'eschevins et de chiaus qui le véritet oront. <lb/>Et quant on va pour le
+                    vérité prendre dou fait, li bailliu <pb n="7"/>
+                    <lb/>qui est ou liu le signeur de le tiere, ou chius ou chil que il <lb/>met en
+                    son liu, tant comme à chou, va avoec eschevins et <lb/>chiaus dou consel, pour
+                    le vérité faire enquerre, et doit faire <lb/>les tiesmoignages à eschevins et à
+                    chiaus qui là seront, venir <lb/>teuls que on leur nommera, et les doivent aler
+                        <corr resp="editor" n="pruec" rend="crochets">prendre</corr>
+                    <lb/><corr resp="editor" n="B1" rend="crochets">chius</corr> ou chil qui, ou liu
+                    dou bailliu, seroient.</p>
+
+                <p>
+                    <lb/>Et apriès le vérité enquise, on le doit raporter em plain con̲sel, <lb/>et
+                    liute là doit y estre. Et se li de forains est trouvés <lb/>coupaules et en son
+                    tort, par le vérité que li eschevin et chil <lb/>dou consel aront oie et
+                    entendue, on prent <num>IIII</num> baniers par <lb/>commun assens et mettent,
+                    les banières de le ville desployés, <lb/>cascuns hors à son hostel. Et puis
+                    quant li banier sont fait, <lb/>on crie le ban, apriès le congiet pris au
+                    prouvost ou au <lb/>bailliu, que tout li bourgois et li manant de le ville
+                    voisent <lb/>avoec le rewart et le consel de le ville, pour faire le venian̲che
+                    <lb/>de le ville, tout ensi qu'il est contenut ou ban. Et doit <lb/>li bancloque
+                    et li escallette, anchois que on s'en voist, sonner <lb/>par <num>III</num>
+                    fies, et cascune fie longement, si que dedens le dar̲raine <lb/> fie, les
+                    darraines banières doivent y estre hors de le <lb/>ville, et ainschois que on se
+                    mueche, li rewars ou autres <lb/>dou consel de le ville doivent aler au bailliu
+                    ou à chelui qui <lb/>en son liu seroit, et lui dire et requerre qu'il en fache
+                    le <lb/>franchize de le ville et le loi de le ville, et qu'il en fache <lb/>chou
+                    qu'il doit, et qu'il viegne ou envoit avoec le rewart et <lb/>le commugne de le
+                    ville, souffissamment, pour faire le venian̲che <lb/>de le ville, et se li
+                    baillius n'i peuist, par loial excusance, <lb/>il y doit envoyer homme
+                    souffissant pour chou faire. Et dont <lb/>apriès le second cop sonnet, li
+                    baillius ou chius qu'il envoie̲roit <lb/>en sen liu, doit monter et y estre
+                    aparliés, et li rewars <lb/>vet li banier ausi, et doivent aller de rue en rue
+                    pour les con̲nestables <lb/>et le commugne faire assanler et à uner ou
+                    mar̲chiet. <lb/>Et quand li tiers cops a grant pièche sonnet; les pru̲mières
+                    <lb/>banières doivent mouvoir, et li rewars et tous li com̲muns, <pb n="8"/>
+                    <lb/>à armes, doivent siuwir apriès, si que li darrain soient <lb/>hors de le
+                    ville ainschois que li darrains apiaus soit sonnés, <lb/>si que devant est dit.
+                    Et doivent tout aler paisiblement, li un <lb/>avoec les autres, et tout le
+                    chemin, ensi que les prumières <lb/>banières yront et sans demorer derrière les
+                    banières darraines <lb/>de le ville. Et quant li baillius ou chius qu'il envoie
+                    en cheste <lb/>besoigne en son liu, et li rewars, et li banier, et li commugne
+                    <lb/>de le ville, à armes et à banières desployés, si comme aller <lb/>doivent,
+                    sunt venut jusques à le maison del homme de forain <lb/>malfaiteur, qui meffait
+                    et entrepris ara contre le franchise de <lb/>le ville, en corps de bourgois, li
+                    baillius, par ensignement <lb/>d'eschevins, ou chius qui, en son liu, seroit là
+                    envoyés, doit <lb/>faire faire ban à haute vois et apieller le malfaiteur, par
+                    non <lb/>et par sournon, une fie et autre et tierche, qu'il viegne avant
+                    <lb/>pour amender le fourfait qu'il a fait et chou qu'il a entrepris <lb/>viers
+                    le franchize de le ville; et si haut on le doit appieller, <lb/>que on le puist
+                    oir parmi toute le maison, et del huis derrière <lb/>jusques al huis devant. Et
+                    s'il vient avant al apiel, on le doit <lb/>rechevoir à amende, par si que
+                    eschevin le doivent, en amen̲de, <lb/>selonc son meffait, jugier, soit de tison
+                    aporter au cange <lb/>ou de pélérinage faire, ou d'aucune autre amende, ensi que
+                    <lb/>raison sanlera à eschevins et au consel de le ville. Et doit li <lb/>rewars
+                    et tous li communs, à tout chelui qui ensi sera venus là <lb/>à amende,
+                    repairier arrière, sans arsin faire, et chelui qui à <lb/>amende sera ensi là
+                    venus, maitre en fiers à le maison le <lb/>rewart; et se gens, jusques à le
+                    souffissanche d'eschevins, <lb/>apriès chou, vienent pour lui raplégier de faire
+                    l'amende jus̲ques <lb/>au dit d'eschevins et dou consel, on doit rechevoir le
+                    <lb/>plégerie sour tant que boin sanlera à eschevins et au consel de <lb/>le
+                    ville. Et dont doit-on chelui maitre jour de revenir au pru̲merain <lb/>jour de
+                    siège, pour oir chou que eschevin li vorront <lb/>enjoindre, et maitre tout
+                    avant hors des fiers, et dire ausi à <lb/>ses plèges qui raplégiet l'aront,
+                    qu'il le ramaignent à che jour, <lb/>sour enkeir en le plègerie qu'il ont fait
+                    sour eiaus. Et à ce <lb/>iour qui assis li sera, on li doit kiequier amende
+                    selonc le <lb/>grandeur dou meffait.</p>
+
+                <p>
+                    <lb/>Et se chius qui ensi sera appiellés, ne vient avant dedens <lb/>le tierc
+                    appiel, pour amende faire de chou qu'il a entrepris <pb n="9"/>
+                    <lb/>viers le franchise de le ville, li baillius le signeur de le tiere, <lb/>ou
+                    chius qui en sen liu seroit en cesti choze, pour le despit <lb/>que chius a fait
+                    au signeur et à le ville, et pour l'empresure <lb/>qu'il a entrepris viers le
+                    franchize de le ville, en corps de <lb/>bourgois, et qu'il ne vient mie avant al
+                    appiel dou signeur, <lb/>pour amende faire de chou dont il est là appiellés, si
+                    que dit <lb/>est, doit bouter ou faire bouter le fu en le maison de chelui,
+                    <lb/>par enségnement d'eschevins, et en quanques il a dedens sen <lb/>pourpris,
+                    au res de capielle, et tout ardoir, avant que li rewars <lb/>ne li communs s'em
+                    parche, et tout sarter quanques il ara <lb/>dedens le pourpris.</p>
+
+                <p>
+                    <lb/>Et apriès chou ensi fait, on doit faire le ban que cascuns <lb/>ysse dou
+                    manoir et dou liu, sans riens emporter, et siuchent <lb/>les prumières banières
+                    tout le chemin, ensi que elles vont, et <lb/>sans demorer derrière les darraines
+                    banières, et qu'il voisent <lb/>paisiblement li un avoec les autres, et sans
+                    toller et sans reuber <lb/>ès viliaus, ne à nullui sour le chemin, sour tel
+                    fourfait que <lb/>bon samblera à eschevins.</p>
+
+                <p>
+                    <lb/>Et est assavoir que li castelains de Lille, en toutes les <lb/>chozes
+                    devant dictes, est tenus de aller avoec le rewart et le <lb/>consel de le ville,
+                    se il en est requis de par le ville, ou de per̲sone <lb/>souffissant envoyer en
+                    son liu, soit as vérités enquerre <lb/>dou bourgois laidengiet, navret ou ochis,
+                    soit al arsin faire, <lb/>se li baillius estoit en défaute, del aller ou de
+                    persone envoyer <lb/>en son liu. Et ia fust-il ensi que li baillius y allast ou
+                    envoiast <lb/>persone en son liu, si est li castelains tenus d'aller avoec le
+                    <lb/>rewart et le consel de le ville, se bon sanle au consel, ou de <lb/>persone
+                    envoyer en son liu souffissant, à le requeste de le <lb/>ville, qui voist et
+                    mueve avoec le ville.</p>
+
+                <p>
+                    <lb/>Et se li baillius de Lille va avoec le rewart et le commugne <lb/>de le
+                    ville en chesti besoigne ou envoie persone en son liu, <lb/>si est li baillius,
+                    ou chius que il envoie en son liu, tenus de <lb/>le ville conduire et mener tant
+                    que li besoigne soit faite et <lb/>acomplie, et apriès le besoigne faite,
+                    ramener le commugne <lb/>en le ville, sauvement.</p>
+
+                <p>
+                    <lb/>Et tout en tel manière, doit faire li castelains de Lille ou <lb/><pb
+                        n="10"/>
+                    <lb/>chius qu'il envoieroit en son liu avoec le ville, en tel besoigne
+                    <lb/>qu'il est dit devant, dou bailliu et de chelui qu'il envoieroit <lb/>en sen
+                    liu, que il ou chius qu'il envoieroit en son liu, doit <lb/>le ville conduire et
+                    mener tant que li besoigne soit faite et <lb/>acomplie, et apriès le besoigne
+                    faite, ramener le commugne en <lb/>le ville sauvement.</p>
+
+                <p>
+                    <lb/>Et se li baillius n'allast ou n'envoiast persone pour luy avoec <lb/>le
+                    reward et le commugne de le ville, ou li castelains n'i <lb/>allast ou envoiast,
+                    li rewars, de son offisce et pour le fran̲chise <lb/>de le ville, et tous li
+                    communs à armes, doit aller au liu <lb/>de chelui qui entrepris ara viers le
+                    franchize de le ville, et <lb/>doit faire tout ensi que devant est dit, si comme
+                    de luy faire <lb/>appieller et huchier, et dou fu bouter ou pourpris, et de
+                    <lb/>sarter, s'il ne venoit al apiel, et de lui rechevoir à amende, <lb/>se il
+                    venoit avant dedens l'apiel, et dou commun faire yssir <lb/>hors dou pourpris
+                    que on ara ars sour le meffaisant.</p>
+
+            </div>
+
+            <div n="4">
+
+                <p>
+                    <lb/>Item, se hom de forain bat ou laidenge bourgois de ceste <lb/>ville, ia
+                    soit chou que li de forains ait maison dedens le caste̲lerie, <lb/>s'il viut
+                    venir à amende à le ville, puis le vérité enquise <lb/>ou devant le vérité
+                    enquise, rechevoir le doit-on, et maitre à <lb/>le maison dou reward, et lui
+                    maitre iour al jour de siège pru̲merain, <lb/>pour oir chou que li consauls de
+                    le ville li vorra <lb/>enjoindre, se li vérités est enquise, soit de tisson
+                    aporter ou <lb/>d'autre amende <corr resp="editor" n="B1" rend="crochets"
+                        >faire</corr>, selonc son meffait, sour tel paine <lb/>vque bon samblera à
+                    eschevins et au consel de le ville, qu'il <lb/>venra à chelui jour et qu'il
+                    tenra chou que eschevin l'en <lb/>enjoinderont. Et s'aucunes gens le voloient
+                    raplégier de chou <lb/>faire, rechevoir les doit-on, se boin sanle au consel de
+                    le <lb/>ville, tout ensi que il est dit devant, des plèges.</p>
+
+                <p>
+                    <lb/>Et se li vérités n'estoit enquize, on le doit enquerre par le <lb/>bailliu
+                    ou par le castelain, li eschevin et li consauls de le <lb/>ville, tout ensi
+                    qu'il est dit ou commenchement comment on <pb n="11"/>
+                    <lb/>y doit aller, et, apriès le vérité enquize, luy enjoindre d'amende,
+                    <lb/>selonc son meffait et selonc chou que on trouvera à véritet. <lb/>Et quant
+                    il venra à amende à le ville, et apriès quant il venra <lb/>pour l'amende faire,
+                    il doit atendre hors de le porte, et là <lb/>le doit aller <corr resp="editor"
+                        n="pruec" rend="crochets">prendre</corr> uns dou consel de le ville ou li
+                    <lb/>vallés de le ville au mains.</p>
+
+            </div>
+
+            <div n="5">
+
+                <p>
+                    <lb/>Item, si hom de forains qui maison n'a dedens le castelerie <lb/>de Lille,
+                    bat ou laidenge bourgois de ceste ville, pruec que <lb/>li forains soit manans
+                    dedens le castelerie de Lille, s'il violt <lb/>venir à amende viers le ville,
+                    devant le vérité enquize ou <lb/>apriès le vérité enquize, rechevoir le doit-on
+                    et maitre à le <lb/>maison dou rewart, et faire de luy tout ensi que chi deseure
+                    <lb/>est dit dou de forain qui maison aroit en le castelerie. Et s'il,
+                    <lb/>apriès le vérité enquize et despondue em plain consel, ne <lb/>venoit à
+                    amende de le ville, apriès le congiet pris au bailliu <lb/>ou au prévost, on le
+                    doit banir à le bretesque, en tel manière: <lb/><q>Jou fai le ban de par mon
+                        signeur le conte de Flandre, et <lb/>de par le castelain, et de par le
+                        bailliu, et de par le consel <lb/>de le ville, que chius cui jou nommerai,
+                        chi ait wuidiet le <lb/>ville et le castelerie hui sour jour et de solel
+                        luisant, comme <lb/>anemis à le ville, treschi adont qu'il ara amendet à le
+                        ville <lb/>chou qu'il a entrepris viers le franchize de le ville, que se
+                        <lb/>on le tenoit, on en feroit justice, ne qui le hierbegheroit, ne
+                        <lb/>soubstoiteroit, on en feroit autant que de chelui (ou de cheus)
+                        <lb/>que jou nommerai chi.</q> Et dont doit-on chelui ou cheus, se
+                    <lb/>pluiseurs en y a, nommer par non et par sournon. Et est bien <lb/>à
+                    entendre que ceste banissons est sour le hart.</p>
+
+                <p>
+                    <lb/>Et se chius qui ensi seroit bannis, volloit, apriès le banison, <lb/>venir
+                    à amende à le ville, rechevoir le doit-on, et doit li rewars <lb/>dire au
+                    bailliu ou à chelui qui en son liu seroit, ou au pré̲vost: <lb/><pb n="12"/>
+                    <lb/><q> teuls hom est banis, comme anemis de le ville, pour <lb/>chou qu'il a
+                        entrepris viers le franchise de le ville, et il le <lb/>viult venir amender
+                        à le ville: chou soit vos assens qu'il <lb/>viegne en le ville</q>, et
+                    apriès chou que li baillius ou chius <lb/>qui en son liu seroit, ou li prévos,
+                    s'i sera assentis, uns hom <lb/>dou consel ou li varlés de le ville, au mains,
+                    le doit aler <lb/><corr resp="editor" n="pruec" rend="crochets">prendre</corr> à
+                    le porte et amener devant eschevins et le consel, <lb/>et est à savoir que tout
+                    chil qui ensi à amende vienent à le <lb/>ville, doivent y estre <corr
+                        resp="editor" n="B1" rend="crochets">amené</corr> devant eschevins et le
+                    consel <lb/>de le ville, et là rechut, et <note resp="editor" n="B1">dont</note>
+                    aler à le maison dou rewart, <lb/>em prison. Et le jour que teuls gens venront à
+                    amende à le <lb/>ville, et tant qu'il seront en le prison de le ville, et le
+                    jour <lb/>qu'il venront devant eschevins et le consel pour chou oir que <lb/>on
+                    leur vorra enjoindre, et le jour que il venront pour l'amende <lb/>faire que on
+                    leur ara enjointe, et le jour ausi qu'il venront <lb/>devant eschevins et le
+                    consel, pour leur lettres monstrer dou <lb/>plérinage, qui enjoins leur seroit,
+                    qu'il aroient fait, il ont boin <lb/>respit de clains de cateuls, de fourfais de
+                    deniers, et de tous <lb/>ensignemens de deniers, il et tout leur pleige qui,
+                    pour eus <lb/>raplégier, venroient en le ville, s'il les raplégoient viers le
+                    <lb/>ville, sauf chou que chius pour cui il vorroient demorer et <lb/>respondre,
+                    requesist ou fesist requerre à eschevins et au con̲sel, <lb/>que chil qui pour
+                    luy venroient demorer et respondre, <lb/>euissent le respit. Et quant chius
+                    venra pour l'amende faire <lb/>à le ville, li rewars doit prendre le foit de
+                    cheluy, et dire <lb/>ensi: <q>chi fianchiés vous, si que vous y estes loyaus hom
+                        <lb/>crestyens, que vous jamais, à nul jour, ne mesprenderés de vo
+                        <lb/>tort, contre bourgois de cheste ville, et ferés chou que on vos
+                        <lb/>enjoindera pour l'amende de chest meffait?</q>
+                </p>
+
+            </div>
+
+            <div n="6">
+
+                <p>
+                    <lb/>Et li chevaliers qui à l'amende de le ville sera venus, qui <lb/>en le
+                    prison de le ville sera, à le maison dou rouward sera <pb n="13"/>
+                    <lb/>pour luy et pour son escuyer, à <num>VI</num> sols le jour. Et li hom à
+                    <lb/>piet, et escuyers et autres, qui mengera à le taule dou reward <lb/>et
+                    buvera vin, sera à <num>IIII</num> sols le jour, et li hom, quels qu'il
+                    <lb/>soit, qui point ne mengera à le taule dou rewart, ains serra <lb/>bas, et
+                    ne buvera point de vin, paiera <num>II</num>
+                    <abbr>s.</abbr> le jour.</p>
+
+            </div>
+
+            <div n="7">
+
+                <p>
+                    <lb/>Item, li lois et li franchise de le ville est telle que se <lb/>hom de
+                    forains manans dedens le castelerie de Lille, bat <lb/>ou laidenge, ou fait
+                    batre ou laidengier bourgois de ceste <lb/>ville, hors de le castelerie de
+                    Lille, et hors de grande ville, <lb/>si comme de bourc, de castiel, ou de chité,
+                    et il ait manoir <lb/>en le castelerie de Lille, on en doit faire l'amende et le
+                    <lb/>venianche de le ville d'arsin, ausi bien que s'il l'euist fait <lb/>dedens
+                    le castelerie de Lille. Et se hom manans dehors le <lb/>castelerie de Lille,
+                    bat, ne laidenge bourgois de Lille, où que <lb/>chou soit, pour l'oquoison de
+                    justiche que li ville ait faite <lb/>pour le franchize de le ville, ou faisoit
+                    damage, li ville est <lb/>tenue dou bourgois conforter et aidier, et ses damages
+                    rendre, <lb/>et de aidier à pugnir tous cheus qui chou feroient, ne qui
+                    <lb/>faire le feroient, et tous cheus ausi qui teuls gens conforte̲roient.
+                    <lb/>Et se hom de forains, manans hors de le castelerie <lb/>de Lille, bat,
+                    laidenge, navre ou ochist bourgois de cheste ville, <lb/>s'il a manoir dedens le
+                    castelerie de Lille, on doit faire <lb/>l'amende et le venianche de le ville, si
+                    comme d'arsin et de <lb/>recevoir à amende tout ensi que dit est.</p>
+
+            </div>
+
+            <div n="8">
+
+                <p>
+                    <lb/>Sacent tout qu'il est concordet par eschevins, par les <num>VIII</num>
+                    <lb/>hommes, et par tout le consel de le ville, et par le commun <lb/>de le
+                    ville, que se hom dou consel de le ville, ne bourgois de <lb/>cheste ville,
+                    avoit frais, cous, ne damages pour l'oquoison de <lb/>le franchize, de le loy,
+                    ne des besoignes de le ville aidier à <lb/>warder ou soustenir, en quel manière
+                    que chou fust, li ville <lb/><pb n="14"/>
+                    <lb/>et tous li communs les en doit délivrer au commun frait de <lb/>le
+                    ville.</p>
+
+            </div>
+
+            <div n="9">
+
+                <head>
+
+                    <lb/>
+                    <hi rend="ital">Li capitles des escassemens et quel franchise, <lb/>enfant de
+                        bourgois ont, qui n'ont racaté leur bourgesie.</hi>
+                </head>
+
+                <p>
+                    <lb/>Lois est que enfant de bourgois, tant comme il sont ou pain <lb/>de père et
+                    de mère, ont toutes les franchises d'arsin et de <lb/>tout, ausi bien comme li
+                    bourgois ont. Et se aucuns bourgois <lb/>et se femme, ou li uns d'iaus deus, se
+                    del autre estoit défalit, <lb/>mésisent ou mésist aucun de leur enfans hors de
+                    leur pain, <lb/>proec que li enfans fust desaagiés, pour chou ne demeure mie
+                    <lb/>que li enfés n'ait toutes franchizes, comme bourgois ont, tant <lb/>qu'il
+                    aroit son eage; et quant il aroit son âge, se chou estoit <lb/><corr
+                        resp="editor" n="B1" rend="crochets">hons</corr>, il converroit qu'il
+                    racatast se bourgesie, ou il n'aroit <lb/>mie le franchise del arsin, mais
+                    toutes autres franchises, il <lb/>aroit ansi que li bourgois ont. Et se fius de
+                    bourgois a partit <lb/>à son père ou à se mère, s'il ne racate se bourgesie, il
+                    n'a mie <lb/>le franchise del arsin, puisqu'il ara partit, mais toutes autres
+                    <lb/>franchises, il a, comme bourgois ont, tant comme il sera à <lb/>marier. Et
+                    s'il se marioit et il ne requesist se bourgesie dedens <lb/>l'an et le jour
+                    qu'il aroit femme espousée, et, il, apriès l'an <lb/>et le jour, le requeroit à
+                    y estre bourgois, il ne seroit mie <lb/>rechus comme fius de bourgois, mais se
+                    on le voloit rechevoir <lb/>à bourgois, il seroit rechus par condistion, ausi
+                    comme hom <lb/>de forains, et si seroit tout avant oevre, escassés. Se fius de
+                    <lb/>bourgois qui ait son eage, ne racate se bourgesie dedens l'an <lb/>et le
+                    jour que ses pères et se mère, ou li darrains d'iaus deus <lb/>soit mors, que on
+                    ne <corr resp="editor" rend="crochets">doibt</corr> faire nulle venianche pour
+                    luy <lb/>d'endroit arsin. Et ou vivant dou père et de le mère, ou ou <lb/>vivant
+                    dou darrain d'iaus deus, se on laidenge, là hors, enfant <pb n="15"/>
+                    <lb/>de bourgois, on doit faire pour lui, venianche d'arsin, et aler <lb/>pour
+                    lui, ardoir, ausi bien que pour un bourgois siermentet.</p>
+
+            </div>
+
+            <div n="10">
+
+                <head>
+
+                    <lb/>
+                    <hi n="B1" rend="crochets-ital">Chest li capitles de ordenances et franquises
+                        sur le bour̲gesie.</hi>
+
+                </head>
+
+                <p>
+                    <lb/>Il est establit et concordet par eschevins, par le consel <lb/>et par le
+                    commun de le ville, que se hom bourgois de cheste <lb/>ville fourfait se
+                    bourgesie, par quoi on l'escassece et hoste <lb/>de le bourgesie, et il ait
+                    enfans, un ou pluiseurs, qui soient <lb/>net entrues qu'il estoit bourgois, et
+                    devant chou que on l'ait <lb/>ostet de le bourgesie, que se si enfant, quant il
+                    ont eut leur <lb/>eage, requirent le bourgesie, on les doit rechevoir en le
+                    bour̲gesie, <lb/>comme enfans de bourgois, ne que pour choze que li <lb/>pères
+                    ait fourfait, il n'en sont, ne ne doivent y estre arriéret.</p>
+
+            </div>
+
+            <div n="11">
+
+                <p>
+                    <lb/>Sacent tout qu'il est ordenet et establit par tout le consel <lb/>de le
+                    ville, par wit hommes et par plenté dou commun, le <lb/>semedi devant le
+                    quarmiel, l'an <num>MCC</num> quatrevins et <num>XIIII</num> (1294), <lb/>à
+                    tenir à tous jours, que se hom de forains, puis maintenant <lb/>en avant, est
+                    rechus à bourgois de cheste ville, s'il se marie <lb/>et prent femme bourgoize
+                    de cheste ville, dou jour qu'il ara <lb/>fait sierment de le bourgesie as
+                    comptes de le hanse, en <lb/>demi an, li femme, dedens che demi an, ne sera mie
+                    franche <lb/>pour le bourgesie de sem baron, qu'elle ne soit escassé, ains
+                    <lb/>l'escassera on de tout son vaillant, si que usages porte.</p>
+
+            </div>
+        </body>
+    </text>
+</TEI>

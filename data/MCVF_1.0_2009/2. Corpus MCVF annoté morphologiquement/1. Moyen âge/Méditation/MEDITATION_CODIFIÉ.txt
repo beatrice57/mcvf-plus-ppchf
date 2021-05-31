@@ -1,0 +1,530 @@
+page=méditation/616
+Dele*pdd="TMP" meditation*pdd="NCS" 
+
+<228b> {1} Or*pdd="ADV" dunkes*pdd="ADV" anrme*pdd="NCS" cristiene*pdd="ADJ",*pdd="PON" si*pdd="CONJS" com*pdd="CMP" tu*pdd="PRO" les*pdd="D" meditations*pdd="NCPL" de*pdd="P" 
+
+dolor*pdd="NCS" comenchas*pdd="VJ" a*pdd="DAT" vespres*pdd="NCPL",*pdd="PON" ilekes*pdd="ADV" comences*pdd="VJ" de*pdd="P" consolation*pdd="NCS",*pdd="PON" ke*pdd="CONJS" les*pdd="D" 
+
+consolations*pdd="NCPL" Jhesu*pdd="NPRS" Crist*pdd="NPRS" enlecent*pdd="VJ" t'*pdd="DZ"anrme*pdd="NCS".*pdd="PONFP" 
+
+{2} Pense*pdd="VJ" l'*pdd="D"encontrement*pdd="NCS" plaine*pdd="ADJ" de*pdd="P" misericorde*pdd="NCS" del*pdd="TMP" piu*pdd="ADJ" Jhesu*pdd="NPRS" as*pdd="TMP" 
+
+disciples*pdd="NCPL" alanz*pdd="ADJ" a*pdd="DAT" hore*pdd="NCS" de*pdd="P" vespres*pdd="NCPL" en*pdd="P" Emaus*pdd="NPRS",*pdd="PON" quar*pdd="CONJO" ja*pdd="ADV" soit*pdd="VJ" ce*pdd="PRO" ke*pdd="WPRO" om*pdd="PRO" 
+
+liset*pdd="VJ" qu'*pdd="CONJS"ilh*pdd="PRO" les*pdd="PRO" cosat*pdd="VJ" del*pdd="TMP" targement*pdd="NCS" de*pdd="P" creance*pdd="NCS",*pdd="PON" nequedent*pdd="ADV" lur*pdd="DZ" cuers*pdd="NCPL" 
+
+astoit*pdd="VJ" ardanz*pdd="ADJ" quant*pdd="CONJS" ilh*pdd="PRO" parloit*pdd="VJ" a*pdd="DAT" eaz*pdd="PRO" en*pdd="P" la*pdd="D" voie*pdd="NCS" de*pdd="P" Jhesu*pdd="NPRS" et*pdd="CONJO" ilh*pdd="PRO" lor*pdd="PRO" 
+
+esposoit*pdd="VJ" les*pdd="D" escritures*pdd="NCPL",*pdd="PON" vierdant*pdd="VG" en*pdd="P" lor*pdd="DZ" cuers*pdd="NCPL" l'*pdd="D"espir*pdd="NCS" d'*pdd="P"entendement*pdd="NCS".*pdd="PONFP" 
+
+{3} Oi*pdd="VJ" parole*pdd="NCS" degotanz*pdd="ADJ" de*pdd="P" miel*pdd="NCS"!*pdd="PONFP"  {4} Oi*pdd="VJ" joious*pdd="ADJ" esgars*pdd="NCS" des*pdd="TMP" oez*pdd="NCPL"!*pdd="PONFP"  {5} Fut*pdd="VJ" 
+
+dunkes*pdd="ADV" merveilhe*pdd="NCS" se*pdd="CONJS" lor*pdd="DZ" cuers*pdd="NCPL" astoit*pdd="VJ" ardanz*pdd="ADJ" qui*pdd="WPRO" astoient*pdd="VJ" point*pdd="ADVNEG" de*pdd="P" la*pdd="D" 
+
+dolzor*pdd="NCS" de*pdd="P" divine*pdd="ADJ" parole*pdd="NCS",*pdd="PON" par*pdd="P" celui*pdd="PRO" ki*pdd="WPRO" est*pdd="VJ" savoirs*pdd="NCS" del*pdd="TMP" munde*pdd="NCS"?*pdd="PONFP"  {6} Oi*pdd="AJ" 
+
+desiree*pdd="VPP" refections*pdd="NCS" de*pdd="P" pasture*pdd="NCS"!*pdd="PONFP"  {7} Oi*pdd="VJ" bieneurous*pdd="ADJ" et*pdd="CONJO" suez*pdd="ADJ" alemenz*pdd="NCS" de*pdd="P" 
+
+piez*pdd="NCS"!*pdd="PONFP"  {8} Oi*pdd="VJ" par*pdd="P" com*pdd="CONJS" boen*pdd="ADJ" awir*pdd="VX" cele*pdd="D" compangie*pdd="NCS" fut*pdd="EJ" assembleie*pdd="VPP",*pdd="PON" a*pdd="DAT" cui*pdd="WPRO" 
+
+parlant*pdd="VG" de*pdd="P" soi*pdd="PRO",*pdd="PON" Moysen*pdd="NPRS" soi*pdd="PRO" demostrat*pdd="VJ" estre*pdd="VX" Christus*pdd="NPRS" corporeement*pdd="ADV"!*pdd="PONFP" 
+
+{9} Oi*pdd="VJ" se*pdd="CONJS" tu*pdd="PRO"  <228c> savois*pdd="VJ" cui*pdd="WPRO" tu*pdd="PRO" trais*pdd="VJ" a*pdd="DAT" hostel*pdd="NCS",*pdd="PON" fraternee*pdd="VPP" caritez*pdd="NCS"!*pdd="PONFP"  {10} 
+
+Oi*pdd="VJ" se*pdd="CONJS" tu*pdd="PRO" savois*pdd="VJ" et*pdd="CONJO" toi*pdd="PRO" porpensois*pdd="VJ" cui*pdd="WPRO" tu*pdd="PRO" envies*pdd="VJ" a*pdd="DAT" mangier*pdd="VX",*pdd="PON"chiere*pdd="ADJ" fraternitez*pdd="NCS"!*pdd="PONFP" 
+
+{11} Ne*pdd="CONJO" turbes*pdd="VJ" toi*pdd="PRO" mie*pdd="ADVNEG" donkes*pdd="ADV",*pdd="PON" om*pdd="PRO",*pdd="PON" ne*pdd="CONJO" toi*pdd="PRO" n'*pdd="NEG"ensonges*pdd="VJ" se*pdd="CONJS" Jhesum*pdd="NPRS" 
+
+Crist*pdd="NPRS" n'*pdd="NEG"aparçois*pdd="VJ" manant*pdd="NCS" ensemble*pdd="ADV" toi*pdd="PRO",*pdd="PON" quar*pdd="CONJO" tu*pdd="PRO" ne*pdd="NEG" seis*pdd="VJ" se*pdd="CONJS" tu*pdd="PRO" es*pdd="VJ" 
+
+digne*pdd="ADJ" d'*pdd="P"amur*pdd="NCS" u*pdd="CONJO" de*pdd="P" haime*pdd="NCS".*pdd="PONFP"  {12} Et*pdd="CONJO" ce*pdd="PRO" est*pdd="EJ" ordineit*pdd="VPP" par*pdd="P" divine*pdd="ADJ" disposition*pdd="NCS" 
+
+par*pdd="P" ton*pdd="DZ" prout*pdd="NCS",*pdd="PON" por*pdd="P" ke*pdd="CONJS" tu*pdd="PRO" quiers*pdd="VJ" plus*pdd="QR" convoitousement*pdd="ADV" celui*pdd="PRO" de*pdd="P" cui*pdd="WPRO" ne*pdd="NEG" 
+
+seis*pdd="VJ" se*pdd="CONJS" tu*pdd="PRO" l'*pdd="PRO"as*pdd="VJ",*pdd="PON" et*pdd="CONJO" plus*pdd="QR" studoies*pdd="VJ" por*pdd="P" avoir*pdd="VX" lui*pdd="PRO",*pdd="PON" et*pdd="CONJO" por*pdd="P" ce*pdd="PRO" ke*pdd="CONJS" tu*pdd="PRO" quidanz*pdd="ADJ" 
+
+et*pdd="CONJO" juganz*pdd="ADJ" pecheor*pdd="NCS" tendes*pdd="VJ" ades*pdd="ADV" a*pdd="DAT" plus*pdd="QR" hat*pdd="VJ" greit*pdd="NCS" de*pdd="P" diviniteit*pdd="NCS".*pdd="PONFP"  {13} Donkes*pdd="ADV" 
+
+por*pdd="P" cest*pdd="D" ignorance*pdd="NCS" creist*pdd="VJ" a*pdd="DAT" toi*pdd="PRO" merites*pdd="NCS",*pdd="PON" et*pdd="CONJO" plus*pdd="QR" legierement*pdd="ADV" eschiwes*pdd="VJ" 
+
+presumption*pdd="NCS",*pdd="PON" quant*pdd="CONJS" tu*pdd="PRO" n'*pdd="NEG"as*pdd="VJ" fiance*pdd="NCS" de*pdd="P" ta*pdd="DZ" justice*pdd="NCS".*pdd="PONFP" 
+
+{l4} Recordes*pdd="VJ" les*pdd="D" disciples*pdd="NCPL" assemblez*pdd="VPP" por*pdd="P" la*pdd="D" paor*pdd="NCS" des*pdd="TMP" Gius*pdd="NPRPL" a*pdd="DAT" hore*pdd="NCS" 
+
+de*pdd="P" complie*pdd="NCS",*pdd="PON" confortez*pdd="VJ" de*pdd="P" la*pdd="D" preconsolation*pdd="NCS" de*pdd="P" Crist*pdd="NPRS",*pdd="PON" quant*pdd="CONJS",*pdd="PON" la*pdd="D" nature*pdd="NCS" 
+
+page=méditation/617
+del*pdd="TMP" cors*pdd="NCS" glorifiet*pdd="VPP" demostrant*pdd="VG",*pdd="PON" entrat*pdd="VJ" a*pdd="DAT" eas*pdd="PRO" a*pdd="P" closes*pdd="VPP" portes*pdd="NCPL",*pdd="PON" la*pdd="D" pais*pdd="NCS" 
+
+spirituee*pdd="VPP" a*pdd="DAT" lur*pdd="DZ" cuers*pdd="NCPL" ministrant*pdd="VG" et*pdd="CONJO" segurteit*pdd="NCS" des*pdd="TMP" anemis*pdd="NCPL" annunchant*pdd="VG".*pdd="PONFP" 
+
+{15} Quar*pdd="CONJO" ilh*pdd="PRO" dist*pdd="VJ",*pdd="PON" Pais*pdd="NCS"  <228c> soit*pdd="VJ" a*pdd="DAT" vos*pdd="PRO".*pdd="PONFP" Ge*pdd="PRO" sui*pdd="VJ" ge*pdd="PRO",*pdd="PON" n'*pdd="NEG"aiez*pdd="VJ" paor*pdd="NCS"  (Luc
+ 
+24,36).*pdd="PONFP"  {16} Veez*pdd="VJ" ci*pdd="ADV" la*pdd="D" segurteit*pdd="NCS".*pdd="PONFP"  {17} 
+Et*pdd="CONJO" par*pdd="P" ce*pdd="PRO" ke*pdd="CONJS" cele*pdd="D" pais*pdd="NCS" spirituee*pdd="VPP" 
+
+fermement*pdd="ADV" fust*pdd="EJ" enpressee*pdd="VPP" en*pdd="P" lur*pdd="DZ" cuers*pdd="NCPL" parmi*pdd="P" foit*pdd="NCS",*pdd="PON" ajostat*pdd="VJ" et*pdd="CONJO" dist*pdd="VJ",*pdd="PON" 
+
+Tanstez*pdd="VJ" et*pdd="CONJO" voiez*pdd="VJ" ke*pdd="CONJS" espirs*pdd="NCS" n'*pdd="NEG"a*pdd="VJ" mie*pdd="ADVNEG" char*pdd="NCS" ne*pdd="CONJO" os*pdd="NCS"  (Luc 24,39).*pdd="PONFP"  {18} Oi*pdd="VJ" 
+
+suee*pdd="ADJ",*pdd="PON" oi*pdd="VJ" piwe*pdd="ADJ",*pdd="PON" oi*pdd="VJ" doce*pdd="ADJ" consolations*pdd="NCPL",*pdd="PON" oi*pdd="VJ" plaine*pdd="ADJ" de*pdd="P" deventriene*pdd="ADJ" amor*pdd="NCS" 
+
+visitations*pdd="NCPL"!*pdd="PONFP"  {19} Ne*pdd="NEG" seit*pdd="VJ" om*pdd="PRO" son*pdd="DZ" preis*pdd="NCS" ne*pdd="CONJO" n'*pdd="NEG"est*pdd="EJ" mie*pdd="ADVNEG" trovez*pdd="VPP" teiz*pdd="ADJ" solaz*pdd="NCS" 
+
+en*pdd="P" la*pdd="D" terre*pdd="NCS" des*pdd="TMP" suef*pdd="ADJ" vivanz*pdd="NCPL"  (Job 28,13).*pdd="PONFP"  {20} Oi*pdd="VJ" boens*pdd="ADJ" Jhesus*pdd="NPRS",*pdd="PON" com*pdd="CONJS" est*pdd="VJ" 
+
+grant*pdd="ADJ" la*pdd="D" multitudine*pdd="NCS" de*pdd="P" ta*pdd="DZ" consolation*pdd="NCS"!*pdd="PONFP"  {2l} Certes*pdd="ADV" n'*pdd="NEG"est*pdd="VJ" prudence*pdd="NCS" n'*pdd="NEG"est*pdd="VJ" 
+
+savoirs*pdd="NCS" contre*pdd="P" toi*pdd="PRO",*pdd="PON" quar*pdd="CONJO" ja*pdd="ADV" soit*pdd="VJ" ce*pdd="PRO" ke*pdd="WPRO" veoir*pdd="VX" cors*pdd="NCS" glorifijet*pdd="VPP" soit*pdd="VJ" contre*pdd="P" 
+
+nature*pdd="NCS",*pdd="PON" nequedent*pdd="ADV" porce*pdd="TMP" ke*pdd="CONJS" ancor*pdd="ADV" astoient*pdd="VJ" charneil*pdd="ADJ" li*pdd="D" disciple*pdd="NCS",*pdd="PON" astoit*pdd="VJ" 
+
+necessare*pdd="ADJ" chose*pdd="NCS" ke*pdd="CONJS" ilh*pdd="PRO" fuissent*pdd="EJ" enstruit*pdd="VPP" charneement*pdd="ADV".*pdd="PONFP"  {22} Et*pdd="CONJO" por*pdd="P" ce*pdd="PRO" 
+
+les*pdd="PRO" mostra[*pdd="PON"s*pdd="VJ"]*pdd="PON" le*pdd="D" cors*pdd="NCS" o*pdd="P" les*pdd="D" paneveilhes*pdd="NCPL" por*pdd="P" miracles*pdd="NCPL",*pdd="PON" les*pdd="PRO" queles*pdd="WPRO" or*pdd="ADV" 
+
+meimes*pdd="FP" gardes*pdd="VJ" el*pdd="TMP" esgart*pdd="NCS" del*pdd="TMP" pere*pdd="NCS",*pdd="PON" por*pdd="P" ce*pdd="PRO" ke*pdd="CONJS" tu*pdd="PRO" deprianz*pdd="VX" por*pdd="P" nos*pdd="PRO" plus*pdd="QR" 
+
+enmoeves*pdd="VJ" a*pdd="DAT" merci*pdd="NCS" lo*pdd="D" piu*pdd="ADJ" jugeor*pdd="NCS",*pdd="PON" cant*pdd="CONJS" tu*pdd="PRO" li*pdd="PRO" presentes*pdd="VJ" kel*pdd="WD" maniere*pdd="NCS" de*pdd="P" 
+
+mort*pdd="NCS" tu*pdd="PRO" soffris*pdd="VJ" por*pdd="P" le*pdd="D" salut*pdd="NCS" des*pdd="TMP" homes*pdd="NCPL".*pdd="PONFP" 
+
+{23} Recorde*pdd="VJ" a*pdd="DAT" hore*pdd="NCS" de*pdd="P"  <229a> matines*pdd="NCS" la*pdd="D" vraie*pdd="ADJ" lumiere*pdd="NCS" neie*pdd="VJ" es*pdd="TMP" 
+
+tenebres*pdd="NCPL" a*pdd="DAT" ces*pdd="PRO" qui*pdd="WPRO" sunt*pdd="VJ" droit*pdd="NCS" de*pdd="P" cuer*pdd="NCS",*pdd="PON" la*pdd="D" virgine*pdd="NPRS" enfantant*pdd="VG" son*pdd="DZ" filh*pdd="NCS" 
+
+premerement*pdd="ADV" neet*pdd="VJ",*pdd="PON" ne*pdd="NEG" mie*pdd="ADVNEG" apres*pdd="P" cui*pdd="WPRO" atre*pdd="ADJ" mais*pdd="CONJO" devant*pdd="P" cui*pdd="WPRO" nul*pdd="Q".*pdd="PONFP"  {24} 
+
+Contemple*pdd="VJ" les*pdd="D" angeles*pdd="NCPL" nunchanz*pdd="VG" az*pdd="TMP" pastors*pdd="NCPL" la*pdd="D" grant*pdd="ADJ" joie*pdd="NCS" ki*pdd="WPRO" est*pdd="VJ" a*pdd="DAT" toz*pdd="Q" 
+
+homes*pdd="NCPL" de*pdd="P" bone*pdd="ADJ" volenteit*pdd="NCS".*pdd="PONFP"  {25} Oi*pdd="VJ" s'*pdd="CONJS"il*pdd="PRO" pooit*pdd="MDJ" savorer*pdd="VX" el*pdd="TMP" palais*pdd="NCS" del*pdd="TMP" 
+
+cuer*pdd="NCS" com*pdd="CONJS" bienawirouse*pdd="ADJ" fu*pdd="VJ" la*pdd="D" virgine*pdd="NPRS" cui*pdd="WPRO" entrailhes*pdd="NCPL" deservirent*pdd="VJ" porter*pdd="VX" 
+
+lo*pdd="D" sanior*pdd="NPRS" Jhesum*pdd="NPRS" qui*pdd="WPRO" nient*pdd="ADVNEG" sachante*pdd="VPP" d'*pdd="P"ome*pdd="NCS" conciut*pdd="VJ" lo*pdd="D" salveor*pdd="NPRS" del*pdd="TMP" 
+
+siecle*pdd="NCS",*pdd="PON" qui*pdd="WPRO" alaitat*pdd="VJ" virgene*pdd="ADJ" par*pdd="P" mamele*pdd="NCS" plainne*pdd="ADJ" del*pdd="TMP" ciel*pdd="NCS"!*pdd="PONFP"  {26} Oi*pdd="VJ" mervilhouse*pdd="ADJ" 
+
+novelerie*pdd="NCS" et*pdd="CONJO" granz*pdd="ADJ" joie*pdd="NCS"!*pdd="PONFP"  {27} La*pdd="D" mere*pdd="NCS" at*pdd="AJ" entierteit*pdd="VPP" apres*pdd="P" l'*pdd="D"enfantement*pdd="NCS" 
+
+cui*pdd="WPRO" avironent*pdd="VJ" li*pdd="D" angele*pdd="NCPL" en*pdd="P" liu*pdd="NCS" de*pdd="P" beles*pdd="NCPL"!*pdd="PONFP"  {28} Oi*pdd="VJ" bieneuros*pdd="ADJ" 
+
+hom*pdd="NCS" Joseph*pdd="NPRS" qui*pdd="WPRO" sert*pdd="VJ" a*pdd="DAT" celui*pdd="PRO" qui*pdd="WPRO" par*pdd="P" tot*pdd="Q" le*pdd="D" monde*pdd="NCS" fait*pdd="VJ" les*pdd="D" cielz*pdd="NCPL" degottanz*pdd="VG" 
+
+de*pdd="P" miel*pdd="NCS"!*pdd="PONFP"  {29} Oi*pdd="VJ" nativitez*pdd="NCS" tote*pdd="Q" plaine*pdd="ADJ" de*pdd="P" savoir*pdd="NCS" de*pdd="P" clareit*pdd="NCS" en*pdd="P" la*pdd="D" 
+
+page=méditation/618
+quele*pdd="WPRO" Christus*pdd="NPRS" si*pdd="CONJS" cum*pdd="CMP" clareiz*pdd="NCS" est*pdd="EJ" veuz*pdd="VPP" en*pdd="P" terre*pdd="NCS"!*pdd="PONFP"  {30} Si*pdd="CONJS" com*pdd="CMP" li*pdd="PRO" clareiz*pdd="NCS" 
+
+trait*pdd="VJ" savoir*pdd="VX" de*pdd="P" miel*pdd="NCS",*pdd="PON" de*pdd="P" vin*pdd="NCS",*pdd="PON" de*pdd="P" noimoscates*pdd="NCPL",*pdd="PON" de*pdd="P" clauchons*pdd="NCPL" et*pdd="CONJO" de*pdd="P" 
+
+kanele*pdd="NCS",*pdd="PON" issi*pdd="ADV" en*pdd="P" Crist*pdd="NPRS" troveras*pdd="VJ" totes*pdd="Q" choses*pdd="NCPL".*pdd="PONFP"  {3l} Li*pdd="D" miel*pdd="NCS",*pdd="PON" ki*pdd="WPRO" trait*pdd="VJ" sa*pdd="DZ" 
+
+naissence*pdd="NCS" de*pdd="P"  <229b> la*pdd="D" dolzor*pdd="NCS" del*pdd="TMP" air*pdd="NCS" et*pdd="CONJO" soi*pdd="EJ" conjoinst*pdd="VPP" a*pdd="DAT" substance*pdd="NCS" 
+
+terriene*pdd="ADJ",*pdd="PON" donet*pdd="VJ" entendre*pdd="VX" la*pdd="D" dulce*pdd="ADJ" diviniteit*pdd="NCS" de*pdd="P" halt*pdd="ADV" descendant*pdd="VG",*pdd="PON" soi*pdd="EJ" 
+
+unit*pdd="VPP" a*pdd="DAT" nostre*pdd="DZ" carnaliteit*pdd="NCS".*pdd="PONFP"  {32} Li*pdd="D" vins*pdd="NCS" ki*pdd="WPRO" enivret*pdd="VJ" c'*pdd="PRO"est*pdd="VJ" li*pdd="D" Sains*pdd="NPRS" Espirs*pdd="NPRS",*pdd="PON" 
+
+par*pdd="P" cui*pdd="WPRO" operation*pdd="NCS" est*pdd="EJ" unie*pdd="VPP" la*pdd="D" parole*pdd="NCS" al*pdd="TMP" humaniteit*pdd="NCS".*pdd="PONFP"{33}Et*pdd="CONJO" bien*pdd="ADV" est*pdd="VJ" 
+
+cest*pdd="D" oevre*pdd="NCS" apelee*pdd="VPP" oevre*pdd="NCS" del*pdd="TMP" Saint*pdd="NPRS" Espir*pdd="NPRS" quar*pdd="CONJO" li*pdd="D" Sains*pdd="NPRS" Espirs*pdd="NPRS" est*pdd="EJ" apelez*pdd="VPP" 
+
+benignitez*pdd="NCS".*pdd="PONFP"  {34} Et*pdd="CONJO" ce*pdd="PRO" fut*pdd="VJ" par*pdd="P" tres*pdd="ADV" haute*pdd="ADJ" benignité*pdd="NCS" ke*pdd="CONJS" la*pdd="D" parole*pdd="NCS" del*pdd="TMP" 
+
+pere*pdd="NCS" ne*pdd="NEG" soi*pdd="PRO" volt*pdd="MDJ" plus*pdd="QR" hautement*pdd="ADV" marier*pdd="VX",*pdd="PON" ne*pdd="CONJO" ne*pdd="NEG" soi*pdd="PRO" pot*pdd="MDJ" nocier*pdd="VX" plus*pdd="QR" 
+
+gloriousement*pdd="ADV".*pdd="PONFP"  {35} Les*pdd="D" espesces*pdd="NCPL" signifient*pdd="VJ" l'*pdd="D"umaniteit*pdd="NCS",*pdd="PON" quar*pdd="CONJO" de*pdd="P" la*pdd="D" 
+
+noimoscate*pdd="NCS" goste*pdd="VJ" qui*pdd="WPRO" de*pdd="P" la*pdd="D" nativiteit*pdd="NCS" engarde*pdd="VJ".*pdd="PONFP"  {36}Si*pdd="CONJS" com*pdd="CMP" la*pdd="D" noiz*pdd="NCS" 
+
+confortet*pdd="VJ" le*pdd="D" cuer*pdd="NCS",*pdd="PON" et*pdd="CONJO" aliget*pdd="VJ" l'*pdd="D"afflit*pdd="NCS",*pdd="PON" issi*pdd="ADV" confortet*pdd="VJ" la*pdd="D" nativiteit*pdd="NCS" 
+Jhesu*pdd="NPRS" Crist*pdd="NPRS" 
+
+le*pdd="D" floibe*pdd="NCS" de*pdd="P" cuer*pdd="NCS" par*pdd="P" le*pdd="D" demostrement*pdd="NCS" de*pdd="P" sa*pdd="DZ" humilité*pdd="NCS" et*pdd="CONJO" le*pdd="D" parchon*pdd="NCS" de*pdd="P" 
+
+nostre*pdd="DZ" enfermeteit*pdd="NCS".*pdd="PONFP"  {37} Li*pdd="D" clauchon*pdd="NCS" de*pdd="P" giroffle*pdd="NCS" covient*pdd="VJ" a*pdd="DAT" la*pdd="D" passion*pdd="NCS",*pdd="PON" 
+
+quar*pdd="CONJO" ilh*pdd="PRO" est*pdd="VJ" de*pdd="P" chaude*pdd="ADJ" nature*pdd="NCS" et*pdd="CONJO" poindanz*pdd="ADJ".*pdd="PONFP"  {38} Issi*pdd="ADV" la*pdd="D" passion*pdd="NCS" escaffet*pdd="VJ" 
+
+le*pdd="D" cuer*pdd="NCS" par*pdd="P" amur*pdd="NCS",*pdd="PON" et*pdd="CONJO" point*pdd="ADVNEG" par*pdd="P" dolor*pdd="NCS".*pdd="PONFP" La*pdd="D" kanele*pdd="NCS" ki*pdd="WPRO" at*pdd="VJ" color*pdd="NCS" de*pdd="P" cendre*pdd="NCS" 
+
+signifiet*pdd="VJ" la*pdd="D" mort*pdd="NCS".*pdd="PONFP"  {39} La*pdd="D" mors*pdd="NCS" Jhesu*pdd="NPRS" Crist*pdd="NPRS" nos*pdd="PRO" est*pdd="VJ"  <229c> certe*pdd="ADV" demostrance*pdd="NCS" 
+
+de*pdd="P" nostre*pdd="DZ" mort*pdd="NCS".*pdd="PONFP"  {40} La*pdd="D" kanele*pdd="NCS" goste*pdd="VJ" qui*pdd="WPRO" par*pdd="P" la*pdd="D" ramenbrance*pdd="NCS" 
+
+de*pdd="P" la*pdd="D" mort*pdd="NCS" Jhesu*pdd="NPRS" Crist*pdd="NPRS",*pdd="PON" veanz*pdd="VG" la*pdd="D" sue*pdd="NCS",*pdd="PON" despitet*pdd="VJ" le*pdd="D" pechiet*pdd="NCS".*pdd="PONFP"  {41} 
+
+=méditation/619}
+Le*pdd="D" clauchon*pdd="NCS" mache*pdd="VJ" ki*pdd="WPRO" soi*pdd="PRO" duet*pdd="VJ" de*pdd="P" la*pdd="D" passion*pdd="NCS".*pdd="PONFP"  {42} La*pdd="D" noiz*pdd="NCS" savoret*pdd="VJ" qui*pdd="WPRO" 
+
+en*pdd="P" la*pdd="D" nativiteit*pdd="NCS" prent*pdd="VJ" solaz*pdd="NCS" de*pdd="P" sa*pdd="DZ" povreteit*pdd="NCS" et*pdd="CONJO" issi*pdd="ADV" est*pdd="EJ" abevreiz*pdd="VPP" de*pdd="P" 
+clareit*pdd="NCS" 
+
+espandut*pdd="VPP" en*pdd="P" terre*pdd="NCS".*pdd="PONFP" 
+
+{43} Sovenge*pdd="VJ" toi*pdd="PRO" ke*pdd="CONJS" a*pdd="DAT" matin*pdd="NCS" lo*pdd="D" promier*pdd="ADJ" jor*pdd="NCS" de*pdd="P" la*pdd="D" samaine*pdd="NCS" relevat*pdd="VJ" 
+
+Christus*pdd="NPRS" nostre*pdd="DZ" esperance*pdd="NCS",*pdd="PON" et*pdd="CONJO" vraiement*pdd="ADV" sperance*pdd="NCS" de*pdd="P" pecheors*pdd="NCPL",*pdd="PON" qui*pdd="WPRO" 
+
+premierement*pdd="ADV" soi*pdd="EJ" apparut*pdd="VPP" a*pdd="DAT" Marie*pdd="NPRS" Magdalene*pdd="NPRS".*pdd="PONFP"  {44} Quez*pdd="WPRO" chose*pdd="NCS" az*pdd="TMP" 
+
+pecheors*pdd="NCPL" plus*pdd="QR" lie*pdd="ADJ"?*pdd="PONFP"  {45} Quez*pdd="WPRO" as*pdd="TMP" justes*pdd="NCPL" puet*pdd="MDJ" estre*pdd="VX" sperance*pdd="NCS" plus*pdd="QR" segure*pdd="ADJ"?*pdd="PONFP" 
+
+{46} Certes*pdd="ADV" n'*pdd="NEG"est*pdd="VJ" merveilhe*pdd="NCS",*pdd="PON" o*pdd="ITJ" Marie*pdd="NPRS",*pdd="PON" se*pdd="CONJS" a*pdd="DAT" toi*pdd="PRO" est*pdd="EJ" doneit*pdd="VPP" veoir*pdd="VX" 
+
+premierement*pdd="ADV" Jhesum*pdd="NPRS",*pdd="PON" quar*pdd="CONJO" nos*pdd="PRO" lisons*pdd="VJ" de*pdd="P" toi*pdd="PRO" ke*pdd="CONJS" tu*pdd="PRO" amas*pdd="VJ" mult*pdd="Q",*pdd="PON" et*pdd="CONJO" 
+
+Crist*pdd="NPRS" moranz*pdd="VX" ne*pdd="NEG" pot*pdd="MDJ" si*pdd="ADV" granz*pdd="ADJ" amurs*pdd="NCS" morir*pdd="VX".*pdd="PONFP"  {47} Fuiant*pdd="VG" les*pdd="D" apostles*pdd="NCPL",*pdd="PON" 
+
+la*pdd="D" feme*pdd="NCS" stisoit*pdd="VJ",*pdd="PON" nient*pdd="ADVNEG" espoureie*pdd="VJ",*pdd="PON" a*pdd="DAT" monument*pdd="NCS" ploranz*pdd="VG".*pdd="PONFP"  {48} Non*pdd="ADVNEG" avoit*pdd="VJ" 
+
+le*pdd="D" vif*pdd="NCS" et*pdd="CONJO" tote*pdd="Q" sor*pdd="P" le*pdd="D" mort*pdd="NCS" ardoit*pdd="VJ",*pdd="PON" de*pdd="P" tant*pdd="Q" qu'*pdd="CONJS"il*pdd="PRO" li*pdd="PRO" astoit*pdd="VJ" plus*pdd="QR" toloiz*pdd=(ADJ,VERIF) 
+des*pdd="TMP" 
+
+mains*pdd="NCPL" et*pdd="CONJO" des*pdd="TMP" oez*pdd="NCPL",*pdd="PON" de*pdd="P" tant*pdd="Q" l'*pdd="PRO"ensiwoit*pdd="VJ" li*pdd="D"  <229d> corages*pdd="NCS" plus*pdd="QR" ardanmnent*pdd="ADV".*pdd="PONFP" 
+
+{49} Si*pdd="CONJS" estre*pdd="EX" poist*pdd="MDJ",*pdd="PON" por*pdd="P" le*pdd="D" cors*pdd="NCS" a*pdd="DAT" rachateir*pdd="VX",*pdd="PON" emplist*pdd="VJ" ele*pdd="PRO" lo*pdd="D" sepulchre*pdd="NCS" de*pdd="P" 
+
+larmes*pdd="NCPL".*pdd="PONFP"  {50} Ele*pdd="PRO" stisoit*pdd="VJ",*pdd="PON" dist*pdd="VJ" ilh*pdd="PRO",*pdd="PON" ploranz*pdd="VG" et*pdd="CONJO" vit*pdd="VJ" dous*pdd="ADJNUM" angeles*pdd="NCPL" en*pdd="P" blanches*pdd="ADJ" 
+
+vestures*pdd="NCPL" seanz*pdd="ADJ" ki*pdd="WPRO" li*pdd="PRO" dient*pdd="VJ",*pdd="PON" Feme*pdd="NCS",*pdd="PON" ke*pdd="CONJS" plores*pdd="VJ" tu*pdd="PRO"?*pdd="PONFP"  (Joh 20,11-13) 
+
+{51} Ele*pdd="PRO" retorneie*pdd="VJ" ariere*pdd="ADV",*pdd="PON" vit*pdd="VJ" Jhesum*pdd="NPRS" stisant*pdd="VG",*pdd="PON" et*pdd="CONJO" ne*pdd="NEG" savoit*pdd="VJ" ke*pdd="CONJS" il*pdd="PRO" fuist*pdd="VJ" 
+
+Jhesus*pdd="NPRS" (Joh 20,14).*pdd="PONFP"  {52} Oi*pdd="VJ" pius*pdd="ADJ",*pdd="PON" oi*pdd="VJ" delitables*pdd="ADJ" esgars*pdd="NCPL" de*pdd="P" pieteit*pdd="NCS"!*pdd="PONFP"  {53} 
+
+Ilh*pdd="PRO" ki*pdd="WPRO" est*pdd="EJ" desirez*pdd="VPP" et*pdd="CONJO" soi*pdd="EJ" repunt*pdd="VPP" et*pdd="CONJO" soi*pdd="EJ" manifestet*pdd="VPP".*pdd="PONFP"  {54} Par*pdd="P" itel*pdd="ADJ" art*pdd="NCS" jowe*pdd="VJ" 
+
+la*pdd="D" sapience*pdd="NCS" el*pdd="TMP" porpris*pdd="NCS" de*pdd="P" la*pdd="D" terre*pdd="NCS" et*pdd="CONJO" li*pdd="PRO" delite*pdd="VJ" a*pdd="DAT" estre*pdd="VX" avoec*pdd="P" les*pdd="D" fiz*pdd="NCPL" 
+des*pdd="TMP" 
+
+homes*pdd="NCPL".*pdd="PONFP"  {55} Feme*pdd="NCS",*pdd="PON" ke*pdd="WPRO" plores*pdd="VJ" tu*pdd="PRO"?*pdd="PONFP" Tu*pdd="PRO" as*pdd="VJ" dedenz*pdd="ADV" celui*pdd="PRO" cui*pdd="WPRO" tu*pdd="PRO" quiers*pdd="VJ" 
+
+defors*pdd="ADV".*pdd="PONFP"  {56} Ta*pdd="DZ" pense*pdd="NCS" est*pdd="VJ" mes*pdd="DZ" monumenz*pdd="NCS".*pdd="PONFP"  {57} Ilekes*pdd="ADV" nient*pdd="ADVNEG" mors*pdd="VPP",*pdd="PON" 
+
+mais*pdd="CONJO" toz*pdd="Q" jors*pdd="NCS" vivanz*pdd="ADJ" moi*pdd="PRO" repoise*pdd="VJ".*pdd="PONFP"  {58} Ta*pdd="DZ" pense*pdd="NCS" est*pdd="VJ" mes*pdd="DZ" jardins*pdd="NCS",*pdd="PON" por*pdd="P" 
+
+ce*pdd="PRO" quidas*pdd="VJ" a*pdd="DAT" droit*pdd="NCS",*pdd="PON" ke*pdd="CONJS" je*pdd="PRO" fuisse*pdd="VJ" jardeniers*pdd="NCS".*pdd="PONFP"  {59} Marie*pdd="NPRS",*pdd="PON" je*pdd="PRO" t'*pdd="PRO"ai*pdd="AJ" conue*pdd="VPP" par*pdd="P" 
+
+nom*pdd="NCS",*pdd="PON" apren*pdd="VJ" moi*pdd="PRO" conoistre*pdd="VX" par*pdd="P" foit*pdd="NCS".*pdd="PONFP"  {60} Maistres*pdd="NCS"  (Joh 20,16),*pdd="PON" c'*pdd="PRO"est*pdd="VJ" a*pdd="DAT" 
+
+dire*pdd="VX",*pdd="PON" apren*pdd="VJ" moi*pdd="PRO" querre*pdd="VX" toi*pdd="PRO".*pdd="PONFP"  {61} Ensenge*pdd="VJ" moi*pdd="PRO" toi*pdd="PRO" atochier*pdd="VX" et*pdd="CONJO" oindre*pdd="VX" toi*pdd="PRO".*pdd="PONFP" 
+
+{62} Ne*pdd="NEG" m'*pdd="PRO"atoiche*pdd="VJ" mie*pdd="ADVNEG" home*pdd="NCS",*pdd="PON" quar*pdd="CONJO" je*pdd="PRO" ne*pdd="NEG" sui*pdd="EJ" mie*pdd="ADVNEG" monteiz*pdd="VPP" a*pdd="DAT" mon*pdd="DZ" Pere*pdd="NPRS" 
+
+(Joh 20,17).*pdd="PONFP" <230a> {63} C'*pdd="PRO"est*pdd="VJ":*pdd="PONFP" tu*pdd="PRO" ne*pdd="NEG" moi*pdd="PRO" crois*pdd="VJ" mie*pdd="ADVNEG" enweil*pdd="VJ" par*pdd="P" tot*pdd="Q" 
+
+al*pdd="TMP" Pere*pdd="NPRS",*pdd="PON" donkes*pdd="ADV" crois*pdd="VJ" ice*pdd="PRO",*pdd="PON" si*pdd="CONJS" m'*pdd="PRO"aras*pdd="AJ" atochiet*pdd="VPP".*pdd="PONFP"  {64} Marie*pdd="NPRS" le*pdd="D" forfait*pdd="NCS" 
+
+del*pdd="TMP" cuer*pdd="NCS" purjat*pdd="VJ" par*pdd="P" larmes*pdd="NCPL",*pdd="PON" le*pdd="D" forfait*pdd="NCS" d'*pdd="P"oevre*pdd="NCS" sanat*pdd="VJ" par*pdd="P" ungemenz*pdd="NCPL",*pdd="PON" 
+
+le*pdd="D" pechiet*pdd="NCS" de*pdd="P" boiche*pdd="NCS" amendat*pdd="VJ" par*pdd="P" baisuez*pdd="NCPL" de*pdd="P" piez*pdd="NCS".*pdd="PONFP" 
+
+page=méditation/620
+{65} Quez*pdd="WPRO" chose*pdd="NCS" plus*pdd="QR" suee*pdd="VPP",*pdd="PON" quez*pdd="WPRO" chose*pdd="NCS" plus*pdd="QR" joiose*pdd="ADJ" puet*pdd="MDJ" estre*pdd="EX" a*pdd="DAT" hore*pdd="NCS" 
+
+de*pdd="P" tierce*pdd="ADJ" ramembree*pdd="VPP" ke*pdd="CONJO" li*pdd="D" envoiemenz*pdd="NCS" de*pdd="P" tote*pdd="Q" suaviteit*pdd="NCS",*pdd="PON" c'*pdd="PRO"est*pdd="VJ" del*pdd="TMP" Saint*pdd="NPRS" 
+
+Espir*pdd="NPRS" qui*pdd="WPRO" conforteres*pdd="VJ" est*pdd="EJ" apelez*pdd="VPP",*pdd="PON" si*pdd="CONJS" com*pdd="CMP" om*pdd="PRO" chante*pdd="VJ" en*pdd="P" sainte*pdd="ADJ" glise*pdd="NCS".*pdd="PONFP" 
+
+{66} Tres*pdd="ADV" bons*pdd="ADJ" conforteres*pdd="NCPL" et*pdd="CONJO" dulz*pdd="ADJ" ostes*pdd="NCPL" al*pdd="TMP" anrme*pdd="NCS"!*pdd="PONFP"  {67} Et*pdd="CONJO" ilh*pdd="PRO" li*pdd="D" Sires*pdd="NPRS" 
+
+dist*pdd="VJ" az*pdd="TMP" apostles*pdd="NCPL",*pdd="PON" Je*pdd="PRO" roverai*pdd="VJ" a*pdd="DAT" mon*pdd="DZ" Pere*pdd="NPRS" et*pdd="CONJO" ilh*pdd="PRO" vos*pdd="PRO" donrat*pdd="VJ" altre*pdd="ADJ" paraclit*pdd="NCS" 
+
+(Joh 14, 16).*pdd="PONFP" {68} C'*pdd="PRO"est*pdd="VJ" l'*pdd="P"atre*pdd="ADJ" conforteor*pdd="NCS",*pdd="PON" altressi*pdd="ADV" com*pdd="CONJS" se*pdd="PRO" ilh*pdd="PRO" die*pdd="VJ",*pdd="PON" vos*pdd="PRO" 
+
+qui*pdd="WPRO" en*pdd="P" moi*pdd="PRO" qui*pdd="WPRO" chars*pdd="NCS" sui*pdd="VJ" avez*pdd="VJ" vostre*pdd="DZ" solaz*pdd="NCS",*pdd="PON" estes*pdd="VJ" si*pdd="CONJS" com*pdd="CMP" petit*pdd="ADJ" enfant*pdd="NCS" 
+
+norrit*pdd="VPP" par*pdd="P" le*pdd="D" lait*pdd="NCS" de*pdd="P" mi*pdd="DZ" humaniteit*pdd="NCS".*pdd="PONFP"  {69} Mais*pdd="CONJO" necessare*pdd="ADJ" chose*pdd="NCS" est*pdd="VJ" ke*pdd="CONJS" 
+
+ceste*pdd="PRO" tenrors*pdd="NCS" vos*pdd="PRO" soit*pdd="EJ" sortraite*pdd="VPP" por*pdd="P" ke*pdd="CONJS" vos*pdd="PRO" soiez*pdd="VJ" prendable*pdd="ADJ" de*pdd="P" plus*pdd="QR" 
+
+ferme*pdd="ADJ" mangier*pdd="NCS",*pdd="PON" et*pdd="CONJO" li*pdd="D" Peres*pdd="NPRS" ilh*pdd="PRO" vos*pdd="PRO" donrat*pdd="VJ" le*pdd="D" Saint*pdd="NPRS" Espir*pdd="NPRS" ki*pdd="WPRO" serat*pdd="VJ" en*pdd="P" 
+
+vos*pdd="PRO".*pdd="PONFP"  {70} Li*pdd="D" altres*pdd="ADJ" conforteres*pdd="NCS" moi*pdd="PRO" sortrait*pdd="VJ".*pdd="PONFP"  {71} Iciz*pdd="D" espirs*pdd="NCS" est*pdd="EJ" diz*pdd="VPP" 
+
+vehemenz*pdd="ADJ",*pdd="PON" c'*pdd="PRO"est*pdd="EJ" veus*pdd="VPP" mentem*pdd="NCS",*pdd="PON" c'*pdd="PRO"est*pdd="VJ" portanz*pdd="VG" enhalt*pdd="VJ" la*pdd="D" pense*pdd="NCS",*pdd="PON" 
+
+vel*pdd="CONJO" vehernens*pdd="ADJ"  <230b> adimens*pdd="NCS",*pdd="PON" c'*pdd="PRO"est*pdd="VJ" uostanz*pdd="VG" lo*pdd="D" wai*pdd="NCS" parmanable*pdd="ADJ".*pdd="PONFP"  {72} Iciz*pdd="D" 
+
+espirs*pdd="NCS" est*pdd="VJ" li*pdd="D" vins*pdd="NCS" del*pdd="TMP" queil*pdd="WPRO" ivre*pdd="ADJ" li*pdd="D" apostle*pdd="NCPL" parloient*pdd="VJ" overtement*pdd="ADV" ce*pdd="PRO" 
+ke*pdd="WPRO" 
+
+ilh*pdd="PRO" avoient*pdd="AJ" out*pdd="VPP" et*pdd="CONJO" veut*pdd="VJ",*pdd="PON" li*pdd="PRO" quez*pdd="WPRO" fut*pdd="EJ" mis*pdd="VPP" a*pdd="DAT" boiche*pdd="NCS" a*pdd="DAT" jor*pdd="NCS" de*pdd="P" la*pdd="D" Pentecoste*pdd="NCS";*pdd="PON" 
+
+ne*pdd="CONJO" puis*pdd="ADV" ne*pdd="NEG" pot*pdd="MDJ" defalir*pdd="VX" a*pdd="DAT" celui*pdd="PRO" qui*pdd="WPRO" achateir*pdd="VX" en*pdd="PRO" vot*pdd="MDJ".*pdd="PONFP"  {73} Li*pdd="D" monoi*pdd="NCS" 
+
+par*pdd="P" le*pdd="PRO" queile*pdd="WPRO" om*pdd="PRO" achate*pdd="VJ" cest*pdd="D" vin*pdd="NCS" est*pdd="VJ" la*pdd="D" chars*pdd="NCS" de*pdd="P" Crist*pdd="NPRS" representanz*pdd="VG" 
+
+nostre*pdd="DZ" forme*pdd="NCS".*pdd="PONFP"  {74} Li*pdd="D" ciez*pdd="NCS" abundoit*pdd="VJ" de*pdd="P" vin*pdd="NCS" novel*pdd="ADJ" del*pdd="TMP" queil*pdd="WPRO" la*pdd="D" terre*pdd="NCS" 
+
+astoit*pdd="VJ" soffraitouse*pdd="ADJ".*pdd="PONFP"  {75} Mais*pdd="CONJO" del*pdd="TMP" tot*pdd="Q" n'*pdd="NEG"astoit*pdd="VJ" mie*pdd="ADVNEG" dunkes*pdd="ADV" la*pdd="D" terre*pdd="NCS" senz*pdd="P" 
+
+richise*pdd="NCS",*pdd="PON" quar*pdd="CONJO" ele*pdd="PRO" soi*pdd="EJ" glorifieve*pdd="VPP" de*pdd="P" la*pdd="D" char*pdd="NCS" Jhesu*pdd="NPRS" Crist*pdd="NPRS" dont*pdd="WPRO" li*pdd="D" ciez*pdd="NCS" 
+n'*pdd="NEG"avoit*pdd="VJ" 
+
+mie*pdd="ADVNEG".*pdd="PONFP"  {76} Faite*pdd="VJ" est*pdd="VJ" donkes*pdd="ADV" plaisanz*pdd="ADJ" marchandise*pdd="NCS" ke*pdd="WPRO" li*pdd="D" ciez*pdd="NCS" preist*pdd="VJ" la*pdd="D" 
+
+char*pdd="NCS" de*pdd="P" Crist*pdd="NPRS" et*pdd="CONJO" la*pdd="D" terre*pdd="NCS" lo*pdd="D" vien*pdd="NCS" do*pdd="TMP" ciel*pdd="NCS",*pdd="PON" si*pdd="CONJS" par*pdd="P" entrechanjable*pdd="ADJ" aliance*pdd="NCS",*pdd="PON" 
+
+par*pdd="P" la*pdd="D" raison*pdd="NCS" de*pdd="P" la*pdd="D" chose*pdd="NCS" prise*pdd="VPP" et*pdd="CONJO" doneie*pdd="VPP",*pdd="PON" fuissent*pdd="VJ" jamais*pdd="ADV" a*pdd="DAT" ciel*pdd="NCS" et*pdd="CONJO" 
+a*pdd="DAT" la*pdd="D" 
+
+terre*pdd="NCS" comunes*pdd="ADJ" totes*pdd="Q" lur*pdd="DZ" choses*pdd="NCPL".*pdd="PONFP"  {77} Ploranz*pdd="VG" les*pdd="D" filz*pdd="NCPL" de*pdd="P" l'*pdd="D"espous*pdd="NCS" de*pdd="P" 
+
+sue*pdd="DZ" absence*pdd="NCS",*pdd="PON" besonjable*pdd="ADJ" lor*pdd="PRO" astoit*pdd="VJ" li*pdd="D" vins*pdd="NCS" de*pdd="P" leece*pdd="NCS" solonc*pdd="P" ce*pdd="PRO" ke*pdd="WPRO" Salomons*pdd="NPRS" 
+
+<230c> avoit*pdd="AJ" dit*pdd="VPP",*pdd="PON" Donez*pdd="VJ" moret*pdd="NCS" as*pdd="TMP" ploranz*pdd="NCPL" et*pdd="CONJO" vin*pdd="NCS" a*pdd="DAT" ceaz*pdd="PRO" ki*pdd="WPRO" sunt*pdd="VJ" 
+
+d'*pdd="P"amer*pdd="ADJ" corage*pdd="NCS",*pdd="PON" boivent*pdd="VJ" et*pdd="CONJO" oblient*pdd="VJ" lor*pdd="DZ" besonges*pdd="NCPL",*pdd="PON" et*pdd="CONJO" ne*pdd="NEG" recordent*pdd="VJ" lor*pdd="DZ" 
+
+page=méditation/621
+dolor*pdd="NCS" (Prov 31,6-7).*pdd="PONFP"  {78} Li*pdd="D" Sains*pdd="NPRS" Espirs*pdd="NPRS" apparut*pdd="VJ" en*pdd="P" lengues*pdd="NCPL" de*pdd="P" feu*pdd="NCS" 
+
+et*pdd="CONJO" ne*pdd="NEG" mie*pdd="ADVNEG" senz*pdd="P" grant*pdd="ADJ" solaz*pdd="NCS" a*pdd="DAT" nos*pdd="PRO".*pdd="PONFP" {79} Ilh*pdd="PRO" covenoit*pdd="VJ" ke*pdd="CONJS" les*pdd="D" lengues*pdd="NCPL" qui*pdd="WPRO" 
+
+salut*pdd="NCS" semmoient*pdd="VJ" fuissent*pdd="VJ" contraires*pdd="ADJ" a*pdd="DAT" cez*pdd="PRO" ki*pdd="WPRO" semmerent*pdd="VJ" dampnation*pdd="NCS".*pdd="PONFP" 
+
+{80} Les*pdd="D" lengues*pdd="NCPL" del*pdd="TMP" serpent*pdd="NCS",*pdd="PON" d'*pdd="P"Evain*pdd="NPRS",*pdd="PON" et*pdd="CONJO" d'*pdd="P"Adan*pdd="NPRS" semerent*pdd="VJ" la*pdd="D" mort*pdd="NCS",*pdd="PON" 
+
+et*pdd="CONJO" si*pdd="CONJS" com*pdd="CMP" dist*pdd="VJ" sains*pdd="ADJ" Jakemes*pdd="NPRS" li*pdd="D" apostles*pdd="NCS",*pdd="PON" La*pdd="D" lengue*pdd="NCS" est*pdd="VJ" plaine*pdd="ADJ" de*pdd="P" venim*pdd="NCS" 
+
+morteil*pdd="ADJ" (Jac 3,8).*pdd="PONFP"  {81} Et*pdd="CONJO" ce*pdd="PRO" vint*pdd="VJ" de*pdd="P" la*pdd="D" lengue*pdd="NCS" del*pdd="TMP" serpent*pdd="NCS",*pdd="PON" ki*pdd="WPRO" spirat*pdd="VJ" lo*pdd="D" 
+
+venim*pdd="NCS" a*pdd="DAT" Evain*pdd="NPRS",*pdd="PON" Eve*pdd="NPRS" a*pdd="DAT" Adan*pdd="NPRS",*pdd="PON" et*pdd="CONJO" Adanz*pdd="NPRS" vot*pdd="MDJ" le*pdd="D" venim*pdd="NCS" retordre*pdd="VX" el*pdd="TMP" creator*pdd="NPRS".*pdd="PONFP" 
+
+{82} Li*pdd="D" venins*pdd="NCS" est*pdd="VJ" froiz*pdd="ADJ" natureement*pdd="ADV".*pdd="PONFP"  {83} Par*pdd="P" ce*pdd="PRO" donkes*pdd="ADV" ke*pdd="CONJS" les*pdd="D" 
+
+lengues*pdd="NCPL" del*pdd="TMP" serpent*pdd="NCS",*pdd="PON" d'*pdd="P"Evain*pdd="NPRS",*pdd="PON" et*pdd="CONJO" d'*pdd="P"Adan*pdd="NPRS" furent*pdd="VJ" plaines*pdd="ADJ" de*pdd="P" venim*pdd="NCS" 
+
+mortel*pdd="ADJ",*pdd="PON" si*pdd="CONJS" furent*pdd="VJ" natureement*pdd="ADV" froides*pdd="ADJ" et*pdd="CONJO" encor*pdd="ADV" n'*pdd="NEG"at*pdd="VJ" menbre*pdd="NCS" en*pdd="P" l'*pdd="D"ome*pdd="NCS" 
+
+si*pdd="ADV" froit*pdd="ADJ".*pdd="PONFP"  {84} Ades*pdd="ADV" ke*pdd="CONJS" la*pdd="D" lengue*pdd="NCS" est*pdd="EJ" asise*pdd="VPP" en*pdd="P" humoir*pdd="NCS",*pdd="PON" glace*pdd="VJ" tost*pdd="ADV",*pdd="PON" 
+
+quar*pdd="CONJO" celes*pdd="PRO" delovregarent*pdd="VJ" tost*pdd="ADV" de*pdd="P" la*pdd="D" veriteit*pdd="NCS".*pdd="PONFP"  {85} Gieres*pdd="CONJO" covenoit*pdd="VJ" si*pdd="CONJS" 
+
+com*pdd="CMP" les*pdd="D" lengues*pdd="NCPL" del*pdd="TMP" Saint*pdd="NPRS" Espir*pdd="NPRS" semmoient*pdd="VJ"  <230d> contraires*pdd="ADJ" choses*pdd="NCPL" 
+
+k'*pdd="CONJS"eles*pdd="PRO" awissent*pdd="VJ" contraires*pdd="ADJ" proprietez*pdd="NCPL".*pdd="PONFP"  {86} Por*pdd="P" ce*pdd="PRO" furent*pdd="VJ" eles*pdd="PRO" 
+
+chades*pdd="VPP" et*pdd="CONJO" seches*pdd="VPP" si*pdd="CONJS" com*pdd="CMP" fous*pdd="ADJ",*pdd="PON" quar*pdd="CONJO" celes*pdd="PRO" avaient*pdd="AJ" esteit*pdd="VPP" froides*pdd="ADJ" et*pdd="CONJO" 
+
+freisses*pdd="ADJ" si*pdd="CONJS" com*pdd="CMP" dit*pdd="VJ" est*pdd="VJ".*pdd="PONFP"  {87} L'*pdd="D"atre*pdd="ADJ" raisons*pdd="NCS":*pdd="PONFP" la*pdd="D" lengue*pdd="NCS" demostret*pdd="VJ" la*pdd="D" 
+
+science*pdd="NCS",*pdd="PON" li*pdd="D" fous*pdd="NCS" enroidist*pdd="VJ" lo*pdd="D" testel*pdd="NCS",*pdd="PON" et*pdd="CONJO" li*pdd="D" espirs*pdd="NCS" nos*pdd="PRO" fait*pdd="VJ" sechanz*pdd="ADJ" 
+quar*pdd="CONJO" 
+
+sa*pdd="DZ" unctions*pdd="NCS" ensenget*pdd="VJ" de*pdd="P" totes*pdd="Q" choses*pdd="NCPL" et*pdd="CONJO" nos*pdd="DZ" frailes*pdd="ADJ" fait*pdd="VJ" fermes*pdd="ADJ" en*pdd="P" 
+
+bien*pdd="NCS".*pdd="PONFP"  {88} Cest*pdd="D" tresor*pdd="NCS" avons*pdd="VJ" nos*pdd="PRO" en*pdd="P" vaiseaz*pdd="NCS" de*pdd="P" terre*pdd="NCS"  (2 Cor 4,7).*pdd="PONFP" 
+
+{89} Esgarde*pdd="VJ" gieres*pdd="CONJO",*pdd="PON" anrme*pdd="NCS",*pdd="PON" par*pdd="P" quantes*pdd="ADJ" manieres*pdd="NCPL" tes*pdd="DZ" saluz*pdd="NCS" est*pdd="EJ" a*pdd="DAT" 
+
+toi*pdd="PRO" annunciez*pdd="VPP" de*pdd="P" Deu*pdd="NPRS".*pdd="PONFP" 
+
+{90} Viens*pdd="VJ" a*pdd="DAT" hore*pdd="NCS" de*pdd="P" midi*pdd="NCS" a*pdd="P" Mont*pdd="NPRS" d'*pdd="NPRS"Olive*pdd="NPRS" et*pdd="CONJO" esgarde*pdd="VJ" lo*pdd="D" sanior*pdd="NPRS" Jhesum*pdd="NPRS" 
+
+montant*pdd="VG".*pdd="PONFP"  {91} Quez*pdd="WPRO" joie*pdd="NCS" plus*pdd="QR" granz*pdd="ADJ"!*pdd="PONFP"  {92} Quez*pdd="WPRO" solaz*pdd="NCS" plus*pdd="QR" suave*pdd="ADJ" ke*pdd="CONJO" 
+
+nostre*pdd="DZ" nature*pdd="NCS" est*pdd="EJ" essalcie*pdd="VPP" desor*pdd="ADV" les*pdd="D" ordenes*pdd="NCPL" des*pdd="TMP" angeles*pdd="NCPL" mais*pdd="CONJO" assise*pdd="VPP" 
+
+meimes*pdd="FP" el*pdd="TMP" siege*pdd="NCS" del*pdd="TMP" pere*pdd="NPRS"!*pdd="PONFP"  {93} Pense*pdd="VJ" a*pdd="DAT" com*pdd="CONJS" grant*pdd="ADJ" joie*pdd="NCS" et*pdd="CONJO" a*pdd="DAT" com*pdd="CONJS" lie*pdd="ADJ" 
+
+chiere*pdd="NCS" fut*pdd="EJ" receuz*pdd="VPP" del*pdd="TMP" pere*pdd="NPRS" iciz*pdd="D" fiz*pdd="NPRS" qui*pdd="WPRO" si*pdd="ADV" obeissanment*pdd="ADV" et*pdd="CONJO" si*pdd="ADV" feablement*pdd="ADV" 
+
+avoit*pdd="AJ" acomplit*pdd="VPP" toz*pdd="Q" les*pdd="D" comanz*pdd="NCPL" de*pdd="P" la*pdd="D" legation*pdd="NCS" u*pdd="WPRO" ilh*pdd="PRO" fu*pdd="EJ" envoiez*pdd="VPP".*pdd="PONFP"  {94} A*pdd="DAT" 
+
+cui*pdd="WPRO" encontre*pdd="ADV" alant*pdd="VG" li*pdd="D" angele*pdd="NCPL" et*pdd="CONJO" merveilhant*pdd="VG" por*pdd="P" la*pdd="D" haltece*pdd="NCS" de*pdd="P" l'*pdd="D"oevre*pdd="NCS" 
+u*pdd="CONJO" 
+
+par*pdd="P" trop*pdd="Q" grant*pdd="ADJ" joie*pdd="NCS"  <231a> disoient*pdd="VJ",*pdd="PON" Qui*pdd="WPRO" est*pdd="VJ" iciz*pdd="PRO" ki*pdd="WPRO" vient*pdd="VJ" del*pdd="TMP" monde*pdd="NCS" a*pdd="DAT" 
+
+taintes*pdd="VPP" vestures*pdd="NCPL"?*pdd="PONFP"  (Isa 63,1)  {95} A*pdd="DAT" quez*pdd="WPRO" respondent*pdd="VJ" li*pdd="D" angele*pdd="NCPL" venant*pdd="VG" 
+
+avoec*pdd="P" Jhesum*pdd="NPRS" et*pdd="CONJO" plus*pdd="QR" consachables*pdd="ADJ" des*pdd="TMP" secrez*pdd="NCPL",*pdd="PON" Iciz*pdd="PRO" est*pdd="VJ" li*pdd="D" beaz*pdd="NCS" en*pdd="P" sa*pdd="DZ" 
+
+vesture*pdd="NCS" venanz*pdd="VG" en*pdd="P" sa*pdd="DZ" force*pdd="NCS"  (Isa 63,1) quar*pdd="CONJO" ilh*pdd="PRO" n'*pdd="NEG"avoit*pdd="VJ" ke*pdd="FP" faire*pdd="VX" d'*pdd="P"aie*pdd="NCS" 
+
+page=méditation/622
+d'*pdd="P"atrui*pdd="NCS".*pdd="PONFP"  {96} Don*pdd="ADV" venant*pdd="VG" encontre*pdd="P" li*pdd="D" angele*pdd="NCPL" et*pdd="CONJO" assi*pdd="ADV" comprehendant*pdd="VG" cuer*pdd="NCS" 
+
+et*pdd="CONJO" meimes*pdd="FP" a*pdd="DAT" lui*pdd="PRO" dient*pdd="VJ",*pdd="PON" Por*pdd="WADV" quoi*pdd="WADV" est*pdd="VJ" donkes*pdd="ADV" vos*pdd="DZ" vestemenz*pdd="NCPL" roiges*pdd="ADJ" et*pdd="CONJO" 
+
+degotez*pdd="VPP" si*pdd="CONJS" com*pdd="CMP" de*pdd="P" celui*pdd="PRO" ki*pdd="WPRO" at*pdd="AJ" foleit*pdd="VPP" a*pdd="DAT" stordor*pdd="NCS"?*pdd="PONFP"  {Isa 63,2)  {97} Et*pdd="CONJO" li*pdd="D" 
+
+Sires*pdd="NPRS" benignement*pdd="ADV" respont*pdd="VJ",*pdd="PON" Je*pdd="PRO" ai*pdd="AJ" souz*pdd="P" esteit*pdd="VPP" et*pdd="CONJO" descochiet*pdd="VPP" la*pdd="D" pressure*pdd="NCS" 
+
+de*pdd="P" la*pdd="D" passion*pdd="NCS",*pdd="PON" et*pdd="CONJO" lor*pdd="NCS" sanz*pdd="NCS" est*pdd="EJ" arosez*pdd="VPP" sor*pdd="P" mon*pdd="DZ" vestement*pdd="NCS"  (Isa 63,3).*pdd="PONFP" 
+
+{98} Bien*pdd="ADV" dist*pdd="VJ" lur*pdd="DZ" sanz*pdd="NCPL" car*pdd="CONJO" por*pdd="P" nos*pdd="PRO" espanduz*pdd="VPP",*pdd="PON" u*pdd="CONJO" noz*pdd="DZ" sanz*pdd="NCPL" c'*pdd="PRO"est*pdd="VJ" la*pdd="D" paine*pdd="NCS" 
+
+de*pdd="P" nostre*pdd="DZ" pechiet*pdd="NCS" qui*pdd="WPRO" est*pdd="EJ" sanz*pdd="P" apeleiz*pdd="VPP".*pdd="PONFP"  {99} Et*pdd="CONJO" apres*pdd="ADV" lor*pdd="PRO" dist*pdd="VJ",*pdd="PON" J'*pdd="PRO"ai*pdd="AJ" fait*pdd="VPP" 
+
+par*pdd="P" ma*pdd="DZ" vertu*pdd="NCS" lo*pdd="D" salut*pdd="NCS" a*pdd="DAT" mi*pdd="DZ" honor*pdd="NCS",*pdd="PON" kene*pdd="NCS" fuisse*pdd="EJ" blamez*pdd="VPP",*pdd="PON" et*pdd="CONJO" mes*pdd="CONJS" desdeins*pdd="NCS" 
+
+m'*pdd="PRO"at*pdd="AJ" aidiet*pdd="VPP".*pdd="PONFP"  {100} Quar*pdd="CONJO" li*pdd="D" sires*pdd="NPRS" ot*pdd="VJ" desdeing*pdd="NCS" del*pdd="TMP" diable*pdd="NCS" qui*pdd="WPRO" la*pdd="D" disposition*pdd="NCS" 
+
+de*pdd="P" Deu*pdd="NPRS" del*pdd="TMP" siege*pdd="NCS" a*pdd="DAT" restorer*pdd="VX" par*pdd="P" l'*pdd="D"ome*pdd="NCS" vot*pdd="MDJ" anientir*pdd="VX".*pdd="PONFP"  {101} Et*pdd="CONJO" detriant*pdd="VG" 
+
+tant*pdd="Q" com*pdd="CONJS" ilh*pdd="PRO" pot*pdd="VJ",*pdd="PON" et*pdd="CONJO" de*pdd="P" ce*pdd="PRO" si*pdd="CONJS" com*pdd="CMP" desdenganz*pdd="NCS",*pdd="PON" li*pdd="D" Sires*pdd="NPRS" comprist*pdd="VJ"  <231b> 
+
+les*pdd="D" boisdous*pdd="NCPL" en*pdd="P" lor*pdd="DZ" boisdie*pdd="NCS",*pdd="PON" et*pdd="CONJO" amenat*pdd="VJ" les*pdd="D" conseilhors*pdd="NCPL" en*pdd="P" fole*pdd="ADJ" fin*pdd="NCS".*pdd="PONFP" 
+
+{l02} Quar*pdd="CONJO" par*pdd="P" ce*pdd="PRO" est*pdd="EJ" essalciez*pdd="VPP" li*pdd="D" hom*pdd="NCS" qu'*pdd="CONJS"ilh*pdd="PRO" le*pdd="PRO" voloit*pdd="MDJ" abatre*pdd="VX" et*pdd="CONJO" ja*pdd="ADV" 
+
+poonz*pdd="MDJ" dire*pdd="VX" a*pdd="DAT" l'*pdd="D"anemi*pdd="NCS" ce*pdd="PRO" ke*pdd="WPRO" dist*pdd="VJ" Joseph*pdd="NPRS" a*pdd="DAT" ses*pdd="DZ" freres*pdd="NCPL",*pdd="PON" Vos*pdd="PRO" quidaistes*pdd="VJ" 
+
+encontre*pdd="P" moi*pdd="PRO" mal*pdd="ADV",*pdd="PON" mais*pdd="CONJO" deus*pdd="NPRS" le*pdd="PRO" m'*pdd="PRO"at*pdd="AJ" retorneit*pdd="VPP" en*pdd="P" bien*pdd="NCS"  (Gen 50,20).*pdd="PONFP" 
+
+{l03} Por*pdd="P" ce*pdd="PRO" dist*pdd="VJ" bien*pdd="ADV",*pdd="PON" mes*pdd="CONJS" desdeins*pdd="NCS" m'*pdd="PRO"at*pdd="AJ" aidiet*pdd="VPP",*pdd="PON" c'*pdd="PRO"est*pdd="VJ":*pdd="PONFP" de*pdd="P" meilhor*pdd="ADJR" 
+
+maniere*pdd="NCS" est*pdd="EJ" reformeiz*pdd="VPP" li*pdd="D" hom*pdd="NCS" apres*pdd="P" le*pdd="D" lovergement*pdd="NCS" ke*pdd="CONJO" devant*pdd="ADV".*pdd="PONFP"  {l04} 
+
+Dont*pdd="ADV" David*pdd="NPRS" dist*pdd="VJ",*pdd="PON" Li*pdd="D" Sires*pdd="NPRS" at*pdd="AJ" magnifijet*pdd="VPP" l'*pdd="D"afaire*pdd="NCS" et*pdd="CONJO" nos*pdd="PRO" somes*pdd="EJ" fait*pdd="VPP" leceor*pdd="NCS" 
+
+si*pdd="CONJS" com*pdd="CMP" ilh*pdd="PRO" die*pdd="VJ".*pdd="PONFP"  {105} N'*pdd="NEG"at*pdd="AJ" mie*pdd="ADVNEG" solement*pdd="ADV" fait*pdd="VPP" grant*pdd="ADJ" chose*pdd="NCS" mais*pdd="CONJO" mimes*pdd="ADV" 
+
+l'*pdd="D"afaire*pdd="NCS" magnifiet*pdd="VJ",*pdd="PON" et*pdd="CONJO" de*pdd="P" ce*pdd="PRO" est*pdd="VJ" a*pdd="DAT" enjoir*pdd="VX" et*pdd="CONJO" a*pdd="DAT" dire*pdd="VX",*pdd="PON" Tu*pdd="PRO" as*pdd="AJ" retorneit*pdd="VPP" 
+ma*pdd="DZ" 
+
+plainte*pdd="NCS" en*pdd="P" joie*pdd="NCS" si*pdd="CONJS" as*pdd="AJ" desciret*pdd="VPP" mon*pdd="DZ" sach*pdd="NCS" et*pdd="CONJO" m'*pdd="PRO"as*pdd="AJ" avironeit*pdd="VPP" de*pdd="P" leece*pdd="NCS"  (Ps
+ 
+29,12).*pdd="PONFP"  {106} 
+Ceste*pdd="D" leece*pdd="NCS" sentoit*pdd="VJ" bien*pdd="ADV" li*pdd="D" hermites*pdd="NCS" qui*pdd="WPRO",*pdd="PON" a*pdd="DAT" son*pdd="DZ" compangon*pdd="NCS" 
+
+demandant*pdd="VG" coment*pdd="WADV" li*pdd="PRO" astoit*pdd="VJ",*pdd="PON" dist*pdd="VJ",*pdd="PON" Si*pdd="ADV" bien*pdd="ADJ" moi*pdd="PRO" est*pdd="VJ" ke*pdd="CONJS" je*pdd="PRO" ne*pdd="NEG" voroi*pdd="MDJ" 
+
+nient*pdd="ADVNEG" estre*pdd="VX" angeles*pdd="NCS".*pdd="PONFP"  {107} Car*pdd="CONJO" je*pdd="PRO" n'*pdd="NEG"ai*pdd="VJ" mie*pdd="ADVNEG" mon*pdd="DZ" creator*pdd="NPRS" a*pdd="DAT" sanior*pdd="NCS" tant*pdd="Q" 
+
+solement*pdd="ADV",*pdd="PON" si*pdd="CONJS" com*pdd="CMP" li*pdd="D" angele*pdd="NCPL",*pdd="PON" mais*pdd="CONJO" a*pdd="DAT" compangon*pdd="NCS" et*pdd="CONJO" a*pdd="DAT" frere*pdd="NCS" de*pdd="P" ma*pdd="DZ" nature*pdd="NCS",*pdd="PON" 
+
+et*pdd="CONJO" de*pdd="P" ce*pdd="PRO" est*pdd="VJ" ma*pdd="DZ"  <231c> glore*pdd="NCS".*pdd="PONFP" 
+
+{108} Sovenge*pdd="VJ" toi*pdd="PRO" a*pdd="DAT" hore*pdd="NCS" de*pdd="P" none*pdd="NCS" de*pdd="P" cel*pdd="D" bieneurous*pdd="ADJ" laron*pdd="NCS",*pdd="PON" fait*pdd="VJ" 
+
+compangon*pdd="NCS" des*pdd="TMP" martyres*pdd="NCPL" et*pdd="CONJO" des*pdd="TMP" confessors*pdd="NCPL",*pdd="PON" quar*pdd="CONJO" ilh*pdd="PRO" muat*pdd="VJ" la*pdd="D" necessiteit*pdd="NCS" 
+
+en*pdd="P" volenteit*pdd="NCS",*pdd="PON" la*pdd="D" paine*pdd="NCS" en*pdd="P" glore*pdd="NCS",*pdd="PON" la*pdd="D" crois*pdd="NCS" en*pdd="P" victoire*pdd="NCS".*pdd="PONFP"  {109} Toi*pdd="PRO",*pdd="PON" tres*pdd="ADV" 
+
+bieneurous*pdd="ADJ" martyr*pdd="NCS" et*pdd="CONJO" confes*pdd="NCS",*pdd="PON" colhi*pdd="VJ" li*pdd="D" sires*pdd="NPRS" si*pdd="CONJS" com*pdd="CMP" remaissilhes*pdd="VJ" de*pdd="P" tote*pdd="Q" 
+
+la*pdd="D" steriliteit*pdd="NCS" del*pdd="TMP" munde*pdd="NCS",*pdd="PON" quar*pdd="CONJO" si*pdd="CONJS" com*pdd="CMP" ilh*pdd="PRO" dist*pdd="VJ" par*pdd="P" lo*pdd="D" prophete*pdd="NCS",*pdd="PON" Ilh*pdd="PRO" 
+est*pdd="VJ" si*pdd="CONJS" 
+
+page=méditation/623
+com*pdd="CMP" cilh*pdd="PRO" ki*pdd="WPRO" messonet*pdd="VJ" en*pdd="P" sa*pdd="DZ" vinge*pdd="NCS" apres*pdd="P" les*pdd="D" vindengeors*pdd="NCPL".*pdd="PONFP"  {110} Tu*pdd="PRO" 
+
+enjoi[*pdd="PON"n]*pdd="PON"s*pdd="VJ" Pieron*pdd="NPRS" denoiant*pdd="VG" estre*pdd="EX" fait*pdd="VPP" ton*pdd="DZ" compangon*pdd="NCS" de*pdd="P" la*pdd="D" passion*pdd="NCS".*pdd="PONFP" 
+
+{111} Tu*pdd="PRO" en*pdd="P" la*pdd="D" crois*pdd="NCS" Pieres*pdd="NPRS" et*pdd="CONJO" Pieres*pdd="NPRS" en*pdd="P" la*pdd="D" maison*pdd="NCS" Cayphas*pdd="NPRS" leres*pdd="NCS",*pdd="PON" et*pdd="CONJO" 
+
+por*pdd="P" ce*pdd="PRO" adevanças*pdd="VJ" Pieron*pdd="NPRS" en*pdd="P" paradis*pdd="NCS".*pdd="PONFP"  {112} Quar*pdd="CONJO" li*pdd="D" tiens*pdd="NCPL" diviseres*pdd="VJ" et*pdd="CONJO" 
+
+governeres*pdd="VJ" el*pdd="TMP" meime*pdd="ADJ" jor*pdd="NCS" ke*pdd="WPRO" ilh*pdd="PRO" y*pdd="PRO" entrat*pdd="VJ",*pdd="PON" toi*pdd="PRO" feable*pdd="ADJ" et*pdd="CONJO" glorious*pdd="ADJ" chevalier*pdd="NCS",*pdd="PON" 
+
+ensemble*pdd="ADV" soi*pdd="PRO" i*pdd="PRO" menat*pdd="VJ",*pdd="PON" car*pdd="CONJO" tu*pdd="PRO" desis*pdd="VJ",*pdd="PON" Aies*pdd="VJ" de*pdd="P" moi*pdd="PRO" ramenbrance*pdd="NCS" 
+
+quant*pdd="CONJS" tu*pdd="PRO" venras*pdd="VJ" en*pdd="P" ton*pdd="DZ" regne*pdd="NCS"  (Luc 23,42).*pdd="PONFP"  {113} Oi*pdd="AJ" cuers*pdd="NCS" contrieblez*pdd="VPP" 
+
+et*pdd="CONJO" humiliez*pdd="VPP"!*pdd="PONFP"  {114} Ke*pdd="WPRO" pot*pdd="MDJ" ilh*pdd="PRO" plus*pdd="QR" humlement*pdd="ADV" orer*pdd="VX",*pdd="PON" ke*pdd="CMP" ce*pdd="PRO" k'*pdd="WPRO"ilh*pdd="PRO" fuist*pdd="VJ" 
+
+ramenbrables*pdd="ADJ" de*pdd="P" soi*pdd="PRO"?*pdd="PONFP"  {115} Oi*pdd="VJ" granz*pdd="ADJ" foiz*pdd="NCS",*pdd="PON" oi*pdd="VJ" granz*pdd="ADJ"  <231d> esperance*pdd="NCS",*pdd="PON" 
+
+oi*pdd="VJ" granz*pdd="ADJ" caritez*pdd="NCS"!*pdd="PONFP"  {116} Ilh*pdd="PRO" ne*pdd="NEG" oret*pdd="VJ" mie*pdd="ADVNEG" por*pdd="P" les*pdd="D" choses*pdd="NCPL" presenz*pdd="ADJ",*pdd="PON" mais*pdd="CONJO" 
+
+por*pdd="P" icez*pdd="PRO" ki*pdd="WPRO" sunt*pdd="VJ" a*pdd="DAT" venir*pdd="VX".*pdd="PONFP"  {117} Ilh*pdd="PRO" ne*pdd="NEG" proiet*pdd="VJ" mie*pdd="ADVNEG" soi*pdd="PRO" de*pdd="P" la*pdd="D" crois*pdd="NCS" estre*pdd="EX" 
+
+jus*pdd="ADV" mis*pdd="VPP",*pdd="PON" mais*pdd="CONJO" estre*pdd="EX" el*pdd="TMP" regne*pdd="NCS" Deu*pdd="NPRS" mis*pdd="VPP".*pdd="PONFP"  {118} Ke*pdd="WPRO" est*pdd="VJ" ce*pdd="PRO" altre*pdd="ADJ" chose*pdd="NCS" a*pdd="DAT" 
+
+dire*pdd="VX",*pdd="PON" Ke*pdd="CONJS" je*pdd="PRO" convoite*pdd="VJ" estre*pdd="EX" delloiez*pdd="VPP" et*pdd="CONJO" estre*pdd="VX" avoec*pdd="P" Grist*pdd=(NPRS,OUT)  (Phip 1,23)?*pdd="PONFP" 
+
+{119} Amen*pdd="ITJ",*pdd="PON" toi*pdd="PRO" di*pdd="VJ" ge*pdd="PRO",*pdd="PON" tu*pdd="PRO" seras*pdd="EJ" hui*pdd="VPP" avoec*pdd="P" moi*pdd="PRO" en*pdd="P" paradis*pdd="NCS".*pdd="PONFP"  (Luc 23,43).*pdd="PONFP" 
+
+{120} Oi*pdd="VJ" com*pdd="CONJS" tres*pdd="ADV" bone*pdd="ADJ" promesse*pdd="NCS"!*pdd="PONFP"  {12l} Va*pdd="VJ" t'*pdd="PRO"en*pdd="P" berbis*pdd="NCS" segure*pdd="ADJ",*pdd="PON" premiers*pdd="NCS" 
+
+vaie*pdd="ADJ" et*pdd="CONJO" enspoventeie*pdd="VPP",*pdd="PON" Christus*pdd="NPRS" sor*pdd="P" sue*pdd="DZ" espale*pdd="NCS" toi*pdd="PRO" reporte*pdd="VJ" a*pdd="DAT" la*pdd="D" 
+
+bergerie*pdd="NCS".*pdd="PONFP"  {122} Forte*pdd="ADJ" est*pdd="VJ" li*pdd="D" espalle*pdd="NCS",*pdd="PON" n'*pdd="NEG"aies*pdd="VJ" mie*pdd="ADVNEG" paor*pdd="NCS";*pdd="PON" hate*pdd="ADJ" est*pdd="VJ",*pdd="PON" n'*pdd="NEG"esgarde*pdd="VJ" 
+
+mie*pdd="ADVNEG" aval*pdd="ADV";*pdd="PON" joiose*pdd="ADJ" est*pdd="VJ",*pdd="PON" n'*pdd="NEG"aies*pdd="VJ" mie*pdd="ADVNEG" tristece*pdd="NCS".*pdd="PONFP"  {123} Quar*pdd="CONJO" ilh*pdd="PRO" dist*pdd="VJ",*pdd="PON" Enjoisies*pdd="VJ" 
+
+ensemble*pdd="ADV" moi*pdd="PRO",*pdd="PON" car*pdd="CONJO" j'*pdd="PRO"ai*pdd="AJ" retroveie*pdd="VPP" la*pdd="D" dime*pdd="ADJ" drame*pdd="NCS" ke*pdd="WPRO" perdue*pdd="VPP" 
+
+avoi*pdd="AJ" (Luc 15,9).*pdd="PONFP"  {124} Et*pdd="CONJO" en*pdd="P" un*pdd="D" altre*pdd="ADJ" liu*pdd="NCS",*pdd="PON" Eissiez*pdd="VJ" fors*pdd="ADV" filhes*pdd="NCPL" de*pdd="P" Jerusalem*pdd="NPRS",*pdd="PON" 
+
+et*pdd="CONJO" voiez*pdd="VJ" le*pdd="D" roi*pdd="NCS" Salomon*pdd="NPRS" en*pdd="P" la*pdd="D" corone*pdd="NCS" dont*pdd="WPRO" sa*pdd="DZ" mere*pdd="NCS" l'*pdd="PRO"at*pdd="AJ" coronet*pdd="VPP" el*pdd="TMP" 
+
+jor*pdd="NCS" de*pdd="P" ses*pdd="DZ" esposailhes*pdd="NCPL",*pdd="PON" et*pdd="CONJO" el*pdd="TMP" jor*pdd="NCS" de*pdd="P" la*pdd="D" leece*pdd="NCS" de*pdd="P" son*pdd="DZ" cuer*pdd="NCS"  (Cant 3,11).*pdd="PONFP" 
+
+{125} Voirement*pdd="ADV" jors*pdd="NCS" de*pdd="P" leece*pdd="NCS",*pdd="PON" quar*pdd="CONJO" unkes*pdd="ADV" puis*pdd="ADV" k'*pdd="CONJS"ilh*pdd="PRO" entrat*pdd="VJ" el*pdd="TMP" monde*pdd="NCS" 
+
+n'*pdd="NEG"ot*pdd="AJ" ele*pdd="PRO" enfermeteit*pdd="VPP" de*pdd="P" sa*pdd="DZ" humaniteit*pdd="NCS" si*pdd="ADV" grant*pdd="ADJ" joie*pdd="NCS"  <232a> ke*pdd="CONJS" kant*pdd="CONJS" ilh*pdd="PRO" 
+
+acomplit*pdd="VJ" l'*pdd="D"ofisce*pdd="NCS" de*pdd="P" la*pdd="D" legation*pdd="NCS".*pdd="PONFP"  {126} Par*pdd="P" sa*pdd="DZ" mort*pdd="NCS" temporee*pdd="ADJ" annunchat*pdd="VJ" 
+
+rachateit*pdd="VJ" l'*pdd="D"umaine*pdd="ADJ" lingié*pdd="NCS" de*pdd="P" la*pdd="D" mort*pdd="NCS" pardurable*pdd="ADJ" et*pdd="CONJO" ce*pdd="PRO" fut*pdd="VJ" quant*pdd="CONJS" ilh*pdd="PRO" 
+dist*pdd="VJ",*pdd="PON" 
+
+CONSUMMATUM*pdd="ETR" EST*pdd="ETR"  (Joh 19,30).*pdd="PONFP"  {127} Alsi*pdd="ADV" com*pdd="CONJS" se*pdd="CONJS" ilh*pdd="PRO" desist*pdd="VJ",*pdd="PON" Kanke*pdd="PRO" del*pdd="TMP" 
+
+salut*pdd="NCS" de*pdd="P" l'*pdd="D"home*pdd="NCS" ont*pdd="AJ" promis*pdd="VPP" les*pdd="D" escritures*pdd="NCPL" hui*pdd="ADV" par*pdd="P" lo*pdd="D" sacrefice*pdd="NCS" de*pdd="P" mon*pdd="DZ" 
+
+cors*pdd="NCS",*pdd="PON" tot*pdd="Q" est*pdd="EJ" consumeit*pdd="VPP".*pdd="PONFP"  {128} Por*pdd="P" ce*pdd="PRO" a*pdd="DAT" demostreir*pdd="VX" la*pdd="D" leece*pdd="NCS" de*pdd="P" mon*pdd="DZ" 
+
+cuer*pdd="NCS",*pdd="PON" et*pdd="CONJO" lo*pdd="D" desier*pdd="NCS" estre*pdd="EX" acomplit*pdd="VPP",*pdd="PON" et*pdd="CONJO" ke*pdd="CONJS" tui*pdd="Q" sachent*pdd="VJ" lor*pdd="NCS" besonge*pdd="NCPL" estre*pdd="EX" 
+
+consumee*pdd="VPP",*pdd="PON" di*pdd="VJ" ge*pdd="PRO" a*pdd="DAT" halte*pdd="ADJ" voiz*pdd="NCS",*pdd="PON" CONSUMMATUM*pdd="ETR" EST*pdd="ETR".*pdd="PONFP"  {129} O*pdd="ITJ" nient*pdd="ADVNEG" aesmable*pdd="ADJ" 
+
+dilections*pdd="NCS" de*pdd="P" cariteit*pdd="NCS"!*pdd="PONFP"  {130} Oi*pdd="VJ" mervilhose*pdd="ADJ" demostrance*pdd="NCS" d'*pdd="P"amur*pdd="NCS" en*pdd="P" 
+
+cest*pdd="D" jors*pdd="NCS"!*pdd="PONFP"  {131} Ta*pdd="DZ" voiz*pdd="NCS",*pdd="PON" oi*pdd="VJ" tres*pdd="ADV" boens*pdd="ADJ" Jhesus*pdd="NPRS",*pdd="PON" est*pdd="VJ" plaine*pdd="ADJ" de*pdd="P" suaviteit*pdd="NCS" 
+
+gotant*pdd="VG" de*pdd="P" miel*pdd="NCS",*pdd="PON" par*pdd="P" la*pdd="PRO" queil*pdd="WPRO" cant*pdd="CONJS" tu*pdd="PRO" si*pdd="CONJS" en*pdd="P" la*pdd="D" crois*pdd="NCS" crias*pdd="VJ" tot*pdd="Q" le*pdd="D" monde*pdd="NCS" 
+
+del*pdd="TMP" somme*pdd="NCS" de*pdd="P" mort*pdd="NCS" envoilas*pdd="VJ".*pdd="PONFP"  {132} Faces*pdd="VJ" donkes*pdd="ADV" conviver*pdd="VX" ta*pdd="DZ" voiz*pdd="NCS",*pdd="PON" 
+
+duz*pdd="ADJ" Jhesu*pdd="NPRS",*pdd="PON" en*pdd="P" nos*pdd="DZ" cuers*pdd="NCPL",*pdd="PON" et*pdd="CONJO" ki*pdd="WPRO" a*pdd="DAT" monument*pdd="NCS" de*pdd="P" Lazaron*pdd="NPRS" crias*pdd="VJ",*pdd="PON" crie*pdd="VJ" 
+
+page=méditation/624
+hui*pdd="ADV" cest*pdd="D" jor*pdd="NCS" a*pdd="DAT" la*pdd="D" durece*pdd="NCS" de*pdd="P" nostre*pdd="DZ" cuer*pdd="NCS",*pdd="PON" si*pdd="CONJS" ke*pdd="CONJS" tu*pdd="PRO" escoe*pdd="VJ" jus*pdd="ADV" de*pdd="P" nos*pdd="PRO" 
+
+le*pdd="D" somme*pdd="NCS" de*pdd="P" negligence*pdd="NCS" et*pdd="CONJO" de*pdd="P" parece*pdd="NCS".*pdd="PONFP"  {133} Et*pdd="CONJO" soiens*pdd="EJ" exciteit*pdd="VPP" 
+
+<232b> el*pdd="TMP" tres*pdd="ADV" ardant*pdd="ADJ" desier*pdd="NCS" de*pdd="P" t'*pdd="DZ"amur*pdd="NCS",*pdd="PON" norris*pdd="VPP" par*pdd="P" desier*pdd="NCS" paternel*pdd="ADJ",*pdd="PON" 
+
+u*pdd="CONJO" plusemes*pdd="ADVS" maternel*pdd="ADJ",*pdd="PON" si*pdd="CONJS" com*pdd="CMP" la*pdd="D" geline*pdd="NCS" assemblet*pdd="VJ" ses*pdd="DZ" pocins*pdd="NCPL" desoz*pdd="ADV" 
+
+ses*pdd="DZ" eles*pdd="NCPL"  (Matt 23,37).*pdd="PONFP"  {134} Issi*pdd="ADV" assemble*pdd="VJ" tes*pdd="DZ" filz*pdd="NCPL".*pdd="PONFP"  {135} Nuris*pdd="VJ" les*pdd="PRO" 
+
+en*pdd="P" ton*pdd="DZ" sain*pdd="NCS" por*pdd="P" le*pdd="PRO" queil*pdd="WPRO" tu*pdd="PRO" consentis*pdd="VJ" aovrir*pdd="VX" lo*pdd="D" sain*pdd="NCS" de*pdd="P" ton*pdd="DZ" cuer*pdd="NCS".*pdd="PONFP" 
+
+{136} Oi*pdd="VJ" moz*pdd="NCS" loiens*pdd="ADJ" de*pdd="P" la*pdd="D" cariteit*pdd="NCS" de*pdd="P" Crist*pdd="NPRS" et*pdd="CONJO" suez*pdd="VJ" enbracemenz*pdd="NCS" des*pdd="TMP" 
+
+braz*pdd="NCPL" Jhesu*pdd="NPRS" Crist*pdd="NPRS"!*pdd="PONFP"  {137} Estelevos*pdd="FP" com*pdd="CONJS" bone*pdd="ADJ" et*pdd="CONJO" com*pdd="CONJS" joiose*pdd="ADJ" chose*pdd="NCS" 
+
+issi*pdd="ADV" estre*pdd="VX" strainz*pdd="ADJ" entre*pdd="P" les*pdd="D" braz*pdd="NCPL" de*pdd="P" teil*pdd="ADJ" amis*pdd="NCS"!*pdd="PONFP"  {138} Nos*pdd="PRO" somes*pdd="VJ" certes*pdd="ADV" 
+
+ki*pdd="WPRO" avons*pdd="VJ" le*pdd="D" grant*pdd="ADJ" eveke*pdd="NCS" ki*pdd="WPRO" trespassa*pdd="VJ" les*pdd="D" ciez*pdd="NCPL",*pdd="PON" Jhesum*pdd="NPRS" lo*pdd="D" filh*pdd="NPRS" Deu*pdd="NPRS" 
+
+(Heb 4,14).*pdd="PONFP" {139} Venons*pdd="VJ" o*pdd="P" fiance*pdd="NCS" al*pdd="TMP" throne*pdd="NCS" de*pdd="P" sa*pdd="DZ" graze*pdd="NCS" el*pdd="TMP" tens*pdd="NCS" 
+
+covenable*pdd="ADJ" (Heb 4,J6).*pdd="PONFP" Amen*pdd="ITJ".*pdd="PONFP" 
+
+{140} Icez*pdd="D" covenables*pdd="ADJ" sunt*pdd="VJ" meditations*pdd="NCPL" a*pdd="DAT" chascune*pdd="Q" hore*pdd="NCS" entuer*pdd="P" les*pdd="PRO" 
+
+quelz*pdd="WPRO" doit*pdd="MDJ" estre*pdd="VX" ententius*pdd="VPP" li*pdd="D" coraiges*pdd="NCS" del*pdd="TMP" disant*pdd="NCS" u*pdd="CONJO" de*pdd="P" l'*pdd="D"oiant*pdd="NCS",*pdd="PON" si*pdd="CONJS" ke*pdd="CONJS" 
+a*pdd="DAT" 
+
+chascune*pdd="Q" hore*pdd="NCS" apelet*pdd="VJ" en*pdd="P" son*pdd="DZ" coraige*pdd="NCS" u*pdd="CONJO" l'*pdd="D"un*pdd="NCS" u*pdd="CONJO" l'*pdd="D"atre*pdd="NCS" designee*pdd="VPP" meditations*pdd="NCS".*pdd="PONFP" 
+
+{14l} Se*pdd="CONJS" a*pdd="DAT" acune*pdd="Q",*pdd="PON" anrme*pdd="NCS" bieneurouse*pdd="ADJ" est*pdd="EJ" otroiet*pdd="VPP" de*pdd="P" nostre*pdd="DZ" sanior*pdd="NPRS" 
+
+penser*pdd="VX" plus*pdd="QR" docement*pdd="ADV" u*pdd="CONJO" plus*pdd="QR" joiosement*pdd="ADV",*pdd="PON" je*pdd="PRO" n'*pdd="NEG"en*pdd="PRO" ai*pdd="VJ" point*pdd="ADVNEG" d'*pdd="P"envie*pdd="NCS".*pdd="PONFP"  {142} 
+
+Or*pdd="ADV" prie*pdd="VJ" je*pdd="PRO" par*pdd="P" cariteit*pdd="NCS" toz*pdd="Q"  <232c> ceaz*pdd="PRO" et*pdd="CONJO" totes*pdd="Q" celes*pdd="PRO" ki*pdd="WPRO" liront*pdd="VJ" u*pdd="CONJO" ki*pdd="WPRO" 
+
+escoteront*pdd="VJ" cez*pdd="D" paroles*pdd="NCPL",*pdd="PON" qu'*pdd="CONJS"ilh*pdd="PRO" prient*pdd="VJ" por*pdd="P" celui*pdd="PRO" ki*pdd="WPRO" l'*pdd="PRO"escrist*pdd="VJ" et*pdd="CONJO" por*pdd="P" 
+toz*pdd="Q" 
+
+ses*pdd="DZ" amis*pdd="NCPL" specialment*pdd="ADV".*pdd="PONFP" 

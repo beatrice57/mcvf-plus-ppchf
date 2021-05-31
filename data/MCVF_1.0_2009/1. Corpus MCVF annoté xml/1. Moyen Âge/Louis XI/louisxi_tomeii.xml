@@ -1,0 +1,577 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">Lettres de Louis XI, roi de France</title>
+                <title type="sub">Tome II (1461-1465)</title>
+                <title type="short">LouisXI.TomeII</title>
+                <author>
+                    <persName>
+                        <surname>Louis XI</surname>
+                        <forename/>
+                    </persName>
+                </author>
+                <editor>Modéliser le changement, les voies du français GTRC/CRSH</editor>
+                <principal>
+                    <persName>France Martineau</persName>
+                </principal>
+                <funder>
+                    <orgName>Université d'Ottawa</orgName>
+                    <orgName>Conseil de recherche en sciences humaines du Canada</orgName>
+                </funder>
+                <respStmt>
+                    <resp>Codage</resp>
+                    <persName xml:id="Fauchon">Caroline Fauchon</persName>
+                    <persName xml:id="Brazeau">Stéphanie Brazeau</persName>
+                    <persName xml:id="Labelle">Simon-Pier Labelle-Hogue</persName>
+                </respStmt>
+            </titleStmt>
+            <extent type="words">2298</extent>
+            <publicationStmt>
+                <date when="2008-11-03"/>
+                <publisher>
+                    <orgName>Modéliser le changement : les voies du français GTRC/CRSH</orgName>
+                    <address>
+                    <addrLine>60, rue Université</addrLine>
+                    <addrLine>Ottawa, Ontario</addrLine>
+                    <addrLine>K1N 6N5</addrLine>
+                    <addrLine>Tél : 613-562-5797</addrLine>
+                    <addrLine>Fax : 613-562-5981</addrLine>
+                    <addrLine><email>fmartin@uottawa.ca</email></addrLine>
+                    <addrLine>http://www.voies.uottawa.ca/</addrLine>                        
+                </address>
+                </publisher>
+                <distributor>
+                    <orgName>Modéliser le changement : les voies du français GTRC/CRSH</orgName>
+                    <address>
+                    <addrLine>60, rue Université</addrLine>
+                    <addrLine>Ottawa, Ontario</addrLine>
+                    <addrLine>K1N 6N5</addrLine>
+                    <addrLine>Tél : 613-562-5797</addrLine>
+                    <addrLine>Fax : 613-562-5981</addrLine>
+                    <addrLine><email>fmartin@uottawa.ca</email></addrLine>
+                    <addrLine>http://www.voies.uottawa.ca/</addrLine>                        
+                </address>
+                </distributor>
+                <availability status="restricted">
+                    <p>(c) Modéliser le changement : les voies du français (CRSH/GTRC, dirigé par F.
+                        Martineau)</p>
+                    <p>Les Corpus MCVF demeurent la propriété du projet Modéliser le changement :
+                        les voies du français. Les références à ces Corpus devraient apparaître
+                        ainsi : Corpus MCVF, Modéliser le changement : les voies du français (F.
+                        Martineau (dir.), U. d’Ottawa).Tous les documents du Corpus MCVF ne peuvent
+                        être divulgués à de tierces parties sans l’autorisation préalable de la
+                        Directrice du Projet </p>
+                    <p>Pour tout autre usage, contacter : <persName>France Martineau</persName>
+                        <orgName>Modéliser le changement : les voies du français, Université
+                            d'Ottawa</orgName>
+                        <email>fmartin@uottawa.ca</email></p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <biblStruct type="Source_publique">
+                    <monogr>
+                        <author>
+                            <persName>
+                                <surname>Louis XI</surname>
+                                <forename/>
+                            </persName>
+                        </author>
+                        <editor>
+                            <persName>
+                                <surname>Vaesen</surname>
+                                <forename>Joseph</forename>
+                            </persName>
+                            <persName>
+                                <surname>Charavay</surname>
+                                <forename>Étienne</forename>
+                            </persName>
+                        </editor>
+                        <title>Lettres de Louis XI, roi de France</title>
+                        <title type="sub">Tome II (1461-1465)</title>
+                        <imprint>
+                            <pubPlace>Paris</pubPlace>
+                            <publisher>Librairie Renouard</publisher>
+                            <date when="1885">1885</date>
+                        </imprint>
+                    </monogr>
+                    <series/>
+                </biblStruct>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Projet : Modéliser le changement les voies du français (GTRC/CRSH) <lb/>Resp. :
+                        <persName>France Martineau</persName> Institution : Département de français,
+                    Université d'Ottawa
+                    <address>
+                    <addrLine>60, rue Université</addrLine>
+                    <addrLine>Ottawa, Ontario</addrLine>
+                    <addrLine>K1N 6N5</addrLine>
+                    <addrLine>Tél : 613-562-5797</addrLine>
+                    <addrLine>Fax : 613-562-5981</addrLine>
+                    <addrLine><email>fmartin@uottawa.ca</email></addrLine>
+                    <addrLine>www.voies.uottawa.ca</addrLine>                        
+                </address></p>
+            </projectDesc>
+            <editorialDecl>
+                <p>Voir le manuel d'annotation TEI au http://www.voies.uottawa.ca</p>
+                <p>L'édition de référence a été respectée quant à l'orthographe, la ponctuation, la
+                    mise en page et la pagination. Cependant, la césure des mots en fin de lignes
+                    (ou de pages) a été supprimée, le mot est placé dans la ligne ou la page où il
+                    commence. </p>
+                <p>Les paragraphes sont notés par P pour la prose. Pour les vers, P rend="gv"
+                    indique que le paragraphe est constitué d'un groupe de vers. </p>
+                <p> Les débuts des vers sont encodés par LB. Cette balise peut également servir dans
+                    les textes en prose à indiquer les débuts des lignes selon la pagination de
+                    l'édition. </p>
+                <p>Les changements de pages sont indiqués par la balise PB</p>
+                <p>Le corps du texte est obligatoirement compris dans le BODY. Le FRONT contenant le
+                    titre et/ou le prologue et le BACK (explicit) sont facultatifs et ne sont mis
+                    qu'au besoin. </p>
+                <p>Les différentes parties du texte (livre, chapitre...) sont encodées par DIV,
+                    auquel s'ajoute l'attribut TYPE qui spécifie sa nature. </p>
+                <p>Les paragraphes (P), lignes (LB) et pages (PB) de même de certaines divisions
+                    (DIV) sont ou peuvent être numérotés par l'attribut N s'ils le sont dans
+                    l'édition. </p>
+                <p>Quelques commentaires ou corrections ont été introduits à l'aide de la balise
+                    NOTE, CORR ou SIC. </p>
+                <p>Les discours directs et les citations ont été encodés par la balise Q. Cette
+                    balise est mise à chaque fois que des guillemets sont utilisés dans l'édition. </p>
+                <p>L'élément FOREIGN indique un passage en latin qui est noté en italique dans
+                    l'édition, les occurrences non en italique sont signalées par l'attribut ROMAIN. </p>
+                <p>Les folios sont notés par la balise <tag>pb rend="folio"</tag></p>
+                <p>Les notes de bas de pages ont été retirées. </p>
+                <p>Les paragraphes entièrement en latin ont été retirés, une balise P et une NOTE
+                    les signalent. </p>
+                <p>Note spécifique au texte ci-dessous: Aucune.</p>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <creation>
+                <date notBefore="1461" notAfter="1465">De 1461 à 1465</date>
+            </creation>
+            <langUsage>
+                <language ident="frm"/>
+            </langUsage>
+            <textDesc>
+                <channel/>
+                <constitution>Extrait</constitution>
+                <derivation/>
+                <domain/>
+                <factuality/>
+                <interaction/>
+                <preparedness/>
+                <purpose/>
+            </textDesc>
+            <textClass>
+                <keywords scheme="GTRC">
+                    <list>
+                        <item n="domaine">Non littéraire</item>
+                        <item n="genre">Correspondance</item>
+                        <item n="forme">Prose</item>
+                        <item n="docRegion1">France</item>
+                        <item n="docRegion2"/>
+                        <item n="docRegion3"/>
+                        <item n="auteurRegion1">France</item>
+                        <item n="auteurRegion2">France Centre</item>
+                        <item n="auteurRegion3">Berry</item>
+                        <item n="auteurSexe">Homme</item>
+                        <item n="occupation">Noble</item>
+                        <item n="scribeRegion1"/>
+                        <item n="scribeRegion2"/>
+                        <item n="scribeRegion3"/>
+                        <item n="imprimeurRegion1"/>
+                        <item n="imprimeurRegion2"/>
+                        <item n="imprimeurRegion3"/>
+                    </list>
+                </keywords>
+                <classCode scheme="Indice de Dees"/>
+            </textClass>
+            <particDesc>
+                <listPerson>
+                    <person role="auteur">
+                        <persName>
+                            <surname>Louis XI</surname>
+                            <forename/>
+                        </persName>
+                        <birth>
+                            <date when="1423-07-03">1423-07-03</date>
+                            <placeName>Bourges, France</placeName>
+                        </birth>
+                    </person>
+                    <person role="scribe">
+                        <persName>
+                            <surname>Inconnu</surname>
+                            <forename/>
+                        </persName>
+                        <birth/>
+                    </person>
+                </listPerson>
+            </particDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2009-03-31" who="#Labelle">Vérification des en-têtes</change>
+            <change when="2009-03-26" who="#Fauchon">Retour sur le codage et le header pour
+                regrouper toutes les lettres de Louis XI par volumes</change>
+            <change when="2009-03-19" who="#Fauchon">Vérification et correction du TEI et du header
+                d'après les normes du P5 et du schéma MCVF</change>
+            <change when="2008-11-03" who="#Labelle">Vérification dates et lieux</change>
+            <change when="2008-07-25" who="#Labelle">En-tête</change>
+            <change when="2005-05-20" who="#Brazeau">Vérification du codage</change>
+            <change when="2005-05-17" who="#Brazeau">Codage TEI</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <docTitle>
+                <titlePart>LETTRES DE LOUIS XI</titlePart>
+                <titlePart>LOUIS DAUPHIN</titlePart>
+                <titlePart>1461-1465</titlePart>
+            </docTitle>
+        </front>
+        <group>
+
+            <text n="11">
+                <pb n="14"/>
+                <front>
+                    <head>
+                        <hi rend="gras"> AU DUC DE MILAN (V.).</hi>
+                    </head>
+                    <docDate>Tours, 11 octobre 1461.</docDate>
+                    <docEdition>Orig. Arch. de Milan.</docEdition>
+                </front>
+                <body>
+                    <p> Loys, par la grace de Dieu, roy de France. Trés chier et trés amé oncle,
+                        vous savez assez le trés petit <pb n="15"/> et mauvaiz gouvernement qui de
+                        long temps a esté et est encores de present en la maison de Savoie, de
+                        laquelle nous sommes si fort aliez, ainsi qu'il est assez notoire. Et aussi
+                        estes bien recors des grands peynes, travaulx et diligences que feu le
+                        legat, nostre bel oncle a eues et soustenues pour y cuider mectre bon ordre
+                        et gouvernement, ce qu'il ne peut faire en son vivant, obstant les mauvaises
+                        et iniques induccions et seduccions qui y ont couru par longtemps et font à
+                        present par les infideles et desloyaux envers Dieu, nostre createur, et la
+                        crestienté, les Cipriens et leurs aliez et complices, qui, de long temps,
+                        ont entreprins le gouvernement de ladite maison de Savoye. Et semblablement
+                        avez bien souvenance que pour y obvier et donner la provision convenable, et
+                        aussi pour garder l'onneur de la maison de France, feu nostre trés chier
+                        seigneur et pere, que Dieu absoille, a eu de grans peynes et travaulx, et se
+                        y est employé bien et grandement. Mais quelque ordre et provision qu'on y a
+                        peu mectre et donner, les choses y ont esté depuis et vont de jour en jour
+                        de mal en piz, à nostre trés grant desplaisance. Et pour ce que ceste
+                        matiere touche grandement l'onneur de nous et de la maison de France, et que
+                        avons esté advertiz qu'ilz perseverent en leur mauvaiz et dampnable propos,
+                        et que desjà ilz vous ont fait requerir <pb n="16"/> par Thomas de
+                        Rommaignant, leur serviteur, pour les aider et favoriser, à quoy de tout
+                        nostre povoir, moyennant l'aide de Dieu et de noz bons vassaulx, subgietz,
+                        amis, alliez et bienvueillans, sommes deliberez resister, et à ce nous
+                        employer pour l'onneur de ladite maison, sans riens y espargner, nous vous
+                        avons bien voulu escripre ces choses, et vous advertir de nostre vouloir et
+                        entencion sur ce, à ce que vous ne vueillez donner aucune faveur ou aide en
+                        ceste partie, qui feust à nostre desplaisance et contre nostre dit vouloir
+                        et entencion, en vous advertissant, que quant le vouldriez faire, ce que ne
+                        croyons pas, que nous y donrons la provision par tous les moyens qui nous
+                        seront possibles, en manière que la chose sortira son effect à nostre
+                        entencion, ainsi que singulierement le desirons. Donné à Tours, le XI<hi
+                            rend="exp">e</hi> jour d'octobre.</p>
+                    <p>
+                        <hi rend="pmaj">Loys.</hi>
+                    </p>
+                    <p>
+                        <hi rend="pmaj">Meurin.</hi>
+                    </p>
+                    <p>A nostre trés chier et trés amé oncle le duc de Millan.</p>
+                </body>
+            </text>
+            <text n="36">
+                <pb n="56"/>
+                <front>
+                    <head>
+                        <hi rend="gras">A LA REINE</hi>
+                    </head>
+                    <docDate>juin 1462.</docDate>
+                    <docEdition>Orig. Bibl. nat., Fr. 20489, fol. 69.</docEdition>
+                </front>
+                <body>
+                    <p> Ma femme, je ne m'en puis si tost aller que je pensoye, pour plusieurs grans
+                        affaires que me sont survenues,<pb n="57"/> et pour ce venez vous en à
+                        Melun, et n'amenez que la dame de Chasteauneuf, la dame de Saint Priet, et
+                        Françoyse, et ordonnez la femme de Rollant pour demourant avec le surplus.
+                        Et adieu. Escript à <hi rend="points"/>
+                    </p>
+                </body>
+            </text>
+
+            <text n="44">
+                <pb n="71"/>
+                <front>
+                    <head>
+                        <hi rend="gras">AU COMTE DU MAINE</hi>
+                    </head>
+                    <docDate>Milieu d'août 1462.</docDate>
+                    <docEdition>Minute. Bibl. nat., Fr. 20490, fol. 55.</docEdition>
+                </front>
+                <body>
+                    <p>Mon oncle, j'ay receu les lectres que vous m'avez escriptes et veu bien au
+                        long le memoire que m'avez envoyé contenant les diligences que avez faictes
+                        pour resister à la descente des Anglois, dont je vous mercye tant que je
+                        puis. Je ne plains rien en ceste matiere, sinon la paine que je vous ay
+                        donnée et donne. Au surplus, j'ay differé de vous escripre, actendant que
+                        vous faire savoir certaines nouvelles. Toutesvoyes, il ne m'en est point
+                        venu qui feussent à escripre, senon aujourd'uy qu'il est venu une des deux
+                        carvelles de Honnefleu, que j'avoye envoyées pour savoir des nouvelles, et
+                        celuy que j'avoye envoyé dit qu'il est party <pb n="72"/> de au droit de
+                        Sandwich XXXV navires, dont en y a XIIII à chasteau devant et chasteau
+                        d'arriere, et les autres sont petiz, et est venu avec eulx jusques au droit
+                        de Blanc Chief, et dit qu'ilz ont tiré vers Hantonne, et presume que c'est
+                        pour aller à Bordeaux ou en Irlande. Je ne scay qu'ilz feront; toutesvoyes,
+                        je vous en advise à l'aventure, affin que, s'ilz vouloient faire aucune
+                        descente en vostre quartier, qu'ilz trouvent à qui parler. Depuis ces
+                        lectres escriptes, j'ay receu unes lectres du prevost de Paris, dont je vous
+                        envoye le double <hi rend="point"/>
+                    </p>
+                </body>
+            </text>
+            <text n="58">
+                <pb n="90"/>
+                <front>
+                    <head>
+                        <hi rend="gras"> A AYMAR DE POYSIEU (P.).</hi>
+                    </head>
+                    <docDate>derniers jours de 1462 ou premiers de 1463</docDate>
+                    <docEdition>Minute. Bibl. nat., Fr. 20489, fol. 121 vo.</docEdition>
+                </front>
+                <body>
+                    <p>Cadorat, vous savez la charge que vous avons baillée, et pour ce que desirons
+                        que la mectez incontinent à execucion, et que ne serons à nostre aise tant
+                        qu'il soit fait, nous vous escripvons de rechief et vous prions, si jamès
+                        vous voulez que nous soyons contens<pb n="91"/>de vous, que vous faictes
+                        loger noz gens ou royaume de Navarre es bonnes villes le plus près les ungs
+                        des autres que vous pourrez, et surtout faictes mectre ordre et police ou
+                        fait de nosdictes gens, et que justice y soit gardée, car autrement, tout
+                        n'yra pas bien, et en la y mectant, ilz aront assez vivres. Et faictes
+                        passer tout le bagaige deçà, et qu'il ne demeure à lance fournie que VI
+                        chevaulx. Vous savez assez nostre entencion, et pour ce ne vous en
+                        escripvons autrement, mès surtout gardez quelque chose que l'on vous dye que
+                        nosdictes gens y soient logez.</p>
+                </body>
+            </text>
+            <text n="64">
+                <pb n="102"/>
+                <front>
+                    <head>
+                        <hi rend="gras"> A LA DUCHESSE DE SAVOIE (V.).</hi>
+                    </head>
+                    <docDate>Commencement de 1463.</docDate>
+                    <docEdition>Minute. Bibl. nat., Fr. 20489, fol. 22.</docEdition>
+                </front>
+                <body>
+                    <p>Ma seur, je me recommande à vous. J'ay receu les lettres que vous m'avez
+                        escriptes par maistre Pierre Doriolle, et oy ce qu'il m'a dit de vostre
+                        part. Je m'en voys presentement à Bayonne, et si tost que aré fait avec <pb
+                            n="103"/> le roy de Castelle, qui sera, comme je m'actens, ou plaisir
+                        Dieu, environ la my fevrier, je m'en pence aller tout de tiré à Lyon, et es
+                        marches de par delà, et pour ce, allez vous en, vous et mon beau pere de
+                        Savoye à Chambery, afin que soyez plus prests pour venir au devant de moy.
+                        Je ne scay se vous avez fait ce que je vous ay mandé par le mareschal de
+                        Savoye, et, pour ce, escripvez le moy. Et, au regart de ce que me faictes
+                        savoir que Philippe de Savoie veult aller en Piemont, et qu'il y pourroit
+                        avoir danger, il n'en y a point, car où que il voyse, j'ay entencion de
+                        l'aller cercher en personne, s'il ne fait comme j'ay mandé par ledit
+                        mareschal.</p>
+                </body>
+            </text>
+            
+            <text n="88">
+                <pb n="143"/>
+                <front>
+                    <head>
+                        <hi rend="gras">AUX LYONNAIS (X).</hi>
+                    </head>
+                    <docDate>Montlhéry, 19 août 1463. </docDate>
+                    <docEdition>Orig. Arch. de Lyon, AA 20, no. 53</docEdition>
+                </front>
+                <body>
+                    <p> De par le roy.</p>
+                    <p>Chiers et bien amez, nous avons presentement ordonné faire asseoir et imposer
+                        en nostre pays du Daulphiné la somme de trois mille sept cens cinquante
+                        livres tournois, pour emploier ou paiement de cinquante hommes d'armes et de
+                        cent hommes de pié, que faisons prendre en nostre dit païs du Daulphiné, et
+                        tirer devers nostre trés chier et amé cousin le conte de Dunois, pour
+                        l'execucion d'aucunes entreprinses qu'il a faictes pour le bien de nous et
+                        de noz royaume et seigneuries. <pb n="144"/> Et pour ce qu'il est besoing
+                        que lesdictes gens de guerre s'en voisent devers nostre dit cousin le plus
+                        diligemment que possible sera, par quoy ladicte somme ne pourroit estre
+                        levée avant leur partement, nous vous prions bien affectueusement que vous
+                        trouviez moien d'avancer icelle somme de III<hi rend="exp">m</hi> VII<hi
+                            rend="exp">c</hi> L livres tournois. Et la faites bailler à nostre amé
+                        et feal conseillier et tresorier general de nostre dit païs du Daulphiné,
+                        Glaude Cot, lequel vous baillera l'assignacion d'icelle somme, ainsi assise
+                        ou dit païs, laquelle vous pourrez avoir et recouvrer dedens ung mois après
+                        ladicte assiete. Et en ce ne nous vueillez faillir, et vous nous ferez trés
+                        singulier et agreable plaisir. Donné à Montlehery, le XIX<hi rend="exp"
+                        >me</hi> jour d'aoust.</p>
+                    <p>
+                        <hi rend="pmaj">Loys.</hi>
+                    </p>
+                    <p>
+                        <hi rend="pmaj">Bourré.</hi>
+                    </p>
+                    <p>A nos chiers et bien amez les bourgois, consulz et habitans de la ville de
+                        Lyon.</p>
+                </body>
+            </text>
+            <text n="136">
+                <pb n="220"/>
+                <front>
+                    <head>
+                        <hi rend="gras"> A <q>SON BON COMPERE? </q>(V.).</hi>
+                    </head>
+                    <docDate>Fin de l'année 1464.</docDate>
+                    <docEdition>Minute. Bibl. nat., Fr. 20427, fol. 30.</docEdition>
+                </front>
+                <body>
+                    <p>Mon bon compere, j'ay receu les lettres que vous m'avez escriptes par
+                        François de Tiercent, <corr resp="editor" n="dt" rend="d[on]t">dont</corr>
+                        je vous remercie. J'envoye Bourré devers vous, lequel je vous pry que
+                        veulliez croyre. <hi rend="ital"><note resp="encoder">L'italique indique ici
+                            un passage raturé</note> Vous ne m'avez pas fait grant responce sur
+                            les lettres que je vous avoye envoyées <corr resp="editor" n="ça"
+                                rend="[pie]ça">pieça</corr>; toutevoies, je vous pry que par cestuy
+                            cy me veillez faire savoir ce qu'il vous en semble</hi>. Il est avenu
+                        une grant nouvelleté en Bretaigne sur les <pb n="221"/> amis de monseigneur
+                        de Montauban. Je croy que Dieu le fait pour le mieulx et pour nous resourdre
+                        touz à ung coup. <hi rend="ital"><note resp="encoder">L'italique indique ici
+                            un passage raturé</note> J'ay eu ce matin des nouvelles que Jacques
+                            ceva <hi rend="points"/>
+                        </hi>
+                    </p>
+                    <p>Mon bon compere, je prye à Dieu qu'il vous ce que desirez. Escript. Je vous
+                        envoye les lettres que le conte de Montmairunt? m'a escriptes. Je vous pry
+                        que vous veillez <hi rend="ital">
+                            <note resp="encoder">L'italique indique ici un passage raturé</note>
+                            tenir la main<hi rend="points"/> , et ma femme vous en dira grant
+                            merciz, s'en tiendr<hi rend="points"/>
+                        </hi> faire pour luy ce que vous sera possible.</p>
+                </body>
+            </text>
+            <text n="169">
+                <pb n="278"/>
+                <front>
+                    <head>
+                        <hi rend="gras"> AU DUC DE MILAN</hi>
+                    </head>
+                    <docDate> Tours, 24 avril 1465.</docDate>
+                    <docEdition>Orig. Arch. de Milan.</docEdition>
+                </front>
+                <body>
+                    <p> Loys, par la grace de Dieu, roy de France. Trés <pb n="279"/> chier et trés
+                        amé oncle, il est venu à nostre congnoissance que nostre bien amé Pierre
+                        Vignoles, escuier et homme d'armes de nostre ordonnance en la compaignie du
+                        seigneur de Candalle, a certain procès pardevant l'archevesque de Millan, à
+                        l'occasion d'aucune obligacion ou fiancement que l'on dit lui avoir faicte
+                        pour et en la faveur de ung nommé Jacques Villecte, chanctre et serviteur de
+                        feu nostre trés chier et trés amé pere et cousin, le duc de Savoie, que Dieu
+                        absoille. Et pour ce que nous vouldrions avoir le bon droit dudit Pierre
+                        pour recommandé, tant pour les bons et agreables services qu'il nous a faiz
+                        et qu'il nous fait continuellement, et aussi que esperons qu'il nous face en
+                        temps avenir, nous vous prions bien affectueusement que vueillez tenir ou
+                        faire tenir la main devers ledit archevesque en maniere que le bon droit de
+                        nostre dit serviteur lui soit gardé. Et au seurplus, pour ce que pour ceste
+                        cause lui avons donné congié pour certain temps aler par devers vous, le
+                        vueillez faire expedier tellement que il puist brief retourner pardevers
+                        nous, et en ce faisant, nous ferez trés singulier et agreable plaisir. Donné
+                        à Tours, le XXIIII<hi rend="exp">e</hi> jour d'avril.</p>
+                    <p>
+                        <hi rend="pmaj">Loys.</hi>
+                    </p>
+                    <p>
+                        <hi rend="pmaj"> Toustain.</hi>
+                    </p>
+                    <p> A nostre trés chier et trés amé oncle et cousin le duc de Millan.</p>
+                </body>
+            </text>
+            <text n="190">
+                <pb n="322"/>
+                <front>
+                    <head>
+                        <hi rend="gras"> AU DUC DE MILAN </hi>
+                    </head>
+                    <docDate>Aigueperse, 29 juin 1465.</docDate>
+                    <docEdition>Orig. Arch. de Milan.</docEdition>
+                </front>
+                <body>
+                    <p>Loys, par la grace de Dieu, roy de France. Trés <pb n="323"/> chier et trés
+                        amé oncle. Nous envoyons presentement par devers vous nostre cher et bien
+                        amé Francequin Norry, pour vous dire aucunes choses dont lui avons baillé
+                        charge. Si vous prions que les vueillez oir et adjouster plaine foy à tout
+                        ce qu’il vous dira de par nous. Donné à Aygueparse, le XXIX<hi rend="exp"
+                            >e</hi> jour de juing. </p>
+                    <p>
+                        <hi rend="pmaj">Loys.</hi>
+                    </p>
+                    <p>
+                        <hi rend="pmaj">Bourré.</hi>
+                    </p>
+                    <p>A nostre trés cher et trés amé oncle le duc de Millan.</p>
+                </body>
+            </text>
+            <text n="194">
+                <pb n="332"/>
+                <front>
+                    <head>
+                        <hi rend="gras"> AUX HABITANTS DE BEAUVAIS (V.) </hi>
+                    </head>
+                    <docDate> Paris, 23 juillet 1465.</docDate>
+                    <docEdition>Orig. Arch. mun. de Beauvais, EE 7.</docEdition>
+                </front>
+                <body>
+                    <p>De par le roy.</p>
+                    <p>Chiers et bien amez, nous pensons que avez bien sceu la rencontre qui a esté
+                        entre nous et le conte de Charrolois, le mardy XVI<hi rend="exp">e</hi> jour
+                        de ce present mois de <pb n="333"/> juillet, près la ville et chastel de
+                        Montlehery, en laquelle, graces à Nostre Seigneur, avons obtenu la victoire.
+                        Car de la part dudit de Charrolois ont esté tuez de XIIII à XV<hi rend="exp"
+                            >c</hi> hommes, et prins de III à IIII<hi rend="exp">c</hi> prisonniers,
+                        et de la nostre n'a pas eu la X<hi rend="exp">me</hi> partie; et si
+                        demeurasmes les derreniers en champ, et la place est demeurée en nostre
+                        obeissance. Et oultre plus, depuis ladicte desconfiture, ont esté que prins
+                        que tuez plus de II<hi rend="exp">m</hi> Bourguignons qui s'en estoient
+                        fouyz de ladicte rencontre. Et après nous sommes retirez en ceste nostre
+                        bonne ville de Paris, là où la pluspart de tous noz gens d'armes et de noz
+                        chiefz de guerre se sont trouvez par devers nous, et aussi ledit de
+                        Charroloys s'est retiré vers la Beausse pour se joindre à nostre frere de
+                        Berry et aux Bretons. Et pour ce qu'il nous a esté rapporté que lesdiz
+                        Bourguignons et Bretons ou aucune partie d'iceulx sont disposez tirer vers
+                        les marches de Normendie et de la riviere de Saine, et eulx efforcer de
+                        prendre et avoir aucunes places et villes sur ladicte riviere de Saine et
+                        oudit pays de Normendie, nous avons adverty les gens des bonnes villes
+                        dessus ladicte riviere de Saine et aussi de nostre pays de Normendie et du
+                        Chartrain des choses dessusdictes, pour pourveoir à la seurté de leurs
+                        villes et faire resistance ausdiz adversaires et desobeyssans en tout ce que
+                        possible leur sera. Et pareillement avons disposé vous en advertir, afin que
+                        de vostre part vous faciez le semblable. Et au regard de nous, nous sommes
+                        disposez de nous mectre sur les champs pour resister à l'entreprinse desdiz
+                        Bretons et Bourguignons, et tant à vous, comme à noz autres bons et loyaulx
+                        subgectz <pb n="334"/> donner tout l'ayde et confort qu'il sera possible,
+                        tellement qu'au plaisir Dieu nul inconvenient n'en adviendra. Pourquoy en
+                        acquictant vostre loyaulté, ainsi que jusques cy avez fait, continuez et
+                        perseverez en vostre bon vouloir envers nous, en faisant toute resistance
+                        contre nosdiz adversaires et desobeyssans, et vous maintenant et entretenant
+                        en nostre obeissance, comme bons et loyaulx subgez doivent envers leur roy
+                        et souverain seigneur, ainsi que en vous en avons nostre confiance. Donné à
+                        Paris, le XXIII<hi rend="exp">e</hi> jour de juillet.</p>
+                    <p>
+                        <hi rend="pmaj">Loys.</hi>
+                    </p>
+                    <p>
+                        <hi rend="pmaj">Le Prevost.</hi>
+                    </p>
+                    <p>A noz chiers et bien amez les bourgois et habitans de la ville de
+                        Beauvais.</p>
+                </body>
+            </text>
+        </group>
+    </text>
+</TEI>

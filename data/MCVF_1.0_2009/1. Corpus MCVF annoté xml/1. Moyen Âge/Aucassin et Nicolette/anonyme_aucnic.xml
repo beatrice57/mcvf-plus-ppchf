@@ -1,0 +1,1428 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">Aucassin et Nicolette</title>
+                <title type="sub">Chantefable du XIIIe siècle</title>
+                <title type="short">Anonyme.AucNic</title>
+                <author>
+                    <persName>
+                        <surname>Anonyme</surname>
+                        <forename/>
+                    </persName>
+                </author>
+                <editor>Modéliser le changement, les voies du français GTRC/CRSH</editor>
+                <principal>
+                    <persName>France Martineau</persName>
+                </principal>
+                <funder>
+                    <orgName>Université d'Ottawa</orgName>
+                    <orgName>Conseil de recherche en sciences humaines du Canada</orgName>
+                </funder>
+                <respStmt>
+                    <resp>Codage</resp>
+                    <persName xml:id="Martineau">France Martineau</persName>
+                    <persName xml:id="Fauchon">Caroline Fauchon</persName>
+                    <persName xml:id="Labelle">Simon-Pier Labelle-Hogue</persName>
+                    <persName xml:id="Brazeau">Stéphanie Brazeau</persName>
+                </respStmt>
+            </titleStmt>
+            <extent>9828</extent>
+            <publicationStmt>
+                <date when="2008-11-26"/>
+                <publisher>
+                    <orgName>Modéliser le changement : les voies du français GTRC/CRSH</orgName>
+                    <address>
+                        <addrLine>60, rue Université</addrLine>
+                        <addrLine>Ottawa, Ontario</addrLine>
+                        <addrLine>K1N 6N5</addrLine>
+                        <addrLine>Tél : 613-562-5797</addrLine>
+                        <addrLine>Fax : 613-562-5981</addrLine>
+                        <addrLine><email>fmartin@uottawa.ca</email></addrLine>
+                        <addrLine>http://www.voies.uottawa.ca/</addrLine>                        
+                    </address>
+                </publisher>
+                <distributor>
+                    <orgName>Modéliser le changement : les voies du français GTRC/CRSH</orgName>
+                    <address>
+                        <addrLine>60, rue Université</addrLine>
+                        <addrLine>Ottawa, Ontario</addrLine>
+                        <addrLine>K1N 6N5</addrLine>
+                        <addrLine>Tél : 613-562-5797</addrLine>
+                        <addrLine>Fax : 613-562-5981</addrLine>
+                        <addrLine><email>fmartin@uottawa.ca</email></addrLine>
+                        <addrLine>http://www.voies.uottawa.ca/</addrLine>                        
+                    </address>
+                </distributor>
+                <availability status="restricted">
+                    <p>(c) Modéliser le changement : les voies du français (CRSH/GTRC, dirigé par F.
+                        Martineau)</p>
+                    <p>Les Corpus MCVF demeurent la propriété du projet Modéliser le changement :
+                        les voies du français. Les références à ces Corpus devraient apparaître
+                        ainsi : Corpus MCVF, Modéliser le changement : les voies du français (F.
+                        Martineau (dir.), U. d’Ottawa).Tous les documents du Corpus MCVF ne peuvent
+                        être divulgués à de tierces parties sans l’autorisation préalable de la
+                        Directrice du Projet </p>
+                    <p>Pour tout autre usage, contacter : <persName>France Martineau</persName>
+                        <orgName>Modéliser le changement : les voies du français, Université
+                            d'Ottawa</orgName>
+                        <email>fmartin@uottawa.ca</email></p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <biblStruct type="Source_publique">
+                    <monogr>
+                        <author>
+                            <persName>
+                                <surname>Anonyme</surname>
+                                <forename/>
+                            </persName>
+                        </author>
+                        <editor>
+                            <persName>
+                                <surname>Roques</surname>
+                                <forename>Mario</forename>
+                            </persName>
+                        </editor>
+                        <title>Aucassin et Nicolette</title>
+                        <title type="sub">Chantefable du XIIIe siècle</title>
+                        <imprint>
+                            <pubPlace>Paris</pubPlace>
+                            <publisher>H. Champion</publisher>
+                            <date when="1936">1936</date>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Paris</settlement>
+                        <repository>Bibliothèque nationale de France</repository>
+                        <idno>BnF fr. 2168, f. 70rb-80vb.</idno>
+                        <msName/>
+                    </msIdentifier>
+                    <history>
+                        <origin>
+                            <origPlace/>
+                            <origDate notBefore="1275" notAfter="1300"/>
+                        </origin>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Projet : Modéliser le changement les voies du français (GTRC/CRSH) <lb/>Resp. :
+                        <persName>France Martineau</persName> Institution : Département de français,
+                    Université d'Ottawa
+                    <address>
+                        <addrLine>60, rue Université</addrLine>
+                        <addrLine>Ottawa, Ontario</addrLine>
+                        <addrLine>K1N 6N5</addrLine>
+                        <addrLine>Tél : 613-562-5797</addrLine>
+                        <addrLine>Fax : 613-562-5981</addrLine>
+                        <addrLine><email>fmartin@uottawa.ca</email></addrLine>
+                        <addrLine>www.voies.uottawa.ca</addrLine>                        
+                    </address></p>
+            </projectDesc>
+            <editorialDecl>
+                <p>Voir le manuel d'annotation TEI au http://www.voies.uottawa.ca</p>
+                <p>L'édition de référence a été respectée quant à l'orthographe, la ponctuation, la
+                    mise en page et la pagination. Cependant, la césure des mots en fin de lignes
+                    (ou de pages) a été supprimée, le mot est placé dans la ligne ou la page où il
+                    commence. </p>
+                <p>Les paragraphes sont notés par P pour la prose. Pour les vers, P rend="gv"
+                    indique que le paragraphe est constitué d'un groupe de vers. </p>
+                <p> Les débuts des vers sont encodés par LB. Cette balise peut également servir dans
+                    les textes en prose à indiquer les débuts des lignes selon la pagination de
+                    l'édition. </p>
+                <p>Les changements de pages sont indiqués par la balise PB</p>
+                <p>Le corps du texte est obligatoirement compris dans le BODY. Le FRONT contenant le
+                    titre et/ou le prologue et le BACK (explicit) sont facultatifs et ne sont mis
+                    qu'au besoin. </p>
+                <p>Les différentes parties du texte (livre, chapitre...) sont encodées par DIV,
+                    auquel s'ajoute l'attribut TYPE qui spécifie sa nature. </p>
+                <p>Les paragraphes (P), lignes (LB) et pages (PB) de même de certaines divisions
+                    (DIV) sont ou peuvent être numérotés par l'attribut N s'ils le sont dans
+                    l'édition. </p>
+                <p>Quelques commentaires ou corrections ont été introduits à l'aide de la balise
+                    NOTE, CORR ou SIC. </p>
+                <p>Les discours directs et les citations ont été encodés par la balise Q. Cette
+                    balise est mise à chaque fois que des guillemets sont utilisés dans l'édition. </p>
+                <p>L'élément FOREIGN indique un passage en latin qui est noté en italique dans
+                    l'édition, les occurrences non en italique sont signalées par l'attribut ROMAIN. </p>
+                <p>Les folios sont notés par la balise <tag>pb rend="folio"</tag></p>
+                <p>Les notes de bas de pages ont été retirées. </p>
+                <p>Les paragraphes entièrement en latin ont été retirés, une balise P et une NOTE
+                    les signalent. </p>
+                <p>Note spécifique au texte ci-dessous: Aucune.</p>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <creation>
+                <date notBefore="1190" notAfter="1250"/>
+                <placeName/>
+            </creation>
+            <langUsage>
+                <language ident="fro"/>
+            </langUsage>
+            <textDesc>
+                <channel/>
+                <constitution>Texte intégral</constitution>
+                <derivation/>
+                <domain/>
+                <factuality/>
+                <interaction/>
+                <preparedness/>
+                <purpose/>
+            </textDesc>
+            <textClass>
+                <keywords scheme="GTRC">
+                    <list>
+                        <item n="forme">Mixte</item>
+                        <item n="domaine">Littéraire</item>
+                        <item n="genre">Nouvelle / Fabliau</item>
+                        <item n="docRegion1">Picardie</item>
+                        <item n="docRegion2"/>
+                        <item n="docRegion3"/>
+                        <item n="auteurRegion1"/>
+                        <item n="auteurRegion2"/>
+                        <item n="auteurRegion3"/>
+                        <item n="auteurSexe">Homme</item>
+                        <item n="occupation"/>
+                        <item n="scribeRegion1">Picardie</item>
+                        <item n="scribeRegion2"/>
+                        <item n="scribeRegion3"/>
+                        <item n="imprimeurRegion1"/>
+                        <item n="imprimeurRegion2"/>
+                        <item n="imprimeurRegion3"/>
+                    </list>
+                </keywords>
+                <classCode scheme="Indice de Dees"/>
+            </textClass>
+            <particDesc>
+                <listPerson>
+                    <person role="auteur">
+                        <persName>
+                            <surname>Anonyme</surname>
+                            <forename/>
+                        </persName>
+                        <birth/>
+                    </person>
+                    <person role="scribe">
+                        <persName>
+                            <surname>Inconnu</surname>
+                            <forename/>
+                        </persName>
+                        <birth/>
+                    </person>
+                    <person role="imprimeur"/>
+                </listPerson>
+            </particDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2009-06-04" who="#Martineau">Validation de l'en-tête</change>
+            <change when="2009-06-04" who="#Labelle">Modification scribeRegion et docRegion</change>
+            <change when="2009-03-31" who="#Labelle">Vérification des en-têtes</change>
+            <change when="2009-03-19" who="#Fauchon">Vérification et correction du TEI et du header
+                d'après les normes du P5 et du schéma MCVF</change>
+            <change when="2008-11-05" who="#Labelle">Correction et mise à jour de l'en-tête</change>
+            <change when="2005-06-14" who="#Brazeau">Correction de la numérisation</change>
+            <change when="2005-05-31" who="#Brazeau">Correction du codage</change>
+            <change when="2005-05-25" who="#Brazeau">Codage</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <pb n="1"/>
+
+            <div type="titre">
+                <p>C'EST D'AUCASIN ET DE NICOLETE</p>
+            </div>
+            <pb rend="folio" n="[70b]"/>
+        </front>
+        <body>
+            <div type="chapitre" n="1">
+                <head>I</head>
+                <p rend="gv"> Qui vauroit bons vers oïr <lb/> del deport du viel antif <lb/> de deus
+                    biax enfans petis, <lb/> Nicholete et Aucassins, <lb n="5"/>des grans paines
+                    qu'il soufri <lb/> et des proueces qu'il fist <lb/> por s'amie o le cler vis,
+                    <lb/> dox est li cans, biax li dis <lb/> et cortois et bien asis. <lb n="10"/>
+                    Nus hom n' est si esbahis, <lb/> tant dolans ni entrepris, <lb/> de grant mal
+                    amaladis, <lb/> se il l' oit, ne soit garis <lb/> et de joie resbaudis, <lb
+                        n="15"/> tant par est douce. </p>
+            </div>
+
+            <div type="chapitre" n="2">
+                <head>II.</head>
+                <p> OR DIENT ET CONTENT ET FABLENT <note resp="encoder"> Ces 5 mots se trouvent dans
+                        le titre (head). Pour éviter la rupture de la phrase, ils ont été insérés
+                        dans le paragraphe </note>
+                    <lb/> que li quens Bougars de Valence faisoit guere au conte <lb/> Garin de
+                    Biaucaire si grande et si mervelleuse et si mortel <lb/> qu'il ne fust uns seux
+                    jors ajornés qu'il ne fust as portes et <lb/> as murs et as bares de le vile a
+                    cent cevaliers | et a dis mile <pb rend="folio" n="[c]"/>
+                    <lb/> sergens a pié et a ceval, si li argoit sa terre et gastoit son <lb/> païs
+                    et ocioit ses homes. </p>
+                <p> Li quens Garins de Biaucaire estoit vix et frales, si avoit <pb n="2"/>
+                    <lb/> son tans trespassé. Il n' avoit nul oir, ne fil ne fille, fors un <lb/>
+                    seul vallet : cil estoit tex con je vos dirai. </p>
+                <p> Aucasins avoit a non li damoisiax. Biax estoit et gens et <lb/> grans et bien
+                    tailliés de ganbes et de piés et de cors et de <lb/> bras ; il avoit les caviax
+                    blons et menus recercelés et les ex <lb/> vairs et rians et le face clere et
+                    traitice et le nes haut et bien <lb/> assis. Et si estoit enteciés de bones
+                    teces qu'en lui n'en avoit <lb/> nule mauvaise se bone non ; mais si estoit
+                    soupris d'Amor, <lb/> qui tout vaint, qu'il ne voloit estre cevalers, ne les
+                    armes <lb/> prendre, n' aler au tornoi, ne fare point de quanque il <lb/> deust. </p>
+                <p> Ses pere et se mere li disoient : <lb/>
+                    <q> Fix, car pren tes armes, si monte el ceval, si deffent te <lb/> terre et aïe
+                        tes homes : s'il te voient entr'ex, si defenderont <lb/> il mix lor cors et
+                        lor avoirs et te tere et le miue. <lb/> —Pere, fait Aucassins, qu'en parlés
+                        vos ore ? Ja Dix ne <lb/> me doinst riens que je li demant, quant ere
+                        cevaliers, ne <lb/> monte a ceval, ne que voise a estor ne a bataille, la u
+                        je fiere <lb/> cevalier ni autres mi, se vos ne me donés Nicholete me douce
+                        <lb/> amie que je tant aim. <lb/> —Fix, fait li peres, ce | ne poroit estre.
+                        Nicolete laise <pb rend="folio" n="[d]"/>
+                        <lb/> ester, que ce est une caitive qui fu amenee d'estrange terre, <lb/> si
+                        l' acata li visquens de ceste vile as Sarasins, si l' amena en <lb/> ceste
+                        vile, si l' a levee et bautisie et faite sa fillole, si li <lb/> donra un de
+                        ces jors un baceler qui du pain li gaaignera par <lb/> honor : de ce n' as
+                        tu que faire. Et se tu fenme vix avoir, je <lb/> te donrai le file a un roi
+                        u a un conte : il n' a si rice home en <lb/> France, se tu vix sa fille
+                        avoir, que tu ne l'aies. <lb/> — Avoi ! peres, fait Aucassins, ou est ore si
+                        haute honers <lb/> en terre, se Nicolete ma tresdouce amie l'avoit, qu'ele
+                        ne <lb/> fust bien enploiie en li ? S'ele estoit enpereris de Colstentinoble
+                        <lb/> u d'Alemaigne, u roine de France u d'Engletere, si <pb n="3"/>
+                        <lb/> aroit il assés peu en li, tant est france et cortoise et de bon <lb/>
+                        aire et entecie de toutes bones teces. </q>
+                </p>
+            </div>
+            <div type="chapitre" n="3">
+                <head> III. OR SE CANTE.</head>
+                <p rend="gv"> Aucassins fu de Biaucaire, <lb/> d'un castel de bel repaire. <lb/> De
+                    Nicole le bien faite <lb/> nuis hom ne l'en puet retraire, <lb n="5"/> que ses
+                    peres ne l'i laisse <lb/> et sa mere le manace: <lb/>
+                    <q> Di va ! faus, que vex tu faire ? <lb/> Nicolete est cointe et gaie ; <lb/>
+                        jetee fu de Cartage, <lb n="10"/> acatee fu d'un Saisne ; <lb/> puis qu'a
+                        moullié te vix traire, <lb/> pren femme de haut parage. <pb rend="folio"
+                            n="[71]"/>
+                        <lb/> - Mere, je n'en puis el faire : <lb/> Nicolete est de boin aire ; <lb
+                            n="15"/> ses gens cors et son viaire, <lb/> sa biautés le cuer m'
+                        esclaire ; <lb/> bien est drois que s'amor aie, <lb/> que trop est douce.
+                    </q>
+                </p>
+            </div>
+
+            <div type="chapitre" n="4">
+                <head>IV. 0R DIENT ET CONTENT ET FLABLENT.</head>
+                <p> Quant li quens Garins de Biaucare vit qu'il ne poroit <lb/> Aucassin son fil
+                    retraire des amors Nicolete, il traist au <lb/> visconte de le vile qui ses hon
+                    estoit, si l' apela : <lb/>
+                    <q> Sire quens, car ostés Nicolete vostre filole ! Que la <lb/> tere soit
+                        maleoite dont ele fu amenee en cest païs ! C'or par <lb/> li pert jou
+                        Aucassin, qu'il ne veut estre cevaliers, ne faire <pb n="4"/>
+                        <lb/> point de quanque faire doie ; et saciés bien que, se je le puis <lb/>
+                        avoir, que je l'arderai en un fu, et vous meismes porés avoir <lb/> de vos
+                        tote peor. <lb/> —Sire, fait li visquens, ce poise moi qu'il i va ne qu'il i
+                        <lb/> vient ne qu'il i parole. Je l'avoie acatee de mes deniers, si <lb/> l'
+                        avoie levee et bautisie et faite ma filole, si li donasse un <lb/> baceler
+                        qui du pain li gaegnast par honor : de ce n'eust <lb/> Aucassins vos fix que
+                        faire. Mais puis que vostre volentés <lb/> est et vos bons, je l' envoierai
+                        en tel tere et en tel païs que <lb/> ja mais ne le verra de ses ex. <lb/>
+                        —Ce gardés vous ! fait li quens Garins : grans maus vos <lb/> en porroit
+                        venir. </q>
+                </p>
+
+                <p> Il se departent. <pb rend="folio" n="[b]"/>
+                </p>
+
+                <p> Et li visquens estoit molt rices hom, si avoit un rice palais <lb/> par devers
+                    un gardin. En une canbre la fist metre Nicolete <lb/> en un haut estage et une
+                    vielle aveuc li por conpagnie et por <lb/> soisté tenir, et s'i fist metre pain
+                    et car et vin et quanque <lb/> mestiers lor fu ; puis si fist l'uis seeler c'on
+                    n'i peust de nule <lb/> part entrer ne iscir, fors tant qu'il i avoit une
+                    fenestre par <lb/> devers le gardinassés petite dont il lor venoit un peu
+                    d'essor. </p>
+            </div>
+
+            <div type="chapitre" n="5">
+                <head>V. OR SE CANTE.</head>
+
+                <p rend="gv"> Nicole est en prison mise <lb/> en une canbre vautie <lb/> ki faite
+                    est par grant devisse, <lb/> panturee a miramie. <lb n="5"/> A la fenestre
+                    marbrine <lb/> la s'apoia la mescine : <lb/> ele avoit blonde la crigne <lb/> et
+                    bien faite la sorcille, <lb/> la face clere et traitice; <pb n="5"/>? <lb n="10"
+                    /> ainc plus bele ne veïstes. <lb/> Esgarda par le gaudine <lb/> et vit la rose
+                    espanie <lb/> et les oisax qui se crient, <lb/> dont se clama orphenine : <lb
+                        n="15"/>
+                    <q> Ai mi ! lasse moi, caitive ! <lb/> por coi sui en prison misse ? <lb/>
+                        Aucassins, damoisiax sire, <lb/> ja sui jou li vostre amie <lb/> et vos ne
+                        me haés mie ; <lb n="20"/>por vos sui en prison misse <lb/> en ceste canbre
+                        vautie <lb/> u je trai molt male vie ; <pb rend="folio" n="[c]"/>
+                        <lb/> mais, par Diu le fil Marie, <lb/> longement n'i serai mie, <lb n="25"
+                        />se jel puis fare. </q>
+                </p>
+            </div>
+
+            <div type="chapitre" n="6">
+                <head>VI. OR DIENT ET CONTENT ET FABLENT.</head>
+
+                <p> Nicolete fu en prison, si que vous avés oï et entendu, en <lb/> le canbre. Li
+                    cris et le noise ala par tote le terre et par tot le <lb/> païs que Nicolete
+                    estoit perdue : li auquant dient qu'ele est <lb/> fuie fors de la terre, et li
+                    auquant dient que li quens Garins <lb/> de Biaucaire l'a faite mordrir. Qui
+                    qu'en eust joie, Aucassins <lb/> n'en fu mie liés, ains traist au visconte de la
+                    vile, si <lb/> l' apela. </p>
+
+                <p>
+                    <q>Sire visquens, c'avés vos fait de Nicolete ma tresdouce <lb/> amie, le riens
+                        en tot le mont que je plus amoie ? Avés le me <lb/> vos tolue ne enblee ?
+                        Saciés bien que, se je en muir, faide <lb/> vous en sera demandee ; et ce
+                        sera bien drois, que vos <lb/> m'arés ocis a vos deus mains, car vos m'avés
+                        tolu la riens <lb/> en cest mont que je plus amoie. <pb n="6"/>
+                        <lb/> —Biax sire, fait li quens, car laisciés ester. Nicolete est <lb/> une
+                        caitive que j'amenai d'estrange tere, si l'acatai de mon <lb/> avoir a
+                        Sarasins, si l'ai levee et bautisie et faite ma fillole, si <lb/> l'ai
+                        nourie, si li donasce un de ces jors un baceler qui del <lb/> pain li
+                        gaegnast par honor : de ce n'avés vos que faire. Mais <lb/> prendés le fille
+                        a un roi u a un conte. | Enseurquetot, que <pb rend="folio" n="[d]"/>
+                        <lb/> cuideriés vous avoir gaegnié, se vous l'aviés asognentee ne <lb/> mise
+                        a vo lit ? Mout i ariés peu conquis, car tos les jors du <lb/> siecle en
+                        seroit vo arme en infer, qu'en paradis n' enterriés <lb/> vos ja. <lb/> —En
+                        paradis qu'ai je a faire ? Je n'i quier entrer, mais que <lb/> j' aie
+                        Nicolete ma tresdouce amie que j'aim tant ; c'en paradis <lb/> ne vont fors
+                        tex gens con je vous dirai. Il i vont ci viel <lb/> prestre et cil viel clop
+                        et cil manke qui tote jor et tote nuit <lb/> cropent devant ces autex et en
+                        ces viés creutes, et cil a ces <lb/> viés capes ereses et a ces viés
+                        tatereles vestues, qui sont nu <lb/> et decauc et estrumelé, qui moeurent de
+                        faim et de soi et <lb/> de froit et de mesaises; icil vont en paradis :
+                        aveuc ciax n'ai <lb/> jou que faire. Mais en infer voil jou aler, car en
+                        infer vont <lb/> li bel clerc, et li bel cevalier qui sont mort as tornois
+                        et as <lb/> rices gueres, et li buen sergant et li franc home : aveuc <lb/>
+                        ciax voil jou aler ; et s'i vont les beles dames cortoises que <lb/> eles
+                        ont deus amis ou trois avoc leur barons, et s'i va li <lb/> ors et li argens
+                        et li vairs et li gris, et si i vont herpeor et <lb/> jogleor et li roi del
+                        siecle : avoc ciax voil jou aler, mais que <lb/> j' aie Nicolete ma
+                        tresdouce amie aveuc mi. <lb/> —Certes, fait li visquens, | por nient en
+                        parlerés, que ja <pb rend="folio" n="[72]"/>
+                        <lb/> mais ne le verrés ; et se vos i parlés et vos peres le savoit, il
+                        <lb/> arderoit et mi et li en un fu, et vos meismes porriés avoir <lb/>
+                        toute paor. <lb/> —Ce poise moi </q> , fait Aucassins ; se se depart del
+                    visconte <lb/> dolans. </p>
+            </div>
+            <pb n="7"/>
+
+            <div type="chapitre" n="7">
+                <head> VII. OR SE CANTE.</head>
+
+                <p rend="gv"> Aucasins s'en est tornés <lb/> molt dolans et abosmés : <lb/> de
+                    s'amie o le vis cler <lb/> nus ne le puet conforter, <lb n="5"/> ne nul bon
+                    consel doner. <lb/> Vers le palais est alés ; <lb/> il en monta les degrés,
+                    <lb/> en une canbre est entrés, <lb/> si comença a plorer <lb n="10"/> et grant
+                    dol a demener <lb/> et s'amie a regreter. <lb/>
+                    <q> Nicolete, biax esters, <lb/> biax venir et biax alers, <lb/> biax deduis et
+                        dous parlers, <lb n="15"/> biax borders et biax jouers, <lb/> biax baisiers,
+                        biax acolers, <lb/> por vos sui si adolés <lb/> et si malement menés <lb/>
+                        que je n'en cuit vis aler, <lb n="20"/> suer douce amie. </q>
+                </p>
+            </div>
+
+            <div type="chapitre" n="8">
+                <head> Vlll. OR DIENT ET CONTENT ET FABLENT.</head>
+
+                <p> Entreusque Aucassins estoit en le canbre et il regretoit <lb/> Nicolete s'amie,
+                    li quens Bougars de Va | lence, qui sa <pb rend="folio" n="[b]"/>
+                    <lb/> guerre avoit a furnir, ne s' oublia mie, ains ot mandé ses <lb/> homes a
+                    pié et a ceval, si traist au castel por asalir. Et li cris <lb/> lieve et la
+                    noise, et li cevalier et li serjant s' arment et qeurent <lb/> as portes et as
+                    murs por le castel desfendre, et li borgois <pb n="8"/>
+                    <lb/> montent as aleoirs des murs, si jetent quariax et peus aguisiés. </p>
+                <p> Entroeusque li asaus estoit grans et pleniers, et li quens <lb/> Garins de
+                    Biacaire vint en la canbre u Aucassins faisoit deul <lb/> et regretoit Nicolete
+                    sa tresdouce amie que tant amoit. <lb/>
+                    <q> Ha ! fix, fait il, con par es caitis et maleurox, que tu <lb/> vois c'on
+                        asaut ton castel tot le mellor et le plus fort ; et <lb/> saces, se tu le
+                        pers, que tu es desiretés. Fix, car pren les <lb/> armes et monte u ceval et
+                        defen te tere et aiues tes homes et <lb/> va a l'estor : ja n'i fieres tu
+                        home ni autres ti, s'il te voient <lb/> entr'ax, si desfenderont il mix lor
+                        avoir et lor cors et te tere <lb/> et le miue ; et tu ies si grans et si
+                        fors que bien le pués faire, <lb/> et farre le dois. <lb/> —Pere, fait
+                        Aucassins, qu'en parlés vous ore ? Ja Dix ne <lb/> me doinst riens que je li
+                        demant, quant ere cevaliers, ne <lb/> monte el ceval, ne voise en estor, la
+                        u je fiere cevalier ne <lb/> autres mi, se vos ne me | donés Nicolete me
+                        douce amie <pb rend="folio" n="[c]"/>
+                        <lb/> que je tant aim. <lb/> —Fix, dist li pere, ce ne puet estre : ançois
+                        sosferoie jo <lb/> que je feusse tous desiretés et que je perdisse quanques
+                        g' ai <lb/> que tu ja l'euses a mollier ni a espouse. </q>
+                </p>
+
+                <p> Il s'en torne ; et quant Aucassins l'en voit aler, il le <lb/> rapela : <lb/>
+                    <q> Peres, fait Aucassins, venés avant : je vous ferai bons <lb/> couvens. <lb/>
+                        —Et quex, biax fix ? <lb/> —Je prendrai les armes, s' irai a l'estor, par
+                        tex covens <lb/> que, se Dix me ramaine sain et sauf, que vos me lairés
+                        <lb/> Nicolete me douce amie tant veir que j' aie deus paroles u <lb/> trois
+                        a li parlees et que je l' aie une seule fois baisie. <lb/> —Je l' otroi </q>
+                    , fait li peres. </p>
+
+                <p> Il li creante et Aucassins fu lié. </p>
+            </div>
+            <pb n="9"/>
+
+            <div type="chapitre" n="9">
+                <head>IX. OR SE CANTE.</head>
+
+                <p rend="gv"> Aucassins ot du baisier <lb/> qu'il ara au repairier : <lb/> por cent
+                    mile mars d'or mier <lb/> ne le fesist on si lié. <lb n="5"/> Garnemens demanda
+                    ciers, <lb/> on li a aparelliés : <lb/> il vest un auberc dublier <lb/> et laça
+                    l'iaume en son cief, <lb/> çainst l'espee au poin d'or mier, <lb n="10"/> si
+                    monta sor son destrier <lb/> et prent l'escu et l'espiel ; <lb/> regarda andex
+                    ses piés, <lb/> bien li sissent es estriers ; <lb/> a mervelle se tint ciers.
+                        <lb n="15"/> De s'amie li sovient, <lb/> s' esperona le destrier ; <lb/> il
+                    li cort molt volentiers : <lb/> tot droit a le porte en vient <lb/> a la
+                    bataille. </p>
+            </div>
+
+            <div type="chapitre" n="10">
+                <head> X. OR DIENT ET CONTENT.</head>
+
+                <p> Aucassins fu armés sor son ceval, si con vos avés oï et <pb rend="folio" n="[d]"/>
+                    <lb/> entendu. Dix ! con li sist li escus au col et li hiaumes u cief <lb/> et
+                    li renge de s'espee sor le senestre hance ! Et li vallés fu <lb/> grans et fors
+                    et biax et gens et bien fornis, et li cevaus sor <lb/> quoi il sist rades et
+                    corans, et li vallés l'ot bien adrecié par mi <lb/> la porte. </p>
+
+                <p> Or ne quidiés vous qu'il pensast n'a bués n'a vaces n'a <pb n="10"/>
+                    <lb/> civres prendre, ne qu'il ferist cevalier ne autres lui. Nenil <lb/> nient
+                    ! onques ne l'en sovint ; ains pensa tant a Nicolete sa <lb/> douce amie qu'il
+                    oublia ses resnes et quanques il dut faire ; et <lb/> li cevax qui ot senti les
+                    esperons l'en porta par mi le presse, <lb/> se se lance tres entre mi ses anemis
+                    ; et il getent les mains de <lb/> toutes pars, si le prendent, si le
+                    dessaisisent de l'escu et de <lb/> le lance, si l'en mannent tot estrousement
+                    pris, et aloient ja <lb/> porparlant de quel mort il feroient morir. </p>
+
+                <p> Et quant Aucassins l'entendi : <lb/>
+                    <q> Ha ! Dix, fait il, douce creature ! sont çou mi anemi <lb/> mortel qui ci me
+                        mainent et qui ja me cauperont le teste ? Et <lb/> puis que j'arai la teste
+                        caupee, ja mais ne parlerai a Nicolete <lb/> me douce amie que je tant aim.
+                        Encor ai je ci une bone espee <lb/> et siec sor bon destrir sejorné : se or
+                        ne me deffent por li, <lb/> onques Dix ne li aït se ja mais m' aime ! </q>
+                </p>
+
+                <p> Li vallés fu grans et fors, et li cevax so quoi il sist fu <lb/> remuans; et il
+                    mist le main a l'espee, si comence a | ferir a <pb rend="folio" n="[73]"/>
+                    <lb/> destre et a senestre et caupe hiaumes et naseus et puins <lb/> et bras et
+                    fait un caple entor lui, autresi con li senglers <lb/> quant li cien l'asalent
+                    en le forest, et qu'il lor abat dis <lb/> cevaliers et navre set et qu'il se
+                    jete tot estroseement de <lb/> le prese et qu'il s'en revient les galopiax
+                    ariere, s'espee en <lb/> sa main. </p>
+
+                <p> Li quens Bougars de Valence oï dire c'on penderoit <lb/> Aucassin son anemi, si
+                    venoit cele part ; et Aucassins ne le <lb/> mescoisi mie : il tint l'espee en la
+                    main, se le fiert par mi le <lb/> hiaume si qu'i li enbare el cief. Il fu si
+                    estonés qu'il caï a <lb/> terre ; et Aucassins tent le main, si le prent et l'en
+                    mainne <lb/> pris par le nasel del hiame et le rent a son pere. </p>
+
+                <p>
+                    <q> Pere, fait Aucassins, ves ci vostre anemi qui tant vous a <lb/> gerroié et
+                        mal fait : vint ans ja dure ceste guerre ; onques ne <lb/> pot iestre
+                        acievee par home. <pb n="11"/>
+                        <lb/> —Biax fix, fait li pere, tes enfances devés vos faire, nient <lb/>
+                        baer a folie. <lb/> — Pere, fait Aucassins, ne m'alés mie sermonant, mais
+                        <lb/> tenés moi mes covens. <lb/> —Ba ! quex covens, biax fix ? <lb/> — Avoi
+                        ! pere, avés les vos obliees ? Par mon cief ! qui que <lb/> les oblit, je
+                        nes voil mie oblier, ains me tient molt au cuer. <lb/> Enne m' eustes vos en
+                        covent que, quant je pris les armes et <lb/> j'alai a l'estor, que, se Dix
+                        me ramenoit sain et sauf, que <lb/> vos me lairiés Nicolete ma douce amie
+                        tant veir que j'aroie <lb/> parlé a li deus paroles | ou trois ? Et que je
+                        l' aroie une fois <pb rend="folio" n="[b]"/>
+                        <lb/> baisie m'eustes vos en covent ! Et ce voil je que vos me tenés. <lb/>
+                        — Jo ? fait li peres ; ja Dix ne m' aït, quant ja covens vos <lb/> en tenrai
+                        ; et s'ele estoit ja ci, je l' arderoie en un fu, et vos <lb/> meismes
+                        porriés avoir tote paor. <lb/> — Est ce tote la fins ? fait Aucassins. <lb/>
+                        — Si m' aït Dix, fait li peres, oïl. <lb/> — Certes, fait Aucassins, je sui
+                        molt dolans quant hom de <lb/> vostre eage ment. <lb/> — <note
+                            resp="encoder">tiret ajouté</note> Quens de Valence, fait Aucassins, je
+                        vos ai pris. <lb/> —Sire, voire, fait li quens. <lb/> — Bailiés ça vostre
+                        main, fait Aucassins. <lb/> —Sire, volentiers. </q> Il li met se main en la
+                    siue. </p>
+
+                <p>
+
+                    <q> Ce m'afiés vos, fait Aucassins, que, a nul jor que vos <lb/> aiés a vivre,
+                        ne porrés men pere faire honte ne destorbier de <lb/> sen cors ne de sen
+                        avoir que vos ne li faciés. <lb/> —Sire, por Diu, fait il, ne me gabés mie ;
+                        mais metés <lb/> moi a raençon : vos ne me sarés ja demander or ni argent,
+                        <lb/> cevaus ne palefrois, ne vair ne gris, ciens ne oisiax, que je <lb/> ne
+                        vos doinse. <lb/> —Coment ? fait Aucassins ; ene connissiés vos que je vos
+                        <lb/> ai pris ? <pb n="12"/>
+                        <lb/> —Sire, oie, fait li quens Borgars. <lb/> —Ja Dix ne m'aït, fait
+                        Aucassins, se vos ne le m'afiés, se <lb/> je ne vous fac ja cele teste
+                        voler. <lb/> — Enondu ! fait il, je vous afie quanque il vous plaist. </q>
+                </p>
+
+                <p> Il li afie ; et Aucassins le fait monter sor un ceval, et il <lb/> monte sor un
+                    autre, si le conduist tant qu'il fu a sauveté. </p>
+            </div>
+
+            <div type="chapitre" n="11">
+                <head> XI. OR SE CANTE.</head>
+
+                <p rend="gv"> Qant or voit li quens Garins <pb rend="folio" n="[c]"/>
+                    <lb/> de son enfant Aucassin <lb/> qu'il ne pora departir <lb/> de Nicolete au
+                    cler vis, <lb n="5"/> en une prison l'a mis <lb/> en un celier sosterin <lb/>
+                    qui fu fais de marbre bis. <lb/> Quant or i vint Aucassins, <lb/> dolans fu,
+                    ainc ne fu si ; <lb n="10"/> a dementer si se prist <lb/> si con vos porrés oïr
+                    : <lb/>
+                    <q> Nicolete, flors de lis, <lb/> douce amie o le cler vis, <lb/> plus es douce
+                        que roisins <lb n="15"/> ne que soupe en maserin. <lb/> L'autr' ier vi un
+                        pelerin, <lb/> nes estoit de Limosin, <lb/> malades de l'esvertin, <lb/> si
+                        gisoit ens en un lit, <lb n="20"/> mout par estoit entrepris, <lb/> de grant
+                        mal amaladis ; <lb/> tu passas devant son lit, <lb/> si soulevas ton traïn
+                            <pb n="13"/>
+                        <lb/> et ton peliçon ermin, <lb n="25"/> la cemisse de blanc lin, <lb/> tant
+                        que ta ganbete vit : <lb/> garis fu li pelerins <lb/> et tos sains, ainc ne
+                        fu si ; <lb/> si se leva de son lit, <lb n="30"/> si rala en son païs <lb/>
+                        sains et saus et tos garis. <lb/> Doce amie, flors de lis, <lb/> biax alers
+                        et biax venirs, <lb/> biax jouers et biax bordirs, <pb rend="folio" n="[d]"/>
+                        <lb n="35"/> biax parlers et biax delis, <lb/> dox baisiers et dox sentirs,
+                        <lb/> nus ne vous poroit haïr. <lb/> Por vos sui en prison mis <lb/> en ce
+                        celier sousterin <lb n="40"/> u je fac mout male fin ; <lb/> or m'i convenra
+                        morir <lb/> por vos, amie. </q>
+                </p>
+            </div>
+
+            <div type="chapitre" n="12">
+                <head>XII. OR DIENT ET CONTENT ET FABLOIENT.</head>
+
+                <p> Aucasins fu mis en prison, si com vos avés oï et entendu, <lb/> et Nicolete fu
+                    d'autre part en le canbre. Ce fu el tans d'esté, <lb/> el mois de mai que li jor
+                    sont caut, lonc et cler, et les nuis <lb/> coies et series. </p>
+
+                <p> Nicolete jut une nuit en son lit, si vit la lune luire cler par <lb/> une
+                    fenestre et si oï le lorseilnol center en garding, se li <lb/> sovint d'Aucassin
+                    sen ami qu'ele tant amoit. Ele se comença <lb/> a porpenser del conte Garin de
+                    Biaucaire qui de mort le <lb/> haoit ; si se pensa qu'ele ne remanroit plus
+                    ilec, que, s'ele <lb/> estoit acusee et li quens Garins le savoit, il le feroit
+                    de male <pb n="14"/>
+                    <lb/> mort morir. Ele senti que li vielle dormoit qui aveuc li <lb/> estoit ;
+                    ele se leva, si vesti un bliaut de drap de soie que ele <lb/> avoit molt bon, si
+                    prist dras de lit et touailes, si noua l'un a <lb/> l'autre, si fist une corde
+                    si longe conme ele pot, si le noua au <lb/> piler de le fenestre ; si s'avala
+                    contreval le gardin, et prist <lb/> se vesture a l'une main devant et a l'autre
+                    deriere, si s' escorça <lb/> por le rousee qu'ele vit grande sor l'erbe, si s'en
+                    ala aval le <lb/> gardin. </p>
+
+                <p> Ele | avoit les caviaus blons et menus recercelés, et les ex <pb rend="folio"
+                        n="[74]"/>
+                    <lb/> vairs et rians, et le face traitice, et le nes haut et bien assis, <lb/>
+                    et lé levretes vremelletes plus que n' est cerisse ne rose el <lb/> tans d'esté,
+                    et les dens blans et menus ; et avoit les mameletes <lb/> dures qui li
+                    souslevoient sa vesteure ausi con ce fuissent <lb/> deus nois gauges ; et estoit
+                    graille par mi les flans qu'en <lb/> vos dex mains le peusciés enclorre ; et les
+                    flors des margerites <lb/> qu'ele ronpoit as ortex de ses piés, qui li gissoient
+                    sor. <lb/> le menuisse du pié par deseure, estoient droites noires avers <lb/>
+                    ses piés et ses ganbes, tant par estoit blance la mescinete. </p>
+
+                <p> Ele vint au postic, si le deffrema, si s'en isci par mi les <lb/> rues de
+                    Biaucaire par devers l'onbre, car la lune luisoit molt <lb/> clere, et erra tant
+                    qu'ele vint a le tor u ses amis estoit. Li <lb/> tors estoit faelee de lius en
+                    lius ; et ele se quatist delés l'un <lb/> des pilers, si s'estraint en son
+                    mantel, si mist sen cief par mi <lb/> une creveure de la tor qui vielle estoit
+                    et anciienne, si oï <lb/> Aucassin qui la dedens plouroit et faisoit mot grant
+                    dol et <lb/> regretoit se douce amie que tant amoit. Et quant el l'ot assés
+                    <lb/> escouté, si comença a dire. </p>
+            </div>
+
+            <div type="chapitre" n="13">
+                <head>XIII. OR SE CANTE.</head>
+
+                <p rend="gv"> Nicolete o le vis cler <lb/> s'apoia a un piler, <pb n="15"/>
+                    <lb/> s'oï Aucassin plourer <pb rend="folio" n="[b]"/>
+                    <lb/> et s'amie regreter ; <lb n="5"/> or parla, dist son penser : <lb/>
+                    <q> Aucassins, gentix et ber, <lb/> frans damoisiax honorés, <lb/> que vos vaut
+                        li dementer, <lb/> li plaindres ne li plurers, <lb n="10"/> quant ja de moi
+                        ne gorés ? <lb/> car vostre peres me het <lb/> et trestos vos parentés.
+                        <lb/> Por vous passerai le mer, <lb/> s'irai en autre regné. </q>
+                    <lb n="15"/> De ses caviax a caupés, <lb/> la dedens les a rüés. <lb/> Aucassins
+                    les prist, li ber, <lb/> si les a molt honerés <lb/> et baisiés et acolés ; <lb
+                        n="20"/> en sen sain les a boutés ; <lb/> si recomence a plorer, <lb/> tout
+                    por s'amie. </p>
+            </div>
+
+            <div type="chapitre" n="14">
+                <head> XIV. OR DIENT ET CONTENT ET FABLOIENT.</head>
+
+                <p> Qant Aucassins oï dire Nicolete qu'ele s'en voloit aler en <lb/> autre païs, en
+                    lui n' ot que courecier. </p>
+
+                <p>
+
+                    <q> Bele douce amie, fait il, vos n'en irés mie, car dont <lb/> m'ariis vos mort
+                        ; et li premiers qui vos verroit ne qui vous <lb/> porroit, il vos
+                        prenderoit lués et vos meteroit a son lit, si vos <lb/> asoignenteroit. Et
+                        puis que vos ariiés jut en lit a home, s'el <lb/> mien non, or ne quidiés
+                        mie que j'atendisse tant que je trovasse <lb/> coutel dont je me peusce
+                        ferir el cuer et ocirre. Naie <lb/> voir, tant n'atenderoie je mie ; ains
+                        m'esquelderoie de si <pb n="16"/>
+                        <lb/> lonc que je verroie une maisiere | u une bisse pierre, s'i hurteroie
+                            <pb rend="folio" n="[c]"/>
+                        <lb/> si durement me teste que j'en feroie les ex voler et <lb/> que je
+                        m'escerveleroie tos : encor ameroie je mix a morir de <lb/> si faite mort
+                        que je seusce que vos eusciés jut en lit a home, <lb/> s'el mien non. <lb/>
+                        —A ! fait ele, je ne quit mie que vous m'amés tant con vos <lb/> dites ;
+                        mais je vos aim plus que vos ne faciés mi. <lb/> — Avoi ! fait Aucassins,
+                        bele douce amie, ce ne porroit estre <lb/> que vos m'amissiés tant que je
+                        fac vos. Fenme ne puet tant <lb/> amer l'oume con li hom fait le fenme ; car
+                        li amors de le <lb/> fenme est en son oeul et en son le cateron de sa mamele
+                        et <lb/> en son l'orteil del pié ; mais li amors de l'oume est ens el <lb/>
+                        cué plantee, dont ele ne puet iscir. </q>
+                </p>
+
+                <p> La u Aucassins et Nicolete parloient ensanble, et les escargaites <lb/> de le
+                    vile venoient tote une rue ; s'avoient les espees <lb/> traites desos les capes,
+                    car li quens Garins lor avoit conmandé <lb/> que, se il le pooient prendre, qu'i
+                    l'ocesissent. Et li gaite qui <lb/> estoit sor le tor les vit venir, et oï qu'il
+                    aloient de Nicolete <lb/> parlant et qu'il le maneçoient a occirre. </p>
+
+                <p>
+
+                    <q> Dix ! fait il, con grans damages de si bele mescinete, <lb/> s'il l'ocient !
+                        Et molt seroit grans aumosne, se je li pooie dire, <lb/> par quoi il ne
+                        s'aperceuscent, et qu'ele s'en gardast ; car s'i <lb/> l'ocient, dont iert
+                        Aucassins mes damoisiax mors, dont grans <lb/> damages ert. </q>
+                </p>
+            </div>
+
+            <div type="chapitre" n="15">
+                <head>XV. OR SE CANTE.</head>
+
+                <p rend="gv"> Li gaite fu mout vaillans, <lb/> preus et cortois et saçans ; <pb
+                        rend="folio" n="[d]"/>
+                    <lb/> il a comencié un cant <lb/> ki biax fu et avenans. <lb n="5"/>
+                    <q> Mescinete o le cuer franc, <lb/> cors as gent et avenant. <pb n="17"/>
+                        <lb/> le poil blont et reluisant, <lb/> vairs les ex, ciere riant ; <lb/>
+                        bien le voi a ton sanblant, <lb n="10"/> parlé as a ton amant <lb/> qui por
+                        toi se va morant. <lb/> Jel te di et tu l'entens : <lb/> garde toi des
+                        souduians <lb/> ki par ci te vont querant, <lb n="15"/> sous les capes les
+                        nus brans ; <lb/> forment te vont maneçant, <lb/> tost te feront messeant,
+                        <lb/> s'or ne t'i gardes. </q>
+                </p>
+            </div>
+
+            <div type="chapitre" n="16">
+                <head>XVI. OR DIENT ET CONTENT ET FABLOIENT.</head>
+
+                <p>
+
+                    <q> Hé ! fait Nicolete, l'ame de ten pere et de te mere soit en <lb/> benooit
+                        repos, quant si belement et si cortoisement le m' as <lb/> ore dit. Se Diu
+                        plaist, je m'en garderai bien, et Dix m'en <lb/> gart ! </q>
+                </p>
+
+                <p> Ele s'estraint en son mantel en l'onbre del piler, tant que <lb/> cil furent
+                    passé outre ; et ele prent congié a Aucassin, si s'en <lb/> va tant qu'ele vint
+                    au mur del castel. Li murs fu depeciés, <lb/> s'estoit rehordés, et ele monta
+                    deseure, si fist tant qu'ele fu <lb/> entre le mur et le fossé ; et ele garda
+                    contreval, si vit le <lb/> fossé molt parfont et molt roide, s'ot molt grant
+                    paor. </p>
+
+                <p>
+
+                    <q> Hé ! Dix, fait ele, douce creature ! se je me lais caïr, je <lb/> briserai
+                        le col, et se je remain ci, on me prendera demain, <lb/> si m'ardera on en
+                        un fu. Encor ainme je mix que je muire <lb/> ci que tos li pules me
+                        regardast demain a merveilles. </q>
+                </p>
+                <pb rend="folio" n="[75]"/>
+
+                <p> Ele segna son cief, si se laissa glacier aval le fossé, et quant <lb/> ele vint
+                    u fons, si bel pié et ses beles mains, qui n' avoient <lb/> mie apris c'on les
+                    bleçast, furent quaissies et escorcies et li <pb n="18"/>
+                    <lb/> sans en sali bien en dose lius, et ne por quant ele ne santi ne <lb/> mal
+                    ne dolor por le grant paor qu'ele avoit. Et se ele fu en <lb/> paine de
+                    l'entrer, encor fu ele en forceur de l'iscir. Ele se <lb/> pensa qu'ileuc ne
+                    faisoit mie bon demorer, e trova un pel <lb/> aguisié que cil dedens avoient
+                    jeté por le castel deffendre, si <lb/> fist pas un avant l'autre, si monta tant
+                    a grans painnes qu'ele <lb/> vint deseure. Or estoit li forés pres a deus
+                    arbalestees, qui <lb/> bien duroit trente liues de lonc et de lé, si i avoit
+                    bestes sauvages <lb/> et serpentine : ele ot paor que, s'ele i entroit, qu'eles
+                    <lb/> ne l'ocesiscent, si se repensa que, s'on le trovoit ileuc, c'on le <lb/>
+                    remenroit en le vile por ardoir. </p>
+            </div>
+
+            <div type="chapitre" n="17">
+                <head>XVII. OR SE CANTE.</head>
+
+                <p rend="gv"> Nicolete o le vis cler <lb/> fu montee le fossé, <lb/> si se prent a
+                    dementer <lb/> et Jhesum a reclamer : <lb n="5"/>
+                    <q> Peres, rois de maïsté, <lb/> or ne sai quel part aler : <lb/> se je vois u
+                        gaut ramé, <pb rend="folio" n="[b]"/>
+                        <lb/> ja me mengeront li lé, <lb/> li lion et li sengler, <lb n="10"/> dont
+                        il i a a plenté ; <lb/> et se j'atent le jor cler, <lb/> que on me puist ci
+                        trover, <lb/> li fus sera alumés <lb/> dont mes cors iert enbrasés ; <lb
+                            n="15"/> mais, par Diu de maïsté, <lb/> encor aim jou mix assés <lb/>
+                        que me mengucent li lé, <lb/> li lion et li sengler, <pb n="19"/>
+                        <lb/> que je voisse en la cité : <lb n="20"/> je n' irai mie. </q>
+                </p>
+            </div>
+
+            <div type="chapitre" n="18">
+                <head>XVLI. OR DIENT ET CONTENT ET FABLOIENT.</head>
+
+                <p> Nicolete se dementa molt, si con vos avés oï ; ele se <lb/> conmanda a Diu, si
+                    erra tant qu'ele vint en le forest. Ele <lb/> n'osa mie parfont entrer por les
+                    bestes sauvaces et por le <lb/> serpentine, si se quatist en un espés buisson ;
+                    et soumax li <lb/> prist, si s'endormi dusqu'au demain a haute prime que li
+                    <lb/> pastorel iscirent de la vile et jeterent lor bestes entre le bos <lb/> et
+                    la riviere, si se traien d'une part a une molt bele fontaine <lb/> qui estoit au
+                    cief de la forest, si estendirent une cape, se <lb/> missent lor pain sus.
+                    Entreusque il mengoient, et Nicolete <lb/> s' esveille au cri des oisiax et des
+                    pastoriax, si s'enbati sor aus. </p>
+
+                <p>
+
+                    <q> Bel enfant, fait ele, Damedix vos i aït ! <lb/> —Dix vos benie ! fait li uns
+                        qui plus fu enparlés des <lb/> autres. <lb/> —Bel enfant, fait ele,
+                        conissiés vos Aucassin, le fil le <lb/> conte Garin | de Biaucaire ? <pb
+                            rend="folio" n="[c]"/>
+                        <lb/> —Oïl, bien le counisçons nos. <lb/> —Se Dix vos aït, bel enfant, fait
+                        ele, dites li qu'il a une <lb/> beste en ceste forest et qu'i le viegne
+                        cacier, et s'il l'i puet <lb/> prendre, il n'en donroit mie un menbre por
+                        cent mars d'or, <lb/> non por cinc cens, ne por nul avoir. </q>
+                </p>
+
+                <p> Et cil le regardent, se le virent si bele qu'il en furent tot <lb/> esmari. </p>
+
+                <p>
+                    <q> Je li dirai ? fait cil qui plus fu enparlés des autres ; <lb/> dehait ait
+                        qui ja en parlera, ne qui ja li dira ! C' est fantosmes <lb/> que vos dites,
+                        qu'il n'a si ciere beste en ceste forest, ne cerf, <lb/> ne lion, ne
+                        sengler, dont uns des menbres vaille plus de dex <lb/> deniers u de trois au
+                        plus, et vos parlés de si grant avoir ! <pb n="20"/>
+                        <lb/> Ma dehait qui vos en croit, ne qui ja li dira ! Vos estes fee, <lb/>
+                        si n' avons cure de vo conpaignie, mais tenés vostre voie. <lb/> — Ha ! bel
+                        enfant, fait ele, si ferés. Le beste a tel mecine <lb/> que Aucassins ert
+                        garis de son mehaing ; et j' ai ci cinc sous <lb/> en me borse : tenés, se
+                        li dites ; et dedens trois jors li covient <lb/> cacier, et se il dens trois
+                        jors ne le trove, ja mais n'iert garis <lb/> de son mehaig. <lb/> — Par foi,
+                        fait il, les deniers prenderons nos, et s'il vient <lb/> ci, nos li dirons,
+                        mais nos ne l'irons ja quere. <lb/> — De par Diu! </q> fait ele. </p>
+
+                <p> Lor prent congié as pastoriaus, si s'en va. </p>
+            </div>
+
+            <div type="chapitre" n="19">
+                <head>XIX. OR SE CANTE.</head>
+
+                <p rend="gv"> Nicolete o le cler vis <lb/> des pastoriaus se parti, <lb/> si acoilli
+                    son cemin <lb/> tres par mi le gaut foilli <lb/> tout un viés sentier anti, <pb
+                        rend="folio" n="[d]"/>
+                    <lb/> tant qu'a une voie vint <lb/> u aforkent set cemin <lb/> qui s'en vont par
+                    le païs. <lb/> A porpenser or se prist <lb n="10"/> qu'esprovera son ami <lb/>
+                    s'i l'aime si com il dist. <lb/> Ele prist des flors de lis <lb/> et de l'erbe
+                    du garris <lb/> et de le foille autresi, <lb n="15"/> une bele loge en fist,
+                    <lb/> ainques tant gente ne vi. <lb/> Jure Diu qui ne menti, <lb/> se par la
+                    vient Aucasins <pb n="21"/>
+                    <lb/> et il por l'amor de li <lb n="20"/> ne s'i repose un petit, <lb/> ja ne
+                    sera ses amis, <lb/> n'ele s'amie. </p>
+            </div>
+
+            <div type="chapitre" n="20">
+                <head>XX. OR DIENT ET CONTENT ET FABLOIENT.</head>
+
+                <p> Nicolete eut faite le loge, si con vos avés oï et entendu, <lb/> molt bele et
+                    mout gente, si l'ot bien forree dehors et dedens <lb/> de flors et de foilles,
+                    si se repost delés le loge en un espés <lb/> buison por savoir que Aucassins
+                    feroit. </p>
+
+                <p> Et li cris et li noise ala par tote le tere et par tot le païs que <lb/>
+                    Nicolete estoit perdue : li auquant dient qu'ele en estoit fuie, <lb/> et li
+                    autre dient que li quens Garins l'a faite mordrir. Qui <lb/> qu'en eust joie,
+                    Aucassins n'en fu mie liés. Et li quens Garins <lb/> ses peres le fist metre
+                    hors de prison, si manda les cevaliers <lb/> de le tere et les damoiseles, si
+                    fist faire une mot rice feste, <lb/> por çou qu'il cuida Aucassin son fil
+                    conforter. </p>
+
+                <p> Quoi que li feste estoit plus plaine, et Aucassins fu apoiiés <lb/> a une | puie
+                    tos dolans et tos souples ; qui que demenast joie, <pb rend="folio" n="[76]"/>
+                    <lb/> Aucassins n'en ot talent, qu'il n'i veoit rien de çou qu'il <lb/> amoit.
+                    Uns cevaliers le regarda, si vint a lui, si l'apela. </p>
+
+                <p>
+
+                    <q> Aucassins, fait il, d'ausi fait mal con vos avés ai je esté <lb/> malades.
+                        Je vos donrai bon consel, se vos me volés croire. <lb/> — Sire, fait
+                        Aucassins, grans mercis ; bon consel aroie je <lb/> cier. <lb/> — Montés sor
+                        un ceval, fait il, s'alés selonc cele forest <lb/> esbanoiier ; si verrés
+                        ces flors et ces herbes, s'orrés ces oisellons <lb/> canter ; par aventure
+                        orrés tel parole dont mix vos <lb/> iert. <lb/> — Sire, fait Aucassins,
+                        grans mercis ; si ferai jou. </q>
+                </p>
+
+                <p> Il s'enble de la sale, s'avale les degrés, si vient en l'estable <pb n="22"/>
+                    <lb/> ou ses cevaus estoit ; il fait metre le sele et le frain ; il met <lb/>
+                    pié en estrier, si monte, et ist del castel ; et erra tant qu'il <lb/> vint a le
+                    forest, et cevauca tant qu'il vint a le fontaine, et <lb/> trove les pastoriax
+                    au point de none ; s' avoient une cape <lb/> estendue sor l'erbe, si mangoient
+                    lor pain et faisoient <lb/> mout tresgrant joie. </p>
+            </div>
+
+            <div type="chapitre" n="21">
+                <head>XXI. OR SE CANTE.</head>
+
+                <p rend="gv"> Or s' asanlent pastouret, <lb/> Esmerés et Martinés, <lb/> Früelins et
+                    Johanés, <lb/> Robeçons et Aubriés. <lb n="5"/> Li uns dist: <q> Bel conpaignet,
+                        <lb/> Dix aït Aucasinet, <lb/> voire a foi ! le bel vallet ; <lb/> et le
+                        mescine au corset <pb rend="folio" n="[b]"/>
+                        <lb/> qui avoit le poil blondet, <lb n="10"/> cler le vis et l'oeul vairet,
+                        <lb/> ki nos dona denerés <lb/> dont acatrons gastelés, <lb/> gaïnes et
+                        coutelés, <lb/> flaüsteles et cornés, <lb n="15"/> maçüeles et pipés, <lb/>
+                        Dix le garisse ! </q>
+                </p>
+            </div>
+
+            <div type="chapitre" n="22">
+                <head>XXII. OR DIENT ET CONTENT ET FABLOIENT.</head>
+
+                <p> Quant Aucassins oï les pastoriax, si li sovint de Nicolete <lb/> se tresdouce
+                    amie qu'il tant amoit, et si se pensa qu'ele avoit <lb/> la esté ; et il hurte
+                    le ceval des eperons, si vint as pastoriax. </p>
+
+                <p>
+
+                    <q> Bel enfant, Dix vos i aït ! <pb n="23"/>
+                        <lb/> —Dix vos benie ! fait cil qui fu plus enparlés des <lb/> autres. <lb/>
+                        —Bel enfant, fait il, redites le cançon que vos disiés ore. <lb/> —Nous n'i
+                        dirons, fait cil qui plus fu enparlés des autres <lb/> Dehait ore qui por
+                        vous i cantera, biax sire ! <lb/> —Bel enfant, fait Aucassins, enne me
+                        conissiés vos ? <lb/> —Oïl, nos savions bien que vos estes Aucassins nos
+                        <lb/> damoisiax, mais nos ne somes mie a vos, ains somes au <lb/> conte.
+                        <lb/> —Bel enfant, si ferés, je vos en pri. <lb/> —Os, por le cuerbé ! fait
+                        cil ; por quoi canteroie je por vos, <lb/> s'il ne me seoit, quant il n' a
+                        si rice home en cest païs, sans <lb/> le cors le conte Garin, s'il trovoit
+                        mé bués ne mes vaces ne <lb/> mes brebis en ses pres n'en sen forment, qu'il
+                        fust mie tant <lb/> herdis por les ex a crever qu'il les en ossast cacier ?
+                        Et por <lb/> quoi canteroie je por vos, s'il ne me seoit ? <lb/> —Se Dix vos
+                        aït, bel enfant, si ferés ; et tenés | dis sous <pb rend="folio" n="[c]"/>
+                        <lb/> que j'ai ci en une borse. <lb/> —Sire, les deniers prenderons nos,
+                        mais ce ne vos canterai <lb/> mie, car j'en ai juré ; mais je le vos
+                        conterai, se vos <lb/> volés. <lb/> —De par Diu, fait Aucassins, encor aim
+                        je mix conter <lb/> que nient. <lb/> —Sire, nos estiiens orains ci entre
+                        prime et tierce, si <lb/> mangiens no pain a ceste fontaine, ausi con nos
+                        faisons ore, <lb/> et une pucele vint ci, li plus bele riens du monde, si
+                        que nos <lb/> quidames que ce fust une fee, et que tos cis bos en esclarci ;
+                        <lb/> si nos dona tant del sien que nos li eumes en covent, se vos <lb/>
+                        veniés ci, nos vos desisiens que vos alissiés cacier en ceste <lb/> forest,
+                        qu'il i a une beste que, se vos le poiiés prendre, vos <lb/> n'en donriiés
+                        mie un des menbres por cinc cens mars d'argent <lb/> ne por nul avoir : car
+                        li beste a tel mecine que, se vos le <pb n="24"/>
+                        <lb/> poés prendre, vos serés garis de vo mehaig ; et dedens trois <lb/>
+                        jors le vos covien avoir prisse, et se vos ne l'avés prise, ja <lb/> mais ne
+                        le verrés. Or le caciés se vos volés, et se vos volés <lb/> si le laiscié,
+                        car je m'en sui bien acuités vers li. <lb/> —Bel enfant, fait Aucassins,
+                        assés en avés dit, et Dix le <lb/> me laist trover ! </q>
+                </p>
+            </div>
+
+            <div type="chapitre" n="23">
+                <head> XXIII. OR SE CANTE.</head>
+
+                <p rend="gv"> Aucassins oï les mos <lb/> de s'amie o le gent cors, <lb/> mout li
+                    entrerent el cors. <lb/> Des pastoriax se part tost, <lb n="5"/> si entra el
+                    parfont bos ; <lb/> li destriers li anble tost ; <lb/> bien l'en porte les
+                    galos. <pb rend="folio" n="[d]"/>
+                    <lb/> Or parla, s'a dit trois mos : <lb/>
+                    <q> Nicolete o le gent cors, <lb n="10"/> por vos sui venus en bos ; <lb/> je ne
+                        cac ne cerf ne porc, <lb/> mais por vos siu les esclos. <lb/> Vo vair oiel
+                        et vos gens cors, <lb/> vos biax ris et vos dox mos <lb n="15"/> ont men
+                        cuer navré a mort. <lb/> Se Diu plaist le pere fort, <lb/> je vous reverai
+                        encor, <lb/> suer douce amie. </q>
+                </p>
+            </div>
+
+            <div type="chapitre" n="24">
+                <head> XXIV. OR DIENT ET CONTENT ET FABLOIENT.</head>
+
+                <p> Aucassins ala par le forest de voie en voie et li destriers <lb/> l'en porta
+                    grant aleure. Ne quidiés mie que les ronces et les <pb n="25"/>
+                    <lb/> espines l'esparnaiscent. Nenil nient ! ains li desronpent ses <lb/> dras
+                    qu'a painnes peust on nouer desu el plus entier, et que <lb/> li sans li isci
+                    des bras et des costés et des ganbes en quarante <lb/> lius u en trente,
+                    qu'aprés le vallet peust on suir le trace du <lb/> sanc qui caoit sor l'erbe.
+                    Mais il pensa tant a Nicolete sa <lb/> douce amie, qu'i ne sentoit ne mal ne
+                    dolor ; et ala tote jor <lb/> par mi le forest si faitement que onques n' oï
+                    noveles de li ; <lb/> et quant il vit que li vespres aproçoit, si comença a
+                    plorer <lb/> por çou qu'il ne le trovoit. </p>
+
+                <p> Tote une viés voie herbeuse cevaucoit, s'esgarda devant <lb/> lui en mi le voie,
+                    si vit un vallet tel con je vos dirai. Grans <lb/> estoit et mervellex et lais
+                    et hidex ; il avoit une grande hure <lb/> plus noire q'une carbouclee, et avoit
+                    plus de planne paume <lb/> entre deus ex, et avoit unes | grandes joes et un
+                    grandisme <pb rend="folio" n="[77]"/>
+                    <lb/> nes plat et unes grans narines lees et unes grosses levres <lb/> plus
+                    rouges d'une carbounee et uns grans dens gaunes <lb/> et lais ; et estoit
+                    cauciés d'uns housiax et d'uns sollers de <lb/> buef fretés de tille dusque
+                    deseure le genol, et estoit afulés <lb/> d'une cape a deus envers, si estoit
+                    apoiiés sor une grande <lb/> maçue. </p>
+
+                <p> Aucassins s'enbati sor lui, s'eut grant paor quant il le <lb/> sorvit. </p>
+
+                <p>
+
+                    <q> Biax frere, Dix t'i aït ! <lb/> —Dix vos benie ! fait cil. <lb/> —Se Dix
+                        t'aït, que fais tu ilec ? <lb/> —A vos que monte ? fait cil. <lb/> —Nient,
+                        fait Aucassins ; je nel vos demant se por bien <lb/> non. <lb/> —Mais por
+                        quoi plourés vos, fait cil, et faites si fait duel ? <lb/> Certes, se
+                        j'estoie ausi rices hom que vos estes, tos li mons <lb/> ne me feroit mie
+                        plorer. <lb/> —Ba ! me connissiés vos ? fait Aucassins. <pb n="26"/>
+                        <lb/> —Oie, je sai bien que vos estes Aucassins, li fix le conte, <lb/> et
+                        se vos me dites por quoi vos plorés, je vos dirai que je fac <lb/> ci. <lb/>
+                        —Certes, fait Aucassins, je le vos dirai molt volentiers : <lb/> je vig hui
+                        matin cacier en ceste forest, s' avoie un blanc <lb/> levrer, le plus bel
+                        del siecle, si l'ai perdu : por ce pleur <lb/> jou. <lb/> —Os ! fait cil,
+                        por le cuer que cil Sires eut en sen ventre ! <lb/> que vos plorastes por un
+                        cien puant ? Mal dehait ait qui ja <lb/> mais vos prisera, quant il n' a si
+                        rice home en ceste terre, se <lb/> vos peres l'en mandoit dis u quinse u
+                        vint, qu'il ne les eust <lb/> trop volentiers, et s'en esteroit trop liés.
+                        Mais je doi plorer et <lb/> dol faire. <lb/> —Et tu de quoi, | frere ? <pb
+                            rend="folio" n="[b]"/>
+                        <lb/> —Sire, je le vous dirai. J'estoie luiés a un rice vilain, si <lb/>
+                        caçoie se carue, quatre bués i avoit. Or a trois jors qu'il <lb/> m' avint
+                        une grande malaventure, que je perdi le mellor de <lb/> mes bués, Roget, le
+                        mellor de me carue ; si le vois querant, <lb/> si ne mengai ne ne buc trois
+                        jors a passés ; si n'os aler a le <lb/> vile, c'on me metroit en prison, que
+                        je ne l'ai de quoi saure : <lb/> de tot l'avoir du monde n'ai je plus
+                        vaillant que vos veés sor <lb/> le cors de mi. Une lasse mere avoie, si n'
+                        avoit plus vaillant <lb/> que une keutisele, si li a on sacie de desou le
+                        dos, si gist a <lb/> pur l'estrain, si m'en poise assés plus que de mi ; car
+                        avoirs <lb/> va et vient : se j'ai or perdu, je gaaignerai une autre fois,
+                        si <lb/> sorrai mon buef quant je porrai, ne ja por çou n'en plouerai. <lb/>
+                        Et vos plorastes por un cien de longaigne ? Mal dehait ait <lb/> qui ja mais
+                        vos prisera ! <lb/> —Certes, tu es de bon confort, biax frere ; que benois
+                        <lb/> soies tu ! Et que valoit tes bués ? <lb/> —Sire, vint sous m'en
+                        demande on ; je n'en puis mie <lb/> abatre une seule maaille. <pb n="27"/>
+                        <lb/> —Or tien, fait Aucassins, vint que j'ai ci en me borse, si <lb/> sol
+                        ten buef. <lb/> —Sire, fait il, grans mercis, et Dix vos laist trover ce
+                        <lb/> que vos querés ! </q>
+                </p>
+
+                <p> Il se part de lui ; Aucassins si cevauce. La nuis fu bele et <lb/> quoie, et il
+                    erra tant qu'il vin ................................ <lb/> .............si
+                    ...............................Nicolete........ <lb/>
+                    ...........................| defors et dedens et par deseure et <pb rend="folio"
+                        n="[c]"/>
+                    <lb/> devant de flors, et estoit si bele que plus ne pooit estre. <lb/> Quant
+                    Aucassins le perçut, si s'aresta tot a un fais, et li rais <lb/> de le lune
+                    feroit ens. </p>
+
+                <p>
+
+                    <q> E ! Dix, fait Aucassins, ci fu Nicolete me douce amie, et <lb/> ce fist ele
+                        a ses beles mains ; por le douçour de li et por <lb/> s'amor me descenderai
+                        je ore ci et m'i reposerai anuit <lb/> mais. </q>
+                </p>
+
+                <p> Il mist le pié fors de l'estrier por descendre, et li cevaus fu <lb/> grans et
+                    haus ; il pensa tant a Nicolete se tresdouce amie <lb/> qu'il caï si durement
+                    sor une piere que l'espaulle li vola hors <lb/> du liu. Il se senti molt blecié,
+                    mais il s'efforça tant au mix <lb/> qu'il peut et ataca son ceval a l'autre main
+                    a une espine, si <lb/> se torna sor costé tant qu'il vint tos souvins en le loge
+                    ; et il <lb/>garda par mi un trau de le loge, si vit les estoiles el ciel, <lb/>
+                    s'en i vit une plus clere des autres, si conmença a dire. </p>
+            </div>
+
+            <div type="chapitre" n="25">
+                <head> XXV. OR SE CANTE.</head>
+
+                <p rend="gv">
+
+                    <q> Estoilete, je te voi, <lb/> que la lune trait a soi ; <lb/> Nicolete est
+                        aveuc toi, <lb/> m'amïete o le blont poil. <lb n="5"/> Je quid Dix le veut
+                        avoir <lb/> Por la lu... e de s... <pb n="28"/>
+                        <lb/> ............................ <lb/> ............................ <lb/>
+                        ............................ <lb/> que que fust du recaoir, <pb rend="folio"
+                            n="[d]"/>
+                        <lb/> que fuisse lassus o toi : <lb/> ja te baiseroie estroit. <lb/> Se
+                        j'estoie fix a roi, <lb/> s'afferriés vos bien a moi, <lb n="15"/> suer
+                        douce amie. </q>
+                </p>
+            </div>
+
+            <div type="chapitre" n="26">
+                <head> XXVI. OR DIENT ET CONTENT ET FABLOIENT.</head>
+
+                <p> Quant Nicolete oï Aucassin, ele vint a lui, car ele n' estoit <lb/> mie lonc ;
+                    ele entra en la loge, si li jeta ses bras au col, <lb/> si le baisa et acola. </p>
+
+                <p>
+
+                    <q> Biax doux amis, bien soiiés vos trovés ! <lb/> —Et vos, bele douce amie,
+                        soiés li bien trovee ! </q>
+                </p>
+
+                <p> Il s'entrebaissent et acolent, si fu la joie bele. </p>
+
+                <p>
+
+                    <q> Ha ! douce amie, fait Aucassins, j'estoie ore molt bleciés <lb/> en
+                        m'espaulle, et or ne senc ne mal ne dolor, pui que je <lb/> vos ai. </q>
+                </p>
+
+                <p> Ele le portasta et trova qu'il avoit l'espaulle hors du liu ; <lb/> ele le mania
+                    tant a ses blances mains et porsaca, si con Dix <lb/> le vaut qui les amans
+                    ainme, qu'ele revint a liu ; et puis si <lb/> prist des flors et de l'erbe
+                    fresce et des fuelles verdes, si le <lb/> loia sus au pan de sa cemisse ; et il
+                    fu tox garis. </p>
+
+                <p>
+
+                    <q> Aucassins, fait ele, biaus dox amis, prendés consel que <lb/> vous ferés :
+                        se vos peres fait demain cerquier ceste forest et <lb/> on me trouve, que
+                        que de vous aviegne, on m'ocira. <lb/> —Certes, bele douce amie, j'en
+                        esteroie molt dolans ; <lb/> mais, se je puis, il ne vos tenront ja. </q>
+                </p>
+
+                <p> Il monta sor son | ceval et prent s'amie devant lui, baisant <pb rend="folio"
+                        n="[78]"/>
+                    <lb/> et acolant, si se metent as plains cans. </p>
+            </div>
+            <pb n="29"/>
+
+            <div type="chapitre" n="27">
+                <head> XXVII. OR SE CANTE.</head>
+
+                <p rend="gv"> Aucassins li biax, li blons, <lb/> li gentix, li amorous, <lb/> est
+                    issus del gaut parfont, <lb/> entre ses bras ses amors <lb n="5"/> devant lui
+                    sor son arçon ; <lb/> les ex li baise et le front <lb/> et le bouce et le
+                    menton. <lb/> Ele l'a mis a raison : <lb/>
+                    <q> Aucassins, biax amis dox, <lb n="10"/> en quel tere en irons nous ? <lb/>
+                        —Douce amie, que sai jou ? <lb/> Moi ne caut u nous aillons, <lb/> en forest
+                        u en destor, <lb/> mais que je soie aveuc vous. </q>
+                    <lb n="15"/> Passent les vaus et les mons <lb/> et les viles et les bors ; <lb/>
+                    a la mer vinrent au jor, <lb/> si descendent u sablon <lb/> les le rivage. </p>
+            </div>
+
+            <div type="chapitre" n="28">
+                <head> XXVIII. OR DIENT ET CONTENT ET FABLOIENT.</head>
+
+                <p> Aucassins fu descendus entre lui et s'amie, si con vous <lb/> avés oï et entendu
+                    ; il tint son ceval par le resne et s'amie <lb/> par le main, si conmencent aler
+                    selonc le rive... </p>
+
+                <p> Il les acena et il vinrent a lui, si fist tant vers aus qu'i le <lb/> missen en
+                    lor nef ; et quant il furent en haute mer, une tormente <lb/>leva, grande et
+                    mervelleuse, qui les mena de tere en <lb/> tere, tant qu'il ariverent en une
+                    tere estragne | et entrerent el <pb rend="folio" n="[b]"/>
+                    <pb n="30"/>
+                    <lb/> port du castel de Torelore. Puis demanderent ques terre <lb/> c' estoit,
+                    et on lor dist que c'estoit le tere le roi de Torelore ; <lb/> puis demanda quex
+                    hon c'estoit, ne s'il avoit gerre, et on li <lb/> dist: <q> Oïl, grande. </q>
+                </p>
+
+                <p> Il prent congié as marceans et cil le conmanderent a Diu ; <lb/> il monte sor
+                    son ceval, s'espee çainte, s'amie devant lui, et <lb/> erra tant qu'il vint el
+                    castel ; il demande u li rois estoit, et on <lb/> li dist qu'il gissoit
+                    d'enfent. </p>
+
+                <p>
+                    <q>Et u est dont se femme ? </q>
+                </p>
+
+                <p> Et on li dist qu'ele est en l'ost et si i avoit mené tox ciax du <lb/> païs ; et
+                    Aucassins l'oï, si li vint a grant mervelle ; et vint au <lb/> palais et
+                    descendi entre lui et s'amie ; et ele tint son ceval et <lb/> il monta u palais,
+                    l'espee çainte, et erra tant qu'il vint en le <lb/> canbre u li rois gissoit.
+                </p>
+            </div>
+
+            <div type="chapitre" n="29">
+                <head> XXIX. OR SE CANTE.</head>
+
+                <p rend="gv"> En le canbre entre Aucassins, <lb/> li cortois et li gentis ; <lb/> il
+                    est venus dusque au lit, <lb/> alec u li rois se gist ; <lb n="5"/> par devant
+                    lui s'arestit, <lb/> si parla ; oés que dist : <lb/>
+                    <q>Di va ! fau, que fais tu ci ?</q>
+                    <lb/> Dist li rois: <q> Je gis d'un fil ; <lb/> quant mes mois sera conplis <lb
+                            n="10"/> et je sarai bien garis, <lb/> dont irai le messe oïr, <lb/> si
+                        com mes ancestre fist, <lb/> et me grant guerre esbaudir <pb rend="folio"
+                            n="[c]"/>
+                        <lb/> encontre mes anemis ; <lb n="15"/> nel lairai mie. </q>
+                </p>
+            </div>
+            <pb n="31"/>
+
+            <div type="chapitre" n="30">
+                <head> XXX. OR DIENT ET CONTEN ET FABLOIENT.</head>
+
+                <p> Quant Aucassins oï ensi le roi parler, il prist tox les dras <lb/> qui sor lui
+                    estoient, si les houla aval le canbre ; il vit deriere <lb/> lui un baston, il
+                    le prist, si torne, si fiert, si le bati tant que <lb/> mort le dut avoir. </p>
+
+                <p>
+
+                    <q> Ha ! biax sire, fait li rois, que me demandés vos ? Avés <lb/> vos le sens
+                        dervé, qui en me maison me batés ? <lb/> —Par le cuer Diu ! fait Aucassins,
+                        malvais fix a putain, <lb/> je vos ocirai, se vos ne m'afiés que ja mais hom
+                        en vo tere <lb/> d'enfant ne gerra. </q>
+                </p>
+
+                <p> Il li afie ; et quant il li ot afié : <lb/>
+                    <q> Sire, fait Aucassins, or me menés la u vostre fenme est <lb/> en l'ost.
+                        <lb/> —Sire, volentiers </q> , fait li rois. </p>
+
+                <p> Il monte sor un ceval, et Aucassins monte sor le sien, <lb/> et Nicolete remest
+                    es canbres la roine. Et li rois et Aucassins <lb/> cevaucierent tant qu'il
+                    vinrent la u la roine estoit, et <lb/> troverent la bataille de poms de bos
+                    waumonnés et d'ueus et <lb/> de fres fromages ; et Aucassins les conmença a
+                    regarder, se <lb/> s'en esmevella molt durement. </p>
+            </div>
+
+            <div type="chapitre" n="31">
+                <head> XXXI. OR SE CANTE.</head>
+
+                <p rend="gv"> Aucassins est arestés, <lb/> sor son arçon acoutés, <lb/> si coumence
+                    a regarder <pb rend="folio" n="[d]"/>
+                    <lb/> ce plenier estor canpel : <lb n="5"/> il avoient aportés <lb/> des
+                    fromages fres assés <lb/> et puns de bos waumonés <pb n="32"/>
+                    <lb/> et grans canpegneus canpés ; <lb/> cil qui mix torble les gués <lb n="10"
+                    /> est li plus sire clamés. <lb/> Aucassins, li prex, li ber, <lb/> les coumence
+                    a regarder, <lb/> s'en prist a rire. </p>
+            </div>
+
+            <div type="chapitre" n="32">
+                <head> XXXII. OR DIENT ET CONTENT ET FLABENT.</head>
+
+                <p> Quant Aucassins vit cele mervelle, si vint au roi, si <lb/> l'apele. <lb/>
+                    <q> Sire, fait Aucassins, sont ce ci vostre anemi ? <lb/> —Oïl, sire, fait li
+                        rois. <lb/> —Et vouriiés vos que je vos en venjasse ? <lb/> —Oie, fait il,
+                        volentiers. </q>
+                </p>
+
+                <p> Et Aucassins met le main a l'espee, si se lance en mi ax, <lb/> si conmence a
+                    ferir a destre et a senestre, et s'en ocit molt. Et <lb/> quant li rois vit qu'i
+                    les ocioit, il le prent par le frain et <lb/> dist : <lb/>
+                    <q> Ha ! biax sire, ne les ociés mie si faitement. <lb/> —Conment ? fait
+                        Aucassins, en volés vos que je vos <lb/> venge ? <lb/> —Sire, dist li rois,
+                        trop en avés vos fait : il n' est mie costume <lb/> que nos entrocions li
+                        uns l'autre. </q>
+                </p>
+
+                <p> Cil tornent en fuies ; et li rois et Aucassins s'en repairent <lb/> au castel de
+                    Torelore. Et les gens del païs dient au roi qu'il <lb/> cast Aucassin fors de sa
+                    tere, et si detiegne Nicolete aveuc <lb/> son fil, qu'ele sanbloit bien fenme de
+                    haut lignage. Et <lb/> Nicolete l'oï, si n'en fu mie lie, si conmença a dire.
+                </p>
+            </div>
+            <pb n="33"/>
+
+            <div type="chapitre" n="33">
+                <head> XXXIII. OR SE CANTE.</head>
+
+                <p rend="gv">
+
+                    <q> Sire rois de Torelore, <pb rend="folio" n="[79]"/>
+                        <lb/> ce dist la bele Nichole, <lb/> vostre gens me tient por fole : <lb/>
+                        quant mes dox amis m'acole <lb n="5"/> et il me sent grasse et mole, <lb/>
+                        dont sui jou a tele escole, <lb/> baus ne tresce ne carole, <lb/> harpe,
+                        gigle ne viole, <lb/> ne deduis de la nimpole <lb n="10"/> n'i vauroit mie.
+                    </q>
+                </p>
+            </div>
+
+            <div type="chapitre" n="34">
+                <head> XXXIV. OR DIENT ET CONTENT ET FLABOIENT.</head>
+
+                <p> Aucassins fu el castel de Torelore, et Nicolete s'amie, a <lb/> grant aise et a
+                    grant deduit, car il avoit aveuc lui Nicolete <lb/> sa douce amie que tant
+                    amoit. En ço qu'il' estoit en tel aisse <lb/> et en tel deduit, et uns estores
+                    de Sarrasins vinrent par mer, <lb/> s'asalirent au castel, si le prissent par
+                    force ; il prissent <lb/> l'avoir, s'en menerent caitis et kaitives ; il
+                    prissent Nicolete <lb/> et Aucassin, et si loierent Aucassin les mains et les
+                    piés et si <lb/> le jeterent en une nef et Nicolete en une autre ; si leva une
+                    <lb/> tormente par mer que les espartist. </p>
+
+                <p> Li nes u Aucassins estoit ala tant par mer waucrant qu'ele <lb/> ariva au castel
+                    de Biaucaire ; et les gens du païs cururent au <lb/> lagan, si troverent
+                    Aucassin, si le reconurent. Quant cil de <lb/> Biaucaire virent lor damoisel,
+                    s'en fisent grant | joie, car <pb rend="folio" n="[b]"/>
+                    <lb/> Aucassins avoit bien mes u castel de Torelore trois ans, et <lb/> ses
+                    peres et se mere estoient mort. Il le menerent u castel <lb/> de Biaucaire, si
+                    devinrent tot si home, si tint se tere en pais. </p>
+            </div>
+            <pb n="34"/>
+
+            <div type="chapitre" n="35">
+                <head> XXXV. OR SE CANTE.</head>
+
+                <p rend="gv"> Aucassins s'en est alés <lb/> a Biaucaire sa cité <lb/> le païs et le
+                    regné <lb/> tint trestout en quiteé. <lb n="5"/> Jure Diu de maïsté <lb/> qu'il
+                    li poise plus assés <lb/> de Nicholete au vis cler <lb/> que de tot sen parenté
+                    <lb/> s'il estoit a fin alés. <lb n="10"/>
+                    <q> Douce amie o le vis cler, <lb/> or ne vous ai u quester ; <lb/> ainc Diu ne
+                        fist ce regné <lb/> ne par terre ne par mer, <lb/> se t'i quidoie trover,
+                            <lb n="15"/> ne t'i quesisce. </q>
+                </p>
+            </div>
+
+            <div type="chapitre" n="36">
+                <head> XXXVI. OR DIENT ET CONTENT ET FABLOIEN.</head>
+
+                <p> Or lairons d'Aucassin, si dirons de Nicolete. </p>
+
+                <p> La nes u Nicolete estoit estoit le roi de Cartage, et cil estoit <lb/> ses
+                    peres, et si avoit dose freres, tox princes u rois. Quant <lb/> il virent
+                    Nicolete si bele, se li porterent molt grant honor et <lb/> fisent feste de li,
+                    et molt li demanderent qui ele estoit, car <lb/> molt sanbloit bien gentix fenme
+                    et de haut lignage. Mais ele <lb/> ne lor sot a dire qui ele estoit, | car ele
+                    fu pree petis enfes. <pb rend="folio" n="[c]"/>
+                    <lb/> Il nagierent tant qu'il ariverent desox le cité de Cartage, et <lb/> quant
+                    Nicolete vit les murs del castel et le païs, ele se reconut, <lb/> qu'ele i
+                    avoit esté norie et pree petis enfes, mais ele ne <lb/> fu mie si petis enfes
+                    que ne seust bien qu'ele avoit esté fille <lb/> au roi de Cartage et qu'ele
+                    avoit esté norie en le cité. </p>
+            </div>
+            <pb n="35"/>
+
+            <div type="chapitre" n="37">
+                <head> XXXVII. OR SE CANTE.</head>
+
+                <p rend="gv"> Nichole li preus, li sage, <lb/> est arivee a rivage, <lb/> voit les
+                    murs et les astages <lb/> et les palais et les sales ; <lb n="5"/> dont si s'est
+                    clamee lasse : <lb/>
+                    <q> Tant mar fui de haut parage, <lb/> ne fille au roi de Cartage, <lb/> ne
+                        cousine l'amuaffle ! <lb/> Ci me mainnent gent sauvage. <lb n="10"/>
+                        Aucassin gentix et sages, <lb/> frans damoisiax honorables, <lb/> vos douces
+                        amors me hastent <lb/> et semonent et travaillent. <lb/> Ce doinst Dix
+                        l'esperitables <lb n="15"/> c'oncor vous tiengne en me brace, <lb/> et que
+                        vos baissiés me face <lb/> et me bouce et mon visage, <lb/> damoisiax sire.
+                    </q>
+                </p>
+            </div>
+
+            <div type="chapitre" n="38">
+                <head> XXXVIII. OR DIENT ET CONTENT ET FABLOIENT.</head>
+
+                <p> Quant li rois de Cartage oï Nicolete ensi parler, il li geta <lb/> ses bras au
+                    col. </p>
+
+                <p>
+
+                    <q> Bele douce amie, fait il, dites moi qui vos estes ; ne <lb/> vos esmaiiés
+                        mie de mi. <lb/> —Sire, fait ele, je sui fille au roi de Cartage et fui
+                        preée <lb/> petis | enfes, bien a quinse ans. </q>
+                    <pb rend="folio" n="[d]"/>
+                </p>
+
+                <p> Quant il l'oïrent ensi parler, si seurent bien qu'ele disoit <lb/> voir, si
+                    fissen de li molt grant feste, si le menerent u palais <pb n="36"/>
+                    <lb/> a grant honeur, si conme fille de roi. Baron li vourent doner <lb/> un roi
+                    de paiiens, mais ele n' avoit cure de marier. La fu bien <lb/> trois jors u
+                    quatre. Ele se porpensa par quel engien ele porroit <lb/> Aucassin querre ; ele
+                    quist une viele, s'aprist a vieler, <lb/> tant c'on le vaut marier un jor a un
+                    roi rice paiien. Et ele <lb/> s'enbla la nuit, si vint au port de mer, si se
+                    herbega ciés une <lb/> povre fenme sor le rivage ; si prist une herbe, si en
+                    oinst <lb/> son cief et son visage, si qu'ele fu tote noire et tainte. Et ele
+                    <lb/> fist faire cote et mantel et cemisse et braies, si s'atorna a <lb/> guise
+                    de jogleor ; si prist se viele, si vint a un marounier, se <lb/> fist tant vers
+                    lui qu'il le mist en se nef. Il drecierent lor <lb/> voile, si nagierent tant
+                    par haute mer qu'il ariverent en le <lb/> terre de Provence. Et Nicolete issi
+                    fors, si prist se viele, si <lb/> ala vielant par le païs tant qu'ele vint au
+                    castel de Biaucaire, <lb/> la u Aucassins estoit. </p>
+            </div>
+
+            <div type="chapitre" n="39">
+                <head> XXXIX. OR SE CANTE.</head>
+
+                <p rend="gv"> A Biaucaire sous la tor <lb/> estoit Aucassins un jor, <lb/> la se
+                    sist sor un perron, <lb/> entor lui si franc baron ; <lb n="5"/> voit les herbes
+                    et les flors <lb/> s'oit canter les oisellons, <lb/> menbre li de ses amors,
+                    <lb/> de Nicholete le prox <pb rend="folio" n="[80]"/>
+                    <lb/> qu'il ot amee tans jors ; <lb n="10"/> dont jete souspirs et plors. <lb/>
+                    Es vous Nichole au peron, <lb/> trait vïele, trait arçon ; <lb/> or parla, dist
+                    sa raison. <lb/>
+                    <q> Escoutés moi, franc baron <pb n="37"/>
+                        <lb n="15"/> cil d'aval et cil d'amont ; <lb/> plairoit vos oïr un son <lb/>
+                        d'Aucassin, un franc baron, <lb/> de Nicholete la prous ? <lb/> Tant
+                        durerent lor amors <lb n="20"/> qu'il le quist u gaut parfont ; <lb/> a
+                        Torelore u dongon <lb/> les prissent paiien un jor. <lb/> D'Aucassin rien ne
+                        savons, <lb/> mais Nicolete la prous <lb n="25"/> est a Cartage el donjon,
+                        <lb/> car ses pere l'ainme mout <lb/> qui sire est de cel roion. <lb/> Doner
+                        li volent baron <lb/> un roi de paiiens felon : <lb n="30"/> Nicolete n'en a
+                        soing, <lb/> car ele aime un dansellon <lb/> qui Aucassins avoit non ; <lb/>
+                        bien jure Diu et son non, <lb/> ja ne prendera baron, <lb n="35"/> s'ele n'
+                        a son ameor <lb/> que tant desire. </q>
+                </p>
+            </div>
+
+            <div type="chapitre" n="40">
+                <head> XL. OR DIENT ET CONTENT ET FABLOIENT.</head>
+
+                <p> Quant Aucassins oï ensi parler Nicolete, il fu molt liés, <lb/> si le traist
+                    d'une part, se li demanda : <lb/>
+                    <q> Biax dous amis, fait Aucassins, savés vos nient de cele <lb/> Nicolete dont
+                        vos avés ci canté ? <lb/> —Sire, oie, j'en sai con de le plus france
+                        creature et de le <lb/> plus gentil et de le plus sage | qui onques fust nee
+                        ; si est <pb rend="folio" n="[b]"/>
+                        <lb/> fille au roi de Cartage, qui le prist la u Aucassins fu pris, si <pb
+                            n="38"/>
+                        <lb/> le mena en le cité de Cartage tant qu'il seut bien que c'estoit <lb/>
+                        se fille, si en fist molt grant feste ; si li veut on doner cascun <lb/> jor
+                        baron un des plus haus rois de tote Espaigne ; mais <lb/> ele se lairoit
+                        ançois pendre u ardoir qu'ele en presist nul <lb/> tant fust rices. <lb/>
+                        —Ha ! biax dox amis, fait li quens Aucassins, se vous <lb/> voliiés raler en
+                        cele terre, se li dississçiés qu'ele venist a mi <lb/> parler, je vos
+                        donroie de mon avoir tant con vos en oseriés <lb/> demander ne prendre. Et
+                        saciés que por l'amor de li ne voul <lb/> je prendre fenme tant soit de haut
+                        parage, ains l'atenc, ne ja <lb/> n'arai fenme se li non ; et se je le
+                        seusce u trover, je ne <lb/> l'eusce ore mie a querre. <lb/> —Sire, fait
+                        ele, se vos çou faissiés, je l'iroie querre por <lb/> vos et por li que je
+                        molt aim. </q>
+                </p>
+
+                <p> Il li afie, et puis se li fait doner vint livres. Ele se part de <lb/> lui, et
+                    il pleure por le douçor de Nicolete ; et quant ele le <lb/> voit plorer : <lb/>
+                    <q> Sire, fait ele, ne vos esmaiiés pas, que dusqu'a <lb/> pou le vos arai en
+                        ceste vile amenee, se que vos le <lb/> verrés. </q>
+                </p>
+
+                <p> Et quant Aucassins l'oï, si en fu molt liés. Et ele se part <lb/> de lui, si
+                    traist en le vile a le maison le viscontesse, car li <lb/> visquens ses parrins
+                    estoit mors. Ele se herbega la, si parla a <lb/> li tant qu'ele li gehi son
+                    afaire et que le viscontesse le recounut <lb/> et seut bien que c'estoit
+                    Nicolete et qu'ele l'avoit norrie ; <lb/> si le fist | laver et baignier et
+                    sejorner uit jors tous plains. Si <pb rend="folio" n="[c]"/>
+                    <lb/> prist une herbe qui avoit non esclaire, si s'en oinst, si fu ausi <lb/>
+                    bele qu'ele avoit onques esté a nul jor ; se se vesti de rices <lb/> dras de
+                    soie, dont la dame avoit assés, si s'assist en le canbre <lb/> sor une cueute
+                    pointe de drap de soie, si apela la dame et <lb/> li dist qu'ele alast por
+                    Aucassin son ami. Et ele si fist, et <lb/> quant ele vint u palais, si trova
+                    Aucassin qui ploroit et <pb n="39"/>
+                    <lb/> regretoit Nicolete s'amie, por çou qu'ele demouroit tant ; et <lb/> la
+                    dame l'apela, si li dist : <lb/>
+                    <q> Aucassins, or ne vos dementés plus, mais venés ent <lb/> aveuques mi et je
+                        vos mosterai la riens el mont que vos <lb/> amés plus, car c'est Nicolete vo
+                        duce amie, qui de longes <lb/> terres vos est venue querre. </q>
+                </p>
+                <p>Et Aucassins fu liés. </p>
+            </div>
+
+            <div type="chapitre" n="41">
+                <head> XLI. OR SE CANTE.</head>
+
+                <p rend="gv"> Quant or entent Aucassins <lb/> de s'amie o le cler vis <lb/> qu'ele
+                    est venue el païs, <lb/> or fu liés, ainc ne fu si. <lb n="5"/> Aveuc la dame
+                    s'est mis, <lb/> dusqu'a l'ostel ne prist fin ; <lb/> en le cambre se sont mis,
+                    <lb/> la u Nicholete sist. <lb/> Quant ele voit son ami, <lb n="10"/> or fu lie,
+                    ainc ne fu si ; <lb/> contre lui en piés sali. <lb/> Quant or le voit Aucassins,
+                    <lb/> andex ses bras li tendi, <lb/> doucement le recoulli, <pb rend="folio"
+                        n="[d]"/>
+                    <lb n="15"/> les eus li baisse et le vis. <lb/> La nuit le laissent ensi, <lb/>
+                    tresqu'au demain par matin <lb/> que l'espousa Aucassins : <lb/> dame de
+                    Biaucaire en fist ; <lb n="20"/> puis vesquirent il mains dis <lb/> et menerent
+                    lor delis. <lb/> Or a sa joie Aucassins <pb n="40"/>
+                    <lb/> et Nicholete autresi : <lb/> no cantefable prent fin, <lb/> n'en sai plus
+                    dire. </p>
+            </div>
+        </body>
+    </text>
+</TEI>

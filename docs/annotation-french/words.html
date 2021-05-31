@@ -1,0 +1,3121 @@
+<html>
+
+<head>
+<title>Treatment of individual words</title>
+</head>
+
+<h3>Treatment of individual words</h3>
+
+See also
+
+<ul>
+<li><a href="pos/pos-main.html#adj-ou-adv">Adjectif ou adverbe?</a>
+<li><a href="pos/pos-main.html#adv-ou-n">Adverbe ou nom?</a>
+<li><a href="pos/pos-main.html#p-adv-ou-n">Pr&eacute;position, adverbe ou nom?</a>
+<li><a href="pos/pos-main.html#aux-ou-v">Verbe auxiliaire ou verbe principal?</a>
+<li><a href="pos/pos-main.html#md-ou-v">Verbe modal ou verbe principal?</a>
+</ul>
+
+<hr>
+
+<a name="a">
+
+<a name="afin">
+<h4>AFIN</h4>
+
+<blockquote>
+Pas d&eacute;coup&eacute;.
+Voir aussi <a href="pos/pos-main.html#p-adv-ou-n">Pr&eacute;position, adverbe ou nom?</a>
+</blockquote>
+
+<a name="ains">
+<h4>AINS, AINZ</h4>
+
+<blockquote>
+
+When it means EARLIER, AINS is tagged ADVR.
+
+<p>
+When it means RATHER (common in contrastive environments), AINS is
+tagged as simple ADV.
+
+<p>
+When construed with a QUE clause, AINS is treated as part of the
+subordinate clause.  When AINS and QUE are discontinuous, AINS is
+annotated as having undergone leftward movement, as is our default.
+
+<blockquote>
+<pre>
+(CP-ADV (ADV ains)
+        (CONJS que)
+	(IP-SUB (NP-SBJ (D le) (NCS coq))
+  	        (VJ chantast)))
+
+(IP-MAT (ADVP-1 (ADV ains))
+         ...
+        (CP-ADV (ADVP *ICH*-1)
+                (CONJS que)
+	        (IP-SUB (NP-SBJ (D le) (NCS cooq))
+  	                (VJ chantast))))
+</pre>
+</blockquote>
+
+</blockquote>
+
+<a name="ainsi">
+<h4>AINSI</h4>
+
+<blockquote>
+Clausal complements of AINSI are treated
+as <a href="syntax-main.html#comparative_clauses">comparative clauses</a> headed
+by the subordinating conjunction QUE.  Any necessary antecedents of
+traces are taken to be empty operators.
+
+<blockquote>
+<pre>
+(ADVP (ADV ainxin)
+      (CP-CMP (WNP-1 0)
+      	      (CONJS que)
+	      (IP-SUB (NP-SBJ (D une) (NCS pucelle))
+		      (MDJ doit)
+		      (IP-INF (NP-ACC *T*-1)
+		      	      (VX faire)))))
+</pre>
+</blockquote>
+
+</blockquote>
+
+<a name="al">
+<h4>AL</h4>
+
+<blockquote>
+See <a href="pos/pos-splitting.html#a-le">&Agrave; + LE</a>.
+</blockquote>
+
+<!--
+<a name="aller">
+<h4>ALLER</h4>
+
+<blockquote>
+<li><a href="pos/pos-main.html#aux-ou-v">Verbe auxiliaire ou verbe principal?</a>
+</blockquote>
+-->
+
+<a name="amont">
+<h4>AMONT</h4>
+
+<blockquote>
+Pas d&eacute;coup&eacute;.
+&Eacute;tiquet&eacute; comme ADV ou P.
+
+<pre>
+monta amont/P son echelle
+</pre>
+
+</blockquote>
+
+<a name="arriere-ban">
+<h4>ARRI&Egrave;RE-BAN</h4>
+
+<blockquote>
+Pas d&eacute;coup&eacute;.
+
+<pre>
+arri&egrave;re-ban/NCS
+</pre>
+</blockquote>
+
+<a name="as">
+<h4>AS</h4>
+
+<blockquote>
+
+AS can be:
+
+<ul>
+<li>the 2nd ps sg. of the verb AVOIR (<tt>AJ, VJ</tt>)
+<li>an orthographic variant of the interjection <a href="words.html#es">ES</a>,
+    which in the absence of a verb projects <a href="syntax-main.html#ip-pres"><tt>IP-PRES</tt></a>
+<li>a fused form expressing &Agrave; + LES, which should be decomposed
+</ul>
+
+</blockquote>
+
+<a name="assez">
+<h4>ASSEZ</h4>
+
+<blockquote>
+
+<ul>
+<li><a href="syntax-main.html#argument_or_modifier">Argument or modifier?</a>
+<li><a href="syntax-main.html#comparative_and_degree_constructions">Comparative 
+    constructions</a>
+<li><a href="syntax-main.html#leftward_or_rightward_movement">Leftward or
+    rightward movement?</a>
+<li><a href="syntax-main.html#quantifiers">Quantifiers</a>
+</ul>
+
+</blockquote>
+
+<a name="aucunement">
+<h4>AUCUNEMENT</h4>
+
+<blockquote>
+Toujours &eacute;tiquet&eacute; comme ADV.
+
+<pre>
+fit elle aucunement/ADV semblant de le voir
+</pre>
+</blockquote>
+
+<a name="aucunesfois">
+<h4>AUCUNESFOIS</h4>
+
+<blockquote>
+See <a href="words.html#q-fois">Q + FOIS</a>.
+</blockquote>
+
+<a name="aupres">
+<h4>AUPR&Egrave;S</h4>
+
+<blockquote>
+Pas d&eacute;coup&eacute;.
+Voir aussi <a href="pos/pos-main.html#p-adv-ou-n">Pr&eacute;position, adverbe ou nom?</a>
+</blockquote>
+
+<a name="aus">
+<h4>AUS</h4>
+
+<blockquote>
+See <a href="pos/pos-splitting.html#a-le">&Agrave; + LE</a>.
+</blockquote>
+
+<a name="autour">
+<h4>AUTOUR</h4>
+
+<blockquote>
+Pas d&eacute;coup&eacute;.
+Voir aussi <a href="pos/pos-main.html#p-adv-ou-n">Pr&eacute;position, adverbe ou nom?</a>
+</blockquote>
+
+<a name="autre">
+<h4>AUTRE</h4>
+
+<blockquote>
+Quand AUTRE modifie et prec&egrave;de
+un nom prononc&eacute;, il est
+&eacute;tiquet&eacute; comme
+adjectif (ADJ).
+
+<pre>
+ses autres/ADJ compagnons/NCPL
+
+d' autres/ADJ compagnons/NCPL
+
+deux autres/ADJ compagnons/NCPL
+
+une autre/ADJ sienne voisine/NCS
+</pre>
+
+En des autres cas, AUTRE est
+trait&eacute; par d&eacute;faut
+comme <a href="pos/pos-main.html#substantivation">substantiv&eacute;</a>.
+
+<pre>
+l' un/NCS et l' autre/NCS
+
+les uns/NCPL et les autres/NCPL
+
+les deux/ADJNUM autres/NCPL
+
+et plusieurs/Q autres/NCPL
+
+et autres/NCPL plusieurs/Q vont venir
+
+les autres/NCPL tous/Q vont venir
+</pre>
+</blockquote>
+
+<!--
+<a name="avoir">
+<h4>AVOIR</h4>
+
+<blockquote>
+See <a href="pos/pos-main.html#aux-ou-v">Verbe auxiliaire ou verbe principal?</a>
+</blockquote>
+-->
+
+<a name="avoir_nom">
+<h4>AVOIR NOM</h4>
+
+<blockquote>
+
+<blockquote>
+<pre>
+( (IP-MAT (NP-SBJ (PRO Il))
+          (VJ avoit)
+          (NP-ACC (NCS nom))
+          (NP-SPR (NPRS Jean))))
+</pre>
+</blockquote>
+
+</blockquote>
+
+<a name="b">
+
+<a name="beaucoup">
+<h4>BEAUCOUP</h4>
+
+<blockquote>
+
+<ul>
+<li><a href="syntax-main.html#argument_or_modifier">Argument or modifier?</a>
+<li><a href="syntax-main.html#comparative_and_degree_constructions">Comparative constructions</a>
+<li><a href="syntax-main.html#leftward_or_rightward_movement">Leftward or
+    rightward movement?</a>
+<li><a href="syntax-main.html#quantifiers">Quantifiers</a>
+</ul>
+
+</blockquote>
+
+<a name="bientot">
+<h4>BIENT&Ocirc;T</h4>
+
+<blockquote>
+Toujours &eacute;tiquet&eacute; comme <a href="pos/pos-main.html#adv">adverbe (ADV)</a>.
+
+<pre>
+Si vous n'allez bientost/ADV, elle donnera tout.
+
+Et oncques depuis ne se osa veoir entre gens, mais comme reclus 
+et plain melencolie fina bientost/ADV apr&egrave;s ses dolens jours.
+</pre>
+</blockquote>
+
+<a name="bienvenu">
+<h4>BIENVENU</h4>
+
+<blockquote>
+Pas d&eacute;coup&eacute;.  Peut &ecirc;tre nom ou participe.
+</blockquote>
+
+<a name="c">
+
+<a name="ca">
+<h4>&Ccedil;A</h4>
+
+<blockquote>
+&Ccedil;A</h4> est &eacute;tiquet&eacute; comme ADV dans les constructions
+suivantes.
+
+<pre>
+or &ccedil;a/ADV
+&ccedil;a/ADV et l&agrave;
+</pre>
+
+</blockquote>
+
+<a name="car">
+<h4>CAR</h4>
+
+<blockquote>
+N'ayant pas la distribution d'une conjonction de subordination
+(CONJS),
+
+<pre>
+  Parce qu'elle est arriv&eacute;e, je peux partir.
+* Car elle est arriv&eacute;e, je peux partir.
+</pre>
+
+CAR est toujours &eacute;tiquet&eacute; comme conjonction de coordination (CONJO).
+
+<pre>
+il est venu me visiter car/CONJO il faisait beau
+</pre>
+
+M&ecirc;me dans d'occurrences comme les suivantes, CAR est &eacute;tiquet&eacute;
+comme CONJO introduisant une proposition incidente (IP-MAT-PRN).
+
+<pre>
+advint toutesfoiz, car/CONJO Fortune le voult, qu'elle cheut 
+
+le permist ou car/CONJO Fortune le voult et commenda, envieuse et mal
+contente de la prosperit&eacute; de celle belle fille, ou de ses parens,
+ou de tous deux ensemble, ou espoir par une secrete cause et raison
+naturelle, dont je laisse inquisition &agrave; les philosophes, et
+medecins qu'elle cheut en une desplaisante maladie
+</pre>
+</blockquote>
+
+<a name="ce">
+<h4>CE</h4>
+
+<blockquote>
+
+Impersonal CE is tagged as PRO (rather than as PROIMP).  Associates of
+impersonal CE are coindexed with it in the same way that they are
+coindexed with impersonal IL.
+
+<blockquote>
+<pre>
+( (IP-MAT (NP-SBJ=1 (PRO c'))
+          (VJ est)
+	  (NP-PRD (ADJ grant)
+		  (NCS follie))
+          (PP-1 (P d')
+		(IP-INF (CL-PP (CL en))
+		        (VX endurer)
+		        (NP-ACC (Q tant))))
+          (PONFP .)))
+</pre>
+</blockquote>
+
+</blockquote>
+
+<a name="ceci">
+<h4>CECI</h4>
+
+<blockquote>
+See <a href="words.html#ci-la">-CI/-L&Agrave;</a>.
+</blockquote>
+
+<a name="ce-dit">
+<h4>CEDIT</h4>
+
+<blockquote>
+See <a href="pos/pos-splitting.html#d-dit">D&eacute;terminant + DIT</a>.
+</blockquote>
+
+<a name="cela">
+<h4>CELA</h4>
+
+<blockquote>
+See <a href="words.html#ci-la">-CI/-L&Agrave;</a>.
+</blockquote>
+
+<a name="chacun">
+<h4>CHACUN</h4>
+
+<blockquote>
+
+See <a href="syntax-main.html#floated_quantifiers">Floated quantifiers</a>.
+
+</blockquote>
+
+<a name="cher">
+<h4>CHER</h4>
+
+<blockquote>
+
+<blockquote>
+<pre>
+(IP-INF (VX aimer / couter / vendre)
+        (ADVP (ADV cher)))
+
+(IP-INF (VX avoir / tenir)
+        (IP-SMC (NP-SBJ ...)
+                (ADJP-PRD (ADJ cher))))
+</pre>
+</blockquote>
+
+</blockquote>
+
+<a name="ci-la">
+<h4>-CI /-L&Agrave;</h4>
+
+<blockquote>
+Les combinaisons d'un
+d&eacute;terminant avec -CI ou
+L&Agrave; ne sont pas
+d&eacute;coup&eacute;es.  Elles
+sont &eacute;tiquet&eacute;es comme
+<a href="pos/pos-main.html#pro">pronoms (PRO)</a>.
+
+<pre>
+ceci/PRO, cela/PRO
+</pre>
+
+Par contre, les combinaisons d'un pronom avec -CI ou
+L&Agrave; sont d&eacute;coup&eacute;es.  Voir
+<a href="pos/pos-splitting.html#pro-ci-la">Pronom + 
+CI / L&Agrave;</a>.
+
+</blockquote>
+
+<a name="ciel">
+<h4>CIEL</h4>
+
+<blockquote>
+Tagged as NPRS when referring to the religious concept (seat of God),
+and as NCS otherwise.
+
+</blockquote>
+
+<a name="cl_vs_pro">
+<h4>CL versus PRO</h4>
+
+<blockquote>
+Subject pronouns are always tagged <tt>PRO</tt>.  Object pronouns, on
+the other hand, are sometimes tagged as ordinary pronouns (<tt>PRO</tt>)
+and sometimes as clitics (<tt>CL</tt>).  This is in contrast to the
+Ottawa annotation conventions, which do not use the <tt>CL</tt> tag.
+
+<p> There are in fact two relevant distinctions: a prosodic one, and a
+syntactic one.  Prosodically, pro-forms can be weak (<i>me, te, le, se,
+les</i>) or strong (also known as tonic) (<i>moi, toi, soi, eux</i>).
+Syntactically, pro-forms can be required to be adjacent to their
+licensing head, or they can have the relatively free distribution of
+ordinary noun phrases.  In principle, this gives rise to four expected
+possibilities, which are annotated as follows:
+
+<p>
+<table border cellpadding=5>
+<tr>
+<th align=left>Prosody
+<th align=left>Syntax
+<th align=left>Tag
+<th align=left>Example(s)
+<tr>
+<tr>
+<td rowspan=2>Weak
+<td>Separable
+<td colspan=2>This combination doesn't occur.
+
+<tr>
+
+<td>Nonseparable (preverbal)
+<td>CL
+<td>Le roi le/CL m'/CL a donn&eacute;.
+
+<tr>
+<td rowspan=2>Strong
+<td>Nonseparable
+    (postverbal in imperatives and other verb-initial contexts)
+<td>CL
+<td>Donne le/CL moi/CL
+
+<tr>
+
+<td>Separable (conjunction contexts, complement of preposition, left-dislocation)
+<td>PRO
+<td>Le roi a invit&eacute; ton fr&egrave;re et toi/PRO. <br>
+    Le roi a invit&eacute; toi/PRO et ton fr&egrave;re. <br>
+    Moi/PRO , je l' aime. <br>
+    Ce chien est &agrave; moi/PRO.
+</table>
+
+<p> To complicate matters yet a bit further, some forms are prosodically
+ambiguous (<i>lui, nous, vous</i>).  Such forms are annotated
+as <tt>CL</tt> or <tt>PRO</tt> depending on the syntactic context.
+
+<p>
+<blockquote>
+Le roi lui/CL a donn&eacute; un grand chien. (preverbal clitic)
+<br>
+Ce chien est a nous/PRO (complement of preposition)
+<br>
+Vous/PRO , vous &ecirc;tes fou. (left-dislocation)
+</blockquote>
+
+</blockquote>
+
+<a name="clitics">
+<h4>Clitics</h4>
+
+<blockquote>
+See <a href="syntax-main.html#cl_vs_pro">CL versus PRO</a>.
+</blockquote>
+
+<a name="combien">
+<h4>COMBIEN</h4>
+
+<blockquote>
+
+COMBIEN is tagged WQ (rather than WPRO) on the grounds that it licenses
+partitive NPs.
+
+</blockquote>
+
+<!--
+&Agrave; part de son emploi comme
+<a href="pos/pos-main.html#w-pro">WPRO</a>, COMBIEN est
+&eacute;tiquet&eacute; comme <a
+href="pos/pos-main.html#adv">adverbe (ADV)</a> en la
+<a href="pos/pos-main.html#loc-conj">locution
+conjonctive</a> COMBIEN QUE.
+-->
+
+<a name="comme">
+<h4>COMME</h4>
+
+<blockquote>
+
+The treatment of COMME is similar to that of <a href="words.html#que">QUE</a>.
+Possible tags are 
+<a href="words.html#comme_conjs">CONJS</a>,
+<a href="words.html#comme_p">P</a>,
+<a href="words.html#comme_wadv">WADV</a>.
+
+<ul>
+<a name="comme_conjs">
+<li>COMME is most commonly tagged as the <TT>CONJS</TT> head of an
+adverbial clause (<TT>CP-ADV</TT>), possibly involving elision.  
+When required by the meaning, the <TT>CP-ADV</TT> dominates a silent 
+wh- pronoun, mostly commonly WADVP.
+
+<pre>
+(CP-ADV (CONJS comme)			&larr; causal interpretation
+        (IP-SUB (NP-SBJ (PRO elle))
+		(VJ est)
+		(ADJP-PRD (ADJ jolie))))
+
+(CP-ADV (WADVP-1 0)			&larr; manner interpretation requires silent wh- adverbial
+        (CONJS comme)
+        (IP-SUB (ADVP *T*-1)
+                (NP-SBJ (PRO j'))
+		(AJ ai)
+		(VPP dit)))
+
+(NP (D un) (NCS homme)			&larr; elision + wh- pronoun
+    (CP-ADV (WADJP-1 0)
+	    (CONJS comme)
+	    (IP-SUB (ADJP-PRD *T*-1)
+		    (NP-SBJ (DZ mon) (NCS mari)))))  
+</pre>
+
+<li>In connection with SI, COMME is tagged as the head of a comparative
+clause.
+
+<pre>
+(ADVP (ADV si)
+      (CP-CMP (WADVP-1 0)		&larr; comparative, not adverbial clause
+	      (CONJS comme)
+              (IP-SUB (ADVP *T*-1)
+		      (NP-SBJ (PROIMP il))
+		      (VJ faut))))
+</pre>
+
+<li>COMME can function as the <TT>CONJS</TT> head of a complement clause
+(<TT>CP-THT</TT>).
+
+<pre>
+(IP-MAT (NP-SBJ (PRO Elle))
+	(VJ dit)
+	(CP-THT (CONJS comme)
+		(IP-SUB ...)))
+</pre>
+
+<a name="comme_p">
+<li>COMME is tagged as a preposition (<TT>P</TT>) when a full clausal
+structure is difficult or impossible to implement.
+
+<pre>
+(IP-INF (VX nommer)
+	(NP-ACC (Q quelqu'un))
+	(PP (P comme)
+	    (NP (NCS pr&eacute;sident)))) 
+</pre>
+
+<a name="comme_wadv">
+<li>Finally, COMME can be tagged as a wh- adverb when it modifies 
+adjectives or adverbs.
+
+<pre>
+(CP-EXL (WADJP-1 (WADV comme) (ADJ grands))
+        (IP-SUB (ADJP *T*-1)
+		(VJ sont)
+		(NP-SBJ (D les) (NCPL dents)
+			(PP (P d@)
+			    (NP (D @u) (NCS loup))))))
+</pre>
+
+</ul>
+
+</blockquote>
+
+<!--
+<blockquote>
+COMME qui introduit des interrogatives indirectes ou des exclamatives
+est &eacute;tiquet&eacute; comme <a href="pos/pos-main.html#w-adv">WADV</a>.
+
+<pre>
+il lui a racont&eacute; comme/WADV il &eacute;tait parti hier soir
+</pre>
+
+Quand COMME r&eacute;git une
+proposition (IP-SUB), il est
+&eacute;tiquet&eacute; comme <a
+href="pos/pos-main.html#conj-subord">conjonction de
+subordination (CONJS)</a>.
+
+<pre>
+comme/CONJS j' ai dit
+
+remontrant tout premier comme/CONJS la fille l'avoit aveugl&eacute;
+</pre>
+
+En tout autre cas
+(pr&eacute;c&eacute;dant des NP, PP,
+ADJP, CP-ADV, etc.), COMME est
+&eacute;tiquet&eacute; comme <a
+href="pos/pos-main.html#p">pr&eacute;position
+(P)</a>.
+
+<pre>
+on l'a print comme/P l'autre fois
+
+comme/P s' il avait fait
+</pre>
+ 
+</blockquote>
+-->
+
+<a name="comment">
+<h4>COMMENT</h4>
+
+<blockquote>
+COMMENT est toujours
+&eacute;tiquet&eacute; comme <a
+href="pos/pos-main.html#w-adv">adverbe
+interrogatif, relatif et exclamatif
+(WADV)</a>.
+
+<pre>
+il comprend comment/WADV c'est arriv&eacute;
+
+je vois comment/WADV c'est arriv&eacute;
+
+ne s&ccedil;avoit comment/WADV vivre avecques eulx
+</pre>
+</blockquote>
+
+<a name="d">
+
+<a name="davant">
+<h4>DAVANT</h4>
+
+<blockquote>
+Pas d&eacute;coup&eacute;.
+</blockquote>
+
+<a name="davantage">
+<h4>DAVANTAGE</h4>
+
+<blockquote>
+Pas d&eacute;coup&eacute;.
+</blockquote>
+
+<a name="de">
+<h4>DE</h4>
+
+<blockquote>
+
+When used instead of <a href="words.html#que">QUE</a> in comparatives, the
+complement of DE is treated as a simple phrase rather than an elided
+clause.
+
+<pre>
+(ADJP (QR plus)
+      (ADJ grand)
+      (PP (P de)
+          (NP (PRO moi))))
+</pre>
+
+<!--
+</blockquote>
+
+<blockquote>
+Dans des cas douteux, DE est
+&eacute;tiquet&eacute; comme 
+<a href="pos/pos-main.html#p">pr&eacute;position (P)</a>
+plut&ocirc;t que 
+<a href="pos/pos-main.html#d-part">d&eacute;terminant partitif (DF)</a>.
+
+<pre>
+regardoient assez/Q de/P pr&egrave;s/ADV
+</pre>
+-->
+
+Voir aussi <a href="pos/pos-splitting.html#de-le">DE + LE</a>.
+</blockquote>
+
+<h4>DE&Ccedil;A</h4>
+
+<blockquote>
+Pas d&eacute;coup&eacute;.
+Voir aussi <a href="pos/pos-main.html#p-adv-ou-n">Pr&eacute;position, adverbe ou nom?</a>
+</blockquote>
+
+<a name="del">
+<h4>DEL</h4>
+
+<blockquote>
+See <a href="pos/pos-splitting.html#de-le">DE + LE</a>.
+</blockquote>
+
+<a name="demourer">
+<h4>DEMOURER ... QUE</h4>
+
+<blockquote>
+
+The QUE clause associated with DEMOURER is treated as a CP-ADV.
+
+<blockquote>
+<pre>
+( (IP-MAT (NP-SBJ *proimp*)
+          (VJ demora)
+          (ADVP (ADV gueres))
+          (NP-MSR (DF de) (NCS temps))
+          (ADVP-TMP (ADV apres))
+          (CP-ADV (CONJS que / quant )
+                  (IP-SUB ...))))
+</pre>
+</blockquote>
+
+</blockquote>
+
+<a name="derechef">
+<h4>DERECHEF</h4>
+
+<blockquote>
+Pas d&eacute;coup&eacute;.
+</blockquote>
+
+<a name="des">
+<h4>DES</h4>
+
+<blockquote>
+See <a href="pos/pos-splitting.html#de-le">DE + LE</a>.
+</blockquote>
+
+<a name="desormais">
+<h4>DESORMAIS</h4>
+
+<blockquote>
+Pas d&eacute;coup&eacute;.
+</blockquote>
+
+<a name="dessusdit">
+<h4>DESSUSDIT</h4>
+
+<blockquote>
+Pas d&eacute;coup&eacute;.  &Eacute;tiquet&eacute; comme <TT>ADJ</TT>.
+</blockquote>
+
+<a name="deu">
+<h4>DEU</h4>
+
+<blockquote>
+See <a href="pos/pos-splitting.html#de-le">DE + LE</a>.
+</blockquote>
+
+<a name="devoir">
+<h4>DEVOIR</h4>
+
+<ul>
+<li><a href="pos/pos-main.html#subst-inf">Infinitif substantiv&eacute;</a>
+<li><a href="pos/pos-main.html#md-ou-v">Verbe modal ou verbe principal?</a>
+</ul>
+
+<a name="dieu">
+<h4>DIEU</h4>
+
+<blockquote>
+Quand il s'agit de la divinit&eacute; chr&eacute;tienne, DIEU est
+&eacute;tiquet&eacute; comme NPRS, m&ecirc;me avec minuscule initiale.
+</blockquote>
+
+<a name="do">
+<h4>DO</h4>
+
+<blockquote>
+See <a href="pos/pos-splitting.html#de-le">DE + LE</a>.
+</blockquote>
+
+<a name="donc">
+<h4>DONC</h4>
+
+<blockquote>
+N'ayant pas la distribution d'une <a
+href="pos/pos-main.html#conj-coord">conjonction de
+coordination (CONJO)</a>, DONC est
+&eacute;tiquet&eacute; partout
+comme <a href="pos/pos-main.html#adv">adverbe (ADV)</a>.
+
+<pre>
+Ainsi donc/ADV sailloit de Paris
+</pre>
+</blockquote>
+
+<a name="dont">
+<h4>DONT</h4>
+
+<blockquote>
+
+When DONT corresponds to DE CE QUE, the implicit structure is indicated
+explicitly as follows:
+
+<blockquote>
+<pre>
+(CP-DEG (CONJS qu')
+	(IP-SUB (NP-SBJ (PRO il))
+		(VJ loue)
+		(NP-ACC (NPRS Dieu))
+		(PP (P en)
+		    (NP (DZ son) (NCS courage)))
+	    	(PP (P *) 
+		    (NP (NCS *)
+			(CP-THT (CONJS dont)
+				(IP-SUB (NP-SBJ (PRO il))
+					(CL-NP-DTV (CL lui))
+					(VJ donna)
+					(NP-ACC (D ung)
+						(ADJP (ADV si) (ADJ riche))
+						(NCS joyau))))))))
+</pre>
+</blockquote>
+
+</blockquote>
+
+<a name="dorenavant">
+<h4>DORENAVANT</h4>
+
+<blockquote>
+
+DORENAVANT projects an ordinary ADVP (rather than ADVP-TMP).
+
+</blockquote>
+
+<a name="dou">
+<h4>DOU</h4>
+
+<blockquote>
+See <a href="pos/pos-splitting.html#de-le">DE + LE</a>.
+</blockquote>
+
+<a name="e">
+
+<a name="el">
+<h4>EL</h4>
+
+<blockquote>
+See <a href="pos/pos-splitting.html#en-le">EN + LE</a>.
+</blockquote>
+
+<a name="en">
+<h4>EN</h4>
+
+<blockquote>
+
+When construed with the subject, EN is dominated by NP-SBJ.  Otherwise,
+it is treated as a daughter of IP, on a par with other clitics.
+
+</blockquote>
+
+<a name="ensemble">
+<h4>ENSEMBLE</h4>
+
+<blockquote><pre>
+son accointance , ensemble/P <a href="words.html#et">et/ADV</a> sa tres maudicte allyance
+</pre></blockquote>
+
+<a name="environ">
+<h4>ENVIRON</h4>
+
+<blockquote>
+
+See <a href="syntax-main.html#numbers">Numbers</a>.
+
+</blockquote>
+
+<a name="es">
+<h4>ES</h4>
+
+<blockquote>
+
+ES can be:
+
+<ul>
+<li>the 2nd ps sg. of the verb &Ecirc;TRE (<tt>EJ, VJ</tt>)
+<li>an interjection (derived from Latin <i>ecce</i> 'lo, behold'), which
+    in the absence of a verb
+    projects <a href="syntax-main.html#ip-pres"><tt>IP-PRES</tt></a>
+<li>a fused form expressing EN + LES, which should be decomposed
+</ul>
+
+</blockquote>
+
+<a name="esprit">
+<h4>ESP(E)RIT</h4>
+
+<blockquote>
+Always tagged as NPRS when referring to the Holy Spirit, whether
+explicitly as the third person in the Christian Trinity or not
+<pre>
+
+le/D saint/NPRS esprit/NPRS
+
+l'/D esprit/NPRS
+
+l'/D esprit/NPRS de Dieu/NPRS
+</pre>
+</blockquote>
+
+<a name="et">
+<h4>ET</h4>
+
+<blockquote>
+
+ET can be:
+
+<ul>
+<li>a coordinating conjunction (<tt>CONJO</tt>)
+<li>the 2nd ps sg. of the verb &Ecirc;TRE (<tt>EJ, VJ</tt>)
+<li>the Latin etymon of the conjunction (<tt>ETR</tt>),
+<li>an orthographic variant of the interjection <a href="words.html#es">ES</a>,
+    which in the absence of a verb projects <a href="syntax-main.html#ip-pres"><tt>IP-PRES</tt></a>
+<li>an adverb-like item currently tagged <tt>X</tt>
+</ul>
+
+<p>
+Concessive or focus-like functions of ET are generally treated as
+instances of gapping.
+
+<blockquote>
+<pre>
+( (IP-MAT (IP-MAT-1 (NP-SBJ (PRO Elle))
+                    (CL-NP-ACC (CL l'))
+                    (AJ a)
+                    (VPP fait))
+          (CONJP (CONJO et)
+                 (IP-MAT=1 (ADVP (ADV bien))))
+          (PONFP .)))
+</pre>
+</blockquote>
+
+</blockquote>
+
+<!--
+<a name="et">
+<h4>ET</h4>
+
+<blockquote>
+ET est &eacute;tiquet&eacute;
+g&eacute;n&eacute;ralement comme <a href="pos/pos-main.html#conj-coord">CONJO</a>.
+
+<pre>
+les femmes et/CONJO les hommes
+
+soixante et/CONJO un sont venus
+</pre>
+
+Quand ET marque une addition
+insistante ayant le sens &laquo; de
+surcro&icirc;t &raquo; (Buridant,
+553 &sect;451.2), il est &eacute;tiquet&eacute;
+comme <a href="pos/pos-main.html#adv">ADV</a>.  
+Voir aussi <a href="words.html#ensemble">ENSEMBLE</a>.
+
+<pre>
+et coucha la nuyct dedans et/ADV cinquante hommes d'armes de sa maison
+</pre>
+</blockquote>
+-->
+
+<!--
+<a name="etre">
+<h4>&Ecirc;TRE</h4>
+
+<blockquote>
+See <a href="pos/pos-main.html#aux-ou-v">Verbe auxiliaire ou verbe principal?</a>
+</blockquote>
+-->
+
+<a name="eu">
+<h4>EU</h4>
+
+<blockquote>
+See <a href="pos/pos-splitting.html#en-le">EN + LE</a>.
+</blockquote>
+
+<a name="f">
+
+<a name="faire_bien">
+<h4>FAIRE BIEN / MAL</h4>
+
+<blockquote>
+
+In connection with FAIRE, BIEN and MAL can be tagged either as adverbs
+(<TT>ADV</TT>) or as nouns (<TT>NCS</TT>), depending on the meaning.
+The distinction is that between acting correctly or wisely (DO WELL)
+versus doing good deeds (DO GOOD).  Both preverbal and postverbal BIEN
+and MAL are possible with either meaning.  In doubtful cases, the
+default is <TT>ADV</TT>.
+
+</blockquote>
+
+<a name="faire_que">
+<h4>FAIRE QUE FOL / PREU / SAGE</h4>
+
+<blockquote>
+
+In this locution, QUE corresponds to <a href="words.html#comme">COMME</a> and is
+treated as the CONJS head of an elided adverbial clause.
+
+<blockquote>
+<pre>
+(IP-INF (VX faire)
+        (CP-ADV (WADVP-1 0)
+	        (CONJS que)
+	        (IP-SUB (ADVP *T*-1)
+		        (NP-SBJ (NCS fol / preu / sage)))))
+</pre>
+</blockquote>
+
+</blockquote>
+
+<a name="force">
+<h4>FORCE</h4>
+
+<blockquote>
+
+See <a href="syntax-main.html#np-com">NP-COM</a>.
+
+</blockquote>
+
+<!--
+<a name="force">
+<h4>FORCE</h4>
+
+<blockquote>
+En g&eacute;n&eacute;ral, FORCE est
+&eacute;tiquet&eacute; comme 
+<a href="pos/pos-main.html#n-commun">nom commun (NCS)</a>.
+
+<pre>
+Par la force/NCS Sainte Marie
+
+il est force/NCS que
+
+dont il ne se contentoit, mais &agrave; force/NCS
+
+de force/NCS se plaignit-il
+
+laquelle &agrave; force/NCS en boulettant la farine
+</pre>
+
+Quand FORCE modifie un verbe sans &ecirc;tre accompagn&eacute; d'une
+pr&eacute;position, il est
+&eacute;tiquet&eacute; comme
+<a href="pos/pos-main.html#adv">adverbe (ADV)</a>.
+
+<pre>
+elle commence &agrave; rire force/ADV
+
+il a force/ADV argent
+</pre>
+</blockquote>
+-->
+
+<a name="fors">
+<h4>FORS</h4>
+
+<blockquote>
+
+When used in a locative or directional sense, tagged as adverb
+(<TT>ADV</TT>) projecting a locative or directional adverb phrase
+(<TT>ADVP-LOC, ADVP-DIR</TT>).  Otherwise, tagged as a preposition
+(<tt>P</tt>).  When introducing the complement of FORS, QUE is tagged
+either as a focus particle (<tt>FP</tt>) or (more rarely) as a
+complementizer (<tt>CONJS</tt>).
+
+<blockquote>
+<pre>
+(ADVP-DIR (ADV fors)
+          (PP (P de)
+              (NP (D la) (NCS maison))))
+
+(PP (P fors)
+    (NP (PRO moi)))
+
+(PP (P fors)
+    (NP (FP que/seulement)
+        (PRO moi)))
+
+(PP (P fors)
+    (PP (P de)
+        (NP (PRO moi))))
+
+(PP (P fors)
+    (PP (FP que/seulement)
+        (P de)
+        (NP (PRO moi))))
+
+(PP (P fors)
+    (CP-THT (CONJS que)
+            (IP-SUB (NP-SBJ (PRO j'))
+                    (VJ ai)
+                    (NP-ACC (NCS faim)))))
+</pre>
+</blockquote>
+
+<p>
+In cases like the following, an empty nominal head is added for clarity.
+
+<blockquote>
+<pre>
+( (IP-MAT (NP-SBJ (PRO Je))
+          (NEG n')
+          (VJ aime)
+          (NP-ACC (NCS *)
+                  (PP (P fors)
+                      (NP (FP que)
+                          (PRO toi))))))
+</pre>
+</blockquote>
+
+</blockquote>
+
+<a name="fort">
+<h4>FORT</h4>
+
+<blockquote><pre>
+au fort/NCS
+</pre></blockquote>
+
+<a name="g">
+
+<a name="gel">
+<h4>GEL</h4>
+
+<blockquote>
+See <a href="pos/pos-splitting.html#je-le">JE + LE</a>.
+</blockquote>
+
+<a name="guere">
+<h4>GU&Egrave;RE(S)</h4>
+
+<blockquote>
+GU&Egrave;RE est &eacute;tiquet&eacute; partout comme 
+<a href="pos/pos-main.html#adv">ADV</a> (pas comme ADVNEG). 
+
+<pre>
+Et n'y avoit gu&egrave;res/ADV
+</pre>
+</blockquote>
+
+<a name="h">
+
+<a name="i">
+
+<a name="il_y_a">
+<h4>IL (Y) A</h4>
+
+<blockquote>
+
+In older stages of French, Y can be missing.  The postverbal noun phrase
+is treated as the associate of the impersonal subject (rather than as a
+direct object).
+
+<p>
+When IL Y A introduces temporal expressions, it is integrated into the
+matrix structure as follows:
+
+<blockquote>
+<pre>
+( (IP-MAT (NP-SBJ (PRO elle))
+          (EJ est)
+          (VPP venue)
+          (ADVP-TMP (IP-MAT-PRN (NP-SBJ-1 (PROIMP il))
+                                (PP (CL y))
+                                (VJ a)
+				(NP-1 (ADJNUM cinq) (NCPL ans))))))
+</pre>
+</blockquote>
+
+IL Y A can license <a href="syntax-main.html#clefts">clefts</a> (CP-CLF)
+(the resumptive pronoun within the cleft clause in the example is
+independent of the licensing of the cleft).
+
+<blockquote>
+<pre>
+(NP (D une) (NCS robe)
+    (CP-REL (WNP-1 (WPRO qu'))
+            (IP-SUB (NP-SBJ-2 (PROIMP il))
+                    (CL-PP (CL y))
+                    (VJ a)
+              	    (NP-2 (ADJNUM cinq) (NCPL ans))
+		    (CP-CLF (WNP-3 0)
+		    	    (CONJS qu')
+		            (IP-SUB (NP-MSR *T*-3)
+			            (NP-SBJ (PRO i@))
+			            (CL-NP-ACC-RSP-1 (CL @l))
+				    (VJ a))))))
+</pre>
+</blockquote>
+
+</blockquote>
+
+<a name="j">
+
+<!--
+<a name="ja">
+<h4>JA</h4>
+
+<blockquote>
+
+<font color="red">Does it get a dash tag (ADVP-TMP)?</font></blockquote>-->
+
+<a name="jamais">
+<h4>JAMAIS</h4>
+
+<blockquote>
+Joined or split, depending on spelling.  Cf. DESORMAIS.
+
+<p>
+JAMAIS est
+&eacute;tiquet&eacute; partout comme 
+<a href="pos/pos-main.html#adv">ADV</a> (pas comme ADVNEG).
+
+<pre>
+jamais/ADV je congne&uuml;
+</pre>
+</blockquote>
+
+<a name="jel">
+<h4>JEL</h4>
+
+<blockquote>
+See <a href="pos/pos-splitting.html#je-le">JE + LE</a>.
+</blockquote>
+
+<a name="jes">
+<h4>JES</h4>
+
+<blockquote>
+See <a href="pos/pos-splitting.html#je-le">JE + LE</a>.
+</blockquote>
+
+<a name="jeu">
+<h4>JEU</h4>
+
+<blockquote>
+See <a href="pos/pos-splitting.html#je-le">JE + LE</a>.
+</blockquote>
+
+<a name="jos">
+<h4>JOS</h4>
+
+<blockquote>
+See <a href="pos/pos-splitting.html#je-vous">JE + VOUS</a>.
+</blockquote>
+
+<a name="jou">
+<h4>JOU</h4>
+
+<blockquote>
+See <a href="pos/pos-splitting.html#je-le">JE + LE</a>.
+</blockquote>
+
+<a name="jusque_a">
+<h4>JUSQUE &Agrave;</h4>
+
+<blockquote>
+
+See <a href="syntax-main.html#numbers">Numbers</a>.
+
+</blockquote>
+
+<a name="k">
+
+<a name="l">
+
+<a name="la">
+<h4>LA</h4>
+
+<blockquote><pre>
+voil&agrave; la/D lune
+
+Elle la/PRO connaissait bien
+
+La/PRO merci, dist-il
+</pre>
+
+LA qui signifie &laquo; &agrave;
+cela &raquo; est
+&eacute;tiquet&eacute; comme 
+<a href="pos/pos-main.html#pro">pronom (PRO)</a>. 
+</blockquote>
+
+<a name="la2">
+<h4>-L&Agrave;
+
+<blockquote>
+See <a href="words.html#ci-la">-CI / -L&Agrave;</a>.
+</blockquote></h4>
+
+<a name="le">
+<h4>LE</h4>
+
+<blockquote>
+
+When serving as a pro-predicate (whether pro-ADJP or pro-NP), LE heads
+an <a href="syntax-main.html#np-prd">NP-PRD</a>.
+
+<blockquote>
+<pre>
+( (IP-MAT (CONJO mais)
+          (NP-SBJ (PRO elle))
+          (NEG ne)
+          (CL-NP-PRD (CL l'))
+          (VJ est)
+          (ADVNEG (ADV pas))))
+</pre>
+</blockquote>
+
+</blockquote>
+
+<a name="ledit">
+<h4>LEDIT</h4>
+
+<blockquote>
+See <a href="pos/pos-splitting.html#d-dit">D&eacute;terminant +  DIT</a>.
+</blockquote>
+
+<h4>LENDEMAIN</h4>
+
+<blockquote>
+Treated as written.
+
+<blockquote>
+<pre>
+l'/D endemain/NCS
+le/D lendemain/NCS (in accordance with <a href="pos/pos-main.html#p-adv-ou-n">Pr&eacute;position, adverbe ou nom?</a>)
+lendemain/ADV  (in accordance with <a href="pos/pos-main.html#p-adv-ou-n">Pr&eacute;position, adverbe ou nom?</a>)
+</pre>
+</blockquote>
+
+</blockquote>
+
+<a name="lequel">
+<h4>LEQUEL</h4>
+
+<blockquote>
+Pas d&eacute;coup&eacute;, en
+opposition avec <a href="pos/pos-splitting.html#d-dit">LEDIT</a>.
+
+Voir aussi
+<a href="pos/pos-splitting.html#a-lequel">&Agrave; + LEQUEL</a>,
+<a href="pos/pos-splitting.html#de-lequel">DE + LEQUEL</a>.
+</blockquote>
+
+<a name="les">
+<h4>LES</h4>
+
+<blockquote><pre>
+les/D de mes amis
+
+on va les/PRO voir, tes amis
+</pre>
+</blockquote>
+
+<a name="leur">
+<h4>LEUR</h4>
+
+<blockquote><pre>
+leur/DZ activit&eacute; est bien connue
+
+tu leur/PRO dira la v&eacute;rit&eacute;
+</pre>
+</blockquote>
+
+<a name="l-on">
+<h4>L'ON</h4>
+
+<blockquote>
+L'ON, la variante euphonique de ON, n'est pas d&eacute;coup&eacute;e.
+
+<pre>
+si l'on/PRO veut
+</pre>
+</blockquote>
+
+<a name="long">
+<h4>LONG</h4>
+
+<blockquote>
+See <a href="pos/pos-main.html#subst-adj">Adjectifs substantiv&eacute;s</a>.
+</blockquote>
+
+<!--
+<a name="lors">
+<h4>LORS</h4>
+
+<blockquote>
+
+<font color="red">When does it head an ADVP-TMP, and when a plain ADVP?</font></blockquote>-->
+
+<a name="m">
+
+<a name="maintesfois">
+<h4>MAINTESFOIS</h4>
+
+<blockquote>
+See <a href="words.html#q-fois">Q + FOIS</a>.
+</blockquote>
+
+<a name="mais">
+<h4>MAIS</h4>
+
+<blockquote>
+
+MAIS est &eacute;tiquet&eacute;
+g&eacute;n&eacute;ralement comme 
+<a href="pos/pos-main.html#conj-coord">CONJO</a>.
+
+<pre>
+il povoit ouyr ne savoir dont les femmes ont deceu leurs mariz, le
+temps pass&eacute; ;/PONFP mais/CONJO a la fin il fut tromp&eacute;
+</pre>
+
+Au milieu d'une proposition, MAIS
+est &eacute;tiquet&eacute; comme <a
+href="pos/pos-main.html#adv">adverbe (ADV)</a>.
+
+<pre>
+ne restoit mais/ADV que temps et lieu
+</pre>
+</blockquote>
+
+<a name="mal">
+<h4>MAL</h4>
+
+<blockquote>
+
+<ul>
+<li><a href="words.html#faire_bien">FAIRE BIEN / MAL</a>
+<li><a href="words.html#prendre">PRENDRE + ADVP</a>
+</ul>
+
+</blockquote>
+
+<a name="malgre">
+<h4>MALGR&Eacute;</h4>
+
+<blockquote>
+Always treated as a preposition.
+
+( (PP (P malgre)
+      (NP (PRO lui))))
+
+( (PP (P malgre)
+      (NP (ADJZ sien))))
+</blockquote>
+
+<h4>MARI&Eacute;</h4>
+
+<blockquote>
+
+MARI&Eacute; is tagged as a noun (NCS, NCPL) rather than a participle
+(VPP) when it means 'married person'.
+
+</blockquote>
+
+<a name="meme">
+<h4>M&Ecirc;ME</h4>
+
+<blockquote>
+M&Ecirc;ME est
+&eacute;tiquet&eacute; comme <a
+href="pos/pos-main.html#adj-simple">adjectif
+(ADJ)</a> quand il accompagne un
+syntagme nominal, et comme <a
+href="pos/pos-main.html#adv">adverbe (ADV)</a> quand
+il en est s&eacute;par&eacute;.
+Voir aussi <a
+href="pos/pos-main.html#substantivation">Substantivation</a>.
+
+<pre>
+Estoit luy mesmes/ADJ acquis
+
+se debatoit &agrave; soy mesmes/ADJ la v&eacute;rit&eacute; estoit telle
+
+elle mesmes/ADJ va venir
+
+lequel elle avoit mesmes/ADV adreci&eacute;.
+
+de m&ecirc;me/ADJ fa&ccedil;on/NCS que
+
+de m&ecirc;me/NCS que
+</pre>
+</blockquote>
+
+<a name="merci">
+<h4>MERCI</h4>
+
+<blockquote><pre>
+Dieu mercy/ITJ !
+
+Je dis merci/NCS &agrave; mon mari 
+</pre>
+</blockquote>
+
+<a name="metier">
+<h4>METIER</h4>
+
+<blockquote>
+
+METIER occurs in several impersonal constructions.  
+
+<ul>
+<li>When governed by AVOIR, impersonal METIER is treated as a subcase of
+the <a href="words.html#il_y_a">IL Y A</a> construction.
+<li>
+When governed by ETRE, impersonal METIER is treated as
+a <a href="syntax-main.html#np-prd">predicate nominal</a>.
+<li>
+When governed by FAIRE, impersonal METIER is treated on a par with
+<a href="syntax-main.html#weather">weather predicates</a>.
+</ul>
+
+</blockquote>
+
+<a name="moins">
+<h4>MOINS</h4>
+
+<blockquote>
+MOINS est &eacute;tiquet&eacute; comme 
+<a href="pos/pos-main.html#q-comp">quantifieur comparatif (QR)</a>.
+
+<pre>
+il y eust moins/QR de vices
+
+&agrave;/P le/D {TEXT:au}/CODE moins/QR qui il les sceust
+</pre>
+</blockquote>
+
+<a name="mon-dit">
+<h4>MON + DIT</h4>
+
+<blockquote>
+See <a href="pos/pos-splitting.html#d-dit">D&eacute;terminant + DIT</a>.
+</blockquote>
+
+<a name="n">
+
+<a name="n'avoir_que">
+<h4>N'AVOIR QUE</h4>
+
+<blockquote>
+
+See also <a href="words.html#que">QUE</a>.
+
+<p> There are two distinct N'AVOIR QUE constructions.  When the force of the
+clause containing AVOIR is negative, QUE introduces a free relative
+clause and is tagged as a wh- pronoun (<TT>WPRO</TT>).
+
+<blockquote>
+<pre>
+( (IP-MAT (CONJO Et)
+	  (PP (P par)
+	      (NP (DZ ma) (NCS foy)))
+          (PON ,)
+          (NP-SBJ (PRO vous))
+	  (NEG ne)
+	  (VJ avi&eacute;s)
+	  (NP-ACC (CP-FRL (WNP-1 (WPRO que))
+			  (IP-INF (NP-ACC *T*-1)
+				  (VX faire)
+				  (PP (P de)
+				      (IP-INF (VX estre)
+					      (PP (P en)
+						  (NP (NCS mesnage))))))))
+          (PONFP .)))
+
+( (IP-MAT (NP-SBJ (PRO Je))
+          (VJ voy)
+	  (ADVP (ADV bien))
+	  (CP-THT (CONJS que)
+		  (IP-SUB (NP-SBJ (PRO nous))
+		          (NEG ne)
+			  (VJ avons)
+		          (NP-ACC (CP-FRL (WNP-1 (WPRO que))
+					  (IP-INF (NP-ACC *T*-1)
+					          (VX faire)
+						  (PP (P de)
+						      (IP-INF (VX convier)
+							      (NP-ACC (NCPL gens)))))))))
+          (PONFP .)))
+</pre>
+</blockquote>
+
+When the force of the clause containing AVOIR is positive, QUE is tagged
+as a focus particle (<TT>FP</TT>).
+
+<blockquote>
+<pre>
+( (IP-MAT (CONJO et)
+	  (NP-SBJ=1 *proimp*)
+	  (NEG n')
+	  (CL-PP (CL y))
+	  (VJ a)
+	  (IP-INF-1 (FP que)
+		    (VX faire))
+          (PONFP ,)))
+
+( (IP-MAT (CONJO car)
+	  (NP-SBJ (D une) (NCS femme))
+	  (NEG n')
+	  (VJ a)
+	  (IP-INF (FP que)
+		  (VX faire)
+		  (PP (P de)
+		      (IP-INF (VX mectre)
+			      (NP-ACC (NCS paine))
+			      (PP (P a)
+				  (IP-INF (VX aquerre)
+					  (NP-ACC (D la)
+						  (NCS grace)
+						  (PP (P de)
+						      (NP (DZ son) (NCS mari)))))))))))
+</pre>
+</blockquote>
+
+</blockquote>
+
+<a name="ne">
+<h4>NE</h4>
+
+<blockquote>
+&Agrave; part de son emploi comme <a
+href="pos/pos-main.html#neg">n&eacute;gation</a>, NE employ&eacute; dans une
+num&eacute;ration est
+&eacute;tiquet&eacute; comme <a href="pos/pos-main.html#conj-coord">conjonction de coordination
+(CONJO)</a>.
+
+<pre>
+Je ne/NEG te parle pas 
+
+il povoit ouyr ne/CONJO savoir
+</pre>
+</blockquote>
+
+<a name="ne_restrictif">
+<h4>NE RESTRICTIF</h4>
+
+<blockquote>
+
+NE RESTRICTIF is treated as a constituent of the associated QUE phrase.
+
+<blockquote>
+<pre>
+( (IP-MAT (CONJO ne)
+          (NP-SBJ *con*)
+          (NEG ne)
+          (CL-NP-RFL (CL se))
+          (VJ hobe)
+          (NP-MSR (NEG ne)
+                  (FP que)
+                  (D une) (NCS pierre))
+          (PONFP .)))
+</pre>
+</blockquote>
+
+</blockquote>
+
+<a name="nel">
+<h4>NEL</h4>
+
+<blockquote>
+See <a href="pos/pos-splitting.html#ne-le">NE + LE</a>.
+</blockquote>
+
+<a name="nenny">
+<h4>NENNY</h4>
+
+<blockquote>
+&Eacute;tiquet&eacute; comme <a href="pos/pos-main.html#adv-neg">adverbe de
+n&eacute;gation (ADVNEG)</a>.
+</blockquote>
+
+<a name="nes">
+<h4>NES</h4>
+
+<blockquote>
+See <a href="pos/pos-splitting.html#ne-le">NE + LE</a>.
+</blockquote>
+
+<a name="no">
+<h4>NO</h4>
+
+<blockquote>
+See <a href="pos/pos-splitting.html#ne-le">NE + LE</a>.
+</blockquote>
+
+<a name="non">
+<h4>NON</h4>
+
+<blockquote>
+&Agrave; part de son emploi comme <a
+href="pos/pos-main.html#adv-neg">adverbe
+n&eacute;gatif (ADVNEG)</a>, NON
+peut &ecirc;tre
+&eacute;tiquet&eacute; comme <a
+href="pos/pos-main.html#itj">interjection (ITJ)</a>.
+
+<pre>
+mais le prince non/ADVNEG jamais
+
+doubte/VJ que/CONJS non/ITJ
+
+elle dit que non/ITJ
+</pre>
+</blockquote>
+
+<a name="nonobstant">
+<h4>NONOBSTANT</h4>
+
+<a name="nou">
+<h4>NOU</h4>
+
+<blockquote>
+See <a href="pos/pos-splitting.html#ne-le">NE + LE</a>.
+</blockquote>
+
+<a name="nu">
+<h4>NU</h4>
+
+<blockquote>
+See <a href="pos/pos-splitting.html#ne-le">NE + LE</a>.
+</blockquote>
+
+<a name="nul">
+<h4>NUL</h4>
+
+<blockquote>
+See <a href="pos/pos-splitting.html#ne-le">NE + LE</a>.
+</blockquote>
+
+<a name="o">
+
+<a name="or">
+<h4>OR</h4>
+
+<blockquote>
+OR est &eacute;tiquet&eacute; comme <a href="pos/pos-main.html#adv">adverbe (ADV)</a>.
+</blockquote>
+
+<a name="ou">
+<h4>OU</h4>
+
+<blockquote>
+See <a href="pos/pos-splitting.html#a-le">&Agrave; + LE</a>.
+</blockquote>
+
+<a name="ou2">
+<h4>O&Ugrave;</h4>
+
+<blockquote>
+Parce qu'il correspond au pronom clitique Y, le pronom
+adverbial O&Ugrave; est toujours
+&eacute;tiquet&eacute; comme 
+<a href="pos/pos-main.html#w-pro">pronom (WPRO)</a>.
+</blockquote>
+
+<a name="p">
+
+<a name="par_especial">
+<h4>PAR ESPECIAL</h4>
+
+<blockquote>
+
+Examples with PAR ESPECIAL are treated as instances of gapping rather
+than as  parenthetical constructions.
+
+</blockquote>
+
+<a name="paradis">
+<h4>PARADIS</h4>
+
+<blockquote>
+Tagged as NPRS in Biblical texts (treated as locality).
+
+</blockquote>
+
+<!--
+<a name="paravant">
+<h4>PARAVANT</h4>
+
+<blockquote>
+
+<font color="red">One word or two?</font></blockquote>-->
+
+<a name="pardieu">
+<h4><a href="pos/pos-main.html#pardieu">PARDIEU</a></h4>
+
+<a name="passetemps">
+<h4>PASSETEMPS</h4>
+
+<blockquote>
+Pas d&eacute;coup&eacute;.
+</blockquote>
+
+<a name="peu">
+<h4>PEU (PO, POI)</h4>
+
+<blockquote>
+
+Can license CP recursion.
+
+<blockquote>
+<pre>
+(ADJP (ADV si) (ADJ esbahi)
+      (CP-DEG (CONJS que)
+              (CP-DEG (PP-1 (P a)
+                            (NP (Q peu)))
+                      (CONJS qu')
+                      (IP-SUB (PP *ICH*-1)
+                              (NP-SBJ (PRO il))
+                              (VJ cheu)
+                              (PP (P par)
+                                  (NP (NCS terre)))))))
+</pre>
+</blockquote>
+
+<p>
+Without the introductory QUE, A / PAR / POUR PEU is treated as the
+immediate constituent of FRAG.
+
+<blockquote>
+<pre>
+( ( FRAG (CONJO Et)
+	 (CP-ADV (CONJS quant)
+		 (IP-SUB (NP-SBJ (PRO il))
+			 (VJ entendi)))
+	  (PON ,)
+	  (PP (P A)
+	      (NP (Q po)))
+	  (CP-THT (CONJS qu')
+		  (IP-SUB (NP-SBJ (PRO il))
+	                  (NEG ne)
+			  (VJ fu)
+			  (ADJP-PRD (ADJ forsenés))))
+	  (PONFP .)))
+</pre>
+</blockquote>
+
+</blockquote>
+
+<a name="plein">
+<h4>PLEIN</h4>
+
+<blockquote>
+See <a href="pos/pos-main.html#subst-adj">Adjectifs substantiv&eacute;s</a>.
+</blockquote>
+
+<a name="plupart">
+<h4>PLUPART</h4>
+
+<blockquote>
+Pas d&eacute;coup&eacute;.
+</blockquote>
+
+<a name="plutot">
+<h4>PLUT&Ocirc;T</h4>
+
+<blockquote>
+PLUT&Ocirc;T avec un sens temporel est d&eacute;coup&eacute;.
+
+<pre>
+ils sont venus plus@/QR @tost/ADV que nous
+
+cette fille arrive plus/QR t&ocirc;t/ADV que de coutume
+
+venir le plus@/QR @tost/ADV possible
+</pre>
+
+<p>
+La m&ecirc;me forme avec d'autres sens n'est pas
+d&eacute;coup&eacute;e.  Elle est &eacute;tiquet&eacute;e comme 
+<!--<a href="pos/pos-main.html#adv-comp">-->
+adverbe comparatif (ADVR).
+<!--</a>-->
+
+<pre>
+il est plut&ocirc;t/ADVR bon
+
+il est plus=tost/ADVR bon
+</pre>
+
+</blockquote>
+
+<a name="point">
+<h4>POINT</h4>
+
+<blockquote>
+L'adverbe POINT est &eacute;tiquet&eacute; g&eacute;n&eacute;ralement comme
+<a href="pos/pos-main.html#adv-neg">ADVNEG</a>.
+
+<pre>
+qu'il n'est point/ADVNEG entach&eacute;
+</pre>
+
+Quand POINT a le sens de &laquo;
+marque, signe &raquo;, il est &eacute;tiquet&eacute;
+comme 
+<a href="pos/pos-main.html#n-commun">nom commun (NCS)</a>.
+
+<pre>
+au point/NCS du jour
+</pre>
+</blockquote>
+
+<a name="pourquoi">
+<h4>POURQUOI</h4>
+
+<blockquote>
+Pas d&eacute;coup&eacute;.
+Toujours &eacute;tiquet&eacute;
+comme <a href="pos/pos-main.html#w-adv">adverbe
+interrogatif, relatif et exclamatif
+(WADV)</a>.
+</blockquote>
+
+<a name="pouvoir">
+<h4>POUVOIR</h4>
+
+<blockquote>
+
+<ul>
+<li><a href="pos/pos-main.html#subst-inf">Infinitif substantiv&eacute;</a>
+<li><a href="pos/pos-main.html#md-ou-v">Verbe modal ou verbe principal?</a>
+</ul>
+
+</blockquote>
+
+<a name="premier">
+<h4>PREMIER</h4>
+
+<blockquote>
+See <a href="pos/pos-main.html#adj-ou-adv">Adjectif ou adverbe?</a>
+</blockquote>
+
+<a name="prendre">
+<h4>PRENDRE + ADVP</h4>
+
+<blockquote>
+
+<blockquote>
+<pre>
+( (IP-MAT (NP-SBJ *proimp*)			&larr; Buridant p. 398f., par. 319.4b
+          (CL-PP (CL en))
+          (VJ prend)
+          (ADVP (ADV mal / bien / ainsi))))
+
+(CP-FRL (WADVP-1 (WADV comment))
+        (CONJS qu')
+        (IP-SUB (ADVP *T*-1)
+                (NP-SBJ (PROIMP il))
+                (VJ praigne)))
+</pre>
+</blockquote>
+
+</blockquote>
+
+<a name="pres">
+<h4>PR&Egrave;S</h4>
+
+<blockquote>
+
+See <a href="syntax-main.html#numbers">Numbers</a>.
+
+</blockquote>
+
+<a name="pronouns_vs_clitics">
+<h4>Pronouns versus clitics</h4>
+
+<blockquote>
+See <a href="syntax-main.html#cl_vs_pro">CL versus PRO</a>.
+</blockquote>
+
+<a name="puisque">
+<h4>PUISQUE</h4>
+
+<blockquote>
+Pas d&eacute;coup&eacute;.
+&Eacute;tiquet&eacute; comme CONJS.
+
+<pre>
+Tous les compaignons de la garnison s'i accorderent, et dirent,
+puisqu'/CONJS {TEXT:puis_qu'}/CODE il osoit bien entreprendre
+ceste adventure, ilz luy aideroient a la fournir
+</pre>
+
+</blockquote>
+
+<a name="q">
+
+<a name="q-fois">
+<h4>Q + FOIS</h4>
+
+<blockquote>
+AUCUNESFOIS, MAINTESFOIS, et TOUTESFOIS 
+ne sont pas d&eacute;coup&eacute;s. 
+Ils sont &eacute;tiquet&eacute;s comme adverbes (ADV).
+</blockquote>
+
+<a name="quand">
+<h4>QUAND</h4>
+
+<blockquote>
+QUAND introduisant des
+subordon&eacute;es circonstantielles
+est &eacute;tiquet&eacute; comme <a
+href="pos/pos-main.html#conj-subord">conjonction de
+subordination (CONJS)</a>.
+
+<pre>
+elle confessa son cas &agrave; son mary quand/CONJS de les ditz voyaiges
+fut retourn&eacute;
+</pre>
+
+QUAND introduisant des
+interrogatives indirectes est
+&eacute;tiquet&eacute; comme <a
+href="pos/pos-main.html#w-adv">adverbe interrogatif,
+relatif et exclamatif (WADV)</a>.
+
+<pre>
+elle le demanda quand/WADV voulait-il venir
+</pre>
+</blockquote>
+
+<a name="quanque">
+<h4>QUANQUE(S)</h4>
+
+<blockquote>
+
+When tagged WPRO, QUANQUE(S) is always split to facilitate comparison
+across all free relatives.
+
+</blockquote>
+
+<a name="quant_a">
+<h4>QUANT &Agrave;</h4>
+
+<blockquote>
+
+<blockquote>
+<pre>
+(PP (ADV quant)
+    (P a@)
+    (NP (D @u) (NCS regard)
+        (PP (P de)
+	    (NP (DZ leur) (NCS prouffit)
+                (ADJP (ADJ singulier))))))
+</pre>
+</blockquote>
+
+</blockquote>
+
+<a name="quant_est">
+<h4>QUANT EST</h4>
+
+<blockquote>
+
+It may be that in some cases, QUANT EST is an orthographic variant of
+QUANT &Agrave;.  But that is not always so, as cases like the following
+show.
+
+<blockquote>
+<pre>
+(NP-MSR (CP-FRL (WNP-1 (WPRO quant))
+                (IP-SUB (NP-MSR *T*-1)
+                        (NP-SBJ *proimp*)
+                        (VJ est)
+                        (PP (PP (P de)
+                                (NP (D la) (NCS paine)
+                                    (PP (P de)
+                                        (NP (D l') (NCS engroisse)))))
+                            (CONJP (CONJO ou)
+      	     	                   (PP (P de)
+	     	     	               (NP (D l') (NCS enfantement))))))))
+</pre>
+</blockquote>
+
+</blockquote>
+
+<a name="quant_et">
+<h4>QUANT ET</h4>
+
+<blockquote>
+
+QUANT ET 'with' is treated as below.
+
+<blockquote>
+<pre>
+(PP (P quant_et) 
+    (NP (PRO lui)))
+</pre>
+</blockquote>
+
+</blockquote>
+
+<a name="que">
+<h4>QUE</h4>
+
+<blockquote>
+
+See also 
+
+<ul>
+<li><a href="words.html#fors">FORS</a>
+<li><a href="words.html#n'avoir_que">N'AVOIR QUE</a>
+<li><a href="syntax-main.html#ne_mais_que">NE MAIS (QUE)</a>
+<li><a href="words.html#ne_restrictif">NE RESTRICTIF</a>
+<li><a href="words.html#tant_que">TANT QUE</a>
+<li><a href="words.html#tant_que_et">TANT QUE ... ET </a>
+<li><a href="words.html#tant_xp_que_yp">TANT ... QUE ...</a>
+</ul>
+
+The treatment of QUE is similar to that of <a href="words.html#comme">COMME</a>.
+Possible tags are:
+<a href="words.html#que_conjo">CONJO</a>,
+<a href="words.html#que_conjs">CONJS</a>,
+<a href="words.html#que_fp">FP</a>,
+<a href="words.html#que_p">P</a>,
+<a href="words.html#que_pr">PR</a>,
+<a href="words.html#que_wpro">WPRO</a>,
+<a href="words.html#que_x">X</a>.
+
+<ul>
+
+<a name="que_conjs">
+<li>The most common use of QUE is as a subordinating conjunction
+(<TT>CONJS</TT>) heading complement clauses (<TT>CP-THT</tt>),
+comparative clauses (<TT>CP-CMP</tt>),
+degree clauses (<TT>CP-DEG</tt>),
+adverbial clauses (<TT>CP-ADV</tt>), 
+and others.
+
+<pre>
+(IP-MAT (NP-SBJ (DZ Mon) (NCS ami))
+        (AJ a)
+	(VPP dit)
+	(CP-THT (CONJS qu')
+                (IP-SUB (NP-SBJ (PRO il))
+		        (VJ viendra))))
+
+(NP (Q tant)
+    (CP-CMP (WNP-1 0)
+            (CONJS que)			&larr; see <a href="syntax-main.html#comparative_clauses">Comparative clauses</a> for more details
+	    (IP-SUB (NP-SBJ (PRO on))
+	            (MDJ peut)
+		    (IP-INF (NP-ACC *T*-1)
+			    (VX faire)))))
+</pre>
+
+<a name="que_conjo">
+<li>Causal QUE (corresponding to French CAR, English FOR, or German
+DENN) is treated as a coordinating conjunction (<tt>CONJO</tt>).  This
+use is particularly common in older texts.
+
+<p>
+Another possible use of QUE (or QUI) as a coordinating conjunction, again
+primarily in older texts, is as a correlative conjunction.
+
+<pre>
+( (NP (CONJO que)
+      (NCS chevalier)
+      (CONJP (CONJO que)
+	     (NCS dame))))
+
+( (NP (CONJO qui)
+      (NCS chevalier)
+      (CONJP (CONJO qui)
+	     (NCS dame))))
+</pre>
+
+<a name="que_wpro">
+<p>
+<li>In indirect questions, relative clauses, and similar constructions,
+QUE can function as a wh- pronoun (<TT>WPRO</TT>).  By default, QUE in
+<a href="syntax-main.html#comparative_clauses">comparative clauses</a> is
+treated as a subordinating conjunction (<TT>CONJS</tt>), not as a wh-
+pronoun (<TT>WPRO</TT>).
+
+<pre>
+(IP-MAT (NP-SBJ (PRO Je))
+        (NEG ne)
+        (VJ sais)
+        (CP-QUE (WNP-1 (WPRO que))
+                (IP-INF (NP-ACC *T*-1)
+			(VX faire))))
+		    
+(NP (D la) (NCS fille)
+    (CP-REL (WNP-1 (WPRO que))
+            (IP-SUB (NP-ACC *T*-1)
+		    (NP-SBJ (PRO je))
+		    (AJ ai)
+		    (VPP vue))))
+</pre>
+
+<a name="que_pr">
+<li>QUE is tagged as a comparative preposition (<TT>PR</TT>) when a full
+clausal comparative is difficult or impossible to implement.  This use 
+is essentially restricted to instances of QUE licensed by AUTRE or
+governing a clause or phrase headed by <a href="words.html#de">DE</a>.
+
+<pre>
+(NP (ADJ aultres) (NCPL pechiez)
+    (PP (PR que)
+        (ADJP (ADJ mortels))))
+
+(ADJP (ADV si) (ADJ fol)
+      (PP-DEG (PR que)
+              (PP (P de)
+                  (IP-INF (CL-NP-ACC (CL la))
+                          (VX battre)))))
+</pre>
+
+<a name="que_fp">
+<li>QUE is tagged as a focus particle (<tt>FP</tt>) in conjunction with sentence
+negation when the force of the sentence is positive.
+
+<pre>
+(IP-MAT (NP-SBJ (PRO Je))
+        (NEG n')
+        (VJ ai)
+        (NP-ACC (FP que) (PRO toi)))
+</pre>
+
+<p>
+The historical source of the <tt>FP</tt> use is presumably
+the <tt>PR</tt> use with an empty nominal head (<i>I do not
+have <s>other</s> than you</i> = <i>I have only you</i>).
+
+<a name="que_p">
+<li>In exceptional cases, QUE can be tagged as an ordinary preposition
+(<TT>P</tt>).
+
+<pre>
+(NP-MSR (PP (P d')
+	    (ADVP (ADV ici)))
+        (PP (P qu')
+	    (PP (P en)
+		(NP (NCS Orient)))))
+</pre>
+
+<a name="que_x">
+<li>Some uses of QUE are so mysterious that they are tagged as <TT>X</TT>.
+See also <a href="words.html#tant_que_et">TANT QUE ... ET</a>.
+
+<pre>
+(IP-MAT (NP-SBJ=1 (PRO C'))
+        (VJ est)
+	(NP-PRD (Q peu)
+	        (NP-PART (DF de) (NCS chose)))
+        (NP-1 (X que) (DF d@) (DF @u) (NCS peuple)))
+
+(CP-CAR (WNP-2 (WPRO qui))
+	       (IP-SUB (NP-SBJ=3 *T*-2)
+		       (VJ est)
+		       (NP-PRD (D une)
+			       (ADJ belle)
+			       (NCS allegacion))
+		        (IP-INF-3 (X que) (VX alleguer)
+				  (NP-ACC (D le) (NCS cas)
+					  (CP-REL (WNP-4 (WPRO que))
+						  (IP-SUB (NP-SBJ (PRO l'en))
+							  (AJ a)
+							  (VPP veu)
+							  (IP-INF (NP-SBJ *T*-4)
+								  (VX avenir))))))))
+</pre>
+</ul>
+
+</blockquote>
+
+<!--
+<a name="que">
+<h4>QUE</h4>
+
+<blockquote>
+QUE peut &ecirc;tre
+&eacute;tiquet&eacute;
+
+<ul>
+<li>comme <a
+href="pos/pos-main.html#conj-subord">conjonction de
+subordination (CONJS)</a>
+
+<pre>
+il sait que/CONJS tu es ici 
+</pre>
+
+<li>comme <a href="pos/pos-main.html#fp">particule exprimant le focus (FP)</a>
+
+<pre>
+et ne demour&egrave;rent que/FP ung jour
+</pre>
+
+<li>comme <a
+href="pos/pos-main.html#p-que">pr&eacute;position
+de comparaison (PR)</a>
+
+<pre>
+il est plus faible que/PR toi
+</pre>
+
+<li>comme <a href="pos/pos-main.html#w-pro">pronom
+interrogatif, relatif et exclamatif
+(<a href="pos/pos-main.html#w-pro">WPRO)</a> (s'il peut &ecirc;tre remplac&eacute; par QUEL ou QUI,
+pr&eacute;c&eacute;d&eacute;s ou non
+par une pr&eacute;position), ou
+
+<pre>
+l'excursion que/WPRO tu as faite
+</pre>
+
+<li>(surtout en ancien
+fran&ccedil;ais) comme <a
+href="pos/pos-main.html#conj-coord">conjonction
+de coordination (CONJO)</a>
+
+<pre>
+que/CONJO chevalier que/CONJO dame
+</pre>
+
+</ul>
+</blockquote>
+-->
+
+<a name="que_que">
+<h4>QUE QUE</h4>
+ 
+<blockquote>
+
+Treated analogously to <a href="words.html#quoi_que">QUOI QUE, QUOIQUE</a>.
+
+</blockquote>
+
+<a name="quel">
+<h4>QUEL</h4>
+
+<blockquote><pre>
+d' un homme quel/WPRO qu'/CONJS soit
+</pre></blockquote>
+
+<a name="quelque">
+<h4>QUELQUE</h4>
+
+<blockquote><pre>
+quelque/ADV trois jours
+
+quelques/ADV six vingtz hommes d' armes
+
+quelque/ADV peu de jours
+
+quelque/ADV petit que ce fust
+
+quelque/Q folies qu'/WPRO aient &eacute;crites
+
+quelque/Q lien qui/WPRO pourrait nous unir
+
+quelque/Q fid&egrave;le/ADJ qu'/WPRO il fut
+</pre></blockquote>
+
+<a name="qui">
+<h4>QUI</h4>
+
+<blockquote>
+&Agrave; part de son emploi comme 
+<a href="pos/pos-main.html#w-pro">pronom interrogatif,
+relatif ou exclamatif (WPRO)</a>, QUI
+peut &ecirc;tre &eacute;tiquet&eacute; 
+(surtout en ancien fran&ccedil;ais) comme
+<a href="pos/pos-main.html#conj-coord">conjonction de coordination (CONJO)</a>. 
+
+<pre>
+qui/CONJO chevalier qui/CONJO dame
+</pre>
+
+<p> Quand QUI remplace QUE en des cas d'extraction de longue distance,
+QUI est &eacute;tiquet&eacute; comme CONJS.  Parenthetical note: The
+origin of the QUE-to-QUI construction is likely the use of QUI as
+an orthographic variant of QU' IL with resumptive IL.
+
+<pre>
+argent et estat qu' il congonissoit qui/CONJS lui plaisoient
+
+a tous ceulx qu' il pensoit qui/CONJS luy pourroient ayder
+</pre>
+</blockquote>
+
+<a name="quoi">
+<h4>QUOI</h4>
+
+<blockquote>
+
+When QUOI corresponds to CE QUE, the implicit structure is indicated
+explicitly as follows:
+
+<blockquote>
+<pre>
+( (IP-MAT-SPE (CONJO et)
+	      (NP-SBJ (PRO vous))
+	      (CL-NP-ACC (CL me))
+	      (VJ blasmerez)
+	      (ADVP (ADV fort))
+	      (PP (P davant)
+		  (NP (PRO lui)))
+	      (PP (P de)
+		  (NP (NCS *)
+		      (CP-THT-SPE (CONJS quoy)
+				  (IP-SUB-SPE (NP-SBJ (PRO je))
+					      (CL-NP-ACC (CL l'))
+					      (AJ avr&eacute;)
+					      (VPP prins)))))))
+</pre>
+</blockquote>
+
+</blockquote>
+
+<a name="quoi_que">
+<h4>QUOI QUE, QUOIQUE</h4>
+
+<blockquote>
+
+Where possible (<i>Quoiqu'il a faim, il ne mange pas</i>), QUOIQUE is
+treated as a unitary item heading an adverbial subordinate clause.
+
+<blockquote>
+<pre>
+( (IP-MAT (CP-ADV (CONJS quoy=qu')
+                  (IP-SUB (NP-SBJ (PRO il))
+                          (VJ a)
+     	                  (NP-ACC (NCS faim))))
+          (NP-SBJ (PRO il))
+          (NEG ne)
+          (VJ mange)
+          (ADVP (ADVNEG pas))
+          (PONFP .)))
+</pre>
+</blockquote>
+
+<p> Where such an analysis is not possible because <i>quoi</i> has a
+grammatical function in the <i>quoi que</i> clause (<i>Quoi qu'il mange,
+il a faim</i>), the QUOI QUE clause is treated as a <a
+href="syntax-main.html#free_relative_clauses">free relative</a>.
+
+</blockquote>
+
+<!--
+<a name="quoique">
+<h4>QUOIQUE</h4>
+
+<blockquote>
+Si QUOIQUE introduit une subordonn&eacute;e adverbiale, on va
+l'&eacute;tiqueter comme CONJS (pas d&eacute;coup&eacute;).
+
+<pre>
+Il vient quoiqu'/CONJS il fait tard.
+</pre>
+
+<p> Si QUOIQUE introduit une relative libre, on va le s&eacute;parer et 
+l'&eacute;tiqueter comme WPRO + CONJS.
+
+<pre>
+Quoi/WPRO que/CONJS ce soit, vous estes celle que j'aime.
+</pre>
+</blockquote>
+-->
+
+<a name="r">
+
+<a name="raison">
+<h4>RAISON</h4>
+
+<blockquote>
+
+See <a href="syntax-main.html#np-prd">NP-PRD</a>.
+
+</blockquote>
+
+<a name="s">
+
+<a name="sabbat">
+<h4>SABBAT</h4>
+
+<blockquote>
+Tagged as NPRS (treated as a jour de f&ecirc;te;).
+
+</blockquote>
+
+<a name="sauf">
+<h4>SAUF</h4>
+
+<blockquote>
+
+Originally, SAUF functions as the predicate of an IP-ABS.
+
+<pre>
+( (IP-ABS (ADJP-PRD (ADJ sauve))
+	  (NP-SBJ (DZ votre) (NCS grace))))
+</pre>
+
+<p> In later texts, in contexts where an IP-ABS is no longer possible,
+SAUF is treated as P.
+
+<pre>
+( (PP (P sauf)
+      (NP (Q quelques)
+	  (ADJ petites)
+	  (NCPL guerres))))
+</pre>
+
+</blockquote>
+
+<a name="saufconduit">
+<h4>SAUFCONDUIT</h4>
+
+<blockquote>
+Pas d&eacute;coup&eacute;.
+</blockquote>
+
+<a name="sel">
+<h4>SEL</h4>
+
+<blockquote>
+See <a href="pos/pos-splitting.html#si-le">SI + LE</a>.
+</blockquote>
+
+<a name="ses">
+<h4>SES</h4>
+
+<blockquote>
+See <a href="pos/pos-splitting.html#si-le">SI + LE</a>.
+</blockquote>
+
+<a name="si">
+<h4>SI</h4>
+
+<blockquote>
+
+For the treatment of SI COMME, see <a href="words.html#comme">COMME</a>.
+
+<p>When introducing adverbial clauses or indirect questions clauses, SI is
+tagged CONJS.  The distinction between the two clause types is encoded
+in the dash tag of the relevant clause (<tt>CP-ADV</tt> vs. <tt>CP-QUE</tt>).
+
+<p>SI can also be tagged <tt>ADV</tt>.  In older French, this use of SI
+is very common, particularly in the topic position of V2 clauses.  In
+contrast to AUSSI and spelling variants, semantically bleached SI is not
+treated as resumptive when preceded by a potentially left-dislocated
+constituent.
+
+<p>Finally, SI can be an interjection (<TT>ITJ</TT>) - the affirmative
+counterpart of NON.
+
+<p>SI can also a spelling variant of various other forms:
+
+<ul>
+<li>the plural possessive pronoun SES (<TT>DZ</TT>)
+<li>the numeral SIX (<TT>ADJNUM</TT> or <TT>NUM</TT>)
+<li>the pronoun CEUX (<TT>PRO</TT>)
+</ul>
+
+</blockquote>
+
+<!--
+<blockquote>
+<pre>
+si/ADV grand et puissant
+
+S'/CONJS il vous plait
+
+Je ne sais pas si/CONJS elle vient
+
+elle dit que si/ITJ
+</pre>
+</blockquote>
+-->
+
+<a name="sil">
+<h4>SIL</h4>
+
+<blockquote>
+See <a href="pos/pos-splitting.html#si-le">SI + LE</a>.
+</blockquote>
+
+<a name="sin">
+<h4>SIN</h4>
+
+<blockquote>
+See <a href="pos/pos-splitting.html#si-le">SI + LE</a>.
+</blockquote>
+
+<a name="sis">
+<h4>SIS</h4>
+
+<blockquote>
+See <a href="pos/pos-splitting.html#si-le">SI + LE</a>.
+</blockquote>
+
+<a name="sitot">
+<h4><a href="pos/pos-splitting.html#si-tot">SIT&Ocirc;T</a></h4>
+
+<a name="son-dit">
+<h4>SON + DIT</h4>
+
+<blockquote>
+See <a href="pos/pos-splitting.html#d-dit">D&eacute;terminant + DIT</a>.
+</blockquote>
+
+<a name="supplier">
+<h4>SUPPLIER</h4>
+
+When SUPPLIER governs an object that is ambiguous between the accusative
+and the dativve, the object is taken as accusative by default.
+
+<!--
+<a name="sus">
+<h4>SUS</h4>
+
+<blockquote>
+
+<font color="red">Does SUS license dash tags?</font></blockquote>-->
+
+<a name="t">
+
+<a name="tant">
+<h4>TANT</h4>
+
+<blockquote>
+
+See also
+
+<ul>
+<li><a href="syntax-main.html#argument_or_modifier">Argument or modifier?</a>
+<li><a href="syntax-main.html#comparative_and_degree_constructions">Comparative constructions</a>
+<li><a href="syntax-main.html#leftward_or_rightward_movement">Leftward or
+    rightward movement?</a>
+<li><a href="syntax-main.html#quantifiers">Quantifiers</a>
+<li><a href="words.html#tant_que">TANT QUE</a>
+<li><a href="words.html#tant_que_et">TANT QUE ... ET</a>
+<li><a href="words.html#tant_xp_que_yp">TANT ... QUE ...</a>
+</ul>
+
+</blockquote>
+
+<a name="tant_que">
+<h4>TANT QUE</h4>
+
+<blockquote>
+
+See also <a href="words.html#tant_xp_que_yp">TANT ... QUE ...</a>
+
+TANT QUE is annotated differently depending on its meaning.  The first 
+analysis consistent with the meaning of the sentence is chosen.
+
+<ul>
+<p>
+<li>AS FAR AS (IS CONCERNED) - predicate can be missing, as in the
+English counterpart
+
+<pre>
+( (IP-MAT (CONJO Et)
+	  (PP (P par)
+	      (NP (NCS especial)))
+	  (PP (P desous)
+	      (NP (D le) (NCS solel)))
+	  (NP-SBJ=1 *proimp*)
+	  (NEG n')
+	  (AJ a)
+	  (NP-1 (Q nul)
+		(ADJP (QR plus) (ADJ perilleus))
+		(CODE <lb$$>)
+		(NCS peuple)
+		(CP-CMP *ICH*-3))
+	  (PON ,)
+	  (NP-MSR (Q tant)
+		  (CP-CMP (WNP-2 0) 
+			  (CONJS que)
+			  (IP-SUB (NP-MSR *T*-2)
+				  (CODE {COM:il_s'agit})
+				  (PP (P de)
+				      (NP (NCPL honmes)
+					  (ADJP (ADJ mestis)))))))
+	  (PON ,)
+	  (CP-CMP-3 (WADJP-4 0)
+		    (CONJS conme)
+		    (IP-SUB (ADJP-PRD *T*-4)
+			    (NP-SBJ (PRO il))
+			    (CODE <lb%%%n="50"$$>)
+			    (VJ sont)
+			    (PP (P en)
+			        (NP (NPRS Engleterre)))))
+	  (PONFP .)) (ID FROISSART-1,42.115))
+</pre>
+
+<li>WHILE - matrix event concurrent with subordinate event
+
+<pre>
+( (IP-MAT (NP-SBJ (PRO Elles))
+          (VJ boivent)
+          (NP-ACC (DF de) (DF l') (NCS eau))
+          (NP-MSR (Q tant)
+                  (CP-CMP (WNP-1 0)
+			  (CONJS que)
+                          (IP-SUB (NP-MSR *T*-1)
+                                  (NP-SBJ (D le) (NCS vin))
+                                  (VJ amende))))))
+</pre>
+                      
+They are drinking water while (= for as long as) the wine improves (= is improving)
+<br>
+(note imperfective aspect of complement verb).
+
+<p>
+<li>UNTIL - subordinate event delimits matrix event, with material
+relation between the two (that is, prolonged matrix event has
+subordinate event as outcome)
+                                  
+<pre>
+( (IP-MAT (NP-SBJ (NPRS Yvains))
+          (VJ erra)
+          (NP-MSR (Q tant)
+                  (CP-DEG (CONJS que)
+			  (IP-SUB (NP-SBJ (PRO il))
+                                  (VJ arriva)
+                                  (PP (P a)
+				      (NP (D la) (NCS fontaine))))))))
+</pre>
+
+Yvains rode until (= so long, far that) he reached the fountain
+<br>
+(note perfective aspect of complement verb).
+
+<p>
+<li>UNTIL - subordinate event delimits matrix event, but no material relation between the two 
+
+<pre>
+( (IP-MAT (NP-SBJ (PRO Elles))
+          (VJ boivent)
+          (NP-ACC (DF de) (DF l') (NCS eau))
+          (CP-ADV (ADV tant)
+		  (CONJS comme)
+                  (IP-SUB (NP-SBJ (D le) (NCS vin))
+                          (VJ amendera)))))
+</pre>
+
+They are drinking water until the wine improves (= will have improved)
+<br>
+(note perfective aspect of complement verb).
+
+<pre>
+(PP (P jusques)
+    (PP (P a)
+        (CP-ADV (ADV tant)
+	        (CONJS que)
+	        (IP-SUB (NP-SBJ (PRO on))
+			(NP-ACC (CL le))
+		        (VJ conmanderoit)))))
+</pre>
+
+</ul>
+
+</blockquote>
+
+<!--
+<a name="tant">
+<h4>TANT ... QUE</h4>
+
+<blockquote>
+Always tagged as
+
+<pre>
+TANT/Q ... QUE/CMP
+</pre>
+</blockquote>
+-->
+
+<a name="tant_xp_que_yp">
+<h4>TANT ... QUE ...</h4>
+
+<blockquote>
+
+<p>
+When TANT ... QUE corresponds to a bipartitite coordination structure,
+it is annotated as such rather than as an elliptical comparative
+structure (in contrast to the current guidelines concerning the AS WELL
+... AS construction in the English corpora, which will be assimilated to
+the French guidelines in the next release).
+
+<blockquote>
+<pre>
+(PP (CONJO tant)
+    (PP (P en)
+	(IP-PPL (VG dormant)))
+    (CONJP (CONJO comme)
+           (PP (P en)
+	       (IP-PPL (NP-ACC (ADJ aultres) (NCPL choses))
+		       (VG faisant)))))
+
+(PP (CONJO tant)
+    (PP (P par)
+        (NP (D le) (NCS bois)))
+    (CONJP (CONJO comme)
+           (PP (P e@)
+	       (NP (D @s) (NPCL pres)))))
+</pre>
+</blockquote>
+
+<p>
+Otherwise (when TANT ... QUE corresponds to the
+meanings <a href="words.html#tant_que">just discussed</a>), TANT is
+annotated as having undergone leftward movement, as is our default.
+
+<blockquote>
+<pre>
+(IP-MAT (QP-1 (Q tant))
+         ...
+        (NP-MSR (QP *ICH*-1)
+                (CP-CMP ... )))
+
+(IP-MAT (ADVP-1 (ADV tant))
+         ...
+        (CP-ADV (ADVP *ICH*-1)
+                ...))
+</pre>
+</blockquote>
+
+<a name="tant_que_et">
+<p>
+In a late variant, QUE can be replaced by ET, and TANT is
+sometimes followed by QUE, which is treated as expletive.
+
+<blockquote>
+<pre>
+(PP (CONJO tant)
+    (X que)
+    (PP (P par)
+        (NP (D le) (NCS bois)))
+    (CONJP (CONJO et)
+           (PP (P e@)
+	       (NP (D @s) (NPCL pres)))))
+</pre>
+</blockquote>
+
+</blockquote>
+
+<a name="tantot">
+<h4>TANT&Ocirc;T</h4>
+
+<blockquote>
+See <a href="pos/pos-main.html#adv-ou-n">Adverbe ou nom?</a>
+</blockquote>
+
+<!--
+<a name="taster">
+<h4>TASTER</h4>
+
+<blockquote>
+
+<font color="red">Does it take NP or PP complements?</font></blockquote>-->
+
+<a name="tel">
+<h4>TEL</h4>
+
+<blockquote>
+Quand TEL modifie un nom prononc&eacute; ou fonctionne comme attribut
+d'un verbe copule, il est &eacute;tiquet&eacute; comme <a
+href="pos/pos-main.html#adj-simple">adjectif (ADJ)</a>.
+
+<pre>
+la compagnie de tels/ADJ hommes
+
+Un tel/ADJ homme perdit ses offices et estatz
+
+Tel/ADJ homme perdit ses offices et estatz
+
+un homme tel/ADJ comme je t' ai dit
+</pre>
+
+En des autres case, il est trait&eacute; par d&eacute;faut comme
+<a href="pos/pos-main.html#substantivation">substantiv&eacute;</a>.
+
+<pre>
+Tel/NCS perdit ses offices et estatz 
+
+la compagnie de telz/NCPL
+
+Telz/NCPL ay - je veu le roy et les autres/NCPL .
+</pre>
+</blockquote>
+
+<a name="tenir">
+<h4>TENIR</h4>
+
+<blockquote>
+
+TENIR licenses <a href="syntax-main.html#small_clauses">small clause</a> complements, but the
+TENIR &Agrave; construction is treated analogously to CONSIDER AS.
+
+<blockquote>
+<pre>
+( (IP-MAT (NP-SBJ (PRO ils))
+  	  (VJ tiennent)
+          (NP-ACC (D ces) (NCPL ceremonies))
+          (PP (P a)
+	      (NP (NCPL joies))))
+	  (PONFP .))
+</pre>
+</blockquote>
+
+</blockquote>
+
+<a name="tout">
+<h4>TOUT</h4>
+
+<blockquote>
+
+See <a href="syntax-main.html#floated_quantifiers">Floated quantifiers</a>.
+
+</blockquote>
+
+<a name="toutesfois">
+<h4>TOUTESFOIS</h4>
+
+<blockquote>
+See <a href="words.html#q-fois">Q + FOIS</a>.
+</blockquote>
+
+<a name="tres">
+<h4>TR&Egrave;S</h4>
+
+<blockquote>
+See <a href="pos/pos-splitting.html#tres-adj-adv">TR&Egrave;S + ADJ ou ADV</a>.
+</blockquote>
+
+<a name="u">
+
+<a name="un">
+<h4>UN</h4>
+
+<blockquote>
+UN est &eacute;tiquet&eacute; comme
+<a href="pos/pos-main.html#d">d&eacute;terminant (D)</a> quand il n'est pas
+pr&eacute;c&eacute;d&eacute; d'un d&eacute;terminant. La forme du singulier UNS est
+aussi possible en ancien fran&ccedil;ais.
+
+<pre>
+un/D arbre/NCS
+
+uns/D arbre/NCS
+</pre>
+
+UN est &eacute;tiquet&eacute; comme
+<a href="pos/pos-main.html#adj-simple">adjectif (ADJ)</a> quand est pr&eacute;c&eacute;d&eacute;
+d'un d&eacute;terminant et suivi d'un nom.
+
+<pre>
+l'/D un/ADJ arbre/NCS
+</pre>
+
+Quand UN est pr&eacute;c&eacute;d&eacute; d'un d&eacute;terminant, mais pas suivi
+d'un nom prononc&eacute;, il est trait&eacute; par d&eacute;faut comme
+<a href="pos/pos-main.html#substantivation">substantiv&eacute;</a>.
+
+<pre>
+l'/D un/NCS et l' autre/NCS
+
+les/D uns/NCPL et les autres/NCPL
+</pre>
+
+Quand UN modifie un nom et est en contraste avec une autre marque du
+nombre, il est
+&eacute;tiquet&eacute; comme <a href="pos/pos-main.html#adj-card">adjectif cardinal (ADJNUM)</a>.
+
+<pre>
+La trefve ne duroit jamais gu&egrave;res que ung/ADJNUM jour ou deux 
+</pre>
+
+UN employ&eacute; seul et en contraste avec une autre marque du nombre est
+&eacute;tiquet&eacute; comme <a href="pos/pos-main.html#num">num&eacute;ral (NUM)</a>.
+
+<pre>
+par la mauvaisti&eacute; de ung/NUM ou de deux
+</pre>
+
+Dans les situations difficiles, UN est &eacute;tiquet&eacute; comme
+<a href="pos/pos-main.html#d">d&eacute;terminant (D)</a>.
+
+<pre>
+et ne demour&egrave;rent que ung/D jour
+</pre>
+</blockquote>
+
+<a name="user">
+<h4>USER</h4>
+
+<blockquote>
+
+<blockquote>
+<pre>
+(IP-INF (VX user)
+        (NP-ACC (D ceste) (NCS parolle)))
+
+(IP-INF (VX user)
+        (PP (P de)				&larr; P (not DF)
+            (NP (D ceste) (NCS parolle))))
+</pre>
+</blockquote>
+
+</blockquote>
+
+<a name="v">
+
+<a name="voici-voila">
+<h4>VOICI, VOILA</h4>
+
+<blockquote>
+
+VOICI and VOILA are treated as written, either as single words (the
+modern spelling) or as two words (the etymological origin of the modern
+words).  Both types have several spelling variants.  In the modern case,
+the entire word is tagged as VP; in the older case, only the VOI- part.
+The VP is taken to be the head of a presentational clause
+(see <a href="syntax-main.html#ip-pres"><tt>IP-PRES</tt></a> for
+examples).
+
+</blockquote>
+
+<a name="voir">
+<h4>VOIR</h4>
+
+<blockquote>
+
+Tagged as NCS in the sense of TRUTH.
+
+</blockquote>
+
+<a name="vouloir">
+<h4>VOULOIR</h4>
+
+<ul>
+<li><a href="pos/pos-main.html#subst-inf">Infinitif substantiv&eacute;</a>
+<li><a href="pos/pos-main.html#md-ou-v">Verbe modal ou verbe principal?</a>
+</ul>
+
+<a name="w">
+
+<a name="x">
+
+<a name="y">
+
+<a name="z">
+
+</body>
+
+</html>

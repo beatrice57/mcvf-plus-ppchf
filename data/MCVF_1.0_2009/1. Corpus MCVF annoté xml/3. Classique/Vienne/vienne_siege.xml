@@ -1,0 +1,2294 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title type="main">Journal du siege de Québec du 10 mai au 18 septembre</title>
+    <title type="sub"/>
+    <title type="short">Vienne.Siege</title>
+    <author>
+     <persName>
+      <surname>Vienne</surname>
+      <forename>François-Joseph de</forename>
+     </persName>
+    </author>
+    <editor>Modéliser le changement, les voies du français GTRC/CRSH</editor>
+    <principal>
+     <persName>France Martineau</persName>
+    </principal>
+    <funder>
+     <orgName>Université d'Ottawa</orgName>
+     <orgName>Conseil de recherche en sciences humaines du Canada</orgName>
+    </funder>
+    <respStmt>
+     <resp>Codage</resp>
+     <persName xml:id="Martineau">France Martineau</persName>
+     <persName xml:id="Brière">Emmanuelle Brière</persName>
+     <persName xml:id="Fauchon">Caroline Fauchon</persName>
+    </respStmt>
+   </titleStmt>
+   <extent>29303</extent>
+   <publicationStmt>
+    <date when="2009-04-15"/>
+    <publisher>
+     <orgName>Modéliser le changement : les voies du français GTRC/CRSH</orgName>
+     <address>
+                        <addrLine>60, rue Université</addrLine>
+                        <addrLine>Ottawa, Ontario</addrLine>
+                        <addrLine>K1N 6N5</addrLine>
+                        <addrLine>Tél : 613-562-5797</addrLine>
+                        <addrLine>Fax : 613-562-5981</addrLine>
+                        <addrLine><email>fmartin@uottawa.ca</email></addrLine>
+                        <addrLine>http://www.voies.uottawa.ca/</addrLine>                        
+                    </address>
+    </publisher>
+    <distributor>
+     <orgName>Modéliser le changement : les voies du français GTRC/CRSH</orgName>
+     <address>
+                        <addrLine>60, rue Université</addrLine>
+                        <addrLine>Ottawa, Ontario</addrLine>
+                        <addrLine>K1N 6N5</addrLine>
+                        <addrLine>Tél : 613-562-5797</addrLine>
+                        <addrLine>Fax : 613-562-5981</addrLine>
+                        <addrLine><email>fmartin@uottawa.ca</email></addrLine>
+                        <addrLine>http://www.voies.uottawa.ca/</addrLine>                        
+                    </address>
+    </distributor>
+    <availability status="restricted">
+     <p>(c) Modéliser le changement : les voies du français (CRSH/GTRC, dirigé par F. Martineau)</p>
+     <p>Les Corpus MCVF demeurent la propriété du projet Modéliser le changement : les voies du
+      français. Les références à ces Corpus devraient apparaître ainsi : Corpus MCVF, Modéliser le
+      changement : les voies du français (F. Martineau (dir.), U. d’Ottawa).Tous les documents du
+      Corpus MCVF ne peuvent être divulgués à de tierces parties sans l’autorisation préalable de la
+      Directrice du Projet </p>
+     <p>Pour tout autre usage, contacter : <persName>France Martineau</persName>
+      <orgName>Modéliser le changement : les voies du français, Université d'Ottawa</orgName>
+      <email>fmartin@uottawa.ca</email></p>
+    </availability>
+   </publicationStmt>
+   <sourceDesc>
+    <listBibl>
+     <biblStruct type="Source_publique">
+      <monogr>
+       <title>Journal du siège de Québec du 10 mai au 18 septembre 1759</title>
+       <author>
+        <persName>
+         <forename>François-Joseph de</forename>
+         <surname>Vienne</surname>
+        </persName>
+       </author>
+       <editor>
+        <persName>
+         <forename>Aegidius</forename>
+         <surname>Fauteux</surname>
+        </persName>
+       </editor>
+       <imprint>
+        <pubPlace>Québec</pubPlace>
+        <publisher>Bibliothèque de Saint-Sulpice</publisher>
+        <date when="1922">1922</date>
+       </imprint>
+      </monogr>
+     </biblStruct>
+     <bibl type="source_électronique">
+      <orgName>Nos racines: les histoires locales du Canada en ligne</orgName>
+      <note type="Type_de_document">Image digitale</note>
+      <ref target="http://www.nosracines.ca/f/toc.aspx?id=1684"
+       >http://www.nosracines.ca/f/toc.aspx?id=1684</ref>
+     </bibl>
+    </listBibl>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <projectDesc>
+    <p>Projet : Modéliser le changement les voies du français (GTRC/CRSH) <lb/>Resp. :
+      <persName>France Martineau</persName> Institution : Département de français, Université
+     d'Ottawa
+     <address>
+                        <addrLine>60, rue Université</addrLine>
+                        <addrLine>Ottawa, Ontario</addrLine>
+                        <addrLine>K1N 6N5</addrLine>
+                        <addrLine>Tél : 613-562-5797</addrLine>
+                        <addrLine>Fax : 613-562-5981</addrLine>
+                        <addrLine><email>fmartin@uottawa.ca</email></addrLine>
+                        <addrLine>www.voies.uottawa.ca</addrLine>                        
+                    </address></p>
+   </projectDesc>
+   <editorialDecl>
+    <p>Voir le manuel d'annotation TEI au http://www.voies.uottawa.ca</p>
+    <p>L'édition de référence a été respectée quant à l'orthographe, la ponctuation, la mise en page
+     et la pagination. Cependant, la césure des mots en fin de lignes (ou de pages) a été supprimée,
+     le mot est placé dans la ligne ou la page où il commence. </p>
+    <p>Les paragraphes sont notés par P pour la prose. Pour les vers, P rend="gv" indique que le
+     paragraphe est constitué d'un groupe de vers. </p>
+    <p> Les débuts des vers sont encodés par LB. Cette balise peut également servir dans les textes
+     en prose à indiquer les débuts des lignes selon la pagination de l'édition. </p>
+    <p>Les changements de pages sont indiqués par la balise PB</p>
+    <p>Le corps du texte est obligatoirement compris dans le BODY. Le FRONT contenant le titre et/ou
+     le prologue et le BACK (explicit) sont facultatifs et ne sont mis qu'au besoin. </p>
+    <p>Les différentes parties du texte (livre, chapitre...) sont encodées par DIV, auquel s'ajoute
+     l'attribut TYPE qui spécifie sa nature. </p>
+    <p>Les paragraphes (P), lignes (LB) et pages (PB) de même de certaines divisions (DIV) sont ou
+     peuvent être numérotés par l'attribut N s'ils le sont dans l'édition. </p>
+    <p>Quelques commentaires ou corrections ont été introduits à l'aide de la balise NOTE, CORR ou
+     SIC. </p>
+    <p>Les discours directs et les citations ont été encodés par la balise Q. Cette balise est mise
+     à chaque fois que des guillemets sont utilisés dans l'édition. </p>
+    <p>L'élément FOREIGN indique un passage en latin qui est noté en italique dans l'édition, les
+     occurrences non en italique sont signalées par l'attribut ROMAIN. </p>
+    <p>Les folios sont notés par la balise <tag>pb rend="folio"</tag></p>
+    <p>Les notes de bas de pages ont été retirées. </p>
+    <p>Les paragraphes entièrement en latin ont été retirés, une balise P et une NOTE les signalent. </p>
+    <p>Note spécifique au texte ci-dessous: Aucune.</p>
+   </editorialDecl>
+  </encodingDesc>
+  <profileDesc>
+   <creation>
+    <date notBefore="1759-05-10" notAfter="1759-09-18"/>
+   </creation>
+   <langUsage>
+    <language ident="fr"/>
+   </langUsage>
+   <textDesc>
+    <channel/>
+    <constitution>Texte intégral</constitution>
+    <derivation/>
+    <domain/>
+    <factuality/>
+    <interaction/>
+    <preparedness/>
+    <purpose/>
+   </textDesc>
+   <textClass>
+    <keywords scheme="GTRC">
+     <list>
+      <item n="domaine">Non littéraire</item>
+      <item n="genre">Journal / Mémoire personnel</item>
+      <item n="forme">Prose</item>
+      <item n="docRegion1">Amérique française</item>
+      <item n="docRegion2">Vallée du Saint-Laurent</item>
+      <item n="docRegion3"/>
+      <item n="auteurRegion1">France</item>
+      <item n="auteurRegion2">France Centre</item>
+      <item n="auteurRegion3">Île-de-France</item>
+      <item n="auteurSexe">Homme</item>
+      <item n="occupation">Administrateur</item>
+      <item n="scribeRegion1"/>
+      <item n="scribeRegion2"/>
+      <item n="scribeRegion3"/>
+      <item n="imprimeurRegion1"/>
+      <item n="imprimeurRegion2"/>
+      <item n="imprimeurRegion3"/>
+     </list>
+    </keywords>
+    <classCode scheme="Indice de Dees"/>
+   </textClass>
+   <particDesc>
+    <listPerson>
+     <person role="auteur">
+      <persName>
+       <surname>Vienne</surname>
+       <forename>François-Joseph de</forename>
+      </persName>
+      <birth>
+       <date when="1711">1711</date>
+       <placeName>Paris, France</placeName>
+      </birth>
+     </person>
+    </listPerson>
+   </particDesc>
+  </profileDesc>
+  <revisionDesc>
+   <change when="2009-04-29" who="#Martineau">Validation de l'en-tête</change>
+   <change when="2009-04-16" who="#Fauchon"> Vérification et correction du codage d'après les normes
+    du P5 et du schéma MCVF</change>
+   <change when="2009-04-15" who="#Fauchon">Header au complet</change>
+   <change when="2006-11-05" who="#Brière">Première version du codage</change>
+  </revisionDesc>
+ </teiHeader>
+ <text>
+  <front>
+   <head><hi rend="maj">JOURNAL DU SIÈGE DE QUÉBEC DU 10 MAI AU 18 SEPTEMBRE 1759</hi></head>
+  </front>
+  <body>
+  <pb n="6"/>
+   <p>1759 May 10.-Arrivée de Monsieur Bougainville, colonel des troupes venant de <lb/> France.</p>
+   <p> “ 13.-Arrivée du navire <hi rend="ital">la Chézine</hi>, capitaine, le Sieur Duclos
+    Guillot.</p>
+   <p> “ 17.-Arrivée de la frégate <hi rend="ital">le Machault</hi>, capitaine le Sieur Canon. <lb/>
+    Le navire le <hi rend="ital">Maréchal de Senectère</hi>, capitaine le Sieur de Grand <lb/>
+    Rivière. <lb/> Le navire <hi rend="ital">l'Angélique</hi>, capitaine le Sieur Grammond. <lb/> Le
+    navire <hi rend="ital">la Manon</hi>, capitaine le Sieur Martin Mimbielle <lb/> Le navire <hi
+     rend="ital">le Bienfaisant</hi>, capitaine le Sieur Courval. <lb/> Le navire <hi rend="ital"
+     >St. Augustin</hi>, capitaine De Balles. <lb/> Le navire <hi rend="ital">l'Elisabeth</hi>,
+    capitaine le Sieur Brecheau. <lb/> Le navire <hi rend="ital">la Toison d'or</hi>, capitaine le
+    Sieur Joseph Marchand <lb/> Le navire <hi rend="ital">la Vénus</hi>, capitaine le Sieur
+    Carbonnelle. <lb/> Le navire <hi rend="ital">les 4 Frères</hi>, capitaine le S<hi rend="points"/>
+    <lb/> Le navire <hi rend="ital">l'Amériquain</hi> capitaine le Sieur de Louche. <lb/> Une prise
+    angloise.</p>
+   <p> “ 18.-Le navire <hi rend="ital">le Swinton</hi>, capitaine le Sieur Guyon.</p>
+   <p> “ 19.-La frégate du Roy <hi rend="ital">l'Atalante</hi>, capitaine M. Vauclin, capitaine
+    <lb/> de brûlots.</p>
+   <p> La flute du Roy <hi rend="ital">la Pomonne</hi>, capitaine M. Sauvage, lieutenant <lb/> de
+    frégate.</p>
+   <p> “ 22.-La flute du Roy, <hi rend="ital">la Pye</hi>, capitaine le Sieur Duvilliers.</p>
+   <p> Suivant la déposition de quelques prisonniers faits du côté de Carillon, <lb/> il ne nous est
+    plus permis de douter que les Anglois n'eussent formé <lb/> le dessein de nous attaquer par mer
+    et par terre; en consequence <lb/> de ces instructions Monsieur le Marquis de Montcalm,
+    lieutenant <lb/> général des armées du Roy s'est rendu ce jourd'huy en ville, ayant <lb/>
+    descendu de Montréal.</p>
+   <p> “ 23.-Arrivée du navire <hi rend="ital">l'Amitié</hi>, capitaine le Sieur Voyer. <lb/> Le
+    navire <hi rend="ital">le Soleil Royal</hi>, capitaine le Sieur Duffis Charet. <lb/> Le navire
+     <hi rend="ital">le duc DeFronsac</hi>, capitaine le Sieur le Villeurs. <lb/> La flute du Roy
+     <hi rend="ital">la Marie</hi>, capitaine<hi rend="points"/>
+    <lb/> Le navire <hi rend="ital">le Colibry</hi> (37), capitaine<hi rend="points"/></p>
+   <p> “ 24.-Un courier expédié par M. Aubert qui est en observation en bas, <lb/> nous a rapporté
+    qu'il y avoit 11 vaisseaux et frégates angloises <lb/> qui avoient paru le 19 du courant à St.
+    Barnabé, et le dit courier rap̲porte<lb/> qu'en venant icy il en avoit compté 14, dont 2
+    petits batteaux, <pb n="7"/>
+    <lb/> on supose que c'est quelques prises qu'ils ont faites depuis qu'il <lb/> sont en rivière ;
+    ils étoient alors à l'Isle Verte distante d'icy d'envi̲ron<lb/> 35 lieues.</p>
+   <p>1759 May 25. Arrivée de M. le Marquis de Vaudreuil, grand croix, Gou̲verneur<lb/> Général,
+    venant de Montréal ; il nous descend aussy 5 <lb/> bataillons des troupes de terre pour servir
+    icy. Tous les miliciens <lb/> ont ordre de se rendre icy pour travailler aux fortifications.</p>
+   <p> On fait quantité de projets pour s'opposer aux ennemis, sçavoir s'ils <lb/> réussiront. On
+    commence à faire un retranchement, depuis les <lb/> petits moulins à venir gagner le quartier
+    St. Roch, mais comme <lb/> nous nous trouvons dans les grandes mers et qu'on a commencé les
+    <lb/> ouvrages un peu bas, il se trouve fort endommagé par les marées <lb/> qui sont très
+    fortes, étant poussées par un grand vent de nordet.</p>
+   <p> On met plusieurs carcassières en chantier, et on dispose des batteaux <lb/> de planches pour
+    y mettre une pièce de canon de 8 ; on doit aussy <lb/> placer sur le devant de la petite Rivière
+    2 vaisseaux sur lesquels il <lb/> y aura de l'artillerie pour soutenir les retranchements dans
+    cette <lb/> partie en cas d'attaque.</p>
+   <p> Nos puissances ont tenu un conseil, où tous les capitaines de vaisseaux <lb/> ont été invités
+    ; il a été question de sçavoir si on pouvoit boucher <lb/> la traverse afin d'empêcher de monter
+    les gros vaisseaux anglois.</p>
+   <p> En conséquence de ce qui a été décidé dans ce conseil, le Sieur Pelle̲grin,<lb/>  capitaine
+    de port, a été détaché pour aller sonder la tra̲verse ;<lb/>  à son retour il a rapporté
+    qu'elle étoit trop large, qu'il faudroit <lb/> au moins 40 navires pour y réussir. La disette où
+    nous sommes <lb/> fait qu'on a abandonné ce projet.</p>
+   <p> Comme les travaux ne sont point avancés au point qu'on se promettoit <lb/> qu'ils seroient à
+    l'arrivée des ennemis au lieu d'enceindre le tour des <lb/> remparts en murs comme on se l'étoit
+    proposé, on y va faire une <lb/> palissade à laquelle on va travailler incessamment.</p>
+   <p> ” 26. Nos ingénieurs ont été visiter l'Isle d'Orléans afin de voir s'il ne <lb/> seroit pas
+    possible d'y trouver un terrain avantageux pour y établir <lb/> quelques batteries, mais comme
+    il paroist impossible d'empêcher <lb/> les ennemis d'y descendre et que cela occuperoit trop de
+    monde <lb/> pour la soutenir, on a pris le party de l'abandonner.</p>
+   <p> On a tenu un conseil où il a été décidé qu'il faloit armer des brûlots. <lb/> En exécution de
+    ce projet on a commencé à en préparer 8. Ce projet <lb/> peut être bon, mais difficile à
+    exécuter, si toutefois ceux qui s'en <lb/> chargent veulent faire leur devoir ; je doute que
+    cela réussisse .</p>
+   <p> ” 27.-On vient de faire sur le rampart l'épreuve des mortiers ; il se trouve <lb/> qu'avec 12
+    1. de poudre dans la chambre, ils envoyent une bombe <pb n="8"/>
+    <lb/> par le travers de l'anse à Charest, distant de la place d'environ 3/4 <lb/> de lieue.</p>
+   <p> Le Sieur Duclos Guillot. capitaine du navire la <hi rend="ital">Chézine</hi>, a donné le
+    <lb/> plan d'une batterie flottante, sur laquelle on pourra mettre <lb/> 12 à 14 canons,
+    laquelle pourra se transporter où il sera nécessaire, <lb/> et cela avec facilité. Ce plan a été
+    goûté, aprouvé et mis à exécution <lb/> par l'inventeur.</p>
+   <p> Dès le 22, M. de la Naudière, chevalier de l'ordre royal et militaire <lb/> de St. Louis est
+    party pour aler à l'Isle aux Coudres pour l'opération <lb/> des cajeux. Nous venons d'apprendre
+    qu'il y en a très peu <lb/> de fait ; je n'ose me flater du succès de cette expédition et je
+    pense <lb/> en vérité que cela ne fera aucun effet.</p>
+   <p> On évacue à force la coste du sud, on envoie les femmes et les bestiaux <lb/> dans les
+    profondeurs ; on évacue pareillement l’Isle d'Orléans, et <lb/> on traverse tous à la coste
+    Nord, à la réserve de quelques caches <lb/> que les habitants font dans les bois. Je crains
+    beaucoup que tout <lb/> ne soit perdu.</p>
+   <p> On construit un pont sur la rivière du Sault de la Chaudière. C'est <lb/> M. de Lotbinière,
+    cy devant ingénieur, qui le fait faire.</p>
+   <p> Dans une conférence qui a été tenue, le Sieur Courval a proposé <lb/> de faire des cajeux,
+    mais d'une construction différente de ceux de <lb/> M. Lanaudière. Ils doivent être en long,
+    formant en aparence un <lb/> canot de Roy ; ils seront enchaînés les uns aux autres et seront
+    <lb/> soutenus sur les ailes par 2 petits bâtimens pour les empêcher de <lb/> dériver à la file.
+    Ce projet a été aprouvé et on va travailler inces̲samment<lb/>  à en faire le plus que l'on poura ;
+    j'ai plus de confiance <lb/> à ceux ci qu'à ceux de M. de la Naudière auxquels il n'y a pas
+    l'ombre <lb/> de sens commun.</p>
+   <p>1759 May 28. On travaille avec vigueur aux fortifications, ainsy qu'aux autres ouvrages ;
+    <lb/> il n'y a rien de nouveau.</p>
+   <p> ” 29. Les vents continuent toujours de la part du nordet. Grand frais. <lb/> Ce qui nous
+    dérange beaucoup aux travaux de St. Roch dont une <lb/> grande partie a été emportée par la
+    grosse mer.</p>
+   <p> ” 30. 7 Acadiens qui se sont sauvés des prisons de Boston le 5 du présent, <lb/> rapportent
+    que les Anglois font de grands armemens dans la Nouvelle̲Angleterre<lb/> pour le Canada, qu'ils
+    doivent avoir 50 mille hommes <lb/> sur pied, sçavoir 20 mille contre Québec, 8000 à la Belle
+    Rivière, <lb/> 6000 à Niagara, 6000 à la Présentation, et 10 mille pour Carillon, <lb/> que les
+    milices qu'ils y avoient l'année dernière n'avoient point <lb/> voulu prendre les armes, qu'ils
+    font embarquer de force tout le monde <pb n="9"/>
+    <lb/> qu'ils peuvent ramasser, qu'il y a beaucoup de misère chez eux, que <lb/> 2 de leurs
+    vaisseaux de transport étoient entrés dans le port en <lb/> assurant qu'ils avoient vu une flote
+    française qui étoit sur leurs <lb/> costes et que même il y avoit eu un combat naval où les
+    Anglois <lb/> avoient été battus. Voilà à peu près le précis de ce que j'ai su de <lb/> leurs
+    dépositions, ce auquel suivant moy il y a beaucoup à rabattre. <lb/> C'est assez pour que l'on
+    soit François pour tourner les choses à notre <lb/> avantage.</p>
+   <p> Du même jour, nous apprenons par le Sieur Pommereau, détaché <lb/> aux ordres de M. de la
+    Naudière, que le 27 du présent, les vaisseaux <lb/> anglois étoient venus mouiller à l'Isle aux
+    Coudres, qu'ils y sont <lb/> au nombre de 13 ou 14, mais qu'il ne sçait pas précisément s'il y a
+    <lb/> beaucoup de vaisseaux de guerre, qu'aussitôt que le dit M. de la <lb/> Naudière les avoit
+    vus venir à ce mouillage, il ne s'étoit occupé que <lb/> de sa retraite qui s'est faite avec
+    beaucoup de précipitation, aban̲donnant<lb/> armes, munitions, ainsy que du monde, sur la dite Isle,
+    <lb/> se retirant en cet ordre par le travers de l'église de la Petite Rivière, <lb/> environ à
+    3/4 de lieue dans le bois où il est maintenant en observation.</p>
+   <p> Quelques Canadiens de son détachement, moins expers dans l'art mili̲taire<lb/> que luy, lui
+    demandèrent à aller en découverte pour rencontrer <lb/> les forces des ennemis et, s'ils
+    mettoient du monde à terre, pour y <lb/> faire quelques prisonniers ; leurs instances réitérées
+    furent vaines <lb/> et inutiles, il demeura ferme dans sa résolution, leur disant qu'il <lb/>
+    n'étoit pas de son devoir d'exposer son monde à être tué ou fait pri̲sonnier,<lb/> qu'au contraire il
+    devoit les conserver avec grand soin. <lb/> Cette conduite me paroist très louable et digne d'un
+    homme que <lb/> Sa Majesté a honoré d'une Croix de St. Louis.</p>
+   <p>May 1759 31. Le Sieur de Niverville, officier des troupes de la colonie et inter̲prète<lb/> des
+    sauvages Abénakis, vient de partir d'icy à 2 heures après <lb/> midy avec 95 sauvages et une
+    quarantaine de Canadiens volontaires, <lb/> pour aler à l’Isle aux Coudres afin d'examiner les
+    ennemis <lb/> et pour y faire quelques prisonniers, s'il luy est possible.</p>
+   <p> Quelques habitans du lieu rapportent qu'il n'y a point de gros vais̲seaux<lb/> et que les plus
+    forts ne sont tout au plus que de 40 à 50 canons ; <lb/> ce rapport me paroist fabuleux d'autant
+    que l'on doit présumer que <lb/> cette escadre est partie à dessein d'intercepter les secours
+    qui nous <lb/> venoient; par conséquent il doit y avoir des vaisseaux de forces, <lb/> et ceux
+    qui rapportent qu'il n'y en a point en imposent ou qu'ils ne <lb/> les ont pas vues.</p>
+   <pb n="10"/>
+   <p> Les traveaux avancent beaucoup quoique les tems soient des plus <lb/> fâcheux, mais la
+    quantité de travailleurs que nous avons fait que <lb/> cela avance ; on compte que nous avons
+    descendu icy, tant de <lb/> troupes que de Canadiens, au moins 10 mille hommes. Si les <lb/>
+    temps deviennent beaux, dans un mois au plus nous serons en état <lb/> de recevoir les ennemis.
+    Les 5 bataillons que nous attendions d'en <lb/> haut sont arrivés.</p>
+   <p> Par un courier de Montréal nous aprenons que M. de Lygnerie, <lb/> commandant au fort
+    Machault, a avec lui 3000 hommes, dont plus <lb/> de 2500 sauvages ; on espère qu'il soutiendra
+    dans cette partie.</p>
+   <p>1759 Juin 1. M. de Lanaudière qui étoit chargé de l'opération des cajeux vient <lb/> d'arriver
+    icy, sans avoir rien fait, cy ce n'est qu'en remontant il a <lb/> fait brusler tout ce qu'il
+    pouvait y en avoir de faits, de crainte que <lb/> les ennemis ne profitassent de ces travaux
+    pour s'en servir contre <lb/> nous ; cette conduite est des plus louables.</p>
+   <p> ” 2. Rien de nouveau, les vents règnent toujours de la part du nordet ; <lb/> beau tems ; les
+    travaux avancent beaucoup.</p>
+   <p> ” 3. Il vient de nous ariver un courier d'en bas expédié par M. Aubert ; <lb/> voicy ce qu'il
+    rapporte, qu'il y a 4 vaisseaux à St. Barnabé qui ont <lb/> fait le signal de reconnaissance ;
+    malgré cette assurance on ne pense <lb/> pas qu'ils soient françois ; il ajoute qu'une de leurs
+    frégates est partie <lb/> de l'Isle aux Coudres, ce qui nous fait présumer qu'elle va audevant
+    <lb/> de leur flotte.</p>
+   <p> Sur les 4 heures après midy un matelot a tombé à l'eau dans la rade <lb/> et s'est noyé.</p>
+   <p> A midy on a fait l'épreuve d'un des cajeux du Sieur Courval, il a été <lb/> amené de l'entrée
+    de la rivière St. Charles; on y a mis le feu, à son <lb/> commencement il jette une grande fumée
+    et s'enflamme avec beaucoup <lb/> de vivacité; il a duré environ 5 4 d'heures.</p>
+   <p> ” 4. Les vents sont de la part du sud douest, beau tems. Les 5 compagnies <lb/> de grenadiers
+    passent à Beauport pour y faire des redoutes, ils com̲mencent<lb/> à la Canardière, maison des
+    prestres ; c'est M. de <lb/> Bougainville qui y commande.</p>
+   <p> Ledit jour on a augmenté le nombre des travailleurs de 200 hommes ; <lb/> c'est pour
+    l'opération des cajeux qu'ils vont être employés.</p>
+   <p> On commence à travailler à l'enceinte du Palais, qui est une palis̲sade<lb/> en pieux de
+    bout de 10 à 11 pieds de hauteur.</p>
+   <p> On achève ce jourd'huy un pont sur la rivière du passage ; ce pont <lb/> est construit sur
+    des batteaux éloignés de 10 pieds en 10 pieds ; <lb/> il a 16 à 17 pieds de largeur. M. Jacau,
+    officier d'artillerie, en est <lb/> l'inventeur et celui qui l'a fait faire.</p>
+   <pb n="11"/>
+   <p> On en a construit un autre sur la rivière du Cap Rouge, c'est de l'inven̲tion<lb/> de M.
+    de Lotbinière, ce sera sans doute un chef d'oeuvre.</p>
+   <p> On a fait un ouvrage couronné de tout un costé de la petite rivière. <lb/> de l'autre costé
+    du pont ; cet ouvrage est presque à sa perfection, <lb/> le plan en a été donné par M.
+    Pontleroy, ingénieur en chef, </p>
+   <p> Le nommé Flamand, maître maçon, a été envoyé à la Pointe aux̲Trembles<lb/> pour y faire des
+    fours.</p>
+   <p>1759 juin 5. On fait partir d'icy tous les bâtimens de la Rade pour aller aux environs <lb/>
+    des 3 Rivières, plusieurs sont déjà partis pour s'y rendre, et les <lb/> autres doivent partir
+    incessamment ; il n'y a que les frégattes du <lb/> Roy <hi rend="ital">l'Atalante</hi> et la <hi
+     rend="ital">Pomonne</hi>qui restent.</p>
+   <p> M. l'Intendant a donné ordre au Sieur Sombrun d'aller en l'Isle <lb/> d'Orléans pour y
+    ramasser quelques grains ; je crains beaucoup qu'il <lb/> ne préfère les cacher et que par la
+    suite tout ne tombe en pure perte, <lb/> soit pris par les ennemis ou germe dans les trous.</p>
+   <p> On va former un corps de cavalerie de 200 hommes pour être <lb/> en état d'en porter en peu
+    de tems aux endroits qui pourroient être <lb/> attaqués. Tous les selliers de la ville sont
+    occupés à faire des selles.</p>
+   <p> On muraille toutes les ouvertures des maisons qui sortent du costé de <lb/> la grève, de
+    façon à pouvoir fusiller en cas d'attaque.</p>
+   <p> Nous apprenons par un courier d'en bas qu'il y a 9 vaisseaux à St. <lb/> Barnabé ; ils
+    paroissent être des transports, ce qui nous fait juger <lb/> que leur flotte ne doit pas être
+    loin. Suivant toute aparence les <lb/> vaisseaux qu'on a vus il y a quelques jours et qui
+    avoient fait les <lb/> signaux sont aussy anglois : Qu'importe en tout cas ; nous sommes <lb/>
+    icy avant eux, ils ne nous surprendront pas, car nous les attendons <lb/> journellement et sous
+    15 jours nous serons en état de les recevoir <lb/> s'ils tentoient de faire une descente.</p>
+   <p> On travaille vigoureusement à l'armement de 8 brûlots, et on ne néglige <lb/> rien pour en
+    accélérer la perfection.</p>
+   <p> ” 6. La goelette la <hi rend="ital">Minerve</hi> part pour Montréal chargée d'effets pour S.
+    M. <lb/> ainsy que de plusieurs dames et demoiselles qui débarrassent beau̲coup<lb/> la
+    place.</p>
+   <p> Le Sieur de Loumeau, officier marchand, part avec des matelots pour <lb/> aller aux Ecureuils
+    chercher la goelette de M. le Mercier (79) qui a <lb/> hyverné au dit lieu pour l'armer en
+    bruslot ; cette goelette sera d'au̲tant<lb/> meilleure qu'elle est extrêmement vieille, ce
+    qui avec les artifices <lb/> fera un feu bien considérable, ressource heureuse pour ceux qui ont
+    <lb/> de vieux bâtimens et un peu de protection pour les faire trouver <lb/> propres.</p>
+   <pb n="12"/>
+   <p> Il vient de partir un batteau de Roy transportant des soldats restés <lb/> malades aux
+    hôpitaux, qui vont rejoindre leurs bataillons qui sont <lb/> ceux de la Reine et de Berry.</p>
+   <p>1759 Juin 7. Le détachement aux ordres de M. de Niverville qui étoit à l'Isle aux <lb/>
+    Coudres, vient d'arriver sur les 4 heures du matin. Les Cana̲diens<lb/> qui y étoient ont fait trois
+    prisonniers, dont un est neveu <lb/> de l'amiral Durel et les 2 autres sont officiers de marine
+    ; <lb/> tous les trois jeunes gens ; voicy quelle est leur déposition, <lb/> qu'ils attendent
+    leur flotte de jour en jour, qu'elle doit être composée <lb/> de 20 vaisseaux de ligne, 30
+    frégattes, 3 galiottes, 3 brûlots, et 100 <lb/> vaisseaux de transports ; que le nombre de leurs
+    forces doit être <lb/> de 30 milles hommes, qu'ils ne comptent pas prendre le Canada, <lb/> mais
+    que pour Carillon il sera pris d'emblée. Ils rapportent en outre <lb/> qu'ils ont tué sur l'Isle
+    aux Coudres 2 boeufs pour faire du bouillon <lb/> à leur malades, que le Sieur de Vitré est à la
+    solde du Roy d'Angle̲terre<lb/> et qu'il les pilote, et que le Sieur Raby doit piloter le
+    com̲mandan<lb/>t de la flote qu'ils attendent, qu'ils ont repris une prise <lb/> angloise que
+    nous avions à Gaspé et qui n'avoit pu monter icy l'au̲tomne<lb/> dernière, que le batteau qui avoit
+    party pour le Mont Louis <lb/> l'a été aussi ainsi que le Sieur Dacier qui venoit de l'Amérique
+    ; <lb/> qu'ils avoient sçu l'arrivée de la flotte du Sieur Canon, ce qui leur <lb/> avoit fait
+    beaucoup de peine à la vérité. Si elle eut été interceptée <lb/> nous eussions été très mal, et
+    malgré ce secours nous ne serons pas <lb/> encore très bien.</p>
+   <p> ” 8. Les feux de signaux ont été allumés, ce qui nous fait conjecturer que <lb/> la flote
+    ennemie a paru en bas; nous attendons le courier demain <lb/> pour nous éclaircir.</p>
+   <p> Sur les 8 heures du matin le feu a pris à bord du navire la <hi rend="ital">Toison d'or</hi>
+    <lb/> armé en brûlot, en faisant chauffer du bray dans la chaloupe le long <lb/> dudit navire ;
+    il n'a pas été possible d'arrêter cet embrasement, <lb/> peu s'en est falut qu'il n'ait
+    communiqué le feu aux 2 frégattes en <lb/> dérivant; on l'a enfin échoué et il a été consumé un
+    peu; nous <lb/> y avons perdu 8 ou 10 hommes.</p>
+   <p> A midy un courier vient d'arriver ; il rapporte que les feux ont été <lb/> allumés mal à
+    propos, et que c'étoit des sauvages qui en avoient allumé, <lb/> ce qui avoit occasionné cette
+    méprise.</p>
+   <p> Les frégattes le <hi rend="ital">Machault</hi> et le <hi rend="ital">Senecterre</hi> sont
+    parties d'hyer pour monter <lb/> en hault.</p>
+   <p> Le navire l'<hi rend="ital">Ambassadeur</hi> armé en brûlot, commandé par le Sieur <lb/>
+    Dubois, est prest à faire voile; il ne reste que les artifices à <pb n="13"/>
+    <lb/> mettre à bord qui ne se mettront qu'au commencement du départ.</p>
+   <p> Nous avons à Samos 60 cajeux de prests, suivant le rapport du Sieur <lb/> Courval, chargé de
+    cette expédition.</p>
+   <p> Nous avons une redoute de faite à la Canardière, on en commence <lb/> une autre à la rivière
+    de Beauport ; 2 ou 300 Canadiens ont été <lb/> détachés pour y aller travailler afin d'avancer
+    les traveaux.</p>
+   <p> M. de St. Vincent, chevalier de St. Louis, qui avoit été chargé <lb/> de faire évacuer l'Isle
+    d'Orléans vient dans le moment d'arriver, <lb/> bien fatigué de sa campagne et bien piqué des
+    mouches.</p>
+   <p> Nos généreaux ont eu la complaisance de faire habiller de pied en cap <lb/> aux dépens de Sa
+    Majesté les 3 officiers anglois nouvellement prison̲niers ;<lb/> il est vray qu'ils avoient
+    été pris avec leurs habits d'été, <lb/> ce qui a contribué à leur en faire faire d'hyver ; cette
+    générosité <lb/> est un peu coûteuse dans le temps où nous sommes, mais elle n'est <lb/> pas
+    surprenante de la part des François.</p>
+   <p>1759 Juin 9. Nous aprenons que 8 vaisseaux et frégattes vinrent dans le cours de la <lb/>
+    journée d'hyer mouiller au pied de la traverse. M. de St. Vincent <lb/> avoit grande raison
+    d'abandonner l'Isle, il ne les croyait pas si près <lb/> de luy lorsqu'il a fait retraite.</p>
+   <p> Nos généraux viennent de tenir un Conseil touchant le plan de défensive <lb/> à faire en cas
+    d'attaque; plusieurs sont d'avis qu'on rase la Basse̲Ville,<lb/> mais M. de Vaudreuil seul soutient
+    pour le contraire. <lb/> Je crains en vérité que le zèle qui le porte au bien des particuliers
+    <lb/> ne devienne funeste à l'Etat, car il me paroist impossible qu'on <lb/> puisse éviter un
+    incendie.</p>
+   <p> A 3 heures après midy, un courier nous apprend que 7 chaloupes <lb/> angloises sondent et
+    balisent la traverse ; tout leur est favorable, <lb/> ils ne trouvent aucune opposition dans
+    l'exécution de leur projet. <lb/> Cependant nous avons des frégattes qui auroient suffi pour
+    cette <lb/> expédition, et si alors nous eussions été foibles, les vents qui auroient <lb/>
+    amené les ennemis nous auroient servy pour la retraite. Cependant <lb/> nous sommes obligés de
+    croire que cela ne se pouvait pas puisqu'on <lb/> ne l'a pas fait.</p>
+   <p> Sur les 9 heures du soir de la nuit dernière, 3 sauvages abénaquis s'en <lb/> furent à Samos
+    et comme ils étoient au 3/4 saouls, l'un d'eux s'avisa <lb/> de vouloir forcer un factionnaire,
+    et il en fut la dupe ; ce sauvage <lb/> reçut un petit coup de fusil qui lui passa au travers du
+    corps ; cela <lb/> a fait un peu de bruit parmi les nations; il en coûtera quelques <lb/>
+    couvertes et de l'eau de vie pour laver la playe des autres, après <lb/> quoi tout ira bien.</p>
+   <pb n="14"/>
+   <p>1759 Juin 10. Il vient de partir dans l'instant 2 détachemens de Canadiens et sau̲ vages,<lb/>
+    commandés par MM. de Courtemanche et Repentigny <lb/> capitaines des troupes de la colonie. Ces
+    2 détachemens ensemble <lb/> sont de 600 hommes destinés pour l'Isle d'Orléans.</p>
+   <p> Malgré l'évacuation que M. St. Vincent a fait faire à cet Isle, il y reste <lb/> encore
+    beaucoup de bestiaux, en conséquence de quoy M. l'Intendant <lb/> a fait donner des batteaux
+    pour y traverser le reste. Mais voilà <lb/> des sauvages qui y traversent; il n'est pas douteux
+    qu'ils y feront <lb/> autant de dégâts que les ennemis pourroient y faire.</p>
+   <p> Depuis peu de jours on a formé un retranchement depuis les petits <lb/> moulins jusqu'au delà
+    du passage, dont plusieurs redoutes sont en <lb/> avant qui en deffendent toutes les
+    parties.</p>
+   <p> Je ne puis en vérité me lasser d'admirer une redoute que nous avons <lb/> de l'autre costé du
+    passage; c'est un ouvrage achevé ; l'on peut <lb/> dire que c'est le premier ingénieur que nous
+    avons eu en Canada.</p>
+   <p> ” 11. Le 11, nous venons d'apprendre que les vaisseaux anglais qui étoient <lb/> venus
+    mouiller au pied de la traverse se sont enretournés; il y a <lb/> aparence qu'ils auront
+    retourné à l'Isle aux Coudres.</p>
+   <p> Le Sieur Sombrun qui étoit allé à l'Isle d'Orléans pour y ramasser des <lb/> grains vient
+    d'arriver avec 8 à 900 minots d'avoine et quelque peu <lb/> de bled, mais pas autant qu'on se
+    l'étoit promis.</p>
+   <p> Le sauvage blessé à Samos la nuit du 9, est mort ce matin de sa bles̲sure ;<lb/> le Roy habille sa
+    famille, 200 livres en argent et un esclave <lb/> sitôt qu'on pourra en trouver un; par ce moyen
+    tout le monde est <lb/> content.</p>
+   <p> Le Sieur Chalous est party de ce matin pour aller suivant l'ordre <lb/> de M. Bigot faire
+    faire des fours dans les profondeurs de St. Augustin.</p>
+   <p> Par des lettres de Montréal nous aprenons que le 30 may dernier, <lb/> 10 sauvages anglois
+    étoient venus à St. Frédéric, qu'il nous avoient <lb/> fait 2 prisonniers, et un 3e blessé à
+    mort ; au reste tout est encore <lb/> tranquille dans ces parties.</p>
+   <p> On fait un pont sur la rivière Jacques Cartier ; c'est le Sieur Lotbinière <lb/> qui en est
+    le constructeur ; sans doute qu'il sera beau.</p>
+   <p> ” 12. On a bouché la rue entre Madame Boishébert et le mur de l'évêché <lb/> et on y met une
+    pièce de canon qui battra dans la grande coste ; <lb/> on fait miner devant M. Cordeneau pour
+    rendre ce chemin <lb/> praticable pour les voitures.</p>
+   <p> La maison du Sieur Marchand va être rasée, M. de Pont le Roy, ingé̲nieur,<lb/> luy a signifié
+    cette fameuse nouvelle ce matin. On en a fait <lb/> l'estimation, ce qui fait présumer que le
+    Roy luy payera ; sy cela <pb n="15"/>
+    <lb/> est, il se trouvera peut être plus riche que ne seront ses voisins par <lb/> la suite.</p>
+   <p> On fait un corps de garde dans la maison de Madame Boishébert, <lb/> et on a fait des
+    meurtrières dans le pignon pour pouvoir fusiller <lb/> en cas de besoin.</p>
+   <p> Nous avons ce jourd'huy 8 batteaux armés chacun d'une pièce de 8. <lb/> et une carcassière
+    armée d'une piece de 24; les autres sont encore <lb/> sur le chantier.</p>
+   <p> Par un courier venu d'en bas nous aprenons qu'il y a depuis St. Barnabé <lb/> à venir à
+    l’Isle aux Coudres 32 voiles engloises.</p>
+   <p> Un batteau du Roy, chargé d'effets et de munitions pour les chebeks <lb/> en construction à
+    St. Jean, a fait naufrage ce matin à la Pointe <lb/> aux Trembles.</p>
+   <p> A 5 heures du soir nous venons de remplacer au magasin du Roy à <lb/> M. de Lanaudière une
+    tente et un prélat qu'il avoit abandonné <lb/> sur l'Isle aux Coudres lorsque les ennemis
+    avoient paru pour y venir <lb/> quoiqu'il n'y avoit pas d'apparence qu'ils missent à terre en si
+    peu <lb/> de tems. J'ai toujours oui dire que la prévoyance étoit la mère de <lb/> la
+    sûreté.</p>
+   <p>1759 Juin 13. Aujourd'hui pour la première fois les hommes de la cavalerie ont entré <lb/>
+    dans la ville et ont été au château. C'est MM. de la Roche Beau̲court<lb/> et de St. Romme qui en
+    sont les capitaines ; leur <lb/> uniforme est bleu avec paremens et collet rouge, et croise sur
+    l'esto̲mach.</p>
+   <p> Sur les 3 heures du soir, un grenadier de la Sarre a été blessé à mort <lb/> d'un coup d'épée
+    que luy a donné le Sieur Duffis Desauniers, <lb/> négociant, à Montréal.</p>
+   <p> M. de Lotbinière, cy devant ingénieur des fortifications de Caril̲lon,<lb/> a fait faire un pont
+    sur la rivière du Cap Rouge, d'une <lb/> construction nouvelle ; les voitures, au lieu de passer
+    dessus comme <lb/> à l'ordinaire, passent par dessous ; cet ouvrage est digne d'un tel <lb/>
+    inventeur.</p>
+   <p> Le grenadier blessé est mort à l'hôpital sur les 7 heures du soir ; il est <lb/> mention
+    qu'il avoit bu, ce qui l'avoit porté à insulter cet officier de <lb/> milice, aussy a t on
+    suprimé les quantines qui étoient dans les camps. <lb/> C'est ordinairement l'usage en Canada,
+    non de prévoir les évènemens, <lb/> mais bien de les réprimer lorsqu'il est arrivé quelque
+    accident fâcheux.</p>
+   <p> Le Sieur Faribault employé au bureau du contrôle a eu son congé <lb/> ce jourd'huy ; c'est en
+    vérité un original dont je n'ai jamais vu <lb/> de copie.</p>
+   <pb n="16"/>
+   <p>1759 Juin 14. A 11 heures du matin, le feu a pris dans la maison de M. Bernier <lb/>
+    commissaire des guerres ; heureusement qu'il a été arrêté et n'a <lb/> fait aucun progrès.</p>
+   <p> Nous venons d'aprendre que 6 ou 7 vaisseaux et frégattes angloise <lb/> avoient fait la
+    traverse et sont venus mouiller le long de l'Isle St. <lb/> François ; avouons à notre honte
+    qu'ils sont à présent meilleurs <lb/> pilottes de la rivière que nous et d'ailleurs favorisés
+    par les vents.</p>
+   <p> ” 15. Le vent continue toujours nordet ; grand frais. Il n'est pas ordinaire <lb/> que dans
+    la saison où nous sommes les vents soient aussi opiniâtres ; <lb/> tout est pour les
+    Anglois.</p>
+   <p> Nous équipons au magasin tout le monde, prestres, moines, picqueurs, <lb/> etc., il est en
+    vérité surprenant que dans un tems aussy critique <lb/> que celuy d'à présent, on prodigue de
+    cet façon les marchandises <lb/> du Roy ; il serait impossible que les siennes pussent suffire,
+    si on <lb/> n'avoit pas quelques particuliers qui en sont bien pourvus et qui <lb/> avec
+    beaucoup de plaisir les cèdent au Roy. J'ignore les prix de <lb/> vente, mais ils doivent être
+    bien forts, d'autant que ces particuliers <lb/> avoient été trompés, ayant demandé des vivres ;
+    on a envoyé beau̲coup<lb/> de marchandises, tant sèches que liquides. Dieu veuille que <lb/> nous
+    n'en souffrions pas.</p>
+   <p> Par une lettre de M. de Courtemanche qui est à l’Isle, nous aprenons <lb/> que les Anglois
+    venoient dans des berges pour descendre à terre, et <lb/> que lui avec son monde étoient sur le
+    bord de l'eau pour les recevoir, <lb/> mais que malheureusement les sauvages micmacs s'étoient
+    montrés, <lb/> qu'aussitôt ils avoient reviré de bord et étoient retournés à leurs <lb/>
+    vaisseaux.</p>
+   <p> La gabarre <hi rend="ital">l'Entreprenante</hi> est armée de 4 pièces de canon, sçavoir <lb/>
+    2 de 18 et 2 de 12. C'est le Sieur Blondelard qui la commande.</p>
+   <p> Le Sieur Courval est party pour l'Isle d'Orléans afin de reconnaître <lb/> la position des
+    vaisseaux ennemis pour y conduire des cajeux s'il <lb/> est possible.</p>
+   <p> M. Coquard, prestre, venant de la rivière St. Jean, repporte que <lb/> les Anglois ne font
+    aucun mouvement de ce côté, au contraire qu'ils <lb/> font embarquer leurs troupes pour Boston,
+    ce qui nous prouve que <lb/> c'est pour remplacer celles qu'ils ont embarquées pour l'expédition
+    <lb/> de Québec.</p>
+   <p> ” 16. M. le Mercier, commandant d'artillerie, vient de partir avec <lb/> 4 pièces de canon de
+    12 et une forge pour battre les vaisseux anglois <lb/> qui sont mouillés à St. François; je
+    crains fort qu'il ne leur fasse pas <lb/> beaucoup de mal et je pense qu'il ferait mieux de
+    rester icy ; du moins <lb/> on ne se moquerait pas de luy.</p>
+   <pb n="17"/>
+   <p> Le brulôt le <hi rend="ital">Jaloux</hi> commandé par le Sieur Berthelot vient de mettre
+    <lb/> à la voile sur les 10 heures du matin ; il doit partir pour le nord de <lb/> l'lsle et en
+    remontant, comme s'il feignoit de venir d'en bas, doit <lb/> accrocher un vaisseau ; voilà ce
+    qu'il projette, mais je doute fort <lb/> qu'il l'exécute.</p>
+   <p> M. de Mombeillard, capitaine des canonniers, vient de partir <lb/> pour établir des batteries
+    sur des redoutes qui sont à Beauport.</p>
+   <p> On commence à préparer des mâts pour barrer l'entrée de la petite <lb/> rivière ; on fait des
+    chaînes aux forges pour les enchaîner les uns <lb/> aux autres.</p>
+   <p> Il nous arrive journellement une grande quantité de miliciens des <lb/> gouvernemens de
+    Montréal et des Trois Rivières.</p>
+   <p> Il vient de nous arriver de Chambly dans un bâtiment 6 à 700 bombes <lb/> de 12 pouces, et
+    plusieurs affuts de campagne de différens calibres.</p>
+   <p>1759 Juin 17. Les sauvages abénaquis aux ordres de M. de Courtemanche, ont fait <lb/> 8
+    prisonniers dont un officier; les ennemis avoient eu connaissance <lb/> du brulôt que nous
+    avions mouillé au nord de l'Isle, ils avoient <lb/> détaché 7 à 8 berges armées pour l'aller
+    prendre, mais les sauvages <lb/> ayant embarqué dans leurs canots avoient donné à la poursuite,
+    <lb/> en ont pris un et les autres se sont sauvés.</p>
+   <p> Voicy ce que rapportent les prisonniers, qu'ils ne sont point inquiets <lb/> de leur flotte
+    quoiqu'ils n'en ayent point de nouvelle, qu'ils ne l'atten̲dent<lb/> que dans trois semaines, qu'elle
+    doit être composée de 29 vais̲seaux<lb/> de ligne, 30 frégattes et 100 navires de transports, 15
+    mille <lb/> hommes de débarquement, qu'ils ne comptent pas trouver <lb/> plus de monde à Québec
+    qu'ils n'en trouvèrent l'année dernière à <lb/> Louisbourg, et qu'en attendant leur flotte ils
+    doivent monter jusqu'au <lb/> bout de l'Isle.</p>
+   <p> 30 cajeux du Sieur Courval sont prests et seroient partis, dit on, si les <lb/> Canadiens
+    avoient voulu s'embarquer pour aider à les conduire ; <lb/> 25 seulement se sont offerts à y
+    aller ; ainsi je ne sçais quand <lb/> ils partiront.</p>
+   <p> M. Dumas, major général des troupe de la colonie, a fait une <lb/> revue générale de tous les
+    miliciens de cette ville ; M. le Marquis <lb/> de Montcalm y étoit présent qui les a fort
+    encouragés à se bien <lb/> deffendre, que nous aurons affaire à des ennemis qui avoient été
+    battus <lb/> dans toutes les actions où ils s'étoient présentés et que nous devions <lb/>
+    espérer la même chose cette année ; on a répondu par plusieurs cris <lb/> de : Vive le Roy.</p>
+   <pb n="18"/>
+   <p>1759 Juin 18 M. le Mercier qui est à l’Isle d'Orléans demande 3 batteaux armés <lb/> de canons
+    ; on les luy envoie avec chacun 50 coups à tirer ; depuis <lb/> ce tems nous avons entendu
+    quelques canonnades, mais je pense <lb/> qu'il n'y a ny vaisseaux coulés ny bruslés, quoiqu'il
+    devoit les battre <lb/> à boulets rouges.</p>
+   <p> On vient de donner les vivres pour 400 hommes qui y vont pour <lb/> donner du renfort.</p>
+   <p> Il vient de nous arriver de Montréal 70 sauvages outa8ois et sauteux <lb/> qui sont venues à
+    dessein de secourir leur père Ononthio.</p>
+   <p> Sur les 5 heures du soir, M. le Mercier vient d'arriver de l'Isle ; il <lb/> rapporte que les
+    ennemis avoient fait un grand feu sur nos batteries, <lb/> et que même une de nos pièces avoit
+    été frappée légèrement à la <lb/> volée; d'ailleurs ny morts ny blessés, ny aucun vaisseau de
+    coulé <lb/> ny bruslé, comme il se l'étoit promis ; il dit cependant qu'il les a <lb/> fort
+    endommagés, mais la preuve du contraire et qu'ils n'ont point <lb/> souffert, c'est qu'ils n'ont
+    point quité leur mouillage. Preuve incon̲testable<lb/> de ce que je dis, c'est qu'il pouvoient aller
+    plus haut ou plus <lb/> bas. Ces ennemis rient de cette cacade et ses amis n'en disent mot ;
+    <lb/> pour moy je plains le Canada.</p>
+   <p> Nous venons d'équiper de pied en cap au magasin du Roy 35 sémina̲ristes,<lb/> ainsi que
+    des armes et des munitions qu'on leurs a <lb/> données ; cet armement suivant moy paroist très
+    juste, il en faut <lb/> absolument pour aller au combat, mais tout le reste me paroist <lb/>
+    assez hors de saison, d'autant que la plus grande partie de ces jeunes <lb/> gens appartiennent
+    à de bons bourgeois qui ont moyen de les habiller; <lb/> cependant personne n'est scandalisé de
+    l'offre gracieuse ; au con̲traire<lb/> tout le monde l'accepte volontiers non pas tant je pense par
+    <lb/> interest comme c'est à cause que cela vient du Roy notre bon maître.</p>
+   <p> Aujourd'huy pour la première fois une chaloupe carcassière et des <lb/> batteaux armés ont
+    été faire la patrouille dans le bassin, pour empê̲cher<lb/> quelques berges qui pourroient venir
+    rauder aux environs <lb/> de la place.</p>
+   <p> ” 19. Le Sieur Bertelot commandant le brulôt le <hi rend="ital">Jaloux</hi> est rentré ce
+    matin ; <lb/> il a eu un contre ordre que je croy être très à propos, car je ne pense <lb/> pas
+    qu'il réussisse, non plus que les autres qui arment.</p>
+   <p> A midy et demy on a lancé la batterie flottante à l'eau mais il faut encore <lb/> beaucoup
+    d'ouvrage pour la mettre à perfection ; elle a 60 pieds <lb/> de long, 30 de largeur et 7 de
+    bord, elle callera environ 2 pieds 1/2 <lb/> quand elle aura son artillerie ; je ne croy pas
+    qu'elle soit d'un grand <lb/> secours pour le Canada; au reste elle a bien coûté de
+    l'argent.</p>
+   <p> Pendant la nuit dernière un jacobite, c'est le nom qu'on a donné aux <pb n="19"/>
+    <lb/> batteaux armés, étant amarré au quay de construction, le vent l'a <lb/> tourmenté de sorte
+    qu'il a tourné et la pièce a tombé à l'eau.</p>
+   <p> Il court icy un bruit que 5 de nos canonniers que nous avons à Carillon <lb/> ont sauté dans
+    un magasin dans lequel ils chargeaient des bombes ; <lb/> on ajoute aussy qu'il y a un officier
+    ; Dieu veuille que cette nouvelle <lb/> se détruise, mais je crains beaucoup que non, mais les
+    évènements <lb/> fâcheux ont presque toujours des avant courriers.</p>
+   <p>1759 Juin 20. Par un courier de M. Aubert, nous apprenons que le 17 du présent <lb/> l'ennemi
+    a paru à St. Barnabé ; on ne sçait pas positivement ses <lb/> forces, n'ayant bien pu les
+    distinguer, suivant toute aparence <lb/> c'est l'avant garde de la flotte ennemie, qui ne peut
+    pas être fort <lb/> loin, ayant toujours été bien favorisée par les vents.</p>
+   <p> Le tems vient cependant de se mettre au beau; nous en avons d'autant <lb/> plus besoin que
+    les ouvrages n'avancent point et même la pluye <lb/> les dégrade beaucoup.</p>
+   <p> M. de Lotbinière a fini le pont sur la rivière Jacques Cartier et comme <lb/> celui du Cap
+    Rouge avoit été endommagé par les gens de pied, il <lb/> y a fait retoucher pour le rendre
+    parfait.</p>
+   <p> Nous venons d'habiller de pied en cap un officier anglois dit on, car il <lb/> a plus l'air
+    d'un matelot que d'autre chose. Qu'importe, on l'équipe <lb/> toujours comme officier; leurs
+    mousses en sont chez nous, et nos <lb/> officiers sont de petits garçons chez eux.</p>
+   <p> ” 21 Un courier venant d'en bas rapporte qu'il y a, compris les vaisseaux <lb/> dont nous
+    eusme nouvelle hyer, 132 voiles, sans y comprendre <lb/> 32 qui sont depuis l'Isle aux Coudres
+    jusqu'à l'Isle d'Orléans, ce qui <lb/> fait ensemble 164 voiles, suivant le rapport du
+    prisonnier. Nous <lb/> pensons que c'est toutes leurs forces.</p>
+   <p> On fait une batterie de 2 pièces de canon entre le Château St Louis <lb/> et la maison du
+    grand Girard, on démolit le pignon d'Aimé <lb/> pour découvrir la grande coste.</p>
+   <p> On a fait des batteries dans toutes les redoutes de Beauport, depuis <lb/> le sault
+    Monmorency, à venir sur le bord de la petite rivière ; on <lb/> a fait beaucoup d'ouvrage depuis
+    que nous avons nouvelles des enne̲mis,<lb/> mais il nous en reste encore beaucoup à faire ; mais il
+    faut du <lb/> tems aux ennemis pour se préparer à la descente.</p>
+   <p> Je ne puis m'imaginer malgré les grands préparatifs qu'on fait pour <lb/> incendier la flotte
+    ennemie, qu'on pourra réussir ; il y a longtems <lb/> qu'il est fait mention de cajeux en Canada
+    ; d'ailleurs une flotte <lb/> en pays ennemi se tient bien sur ses gardes.</p>
+   <pb n="20"/>
+   <p> On fait beaucoup de chariots couverts pour le transport des munitions <lb/> et des vivres ;
+    on s'est servy pour cela de charettes à foin qui sont <lb/> couvertes avec des toiles
+    peintes.</p>
+   <p> L'abat de pluye qui est venu hyer a fait beaucoup de tort aux retran̲chemens ;<lb/> on
+    travaille à les réparer partout où il est besoin et on <lb/> ne néglige rien pour se mettre en
+    sûreté autant qu'il est possible.</p>
+   <p> Nous avons 12 jacobites et 6 carcassières de préparés ; c'est tout ce <lb/> qu'on veut en
+    faire; cela pourrait être bien bon en cas de descente <lb/> et pour empêcher les berges
+    d'approcher la nuit.</p>
+   <p> Toutes les batteries de la Basse Ville, ainsy que celles des Remparts, <lb/> vont être
+    commandées par des officiers marins (135), à la réserve <lb/> de la batterie royale qui est
+    commandée par M. Parent, père, capi̲taine des canonniers de milice.</p>
+   <p> Les batteries de mortiers sont commandées par des officiers d'artillerie <lb/> et servies par
+    des canonniers bombardiers.</p>
+   <p> On fait faire une casemate avec un blindage chez Madame <lb/> Péan ; je crois que c'est pour
+    M. Daine ou peut être <lb/> pour quelques autres, car je ne pense pas que M. l'intendant <lb/> y
+    aille; je croy qu'il ira plustost au camp.</p>
+   <p> Les particuliers de la Basse Ville envoyent leurs effets chez ceux de la <lb/> haute et ces
+    derniers envoyent les leurs à la campagne, preuve qu'ils <lb/> ne se croyent pas en sureté chez
+    eux.</p>
+   <p> Malgré les ordres réitérés de M. de Vaudreuil qui ordonnoit à tous les <lb/> miliciens des 3
+    gouvernemens de faire mettre leurs armes en état <lb/> et chargeoit les capitaines de prêter la
+    main à l'exécution des dites <lb/> ordonnances, malgré ces ordres qui auroient dû être suivis
+    exacte̲ment, il s'en trouve une si grande quantité qui sont hors d'état de <lb/> servir,
+    que la salle d'armes se vuide journellement et se remplit <lb/> d'un fatras d'armes inutiles ;
+    il est impossible aux ouvriers de les <lb/> radouber à mesure; Il arrivera infailliblement que
+    nous en man̲querons.</p>
+   <p> M. l'intendant, à ce qu'on dit, tire des lettres de change à vues sur ses <lb/> propres fonds
+    à ceux qui veulent lui remettre des espèces et ces <lb/> mêmes espèces sont à ce qu'on dit
+    destinées à acheter des grains et <lb/> farines dans le gouvernement de Montréal, d'autant que
+    les habitans <lb/> ne veulent point vendre en papier à quelque prix que ce soit. Dans <lb/> les
+    circonstances où nous sommes il en faut, quoique le munitionnaire <lb/> aie une permission
+    exclusive d'en faire embarquer. Ce party qu'on <lb/> prend suivant moy est fort dangereux, car
+    il vaudrait autant dire <lb/> aux habitans: le papier ne vaut plus rien, ne vendez que pour des
+     <pb n="21"/>
+    <lb/> espèces. Il faut apparemment que nos puissances fassent ce que <lb/> veulent les habitans
+    et non pas que les habitans leurs soient subor̲donnés comme je le croyois.</p>
+   <p>1759 Juin 22. <hi rend="points"/>Le nombre de nos forces peut être à présent de 13 à 14 mille
+    hommes <lb/> effectifs, mais si l'on compte sur les bâtimens et équipemens, l'on <lb/> en
+    trouvera bien 16,000. Il n'est pas malaisé de remarquer <lb/> des abus ; tous les majors tirent
+    des billets sans qu'il y ait eu aucune <lb/> revue de commissaire, ce qui cependant est d'une
+    grande consé̲quence ; mais comme on est sy occupé, cela passe avec les plus <lb/> gros.</p>
+   <p> ” 23. Nous venons d'équiper un grand nombre de miliciens, et comme on <lb/> ne peut pas leur
+    fournir le tout en nature, voici la façon dont on <lb/> les paye. La cravate 8 livres, le capot
+    18 livres, le bonnet drapé <lb/> 2 livres 10, et ainsy à proportion des autres articles. Il faut
+    noter <lb/> que les marchandises sont à plus de 200 pour 100; les dupes se fond <lb/> payer,
+    ceux qui ont de l'esprit gardent leurs billets, mais tost ou tard <lb/> ils seront dupés, pour
+    ne pas dire volés.</p>
+   <p> On a barré l'entrée de la petite rivière comme on se l'étoit proposé ; <lb/> à chaque mât il
+    y a un ancre qui le retient et l'empêche de dériver <lb/> au courant. Il est certain que quand
+    bien même l'enenmy voudroit <lb/> pénétrer dans cette partie, il y trouveroit beaucoup de
+    difficulté, <lb/> étant impossible que les berges puissent passer dessus. D'ailleurs <lb/> nous
+    avons sur les quais du palais au moins 40 bombes à feu qui les <lb/> poivreroient bien s'ils s'y
+    présentoient.</p>
+   <p> On commence à découvrir les maisons du Sault au matelot ou du moins <lb/> celles qui se
+    trouvent sous la volée de canons. Je pense qu'il seroit <lb/> très à propos de le faire à toutes
+    les maisons de la Basse Ville, afin <lb/> de prévenir par là les incendies qui me paroissent
+    inévitables si les <lb/> ennemis établissent des batteries à la Basse Ville. Cependant l'on
+    <lb/> doit avec juste raison s'en rapporter aux généraux qui doivent pré̲voir à tout ; je crains
+    qu'ils se trompent.</p>
+   <p> On fait une palissade dans le Cul de sac qui règne depuis la maison de <lb/> Chevalier
+    jusqu'au quay de construction.</p>
+   <p> Il y a sur ce quay deux batteries dont une de 3 pièces de 24 qui bat <lb/> dans l'entrée du
+    bassin et dans la rade et la 2e est derrière la frégatte ; <lb/> elle est de 4 pièces de 8 ;
+    celle cy bat dans la rade ou elle ne ferait pas <lb/> grand mal ; suivant moy cette partie me
+    paroit très foible ; je ne <lb/> puis m'imaginer pourquoi on y travaille pas; il faut
+    apparemment <lb/> qu'on ne le croye pas nécessaire, mais on peut se tromper, car les vais̲seaux
+    ennemis peuvent parfaitement passer avec un bon vent, et <pb n="22"/>
+    <lb/> d'ailleurs un vaisseau ne coule pas quand bien même il est touché. <lb/> Enfin la fin nous
+    aprendra le reste.</p>
+   <p> Dans le cours de la journée le feu manqua de prendre à bord du brûlot <lb/>
+    <hi rend="ital">l'Amériquain</hi> qui est à l'Anse des Mères par du bray que l'on faisait <lb/>
+    chauffer; cependant on devroit bien y prendre garde, l'accident <lb/> de la <hi rend="ital"
+     >Toison d'or</hi> doit encore être en mémoire.</p>
+   <p>1759 Juin 24. Nous venons d'apprendre qu'un gros vaisseau anglois avoit fait la <lb/> traverse
+    hyer au soir, quoy que le vent étoit contraire, il a <lb/> joint les autres au bout de l'Isle
+    qui y sont au nombre de 12. Nous <lb/> apprenons aussy qu'ils font un hôpital à l'Isle au roc,
+    où ils trans̲portent leurs malades.</p>
+   <p> Un courrier venant de Montréal nous annonce qu'il doit nous arriver <lb/> incessamment 2 ou
+    300 sauvages Renards et Poutouétamis. Ils ne <lb/> veulent point aller à Carillon disant que
+    leur père Ononthyo étoit <lb/> sur le bord du grand lac, qu'ils vouloient se joindre à lui pour
+    faire <lb/> la grande guerre ; j'ai bien peur qu'ils ne nous fassent plus de mal <lb/> qu'à nos
+    ennemis mesmes.</p>
+   <p> M. de Lanaudière, chevalier de St. Louis, est actuellement occupé à <lb/> achetter des boeufs
+    et vaches dans les campagnes, pour le muni̲tionnaire; c'est un de ses premiers commis ; cette
+    nouvelle dignité <lb/> lui est plus lucrative que la première ; d'ailleurs un coup de corne
+    <lb/> n'est pas si à craindre qu'un coup de canon qui fait très souvent <lb/> la récompense des
+    bons officiers.</p>
+   <p> On travaille journellement à tirer des lignes d'une redoute à l'autre, <lb/> depuis la
+    Canardière jusqu'au Sault Montmorency ; je crois que cet <lb/> ouvrage ne servira qu'à en
+    imposer aux ennemis et qu'ils ne feront <lb/> jamais leurs descente dans cette partie, ou du
+    moins s'ils sont assez <lb/> fous, ils y seront étrillés.</p>
+   <p> Un courrier venant de la Baye St. Paul rapporte que le 22 du présent <lb/> il avoit compté 68
+    bâtimens à la vue de l'Isle aux Coudres, sans y <lb/> comprendre ceux qui sont à l'Isle
+    d'Orléans ; il dit aussy qu'un <lb/> vaisseau avoit échoué, mais qu'il s'étoit relevé.</p>
+   <p> On vient de battre un banc et mettre des affiches aux endroits accou̲tumés<lb/> pour prévenir tous
+    les citoyens de la Basse Ville ainsi que des <lb/> fauxbourgs, de prendre leur précautions pour
+    se retirer à la Haute <lb/> Ville ou ailleurs avec leurs effets, sitôt que les vaisseaux anglois
+    <lb/> paroitroient, étant informés que leurs projet étoit de canonner et <lb/> de bombarder la
+    place.</p>
+   <p> ” 25. Les vents règnent de la part du sud douest, cependant il y a apparence <lb/> qu'ils ont
+    été différens en bas, d'autant que l'escadre ennemie a <lb/> monté la rivière en très peu de
+    tems.</p>
+   <pb n="23"/>
+   <p> A 7 heures du matin nous avons équipé en guerre, tel est le titre de <lb/> l'ordre les 4
+    hoctons de M. l'intendant, sçavoir de chacun un <lb/> capot, 3 chemises de coton, une culotte de
+    panne et 2 paires souliers <lb/> de boeuf tannés. Avec pareilles armes on peut se défendre.</p>
+   <p> Dans le cours de la journée d'hyer, un cavalier a été tué le sabre à la <lb/> main par un
+    grenadier de Languedoc.</p>
+   <p>1759 Juin 26. Les vents continuent toujours de la part du sud ouest, mais cela n'em̲pêche<lb/> 
+    point l'escadre angloise d'avancer, et de faire même la traverse ; <lb/> on en compte 64
+    mouillés à St. François.</p>
+   <p> On rapporte que le 24 du courant, 4 de leur bâtimens avoient échoué <lb/> à l'Isle aux
+    Coudres ; il n'est pas fait mention s'ils sont gros ou petits.</p>
+   <p> La batterie flottante est enfin sortie de la souille pour aller prendre <lb/> son artillerie
+    au quay de contruction ; il y a encore bien pour 5 ou <lb/> 6 jours d'ouvrage pour la mettre à
+    perfection. On ne sçait pas <lb/> encore comme elle marchera, mais je pense que ce sera très
+    douce̲ment,<lb/> et avec beaucoup de difficulté.</p>
+   <p> Les tourtres passent beaucoup depuis hyer; nous aurions bien besoin <lb/> d'en tuer, mais les
+    ouvrages du magasin sont si grands qu'il est <lb/> impossible d'en sortir un moment.</p>
+   <p> Il a été délivé ce matin des magasins du Roy 5 pots d'eau de vie pour <lb/> Madame la
+    marquise de Vaudreuil qui retraite du costé des 3 Riviè̲res.</p>
+   <p> Nous venons d'équiper au magasin du Roy MM. du Chesnay et <lb/> de la Gorgendière, le premier
+    est capitaine des gardes à M. de <lb/> Vaudreuil et l'autre son aide de camp; nous avons aussy
+    donné en <lb/> outre 12 brides à haut mords pour compléter l'équipement de la <lb/> maison.</p>
+   <p> A une heure après midy, j'ai envoyé partie de mes effets à l'Ancienne <lb/> Lorette, ainsi
+    que de la farine, du lard, et deux de mes petits <lb/> enfants.</p>
+   <p> Nous venons d'apprendre qu'il y a 4 ou 5 vaisseaux anglois de mouillés <lb/> à St. Laurent ;
+    suivant toute apparence ils paraitront au premier <lb/> jour.</p>
+   <p> Par la multiplicité des équipemens, nos magasins se trouvent vuides <lb/> de toutes
+    marchandises ; cependant il nous reste beaucoup de <lb/> décrottoires ; c'est en vérité de quoi
+    nous sommes mieux <lb/> fournis, mais malheureusement personne n'en veut prendre.</p>
+   <p> ” 27. A 6 heures 1/2 du matin, 1 vaisseau et 2 frégattes angloises se sont <lb/> avancées au
+    bout de l'Isle où ils ont mouillé ; les vents étant de la <pb n="24"/>
+    <lb/> part du nordet et le tems très beau, ils sont restés à l'ancre environ <lb/> une heure et
+    demie, après quoi ils ont levé et se sont laissé acculer <lb/> au baissant jusqu'à St. Laurent;
+    il n'est pas douteux que pendant <lb/> ce tems les ingénieurs reconnoissoient la situation de la
+    place ainsy <lb/> que des travaux qu'on a faits à Beauport.</p>
+   <p> Une soixantaine de sauvages ont passé la nuit à l'Isle d'Orléans près <lb/> de quelques
+    anglois qui étoient à terre ; ils ont passé la nuit les uns <lb/> et les autres sans se
+    découvrir jusqu'au point du jour qu'ils se sont <lb/> reconnus ; aussitôt la fusillade a
+    commencé et les sauvages se sont <lb/> embarqués aussitôt ; les sauvages ont tué un anglois, et
+    suivant <lb/> leur barbare coutume lui ont levé la chevelure.</p>
+   <p> Sur les 3 heures après midy ma femme a party pour se rendre à l'An̲cienne<lb/> Lorette avec 3 de
+    nos enfants, elle a essuyé dans sa <lb/> route un très mauvais tems causé par un orage
+    affreux.</p>
+   <p> Hyer un canadien du camp de la Canardière a été tué accidentellement, <lb/> par un coup de
+    fusil.</p>
+   <p> Nous aurons cette nuit dans la place une garde de 7 à 800 hommes <lb/> Tous les carcassières
+    et batteaux armés doivent commencer la patrouille <lb/> dans la rade, et entre la pointe de Lévy
+    et Beauport, avec ordre de <lb/> tirer sur tous les bâtimens de mer qu'ils découvriront et qui
+    ne ré̲pondront<lb/> pas le mot de guet.</p>
+   <p> A 7 heure1/2 du soir; nous apprenons par un homme de la pointe de <lb/> Lévy envoyé par
+    Baptiste Carié, qu'un vaisseau anglois avait <lb/> échoué sur l'Isle d'Orléans à 4 heures
+    pendant l'orage ; il ajoute <lb/> qu'il pense que l'équipage aura péry, et moy je pense que non;
+    les <lb/> vents continuent toujours de la part du nordet ; grand frais.</p>
+   <p>1759 Juin 28. Pendant la nuit la garde que nous avions à la Basse Ville a vu passer <lb/>
+    plusieurs berges qui dérivoient au courant; ils ont même sauvé <lb/> plusieurs chaloupes; à 6
+    heures on en a encore sauvé 4, ainsi que <lb/> plusieurs débris de vaisseaux, des chassis, des
+    portes d'armoires <lb/> et de chambre, ainsy que des morceaux de figures jusqu'à même <lb/> des
+    chapeaux, preuve incontestable que l'escadre a beaucoup souffert <lb/> soit par les abordages ou
+    échouages.</p>
+   <p> Messieurs Deplaine et Aubert qui arrivent d'en bas où ils étoient <lb/> en observation
+    rapportent qu'ils avoient vu 7 bâtimens échoués <lb/> sur l'Isle d'Orléans ; cet orage se sera
+    peut être fait subir plus bas, <lb/> la suite nous apprendra ce qui s'y est passé.</p>
+   <p> A une heure après midy nous découvrons un bâtiment échoué à l'Anse <lb/> du Fort, on y
+    distingue du monde qui le décharge avec des berges <lb/> et chaloupes, et portent à terre.</p>
+   <pb n="25"/>
+   <p> Nous venons d'apprendre que les anglois avoient débarqué hyer <lb/> à l'Isle d'Orléans; on
+    estime 3 à 4000 hommes. On dit aussy qu'il <lb/> y a le long de Beaumont et St. Michel beaucoup
+    de berges et cha̲loupes<lb/> échouées ; le Sieur Varembouville vient d'être détaché <lb/> pour y
+    aller mettre le feu.</p>
+   <p> Sur les 10 heures du matin la batterie flottante ayant pris son artillerie <lb/> vient de
+    mettre à la voile ; elle va se rendre à l'entrée de la rivière <lb/> de Beauport ; à 2 heures
+    après midi elle a soufflé ses canons.</p>
+   <p>1759 Juin 29. M. le Marquis de Vaudreuil donna l'ordre hier au soir pour faire partir <lb/>
+    les brûlots ; en conséquence de cet ordre, sur les minuit, ils <lb/> appareillèrent de cette
+    rade à dessein d'aller accrocher les vaisseaux <lb/> anglois dont les premiers étoient en deçà
+    du trou St. Patris ; <lb/> tout semblait estre favorable pour l'exécution du projet ; les vents
+    <lb/> étoient très beaux et une nuit des plus sombres, mais je ne sçais par <lb/> quel hasard le
+    commandant mit le feu à celui qu'il commandait à <lb/> près d'une lieue en deçà des ennemis.
+    Cette manoeuvre nous <lb/> fit juger qu'il devait être arrivé quelque accident à bord du brûlot,
+    <lb/> mais quelle fut notre surprise lorsqu'à l'instant nous voyons tous <lb/> les autres qui
+    s'enflamment à peu près à la même distance ; <lb/> voilà quel a été l'effet de tant de dépenses
+    occasionnées pour <lb/> l'armement de ces brûlots, dont le munitionnaire avait été le <lb/>
+    conducteur ; ceux qui les commandoient méritent une part dans ce <lb/> journal, affin qu'en
+    pareil cas on n'y soit plus trompé.</p>
+   <p> Le Sieur Delouche, commandant, <lb/> ” de Loumeau </p><p>Dubois de la Miltière péry dans <lb/> ”
+     Berthelot <lb/>celui qu'il commandait avec 2 ou 3 <lb/> ” Marchand <lb/>matelots.</p>
+   <p><lb/> ” Grammond <lb/> ” Descamps</p>
+   <p> Voilà le progrès que l'on devoit attendre de cette expédition, dont un <lb/> étourdy auquel
+    on avoit pris trop de confiance étoit à la teste.</p>
+   <p> Il nous en reste encore un qui suivant moy aura le même sort; <lb/> il est vray que nous en
+    serons débarrassés. Je dis débarrassés <lb/> parce qu'ils ont manqué plusieurs fois de nous
+    faire bruler.</p>
+   <p> Il y a deux jours que le Sieur Courval avoit préparé 60 cajeux <lb/> pour y aller aussy, mais
+    les vents et les courans les ont entraînés <lb/> au Sault Montmorency, où ils sont actuellement
+    ; j'avoue que <lb/> j'y avais eu confiance jusqu'à présent, mais je la perds en vérité <lb/>
+    entièrement, d'autant que la cacade des brûlots les fera bien <lb/> veiller.</p>
+   <pb n="26"/>
+   <p> Nous apprenons que les ennemis débarquent de l'artillerie à 'Isle <lb/> d'Orléans, qu'ils y
+    ont aussy un parc dans lequel il se voit quantité <lb/> de bestiaux ; il se voit d'icy un camp
+    qu'ils commencent du costé <lb/> du nord, il paroit y avoir 200 tentes; on diroit à voir leur
+    manoeuvre <lb/> qu’ils auroient envie de nous attaquer un peu.</p>
+   <p> Dans le cours de la journée d'hyer, Monsieur le marquis de Montcalm <lb/> lieutenant général
+    des armées du Roy, fut camper à Beauport.</p>
+   <p> A 9 heures du matin le Sieur Varembouville revient de Beaumont, <lb/> il rapporte qu'il a vu
+    9 bâtimens d'échoués et qu'il pense que <lb/> plusieurs se relèveront, que plusieurs autres
+    paroissent avoir souffert <lb/> dans les abordages, qu'il peut y avoir de 140 à 150 voiles le
+    long de <lb/> l'Isle d'Orléans, mais une grande quantité de petits de transport.</p>
+   <p> Il a été publié ce matin à la grande messe qu'on ne sonneroit plus pour <lb/> aucun office,
+    batêmes et enterremens, et qu'on sonneroit seulement <lb/> qu'à 10 heures du soir ; je ne sçais
+    pourquoi on fait cela ; cependant <lb/> je pense que c'est en cas qu'il y eut quelques alertes à
+    la ville, et que <lb/> par le son des cloches on serait averty dans les camps ; on a fait <lb/>
+    mettre 2 pavillons dans le haut du clocher.</p>
+   <p> Je ne puis en vérité comprendre pourquoy M. Pelgrin n'est pas employé; <lb/> cent et cent
+    fois il a fait offre de ses services et de ses lumières, il <lb/> paroit qu'on n'en veut pas
+    absolument ; c'est cependant un parfait <lb/> honneste homme ; si j 'osois je dirois que c'est
+    cette qualité qui <lb/> l'empêche d'avoir de l'occupation ; je pense en outre qu'il y a des
+    <lb/> personnes qui approchent du cabinet et de qui en partie les ordres <lb/> sont émanés, qui
+    sont très pernicieux au bien de l'Etat, ce qui fait <lb/> que très souvent on adopte dans les
+    conseils le faux pour le vray ; <lb/> je souhaite de tout mon coeur me tromper et que la suite
+    me dissuade <lb/> de ce que je pense.</p>
+   <p> Je pense aussi qu'il se commet un abus considérable dans la délivrance <lb/> des vivres ;
+    nous avons ordre de délivrer pour ainsi dire sur toutes <lb/> les signatures. Il n'y a aucune
+    revue ny de commissaires ny d'autres ; <lb/> tout le monde tire à sa fantaisie ; je crains
+    beaucoup qu'on ne soit <lb/> la dupe de tant de confiance, d'autant que ces sortes de provisions
+    <lb/> devroient être de la plus grande économie, premièrement étant une <lb/> chose qui coûte
+    beaucoup au Roy, secondement nous courons risques <lb/> d'avoir pour longtems les ennemis sur
+    les bras, et troisièmement <lb/> parce que je croy qu'il n'y a pas autant de vivres comme
+    beaucoup <lb/> de personnes se l'imaginent ; y aiant une grande partie des cargaisons <lb/> du
+    munitionnaire qui se sont métamorphosés en marchandises seiches <lb/> et liquides</p>
+   <pb n="27"/>
+   <p> Nous sommes toujours très inquiets de savoir dans quelle partie les <lb/> ennemis tenteront
+    une descente. Comme Beauport est en quelque <lb/> façon le plus beau terrain et le plus propre,
+    on pense que ce sera là <lb/> où il tentera; c'est là aussy où est le gros de notre armée, y
+    ayant <lb/> environ 11 à 12 mille hommes ; ainsi si l'ennemy y vient, ce que je <lb/> ne puis me
+    persuader, il n'y aura pas bon marché.</p>
+   <p> M. le marquis de Vaudreuil, grand Croix, abandonne le gouvernement <lb/> de la place à M. de
+    Ramezay et va camper à Beauport ; je <lb/> pense que l'air y sera plus tempéré que celui de la
+    ville.</p>
+   <p> Sur les 7 heures du soir, un soldat de Languedoc a été tué l'épée à la <lb/> main par un
+    soldat de la cavalerie.</p>
+   <p>1759 juin 30. Il paroist à Beaumont une grande fumée, il y a toute apparence que les <lb/>
+    ennemis y ont mis pied à terre et qu'ils y font brusler quelques <lb/> maisons ; hyer à 7 heures
+    du soir, il nous ariva de Montréal 230 <lb/> sauvages outaouais, commandés par le Sieur Langlade
+    leur <lb/> interprète.</p>
+   <p>1759 Juillet 1. Hyer dans le cours de la journée on vit des troupes angloises qui
+    débar̲quoient<lb/> à la pointe de Lévy et poussoient un gros d'armée d'environ <lb/> 3000 hommes qui
+    marchoient en bataille ; le Sieur Charest l'aîné <lb/> demande à y aller et demande du monde
+    pour empêcher la descente ; <lb/> M. le Général luy promet de le laisser passer mais il ne veut
+    lui donner <lb/> personne. Cependant à midy il y traverse et il se trouve à la teste <lb/> d'une
+    30ne de canadiens du lieu et débouche par le chemin où les <lb/> ennemis venoient par terre de
+    Beaumond ; aussitôt la fusillade <lb/> commença, mais comme notre party était trop foible nos
+    gens fusil̲loient<lb/> en se repliant, et cela n'empêchoit pas que les ennemis ne <lb/>
+    perdoient toujours quelqu'un: les sauvages abénakis qui avoient <lb/> traversé accoururent au
+    bruit, ce qui à leur approche fit plier les <lb/> ennemis, et finalement l'action se termina par
+    une 60ne d'anglois <lb/> de tués et un grenadier que les sauvages ont fait prisonnier ; M. <lb/>
+    Charest n'a perdu personne de son petit détachement, mais les <lb/> sauvages y ont eu 3 blessés,
+    dont un mortellement.</p>
+   <p> Voicy la déposition de ce prisonnier, que l'ordre étoit donné pour <lb/> l'attaque général
+    qui devoit se faire à Beauport de minuit à une heure <lb/> et que les mouvements qu'ils avoient
+    fait à la pointe de Lévy n'étoient <lb/> à d'autre dessein que pour nous faire diviser.</p>
+   <p> La déposition du prisonnier a fait changer le projet qu'on avoit <lb/> fait qui étoit
+    d'envoyer 3000 hommes à la pointe de Lévy ; au con̲traire<lb/> toutes les troupes et milices ont
+    passé la nuit aux retranche̲mens,<lb/> mais soit que le prisonnier en ait imposé ou que le
+    Général <pb n="28"/>
+    <lb/> n'eut fait changer l'ordre, nous avons passé la nuit fort tranquiles <lb/> et nous n'avons
+    rien vu.</p>
+   <p> A 4 heures du matin après que tout le monde a été relevé, nous avons <lb/> eu une alerte
+    causée par une fusillade au camp des Canadiens ; <lb/> je ne sçais au juste ce qui l'a pu
+    occasionner, mais elle a duré au moins <lb/> 20 minutes ; les troupes ont repris les armes à
+    l'instant ; nous <lb/> avons été aussi très inquiets dans la place et à la fin on s'est aperçu
+    <lb/> que ce n'étoit rien, quelqu'un rapportant que nos généraux avoient <lb/> fait faire cela
+    sous main pour voir si les Canadiens étoient prompts <lb/> au feu.</p>
+   <p> Depuis 9 heures du matin jusqu'à 11 il y a eu une canonnade de 5 à 6 <lb/> batteaux et une
+    carcassière qui ont été dans le bassin pour battre <lb/> le camp des Anglois qui est dans l'anse
+    à M. Charest; pendant <lb/> ce tems deux frégattes angloises se sont laissé dériver, y ayant
+    flot <lb/> pour tâcher d'engager nos batteaux et lorsqu'ils ont été à portée <lb/> ils ont fait
+    feu sur eux ; 3 à 4 de nos boulets ont porté à bord d'une <lb/> frégatte, mais n'ont pas paru
+    l'incommoder, ou du moins nous <lb/> ne nous en sommes pas aperçus ; ce petit combat a duré
+    environ <lb/> 2 heures, et il y a eu de part et d'autre plus de 130 coups de canon <lb/> de
+    tirés, les ennemis ont eu du monde de tués dans leur camp, mais <lb/> on ne sait pas
+    combien.</p>
+   <p> Les sauvages 8ta8ois au nombre de 50 étoient partis ce matin pour <lb/> aller à l'Isle
+    d'Orléans ; à 2 heures ils sont revenus ayant tué deux <lb/> Anglois à la porte des tentes.</p>
+   <p> Quelques uns rapportent que les ennemis débarquent de l'artillerie <lb/> à la pointe de Lévy;
+    cette partie est bien menaçante et beaucoup <lb/> à craindre pour la place, mais en vérité on
+    n'y fait pas plus d'attention <lb/> que s'il n'y avait aucun risque à courir de ce costé là.</p>
+   <p>1759 juillet 2. Les ennemis font de grands mouvements à la Pointe de Lévy ; ils font <lb/>
+    défiler leurs troupes comme s'ils vouloient les faire voir, ou comme <lb/> s'ils tentoient de
+    faire une descente du costé de l'Anse des mères <lb/> ou ailleurs en haut, mais on prend tout
+    pour des feintes de ce côté <lb/> là et on les attend constamment du costé de Beauport, comme
+    s'ils <lb/> ne pouvoient tenter ailleurs ; nos généraux sont expérimentés ; <lb/> Dieu veuille
+    qu'ils ne soient pas trompés, mais je le crains fort.</p>
+   <p> A une heure après midy les ennemis ont paru sur une hauteur à la Pointe <lb/> de Lévy, on
+    leur a tiré même 2 à 3 coups de canon de la place ; il <lb/> paroissoit y avoir 7 à 800 hommes,
+    qui ont fait divers mouvemens, <lb/> tantôt en bataillon quarré et d'autres fois rangés sur 3 ou
+    4 de hauteur <lb/> en haye. Sur les 6 heures du soir comme ils étoient près d'un petit <pb
+     n="29"/>
+    <lb/> bosquet, il a parti une 30ne de coups de fusils sur eux par des habitans <lb/> du lieu ; à
+    l'instant les ennemis se sont éloignés et se sont rangés <lb/> en bataille sur une hauteur ; sur
+    les 7 heures 1/2 du soir un de ces <lb/> habitans s'est détaché et est venu en ville ; il
+    rapporte qu'ils en ont <lb/> tué 14 de cette décharge.</p>
+   <p>1759 Juillet 3. Une berge angloise est venue dans la rade à la demi portée du canon <lb/> de
+    la place ; on lui a envoyé un coup de canon qui l'a bien rasée ; <lb/> elle s'est retirée.</p>
+   <p> Pendant toute la nuit il a fait une très grosse pluie ; il ne paroit rien <lb/> de nouveau à
+    la Pointe de Lévy quoique les ennemis y aient fait <lb/> grand mouvement toute la nuit ; je
+    crains beaucoup qu'avant qu'il <lb/> soit peu nous n'y découvrions quelques batteries de leur
+    façon et <lb/> qu'ils ne nous rendent au centuple les 3 coups de canon que nous <lb/> leur
+    prêtames hyer.</p>
+   <p> Leur camp qui est à l'Isle d'Orléans a beaucoup grossy ; toutes les <lb/> chaloupes ou
+    beaucoup du moins sont le long de terre ; il sembleroit <lb/> à voir leur mouvement qu'ils
+    voudroient se décider à une descente.</p>
+   <p> Ils ont aussi un nouveau camp à la Pointe de Lévy audessus de la <lb/> cabane des pères ; il
+    paroit même qu'ils s'y retranchent; on ne peut <lb/> pas bien voir le nombre de leur tentes,
+    étant cachées par le bois. </p>
+   <p> M. de Lanaudière avoit demandé au médecin à se faire soigner et <lb/> purger, mais
+    malheureusement que M. de Vaudreuil a donné ses <lb/> ordres pour que tous les officiers eussent
+    à se rendre au camp ; ces <lb/> ordres ont prévalu sur ceux du médecin, de façon qu'il a fallu
+    partir <lb/> aussitôt ; on espère que l'air de la campagne lui sera plus favorable <lb/> que
+    celui d'un hôpital et qu'il se portera bien en peu de tems; on <lb/> pense que cette espèce de
+    maladie lui provient des peurs et fatigues <lb/> qu'il a essuiés dans son voyage de l'Isle aux
+    Coudres.</p>
+   <p> ” 4. Sur les 8 heures du matin un parlementaire de l'escadre angloise est <lb/> venu dans le
+    bassin ; on l'a été recevoir à une distance de la place, <lb/> il a remis des lettres, et
+    aussitôt a fait route pour s'en retourner.</p>
+   <p> M. Charest avec 8 hommes a été en découverte à la Pointe de Lévy ; <lb/> il rapporte que les
+    ennemis sont retranchées près de l'église, mais <lb/> qu'il ne paroist encore aucune artillerie
+    à terre ; il persiste toujours <lb/> à demander du monde pour garder cette partie mais on se
+    moque <lb/> de luy et on le refuse, et on lui dit même que s'il paroist si porté à <lb/>
+    défendre cet endroit c'est parce que son bien y est ; son escorte <lb/> a 4 havresacs qu'ils ont
+    pris près du camp.</p>
+   <p> Sur les 8 heures du soir M. le Mercier (l'omnis homo) a été porter la <lb/> réponse du
+    parlementaire; on est venu le recevoir dans le bassin <pb n="30"/>
+    <lb/> et on l'a conduit à bord d'un vaisseau ; il y a passé presque toute la <lb/> nuit avec
+    l'équipage de sa chaloupe qui étoit composé de plusieurs <lb/> officiers mariniers ; il y a eu
+    pendant ce pourparler beaucoup d'inter̲rogations<lb/> de part et d'autres qui n'ont pas donné je
+    pense grand éclair̲cissement<lb/> ny aux Anglois ny aux François.</p>
+   <p>1759 juillet 5. Voici le résultat du parlementaire d'hyer, le général Hwoulf <lb/> écrit à
+    tous nos généraux ainsi qu'à M. Bigot à qui il adresse 2 bou̲teilles<lb/> de liqueurs, ainsi qu'une
+    lettre d'une de ses soeurs ; il <lb/> a demandé si M. de Léry avoit bien eu peur à Beaumont
+    <lb/> lorsqu'il abandonna son chapeau, épée et ses papiers, et s'il n'avoit <lb/> pas oublié
+    aussi quelqu'un de son détachement, on lui a répondu <lb/> qu'il en avoit oublié quelqu'un, mais
+    pas tant qu'ils avoient fait <lb/> à la Pointe de Lévis ; il a demandé aussy des nouvelles de
+    Carillon <lb/> et s'il n'étoit pas pris ; on lui a répondu que non et qu'il n'y en <lb/> avoit
+    nulle apparence, et que nous y aurions du monde suffisamment <lb/> pour recevoir ceux qui
+    tenteroient d'y venir. Il a paru surpris <lb/> de cette assurance, en disant qu'ils y avoient 20
+    mille hommes qui <lb/> devoient en avoir formé le siège en may ; Il a fait compliment sur <lb/>
+    la façon d'envoyer nos brûlots, qu'ils avoient jugé par la manoeuvre <lb/> qu'on avoit faite
+    qu'il y avoit eu de la méprise ; on lui a répondu <lb/> qu'ouy mais qu'il nous en restoit encore
+    auxquels on avoit plus de <lb/> confiance; finalement il a demandé qu'on lui envoyast le
+    lendemain <lb/> des chaloupes de l'autre costé pour y prendre une 20ne de femmes <lb/>
+    françoises qu'ils avoient à leur bord et qu'ils remettroient à terre. <lb/> Tous ces discours
+    ont été tenus à M. le Mercier qui était porteur <lb/> de réponse.</p>
+   <p> A 11 heures du matin, 4 de nos batteaux ont traversé de l'autre costé <lb/> sous le pavillon
+    de parlementaire ; les anglois se sont rendus aussi <lb/> et ont remis 23 femmes qui avoient été
+    prises ce printemps dans un <lb/> batteau en venant de Miramichy ; Madame Pommeroy et <lb/>
+    Mademoiselle de St. Vilmé sont du nombre et les autres sont <lb/> des acadiennes ; ces dames
+    rapportent que la nuit qu'on envoya les <lb/> brûlots cela causa une grande alerte dans
+    l'escadre ; une quantité <lb/> de vaisseaux coupèrent leur cables et se laissèrent dériver les
+    uns <lb/> sur les autres ; depuis 3 ou 4 jours l'amiral leur avoit dit qu'ils <lb/> avoient
+    nouvelles de l'escadre françoise et même que le bruit couroit <lb/> que les François avoient
+    pris Halifax et Louisbourg, ce qui effective̲ment<lb/> avoit causé une consternation
+    remarquable sur les équipages, <lb/> mais depuis ce tems l'amiral les avoit assurés que cette
+    nouvelle <lb/> étoit fausse.</p>
+   <pb n="31"/>
+   <p> M. l'intendant a envoyé 4 à 5 pannerées d'herbes à M. Douglas, <lb/> commandant le vaisseau
+    de guerre l'<hi rend="ital">Alcide</hi> de Sa Majesté britannique, <lb/> en reconnaissance de
+    quelques bouteilles de liqueurs qu'il lui a <lb/> envoyées.</p>
+   <p> 3 frégattes angloises sont venues mouiller à l'entrée du bassin à portée <lb/> de la batterie
+    flottante qui est à la Pointe de Lessay; je ne sçais <lb/> pas pourquoi elle n'a pas tiré
+    dessus.</p>
+   <p> A 7 heures du soir j'ai été me promener à la Citadelle ; il se voit un <lb/> retranchement
+    que les ennemis font sur le bord du chemin du Roy <lb/> à la Pointe de Lévy ; il paroist y avoir
+    4 à 500 hommes travailleurs ; <lb/> quantité d'officiers et soldats se promènent dans les champs
+    aux <lb/> environs, entr'autres j'ai remarqué un officier habillé en bleu, des <lb/> bas bleus,
+    et deux autres habillés en écarlatte qui sont venus jusqu'au <lb/> bord de la coste ; ils me
+    paroissoient examiner un terrain propre <lb/> à faire quelques batteries.</p>
+   <p>1759 juillet 6. Toute la nuit on a entendu beaucoup de bruit à bord des vaisseaux, <lb/> comme
+    s'ils avoient débarqué quelque chose ; je pense que ce peut <lb/> être de l'artillerie ; ils
+    font jour et nuit des mouvemens continuels, <lb/> soit qu'ils veulent s'y établir ou qu'ils
+    cherchent à nous faire faire <lb/> diversion, mais je ne puis m'empêcher de penser que cet
+    endroit <lb/> dont ils s'emparent sera funeste à la ville.</p>
+   <p> Nous établissons de l'autre costé de la petite rivière une batterie de <lb/> 5 pièces de
+    canon pour renforcer cette partie en cas d'attaque.</p>
+   <p> Nous avons depuis le Cap Rouge 5 à 600 hommes ; on y fait mettre <lb/> beaucoup de tentes
+    afin de donner le change aux ennemis et pour les <lb/> attirer dans une autre partie ; Dieu
+    veuille qu'ils y soient trompés <lb/> car autrement nous le serions beaucoup s'ils y venoient
+    réellement; <lb/> on se fie beaucoup par la situation du terrain que la nature a pris <lb/> soin
+    de fortifier, mais enfin plusieurs places ont été prises et attaquées <lb/> par les endroits les
+    plus inaccessibles et il arrive souvent qu'on y <lb/> trouve que la difficulté du terrain.</p>
+   <p> On barricade toutes les rues qui ont leurs sorties du costé de la grève ; <lb/> enfin on
+    prend toutes les mesures nécessaires pour prévenir un assault.</p>
+   <p> A midy 3/4 une berge angloise est venue au nord de l'Isle d'Orléans <lb/> au devant du sault
+    ; aussitôt quelques sauvages se sont embarqués <lb/> dans 4 canots d'écorce et ont donné à la
+    poursuite de cette berge <lb/> qui aussitôt a décampé; malgré la diligence de nos sauvages ils
+    n'ont <lb/> pu les joindre avant qu'ils aient attrapé terre ; les sauvages les ont <lb/>
+    fusillés, mais tous, à la réserve d'un officier blessé, se sont sauvés ; <lb/> un abénakis l'a
+    pris au collet pour l'amener vivant, mais cet homme <pb n="32"/>
+    <lb/> ne voulant point marcher et d'ailleurs voyant une colonne angloise <lb/> qui fondoit sur
+    eux, il a pris le party de lui casser la teste et lui a <lb/> levé la chevelure. Les autres
+    sauvages voyant que les gens cou̲roient<lb/> risques d'estre cernés se sont embarqués promptement et
+    <lb/> sont venus fusiller cette colonne, ainsi qu'un coup de canon tiré des <lb/> batteries du
+    Sault qui a tué 7 hommes ; 2 de nos sauvages n'ayant <lb/> pu se rembarquer se sont jettés à la
+    nage et ont traversé à la vue des <lb/> ennemis, un desquels a reçu un coup de fusil à l'épaule
+    ; les ennemis <lb/> y ont eu 15 à 20 tués et autant de blessés.</p>
+   <p> Sur les 6 heures du soir, il s'est livré un petit combat de canonnade. <lb/> la batterie
+    flottante étoit à la Pointe de Lessay ; elle a commencé ; <lb/> son premier coup a passé de part
+    en part d'une frégatte ; cette <lb/> frégatte et plusieurs autres lui ont riposté vivement,
+    ainsy qu'un <lb/> gros vaisseau qui a voulu estre de la feste ; ils ont au moins tiré sur <lb/>
+    elle plus de 80 coups de canon sans qu'aucun l'ait touché ; aussitôt <lb/> une de nos
+    carcassières et 4 jacobites se sont avancés et ont <lb/> fait un feu très vif pendant trois
+    quarts d'heure. Ce combat n'a <lb/> point cessé qu'à 7 heures 1/2 , et plusieurs boulets ont
+    porté à bord <lb/> des vaisseaux ; en vérité ces batteaux font des merveilles.</p>
+   <p>1759 juillet 7. Un déserteur anglois s'est rendu cette nuit à la nage au camp de M. le <lb/>
+    Chevalier de Lévis ; il est parisien et avoit été pris l'année dernière <lb/> à Louisbourg ; il
+    servoit avec eux par force à ce qu'il rapporte ; <lb/> il assure qu'ils n'ont que 10 à 11 mille
+    hommes de troupes, dont 4 à <lb/> 5000 sont très bonnes mais que pour le reste c'est peu de
+    choix n'étant <lb/> en partie que des milices ; qu'ils devoient nous attaquer par trois <lb/>
+    endroits différens, 4 ou 500 Ecossais doivent venir par St. Joachim, <lb/> le corps d'armée doit
+    attaquer par Beauport, enfin le 3e doit attaquer <lb/> la ville ; qu'ils ont 13 pièces
+    d'artillerie à terre à la Pointe de Lévy, <lb/> pour foudroyer la place, ainsy que deux
+    galiottes à bombes, qu'ils <lb/> espéroient un renfort de 5 à 600 hommes qui venoient de
+    l'Amérique, <lb/> qu'ils y avoient perdu 900 hommes dans une descente qu'ils y <lb/> avoient
+    faite ; voilà ce que j'ai sçu de cette déposition.</p>
+   <p> M. de Lotbinière, cy devant ingénieur en ce pays, a eu quelques alter̲cations<lb/> avec M. Decaire
+    ingénieur ordinaire, de façon que les choses <lb/> sont devenues si sérieuses qu'il fallut
+    déguainer ; le premier <lb/> a reçu un coup d'épée qui lui passe dans l'épaule, mais qui n'est
+    <lb/> point dangereux ; si cet accident lui est arrivé il n'y a point de sa <lb/> faute d'autant
+    qu'il avoit fait son possible pour ne pas mettre l'épée <lb/> à la main; on pense qu'il gardera
+    l'hôpital fort tranquilement pendant <lb/> quelques mois, et sur la fin de la campagne il pourra
+    sortir.</p>
+   <pb n="33"/>
+   <p> Il vient de nous arriver de Montréal 110 sauvages poutouetamis ; <lb/> ils n'ont point arêté
+    en ville ; ils sont allés droit au camp du Général.</p>
+   <p>1759 juillet 8. Pendant la nuit les Anglois ont tiré plusieurs coups de canon sur le <lb/>
+    camp de Beauport ; le nombre de leurs vaisseaux augmente jour̲nellement<lb/> dans le bassin ;
+    ils aprochent réellement, je pense qu'ils <lb/> en veulent descendre.</p>
+   <p> Ils travaillent sans relâche à la Pointe de Lévy à y établir des batteries ; <lb/> depuis
+    midy jusqu'à 3 heures on leur a tiré plusieurs coups de canon <lb/> et des bombes de la place,
+    qui toutes ont très bien porté ; cette expé̲rience<lb/> me donne une triste idée pour la
+    pauvre ville de Québec.</p>
+   <p> Après midy les Anglois voyant qu'on tiroit sur eux à la Pointe de Lévy, <lb/> ils ont pris
+    leur revanche de leurs vaisseaux ; ils ont tiré sur le camp <lb/> du Sault, ils ont canonné et
+    bombardé depuis ce tems jusqu'à 2 <lb/> heures après minuit ; il n'est pas mention qu'ils nous
+    aient fait <lb/> grand mal ; plus de la moitié de leurs bombes tomboient à l'eau <lb/> ou
+    crevoient en l'air.</p>
+   <p> Sur les trois heures après midy d'un petit vent du sud douest avec la <lb/> mer baissante ils
+    ont fait apareiller une de leurs frégattes qui a <lb/> passé par le canal du nord ; elle est
+    allée mouiller de l'autre costé <lb/> du Sault à l'Ange Gardien ; sur les 6 heures du soir,
+    plusieurs berges <lb/> se sont rendus ensuite ; il y a toute aparence qu'ils veulent faire un
+    <lb/> débarquement dans cette partie ; si on veut si opposer le terrain <lb/> nous y est fort
+    favorable.</p>
+   <p> M. l'Intendant tient son palais au quartier général de Beauport ; ces <lb/> chevaux se
+    sellent à 9 heures du soir et passent la nuit en cet état <lb/> afin de monter à cheval en cas
+    d'alerte.</p>
+   <p> On estime que les Anglois ont mis à terre à l'Ange Gardien au moins <lb/> 1600 hommes ; j'ai
+    bien peur qu'on ait beaucoup de peine à les en <lb/> chasser quoique la nuit prochaine il doit y
+    traverser des Canadiens <lb/> et des sauvages environ 1000 hommes, aux ordres de M. de Courte̲manche.</p>
+   
+   <p> Voicy la disposition de notre armée depuis le Sault Montmorency <lb/> à venir à la petite
+    rivière appelée St. Charles.</p>
+   <p> M. le Chevalier de Lévys tient le costé du Sault avec les troupes et <lb/> miliciens du
+    gouvernement de Montréal, ainsy que plus de 500 <lb/> sauvages de différentes nations ; M. de
+    Courtemanche commande <lb/> ces sauvages.</p>
+   <p> M. de Repentigny avec 800 volontaires occupe le haut du Sault, dans <lb/> les endroits où les
+    ennemis pourroient le passer à gué.</p>
+   <pb n="34"/>
+   <p> Les régimens de la Sarre, Royal Roussillon, Guyenne, Béarn et Lan̲guedoc,<lb/> et plus de 1000
+    Canadiens attachés à ces bataillons prennent <lb/> du camp de M. le chevalier de Lévy et
+    s'étendent jusqu'à la rivière <lb/> de Beauport pour estre à portée de secourir les ailes en cas
+    d'attaque, <lb/> soit d'un costé ou d'un autre. M. le Marquis de Montcalm a son <lb/> campement
+    dans cette partie.</p>
+   <p> Les troupes de la colonie, les miliciens de ce gouvernement ainsi que <lb/> ceux des 3
+    Rivières bordent la rivière de Beauport et s'étendent <lb/> jusqu'à la petite rivière ; M. de
+    Vaudreuil et de Bougainville <lb/> sont dans cette partie. La cavalerie n'a point de camp fixé ;
+    elle <lb/> est pour se porter avec diligence dans les endroits les plus exposés.</p>
+   <p> On fait nombre tous ces corps réunis de 12 à 14 mille hommes qui sont <lb/> couverts par de
+    bons retranchemens d'un bout à l'autre ainsi que <lb/> beaucoup de redoutes hérissées
+    d'artillerie ; je ne pense pas que <lb/> quand les ennemis auroient 15 mille hommes à y jeter,
+    qu'ils pussent <lb/> y réussir ; je crois aussi qu'ils connoissent bien les forces.</p>
+   <p> Du costé de l'Anse des Mères nous y avons 3 à 400 hommes et quelques <lb/> sauvages ; cet
+    endroit est fortifié naturellement, mais je ne puis <lb/> m'empêcher de craindre pour cette
+    partie.</p>
+   <p>1759 juillet 9. Nous apprenons qu'il y a de la fusillade au Sault ; les vaisseaux tirent <lb/>
+    aussi sur le camp de M. de Lévy ; c'est sans doute pour amuser .</p>
+   <p> Voicy le résultat de cette fusillade, les sauvages 8ta8ois ont défait <lb/> une 40ne
+    d'anglois qui avançoient dans un peloton ; ils ont aussy <lb/> foncé sur une colonne de 3 à 400
+    hommes qui aussitôt avoient plié <lb/> mais qu'une seconde les ayant pris en flanc les avoient
+    fort incom̲modés ;<lb/> nous avons eu dans cette escarmouche 4 Canadiens tués <lb/> et 3 sauvages et
+    de blessé un canadien et 4 sauvages ; les anglois <lb/> y ont eu au moins 100 hommes tués mais
+    ils conservent la place, <lb/> ils se campent en haut du Sault et ils y ont deux pièces de canon
+    <lb/> en batterie ; ils font bien leur maitier ; j'espère qu'ils nous appren̲dront<lb/> le
+    nôtre ; nous en avons bien besoin en vérité.</p>
+   <p> ” 10. Pendant la nuit on a bombardé du Sault les vaisseaux anglois qui <lb/> s'étoient
+    approchés dans le bassin ; plusieurs bombes les ont appro̲chés<lb/> de très proche, une
+    entreautre a crevé audessus d'un vaisseau <lb/> à une petite distance ; ils n'ont pas tenu
+    longtemps, sans doute <lb/> que la peur les a pris ; ils se sont retirés au large du costé de la
+    Pointe <lb/> de Lévy, hors la portée des boulets et de la bombe.</p>
+   <p> Sur les 7 heures du matin, un déserteur anglois a traversé dans <lb/> un méchant canot au
+    devant de la place ; aussitôt qu'on l'a aperçu <lb/> on a été le chercher ; voicy ce qu'il
+    rapporte ; ils ont 6000 hommes <pb n="35"/>
+    <lb/> de débarqués à l'Ange Gardien ; qu'ils en ont au moins 3000 à la <lb/> Pointe à Levy ;
+    voilà le nombre de toutes leurs troupes ; qu'ils <lb/> avoient mis à la Pointe de Lévy un
+    régiment de toutes sortes de <lb/> nations qui n'avoient jamais voulu travailler, qu'ils avoient
+    été obligés <lb/> de les faire embarquer et mettre leurs troupes de marins à terre pour <lb/>
+    les remplacer.</p>
+   <p> Il dit en outre qu'ils ont 5 mortiers de 13 pouces à la Pointe de Lévy, <lb/> et 10 pièces de
+    canon de 24 ou 32,qu'ils devoient tirer la nuit prochaine <lb/> ou le lendemain le plus tard,
+    les batteries étant prestes.</p>
+   <p> D'heures en heure on leurs envoie une bombe sur leurs ouvrages de la <lb/> Pointe à Lévy,
+    mais je ne crois pas que cela leur fasse grand tort.</p>
+   <p> Sur les 7 heures 1/2 du soir, un matelot a été tué à la batterie Dauphine <lb/> par un éclat
+    de bombe tirée sur le rempart qui a crevé en sortant du <lb/> mortier ; voilà le premier tué
+    dans la place.</p>
+   <p>1759 juillet 11. Un déserteur anglois s'est jetté à l'eau d'une frégatte et s'est rendu <lb/>
+    à la nage à notre camp de Beauport ; c'est un provençal dont le <lb/> père est connu de
+    plusieurs personnes d'icy pour un bon négociant ; <lb/> ce garçon étant un fameux libertin,
+    après avoir dépensé son argent, <lb/> s'étoit embarqué dans un corsaire, ressource ordinaire des
+    libertins ; <lb/> il dit avoir été retenu 2 ans par les anglois ; il rapporte la même chose
+    <lb/> que celuy d'hyer et ajoute que les Anglois ont retranché leurs vivres <lb/> à leurs
+    troupes et équipages.</p>
+   <p> Nos sauvages et quelques Canadiens ayant traversé de l'autre costé <lb/> du Sault ont surpris
+    un détachement d'Anglois desquels il en a <lb/> été tué une 60ne, un officier de milice en a tué
+    11 à sa part, <lb/> mais malheureusement il a reçu un coup mortel dans la poitrine ; <lb/> 3
+    autres Canadiens y ont été tués sur la place dont le fils de Trudelle <lb/> de Charlesbourg en
+    est un ; quelques blessés, Canadiens <lb/> et sauvages.</p>
+   <p> Les vaisseaux anglois restent toujours dans le bassin sans oser approcher <lb/> du Sault ;
+    ils craignent les bombes.</p>
+   <p> Les Anglois se fortifient toujours beaucoup à la Pointe de Lévy ainsi <lb/> que pour les
+    hauteurs de l'autre costé du Sault desquelles ils se sont <lb/> emparés contre l'idée de M. de
+    Vaudreuil, auquel on demanda du <lb/> monde pour empêcher la descente, ce qu'il ne jugea pas à
+    propos <lb/> de faire.</p>
+   <p> ” 12. Pendant la nuit on mena une 40ne de batteaux du Roy au Cap Rouge <lb/> pour traverser
+    ce soir à la Pointe de Lévy et traverser à la rivière <lb/> Détréchemins ; ce détachement doit
+    être de 12 à 1500 hommes, <lb/> tant troupes règlées que Canadiens et sauvages, qui tous sont
+    volon̲taires.<lb/><pb n="36"/>
+    M. Dumas doit commander en chef et M. Douglas, <lb/> capitaine en second au
+    régiment de Languedoc, commandant en <lb/> second ; on compte beaucoup sur ce détachement ; Dieu
+    veuille <lb/> qu'il réussisse ; nous en avons bon besoin.</p>
+   <p> Sur les 9 heures du soir, les ennemis ont envoyé une fusée de <lb/> dessus une hauteur de la
+    Pointe de Lévy, aussitôt après ce signal <lb/> une galiotte a envoyé une bombe et une autre en
+    même tems de leurs <lb/> batteries de la Pointe de Lévy.</p>
+   <p>1759 juillet 13. Les ennemis ont continué le bombardement toute la nuit; on leur a <lb/>
+    riposté de la place et surtout aux galiottes qui se sont éloignées hors <lb/> de la portée, mais
+    les batteries nous en ont envoyé au moins 120 dont <lb/> plusieurs maisons en ont été écrasées;
+    une a tombé sur la cathédrale, <lb/> une autre sur l'église des Jésuites ainsy que sur plusieurs
+    autres <lb/> bâtimens ; la plus loin qui est tombé dans la place est à 50 pas de <lb/> la porte
+    St. Jean en dedans.</p>
+   <p> Quantité de femmes et enfants qui étoient restés dans la ville ont été <lb/> beaucoup
+    effrayés ; heureusement qu'il n'y a eu personne de tués <lb/> ny même de blessés. Sur les 10
+    heures du matin, les ennemis ont <lb/> un peu diminué leur feu ; les galiottes sont encore
+    revenues, elles <lb/> ont jetté quelques bombes, mais on leur en a envoyé de la place <lb/> qui
+    les ont obligés de décamper promptement et elles ne sont point <lb/> revenues.</p>
+   <p> Voicy la réussite du détachement qui traversa à la Pointe de Lévy.¬- <lb/> Sur les 11 heures
+    1/2 du soir ils traversèrent de l'autre costé en assez <lb/> mauvais ordre ; ils débarquèrent à
+    peu près dans le même goust.</p>
+   <p> Ceux qui devoient marcher à la teste se trouvoient à la queue; finale̲ment<lb/> ils se
+    mirent en marche ; voicy quelle étoit leur disposition, <lb/> les sauvages marchoient devant et
+    faisoient la découverte ; ensuite <lb/> étoit M. Dumas avec la compagnie de réserve ainsy que
+    les piquets <lb/> des troupes de terre ; et la marine, séminaristes et plusieurs jeunes <lb/>
+    gens dans ce goust faisoient l'arrière garde.</p>
+   <p> Lorsqu'ils furent montés sur la coste qui est beaucoup escarpée, il y <lb/> eut une espèce
+    d'alerte ; les officiers crièrent de se tenir sur ses gardes; <lb/> l'arrière garde voyant le
+    centre qui défiloit crut que c'était les ennemis <lb/> qui les approchoient ; aussitôt sans plus
+    de réflexion ils firent feu <lb/> dessus ; ceux qui étoient de l'avant se replièrent pour voir
+    ce que <lb/> c'étoit, de façon qu'une peur panique s'empara de l'arrière garde <lb/> au point de
+    se jetter dans la coste où les uns ont perdu leurs chapeaux, <lb/> fusils, épées, souliers et
+    même jusqu'à des bas; il y a eu un Canadien <lb/> de tué et 2 de blessés ; voilà en peu de mots
+    la réussite d'un détache̲ ment<lb/><pb n="37"/>sur lequel on comptoit tant et qui effectivement
+    auroit dû faire <lb/> des merveilles.</p>
+   <p> Il y a eu une grande canonnade au Sault; nous y avons eu un Canadien <lb/> d'emporté par un
+    boulet; il n'est pas mention que nous ayons fait <lb/> beaucoup de mal aux ennemis.</p>
+   <p>1759 juillet 14. Toute la nuit a été fort tranquile et à 7 heures du matin ils ont com̲mencé
+    <lb/> à bombarder.</p>
+   <p> Deux soldats de la colonie ont déserté aux Anglois.</p>
+   <p> Les ennemis travaillent beaucoup à augmenter leurs batteries de la <lb/> Pointe à Lévy ; ils
+    paroissent en faire une au devant de la citadelle <lb/> pour apparemment bombarder la poudrière
+    ; suivant les mouvemens <lb/> du jour la nuit ne sera pas trop tranquile.</p>
+   <p> Hyer à 7 heures du soir la carcassière la <hi rend="ital">Gentille</hi> a tourné à l'arrière
+    <lb/> par un grain de vent ; 3 matelots se sont noyés et le reste de l'équipage <lb/> a été
+    sauvé par des chaloupes qui étoient aux environs; on espère <lb/> sauver la pièce à marée basse,
+    y ayant peu d'eau.</p>
+   <p> ” 15. Les ennemis ont beaucoup canonné au Sault; ils nous y ont même <lb/> démonté une
+    pièce.</p>
+   <p> Nos braves jacobites ont poursuivy et canonné des berges qui venoient <lb/> de l'Isle à leur
+    camp du Sault ; ils en ont même coulé une à fond ; <lb/> les autres ont sauvé le monde et se
+    sont sauvés avec beaucoup de <lb/> promptitude à l'Isle d'Orléans d'où ils venoient.</p>
+   <p> Sur les 8 heures du soir ils ont commencé à bombarder ; ils nous ont <lb/> jetté pendant la
+    nuit 80 bombes et quelques coups de canon ; une <lb/> femme a été écrasée dans la maison de M.
+    Gaspé par une bombe <lb/> qui a tombé dedans ; ils continuent toujours le même jeu et nous <lb/>
+    avons à présent plus de trente maisons ou églises d'écrasées, mais <lb/> cela n'est encore rien
+    au prix de ce qu'il nous arrivera ; il faut pour <lb/> se consoler s'imaginer que la ville étoit
+    déserte, car je ne pense pas <lb/> qu'il y reste beaucoup de maisons.</p>
+   <p> Il y a eu pendant la nuit une canonnade au Sault et même quelque peu <lb/> de mousquetteries
+    ; je ne pense pourtant pas qu'il y ait eu grand <lb/> chose ; c'est sans doute nos sauvages qui
+    sont allés se divertir à <lb/> tirer sur les Anglois d'un bord à l'autre de la rivière ; sitôt
+    que cela <lb/> arrive le canon roule chez eux.</p>
+   <p> Sur les 10 heures du matin, un boulet tiré à la Pointe de Lévy a passé <lb/> par dessus la
+    ville, est venu tomber dans la prairie de M. Hyché <lb/> où il s'est enterré plus de 3 pieds
+    d'avant après avoir cassé un gros <lb/> pieu; ce boulet pèse 30 livres.</p>
+   <p> ” 16. Les ennemis ont bombardé toute la nuit avec grande chaleur; le nommé <lb/> Pouliot
+    habitant du Cap Rouge a été écrasé par une bombe <pb n="38"/>
+    <lb/> audevant de la cathédrale ; les Sieurs Dufour et Brassard ont <lb/> été blessé légèrement
+    par une autre qui a tombé entre eux deux sur <lb/> le pas d'une porte où ils étoient.</p>
+   <p> Sur les 5 heures du matin une bombe a tombé sur le coin du pignon <lb/> du Sieur Robin ; il
+    en a été quitte pour quelques planches <lb/> qu'elle a emportées ayant tombé en éraflant.</p>
+   <p> Nous avons déserté du magasin du Roy, la place n'étant plus tenable, <lb/> et nous avons été
+    camper dans la prairie de M. Hyché ; MM. <lb/> le controlleur et le trésorier y sont venus
+    aussy.</p>
+   <p> A 11 heures du matin un pot à feu ayant tombé dans la maison du <lb/> nommé Chevalier dans la
+    grande coste, elle a été embrasée aussitôt, <lb/> s'est communiqué à celle de Treyvoux, celle de
+    la veuve Chenevert, <lb/> celle du grand Girard, celle de Madame Boishébert, celle du Sieur
+    <lb/> Cordeneau, et enfin celle du Sieur Dacier qui a été la dernière où l'on <lb/> a coupé le
+    feu. Au commencement de ces embrasemens les <lb/> ennemis faisoient un feu très violent, mais on
+    a fait jouer nos batteries <lb/> avec tant de vivacité que les ennemis n'ont pu tirer que 2
+    bombes <lb/> depuis midy jusqu'à 7 heures du soir ; plusieurs pièces des ennemis <lb/> ont été
+    démontées et leurs batteries toutes criblées ; nous avons <lb/> au moins tiré 7 à 800 coups de
+    canon.</p>
+   <p>1759 juillet 17.-Les ennemis nous ont chauffé pendant toute la nuit d'une bonne façon ; <lb/>
+    ils se servent de 3 mortiers et 4 pièces de canon ; ils ont travaillé <lb/> beaucoup toute la
+    nuit à retenir leurs batteries ; il n'y a eu aucun <lb/> embrasement ; nous ne tirons que
+    quelques coups de canon de <lb/> distance en distance.</p>
+   <p> Sur les 10 heures du matin, le Sieur Colet, marchand et le nommé <lb/> Colas Gauvreau ont été
+    frappés par un boulet sur la batterie <lb/> Royale ; ils sont morts tous les deux quelques
+    heures après.</p>
+   <p> Pendant la nuit il y a eu une grande canonnade au Sault ; ainsy que <lb/> beaucoup de
+    mousquetteries ; nous y avons des sauvages et des <lb/> Canadiens qui y sont traversés ; nous
+    ignorons encore à 8 heures <lb/> du matin la réussite de cette découverte.</p>
+   <p> Monsieur le marquis de Montcalm commença hyer à monter la grande <lb/> garde qui est de 1500
+    hommes.</p>
+   <p> Depuis 10 heures du matin les ennemis nous donnent les violons d'une <lb/> bonne façon ; il y
+    a fort à craindre pour l'embrasement, d'autant <lb/> qu'ils envoyent une grande quantité de pots
+    à feu et carcassières, <lb/> et que les vents sont nordet grand frais.</p>
+   <p> Voici le résultat de la canonnade du Sault, nos sauvages y ont défait <lb/> 45 hommes et fait
+    trois prisonniers ; je ne sçais point encore leur <lb/> déposition ; ces sauvages sont Folle
+    avoines et Outa8ais.</p>
+   <pb n="39"/>
+   <p> Dans ce moment on vient de m'apprendre la déposition de ces pri̲sonniers,<lb/> voicy ce qu'ils
+    rapportent que l'ordre du général avoit <lb/> été donné pour traverser le Sault et venir nous
+    attaquer, qu'ils ne <lb/> sçavent pas ce qui a pu empêcher de le faire,que depuis 3 ou 4 jours
+    <lb/> leurs charpentiers et ouvriers étoient occupés à faire un pond pour <lb/> jeter sur la
+    rivière, et qu'à présent il étoit fait, que les habitans de la <lb/> coste du Beaupré leurs
+    montroient les chemins,leurs fournissoient boire <lb/> et légumes, qu'ils les payoient en
+    espèces, qu'ils appréhendoient une <lb/> flotte françoise et même qu'ils avoient eu une alerte à
+    ce sujet par un <lb/> de leurs bâtimens qui disoit avoir vu des vaisseaux françois dans le <lb/>
+    bas de la rivière, qu'on leur avoit retranché les vivres, n'ayant plus <lb/> qu'un demi livre de
+    biscuit par jour, qu'ils avoient envoyé 3 de leurs <lb/> vaisseaux à Louisbourg pour y chercher
+    des provisions, que le général <lb/> Hwoulf faisoit toutes les nuits des revues exactes de tous
+    ces postes <lb/> avancés, qu'ils ont 700 hommes à la Pointe de Lévy qui sont des <lb/>
+    canonniers et des marins pour le service des batteries et qu'ils étoient <lb/> 7500 de l'autre
+    costé du Sault ; voilà tout ce que j'ai sçu de leur dépo̲sition.<lb/></p>
+   <p>1759 juillet 18. Sur les 8 heures du matin un sergent, 2 soldats du Guyenne et un <lb/>
+    habitant ont été blessés à la porte St. Jean par des éclats de bombes.</p>
+   <p> Il est bien fâcheux de voir écraser journellement cette pauvre ville <lb/> sans même qu'on
+    riposte de la moindre chose ; je ne sais en vérité <lb/> pour quel tems on réserve les munitions
+    ; c'est en vérité pitoyable <lb/> de voir les dégast qu'il y a dans cette pauvre place.</p>
+   <p> Sur les 9 heures du matin, une bombe a tombé dans la maison du Sieur <lb/> Rotot, elle a
+    éclaté dedans et y a fait un fracas affreux ; le <lb/> dit Sieur étoit dedans et n'a eu aucun
+    mal.</p>
+   <p> A 8 heures du matin après une décharge de 8 coups de canon tirés à <lb/> bord d'un de leurs
+    vaisseaux, 5 de leurs dits vaisseaux ont appareillé <lb/> et sont descendus en bas, soit qu'ils
+    aillent en découverte ou ailleurs.</p>
+   <p> Quelques prisonniers rapportent que la canonnade que nos carcassières <lb/> et nos jacobites
+    firent il y a quelques jours contre leurs vaisseaux <lb/> avoit tué 12 matelots et 2 officiers
+    et crevé une de leurs frégattes.</p>
+   <p> Hyer au soir le Sieur Langlade, officier et interprèste des sauvages, <lb/> a traversé 4 à
+    500 sauvages ; ce matin il a envoyé demander du <lb/> renfort à M. de Lévy afin d'attaquer une
+    garde de 10 à 1200 hommes ; <lb/> il n'attaquera peut être que la nuit prochaine ; Dieu veuille
+    qu'il <lb/> réussisse.</p>
+   <p> Un prisonnier fait il y a plusieurs jours du costé de Beaumont par des <lb/> habitans vient
+    d'arriver et on l'a conduit au quartier général.</p>
+   <pb n="40"/>
+   <p> De demi heure en demi heure les ennemis nous envoient 3 bombes <lb/> qui sont assaisonnées de
+    coups de canon, ce qui abîme les pauvres <lb/> maisons de la ville.</p>
+   <p> Sur les 5 heures du matin un boulet a passé dans le toit de ma maison <lb/> et en a coupé une
+    planche ; voilà tout le mal qu'elle a eu jusqu'ici.</p>
+   <p> La direction des bombes depuis midy est aux environs de l'Hôtel Dieu, <lb/> une a tombé a
+    razer la salle d'armes; nous y avons au moins 300 <lb/> milliers de cartouches dans un
+    appartement qui n'est point voûté ; <lb/> cependant on doit les ôter demain, pourvu qu'elles ne
+    sautent pas <lb/> aujourd'hui ; je ne puis comprendre en vérité pourquoi on est si <lb/>
+    négligent de ne pas mettre en sûreté des effets aussi précieux et en <lb/> même tems aussi
+    dangereux, si malheureusement une bombe venoit <lb/> à y tomber.</p>
+   <p>1759 juillet 19. Sur les 11 heures 1/2 à minuit un vaisseau de 50 canons 2 frégattes <lb/>
+    légères, un senault et un batteau, ont passé devant la ville et <lb/> ont monté jusqu'à l'Anse
+    des Mères ; il est surprenant qu'ayant <lb/> tant de chaloupes, de patrouilles et du plus beau
+    tems du monde <lb/> on ne les ait pas vues ; cela ne prouve que trop combien peu nous <lb/> nous
+    tenons sur nos gardes ; un 6e qui paroist estre de 18 à 20 canons <lb/> ayant aussi voulu
+    passer, s'est échoué sur la Pointe de Lévy <lb/> où il paroist à sec ce matin ; nos carcassières
+    et jacobites tirent dessus, <lb/> mais malgré leur feu il paroist des chaloupes et berges qui
+    les déchar̲gent.</p>
+   <p> Voicy enfin la fin de nos brûlots ; un 8e nous restoit à l'Anse des Mères ; <lb/> sitôt que
+    les vaisseaux ennemis ont été mouillés après avoir canonné, <lb/> ils ont envoyé une seule berge
+    qui a mis le feu ; nos gens y ont pourtant <lb/> fait une foible résistance mais qui n'a abouty
+    à rien ; cette expédition <lb/> s'est faite à 9 heures du matin à la barbe de 600 hommes que
+    nous <lb/> y avions ; on auroit pu cependant éviter l'incendie d'un brûlot en le <lb/> mettant à
+    terre, mais il faut croire qu'on pensoit que les ennemis <lb/> n'y feroient point de mal ; je ne
+    sçais pas s'ils l'avoient promis <lb/> ou non.</p>
+   <p> Il nous reste encore les cajeux du Sieur Courval avec 2 petits bâtimens <lb/> qui doivent
+    servir pour les conduire quand on voudra s'en débar̲rasser,<lb/> mais je crains beaucoup que les
+    ennemis ne nous en débar̲rassent.</p>
+   <p> ” 20 Comme c'est contre toute attente que les vaisseaux aient passé devant <lb/> Québec on
+    n'avoit pas prévu à y transporter de l'artillerie ; c'est <lb/> pourquoi aujourd'hui qu'on est
+    désabusé on y fait transporter 2 <lb/> pièces de canon pour mettre à Samos ; aussitôt qu'ils ont
+    été placés <pb n="41"/>
+    <lb/> on a tiré sur les vaisseaux ennemis, même une frégatte en a été dit on <lb/> maltraitée ;
+    mais cependant ils gardent toujours leur même mouillage.</p>
+   <p> Le nommé Sanschagrin, caporal dans les troupes de la colonie, qui avoit <lb/> été pris le
+    mois de may dernier par l'escadre de l'amiral Durel, s'est <lb/> échappé le 18 du bord du
+    vaisseau le <hi rend="ital">Prince d'Orange</hi> ; il a traversé <lb/> à la nage et ce n'est
+    qu'avec beaucoup de peine qu'il a attrappé <lb/> terre, (c'étoit au Cap Bruslé), et de là est
+    venu icy.</p>
+   <p> Pendant la nuit un déserteur anglois s'est rendu à notre camp ; il se <lb/> dit estre
+    domestique du second commandant ; il rapporte la même <lb/> chose que tous les autres
+    prisonniers ; ils s'accordent tous à dire <lb/> qu'ils n'ont que 9 à 10,000 hommes de descente ;
+    et ce dernier <lb/> ajoute que le général Hwoulf étoit traversé la veille à la Pointe de <lb/>
+    Lévy, et montoit avec un corps de troupes, mais qu'on ignorait <lb/> son projet.</p>
+   <p>1759 juillet 21. Pendant toute la nuit les ennemis ont bombardé vigoureusement ; <lb/> la plus
+    grande partie de leurs bombes avoient leur direction sur le <lb/> quartier du palais ; plusieurs
+    ont tombé sur les casernes royalles ; <lb/> plusieurs maisons dans les environs en ont été
+    écrasées, une entre <lb/> autres est venue tomber dans le quartier de M. Hyché. Cette même <lb/>
+    nuit 5 boulets et un pot à feu ont tombé, la plus loin à 40 pieds de <lb/> ma maison ; j'ai eu
+    plus de 50 planches de cassées par une dans <lb/> un hangar.</p>
+   <p> Le vaisseau anglois échoué à la Pointe de Lévy a été relevé hyer de <lb/> marée haute ; il ne
+    paroist pas même avoir beaucoup fatigué dans son <lb/> échouage ; les Anglois font des
+    miracles.</p>
+   <p> On garde constamment Beauport comme s'il étoit impossible aux enne̲mis<lb/> d'aller autre part ;
+    voilà cependant 3 descentes qu'ils font, mais <lb/> suivant le sentiment de nos généraux cela
+    n'est rien; on ménage <lb/> aussi avec beaucoup de soin nos munitions étant expressément <lb/>
+    deffendu de tirer un seul coup de canon, tout le monde en mur̲mure,<lb/> mais on est obligé de garder
+    le silence, nos généraux sont les <lb/> maîtres, et sçavent sans difficulté mieux que nous ce
+    qu'il faut faire ; <lb/> aussi reposons nous sur eux.</p>
+   <p> M. de Lanaudière, chevalier de St.Louis, est à présent le grand Bouvier <lb/> du
+    munitionnaire ; cette nouvelle charge lui est plus lucrative <lb/> qu'onorable ; tout le monde
+    en rit mais il y trouve son compte et <lb/> sa sûreté.</p>
+   <p> Hyer un milicien a été emporté par un boulet de canon, au Sault ; <lb/> pendant la nuit nous
+    y avons entendu beaucoup de canon ainsy <lb/> que de mousquetteries ; nous ignorons encore ce
+    que c'est.</p>
+   <pb n="42"/>
+   <p> Nous venons d'avoir un batteau armé d'une pièce de 8 de coulé à fond <lb/> par un boulet des
+    ennemis ; on sauvera la pièce à marée basse.</p>
+   <p> La conduite de nos généraux et l'inaction de nos troupes et miliciens <lb/> me fait en vérité
+    désespérer du salut de cette pauvre colonie ; les <lb/> ennemis ont débarqué en premier lieu à
+    l'Isle d'Orléans, ensuite à la <lb/> Pointe de Lévy, au Sault, à la Pointe aux Trembles et à
+    Descham̲beaux<lb/> sans que personne se soit pour ainsi dire opposé; je ne sçais <lb/> pas à présent
+    où il ont dessein d'aller, mais en vérité je pense qu'ils <lb/> yront partout où ils
+    voudront.</p>
+   <p> Sur les 10 heures du matin les ennemis avoient un peu diminué leur feu, <lb/> mais à 5 heures
+    du soir ils recommencèrent à nous bombarder vigou̲reusement ;<lb/> je pense que la nuit ne
+    sera pas tranquile.</p>
+   <p>1759 juillet 22. <hi rend="points"/>Les ennemis nous ont envoyé pendant la nuit environ 80
+    bombes, <lb/> mais qui heureusement n'ont pas fait grand mal, les unes ayant <lb/> crevé en
+    l'air et les autres n'ayant point éclaté.</p>
+   <p> Dans la descente que les ennemis firent hyer à la Pointe aux Trembles <lb/> ils nous y ont
+    pris plus de 200 femmes et enfans ; les Sieurs Frichet, <lb/> la Caze et Lainyé y ont été pris
+    aussi ; ces Messieurs étoient alés <lb/> voir leurs maîtresses qui étoient là.</p>
+   <p> A 2 heures après midy il y a eu cession d'armes ; les Anglois nous <lb/> ont remis nos femmes
+    à terre à Sillery, mais ils gardent les 3 hommes.</p>
+   <p> Les ennemis ne tinrent pas longtems dans cette descente ; nous y <lb/> avions quelques
+    sauvages qui tirèrent dessus et les obligèrent de se <lb/> rembarquer ; ils y ont perdu 15 ou 20
+    hommes et plusieurs blessés ; <lb/> une de nos dames a été blessée légèrement à une jambe et le
+    nommé <lb/> Micheau père a reçu une balle à la joue ; le Sieur Stobo étoit <lb/> le conducteur
+    de ce détachement ; le général Hwolf y étoit aussi <lb/> qui a très bien reçu nos dites dames ;
+    il leur a fort conseillé de ne <lb/> point retourner dans la ville, qu'avant peu de jours elle
+    seroit réduite <lb/> en cendres ; ils ont fait faire beaucoup de compliments à M. Bigot <lb/> et
+    de l'assurer que sitôt que nous serions pris ils auroient pour lui <lb/> tous les égards
+    possibles.</p>
+   <p> Ils ont aussi fait beaucoup d'éloges de M. de Montcalm, que c'étoit <lb/> un bon général,
+    mais que M. de Vaudreuil étoit un homme fort libre <lb/> qu'il leur laissoit au contraire faire
+    tout ce qu'ils vouloient, qu'ils <lb/> espéroient en peu se rendre maîtres du Canada ainsy que
+    des frégattes <lb/> que nous avions en haut ; voilà tout ce que j'ai appris de ces pris̲onnières<lb/> qui sont bien aises d'estre revenues quoiqu'elles fussent <lb/> très bien avec eux.</p>
+   <pb n="43"/>
+   <p> Pendant la cession un petit bâtiment a passé audevant de Québec ; <lb/> il porte sans doute
+    leurs blessés à l'hôpital qu'ils ont à l'Isle <lb/> d'Orléans. Immédiatement à 6 heures du soir
+    la trève a cessé.</p>
+   <p>1759 juillet 23. Les ennemis nous ont envoyé pendant la nuit au moins 200 bombes <lb/> ainsy
+    que quantité de pots à feu, ce qui a embrasé la cathédrale <lb/> ainsy qu'une vingtaine de
+    maisons des environs qui toutes ont été <lb/> réduites en cendres.</p>
+   <p> Sur les 3 heures 1/2 du matin 2 vaisseaux anglois ont appareillé <lb/> dedans le bassin et se
+    sont mis en devoir de passer devant la ville, <lb/> mais le feu de nos batteries a été si vif
+    qu'ils ont été obligés de revirer <lb/> de bord après avoir reçu plusieurs boulets sans avoir
+    riposté que <lb/> d'un seul.</p>
+   <p> Nous venons de déblayer de la prairie de M. Hyché ; les boulets et <lb/> les bombes
+    commencent à nous y chagriner, nous allons camper <lb/> un peu plus loin que chez Giroux, sous
+    la coste d'Abraham.</p>
+   <p> Un matelot a été emporté sur le rempart en chargeant une pièce.</p>
+   <p> ” 24. Pendant toute la nuit les ennemis nous ont envoyé beaucoup de bombes <lb/> assaisonnées
+    de bien des boulets qui nous ont bien reveille ; il n'est <lb/> pas mention que nous ayons perdu
+    personne ; j'estime que depuis <lb/> le commencement du bombardement à venir à ce jour, les
+    ennemis <lb/> nous ont envoyé au moins 14 à 15000 bombes ; plus de 80 maisons <lb/> en sont
+    incendiées ou écrazées à fort fait.</p>
+   <p> Nous avons eu encore aujourd'hui cession d'armes. M. le Mercier <lb/> est allé leur porter
+    des vins de liqueurs ; je ne comprends pas <lb/> en vérité cette politique, d'autant que nous ne
+    tirons aucun avantage <lb/> de cette cession, qui doit durer jusqu'à 8 heures du soir.</p>
+   <p> ” 25. Hyer à 8 heures du soir, les ennemis commencèrent à nous bombarder <lb/> et canonner
+    vivement depuis ce tems jusqu'à 6 heures du matin ; <lb/> ils nous ont envoyé 180 bombes ou pots
+    à feu, dont un a enflammé <lb/> un hangard appartenant à Madame Larche à 40 pieds de ma <lb/>
+    maison dans lequel j'avais 7 à 800 planches de madriers qui ont été <lb/> réduits en cendre
+    ainsy que le hangard.</p>
+   
+   <p> A 8 heures du matin, nous apprenons qu'un détachement anglois avoir <lb/> fait une descente à
+    l'Anse des Mères ; cette nouvelle a été <lb/> portée au quartier général ; aussitôt M. de
+    Bougainville, colonel, <lb/> est party à la teste de 250 hommes de troupes régulières dont 3
+    com̲pagnies<lb/> de grenadiers ; quand il a été rendu sur les lieux il s'est <lb/> trouvé qu'il
+    avoient tenté dy débarquer mais qu'ils avoient été <lb/> repoussés ; ils nous y ont pris une
+    carcassière et un jacobite. Les <lb/> ennemis y ont perdu du monde mais on ne sçait pas combien
+    ; <pb n="44"/>
+    <lb/> nous y avons eu un officier marinier qui a eu la cuisse coupée par un <lb/> boulet.</p>
+   <p> A 9 heures du matin par ordre du commandant de la place, il a été <lb/> battu un ban pour
+    deffendre de tirer aux tourtres ; plus de <lb/> 50 hommes ont été mis en prison pour estre
+    contrevenus à l'ordon̲nance.</p>
+   <p> Il vient d'arriver un courrier d'en bas qui rapporte qu'il y a une vingtaine <lb/> de
+    vaisseaux aux environs du Bisq qu'ils prévoient estre des vais̲seaux<lb/> de guerre ; ce ne peut
+    estre que des vaisseaux ennemis s'il <lb/> dit vray.</p>
+   <p> Depuis une heure après midy jusqu'à 8 heures du soir il y a cession <lb/> d'armes ; M. le
+    Mercier, ambassadeur ordinaire, est retourné à bord <lb/> des vaisseaux ; je ne sçais point qui
+    est le motif de cette cession qui <lb/> ne plaist pas à tout le monde.</p>
+   <p>1759 juillet 26. Toute la nuit les ennemis nous ont bombardé et canonné vivement ; <lb/> il
+    n'y a eu aucun embrasement malgré une grande quantité de car̲casses<lb/> et pots à feu qu'ils ont
+    jetté ; plusieurs maisons aux environs <lb/> de la porte St. Jean en ont été écrasées ; il n'est
+    pas mention que nous <lb/> ayons eu personne de tué ny même de blessé.</p>
+   <p> M. le marquis de Vaudreuil vient de rendre une ordonnance pour <lb/> deffendre de tirer sur
+    les tourtres à une lieue près de la ville ; en <lb/> exécution de cette ordonnance on tire de
+    toute part ; voilà comme <lb/> toutes les ordonnances sont suivies en Canada.</p>
+   <p> Les courriers du munitionnaire qui occupoient la maison de Madame <lb/> St. Simon dans le
+    faubourg St. Jean, déblayent ce jourd'hui et <lb/> viennent camper près de nous ; la boucherie
+    va estre chez Primeau <lb/> et la boulangerie chez Giroux ; on démolit la maison de M. Hyché
+    <lb/> pour avoir de la brique pour faire les fours ; en vérité on ne prévoit <lb/> rien ; il
+    n'étoit pas mal aisé de penser qu'on ne pourroit pas tenir <lb/> la distribution à la porte St.
+    Jean lorsque les Anglois bombar̲deroient ;<lb/> par conséquent il étoit inutile d'y faire des fours
+    et autres <lb/> dépenses.</p>
+   <p> Depuis qu'on a fait camper les miliciens qui sont dans la ville à la <lb/> porte St. Jean,
+    soit que les ennemis en aient eu connaissance ou que <lb/> ce soit par idée, les 3/4 de leurs
+    bombes et boulets sont pour ce quartier; <lb/> les maisons en soufrent beaucoup.</p>
+   <p> Il vient d'estre pendu un matelot pour vol ; Dieu veuille que l'exemple <lb/> de ce misérable
+    arreste le brigandage qui se fait de jour et de nuit <lb/> dans la ville.</p>
+   <pb n="45"/>
+   <p> Depuis le bombardement jusqu'à ce jour nous n'avons eu que 5 person̲nes<lb/> de tuées dans
+    la ville soit par les bombes ou boulets ; en <lb/> vérité je regarde cela comme un miracle de la
+    Providence.</p>
+   <p> On fait des retranchements à Jacques Cartier pour en cas de retraite ; <lb/> les Anglois vont
+    et viennent avec leurs bâtimens le long de ces costes ; <lb/> ils cherchent à nous inquietter de
+    toutes parts.</p>
+   <p> Depuis 11 heures du matin jusqu'à 5 heures du soir il y a eu beaucoup <lb/> de fusillade au
+    Sault ; nous ignorons encore ce que c'est.</p>
+   <p> A 6 heures du soir le Sieur le Gris vient d'arriver de la Pointe <lb/> de Lévy avec 2
+    prisonniers qu'il a faite ; son détachement étoit <lb/> de 17 hommes ; il a surpris 10 Anglois,
+    5 desquels ont été tués ; <lb/> 2 se sont sauvés et les 5 autres prisonniers. Le dit Sieur
+    Legris a <lb/> perdu un homme et lui a été blessé légèrement au corps par une <lb/> porte.</p>
+   <p>1759 juillet 27. Voicy le résultat de la fusillade qui se fit hyer au Sault : les volontaires
+    <lb/> de M. Repentigny avec des sauvages traversèrent et cernèrent <lb/> une avant garde de 200
+    hommes ; les ennemis envoyèrent aussitôt <lb/> un puissant renfort ; cependant nos gens s'en
+    tirèrent assez bien ; <lb/> il a resté sur la place environ 120 de leurs morts ; nos avant garde
+    <lb/> ont vu que pendant toute la nuit les ennemis ont transporté sur des <lb/> brancards des
+    morts ou des blessés.</p>
+   <p> 7 blessés avoient été cachés par les ennemis qui aparemment n'avoient <lb/> pu les enlever,
+    mais les sauvages les ayant trouvés au point du jour <lb/> les avoient pris ; suivant la
+    connaissance que nous avons eue de leur <lb/> défaite, on estime qu'ils y ont eu 4 à 500 hommes
+    hors de combat, <lb/> dont beaucoup d'officiers ; nous y avons eu 12 Canadiens tués ou <lb/>
+    blessés ; les sauvages y ont fait de riches dépouilles.</p>
+   <p> Depuis 8 heures du soir jusqu'à 6 heures du matin ce jourd'huy, les <lb/> ennemis nous ont
+    envoyé 230 bombes comptées, ainsy qu'une grande <lb/> quantité de boulets ; c'est d'usage que
+    quand ils souffrent à la cam̲pagne<lb/> ils se vengent sur la ville.</p>
+   <p> Voilà enfin les cajeux qui vont jouer leur dernier rôle cette nuit ; les <lb/> ordres sont
+    donnés pour les envoyer ; je souhaite pour le bien de la <lb/> patrie qu'ils puissent faire tout
+    l'effet qu'on s'en est promis, mais <lb/> j'avoue en vérité que je n'y ai pas de confiance,
+    d'autant que les <lb/> ennemis se tiennent sur leurs gardes étant prévenus que nous en
+    avons.</p>
+   <p> Sur le soir une berge angloise se promenant le long de la coste du sud <lb/> il y avoit 3
+    Anglois dedans, ils ont été découverts par 3 hommes de <lb/> la Pointe de Lévy qui aussitôt se
+    sont embarqués dans un canot <lb/> d'écorce, les ont poursuivis et enfin attrapés après en avoir
+    tué 2 <lb/> et le troisième a été fait prisonnier.</p>
+   <pb n="46"/>
+   <p> Dans le cours de la journée, un pot à feu a tombé sur une de nos carcas̲sières<lb/> qui étoient au
+    quai du palais ; un matelot a été tué, un autre <lb/> blessé dangereusement.</p>
+   <p>1759 juillet 28. Les cajeux ont enfin été lancés cette nuit ; ils ont été conduits au mieux
+    <lb/> par le Sieur de Courval qui en étoit chargé, mais comme il faisoit <lb/> calme les ennemis
+    ont embarqué dans leurs berges pour les éviter ; <lb/> il n'est pas douteux que s'il eusse venté
+    bon frais qu'ils auroient eu <lb/> beaucoup de peine à s'en parer.</p>
+   <p> Il y a apparence qu'ils ont été piqués de cette manoeuvre et qu'ils <lb/> se sont vengés sur
+    la place nous ayant jeté depuis minuit jusqu'à <lb/> 6 heures du matim plus de 200 bombes ; le
+    nommé Grégoire <lb/> a eu une jambe cassée par un éclat de bombe et son frère légèrement <lb/>
+    blessé.</p>
+   <p> M. Charest vient d'arriver de la Pointe de Lévy sans avoir rien fait ; <lb/> les sauvages
+    qu'il avoit avec lui n'ont osé attaquer les ennemis, <lb/> chose assez ordinaire parmi eux
+    surtout quand l'action paroist <lb/> douteuse.</p>
+   <p> ” 29. Les ennemis nous ont canonné et bombardé de la même façon que la <lb/> nuit dernière,
+    mais cependant beaucoup plus de boulets que de bom̲bes ;<lb/> les trois quarts des maisons
+    sont criblées ou écroulées.</p>
+   <p> ” 30. Les ennemis ont démasqué une batterie qui est au nordet de <lb/> l'ancienne ; elle bat
+    en plein sur le quartier du Palais ainsy que le <lb/> long du Sault au Matelot ; elle l'éprouve
+    d'une bonne façon.</p>
+   <p> Les ennemis ont détenté et retenté leur camp du Sault en moins de <lb/> 3 heures de tems ; je
+    croi qu'ils méditent quelque chose.</p>
+   <p> Sur les 2 heures après midy on a essayé de la Pointe de Lévy à jetter <lb/> des bombes sur
+    leurs vaisseaux qui sont dans le bassin ; je ne vois <lb/> pas que cela fasse aucun effet, étant
+    hors de la portée.</p>
+   <p> M. l'Intendant vient d'envoyer demander au magasin du Roy un relevé <lb/> des poudres qu'il
+    nous reste, disant que les troupes murmu̲roient<lb/> beaucoup de ce que l'on ne tiroit point
+    ; ils ont cela de commun <lb/> avec bien du monde ; mais pour moy je laisse faire les généraux,
+    <lb/> étant persuadé qu'ils doivent sçavoir ce qu'il est à propos de faire, <lb/> ou du moins
+    doivent ils le sçavoir.</p>
+   <p> Ce matin on vient d'envoyer un détachement de 200 hommes pour <lb/> convoyer des vivres qu'on
+    envoie chercher à Batiscan. Je crains <lb/> beaucoup que nous n'en manquions, quoi qu'on les a
+    retranchées <lb/> ne donnant plus qu'une livre de pain par jour.</p>
+   <p> Sur les 5 heures du soir 2 soldats de la colonie ont été pendus pour avoir <lb/> volé hyer de
+    l'eau de vie dans la cave du Sieur Soupirant.</p>
+   <pb n="47"/>
+   <p> Le dernier prisonnier rapporte que les ennemis veulent faire leurs des̲centes<lb/> à l'Anse des
+    Mères, qu'ils font des rats d'eau pour venir <lb/> fondre sur la Basse Ville, qu'ils avoient
+    résolu d'attaquer par Beau̲port<lb/> mais qu'ils ont changé de sentiment.</p>
+   <p> Depuis 3 heures après midy jusqu'à 5 heures du soir on a fait un feu <lb/> très vif de nos
+    batteries de la place, par ordre de Monsieur de Mont̲calm,<lb/> ce qui a empêché pour quelques heures
+    les ennemis de tirer <lb/> un seul coup.</p>
+   <p> On fait une batterie pour deux mortiers en bas de la citadelle et une <lb/> batterie de canon
+    un peu au dessus ; on pense qu'elles feroient bien <lb/> tord à celle que les ennemis ont à la
+    Pointe de Lévy, mais comme nous <lb/> ne tirons point ils n'ont rien à craindre.</p>
+   <p>1759 juillet 31. Un déserteur anglois s'est rendu à notre camp la nuit dernière ; il <lb/>
+    rapporte que le feu que nous fimes hyer sur leurs batteries leur avoit <lb/> tué beaucoup de
+    monde dont le commandant d'une batterie étoit du <lb/> nombre ; je crois qu'il nous en
+    impose.</p>
+   <p> Voilà aujourd'hui le 19e jour que les ennemis bombardent la place; <lb/> ils nous ont envoyé
+    au moins suivant l'estime de plusieurs personnes <lb/> plus de 2800 bombes ; celles qu'ils nous
+    envoyent à présent sont plus <lb/> foibles que les premières ; apparemment que la grande espèce
+    leur <lb/> manque ou qu'ils les conservent pour achever de ruiner.</p>
+   <p> Sur les 9 heures du matin, deux frégattes ont appareillé du bassin ; <lb/> les vents sud
+    douest, ils ont été s'échouer au devant de la Pointe de <lb/> L'Essay ; aussitôt l'une a mis
+    pavillon anglois sur la poupe ; aussitôt <lb/> après ce signal un vaisseau de 64 pièces de canon
+    a aussy appareillé <lb/> et est allé les joindre se tenant mouillé au large d'elles pour les
+    couvrir; <lb/> tous ensembles ainsy que leurs batteries du Sault qui avoient com̲mencé<lb/> dès la
+    pointe du jour, ont fait un feu des plus vifs sans inter̲ruption,<lb/> sur nos batteries et sur notre
+    camp ; nos batteries ont joué <lb/> aussy avec beaucoup de chaleur sur les frégattes et sur le
+    vaisseau, <lb/> mais ce dernier étoit beaucoup au large ; pendant ce tems plus de <lb/> 100
+    berges voltigeoient aux environs ainsy que leurs troupes du <lb/> Sault qu'on voyait descendre
+    sur la grève. Ce feu a duré depuis <lb/> le matin jusqu'à 7 heures 1/2 du soir, qu'une des
+    frégattes échouées <lb/> a pris en feu, un moment après l'autre s'est enflammée aussy ; nous
+    <lb/> ignorons encore ce qui y a mis le feu.</p>
+   <p>1759 Août 1. Voicy le résultat de la canonnade qui se fit hyer au Sault. Sur <lb/> les 2
+    heures après midy les ennemis débarquèrent à l'abry de leurs <lb/> frégattes échouées, et comme
+    ils n'avoient point assez de berges <lb/> pour tout le monde, les troupes du Sault traversèrent
+    à gué, se <pb n="48"/>
+    <lb/> rangèrent en bataille, et marchèrent sur 3 colonnes vers nos retran̲chemens.<lb/> M. de
+    Lévy qui y commandoit avoit fait poster les sau̲vages<lb/> du costé du Sault, et les troupes
+    volontaires et miliciens un <lb/> peu plus en arrière afin de les engager et les prendre entre
+    deux feux ; <lb/> pendant ce tems nos batteries faisoient un feu très violent et qui <lb/>
+    chargé à mitrailles faisoit un grand ravage sur les ennemis ; on les <lb/> voyait se jeter par
+    terre à la décharge et après courir aux retranche̲mens,<lb/> et malgré le feu de l'artillerie et de
+    la mousquetterie ils for̲cèrent<lb/> une redoute où nous avions 2 pièces de canon que nous
+    <lb/> enclouasme. Cependant, se voyant écrasés et perdant l'espoir de <lb/> pénétrer plus avant,
+    ils prirent le party de plier et en se retirant <lb/> mirent le feu à leurs frégattes qui
+    étoient criblées de boulets et hors <lb/> d'état d'estre relevées ; on estime leurs pertes de 4
+    à 500 hommes, <lb/> et s'ils eussent été plus braves ils en auroient perdu bien davantage, <lb/>
+    mais ils n'ont pour ainsy dire eu que leurs grenadiers qui aient essuyé <lb/> notre feu. Nous
+    avons eu dans cette journée 21 hommes de tués <lb/> et 46 de blessés, lesquelles l'ont été par
+    le boulet sans qu'aucun <lb/> l'ait été par le fusil.</p>
+   <p> Les ennemis étoient au nombre de 6 à 7000 hommes, mais un plus <lb/> grand nombre y auroient
+    péry tant par rapport à la situation du <lb/> terrain qu'à une averse qu'il y a eue qui le
+    rendoit impénétrable.</p>
+   <p> Un capitaine de leurs troupes légères y a été fait prisonnier <lb/> ayant été blessé
+    dangereusement de 3 blessures au corps ; c'est un <lb/> soldat de Guyenne qui le sauva d'entre
+    les mains des sauvages en <lb/> lui mettant son habit et son chapeau sur le corps ; on le
+    transporta <lb/> aussitôt à l'hôpital Général où on prend un grand soin de sa personne, <lb/>
+    mais la nature de ses blessures fait désespérer de sa guérison ; il dit <lb/> qu'il avoit été
+    détaché pour soutenir les grenadiers, mais il se plaint <lb/> que ces mesmes grenadiers
+    l'avoient abandonné ; il demande instam̲ment<lb/> le soldat qui l'a sauvé pour lui en marquer
+    sa reconnaissance.</p>
+   <p> Il vient de nous arriver un convoi de 900 quarts de farine qu'on étoit <lb/> allé chercher à
+    Batiscan.</p>
+   <p> Un déserteur anglois, sergent de leurs troupes, vient de se rendre à <lb/> notre camp ; je ne
+    sçais pas encore ce qu'il rapporte au Général ; <lb/> voicy seulement ce que j'en ai su, que les
+    Anglois devoient demain <lb/> matin reprendre leur revanche ; je crains beaucoup qu'ils ne nous
+    <lb/> manquent de parole, car il seroit à souhaiter pour nous que nous <lb/> eussions une action
+    décisifve, et même le plus tôt seroit le meilleur. <lb/> mais je crains beaucoup qu'ils ne
+    tiennent en longueur d'autant qu'il <lb/> n'est pas douteux qu'ils sont instruits de notre
+    situation.</p>
+   <pb n="49"/>
+   <p> Sur les 7 heures du soir, il y a beaucoup de canonnade du costé du Sault, <lb/> ainsy que du
+    vaisseau anglois qui s'étoit enfoncé près de l'Ange <lb/> Gardien ; je pense qu'il veut sortir
+    de là, d'autant que la mer monte ; <lb/> les vents sont nord.</p>
+   <p>1759 août 2. Les ennemis continuent toujours de bombarder et d'écraser la place. <lb/> Dieu
+    veuille que toutes ces calamités finissent bientôt.</p>
+   <p> Depuis 2 heures après midy jusqu'à 6 heures 3/4 il y a cession d'armes ; <lb/> je crois qu'on
+    s'est servy du motif de porter une lettre de l'officier <lb/> prisonnier pour faire quelques
+    réparations dont nos batteries ont <lb/> besoin.</p>
+   <p> Aussitôt le retour du parlementaire qui étoit comme à l'ordinaire <lb/> M. le Mercier, ils
+    ont canonné et bombardé de bonne grâce.</p>
+   <p> On fait de nouvelles coupures dans la place ; on craint réellement que <lb/> les ennemis ne
+    tentent de l'enlever d'assaut ; je pense cependant <lb/> qu'ils n'en auroient pas bon marché,
+    d'autant que nos batteries <lb/> n'ont point souffert.</p>
+   <p> Voicy un trait de la part d'un sauvage abénakis, arrivé dans l'action <lb/> du 31 juillet
+    dernier ; après avoir fait sa décharge sur un anglois <lb/> qui se sauvoit, l'ayant manqué il se
+    mit à le poursuivre de façon <lb/> qu'il l'attrappa. Comme cet homme était robuste, se voyant
+    pris <lb/> par un sauvage, prit le party de colter pour sauver sa vie, et se <lb/> trouva le
+    plus fort ; cependant soit que ce fut par agilité ou autre̲ment,<lb/> le sauvage se
+    débarrassa de lui et prenant son fusil par le petit <lb/> bout l'assomma à ses pieds, luy leva
+    la chevelure et revint victorieux <lb/> au camp.</p>
+   <p> 3. Depuis quelques jours les ennemis font un feu continuel ; ils nous tirent <lb/> au moins
+    par 24 heures 7 à 800 coups de canon et plus de 150 boulets, <lb/> ce qui achève d'écraser les
+    maisons.</p>
+   <p> Un matelot vient d'estre tué sur la batterie Dauphine par un boulet. <lb/> La direction des
+    bombes est aujourd'hui sur la Basse Ville.</p>
+   <p> Sur les une heure après midy il y a eu une alerte au Sault ; on a battu <lb/> la générale
+    dans tous les camps et tout le monde s'est rendu aux <lb/> retranchemens ; on dit que c'est
+    l'amiral Sunder qui est venu au <lb/> Sault pour concerter avec le général Wolf les préparatifs
+    à <lb/> faire en cas qu'ils tentent d'y faire une seconde attaque.</p>
+   <p> 4 Depuis hyer au soir jusqu'à 8 heures du matin, les ennemis nous ont <lb/> envoyé 100 et
+    quelques bombes et plus de 8 à 900 coups de canon ; <lb/> nous avons eu deux hommes de blessés
+    par des éclats de bombes.</p>
+   <p> La batterie du rempart souffre beaucoup du feu des ennemis ; c'est <lb/> aussy dans cet
+    endroit que nous perdons plus de monde y étant tous <pb n="50"/>
+    <lb/> à découvert n'y ayant qu'une barbette qui malheureusement est <lb/> en pierre.</p>
+   <p> Je viens d'apprendre par des habitans de la baye St. Paul que le nommé <lb/> Suisse officier
+    de milice de cette paroisse avoit party en canot <lb/> avec 6 habitans du lieu pour essayer à
+    faire quelques prisonniers <lb/> à l'Isle aux Coudres, et qu'aussitôt qu'ils furent à terre, le
+    dit Suisse <lb/> avoit déserté ; les ennemis s'embarquèrent aussitôt pour venir couper <lb/>
+    chemin à nos gens, qui heureusement se sauvèrent.</p>
+   <p> Un prisonnier anglois fait avant hyer, rapporte que les ennemis pensent <lb/> avoir défait au
+    moins 2000 hommes dans la place.</p>
+   <p> Sur les 5 heures du soir il vient de nous arriver 5 déserteurs qui se sont <lb/> joints dans
+    le cours de la journée d'hyer à quelques habitans que <lb/> nous avons en découverte de l'autre
+    costé ; on vient de les conduire <lb/> au quartier général ; voicy ce que je sçais de leurs
+    déposition, qu'ils <lb/> n'ont jamais eu que 500 hommes dans leurs bâtimens qui sont en <lb/>
+    haut, mais que depuis ce tems on en avoit ôté et qu'il n'en restoit <lb/> actuellement que
+    300.</p>
+   <p> Messieurs Dumas et de Boishébert reviennent de la Pointe aux <lb/> Trembles et retournent au
+    camp de Beauport avec un détachement <lb/> de 200 hommes. Il reste M. de Bleau capitaine au
+    régiment <lb/> de Guyenne, ainsy que M. Beaubassin et un autre officier <lb/> avec 4 à 500
+    hommes de troupes et canadiens et les sauvages abénakis, <lb/> amalécites et micmaks, ce qui en
+    tout peut faire 7 à 800 hommes ; <lb/> on pense que les ennemis se tiennent toujours dans cette
+    partie pour <lb/> nous inquietter afin de nous faire faire diversion et pour tomber <lb/>
+    ailleurs ; Dieu veuille qu'ils ne nous trompent pas.</p>
+   <p> Cet après midy on vient de casser la teste à un déserteur anglois qui <lb/> s'étoit rendu icy
+    il y a quelque tems et s'étoit engagé dans nos troupes ; <lb/> et comme il étoit fort libre il a
+    pris le party de déserter ; il y a aparence <lb/> que c'étoit un espion ; en tout cas cela ne
+    luy arrivera pas davantage <lb/> et cela fera peut-estre impression à ceux qui en voudroient
+    faire autant.</p>
+   <p> Sur les 2 heures après midy nous avons eu encore cession d'armes, <lb/> les ennemis ayant
+    arboré pavillon de parlementaire, on les a été rece̲voir<lb/> dans la rade, ils ont remis la
+    malle de l'officier blessé le 31 juillet. <lb/> La cession a duré jusqu'à 5 heures du soir et
+    aussitôt les ennemis <lb/> nous ont avertis qu'elle étoit finie ; cette nouvelle nous a été
+    signifiée <lb/> par une furieuse décharge de boulets et de bombes.</p>
+   <p> Pendant cette trève on a travaillé à nos batteries de Beauport où l'on <lb/> met des
+    saucissons pour mettre le monde à couvert ; il est un peu <lb/> tard pour commencer, mais le
+    commandant d'artillerie ne peut pas <pb n="51"/>
+    <lb/> prévoir à tout étant la plus grande partie du tems occupé aux ambas̲sades.</p>
+   <p> On vient de désarmer la gabarre <hi rend="ital">l'Entreprenante</hi> armée de 4 pièces <lb/>
+    de canon de 12 et 18 ; on met ces mêmes pièces à une batterie qu'on <lb/> fait à la Pointe à
+    Roussel de l'autre costé de la petite rivière.</p>
+   <p> Sur les 7 heures du soir il a été délivré des magasins du Roy à M. de <lb/> Lanaudière,
+    chevalier de St. Louis, 3 bottes légères et du bruc <lb/> pour attacher les boeufs qu'il ramasse
+    pour le munitionnaire.</p>
+   <p>1759 août 5. Cette nuit sur les 11 heures il y a eu de la canonnade au Sault qui a <lb/> duré
+    environ une demie heure ; je ne sçais point ce qui l'a occasionnée.</p>
+   <p> Ils nous canonnent et nous bombardent toujours à l'ordinaire de la <lb/> Pointe de Lévy ;
+    heureusement qu'il n'y a eu aucun embrasement.</p>
+   <p> Voici ce qui a occasionné la canonnade de cette nuit ; c'est un soldat <lb/> du régiment de
+    Béarn qui a déserté aux ennemis étant en faction ; <lb/> la cavalerie a donné après sitôt qu'on
+    en a eu connoissance, mais <lb/> leur course a été inutile et c'est ce qui a fait faire ce feu
+    aux ennemis.</p>
+   <p> Hyer 8 à 9 habitans qui sont de l'autre costé et qui vont de la Pointe <lb/> de Lévy à
+    Beaumond, ont fait 3 prisonniers à St. Henry.</p>
+   <p> Depuis midy jusqu'à 6 heures 1/2 du soir nous avons eu cession d'ar̲mes ;<lb/> c'est
+    toujours le même ambassadeur qui y va ; je ne <lb/> sçais point le sujet ny qui a demandé cette
+    trêve ; à la fin du tems <lb/> dit nous avons été salués d'importance ; c'est la suite de la
+    trêve, <lb/> et nous ne perdons jamais rien du compte qui nous est destiné.</p>
+   <p> Nous venons d'aprendre par un courrier de Montréal que les forts <lb/> Carillon et St.
+    Frédéric avoient été faits sautés par nos gens qui <lb/> ensuite se sont repliés à l’Isle aux
+    Noix ; les nouvelles de Niagara <lb/> ne sont pas beaucoup meilleures ; il est fort à craindre
+    que les ennemis <lb/> ne tentent de pénétrer à Montréal.</p>
+   <p> ” 6. Nous avons eu cette nuit une alerte à la Basse Ville ; nos découvreurs <lb/> qui sont en
+    canot d'écorce ont averty qu'ils voyoient des berges ; <lb/> aussitôt nos batteries ont fait feu
+    à peu près où ils pensoient qu'ils <lb/> étoient, ce qui aussitôt leur a fait rebrousser chemin,
+    à la réserve <lb/> de quelqu'unes qui ont continué leur route ; sçavoir si on a bien vu <lb/>
+    tout ce qui a passé car la nuit étoit fort obscure ; on a envoyé <lb/> 4 à 5 piquets de troupes
+    de terre et de la marine pour renforcer le <lb/> détachement que nous avons à l'Anse des Mères,
+    en cas que les <lb/> ennemis tenteroient dy faire une descente.</p>
+   <p> Les 5 déserteurs venus le 4 sont des allemands qui avoient été <lb/> pris l'année dernière en
+    venant icy ; ils rapportent qu'il y en a plus <lb/> de 200 dans le mesme goust et qui
+    n'attendent que l'occasion pour <pb n="52"/>
+    <lb/> déserter ; ces déserteurs ne sçavent pas grand chose ayant toujours <lb/> resté à bord des
+    vaisseaux ; on vient de les incorporer dans le régi̲ment<lb/> de Languedoc.</p>
+   <p> Pendant la nuit ils nous ont envoyé que 45 à 50 bombes, pots à feu <lb/> ou carcasses ; s'ils
+    ne nous en ont pas plus envoyé ils se sont bien <lb/> dédommagés à nous canonner ; heureusement
+    qu'ils ne nous ont <lb/> tué ou blessé personne ; mais pour les maisons elles sont criblées
+    <lb/> ou écrasées dans toutes les parties de la ville ; le château n'a encore <lb/> que 2
+    bombes, mais en récompense il a plus de 500 boulets.</p>
+   <p> Sur les 2 heures de l'après midy une frégatte de 30 canons est allée se <lb/> poster par le
+    travers de la Pointe de Lévy mais au large ; elle a tiré <lb/> une douzaine de coups de canon ;
+    on lui a riposté de 6 bombes dont <lb/> quelqu'unes l'ont approché de bien près, ce qui lui a
+    fait prendre <lb/> le parti de retourner d'où elle venoit.</p>
+   <p> Depuis 11 heures du matin les batteries du Sault canonnent notre <lb/> camp ; je ne sçais
+    point ce qu'ils tentent de ce costé là ne voyant <lb/> aucune berge ny même apparence de rien ;
+    ils nous amusent et la <lb/> suite nous apprendra leurs feintes ; Dieu veuille que nous
+    puissions <lb/> nous en garder.</p>
+   <p> Voicy un milicien qui m'apprend ce qui a occasionné la canonnade <lb/> de ce matin ; c'est un
+    épaulement qu'on fait à nos retranche̲mens,<lb/> on a été obligé d'abandonner l'ouvrage, le canon
+    nous incom̲modant<lb/> trop.</p>
+   <p> Un soldat du régiment de la Sarre a été emporté par un boulet. Mes̲sieurs<lb/> les Anglois
+    se sont fachés de ce que nos gens ont travaillé <lb/> hyer à nos batteries pendant la cession ;
+    il semble en vérité qu'ils <lb/> veulent déjà nous imposer des lois et qu'il n'y a qu'eux qui
+    puissent <lb/> faire ce qu'ils veulent ; il est vray aussi qu'on leur permet tout.</p>
+   <p> Voicy le rapport d'un prisonnier fait 3e à la Pointe de Lévy, qu'un <lb/> de leurs vaisseaux
+    venant de Louisbourg rapporte que la flotte fran̲çaise<lb/> a été repoussée d'Irlande, qu'ils
+    attendent incessamment la <lb/> jonction du général Amers qui est à Carillon, qu'ils doivent
+    nous <lb/> attaquer sous peu de jours, que le général Wolf avoit fait une revue <lb/> générale
+    de ses troupes, qu'il les avoit fort encouragées et même <lb/> assurés qu'ils perdroient moins
+    de monde dans l'attaque générale <lb/> qu'ils avoient à faire qu'ils n'avoient fait le 31
+    juillet ; qu'ils devoient <lb/> embosser 4 de leurs vaisseaux, mais qu'ils ne sçavoit pas où ;
+    qu'ils <lb/> devoient habiller 2000 matelots en uniforme pour faire une fausse <lb/> attaque et
+    que moyennant ces précautions il étoit moralement sûr <lb/> de réussir.</p>
+   <pb n="53"/>
+   <p> A midy précis il est arrivé du Sault un déserteur anglois qui confirme <lb/> le rapport du
+    prisonnier fait à la Pointe de Lévy et il ajoute qu'à <lb/> l'action du 31 juillet le second
+    commandant et même le Général <lb/> Wolf avoient été blessés mais légèrement et que le soldat de
+    <lb/> Béarn déserté le 5 a déposé que nous avions tant à Beauport qu'au <lb/> Sault 14000
+    hommes, et que dans l'action les troupes de terre avoient <lb/> été obligées de mettre la
+    bayonnette au bout du fusil pour courir <lb/> après les Canadiens qui se sauvoient, que nous ne
+    manquions <lb/> pas de pain mais que nous n'avions point de viande.</p>
+   <p> M. de Bougainville, colonel, est party sur les 11 heures du soir pour le <lb/> Cap Rouge avec
+    un détachement composé de grenadiers, soldats <lb/> et miliciens.</p>
+   <p>1759 août 7. Il est tombé ce matin une bombe dans mon jardin qui l'a labouré d'un <lb/> bout à
+    l'autre, renversé partie de la palissade ainsy que la porte.</p>
+   <p> Pendant la nuit les ennemis nous ont jetté 60 et quelques bombes ; <lb/> les vaisseaux
+    ennemis qui étoient mouillés devant le Cap Rouge <lb/> sont montés à la Pointe aux Trembles avec
+    beaucoup de berges.</p>
+   <p> Il y a eu cette nuit 3 hommes de tués et 11 de blessés par un boulet <lb/> sur la batterie de
+    M. Levasseur.</p>
+   <p> ” 8. Les ennemis nous ont jetté pendant la nuit 43 bombes ; la canonnade <lb/> a été
+    excessivement vive.</p>
+   <p> Entre midy et une heure, il y a eu une canonnade au Sault de la part <lb/> des ennemis qui a
+    duré environ demie heure ; je ne sçais qui l'a <lb/> occasionnée.</p>
+   <p> Il vient d'arriver un courrier d'en bas ; j'ignore ce qu'il raporte.</p>
+   <p> ” 9. Les ennemis nous ont canonnés et bombardés comme ils n'ont encore <lb/> jamais fait
+    beaucoup de pots à feu et carcasses dont quelqu'unes <lb/> ont embrasé la Basse Ville ; il y a
+    eu 140 à 150 maisons de rédui̲tes<lb/> en cendres ; depuis la maison du Sieur Boisseau à alér chés le
+    <lb/> Sieur Voyer dans le Cul de Sac tout est consumé à net.</p>
+   <p> II y a eu aujourd'huy 6 prisonniers de faits à la Rivière Détréchemin <lb/> 4 desquels ont
+    été faits par des sauvages et les 2 autres par des habitans <lb/> de la Pointe de Lévy ; 4
+    autres anglois ont été tués sur la place.</p>
+   <p> Nous venons d'aprendre que les anglois avoient tenté une descente <lb/> à la Pointe aux
+    Trembles dans le cours de la journée d'hyer ; ils y <lb/> avoient 28 berges et deux batteaux
+    portant de l'artillerie chargée <lb/> de troupes ; M. de Bougainville y étoit avec 3 à 400
+    hommes ; il <lb/> les a laissé aprocher de terre a demy portée du fusil après quoi il a <lb/>
+    fait faire feu sur eux ; les ennemis sans débarquer ont tenu une demi <lb/> heure et ensuite se
+    sont retirés en remorquant deux grandes berges <pb n="54"/>
+    <lb/> où il ne paroissoit presque plus personne ; on estime leur perte à <lb/> près de 300
+    hommes hors de combat ; nous y avons eu 5 hommes <lb/> de blessés dont un cavalier qui a eu un
+    coup mortel. M. de Bou̲gainville<lb/> a vu son cheval blessé entre ses jambes, ce qui l'a fait <lb/>
+    tomber à terre ; les ennemis l'ayant aperçu l'ont cru mort et ont <lb/> aussytôt crié houra,
+    mais il s'est relevé et a fait crier vive le Roy.</p>
+   <p>1759 août 10. Les ennemis continuent toujours de bombarder; la plus grande partie <lb/> de
+    leurs bombes tombe dans le quartier St. Roch ; plusieurs maisons <lb/> en sont dejà écrasées ;
+    cependant ils commencent à partager leurs <lb/> faveurs sur tous les quartiers de la ville ; ils
+    ne veulent pas faire de <lb/> jaloux.</p>
+   <p> M. le Mercier est party d'hyer au soir à 8 heures pour Montréal ; <lb/> j'ignore le sujet de
+    son voyage d'autant qu'il ne s'expose pas beaucoup <lb/> icy ; je souhaite qu'il revienne en peu
+    car autrement il n'y <lb/> aurait plus de parlementaire.</p>
+   <p> Nous venons d'aprendre que les anglois ont débarqué à Ste Croix et <lb/> à St. Nicolas, qu'il
+    s'y étoit trouvé quelques habitans qui les avoient <lb/> fusillés l'espace de demy heure après
+    quoi ils avoient été obligés de <lb/> gagner le bois ; aussitôt les ennemis ont monté le
+    cotteau, s'y sont <lb/> rangés en bataille et ont battu la caisse ; on pense qu'ils ont perdu
+    <lb/> quelqu'un dans cette affaire.</p>
+   <p> ” 11. Dès la pointe du jour nous avons entendu de la mousquetterie au Sault <lb/> par trois
+    reprises ; sur les 7 heures il y en a eu une beaucoup plus <lb/> considérable qui a duré près
+    d'une heure d'un feu très vif ; nous y <lb/> avons des Canadiens et des sauvages qui y
+    traversèrent hyer ; il y <lb/> a eu ensuite de la canonnade de part et d'autre.</p>
+   <p> Une goelette angloise a apareillé de l'Ange Gardien et est venue rejoindre <lb/> les
+    vaisseaux qui sont dans le bassin ; elle a reçu quelques coups de <lb/> canon en passant dont un
+    a porté à son bord.</p>
+   <p> On aperçoit d'icy une nouvelle batterie que les anglois viennent de <lb/> démasquer à la
+    Pointe de Lévy ; c'est apparemment pour tirer sur <lb/> le quartier du Palais et sur St.
+    Roch.</p>
+   <p> Pendant la nuit dernière les ennemis nous ont canonnés et bombardés <lb/> à l'ordinaire ; ils
+    ont jetté 24 pots à feu et carcasses remplis de gre̲nades<lb/> et de petits canons, la plus grande
+    partie ont tombé à la Basse <lb/> Ville ; nous avons eu un soldat qui a eu la teste emportée par
+    une <lb/> bombe sur une de nos batteries.</p>
+   <p> Voicy le résultat de la fusillade de ce matin ; nous y avions 300 <lb/> canadiens et environ
+    autant de sauvages ; ils ont fait leurs aproches <lb/> pendant la nuit et ont attaqué environ
+    500 hommes dont partie <pb n="55"/>
+    <lb/> étoient des travailleurs ; nos gens ont fait une furieuse décharge <lb/> sur eux, qui en a
+    mis beaucoup hors de combat ; les ennemis se sont <lb/> repliés aussitôt sur leur camp ; nos
+    gens les poursuivoient toujours <lb/> en tirant de façon que le gros de l'armée est venu à leur
+    secours qui <lb/> ont fait plier nos gens à leur tour ; on estime leur perte à 150 hommes <lb/>
+    tués et beaucoup de blessés ; nous y avons eu 2 miliciens de tués <lb/> et 5 de blessés ainsy
+    qu'un sauvage outaois pris ou tué ; tous les <lb/> sauvages n'ont point donné ; une partie ont
+    tiré de l'arière.</p>
+   <p> On a fait ce jourd'huy un prisonnier à la pointe de Lévy ; j'ignore ce <lb/> qu'il raporte ;
+    on vient de le conduire au quartier général.</p>
+   <p>1759 août 12 Sur les 10 heures de la nuit dernière il y a eu une alerte dans la place ; <lb/>
+    2 ou 3 vaisseaux ayant apareillé ont voulu passer, mais nos patrouilles <lb/> ont averty, nos
+    batteries ont fait un feu des plus vifs ce qui a fait <lb/> qu'ils n'ont pas osé passer ; ayant
+    le vent favorable ils ont reviré de <lb/> bord et sont allés mouiller d'où ils partoient ; un
+    petit batteau a <lb/> poursuivy sa route en rangant la coste du sud. Il a échoué <lb/> devant
+    Samos sur les batures ; notre batterie tire dessus, je croy <lb/> qu'elle n'y fait pas grand
+    mal.</p>
+   <p> A minuit 5 bombes et un pot à feu ont tombé dans notre camp plus <lb/> loin que chés Giroux ;
+    il est surprenant qu'elles aillent sy loin ; <lb/> à la vérité elles ne sont que de 9 pouces ; 3
+    autres ont aussy tombé <lb/> plus loin que la maison de Manseau de l'autre costé des Epines.</p>
+   <p> ” 13 Pendant toute la nuit les ennemis nous ont canonnés et bombardés <lb/> sans aucune
+    relache ; heureusement qu'il n'y a eu personne de tué <lb/> ny de blessé.</p>
+   <p> M. le Chevalier de Bernetz, commandant à la Basse Ville, se <lb/> repose pour quelques jours
+    ; ce sera des officiers des troupes de terre <lb/> qui y commanderont en son absence.</p>
+   <p> Sur les 6 heures du matin ils ont pris la direction de leurs bombes <lb/> sur les 2 vaisseaux
+    que nous avons en batterie à l'entrée de la petite <lb/> rivière</p>
+   <p> Un enfant a été tué dans une maison à St. Roch, ainsy qu'une femme <lb/> blessée par des
+    éclats de bombes.</p>
+   <p> Nous avons eu une pièce de canon de démontée à une batterie entre le <lb/> chatteau et la
+    maison du grand Girard par une bombe qui a tombé <lb/> sur la plate forme ; les boulets qui
+    touchent les murs de la Basse <lb/> Ville font écrouler au moins une toise de maçonne.</p>
+   <p> ” 14. M de Ramezay est alé se reposer à l'hôpital général ; c'est M. de <lb/> Privat
+    lieutenant colonel qui commande en sa place.</p>
+   <p> L'officier anglois fait prisonnier dans l'action du 3 juillet est mort <lb/> de cette nuit ;
+    les peines et soins et remèdes des chirurgiens n'ont <pb n="56"/>
+    <lb/> pu le rappeler à la vie ny le guérir d'une blessure mortelle ; il est <lb/> regretté de
+    tout le monde en général.</p>
+   <p> Nous venons d'avoir sur les batteries des ramparts deux hommes <lb/> blessés à mort par un
+    boulet ; ils recommencent à jetter des bombes <lb/> sur le quartier St. Roch et sur les
+    vaisseaux en batterie.</p>
+   <p> Nous venons d'aprendre que les ennemis ont incendié la paroisse de <lb/> St. Antoine, ainsi
+    qu'une partie de St. Nicolas ; ils ont cependant <lb/> épargné les églises.</p>
+   <p>1759 août 15. Une bombe a tombé sur la potasse et a manqué d'y communiquer le <lb/> feu, par
+    de l'étoupe qui étoit près de là.</p>
+   <p> Nous venons d'aprendre par des habitans de la baye St. Paul que <lb/> les ennemis avoient
+    incendié une quarantaine de maisons au dit lieu ; <lb/> nous y avons 25 ou 30 habitans qui se
+    sont battus autant qu'ils ont <lb/> pu ; il y a eu une maison appartenant au Sieur Bazin qui a
+    été épar̲gnée<lb/> des flames ; après que les ennemis ont été retirés nos gens y <lb/> ont
+    été dedans ; ils y ont trouvé des traces de sang, ainsy que 10 <lb/> à 12 mouchoirs qui en
+    étoient aussi pénétrés, ce qui fait présumer <lb/> qu'ils ont quelques morts ou blessés.</p>
+   <p> Sur les 2 heures après midy un matelot a eu les deux jambes emportées <lb/> par un boulet sur
+    les batteries de M. Levasseur.</p>
+   <p> ” 16. Sur les 9 heures 1/2 du soir de la nuit dernière une carcasse a tombé <lb/> sur la
+    maison de Madame Vaucourt entre les Jésuites et les <lb/> Ursulines ; aussitôt elle a été
+    embrasée et réduite en cendre ; on a <lb/> arrêté le progrès du feu en abattant les maisons
+    voisines.</p>
+   <p> Un matelot a eu la teste emportée par un éclat de bombe en travaillant <lb/> à un épaulement
+    qu'on fait pour couvrir les batteries du rampart. <lb/> Sur les 5 heures 1/2 du soir de la
+    journée d'hyer le feu se communiqua <lb/> à un de nos jacobites que nous avons au Sault par une
+    mèche alumée <lb/> qui le communiqua aux poudres ; tout le monde s'est sauvé et il <lb/> n'y a
+    eu que le jacobite de perdu.</p>
+   <p> 3 déserteurs anglois se sont rendus ces jours icy à quelques habitans <lb/> que nous avons à
+    St. Henry, on vient de les amener et comme il se <lb/> fait tard ils ne seront point menés au
+    quartier général que demain <lb/> matin.</p>
+   <p> ” 17 Depuis 10 heures du soir jusqu'à 8 heures du matin les ennemis ont fait <lb/> un feu
+    continuel soit de bombes ou de canons ; cependant je ne sache <lb/> pas qu'il nous soit arrivé
+    aucun accident sur les batteries ny ailleurs.</p>
+   <p> Sur les 4 heures après midi, un matelot a été blessé à mort par un éclat <lb/> de bombe ;
+    plusieurs ont tombé de l'autre costé de la petite rivière ; <lb/> il y a au moins 3/4 de lieux à
+    bonne mesure d'où ils tirent ; il est <pb n="57"/>
+    <lb/> surprenant qu'elles aillent si loin ; si on s'en étoit raporté à quelques <lb/> artilleurs
+    elles ne devoient tout au plus tomber que dans la Haute <lb/> Ville, preuve certaine que ces
+    Messieurs sçavent bien leur métier.</p>
+   <p>1759 août 18. Les ennemis continuent toujours de nous canonner et bombarder ; <lb/> 15 pots à
+    feu et carcasses ont tombé aux environs des Récolets.</p>
+   <p> Sur les 5 heures 1/2 du soir une goelette et un batteau ont apareillé du <lb/> bassin et se
+    sont rendus à l'Ange Gardien ; ils font toutes sortes de <lb/> manoeuvre sans qu'on puisse
+    pénétrer leurs desseins ; cependant je <lb/> pense qu'ils veullent déblayer du Sault.</p>
+   <p> ” 19. Il vient de nous arriver 3 déserteurs qui ont été amenés par des habitans <lb/> de la
+    Pointe de Lévy ; je ne sçais point encore ce qu'ils raportent.</p>
+   <p> Nous avions un détachement de 4 à 500 hommes le long de la coste <lb/> de Beaupré ; ils
+    viennent d'ariver sans avoir rien fait.</p>
+   <p> Il y a eu beaucoup de canonnade du costé de la Pointe aux Trembles ; <lb/> nous ignorons
+    encore ce qui s'y est passé.</p>
+   <p> Un 4e déserteur s'est encore rendu ici ; voicy ce qu'il raporte ; que les <lb/> anglois ne
+    doivent pas rester longtemps ici, qu'il l'a entendu dire <lb/> à deux officiers qui parloient
+    ensemble, mais qu'auparavant ils devoient <lb/> faire une attaque générale, mais qu'il ne
+    sçavoit pas dans quelle <lb/> partie elle devoit se faire.</p>
+   <p> ” 20. Nous aprenons que les ennemis avoient fait une descente hyer à <lb/> Déchambeault, que
+    M. de Bougainville avec 200 grenadiers et <lb/> la cavalerie s'y étoit rendu en peu de tems, et
+    qu'aussitôt les ennemis <lb/> s'étoient rembarqués, et avant son arrivée, ils avoient incendié
+    <lb/> trois maisons dont celle du Sieur Perault en est une qui servoit <lb/> de magasin pour les
+    effets des troupes de terre ; nous y avons fait <lb/> 2 prisonniers. Aussitôt qu'on a apris que
+    les ennemis avoient fait <lb/> une descente à Déchambault, Monsieur de Montcalm et de Mon̲treuil<lb/>
+    ont party pour s'y rendre avec 3 compagnies de grena̲diers ;<lb/> lorsqu'ils ont été
+    à la Pointe aux Trembles ils ont appris que <lb/> les ennemis étoient rembarqués ; ils ont
+    rebroussé chemin et sont <lb/> revenus aussitôt.</p>
+   <p> Sur les 9 heures du matin il y a eu de la canonnade au Sault d'un costé <lb/> et d'autre,
+    mais il paroist que les ennemis n'ont plus autant d'artillerie <lb/> qu'ils y en avoient ; on
+    dit aussy qu'ils en ôtent tous les jours.</p>
+   <p> On vient d'amener trois prisonniers qui ont été faits par des habitans, <lb/> je ne sçais
+    point ce qu'ils raportent.</p>
+   <p> Un déserteur anglois vient de se rendre à notre camp du Sault ; voicy <lb/> ce qu'il raporte
+    ; qu'il y avoit aujourd'hui conseil de guerre, que <lb/> l'amiral Sunder étoit rapelé en Europe,
+    que c'étoit une frégate <pb n="58"/>
+    <lb/> nouvellement arivée qui en avoit aporté les ordres, que les françois <lb/> avoient fait
+    une descente en Irlande et qu'enfin sous peu de jours <lb/> il devoient tous partir pour s'en
+    alér ; Dieu le veuille.</p>
+   <p> Un courier vient d'ariver d'en bas avec plusieurs lettres ; je ne sçais <lb/> ce qu'elles
+    contiennent ny même d'où ce courier vient ; le Sieur <lb/> Durand Dunière qui étoit à Gaspé et
+    que l'on contait pris par <lb/> les anglois est venu avec lui jusqu'à Capmouraska où il est
+    resté; <lb/> il raporte qu'il y a plus de 40 vaisseaux des ennemis qui sont des̲cendus<lb/> dont 32
+    sont encore mouillés du costé du dit Capmouraska, <lb/> qu'ils avoient incendié plusieurs
+    maisons le long de cette coste, <lb/> qu'ils avoient été repoussés par une 30ne d'habitans dudit
+    lieu.</p>
+   <p>1759 août 21. Les ennemis nous ont laissé assés tranquile toute la nuit ; je ne crois <lb/>
+    pourtant pas que ce soit par amitié, mais comme il a beaucoup <lb/> plu je pense que c'est ce
+    qui les a empêchés de se divertir comme à <lb/> l'ordinaire ; à 4 heures du matin ils nous ont
+    réveillé par une double <lb/> décharge de boulets et de bombes.</p>
+   <p> Sur les 4 heures du soir, un matelot a eu le ventre emporté par un <lb/> éclat de bombe sur
+    les batteries du rempart, il est mort une demie <lb/> heure après.</p>
+   <p> Un sauvage outa8ois qui avoit été pris par les anglois il y a 10 jours <lb/> s'est échapé du
+    bord d'un vaisseau où il avoit été transporté ; il <lb/> s'est jetté à la nage, a traversé à la
+    Pointe de Lévy, et du dit lieu <lb/> a traversé de ce costé icy où il vient de se rendre ; il se
+    plaint d'avoir <lb/> été bien maltraité par les anglois ; si cela est je plains ceux qui
+    tom̲beront<lb/> en son pouvoir.</p>
+   <p> Depuis les 5 heures du soir jusqu'à 8 il y a eu beaucoup de canonnade <lb/> au Sault de la
+    part des françois et des anglois ; je ne sçais point qui <lb/> a pu exiter cette canonnade.</p>
+   <p> ” 22. Pendant une partie de la nuit il a beaucoup plu; les ennemis n'ont <lb/> pas fait un
+    grand feu ; la pluie les a sandoute empêchés de se divertir <lb/> comme à l'ordinaire.</p>
+   <p> On avoit projetté d'envoyer le Sieur le Gris à la Pointe de Lévy avec <lb/> 100 hommes de
+    milice ; ce projet n'a point eu lieu, j'en ignore la <lb/> cause.</p>
+   <p> ” 23. Les ennemis canonnent et bombardent à l'ordinaire en aissayant de <lb/> faire le plus
+    de mal qu'ils peuvent ; il n'y a eu rien de remarquable <lb/> en ce jour. </p>
+   <p> ” 24. Les ennemis incendient les campagnes au nord ainsy que sur l'Isle <lb/> d'Orléans.</p>
+    <pb n="59"/>
+    <p> Deux soldats de la marine désertant du camp de Beauport ont été <lb/> arrêtés par un soldat
+     de la Sarre qui étoit en faction ; il en a tué un et <lb/> arrêté l'autre.</p>
+    <p>1759 août 25. Le Sieur Durand Dunière vient d'ariver ce jourd'huy avec un françois <lb/>
+     déserté de Louisbourg ; ce dernier raporte que les anglois ont bien <lb/> peu de monde au dit
+     lieu ; les anglois continuent toujours d'incendier <lb/> nos campagnes.</p>
+    <p> 3 sauvages loups et 2 officiers anglois venant aporter des lettres du <lb/> général Amerst
+     au général Hwolf ont été pris par des sauvages <lb/> abénakis, qui les ont amenés à bord de
+      l'<hi rend="ital">Atalente</hi> commandée par M. <lb/> Vauquelin qui est audessus de
+     Richelieu. Ces lettres ont été envoyées <lb/> à M. de Vaudreuil ; on dit que ce général écry à
+     celui d'icy qu'il <lb/> ne voit pas d'aparence qu'il puisse forcer l'Isle aux Noix et que par
+     <lb/> conséquent il ne devoit point compter sur la jonction des deux armées.</p>
+    <p> Deux des batiments qui étoient en haut sont descendus ce jourd'hui <lb/> à Sillery ; on les
+     attend à passer cette nuit.</p>
+    <p> ” 26. Les ennemis ont tiré avec toute la vigueur possible ; à une heure après <lb/> midy un
+     canonnier bombardier a eu les jambes emportées par un <lb/> boulet sur les batteries du
+     rempart.</p>
+    <p> Voilà quelques jours qu'il ne nous jettent ny carcasses ny pots à feu ; <lb/> il ne seroit
+     pas surprenant qu'ils en manquassent eu égard à la grande <lb/> quantité qu'ils nous ont
+     envoyé.</p>
+    <p> Nous venons d 'aprendre que les ennemis avoient levé le camp qu'ils <lb/> avoient à St.
+     Antoine, et qu'ils se tentoient plus haut ; nous avons <lb/> entendu beaucoup de canonnade du
+     costé de la Pointe aux Trembles ; <lb/> nous ne sçavons point encore ce qu'il y a de
+     nouveau.</p>
+    <p> Monsieur de Bougainville colonel est dans cette partie avec 1400 <lb/> hommes ; il fait la
+     même manoeuvre qu'il voit faire aux vaisseaux <lb/> ennemis ; il a beaucoup de terrain à garder
+     ; je crains toujours <lb/> quelques surprises.</p>
+   <p> On vient de détacher 5 à 600 hommes matelots qui servoient aux batte̲ries ;<lb/> c'est M.
+     le Munitionnaire qui les a passés en revue au quartier <lb/> St. Roch ; je croi que c'est pour
+     quelques expéditions qu'on veut faire <lb/> sur les vaisseaux ennemis qui sont en haut ; pour
+     cet effet <lb/> on vient de les faire embarquer dans une 50ne de batteaux à l'entrée <lb/> de
+     la petite rivière à la vue des ennemis ; aussy ils ont fait voir <lb/> qu'ils voyoient ce
+     mouvement ; ils ont tiré sur les batteries pendant <lb/> une heure et même plusieurs en ont été
+     percées mais personne n'a <lb/> eu aucun mal et les batteaux sont tous partis; je crains
+     beaucoup que <lb/> ce projet ne réussisse pas ; la suite nous l'aprendra.</p>
+    <pb n="60"/>
+    <p>1759 août 27. Dans le cours de la journée d'hyer un sergent anglois (310) déserta <lb/> du
+     Sault à la vue des ennemis ; il traversa en bas et vint joindre <lb/> notre camp ; les anglois
+     lui tirèrent plusieurs coups de canon à <lb/> mitraille ainsy que plus de 400 coups de fusil,
+     mais il a été assés <lb/> heureux pour n'en point être frapé.</p>
+    <p> Nous venons d'aprendre qu'une 30ne de sauvages et 3 françois avoient <lb/> chassé avant hyer
+     les anglois qui étoient à St. Antoine ; ils s'embar̲quèrent<lb/> avec beaucoup de précipitation à
+     bord de leurs vaisseaux.</p>
+    <p> Une de nos carcassières s'est battue contre une frégatte angloise ; <lb/> je ne sçais pas si
+     elle aura été endommagée comme on le dit.</p>
+    <p> On raporte que les anglois n'ont point fait de mal aux grains le long <lb/> de la coste du
+     sud ; ils se sont contentés d'y brusler quelques maisons.</p>
+    <p> Voicy la déposition du déserteur qui nous arriva hyer ; il raporte <lb/> qu'ils ont beaucoup
+     de maladie ; le général Hwolf même a la fièvre <lb/> depuis plusieurs jours, que ces maladies
+     proviennent de beau̲coup<lb/> de fatigues qu'ils ont essuyée pendant le siège, étant
+     conti̲nuellement<lb/> en alerte, craignant d'estre attaqués, que les vaisseaux <lb/> de guerre sont
+     rapellés d'Europe, qu'ils comptent partir avant la <lb/> moisson des grains ; ce sergent étoit
+     un homme entendu parmy eux <lb/> et qui étoit à la teste de 50 hommes pour les découvertes dont
+     il <lb/> s'étoit jusqu'alors très bien acquité, mais qu'il avoit déserté par <lb/> quelques
+     disgrâce qu'il avoit eue.</p>
+    <p> Le Sieur Courval party pour aler rejoindre son batiment qui est à <lb/> Batiscan, en passant
+     par Jacques Cartier, un soldat en faction l'a <lb/> pris pour un anglois et lui a tiré un coup
+     de fusil qui lui a cassé la <lb/> cuisse ; on le dit en grand danger de la vie d'autant qu'on
+     ne peut <lb/> lui faire l'amputation.</p>
+    <p> On vient de casser la teste à un soldat de marine arrêté le 24 en désertant <lb/> aux
+     ennemis.</p>
+    <p> Nos carcassières ont eu affaire ce matin avec une frégatte angloise <lb/> aux environs du
+     Cap Rouge ; je ne sçais point le mal qu'ils y ont fait <lb/> mais nous y avons eu un homme de
+     tué et un autre le bras emporté.</p>
+    <p> ” 28. Hyer sur les 9 heures du soir, cinq frégattes angloises ont appareillé <lb/> de flot
+     les vents étant de la part du nordet, ils ont passé devant la <lb/> ville ; ils ont essuyé le
+     feu de nos batteries qui ne les ont pas fort <lb/> endommagées ; ils ont poursuivy leurs route
+     jusqu'au Cap Rouge <lb/> où ils ont mouillé ; il n'est pas douteux qu'ayant eu connoissance
+     <lb/> de nos mouvemens ils envoyent ce renfort à leurs vaisseaux qui sont <lb/> en haut.</p>
+    <pb n="61"/>
+   <lb/> <p>2 hommes ont été tués, un autre la cuisse cassée et 18 blessés légèrement <lb/> ou bruslés
+    par des gargousses qui ont pris feu sur la batterie Dau̲phine.</p>
+   <p> Suivant toutes les aparences le projet du munitionnaire qui devoit <lb/> avec ces vaisseaux
+    prendre ceux des ennemis qui sont en haut vat <lb/> tomber de lui même, de la façon dont on
+    manoeuvre et la con̲duite<lb/> de ceux qui s'y emploient, il n'est pas surprenant qu'on ne <lb/>
+    réussisse pas, les bouchers sont fait pour tuer des boeufs et non pour <lb/> commandér des
+    armées, à moins que ce ne soit des armées cornues.</p>
+   <p> A 4 heures après midy le lieutenant de M. Vauquelin est venu <lb/> de la part de son
+    commandant faire des représentations à M. de Vau̲dreuil<lb/> touchant cette fameuse expédition ; ce
+    que j'en puis penser <lb/> est que si ce projet a lieu, ce que je ne pense pas, ce sera M.
+    Vau̲quelin<lb/> qui y commandera.</p>
+   <p>1759 août 29. Nous aprenons que tous les bâtimens anglois sont descendus à St̲Augustin<lb/> où ils
+    sont actuellement à l'ancre ; je pense qu'ils tentent <lb/> une descente dans cette partie.</p>
+   <p> Nous voyons de l'autre costé du Sault 7 à 8 bateaux anglois y compris <lb/> ceux qui y
+    étoient d'ancienne datte, on y tire quelques coups de <lb/> canon de part et d'autre ; j'ignore
+    ce qu'ils ont dessein d'y faire.</p>
+   <p> Il vient de nous ariver 2 déserteurs anglois qui se sont joint à quelques <lb/> habitans que
+    nous avons de l'autre costé du Sault ; ils raportent <lb/> qu'avant qu'il soit peut les ennemis
+    evacueront cette partie, qu'en̲suite<lb/> ils doivent entrer dans l'Isle pour la ravager, et
+    qu'ils comptent <lb/> rester encore un mois.</p>
+   <p> Sur les 6 heures du soir, M. de Lusignan écry à M. de Bougainville <lb/> qui venoit d'ariver
+    à nos tentes et qui de là devoit alér au quar̲tier<lb/> général, il marque qu'il voit à la Pointe de
+    Lévy un corps de <lb/> troupes angloises sur 3 colonnes qui montent du costé de la rivière <lb/>
+    Detréchemins, qu'il estime qu'il y a environ 3000 hommes ; M. de <lb/> Bougainville n'a pas été
+    plus loin; au contraire il a retourné à son <lb/> poste, après avoir envoyé la lettre de M.
+    Lusignan à M. de Vau̲dreuil.</p>
+   <p> Le projet de prendre les vaisseaux ennemis est enfin évanouy ; les <lb/> matelots viennent
+    d'ariver ; cette expédition a couté seulement <lb/> 18 hommes qui se sont noyés dans le
+    Richelieu ; nous courions <lb/> risque d'en perdre davantage sy ce projet eut eu lieu.</p>
+   <p> ” 30. Hyer à 10 heures 1/2 du soir, les ennemis ont canonné à St Augustin <lb/> pendant 1/4
+    d'heures après quoi il y a eu une grande fusillade qui a <lb/> duré jusqu'à minuit ; nous ne
+    sçavons point encore ce qu'il y a eu.</p>
+   <pb n="62"/>
+   <p> Hyer au soir un soldat anglois déserta du Sault à la vue des ennemis ; <lb/> c'est un
+    allemand pris dans Louisbourg l'année dernière qu'ils on <lb/> incorporé dans Royal Amériquain ;
+    voicy ce qu'il raporte, que le <lb/> général Hwolf est toujours malade de la fièvre, que 8 de
+    leurs officiers <lb/> dont un capitaine en est un ont envoyé leurs males et leurs lits à <lb/>
+    bord des vaisseaux, qu'ils attendent pour partir que les bleds soient <lb/> meures pour les
+    brusler, qu'il a aussy vu 4 déserteurs françois de <lb/> différents uniformes, qu'ils ont encore
+    au Sault 3 grosses pièces <lb/> de canon et 16 petites pièces de campagne, que les autres sont
+    rem̲barqués ;<lb/> voilà tout ce que j'ai sçu de son raport.</p>
+   <p> Nous avons apris que les anglois n'avoient point débarqué à St. Augus̲tin,<lb/> qu'ils
+    avoient fait un grand feu de canon et de mousquetteries, <lb/> et qu'ensuite toutes leurs berges
+    étoient venues à une petite distance <lb/> à terre comme pour débarquer, qu'ils avoient resté 2
+    heures consé̲cutifs<lb/> dans cette position en faisant une grande fusillade à 2 reprises,
+    <lb/> que nos gens n'y avoient pas répondu d'un seul coup de fusil, et finale̲ment<lb/> à
+    minuit ils avoient sonné les cloches et battu de la caisse à bord <lb/> qu'aussitôt ils
+    s'étoient embarqués, on ne sçait pas à quelle dessein ils <lb/> ont fait cette feinte à moins
+    que ce ne soit pour nous inquietter et <lb/> nous faire faire diversion.</p>
+   <p> Hyer on suprima partie de la ration ; au lieu d'une livre de pain qu'on <lb/> donnoit, on
+    n'en donne plus que 12 onces, mais le Roy gratifie d'un <lb/> misérable [coup] deaudevie par
+    ration ; le munitionnaire <lb/> doit payer le pain retranché suivant l'ordre de Monsieur
+    l'intendant, <lb/> mais je pense qu'il contreviendra souvent à cette ordonnance.</p>
+   <p>1759 août 31 Les ennemis paroissent faire quelques mouvemens du costé du Sault, <lb/> il y a
+    plus de 50 berges le long de terre, beaucoup de monde sur le <lb/> rivage ainsy que dans les
+    berges.</p>
+   <p> Les vaisseaux qu'ils avoient en haut sont descendus de ce matin au <lb/> Cap Rouge ; à 2
+    heures après midy on vient de nous dire qu'ils remon̲toient<lb/> en hault ; on ne sçait en
+    vérité que pensér de leurs manoeuvres, <lb/> mais je crains fort qu'elle ne nous trompe, comme
+    elle a déjà fait <lb/> plusieurs fois.</p>
+   <p> Sur les 11 heures du soir nous avons entendu tirér 7 à 8 coups de fusil <lb/> sur la rivière
+    du costé du bassin ; un peu de tems après on a crié de <lb/> prendre garde aux batteries, qui
+    peu de tems après ont fait un feu <lb/> des plus vifs de boulets et de bombes ; les batteries de
+    la Basse Ville <lb/> je dis de la Pointe de Lévy ont riposté vigoureusement ; le feu a <lb/>
+    duré plus d'une heure ; il n'est pas douteux qu'il a passé des vais̲seaux<lb/> d'autant que
+    peu de tems après notre batterie de Samos <pb n="63"/>
+    <lb/> a tiré plus de 20 coups de canon, mais tout cela je croy sans aucun <lb/> effet.</p>
+   <p>1759 sept. 1. Nous aprenons que pendant la canonnade de cette nuit il a passé 5 <lb/> batimens
+    anglois ; ils ont monté jusqu'à Sillery et on dit qu'un a <lb/> été maltraité en passant et
+    mesme on a entendu quelqu'un crier <lb/> à bord ; on pense que c'est un blessé.</p>
+   <p> Un matelot a été écrasé par une bombe qui lui a tombé sur le corps <lb/> à la batterie
+    Dauphine ; 2 autres ont été blessés légèrement par les <lb/> éclats.</p>
+   <p> Nous venons d'aprendre que le navire la <hi rend="ital">Manon</hi> appartenant <lb/> au
+    munitionnaire s'étoit perdu audessus des Grondines en descendant <lb/> pour se rallier aux
+    frégattes <hi rend="ital">l'Atalante</hi> et <hi rend="ital">la Pomonne</hi>.</p>
+   <p> Les ennemis ont incendié toutes les maisons de l'Ange Gardien, ou <lb/> plutôt depuis St.
+    Joachim à venir au Sault ; nous pensons qu'ils <lb/> veulent déblayér de cette partie.</p>
+   <p> Voilà au moins 20 ou 25 batimens montés en hault, des troupes qu'on <lb/> a vues monter en
+    corps par terre avec armes et bagages, on les voit <lb/> déblayer du Sault, tout cela ne fait
+    rien ; on garde constamment <lb/> Beauport ; on croy aparemment qu'il est impossible qu'il
+    puisse <lb/> débarquer ailleurs ; je le souhaite mais je crains qu'on ne se trompe.</p>
+   <p> ” 2. Les batimens que les anglois avoient à l'Ange Gardien se sont retirés <lb/> et ont été
+    rejoindre ceux qui sont dans le bassin à la réserve cepen̲dant<lb/> d'une frégatte et un brigantin
+    qui sont restés à leurs même <lb/> mouillage ; avant de déblayer, ils ont mis le feu à 2 maisons
+    qui <lb/> leurs servoient de corps de garde au Sault ; on estime le tord qu'ils <lb/> ont fait
+    dans ces campagnes à un tiers.</p>
+   <p> Les batimens anglois sont redescendus à Sillerie où ils sont mouillés.</p>
+   <p> ” 3. Les ennemis ont déblayé tout à fait du Sault ; plus de 200 berges ou <lb/> chaloupes y
+    ont été occupées pour les transports des troupes et de <lb/> l'artillerie ; on leur a tiré
+    beaucoup de coups de canon et plusieurs <lb/> berges en ont été coulées.</p>
+   <p> Ce même jour les troupes angloises se sont fait voir en corps de bataille <lb/> à la Pointe
+    de Lévy derrière leurs batteries, et même ils ont fait <lb/> un petit camp un peu plus
+    éloigné.</p>
+   <p> Sur les 7 heures du soir les ennemis ont tenté de faire une descente <lb/> au Cap Rouge ; ils
+    ont envoyé 2 batteaux armés d'artillerie qui <lb/> précédoient leurs berges, mais nos
+    carcassières s'y sont trouvées <lb/> qui les ont reçues d'une bonne façon ; ils ont aussi essuyé
+    quelques <lb/> coups de fusil tirés par nos sauvages mais hors portée, ils se sont aussi̲tôt<lb/>
+    retirés et ont été rejoindre leurs vaisseaux.</p>
+   <pb n="64"/>
+   <p>1759 sept. 4. Les vaisseaux ennemis restent toujours à l'ancre aux environs de <lb/>
+    Sillery.</p>
+   <p> Sur les 2 heures du soir le régiment de Guyenne est venu camper <lb/> à la redoute du
+    passage, pour être à portée de se transporter où il <lb/> sera nécessaire.</p>
+   <p> ” 5. A midy il vient de nous arivér un déserteur anglois, il raporte qu'ils <lb/> étoient
+    deux mais que les ennemis ayant eu connoissance de leurs <lb/> désertion avoient donné après,
+    avoient tiré sur eux dont son camarade <lb/> avoit été blessé à la jambe, qu'ils l'avoient pris
+    n'ayant pu se sauver ; <lb/> il dit aussi que le dessein des anglois étoit de forcer beaucoup
+    avant <lb/> leur départ et qu'ils devoient faire défiler du monde le long de la <lb/> coste du
+    sud pour incendier le reste des campagnes.</p>
+   <p> ” 6. Un petit batteau a passé devant la ville sur les 3 heures après <lb/> midy, les vents
+    étant de la part du nord douest ; on a tiré vainement <lb/> beaucoup de coups de canon sans
+    l'avoir frapé que d'un seul boulet <lb/> dans sa voile ; pendant ce tems les batteries de la
+    Pointe de Lévy <lb/> ont fait un grand feu ; ils nous ont tué un officier et 2 matelots <lb/>
+    sur la batterie Dauphine par un boulet, un 4e a été blessé.</p>
+   <p> ” 7. Les ennemis continuent à nous canonner et bombarder comme à l'ordi̲naire<lb/> et même avec
+    plus de vivacité, ils font divers mouvemens avec <lb/> leurs bâtimens du Cap Rouge à la Pointe
+    aux Trembles, sans faire <lb/> aucune descente quoique leurs troupes soient le plus souvent dans
+    <lb/> leurs berges et chaloupes.</p>
+   <p> ” 8. Rien de nouveau sy ce n'est le régiment de Guyenne qui a été au Cap <lb/> Rouge
+    craignant que les ennemis ne tentassent quelques descentes <lb/> dans ces parties, M. Devergor
+    reste constamment avec environ <lb/> 150 hommes aux environs du Foulon, et le fils de M.
+    Lafontaine <lb/> à l'Anse des Mères avec 15 ou 20 ; voilà tout le monde que nous <lb/> avons
+    dans cet endroit qui suivant moy est exposé.</p>
+   <p> ” 9. Dès le matin le régiment de Guyenne est revenu prendre son poste <lb/> à la redoute du
+    passage, ayant passé la nuit aux environs du Cap <lb/> Rouge la pluie sur le corps ; les ennemis
+    tirent toujours beaucoup <lb/> de la Pointe de Lévy.</p>
+   <p> ” 10. Nous venons d'aprendre que les ennemis embarquent du bois dans <lb/> leurs vaisseaux
+    qui sont en hault ; ils vont et viennent incessamment <lb/> depuis la Pointe aux Trembles
+    jusqu'à Sillery ; on dit aussy qu'ils <lb/> embarquent de leurs artilleries qu'ils ont à la
+    Pointe de Lévy.</p>
+   <p> ” 11. Tous les vaisseaux anglois à la réserve de deux qui sont devant la <lb/> Pointe aux
+    Trembles, sont descendus à Sillerie, on pense qu'ils veulent <lb/> repasser ; Dieu le veuille,
+    mais je crains toujours quelques surprises.</p>
+   <pb n="65"/>
+   <p>1759 sept. 12. Les vaisseaux n'ont point bougé dou ils étoient hyer, les vents sont <lb/>
+    cependant de la part du sud d'ouest bon frais et le tems très beau ; <lb/> ils nous canonnent et
+    nous bombardent toujours beaucoup de la <lb/> Pointe de Lévy.</p>
+   <p> ” 13. A la pointe du jour les ennemis ont débarqué à l'Anse des Morts, <lb/> le factionnaire
+    ayant entendu nagér a crié qui vive, on a répondu <lb/> en bon français provisions, et on a pris
+    cela pour argent comptant, <lb/> d'autant qu'il devoit passér des batteaux chargés de vivres, et
+    l'ordre <lb/> ayant été donné pour ne pas tirér dessus.</p>
+   <p> Les Ennemis ont donc débarqué aussitôt au nombre de 15 à 1800 <lb/> hommes. M. Devergor a été
+    pris sans coup férir ayant été blessé, <lb/> je croy même encore endormy ; ils ont aussitôt
+    monté la coste et <lb/> en très peu de temps ont pénétré chez Borgias Levasseur, <lb/> ils se
+    sont emparés de la maison et de la grange ainsi que des maisons <lb/> de St. Joseph. M. Lenoir,
+    officier de la Sarre, commandant <lb/> quelques volontaires, a fusillé longtems avec les ennemis
+    mais ayant <lb/> été blessé à plusieurs endroits il a été fait prisonnier ; les canadiens <lb/>
+    y ont accouru et se sont beaucoup fusillés mais comme le nombre <lb/> des ennemis augmentoit de
+    moment en moment, nos miliciens <lb/> tiroient d'un costé et d'autre sans faire un corps capable
+    de tenir <lb/> aux ennemis; enfin sur les 8 ou 9 heures M. de Montcalm ayant été <lb/> averty y
+    est accouru avec quelques troupes de terre et de la marine <lb/> et s'est alé poster au dessus
+    de la porte St. Louis, ayant disposé <lb/> son monde de façon à en imposer aux ennemis en
+    attendant le reste <lb/> des troupes et canadiens, les ennemis se sont aussi arrêtés ne doutant
+    <lb/> pas qu'il aloit leurs livrer bataille ; M. de Montcalm impatient de <lb/> ce que son monde
+    ne venoit pas, ignorant que M. de Vaudreuil <lb/> les faisoit arrêter au pont de la petite
+    rivière quoi qu'il n'eust <lb/> tout au plus que 2500 ou 3000 hommes il prit la résolution
+    d'alér <lb/> attaquér les ennemis ; les troupes de terre marchoient au centre <lb/> et celle de
+    la marine et les canadiens étoient sur les ailes, il fut done <lb/> dans cet ordre à la demie
+    portée du fusils des ennemis qui les atten̲doient<lb/> de pied ferme et la plus grande partie un
+    genoux en terre ; <lb/> ce fut alors que le grand feu commença de part et d'autre, mais après
+    <lb/> deux ou trois décharges de nos troupes ils firent un demy tour à droite <lb/> et plièrent.
+    M. de Montcalm ayant été blessé au bras les <lb/> ennemis avancèrent aussitôt sur nos troupes et
+    bientôt après M. de <lb/> Montcalm reçut une autre blessure mortelle. C'est alors que la <lb/>
+    déroute fut complète ; les ennemis nous ont poursuivis jusqu'aux <lb/> portes de la ville ; nous
+    avons perdu dans cette funeste journée <pb n="66"/>
+    <lb/> plus de 300 hommes tués, un grand nombre de blessés et beaucoup <lb/> de prisonniers ;
+    Messieurs de Sennezergue et de Fontbonne <lb/> l'un commandant de la Sarre et brigadier et
+    l'autre commandant <lb/> de Guyenne, ont été tués sur le champ de bataille, plus de <lb/> 10
+    officiers de ce régiment ont été tués, blessés ou prisonniers dans <lb/> ce jour.</p>
+   <p> Pendant l'action M. de Vaudreuil a paru sur la coste étant en calèche, <lb/> sa vue n'a fait
+    qu'augmenter la déroute, et lui même a décampé <lb/> aussitôt et a repassé le pont de la petite
+    rivière où il y avait au moins <lb/> 3 à 4000 hommes qui y avoient été arrêtés.</p>
+   <p> Les ennemis sont venus jusqu'à l'entrée de la prairie de M. Hyché, <lb/> ils ont tué le nommé
+    Voyer boulanger ainsy que le bonhomme <lb/> Clément dans la maison de Giroux ; 2 ou 3 coups de
+    canon tirés des <lb/> vaisseaux qui sont en batterie à l'entrée de la petite rivière les ont
+    <lb/> fait remonter et même un écossais en a été emporté par un boulet.</p>
+   <p> Les ennemis ont perdu dans cette action le général Hwolf, le 2e com̲mandant<lb/> M. Moncton une
+    balle dans la poitrine enfin le 3e <lb/> commandant qui est M. Tonshend est le commandant en
+    chef.</p>
+   <p> Partie du régiment de Languedoc et des troupes de la marine ont <lb/> rentré dans la place :
+    le reste des troupes et canadiens ont resté <lb/> à la redoute du passage, on s'attendoit qu'on
+    aloit reprendre haleine <lb/> et qu'on feroit aprocher M. de Bougainville qui avoit 2000 hommes
+    <lb/> avec lui dont tous les grenadiers en étoient, qui étoient du costé du <lb/> Cap Rouge, et
+    qu'aussitôt que tout seroit rallié on reprendroit, dès <lb/> le soir ou le lendemain matin au
+    plus tard, mais non, au contraire, <lb/> lorsque M. Bougainville se fut aproché il fit dire à M.
+    de Vaudreuil <lb/> qu'il attendoit ses ordres pour attaquér les ennemis. M. de Vau̲dreuil<lb/> luy
+    donna ordre de se retirer avec son monde à la Suède <lb/> et à 9 heures du soir il donna l'ordre
+    pour partir de Beauport, aban̲donnant<lb/> toutes les tentes, équipages, munitions et vivres, comme
+    <lb/> s'ils eussent été poursuivis par une armée de 20 mille hommes.</p>
+   <p> Funeste journée où les armes de la France sont des plus deshonorées ; <lb/> cette retraitte
+    ou plutost cette honteuse fuite s'est faite par les hauts <lb/> de Charlesbourg au travers des
+    bois il y avait environ 3 ou 400 <lb/> hommes qui escortoient ce brave général et le reste
+    marchoient <lb/> sans aucun ordre ny discipline ; la première halte que fit ce général <lb/> fut
+    à St. Augustin, elle ne fut pas longue bientôt après il décampa <lb/> pour Jacques Cartier ou
+    tout le monde se rendit comme ils purent <lb/> et comme ils voulurent.</p>
+   <pb n="67"/>
+   <p>1759 sept. 14. Monsieur le marquis de Montcalm lieutenant général est mort de ses <lb/>
+    blessures et a été enterré aux Ursulines ; cette perte doit estre sen̲sible<lb/> à l'état et encore
+    plus à tous les canadiens ; c'est de ce malheur <lb/> fatal que proviennent tous nos malheurs
+    communs ; depuis ce jour <lb/> jusqu'au 18 il s'est tenu nombre de conseils à l'armée fugitive
+    ou le <lb/> munitionnaire présidoit ; ceux qui se sont tenus dans la place ont <lb/> été à peu
+    près dans le meme goust ; on craignoit à chaque instant <lb/> que l'ennemy n'escaladast la place
+    quoi qu'il n'y en eut aucune <lb/> aparence.</p>
+   <p> Pendant ce tems M. de Lévy est arrivé et décidément il a été résolu <lb/> de réataquér les
+    ennemis, et M. de Bougainville avec 1500 hommes <lb/> s'avançoit pour entrér dans la place, il
+    s'est rendu à une lieue de <lb/> distance lorsqu'il a apris par un courier que M. de Ramezay
+    <lb/> avoit capitulé quoi que Monsieur de Lévy eut fait entrér des vivres <lb/> dans la place
+    avec defence au commandant de capituler <lb/> d'autant qu'il alloit estre secouru ; voilà enfin
+    le fruit final de toutes <lb/> nos mauvaises manoeuvres, et la place a été rendue ou plutôt
+    donnée <lb/> sans que les ennemis ayent tiré un seul coup de canon.</p>
+   <p> A 3 heures après midy le 18 les portes de la ville ont été ouvertes et <lb/> la garnison
+    angloise est entrée ; on dit qu'avant la reddition de la <lb/> place les magasins du Roy avoient
+    été pillés d'une bonne façon par <lb/> les françois ; en vérité cela fait horreur et jamais on
+    avoit tant connu <lb/> de canailles comme il y en a ; le garde magasin a suivy l'armée, <lb/> un
+    des commis y étoit resté, les ennemis se sont emparés de ce qui <lb/> s'y est trouvé sans en
+    donner inventaire ; il est vrai qu'on ne leur <lb/> en a point demandé.</p>
+   <p> En lisant ce journal on y verra avec honte les fautes grossières qui ont <lb/> été faites
+    dans cette campagne ; il semble que d'accord avec les <lb/> ennemis on se soit étudié à leur
+    procurer les moyens de nous prendre <lb/> avec facilité ; rien ne nous le prouve mieux que
+    l'action du 13 ainsi <lb/> que la reddition de la place le 18 ; ce sera à jamais des témoins
+    <lb/> injurieux contre les armes de la France. Je ne vois plus lieu de nous <lb/> rendre à nous
+    mêmes, il n'y a qu'une bonne et heureuse paix qui <lb/> peut nous procurer cette douce et
+    agréable tranquilité ; je la souhaite <lb/> de tout mon coeur pourvu que ce soit la sainte
+    volonté de Dieu.</p>
+   <p> Amen (345).</p>
+  </body>
+ </text>
+</TEI>

@@ -1,0 +1,3074 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+ <fileDesc>
+  <titleStmt>
+   <title type="main">Roman de Jehan de Paris</title>
+   <title type="sub"/>
+   <title type="short">Anonyme.RomanJP</title>
+   <author>
+    <persName>
+     <surname>Anonyme</surname>
+     <forename/>
+    </persName>
+   </author>
+   <editor>Modéliser le changement, les voies du français GTRC/CRSH</editor>
+   <principal>
+    <persName>France Martineau</persName>
+   </principal>
+   <funder>
+    <orgName>Université d'Ottawa</orgName>
+    <orgName>Conseil de recherche en sciences humaines du Canada</orgName>
+   </funder>
+   <respStmt>
+    <resp>Codage</resp>
+    <persName xml:id="Martineau">France Martineau</persName>
+    <persName xml:id="Labelle">Simon-Pier Labelle-Hogue</persName>
+    <orgName xml:id="BFM">Base de français médiéval</orgName>
+   </respStmt>
+  </titleStmt>
+  <extent>74 055</extent>
+  <publicationStmt>
+   <date when="2009-11-05"/>
+   <distributor>
+    <orgName>Projet BFM, UMR5191 ICAR, CNRS/ENS-LSH</orgName>
+    <address>
+     <addrLine>15, parvis René Descartes</addrLine>
+     <addrLine>69342 Lyon BP7000 Cedex 07</addrLine>
+     <addrLine>Tél : 04 37 37 63 10</addrLine>
+     <addrLine>Fax : 04 37 37 62 65</addrLine>
+     <addrLine><email>bfm@ens-lsh.fr</email></addrLine>
+     <addrLine>http://bfm.ens-lsh.fr/</addrLine>                        
+    </address>
+   </distributor>
+   <availability status="restricted">
+    <p>(c) 2002-2005, CNRS/ENS-LSH</p>
+    <p>Conditions d'utilisation : usage dans le cadre de l'échange de textes entre les projets
+     BFM (ENS LSH, UMR 5191 ICAR, Lyon, France) et GTRC "Modéliser le changement : Les voies
+     du français" (Université d'Ottawa,Canada)</p>
+    <p>Pour tout autre usage, contacter : <persName>Christiane Marchello-Nizia</persName>
+     <email>marchell@linguist.jussieu.fr</email></p>
+   </availability>
+  </publicationStmt>
+  <sourceDesc>
+   <listBibl>
+    <biblStruct type="Source_publique">
+     <monogr>
+      <author>
+       <persName>
+        <surname>Anonyme</surname>
+        <forename/>
+       </persName>
+      </author>
+      <editor>
+       <surname>Wickersheimer</surname>
+       <forename>Edith</forename>
+      </editor>
+      <title>Roman de Jehan de Paris</title>
+      <title type="sub"/>
+      <imprint>
+       <pubPlace>Paris</pubPlace>
+       <publisher>
+        <orgName>Champion</orgName>
+       </publisher>
+       <date when="1923">1923</date>
+      </imprint>
+     </monogr>
+    </biblStruct>
+    <bibl type="source_électronique"/>
+    <bibl type="source_électronique2"/>
+   </listBibl>
+   <msDesc>
+    <msIdentifier>
+     <settlement>Paris</settlement>
+     <repository>Bibliothèque nationale</repository>
+     <collection/>
+     <idno>ms. fr. 1465</idno>
+     <msName>Manuscrit N</msName>
+    </msIdentifier>
+    <history>
+     <origin>
+      <origPlace/>
+      <origDate notBefore="1501" notAfter="1600"/>
+     </origin>
+    </history>
+   </msDesc>
+  </sourceDesc>
+ </fileDesc>
+ <encodingDesc>
+  <projectDesc>
+   <p>BFM - Base de Français Médiéval <lb/> Resp. : <persName>Christiane
+    Marchello-Nizia</persName> Équipe : Diachronie et bases textuelles d'ancien et de moyen
+    français Laboratoire : UMR5191 ICAR Institution : CNRS/ENS-LSH, Lyon
+    <address>
+     <addrLine>15, parvis René Descartes</addrLine>
+     <addrLine>69342 Lyon BP7000 Cedex 07</addrLine>
+     <addrLine>Tél : 04 37 37 63 10</addrLine>
+     <addrLine>Fax : 04 37 37 62 65</addrLine>
+     <addrLine><email>bfm@ens-lsh.fr</email></addrLine>
+     <addrLine>http://bfm.ens-lsh.fr</addrLine>                        
+    </address></p>
+  </projectDesc>
+  <editorialDecl>
+   <p>Voir le manuel d'annotation TBFM XML-TEI Encoding Guidelines at
+    http://bfm.ens-lsh.fr/IMG/pdf/Manuel_Encodage_TEI.pdf and BFM XML-TEI Encoding
+    Instructions at http://bfm.ens-lsh.fr/IMG/pdf/Consignes_BFM.pdf</p>
+   <p>L'édition de référence a été respectée quant à l'orthographe, la ponctuation, la mise en
+    page et la pagination. Cependant, la césure des mots en fin de lignes (ou de pages) a été
+    supprimée, le mot est placé dans la ligne ou la page où il commence. </p>
+   <p>Les paragraphes sont notés par P pour la prose. Pour les vers, P rend="gv" indique que le
+    paragraphe est constitué d'un groupe de vers. </p>
+   <p> Les débuts des vers sont encodés par LB. Cette balise peut également servir dans les
+    textes en prose à indiquer les débuts des lignes selon la pagination de l'édition. </p>
+   <p>Les changements de pages sont indiqués par la balise PB</p>
+   <p>Le corps du texte est obligatoirement compris dans le BODY. Le FRONT contenant le titre
+    et/ou le prologue et le BACK (explicit) sont facultatifs et ne sont mis qu'au besoin. </p>
+   <p>Les différentes parties du texte (livre, chapitre...) sont encodées par DIV, auquel
+    s'ajoute l'attribut TYPE qui spécifie sa nature. </p>
+   <p>Les paragraphes (P), lignes (LB) et pages (PB) de même de certaines divisions (DIV) sont
+    ou peuvent être numérotés par l'attribut N s'ils le sont dans l'édition. </p>
+   <p>Quelques commentaires ou corrections ont été introduits à l'aide de la balise NOTE, CORR
+    ou SIC. </p>
+   <p>Les discours directs et les citations ont été encodés par la balise Q. Cette balise est
+    mise à chaque fois que des guillemets sont utilisés dans l'édition. </p>
+   <p>L'élément FOREIGN indique un passage en latin qui est noté en italique dans l'édition,
+    les occurrences non en italique sont signalées par l'attribut ROMAIN. </p>
+   <p>Les folios sont notés par la balise <tag>pb rend="folio"</tag></p>
+   <p>Les notes de bas de pages ont été retirées. </p>
+   <p>Les paragraphes entièrement en latin ont été retirés, une balise P et une NOTE les
+    signalent. </p>
+   <p>Note spécifique au texte ci-dessous: Des guillemets ont parfois été fermés de manière à
+    répondre aux normes TEI.</p>
+  </editorialDecl>
+ </encodingDesc>
+ <profileDesc>
+  <creation>
+   <date notBefore="1494" notAfter="1495"/>
+   <placeName/>
+  </creation>
+  <langUsage>
+   <language ident="fr"/>
+  </langUsage>
+  <textDesc>
+   <channel/>
+   <constitution>Texte intégral</constitution>
+   <derivation/>
+   <domain/>
+   <factuality/>
+   <interaction/>
+   <preparedness/>
+   <purpose/>
+  </textDesc>
+  <textClass>
+   <keywords scheme="GTRC">
+    <list>
+     <item n="domaine">Littéraire</item>
+     <item n="genre">Roman</item>
+     <item n="forme">Prose</item>
+     <item n="docRegion1">France</item>
+     <item n="docRegion2"/>
+     <item n="docRegion3"/>
+     <item n="auteurRegion1"/>
+     <item n="auteurRegion2"/>
+     <item n="auteurRegion3"/>
+     <item n="auteurSexe">Homme</item>
+     <item n="occupation"/>
+     <item n="scribeRegion1"/>
+     <item n="scribeRegion2"/>
+     <item n="scribeRegion3"/>
+     <item n="imprimeurRegion1"/>
+     <item n="imprimeurRegion2"/>
+     <item n="imprimeurRegion3"/>
+    </list>
+   </keywords>
+   <classCode scheme="Indice de Dees"/>
+  </textClass>
+  <particDesc>
+   <listPerson>
+    <person role="auteur">
+     <persName>
+      <surname>Anonyme</surname>
+      <forename></forename>
+     </persName>
+     <birth>
+      <date/>
+      <placeName/>
+     </birth>
+    </person>
+    <person role="scribe">
+     <persName>
+      <surname>Inconnu</surname>
+      <forename/>
+     </persName>
+     <birth/>
+    </person>
+    <person role="imprimeur"/>
+   </listPerson>
+  </particDesc>
+ </profileDesc>
+ <revisionDesc>
+  <change when="2009-11-05" who="#Martineau">Validation de la Correction du codage et en-tête</change>
+  <change when="2009-11-05" who="#Labelle">Correction du codage et en-tête</change>
+  <change when="2001-11-22" who="#BFM">Numérisation et codage préliminaire</change>
+ </revisionDesc>
+</teiHeader>
+<text>
+<pb/>
+<front/>
+<body>
+<div>
+<div type="chapitre">
+<pb n="3"/>
+<head>Cy commence ung noble et tresexcellent romant 
+<lb/>nommé Jehan de Paris, roy de France.</head>
+ <p>En l'honneur de Dieu nostre createur et redemp̲teur, 
+ <lb/>et de sa benoiste vierge mere, puissions nous    
+ <lb/>faire et dire chose en cestuy transsitoire monde que   
+ <lb/>a luy soit plaisante et a nous prouffitable. Mais pource    
+ <lb/>que nostre pouvre fragilité est tantost lassee et fati̲guee   
+ <lb/>a lire ou escouter choses salutaires et qu'ilz    
+ <lb/>nous doivent conduire a la eternelle felicité et re̲monstrance   
+ <lb/>de noz pechez et meffaiz, et tantost    
+ <lb/>facillement s'encline a vices et pechez et que grant    
+ <lb/>mal est aujourd'uy pource que chascun entend de    
+ <lb/>legier en railleries dissolues et diffamations, dont    
+ <lb/>grans maulx en viennent, et pour eviter oysiveté    
+ <lb/>qui est seur de pechié, j'ay voulu icy mectre par    
+ <lb/>escript une histoire joyeuse que j'ay translatee   
+ <lb/>d'espaignol en langue françoise. Et pour ce, s'il y a    
+ <lb/>chose qui ne soit comme il appartient me soit pa̲rdonné,    
+ <lb/>car je l'ay fait pour  seullement faire passer   
+ <lb/>le temps aux lisans qu'ilz vouldront prendre la peine    
+ <lb/>de le lire.</p></div>
+ <div type="chapitre"> 
+<pb n="4"/>   
+ <head>Comment le roy d'Espaigne ce gecta aux piez du    
+ <lb/>roy de France qui venoit de la messe avecq    
+ <lb/>plusieurs grans seigneurs et barons de grant   
+ <lb/>renom.</head>   
+ <p>Il fut jadis en France ung roy moult sage et vail̲lant,   
+ <lb/>lequel avoit ung tresbeau filz de l'eage de trois   
+ <lb/>ans, nommé Jehan, et plus n'en avoit de la royne   
+ <lb/>sa femme qui moult notable et saige dame estoit.   
+ <lb/>Si se tenoit alors le roy en la cité de Paris, avecq   
+ <lb/>la plus grant partie de sa baronnie de son royaulme   
+ <lb/>en grant desduit et soulas, car alors n'estoit nulles   
+ <lb/>nouvelles de guerre en France par quoy le Roy et   
+ <lb/>tous ses suppotz en grans triumphes et richesses   
+ <lb/>habundoient. Ung jour comme le roy venoit de la   
+ <lb/>messe acompaigné de ses barons et chevaliers, et   
+ <lb/>ainsi qu'il estoit à l'entree de son palaix royal, et   
+ <lb/>que celuy jour estoit une solempne feste, arriva   
+ <lb/>devant luy le roy d'Espaigne qui en grans pleurs   
+ <lb/>et  gemissemens se gecta aux piez du roy de France.   
+ <lb/>Et tantost le roy de France se bessa pour le faire   
+ <lb/>lever, car incontinant il le congneut, mais le roy d'Es̲paigne    
+ <lb/>ne se voulut nullement lever ne parler ne   
+ <lb/>pouvoit, mais grans souspirs faisoit, dont le roy   
+ <lb/>grant compassion en avoit et tous les barons d'en̲tour    
+ <lb/>luy. Et quand il vit que lever ne se vouloit,   
+ <lb/>il luy dit telles parolles : <q> Beau frere d'Espaigne,   
+ <lb/>je vous prie que vous  vous levez, et vostre grief   
+ <lb/>courroux vueillez ung peu refrener, tant que nous   
+ <lb/>sachons la cause, car en bonne foy vous promectons   
+ <lb/>que a nostre pouvoir ayderons a la mectre a fin le   
+ <lb/>mieulx que nous sera possible, si faire le pouvons.</q>  
+ <lb/>Si se bessa de rechef et redressa le roy d'Espaigne,   
+ <lb/>lequel va commancer a dire en se desconfortant et   
+ <pb n="5"/>criant a haulte voix: <q> Trescrestien, hault, et puis̲sant   
+ <lb/>roy, je vous mercie humblement de la belle offre   
+ <lb/>que de vostre benigne grace vous a pleu me faire.   
+ <lb/>Et pource que vous et voz predecesseurs estes con̲servateurs   
+ <lb/>de toute royaulté et noblesse et justice,    
+ <lb/>je suis venu a vous pour vous dire mon infortune,    
+ <lb/>meschief et doloreuse complaincte. Sachez, sire, que   
+ <lb/>a grant tort  et sans raison, et soubz couleur d'ung   
+ <lb/>nouvel tribut que en mon royaulme avoit esté mis pour   
+ <lb/>eviter a la dampnable entreprinse du roy de Grenade,   
+ <lb/>infidele a nostre loy, qu'il avoit faict contre mon   
+ <lb/>royaulme et la saincte foy catholique, les  nobles   
+ <lb/>de mon royaulme ont par leur faulx donné a entendre   
+ <lb/>le peuple seduit a l'encontre de moy, que m'ont   
+ <lb/>voulu faire morir, et m'en a faillu fouyr au mieulx   
+ <lb/>que j'ay peu en l'estat que me povez veoir. Et   
+ <lb/>tiennent la royne ma femme et une petite fille   
+ <lb/>mienne que n'a que trois mois assigee un une de mes   
+ <lb/>villes appellee Seguonye, et ont desliberé la faire   
+ <lb/>morir pour mieulx avoir le royaulme a leur vou̲lenté. </q>   
+ <lb/>Et en racomptant ces parolles le cueur luy   
+ <lb/>serra et tomba pasmé aux piez du roy de France,
+ <lb/>lequel le fit incontinant relever et revenir. Et quant   
+ <lb/>il fut en son sang rassis, le roy, qui pitié avoit de luy,   
+ <lb/>dit en ceste maniere : <q> Beau frere d'Espaigne, ne   
+ <lb/>vueillez plus par tristesse et courroux vostre cueur   
+ <lb/>affliger, mais vueillez prendre courage vertueulx   
+ <lb/>comme par cy devant avez tousjours heu, car je vous ,  
+ <lb/>prometz et jure sur ma foy que demain au plus matin  
+ <lb/>j'envoyray lectres en Espaigne aux barons et peuple   
+ <lb/>du royaulme ; et s'ilz ne veullent obeyr, je iray en   
+ <lb/>personne les mectre a raison. </q> Quant le roy d'Es̲paigne    
+ <lb/>ouyt ceste promesse il fut terriblement    
+ <lb/>joyeulx, et dit tout humblement au roy qu'il le mer̲cioit.   
+ <pb n="6"/>De cecy furent fort joyeulx les barons de    
+ <lb/>France, car grant compassion avoient du roy d'Es̲paigne,    
+ <lb/>et aussi avoient grant desir de eulx exerciter    
+ <lb/>en faitz d'armes, car long temps avoit que en France    
+ <lb/>n'avoit eu guerre. Tout celuy jour fut moult festoyé    
+ <lb/>le roy d'Espaigne, et pour l'heure plus ne fut parlé    
+ <lb/>de la matiere, si non de faire bonne chiere.</p></div>
+<div type="chapitre">   
+ <head>Comment le roy de France escrivit aux barons   
+ <lb/>d'Espaigne qu'ilz eussent a venir repairer le   
+ <lb/>tort et deshonneur qu'ilz avoient faict a leur roy.</head>  
+ <p>Quant vint le lendemain au matin le roy fit es̲cripre   
+ <lb/>une lectre ainsi que s'ensuit, et au marge de   
+ <lb/>dessus estoit escript, <q> De par le roy </q>, et la lectre    
+ <lb/>contenoit ainsi : <q> Chiers et bien aymez, nous avons receu   
+ <lb/>la complaincte de nostre chier et bien aymé frere   
+ <lb/>le roy d'Espaigne, vostre droict et naturel seigneur,   
+ <lb/>contenant comme a tort et sans  cause l'avez des̲chassé   
+ <lb/>de son royaulme. Et que plus est, tenez as̲siegee   
+ <lb/>nostre belle seur sa femme, et plusieurs aultres   
+ <lb/>grans et enormes cas qu'avez faitz a l'encontre de   
+ <lb/>luy, que sont de tresmauvais exemple a toute royaulté   
+ <lb/>et noblesse. Pour ce est il que nous voulons savoir la   
+ <lb/>verité du cas pour y donner telle pugnition et pro̲vision   
+ <lb/>qu'il appartiendra estre faicte par raison,   
+ <lb/>car nous l'avons mis en nostre protection et sauve̲garde,   
+ <lb/>luy, sa famille et biens, en vous mandant que   
+ <lb/>incontinant sans aulcun delay, vous vuydez le siege   
+ <lb/>de devant la royne vostre naturelle dame, et luy   
+ <lb/>faictes et faictes faire telle obeyssance comme para̲vant   
+ <lb/>ceste question luy estoit faicte et acoustumee   
+ <lb/>de faire. Et avec ce venez, des principaulx d'entre   
+ <lb/>vous, jusques au nombre de vingt, avecq telle compaignie   
+ <lb/>que vous semblera bon, pour dire les causes qui   
+ <pb n="7"/>vous ont meu a ce faire, pour en faire la raison comme    
+ <lb/>il appartiendra, en vous notiffiant que, ce vous y    
+ <lb/>faictes faulte, nous y yrons en personne, et en ferons    
+ <lb/>telle pugnition qu'il en sera perpetuelle memoire.    
+ <lb/>Fait a Paris le premier jour de mars. </q> Et au dessus des    
+ <lb/>lectres estoit escript : <q> Aux barons et peuple d'Es̲paigne. </q>   
+ <lb/>Le roy fit incontinant despescher ung courrier    
+ <lb/>auquel furent baillees lesdictes lectres, et luy    
+ <lb/>commanda le roy que il fist extreme diligence. Et    
+ <lb/>aussi fit il, car en cinq sepmaines il fut allé et revenu.</p></div>
+<div type="chapitre">   
+ <head>Comment le herault du roy de France apporta    
+ <lb/>la responce que luy avoient faicte les barons    
+ <lb/>d'Espaigne.</head>  
+ <p>Quant ledict herault fut arrivé a Paris, il s'en alla   
+ <lb/>tout droit au palaix descendre de son cheval et monta   
+ <lb/>les degrez et vint en la chambre ou le roy estoit.   
+ <lb/>Si luy fit la reverence et dit : <q> Sire, plaise vous sça̲voir    
+ <lb/>que j'ay esté a Seguonye, ou j'ay trouvé grant   
+ <lb/>peuple devant, qui tiennent la ville assiegee et la   
+ <lb/>royne qui est dedans, et presentay voz lectres aux   
+ <lb/>barons et cappitaynes de l'armee, lesquelz inconti̲nant   
+ <lb/>se assemblerent, et firent lire les lectres par ung   
+ <lb/>de leurs gens. Et incontinant qu'ilz les eurent fait   
+ <lb/>lire, ilz me firent tirer a part, et tindrent conseil.   
+ <lb/>Au bout de deux heures apres, m'envoyerent querir,   
+ <lb/>et me firent responce de bouche en disant qu'ilz   
+ <lb/>s'esmerveilloient grandement de quoy vous  preniez   
+ <lb/>peine et soucy d'une chose qui en riens ne vous   
+ <lb/>touchoit, et que vous ne vous mectez ja en telle   
+ <lb/>adventure de les aller chercher au pays pour telle   
+ <pb n="8"/>achoison, et que par quelque promesse que leur dit   
+ <lb/>roy vous aye fait ne vous en debvez mesler, car   
+ <lb/>pour voz lectres ne pour voz menasses ne lairront a   
+ <lb/>mectre fin a leur entreprinse, car avecques vous ilz   
+ <lb/>n'ont riens a faire. Je leur requis qu'ilz me baillassent   
+ <lb/>leur responce par escript, mais ilz me respondirent   
+ <lb/>que aultre chose n'en auroye, et me firent commande̲ment   
+ <lb/>que dedans six heures vuydasse le siege et bien   
+ <lb/>tost le pays. Et quant je vis que aultre chose ne    
+ <lb/>pouvois faire, m'en suis retourné, et me semble que la   
+ <lb/>ville est assez forte a l'encontre d'eulx et ne la pour̲roient   
+ <lb/>prendre d'ung long temps, se il y a vivres   
+ <lb/>dedans et gens qu'ilz soient leaulx a leur dame.</q></p>  
+ <p>Quant le roy ouyt celle responce il en fut moult   
+ <lb/>mal content, et non sans cause, mais le roy d'Es̲paigne   
+ <lb/>et les barons de France en estoient bien   
+ <lb/>joyeulx, car grant vouloir avoient que le roy y allast   
+ <lb/>en armes comme il fit. Car incontinant le roy manda   
+ <lb/>tous ses barons, cappitaines et chefz de guerre, et   
+ <lb/>sans aulcun delay fit appareillier tout  ce qui estoit   
+ <lb/>de besoing pour aller en Espaigne commancer la guerre   
+ <lb/>contre les barons du pays. Si fut fait telle diligence   
+ <lb/>que a la fin du moys de may ensuivant le roy partit   
+ <lb/>de Paris avecq le roy d'Espaigne, jusques au nombre   
+ <lb/>de cinquante mille bons combatans bien en point,   
+ <lb/>et s'en vint passer a Bourdeaux, et de la a Baionne.</p></div>
+<div type="chapitre">   
+ <head>Comment le roy de France arriva en Espaigne    
+ <lb/>et ne trouva personne en chemin si non le gou̲verneur   
+ <lb/>d'Espaigne lequel s'enfuit incontinent.</head>   
+ <p>Quant le roy fut près d'Espaigne, il mit ses gens    
+ <lb/>en moult belle ordonnance, et donna la charge de   
+ <pb n="9"/>l'avant garde au roy d'Espaigne. Ilz entrerent en   
+ <lb/>Biscaye tousjours serrez ensemble, car ilz n'estoient   
+ <lb/>jamais loing les ungs des aultres de deux ou de trois   
+ <lb/>lieues ; si ne trouverent adventure aulcune que a   
+ <lb/>compter face jusques ilz furent bien avant dedans    
+ <lb/>Espaigne ou ilz rencontrerent le gouverneur dudict   
+ <lb/>pays avecq bien vingt cinq mille combatans qu'il   
+ <lb/>avoit amassez, qui estoient fort mal acoustrez. Et   
+ <lb/>quant  ilz apparceurent  noz gens qui venoient bien   
+ <lb/>serrez et rengez, le cueur leur faillit et s'en fouyrent   
+ <lb/>de peur qu'ilz avoient, de quoy noz gens ne firent   
+ <lb/>pas grant compte, car ilz vouloient aller lever le siege   
+ <lb/>de devant Seguonye. Si arriverent devant une ville   
+ <lb/>qui leur fut ouverte, appellee Burges, qui estoit une   
+  <lb/>des bonnes citez du pays, et le roy les print a mercy   
+  <lb/>pource qu'il avoient si tost obey.</p></div>
+<div type="chapitre">   
+<head>Comment les embassadeurs des barons d'Es̲paigne    
+ <lb/>vindrent devers le roy de France pour   
+ <lb/>avoir paix.</head>   
+<p>En celle ville de Burges sejournerent huit jours   
+ <lb/>le roy de France et d'Espaigne. Et ce pendant le roy   
+ <lb/>de France remit a son obeyssance grant partie des   
+ <lb/>villes a l'entour. Et celles qui faisoient grant signe   
+ <lb/>de rebellion il les faisoit raser et mectre tout a feu   
+ <lb/>et a sang ; les aultres qui venoient a mercy leur   
+ <lb/>pardonnoit, tellement que le bruit et l'effroy fut si   
+ <lb/>grant par tout Espaigne que toutes les villes, citez   
+ <lb/>et chasteaux apportoient les clefz et venoient faire   
+ <lb/>obeissance au roy de France. De la a huit jours passez   
+ <lb/>s'en partirent pour aller  droit a Seguonye, mais ilz   
+ <pb n="10"/>trouverent en chemyn l'ambassade des barons du   
+ <lb/>siege qui venoient devers le roy pour traicter paix.   
+ <lb/>Et fut fait plusieurs remonstrances au roy de   
+ <lb/>France de la part desdicts barons, en eulx complai̲gnant   
+ <lb/>a grant tort du roy d'Espaigne leur seigneur ;   
+ <lb/>mais pour en faire bref, le roy de France, qui moult   
+ <lb/>saige et vaillant estoit, congnoissant leur malice et   
+ <lb/>mal talant, fit responce que, se bon leur sembloit,   
+ <lb/>qu'ilz se missent en deffence, car jamais il ne les   
+ <lb/>prendroit a mercy jusques a ce qu'il verroit et    
+ <lb/>viendroient tous les nobles a genoulx devant leur roy   
+ <lb/>crier mercy, et le peuple tout en chemise, nues testes,   
+ <lb/>et que des plus coulpables il en pugniroit jusques au   
+ <lb/>nombre de cinquante, afin qu'il en fust perpetuelle   
+ <lb/>memoire. Ceulx qui estoient venuz pour ladicte em̲bassade   
+ <lb/>furent bien esbays, et non pas sans bonne   
+ <lb/>raison, voyant que a la puissance de France ne pour̲roient   
+ <lb/>resister, et mesmement que ja les deux tiers   
+ <lb/>du pays estoit ja en sa main. Si ne sceurent que faire,   
+ <lb/>fors qu'ilz obtindrent du roy dix jours de respit   
+ <lb/>pour aller notiffier les nouvelles a ceulx qui les   
+ <lb/>avoyent envoyez. Et quant ilz furent  devers eulx   
+ <lb/>et leur eurent dit et fait leur rapport, tous furent si   
+ <lb/>estonnez que le plus hardi ne sçavoit que dire.</p></div>
+<div type="chapitre">   
+<head>Comment les embassadeurs des barons du royaulme   
+ <lb/>d'Espaigne apporterent la responce que leur avoit   
+ <lb/>faicte le roy de France. Et comment le populaire   
+ <lb/>vint pardevers luy pour luy crier mercy quant   
+ <lb/>ilz sceurent les nouvelles du roy de France.</head>   
+<p>Comment le populaire fut tantost dessevré d'avec   
+ <lb/>les seigneurs, par quoy, voyant que resister ne pou̲voient,   
+ <pb n="11"/>si vindrent tous a la mercy du roy de France   
+ <lb/>en la forme que les embassadeurs leur avoient de̲nuncié,    
+ <lb/>le roy les receut a mercy, et se informa    
+ <lb/>diligemment des principaulx ammoteurs de cestuy   
+ <lb/>peuple, et trouva que quatre des plus grans barons   
+ <lb/>d'Espaigne avoient cecy machiné pour parvenir au   
+ <lb/>royaulme a leur vouloir. Ceulx furent prins, et jusques   
+ <lb/>a cinquante de leurs complices, que le roy fit mener   
+ <lb/>après luy jusques a Seguonye devers la royne, laquelle   
+ <lb/>vint a grant honneur et moult belle compaignie   
+ <lb/>au devant dudit roy  et de son mary jusques a quatre    
+ <lb/>lieues. Quant elle fut devant le roy de France, elle se	    
+ <lb/>mit a deux genoulx d'aussi loing qu'elle le peut   
+ <lb/>veoir, et de la ne se voult lever jusques le roy hasti̲vement   
+ <lb/>descendit et la redressa, puis la baisa. Et la    
+ <lb/>royne, qui moult sage dame estoit, va dire telles 
+ <lb/>parolles : <q> Helas, treshault et puissant roy, qui   
+  <lb/>pourroit vous recompancer le treshault bien et   
+  <lb/>secours que de vostre benigne grace avez donné   
+  <lb/>a ceste pouvre captive? C'est chose impossible a tous	    
+  <lb/>les humains, mais nostre Seigneur Jesuscrist doint   
+  <lb/>grace a monseigneur mon mary et a moy de faire   
+  <lb/>le possible, et Dieu vueille le residu parfaire en sa     
+  saincte gloire. </q></p>  
+<p> <q> Belle seur  </q>, dit le roy, qui fort fut contant de   
+ <lb/>son recueil,  <q> cela est tout compensé ; ne parlons   
+  <lb/>plus que de faire bonne chiere. Et allez veoir vostre   
+  <lb/>mary qui vient icy après avec les prisonniers et gens   
+  <lb/>de vostre royaulme. </q></p>   
+<p> <q> Sire </q>, dit elle,  <q> quant je vous voy, je voy tout,   
+ <lb/>si ne vous laisseray, mais que je ne vous desplaise,   
+ <lb/>jusques a la ville. </q></p>   
+ <pb n="12"/><p>Quant le roy vit la grant humilité de ceste femme,    
+  <lb/>il la fit monter a cheval et s'en retourna arriere et la   
+  <lb/>mena avecq luy a force devers le roy d'Espaigne   
+  <lb/>son mary qui grant feste luy fit. Si s'en allerent  moult    
+  <lb/>joyeusement en devisant de moult de choses jusques    
+  <lb/>en la ville, laquelle fut toute tendue le plus richement    
+  <lb/>que l'on peut faire. Et fut receu le noble roy de   
+  <lb/>France au plus grant honneur et humilité que l'on   
+  <lb/>peut, dont luy et tous ses gens se contenterent moult   
+  <lb/>fort, et furent bien joyeux de veoir cette belle ville    
+  <lb/>et si bien acoustree comme elle estoit, car oncques   
+  <lb/>n'avoient veu telles besongnes.</p></div>
+<div type="chapitre">  
+<head>Comme le noble roy de France entra en la noble   
+ <lb/>ville de Seguonye avec le roy et  la royne d'Es̲paigne    
+ <lb/>et aussi les prisonniers qu'il menoit   
+ <lb/>après luy pour en faire la pugnition telle qu' il   
+ <lb/>appartenoit.</head>     
+<p>Quinze jours dura la feste en Seguonye, ou il fut   
+ <lb/>fait de moult beaulx esbatemens et joustes que je   
+ <lb/>laisse pour cause de briefveté, mais tousjours faisoit   
+ <lb/>faire le noble roy de France justice de ceulx qui   
+ <lb/>avoient encommancé l'injure contre le roy d'Es̲paigne.   
+ <lb/>Si fit au bout de quinze jours drecer ung es̲chaffault   
+ <lb/>au milieu de la ville, et illec devant tout le   
+ <lb/>peuple, fit decoler les quatre plus principaulx coul̲pables   
+ <lb/>du cas, puis envoya  en chascune bonne ville   
+ <lb/>cinq des aultres pour monstrer exemple au peuple   
+ <lb/>de bien servir et obeyr a leur roy mieulx qu'ilz   
+ <lb/>n'avoient fait par avant, et que ung chascun y prist   
+ <lb/>exemple. Après ce, mit le roy d'Espaigne en son   
+ <lb/>royaulme, et fut mieulx obey et crainct que jamais   
+ <pb n="13"/>n'avoit esté par avant. Cela fait, deslibera s'en retour̲ner   
+ <lb/>en France avecq son armee, car il avoit mis tout   
+ <lb/>le pays en bonne paix et concorde.</p></div>
+<div type="chapitre">   
+<head>Comment le roy d'Espaigne et la royne, voyant   
+ <lb/>que le roy de France s'en vouloit retourner, se   
+ <lb/>vindrent agenoillier devant luy, en luy remer̲ciant     
+ <lb/>le bien, l'honneur et le service qu'il leur  
+ <lb/>avoit fait et luy recommanderent leur fille.</head>   
+<p>Quant le roy d'Espaigne et la royne virent que le   
+ <lb/>roy de France s'en vouloit retourner en France, si   
+ <lb/>ne sçavoient en quelle maniere ilz le devoient remer̲cier   
+ <lb/>ne regracier le bien et l'honneur qu'il leur avoit   
+ <lb/>fait, par quoy s'en vindrent devant tout le peuple   
+ <lb/>mectre a ses piez en disant :  <q> Treshault et puissant   
+  <lb/>roy, bien savons que icy ne povez bonnement guieres    
+  <lb/>demourer, pour les grans affaires  de vostre royaulme.   
+  <lb/>Si savons bien que a nous n'est pas de vous pouvoir   
+  <lb/>recompancer en aulcune maniere, mais toutesfoiz   
+  <lb/>ce que en nous sera desirons fort de faire et acomplir   
+  <lb/>envers vous: si vous prions et requerons que vueillez	   
+  <lb/>mectre sur nous et noz successeurs tel tribut et   
+  <lb/>revenu comme il vous plaira, car de vous et voz   
+  <lb/>successeurs voullons doresnavant tenir nostre   
+  <lb/>royaulme comme bons et loyaulx subgetz, car c'est   
+  <lb/>bien raison.  </q> Quant le roy ouyt ses parolles, il en       
+  <lb/>eut moult grant pitié ; si leur respondit en les rele̲vant :   
+  <lb/><q> Mes amys, croyez que envie de gaigner et   
+  <lb/>acquerir pays ne m'a pas fait venir en ce royaulme,   
+  <lb/>mais le desir et vouloir de justice augmenter, et les    
+  <lb/>honneurs royaulx garder et entretenir. Si vous prie   
+ <pb n="14"/>que plus ne soit parlé de ces parolles, ains le vous    
+  <lb/>deffens en autant que craignez a me desplaire ; mais    
+  <lb/>pensez de bien faire et sagement gouverner voz sub̲getz   
+  <lb/>en bonne justice et en craincte de Dieu, car par   
+  <lb/>ce moyen prospererez et non aultrement. Et si riens    
+  <lb/>vous survient, faictes le moy savoir, car sans nulle    
+  <lb/>faulte vous secourray et ayderay. </q></p>    
+<p>Quant ilz virent la grant amour et cordialité que    
+ <lb/>le roy  avoit envers eulx, la royne print sa fille,    
+ <lb/>qui estoit de l'eage de cinq a six mois, entre ses bras,    
+ <lb/>et vindrent devant le roy de France, luy requerant    
+ <lb/>que son plaisir fust ouyr et escouter une petite re̲queste    
+ <lb/>qu'ilz luy vouloient faire.  <q> Je le veulx bien  </q>,    
+ <lb/>dit le roy. Adonc la royne commença a parler ainsi :   
+ <lb/><q> Sire, puis que ainsi est que a vous du tout avons   
+  <lb/>nostre esperance, vous prions et requerons que ceste   
+  <lb/>pouvre fille que voyez icy entre mes bras vous soit    
+  <lb/>pour recommandee, car jamais n'avons esperance    
+  <lb/>d'avoir aultres enfans, pource que sommes desja    
+  <lb/>fort sus l'eage, par quoy si Dieu luy donne grace de    
+  <lb/>vivre eage competant pour marier, vostre plaisir   
+  <lb/>soit la pourveoir de mary comme il vous plaira et    
+  <lb/>que verrez que luy sera necessaire, et a icelluy bailler   
+  <lb/>le regime et gouvernement de cestuy pays, car nous    
+  <lb/>voullons que de par vous y soit mis et ordonné roy    
+  <lb/>comme bon vous semblera, car c'est raison. </q></p>    
+<p>Quant le roy de France vit leur grant humilité    
+ <lb/>et affection, le cueur luy attendrit et eut grant pitié    
+ <lb/>d'eulx, et leur respondit en ceste maniere : <q> Chers    
+  <lb/>amys, je vous remercie la grant affection et amour    
+  <lb/>que avez  envers moy, et sachez que vostre fille n'est    
+  <lb/>pas a refuzer. Et si Dieu donne grace a mon filz de    
+  <lb/>venir en eage parfait, et vostre fille aussi, je seroye     
+ <pb n="15"/>moult joyeux que fussent conjoins par mariage ensem̲ble,   
+  <lb/>et si Dieu me donne grace de vivre jusques a   
+  <lb/>l'heure, je vous prometz que mon filz n'aura aultre   
+  <lb/>femme que vostre fille. </q></p>  
+<p> <q> Helas, sire, pour Dieu mercy, n'entendez pas que   
+ <lb/>monseigneur mon mary et moy soyons si presump̲tueux    
+ <lb/>que le vous ayons dit et requis a celle fin que   
+ <lb/>la prenez, mais seullement pour quelque seigneur de   
+ <lb/>voz barons tel que vostre bon plaisir sera, car trop   
+ <lb/>noz feriez de l'honneur de luy donner vostre filz. </q></p>   
+<p><q> Certes </q> dit le roy, <q> ce qui est dit est dit, et se    
+ <lb/>nous vivons, il en sera plus avant parlé, car mainte̲nant   
+ <lb/>n'en pouvons bonnement aultre chose faire ;  
+ <lb/>si prendrons congé de vous. </q></p>   
+<p><q> Vrayement </q>, dit la royne, <q> s'il vous plaist, mon̲seigneur   
+ <lb/>mon mary et moy vous conduyrons jusques   
+ <lb/>a Paris, car j'ay grant desir de veoir ma treshonnoree   
+ <lb/>dame la royne. </q></p>   
+<p><q> Mes amys </q>, respondit le roy, <q> vous ne pouvez   
+ <lb/>bonnement bouger ne ne devez quant a present,   
+ <lb/>car ce peuple que nouvellement a esté reduit, pour̲roit    
+ <lb/>facillement en vostre absence estre seduit  en   
+ <lb/>peu de temps, car tous les coulpables ne sont pas   
+ <lb/>mors, ne aussi les parens des pugnis, que pourroient   
+ <lb/>faire a l'encontre de vous quelque vengence ou quelque   
+ <lb/>maulvaise conspiration, par quoy ne veulx que nul̲lement    
+ <lb/>vous vous despartez d'icy, mais que seulle̲ment   
+ <lb/>les entretenez en bonne paix et amour, et vous   
+ <lb/>tenez sur voz gardes, et tenez bonne justice et craignez   
+ <lb/>et aymez Dieu, et le servez, car tout bien vous en    
+ <lb/>adviendra, et sans sa grace vous ne pouvez nul bien  
+ <lb/>avoir. Je vous recommande aussi l'estat de l'esglise   
+ <lb/>et les pouvres, et gardez bien qu'ilz ne soient oppri̲mez   
+ <pb n="16"/>ne follez, et Dieu vous aymera. </q> En ces belles    
+ <lb/>remonstrances et enseignemens que le roy leur fit,    
+ <lb/>present plusieurs barons, prindrent congié les ungs    
+ <lb/>des aultres a grans souspirs et regretz.</p></div>
+<div type="chapitre">   
+<head>Comment le roy de France print congié du roy d'Es̲paigne   
+ <lb/>et de la royne, et comment le peuple   
+ <lb/>du pays acompaignerent le roy grant chemin.</head>   
+<p>Toutesfoiz, pour abregier, le roy se despartit d'Es̲paigne   
+ <lb/>a grans pleurs et lamentations  du roy, de la   
+ <lb/>royne et de ceulx du pays, qui l'acompaignerent grant    
+ <lb/>espace de temps, et donna le roy d'Espaigne de grans    
+ <lb/>et riches dons au roy et aux barons et chevaliers,    
+ <lb/>tellement qu'il n'y avoit en toute l'armee petit ne    
+ <lb/>grant qui ne s'en louast, et qui ne tint le roy d'Es̲paigne    
+ <lb/>a vaillant et puissant roy. Si firent tant par    
+ <lb/>leurs journees qu'ilz vindrent a Paris ou ilz furent    
+ <lb/>moult joyeusement et honnorablement receuz, et    
+ <lb/>dura la feste dix jours. Puis print chascun congié    
+ <lb/>du roy qui bien les envoya joyeulx et contans en     
+ <lb/>leurs maisons.</p></div>
+<div type="chapitre">    
+<head>Comment le roy de  France morut, dont fut demené    
+ <lb/>grant dueil par tout le royaulme.</head>    
+<p>Le bon roy de France au bout de quatre ou cinq    
+ <lb/>ans, print une maladie que longuement luy dura,     
+ <lb/>et en la fin en morut, dont fut grant dommaige au    
+ <lb/>pays, et en fut demené grant dueil par tout le    
+ <pb n="17"/>royaulme et expressement la royne que moult l'ay̲moit.   
+ <lb/>Si fut enbasmé comme a tel prince et seigneur   
+ <lb/>appartenoit. La  royne qni saige dame estoit, après   
+ <lb/>la sepulture du roy, print le gouvernement du   
+ <lb/>royaulme, pource que son filz estoit encores jeune,   
+ <lb/>et le gouverna en bonne paix et transquilité et union   
+ <lb/>de justice. Quelque espace de temps après, fut sacré   
+ <lb/>a roy monseigneur Jehan son filz, dont fut fait par   
+ <lb/>tout le païs une merveilleuse joye. Si laisserons a   
+ <lb/>parler d'eulx et retornerons au roy d'Espaigne   
+ <lb/>et a la royne, qui si bien ensuivirent et garderent les   
+ <lb/>bons enseignemens que le roy de France leur avoit   
+ <lb/>faitz qu'ilz garderent et gouvernerent leur païs et   
+ <lb/>royaulme en bonne paix, justice et amour de leurs   
+ <lb/>subgetz.</p></div>
+<div type="chapitre">   
+<head>Comment le roy et la royne d'Espaigne sceurent   
+ <lb/>que le bon roy de France estoit mort, dont ilz   
+ <lb/>demenerent grant dueil.</head>   
+<p>En ce temps vint nouvelles en Espaigne comme   
+ <lb/>le roy de France alla de vie a trespas, dont fut de̲mené   
+ <lb/>ung merveilleux dueil par le roy et la royne   
+ <lb/>et les barons du pays, et n'y eut monastere, esglise   
+ <lb/>ne convent ou le roy ne fit faire obseques, prieres et    
+ <lb/>oraisons pour l'ame du bon roy  et en porterent   
+ <lb/>le roy et la royne le dueil ung an et moult bien en    
+ <lb/>firent leur devoir. Toutesfoiz il n'est dueil que au   
+ <lb/>bout de quelque temps ne se appaise, et que l'on   
+ <lb/>n'oblie, et mesmement quant les parties sont loing   
+ <lb/>l'une des aultres. Le roy et la royne d'Espaigne   
+ <pb n="18"/>nourrirent leur fille moult bien et luy firent ap̲prendre    
+ <lb/>toutes bonnes meurs et a parler tous lan̲guages,    
+ <lb/>tant que on ne sçavoit fille en tout le royaulme    
+ <lb/>plus belle, plus sage, ne mieulx moriginee qu'elle     
+ <lb/>estoit. Le pere et la mere devindrent vieulx, qui    
+ <lb/>aultres enfans n'avoient que celle fille de l'eage de    
+ <lb/>quinze ans ou environ, et panserent entr'eulx qu'il    
+ <lb/>estoit besoing et temps pour le mieulx de la marier    
+ <lb/>a quelque ung qui gouverneroit le royaulme. Et se    
+ <lb/>faisoient enquerir par toutes terres mary que fut    
+ <lb/>propice pour la fille, car ilz avoient du tout oublié    
+ <lb/>la promesse qu'ilz avoient faicte au roy de France,    
+ <lb/>tant que les nouvelles en vindrent au roy d'Angle̲terre    
+ <lb/>qui pour lors estoit vefve, par quoy envoya une     
+ <lb/>embaxade en Espaigne.</p></div>
+<div type="chapitre">   
+<head>Comment le roy d'Angleterre fiença la fille  du   
+ <lb/>roy et de la royne d'Espaigne, appellee Anne,   
+ <lb/>par procureur.</head>   
+<p>Le roy d'Angleterre, qui ouyt parler de ceste fille   
+ <lb/>qui estoit tant belle, tant sage et bien moriginee,   
+ <lb/>ce pensa en luy mesmes qu'il seroit bon que la fist   
+ <lb/>demander. A ceste cause envoya en Espaigne une   
+ <lb/>moult belle compaignie de ses barons et chevaliers   
+ <lb/>en embassade pour demander la fille en mariage,   
+ <lb/>et donnerent plusieurs beaulx presens au roy et a la   
+ <lb/>royne, a la fille et aux barons et chevaliers d'Es̲paigne   
+ <lb/>pour mieulx les attraire a leur voulenté.   
+ <lb/>Et firent tant envers le roy et la royne que leur fille   
+ <lb/>leur fut accordee, dont la fille n'estoit pas bien con̲tante,   
+ <pb n="19"/>car on luy avoit raporté que le roy d'Angle̲terre    
+ <lb/>estoit desja fort vieulx et cassé. Mais pour    
+ <lb/>amour de son pere et de sa mere n'en oza mot sonner,    
+ <lb/>a celle fin qu'ilz n'en fussent marriz ne courroucez   
+ <lb/>a l'encontre d'elle. Les fiançailles furent faictes par   
+ <lb/>procureur, et la fiença le procureur et conte de Len̲castre   
+ <lb/>pour et au nom du roy, dont les Anglois   
+ <lb/>furent moult joyeulx, et en firent grant feste, et   
+ <lb/>donnerent de beaux joyauls a  leur nouvelle dame   
+ <lb/>et aux damoiselles. Huit jours après s'en voulurent    
+ <lb/>retourner pour faire la responce au roy comme ilz    
+ <lb/>voient exploicté et besongné, et fut prins terme    
+ <lb/>d'espouser, et promirent que dedans ledict temps    
+ <lb/>ameneroient leur roy pour parachever le mariage.   
+ <lb/>Si prindrent congié les ungs des aultres, et s'en par̲tirent   
+ <lb/>les Anglois bien joyeulx d'Espaigne de ce   
+ <lb/>qu'ilz avoient si bien fait la besongne. Et firent tant    
+ <lb/>par leurs journees qu'ilz arriverent en Engleterre,   
+ <lb/>ou ilz furent receuz a grant joye, et vindrent a   
+ <lb/>Londres ou le roy les festoya merveilleusement.</p></div>
+<div type="chapitre">    
+<head>Comment les ambassadeurs apporterent les nou̲velles   
+ <lb/>au roy d'Angleterre de ce qu'ilz avoient   
+ <lb/>fait avecq le roy d'Espaigne.</head>   
+<p>Si furent les ambassadeurs receuz a moult grant   
+ <lb/>honneur et joye du roy d'Angleterre leur seigneur,   
+ <lb/>et leur demanda comment ilz avoient besongné   
+ <lb/>touchant la matiere. Le conte de Lencastre respon̲dit,   
+ <lb/>comme eulx estre arrivez en Espaigne, en par̲lerent   
+ <lb/>au roy  et a la royne, <q> lesquelz nous firent res̲ponce   
+ <lb/>qu'ilz estoient bien joyeulx du mariage, et que   
+ <pb n="20"/>vous leur faisielz beaucop de l'honneur, par quoy, sans   
+ <lb/>plus actendre, la fiançay pour vous comme procu̲reur,   
+ <lb/>et avons mis terme d'espouser d'huy en quatre   
+ <lb/>moys. </q> Le roy, oyant les nouvelles, fut si souspris   
+ <lb/>de joye qu'il fit crier parmy Londres que l'on ne    
+ <lb/>ouvrist les boutiques de huit jours et qu'on fit feste.    
+ <lb/>Ce pendant fit faire le roy d'Angleterre grant appareil    
+ <lb/>pour aller espouser celle qui avoit desja gaigné le    
+ <lb/>cueur de luy, car il desiroit fort la contempter pour    
+ <lb/>les biens que on luy avoit dit d'elle, et aussi pource    
+ <lb/>que on luy avoit raporté secretement qu'elle ne pre̲noit   
+ <lb/>pas plaisir au mariage. Et pource que le roy d'An̲gleterre    
+ <lb/>ne trouvoit pas bien en son pays draps d'or    
+ <lb/>a sa voulenté, deslibera de venir passer a Paris pour    
+ <lb/>soy y fornir de bagues, couliers et joyaulx comme    
+ <lb/>mestier luy estoit. Si s'en partit d'Angleterre bien    
+ <lb/>acompaigné de chevaliers et barons, car en celuy    
+ <lb/>temps n'estoit nulles nouvelles de guerre. Si vint    
+ <lb/>descendre en Normandie a quelque quatre vingts      
+ <lb/>chevaulx acoustrez selon la mode  du pays, et fit    
+ <lb/>tant par ses journees qu'il vint a Paris, la ou estoit    
+ <lb/>le jeune roy de France de l'eage de dix huit a vingt    
+ <lb/>ans, tant beau, tant sage que merveilles. Et par la    
+ <lb/>royne sa mere totallement se gouvernoit, et bien    
+ <lb/>luy en prenoit, car elle tenoit le royaulme en bonne    
+ <lb/>police, justice et transquilité.</p></div>
+<div type="chapitre">   
+<head>Comment la royne de France envoya au devant    
+ <lb/>du roy d'Angleterre des plus grans de ses barons    
+ <lb/>et aussi les bourgeois de la ville.</head>    
+<p>Quant la royne de France sceut la venue du roy    
+ <lb/>d'Angleterre, elle fit aller au devant de luy tous les    
+ <pb n="21"/>barons et bourgeois et citoyens de Paris, en moult   
+ <lb/>belle ordonnance. Ce jour n'estoit pas a Paris le jeune   
+ <lb/>roy, ains estoit allé a la chasse a ung sanglier au boys   
+ <lb/>de Vincennes, ou il demeura tout le jour. Quant le   
+ <lb/>roy d'Angleterre fut entré dedans Paris, il vint veoir   
+ <lb/>la royne, laquelle moult bien le festia. Et ainsi qu'ilz   
+ <lb/>estoient au soupper le roy d'Angleterre desclara   
+ <lb/>a la royne la cause de son voyage, et pour quoy   
+ <lb/>il estoit passé par France. Si loua merveilleusement   
+ <lb/>la beaulté et le sens de la pucelle, et ne fut au soup̲per   
+ <lb/>parlé d'aultre matiere, car le roy y avoit grande   
+ <lb/>affection, et mesmement comme ces vieillars qui   
+ <lb/>sont incontinent bridez. Après soupper les instru̲mens   
+ <lb/>vindrent et dancerent et firent la meilleur chiere   
+ <lb/>qui leur fut possible. Le roy d'Angleterre souhaicta   
+ <lb/>fort a veoir le jeune roy de France, et après qu'ilz   
+ <lb/>eurent longuement passé temps, le roy s'en alla    
+ <lb/>retraire et aussi toutes ses gens, qui moult furent   
+ <lb/>joyeux du recueil et de l'honneur que la royne leur   
+ <lb/>avoit fait. Quant le roy fut en sa chambre, ilz encom̲mancerent   
+ <lb/>a parler et louerent merveilleusement    
+ <lb/>la royne, que si grant honneur leur avoit fait. Quant   
+ <lb/>la royne fut en sa chambre, bien luy souvint des 
+ <lb/>parolles que le feu roy son mary luy avoit dictes   
+ <lb/>quant il revint d'Espaigne, comme il avoit promis       
+ <lb/>a son filz la fille du roy d'Espaigne. Aussi desiroit   
+ <lb/>elle fort que son filz fust marié. Si envoya querir le   
+ <lb/>duc d'Orleans et le duc de Bourbon, qui en Espaigne   
+ <lb/>avoient esté avec le roy, et leur dit en ceste manière :   
+ <lb/><q> Beaux cousins, je vous ay envoyé querir comme   
+  <lb/>mes principaulx amys  et de mon filz. Vous avez   
+  <lb/>ouy les grans biens qu'on dit estre en ceste fille   
+  <lb/>d'Espaigne. Il est temps, comme vous voyez, que le   
+ <pb n="22"/>roy mon filz soit marié ; si me suis pencee que plus   
+  <lb/>beau mariage ne pourroit trouver, si la fille est telle   
+  <lb/>comme l'on dit : pource vous prie que m'en conseillez,   
+  <lb/>car bien croy que si le roy d'Espaigne savoit que   
+  <lb/>mon filz la voulsist avoir, vouluntiers la luy don̲neroit. </q>   
+ <lb/>Les seigneurs regarderent la royne et luy    
+ <lb/>dirent en effect que mieulx ne pouvoit faire. Si se    
+ <lb/>tindrent fort coulpables de ce que plus tost n'en   
+ <lb/>avoient parlé, et pour ce a celle heure s'en allerent    
+ <lb/>monter a cheval a peu de compaignie, et s'en allerent    
+ <lb/>au bois de Vincennes devers leur jeune roy leur sei̲gneur    
+ <lb/>luy dire les nouvelles. Si le trouverent couché,    
+ <lb/>mais dès incontinent qu'il sceut qu'ilz furent arrivez,    
+ <lb/>les envoya querir, et les fit venir jusques a son lit     
+ <lb/>pour savoir que les mouvoit a celle heure, car desja    
+ <lb/>estoit fort tard.</p></div>
+<div type="chapitre">    
+<head>Comment le duc d'Orleans et de Bourbon vindrent   
+ <lb/>toute nuyt au boys de Vincennes pour apporter    
+ <lb/>les nouvelles au roy comme vous orrez.</head>    
+ <lb/><p>Quant les barons eurent tout compté au roy la   
+  <lb/>matiere que avoit esté entre sa mere et eulx, il leur   
+  <lb/>dit qu'ilz s'allassent coucher, et que demain au bon   
+  <lb/>matin il y auroit pensé, et leur en feroit responce,   
+  <lb/>par quoy les barons prindrent congié de luy et s'en   
+  <lb/>allerent en leurs chambres. Et quant ilz s'en furent   
+  <lb/>allez, le roy cuydoit dormir, mais il ne pouvoit, si   
+  <lb/>veilla toute la nuyt en pensant a la beaulté qu'ilz   
+  <lb/>luy avoient dit qui estoit en la fille, car elle luy estoit   
+ <pb n="23"/>ja entree au cueur, mais il doubtoit fort le reffuz,    
+  <lb/>pource que le roy d'Angleterre l'avoit  ja fiancee.    
+  <lb/>Et deslibera en soy une moult estrange façon de faire,   
+  <lb/>laquelle il delibera en son entendement de faire et    
+  <lb/>acomplir, et la mena a fin le plus sagement que   
+  <lb/>oncques fit personne.</p>   
+<p>Quant vint au matin, le roy se leva, qui n'avoit   
+ <lb/>pas oublié la besongne, si dit a ses barons : <q> Je veulx   
+  <lb/>aller par devers ma mere la royne, si secretement   
+  <lb/>que ne soye apparceu. Allez vous en devant, et me   
+  <lb/>faictes assembler tous les principaulx de mon conseil   
+  <lb/>en quelque lieu que n'en soit mot sonné. </q> Tantost   
+ <lb/>partirent de Vincennes et vindrent a Paris, car   
+ <lb/>guieres n'estoit loing, et  vindrent devers la royne   
+ <lb/>luy dire ce qu'ilz avoient besongné, et comment le   
+ <lb/>roy venoit dissimulé, car il ne vouloit estre congneu   
+ <lb/>des Anglois, congnoissant que le roy y avoit une   
+ <lb/>singuliere affection en la besongne. Si vint vers sa   
+ <lb/>mere, que incontinant qu'elle le vit, luy fit une mer̲veilleuse    
+ <lb/>chere. Si fit dès l'heure assembler les prin̲cipaulx    
+ <lb/>de sa baronnie et de son conseil, et quant   
+ <lb/>il y fut, commença a parler en ceste maniere :</p></div>
+<div type="chapitre">   
+<head>Comment le roy de France vint dissimulé a   
+ <lb/>Paris pour peur qu'il ne fust congneu des An̲glois.</head>   
+<p><q> Ma chere dame et mere, j'ay entendu ce que   
+ <lb/>m'avez mandé, et y ay assez pencé, et sçay bien que   
+ <lb/>vous ne mes parens que icy sont ne me vouldriez   
+ <lb/>conseillier chose que ne fust a mon honneur et prouf̲fit.   
+ <lb/>Si la chose est telle comme l'on dit, je y voul̲droys   
+ <pb n="24"/>bien entendre, car mieulx ne sçaurois trouver,   
+ <lb/>mais je y voy deux grans ostacles et empeschemens,   
+ <lb/>pource qu'elle est fiancee au roy d'Angleterre, qui y   
+ <lb/>va pour l'esposer, par quoy a l'aventure le roy   
+ <lb/>d'Espaigne ne vouldra  pas rompre sa promesse,   
+ <lb/>et si ainsi estoit, ce nous seroit ung deshonneur et   
+ <lb/>reprouche perpetuel. L'aultre point si est que si   
+ <lb/>ledict roy d'Espaigne la nous octroye, et puis quant   
+ <lb/>nous l'aurons veue, et elle ne nous est agreable,   
+ <lb/>ce seroit une aultre grant villenye de luy avoir fait    
+ <lb/>perdre son premier mariage, et, comme vous sçavez,    
+ <lb/>c'est une chose que doit venir de franche voulenté,    
+ <lb/>car c'est une longue chance que mariage. Et pour    
+ <lb/>donner a ces deux pointz conclusion et fin, je me suis    
+ <lb/>pensé de m'en aller en Espaigne en habit dissimulé,   
+ <lb/>en la plus grant gorre et triumphe que sera possible,   
+ <lb/>et changeray mon nom, et feray aller mon armee   
+ <lb/>par quelque aultre lieu et mes chariotz, que tous les   
+ <lb/>jours sçauront de mes nouvelles. Et quant je seray   
+ <lb/>arrivé de par dela, selon que je verray la matiere    
+ <lb/>d'espouser ou non, je le feray. Si vous prie que en ce   
+ <lb/>vueillez adviser et en dire voz oppinions, car je ne   
+ <lb/>suis point arresté a mon oppinion que je ne vueille   
+ <lb/>bien faire et user par vostre bon conseil. </q></p>   
+<p>Quant la royne ouyt ainsi si sagement parler son    
+ <lb/>filz, elle en fut moult joyeuse, si furent tous ceulx du   
+ <lb/>conseil. Adonc la royne va dire en ceste maniere :    
+ <lb/><q> Mon tresaymé filz, il me semble que avez merveil̲leusement   
+  <lb/>et sagement prins vostre voulenté et    
+  <lb/>intention de vous en aller en la maniere que avez    
+  <lb/>devisee, car principallement nul mariage ne se doit    
+  <lb/>faire si les parties ne s'i consentent et qu'elles y    
+  <lb/>viennent par bonne et vraye amour, aultrement il    
+ <pb n="25"/>en vient de grans inconveniens. Pource je suis de   
+  <lb/>vostre oppinion, pourveu toutesfoiz que au plus hault   
+  <lb/>estat que faire ce pourra vous y alliez, si cas d'aven̲ture   
+  <lb/>advenoit que le mariage se fist, car monseigneur  
+  <lb/>vostre pere en vint en grant triumphe et honneur,   
+  <lb/>par quoy ne fault pas amoindrir vostre estat, car il   
+  <lb/>est besoing que y soyez fort et en grant triumphe   
+  <lb/>pour tousjours honnorer et faire craindre vostre   
+  <lb/>royaulme. </q> Pour abreger, tous furent de celle   
+ <lb/>oppinion. Et quant tout fut conclu, l'on ordonna que   
+ <lb/>le roy ne verroit point le roy d'Angleterre, si non   
+ <lb/>secretement affin que ne fut de luy congneu, et fut   
+ <lb/>ordonné que tous les draps d'or et de soye, les plus   
+ <lb/>beaulx bagues, chaines, coliers et aultres choses   
+ <lb/>servans a la matiere, seroient retenuz et prins pour   
+ <lb/>porter en  Espaigne, et que on en laisseroit une partie   
+ <lb/>pour ayder a fournir le roy d'Angleterre, et que la   
+ <lb/>royne l'entretiendroit sept ou huit jours jusques le   
+ <lb/>roy de France seroit prest de partir. La royne fit   
+ <lb/>ouvrir tous les tresors du feu roy son mary, qui   
+ <lb/>estoient merveilleusement grans, car jamais n'avoit   
+ <lb/>heu guerre que en Espaigne, par quoy il s'i trouva   
+ <lb/>grant habundance de riches joyaulx, lesquelz le roy   
+ <lb/>print pour porter avecques luy. Le duc d'Orleans   
+ <lb/>eut en charge de faire la diligence de l'apprest   
+ <lb/>de ce qui estoit necessaire. Si print cent des plus   
+ <lb/>beaulx barons de cheux le roy qui estoient de son   
+ <lb/>eage, et cent jeunes pages que merveilleusement   
+ <lb/>estoient beaux, car ilz avoient les cheveux aussi    
+ <lb/>jaulnes que fin or. Si les fit le duc d'Orleans habiller   
+ <lb/>de livree comme il luy sembla pour le mieulx.</p>   
+<p>Le roy retourna a Vincennes, et dit audict duc   
+ <lb/>d'Orleans qu'il fist la plus grant diligence que faire   
+ <pb n="26"/>ce pourroit, et que incontinent que les pages et   
+ <lb/>barons seroient prestz, que les luy amenast a Vin̲cennes,    
+ <lb/>et ce pendant ledict duc d'Orleans et de Bour̲bon,   
+ <lb/>qui eurent ladicte charge,  firent apprester   
+ <lb/>deux mille hommes d'armes des plus grans du    
+ <lb/>royaulme, et quatre mille archiers avec les costilliers    
+ <lb/>et pages pour conduire et garder le grant nombre    
+ <lb/>des coffres et bautz qu'il menoit. Car dedans iceulx    
+ <lb/>furent mis habillemens, draps d'or et de soye, bagues    
+ <lb/>et aultres richesses innumerables, et fit mener avecq    
+ <lb/>lesdictz sommiers, chariotz, costuriers et brodeurs    
+ <lb/>qu'ilz ne faisoient aultre chose que faire habillemens    
+ <lb/>de diverses manieres. La royne entretint le roy    
+ <lb/>d'Angleterre au mieulx qu'elle peut, et le plus hon̲norablement    
+ <lb/>que faire ce pouvoit, en actendant    
+ <lb/>que son filz fut prest. Et ce pendant ledict roy fai̲soit    
+ <lb/>chercher draps d'or et de soye, et aultres bagues    
+ <lb/>pour eulx fornir, lesquelz en trouverent bien peu,    
+ <lb/>car le roy de France avoit prins tout le meilleur     
+ <lb/>et le plus beau, dont les Anglois estoient fort esbays    
+ <lb/>comme en une telle ville que Paris y avoit si peu de    
+ <lb/>draps de soye ; toutesfoiz leur fut force de prendre    
+ <lb/>en gré ce qu'ilz trouverent. Ce pendant le roy de    
+ <lb/>France fut prest pour partir, et s'en allerent secretement    
+ <lb/>par bandes, les ungs par ung lieu, les aultres      
+ <lb/>par ung aultre, tellement que le roy d'Angleterre  ne    
+ <lb/>ses gens ne s'en apparceurent point.</p></div>
+<div type="chapitre">   
+<head>Comment les cent chevaliers et les cent pages tous   
+ <lb/>montez et habillez de mesmes arriverent devers   
+ <lb/>le roy de France a Vincennes.</head>   
+<p>Les cent barons et les cent pages en belle ordon̲nance    
+ <lb/>vindrent devers le roy a Vincennes, habillez    
+ <pb n="27"/>si mignonnement que c'estoit merveilles et belle   
+ <lb/>chose a veoir ; tous estoient vestuz de velours noir   
+ <lb/>brodé tout a l'entour de fin or, et les pourpoins   
+ <lb/>de fin satin cramoisi. Ilz estoient merveilleusement   
+ <lb/>beaux et blondes, et bien en point, mais sur tous   
+ <lb/>estoit le roy le plus beau et le plus parfaict, car bel   
+ <lb/>et grant homme estoit. Si deffendit incontinant a   
+ <lb/>ses gens qu'ilz ne dissent a personne qu'il estoit,   
+ <lb/>si non qu'il avoit nom Jehan de Paris, et qu'il estoit   
+ <lb/>filz d'ung riche bourgeois dudict lieu qui luy avoit   
+ <lb/>laissé moult grande richesse et grans biens après son   
+ <lb/>decex. Quant il sceut que le roy d'Angleterre vouloit   
+ <lb/>partir demain de Paris, il part et tire son chemin par   
+ <lb/>la Beausse, car il savoit bien que  ledict roy vouloit   
+ <lb/>tirer a Orleans et de la a Bourdeaux, et pource il   
+ <lb/>s'en alla devant jusques vers Estampes. Et quant   
+ <lb/>il fut adverti que le roy d'Angleterre venoit, il partit   
+ <lb/>d'Estempes, et se mit a chevaucher la Beausse tout   
+ <lb/>bellement, pour contreactendre le roy d'Angleterre.</p>   
+<p>Ce fut ung mardi, après que le roy Jehan de Paris   
+ <lb/>ce faisoit nommer, et chevauchoit bellement a tout   
+ <lb/>deux cens chevaulx grisons et gens telz comme avez   
+ <lb/>ouy compter cy devant, et son ost estoit allé par   
+ <lb/>aultre chemin, affin que le roy d'Angleterre ne les   
+ <lb/>apparceust, et conduisoient les chariotz et richesses   
+ <lb/>de Jehan de Paris, et avoient tous les jours nouvelles    
+ <lb/>les ungs des aultres. Le roy anglois ce partit iceluy   
+ <lb/>jour d'Estempes et chevauchoit moult fort ; si luy   
+ <lb/>dirent ses gens que devant eulx avoit une compai̲gnie   
+ <lb/>de gens moult bien acoustrez, <q> il seroit bon  
+  <lb/>envoyer veoir que c'est. </q></p></div>
+<div type="chapitre">
+<pb n="28"/>   
+<head>Comment le roy d'Angleterre envoya l'ung de ses    
+ <lb/>heraulx pour les veoir et savoir que c'estoit et   
+ <lb/>comment il demanda le chef de la compaignie.</head>   
+<p>Alors le roy d'Angleterre commanda a l'ung de ses   
+ <lb/>barons qu'il allast querir ung herault. Si fut inconti̲nant   
+ <lb/>venu, et alors le roy luy dit et chargea que il   
+ <lb/>allast veoir celle belle compaignie et qu'il s'enque̲rist   
+ <lb/>et demandast qui estoit le seigneur d'eulx,   
+ <lb/>et qu'il le saluast de par luy. Incontinant le herault   
+ <lb/>partit et picque son cheval des esperons et fit tant    
+ <lb/>qu'il arriva près d'eulx, et regarda comme ilz chevau̲choient    
+ <lb/>en belle ordonnance et tous les chevaulx    
+ <lb/>pareilz. Il ne sceut que faire, car ilz luy sembloient    
+ <lb/>estre tous anges descendus des cieulx, ny oncques     
+ <lb/>en sa vie n'avoit veu si belle compaignie. Si print    
+ <lb/>courage, et se mit en la garde de Dieu, et vint jusques    
+ <lb/>au plus près des derniers, tout paoureux et tremblant    
+ <lb/>et dit : <q> Dieu vous gard, messeigneurs. Vueillez    
+  <lb/>sçavoir que le roy d'Angleterre mon maistre, que vient     
+  <lb/>icy après moy, m'a envoyé vers vous pour savoir    
+  <lb/>qui estoit le cappitaine et seigneur de si belle com̲paignie. </q></p>    
+<p><q> Amy </q>, dit l'ung d'eulx, <q> elle est a Jehan de    
+ <lb/>Paris nostre maistre. </q></p>     
+<p><q> Et est il icy ? </q></p>   
+<p><q> Ouy </q>, respondirent les François, <q> il chevauche    
+ <lb/>bien loing devant. </q></p>     
+<p><q> Et vous semble </q>, dit il, <q> que  je puisse parler    
+ <lb/>a luy, et quel cheval il chevauche ? </q></p>    
+<pb n="29"/><p><q> Vous pourrez bien parler a luy, mais que vous   
+ <lb/>vous hastez ung peu de chevaucher. </q></p>   
+<p><q> Et comment le congnoistré je ? </q></p>   
+<p><q> Vous le congnoistrez par ce qu'il est habillé   
+ <lb/>comme les aultres, mais il porte une petite verge   
+ <lb/>blanche en sa main. </q></p>   
+<p>Si dit le herault, <q> Grant mercy. </q> Adonc chevauche   
+ <lb/>le herault parmy la presse, voyant si grant triumphe   
+ <lb/>qu'il en estoit quasi en reverie. Si chevaucha tant   
+ <lb/>qu'il vit celuy qu'il demandoit ; si vint a luy et le   
+ <lb/>salua en disant : <q> Treshault et puissant, je ne sçay   
+  <lb/>voz tiltres par quoy vous puisse honorer, si me aurez   
+  <lb/>pour excusé. Plaise vous sçavoir, mon tresredoubté   
+  <lb/>seigneur, que le roy d'Angleterre, mon maistre,   
+  <lb/>m'a icy envoyé par devers vostre seigneurie, sçavoir   
+  <lb/>quelz gens vous estez, car il est icy bien près, et de̲sire   
+  <lb/>fort estre en vostre compaignie. </q></p>   
+<p><q> Mon amy, vous luy pourrez dire que je me re̲commande    
+ <lb/>a sa bonne grace, et que s'il chevauche   
+ <lb/>ung peu legierement, nous pourra actaindre, car nous   
+ <lb/>ne chevauchons pas trop fort. </q></p>   
+<p><q> Et que lui diray je qui vous estes  </q>?</p>   
+<p><q> Mon amy, dictes luy que Jehan de Paris suis   
+ <lb/>appellé. </q></p>   
+<p>Le herault ne l'oza  plus interroguer, doubtant   
+ <lb/>luy desplaire. Si s'en retourna vers son seigneur tout   
+ <lb/>esmerveillé de ce qu'il avoit veu. Si chevaucha   
+ <lb/>si fort qu'il vint devers le roy, et quant fut a luy,   
+ <lb/>luy compta les triumphes et merveilles qu'il avoit   
+ <lb/>veues et ouyes, et luy dit qu'ilz estoient environ   
+ <lb/>deux cens chevaulx tous d'une livree, et estoient les   
+ <lb/>chevaulx tous d'ung poil, et y avoit cent hommes   
+ <pb n="30"/>et cent pages, tous d'ung mesmes habit et de mesure   
+ <lb/>d'eage, les plus belles gens que jamais il avoit veuz.   
+ <lb/><q> Si croyrois je plus tost que ce fussent esperitz   
+ <lb/>que corps mortelz. Toutesfoiz, suis venu a eulx et ay   
+  <lb/>tant fait que j'ay parlé a leur maistre, lequel j'ay    
+  <lb/>salué de par vous, et m'a dit qu'il estoit nommé    
+  <lb/>Jehan de Paris, car plus avant ne l'ay ozé interroguer,    
+  <lb/>et si n'y a difference entre eulx et luy, si non qu'il    
+  <lb/>porte ung baston blanc en sa main, et est merveilleusement    
+  <lb/>bel par sus tous les aultres, et ne chevauche    
+  <lb/>pas fort que tost ne l'ayez aconceu. </q></p></div>
+<div type="chapitre">   
+<head>Comment le roy d'Angleterre commanda a ces    
+ <lb/>barons qu'ilz chevauchassent quant il sceut les   
+ <lb/>nouvelles de Jehan de Paris.</head>    
+<p><q> Or chevauchons </q>, dit le roy d'Angleterre,et   
+ <lb/>alors dit au plus principaulx de ses barons qu'ilz    
+ <lb/>chevauchassent au près de luy en belle ordonnance.    
+ <lb/>Si chevaucherent tant qu'ilz vindrent joindre jusques    
+ <lb/>aux derniers. Et quant il les vit, il en fut moult es̲merveillé ;    
+ <lb/>toutesfoiz les salua moult doulcement, et ilz    
+ <lb/>luy rendirent son salut. <q> Messeigneurs </q>, dit le roy    
+ <lb/>anglois, <q> je vous prie que me vueillez monstrer Jehan    
+ <lb/>de Paris, pource que l'on m'a dit qu'il est seigneur    
+ <lb/>de ceste belle compaignie. </q></p>   
+ <p><q> Sire </q>, dirent ceulx, <q> nous sommes ses serviteurs ;    
+  <lb/>si le trouverez ung peu plus avant, ou il porte ung    
+  <lb/>baston blanc en sa main et chevauche devant pour l'amour de la pouldriere.</q></p>    
+<p><q> Je vois parler a luy. </q></p>   
+ <pb n="31"/><p><q> En bonne heure </q>, dirent ilz.   
+  <lb/>Tant chevaucha le roy, regardant de ça et de la,   
+  <lb/>qu'il vint jusques a Jehan de Paris, lequel il salua   
+  <lb/>moult doulcement en disant :</p></div>
+<div type="chapitre">   
+<head>Comment le roy d'Angleterre arriva au près de   
+ <lb/>Jehan de Paris, en le saluant moult doulce̲ment,    
+ <lb/>et Jehan de Paris, le roy.</head>   
+<p> <q> Dieu doint honneur et joye a Jehan de Paris,    
+ <lb/>et a sa belle compaignie. Ne vous desplaise, car   
+ <lb/>je ne sçay le tiltre de vostre principalle seigneurie. </q>  
+<q> Sire </q>, dit Jehan de Paris, <q> vous le sçavez bien,   
+ <lb/>car c'est mon droit tiltre que Jehan de Paris. Vous   
+ <lb/>soyez le tresbien venu, et s'il vous plaist me direz   
+ <lb/>le vostre. </q></p>   
+<p><q> Voulentiers </q>, dit le roy, <q> je suis le roy des An̲glois   
+ <lb/>appellé. </q></p>   
+<p><q> En bonne heure </q>, dit Jehan de Paris, <q> et ou allez	  
+ <lb/>vous en ces marches ? </q></p>   
+<p><q> Certes </q>, dit le roy, <q> je m'en vois marier en Es̲paigne   
+ <lb/>a la fille du roy du pays. </q></p>  
+<p><q> En bonne heure, par Sainct Piquault </q>, dit Jehan   
+ <lb/>de Paris.</p>   
+<p><q> Et vous </q>, dit le roy, <q> en quel pays allez vous ? </q></p>   
+<p><q> Certes </q>, dit Jehan de Paris, <q> je m'en vois passer   
+ <lb/>le temps par les pays, car je me esmaye a Paris ;   
+ <lb/>et pource ay desliberé d'aller jusques a Bourdeaulx   
+ <lb/>et ailleurs, si le courage le me conseille. </q></p>   
+<p><q> Or me dictes, beau sire </q>, dit le roy, <q> s'il est vostre   
+ <lb/>plaisir, de quel estat estez vous qui telle compaignie   
+ <lb/>menez, car c'est la plus belle que je vis oncques. </q></p>   
+<pb n="32"/><p><q> Certes </q>, respondit il, <q> je suis filz d'ung moult   
+ <lb/>riche bourgeois de Paris que trespassa il y a long̲temps,   
+ <lb/>et me laissa moult de biens. Si m'en vois   
+ <lb/>en despendre une partie et puis j'en amasseray de   
+ <lb/>l'aultre. </q></p>   
+<p><q> Comment amasser  </q>, dit le roy, <q> et menez vous    
+ <lb/>tout ce train a voz despens ? </q></p>    
+<p><q> Ouy certes, et est bien peu de chose quant a moy,    
+ <lb/>veu ce que mon pere m'a laissé. </q></p>    
+<p><q> Par ma foy </q>, dit le roy, <q> vous en serez bien    
+ <lb/>tost a bout, car il n'y a roy sus la terre que n'en    
+ <lb/>fust bien las et charge de entretenir ung si bel    
+ <lb/>estat. </q></p>    
+<p><q> Certes </q>, dit Jehan de Paris, <q> il ne vous en fault     
+ <lb/>ja soucier, car j'en ay bien plus ailleurs. Or chevau̲chons    
+ <lb/>plus fort, car il nous fault aller anuyt coucher    
+ <lb/>près d'Orleans. </q> Si s'en vont chevauchant plus fort    
+ <lb/>que n'avoient acostumé. Et le roy disoit par fois a ses    
+ <lb/>gens : <q> Cest homme est bien fol de ainsi allant des̲pendant    
+  <lb/>le sien par le pays a si grant triumphe et    
+  <lb/>honneur, et, fut il roy ou empereur, il a ung beau    
+  <lb/>train. </q></p>    
+<p><q> Sire </q>, dirent ses gens, <q> il a moult belle conte̲nance,    
+ <lb/>et ce il ne fust bien saige, il n'eust sceu assem̲bler,    
+ <lb/>pour argent qu'il aye, une telle compaignie. </q>    
+<q> Bien est vray </q>, dit le roy, <q> je ne sçay que y pencer,    
+ <lb/>mais ce m'est une chose moult impossible a    
+ <lb/>croire que le filz d'ung bourgeois de Paris puisse     
+ <lb/>maintenir  tel estat. </q> Puis picquoit et venoit parler a     
+ <lb/>Jehan de Paris, qui ne tenoit compte de luy que bien    
+ <lb/>a point et en bonne forme. Si tenoit une moult belle    
+ <lb/>gravité et avec ce belle contenance. Quant ilz furent    
+ <pb n="33"/>près d'ung lieu nommé Artenay, Jehan de Paris va    
+ <lb/>dire au roy d'Angleterre, qui moult fort le regardoit :   
+ <lb/><q>Sire, s'il est de vostre plaisir, vous vous en viendrez   
+ <lb/>soupper avecques moy et ferons bonne chere. </q></p>   
+<p><q> Grant mercy </q>, dit le roy, <q> mon amy, mais je   
+ <lb/>vous prie que viengnez avecques moy, et deviserons   
+ <lb/>des choses que avons veues. </q></p>   
+<p><q> Non feray </q>, respondit Jehan de Paris,  <q> je ne    
+ <lb/>laisseroye pour riens mes gens. </q> Et en parlant de   
+ <lb/>beaucop de choses, chevaucherent tant qu'ilz vin̲drent   
+ <lb/>audit lieu pour loger, la ou il trouva ses four̲riers   
+ <lb/>qui avoient acoustré les logis le plus sumptueu̲sement   
+ <lb/>que l'on pourroit deviser, car les cuysiniers   
+ <lb/>et maistres d'hostelz alloient tousjours devant   
+ <lb/>a celle fin que tout fut prest quant il seroit arrivé,   
+ <lb/>ce que le roy d'Angleterre ne faisoit pas, pource luy   
+ <lb/>failloit prendre en gré ce qu'il trouvoit par les hos̲telleries,    
+ <lb/>qui souvent estoient mal acostrees. Quant   
+ <lb/>ilz furent arrivez au près de la ville  chascun s'en   
+ <lb/>alla en son logis avec leur compaignie.</p></div>
+<div type="chapitre">   
+<head>Comment le roy d'Angleterre s'en alla en son logis   
+<lb/>et comment Jehan de Paris luy envoya de ses   
+ <lb/>biens au soupper.</head>   
+<p>Quant Jehan de Paris fut entré en son logis, il fut  
+ <lb/>moult joyeulx pource qu'il estoit bien acoustré    
+ <lb/>et le soupper prest, auquel avoit grant quantité de    
+ <lb/>venaison et voullataille de toutes sortes, car il y    
+ <lb/>avoit gens qui ne faisoient aultres choses que d'aller    
+ <lb/>a travers pays pour trouver et achepter ce que leur   
+ <lb/>estoit necessaire, par quoy riens ne leur failloit.    
+ <lb/>Les gens du roy d'Angleterre firent tuer beufz et   
+ <pb n="34"/>montons, et de vieille poulaille qu'ilz trouvoient ;   
+ <lb/>vous povez pencer si elle estoit fort tendre. Quant   
+ <lb/>il fut temps de soupper, Jehan de Paris fit porter   
+ <lb/>au roy d'Angleterre, en grans platz d'or, de viande   
+ <lb/>de toutes sortes et vin a grant foison, dont le roy   
+ <lb/>et tous les Anglois furent plus esbays que devant.   
+ <lb/>Toutesfoiz il les mercia, et se assit au soupper, tandis   
+ <lb/>que la viande estoit chaulde, car son soupper n'estoit   
+ <lb/>pas prest, et si n'y avoit pas grant  chose que atten̲due   
+ <lb/>deust estre. Grant parlement estoit entre ses gens   
+ <lb/>et le roy de Jehan de Paris ; les ungs disoient :   
+ <lb/><q> Il est bien fol de ainsi legierement despendre ung   
+  <lb/>si grant tresor, lequel est impossible qu'il luy puisse   
+  <lb/>longuement durer. </q> Les aultres disoient : <q> Par   
+ <lb/>Dieu, si a il une moult belle contenance et ressemble   
+ <lb/>bien estre sage homme. </q> - <q> Certes </q>, dit l'aultre, <q> je   
+ <lb/>m'esmerveille de la grant hausterité qu'il tient,   
+ <lb/>car il ne tient compte du roy nem plus que de son   
+ <lb/>pareil. </q></p>   
+<p> <q> Mais ou a il si tost trouvé telle provision </q>,   
+ <lb/>dit le roy, <q> comme il nous a envoyé, ne quelle vaixelle   
+ <lb/>a il ? Vrayement c'est une choze bien dure a croire   
+ <lb/>a qui ne le verroit, toutesfoiz c'est ung beau passe̲temps    
+ <lb/>que d'estre en sa compaignie. Plust a Dieu   
+ <lb/>qu'il voulsist tirer nostre chemin. </q></p>   
+<p><q> Certes, sire </q>, dit ung Anglois, <q> si fait il jusques   
+ <lb/>a Bourdeaulx, comme il dit. </q></p>   
+<p><q> J'en suis moult joyeulx </q>, dit le roy. <q> Nous n'avons   
+ <lb/>riens que luy envoyer, mais je veulx que vous soyez   
+ <lb/>qui l'irez remercier des biens qu'il nous a envoyez,   
+ <lb/>et luy dire s'il veult venir coucher en nostre logis,   
+ <pb n="35"/>car je croy que nous avons le meilleur quartier,   
+ <lb/>et si verrez son estat et façon de faire. </q></p>   
+<p><q> Voulentiers,  sire, y irons et vous en sçaurons   
+ <lb/>a dire quelque chose, s'il leur plaist nous laisser entrer,   
+ <lb/>et Jehan de Paris de par vous saluerons et sa noble 
+ <lb/>compaignie. </q></p></div>
+<div type="chapitre">   
+<head>Comment le roy d'Angleterre envoya six de ses   
+ <lb/>barons devers Jehan de de Paris luy remercier les   
+ <lb/>biens qu'il luy avoit envoyez, et pour luy dire   
+ <lb/>qu'il vint coucher avec le roy.</head>    
+<p>Les barons du roy d'Angleterre s'en allerent au   
+ <lb/>quartier de Jehan de Paris, qu'ilz trouverent tout   
+ <lb/>fossoyé et barré de taudis, et gardes armez a la porte.   
+ <lb/>Si furent tous esmerveillez, et demanderent ausdicts   
+ <lb/>gardes a qui ilz estoient. Et ilz leur respondirent :   
+ <lb/><q> Nous sommes a Jehan de Paris. Et vous, a qui estes   
+  <lb/>vous ? </q></p>   
+<p><q> Messeigneurs, nous sommes </q>, dirent les Anglois,   
+ <lb/><q> au roy d'Angleterre que nous envoye devers Jehan   
+  <lb/>de Paris luy remercier les biens qu'il a envoyez   
+  <lb/>a nostre maistre ; s'il vous plaist, nous ferez parler   
+  <lb/>a luy. </q></p>   
+<p><q> Voulentiers </q>, dirent ilz, <q> car il nous a commandé   
+ <lb/>que aux Anglois ne soit riens refusé, pource qu'ilz   
+ <lb/>sont venus en sa compaignie. </q> Les barons entrerent   
+ <lb/>tous esmerveillez de ce qu'ilz veoient, et quant ilz   
+ <lb/>furent devant le logis  de Jehan de Paris ilz trouve̲rent   
+ <lb/>aultres gardes que la porte gardoient, ausquelz   
+ <lb/>ilz firent reverence, et leur dirent la cause de leur   
+ <lb/>venue. Et lors le cappitaine de celle garde alla savoir    
+ <pb n="36"/>si on les laisseroit entrer, lequel fut incontinant   
+ <lb/>revenu, et dit aux Anglois : <q> Messeigneurs, nostre   
+  <lb/>maistre est a table, mais ce non obstant, il veult   
+  <lb/>bien que vous entrez. Or vous en venez après moy. </q>   
+ <lb/>Adonc se mit devant, et les barons après. Et quant    
+ <lb/>il entra en la salle ou Jehan de Paris estoit, il se    
+ <lb/>gecta a genoulz ; aussi firent les Anglois quant ilz    
+ <lb/>virent ung tel estat, et que Jehan de Paris estoit    
+ <lb/>a table tout seul, et ses gens au tour de luy en si     
+ <lb/>belle sillence, et ceulx a qui il parloit mectoient    
+ <lb/>tousjours le genoil a terre. La salle estoit toute tendue    
+ <lb/>de moult riche tapisserie, et le ciel et le pavement    
+ <lb/>aussi tout tendu. Jehan de Paris bienveigna les An̲glois,    
+ <lb/>et leur fit grant chiere, et en souppant devisa     
+ <lb/>longuement avec eulx. Et quant il eut souppé et    
+ <lb/>graces furent dictes, instrumentz de toutes sortes   
+ <lb/>commancerent a sonner en grant melodie. L'on    
+ <lb/>mena soupper les Anglois avec les barons de France ;    
+ <lb/>si furent moult haultement servis, et tout de viande    
+ <lb/>chaulde, si s'en esmerveilloient grandement  de    
+ <lb/>la grant largesse de biens qui y estoit, et de la grant    
+ <lb/>quantité de vexelle d'or et d'argent qui y estoit.    
+ <lb/>Après soupper les Anglois prindrent congié, et s'en    
+ <lb/>retournerent au roy, auquel ilz conterent tout au long     
+ <lb/>ce que avoient veu, dont il fut de plus en plus esbay.    
+ <lb/>Si ne sçavoit que dire, mais que point ne le laisseroit    
+ <lb/>tant que leur chemin il vouldroit tenir.</p>    
+<p>Quant vint au matin, Jehan de Paris alla a l'esglise,    
+ <lb/>ou on luy avoit fait tendre ung moult riche et beau     
+ <lb/>pavillon. Puis fut commancée la messe a beaux    
+ <lb/>chantres qu'il menoit avecques luy. Il y eut des An̲glois    
+ <lb/>qui l'alerent bien tost racompter au roy, lequel    
+ <pb n="37"/>s'en vint le plus hastivement qu'il peut a l'esglise.    
+ <lb/>Jehan de Paris luy manda qu'il vint en son pavillon,   
+ <lb/>si l'alerent querir et luy dirent <q> Sire, Jehan de   
+  <lb/>Paris vous prie que veniez en son pavillon, si serez   
+  <lb/>mieulx a vostre aize. </q> Le roy leur dit : <q> Voulentiers    
+   <lb/>je iray. </q> Et quant le roy entra dedans le pavillon,    
+ <lb/>il salua Jehan de Paris, lequel luy rendit son salut,    
+ <lb/>et luy fit plasse auprès luy, et faisoit moult beau    
+ <lb/>veoir ledict pavillon par dedans et les beaux ; car̲reaulx    
+ <lb/>et oreilliers qui y estoient. Aussi faisoit  beau   
+ <lb/>veoir les ornemens de sa chapelle, qui estoient   
+ <lb/>moult fort beaux et riches. Quant la messe fut   
+ <lb/>dicte, chascun print congié, et s'en vindrent en leurs   
+ <lb/>logis pour desjeuner. Jehan de Paris envoya au roy   
+ <lb/>d'Angleterre de viande toute chaulde comme il avoit   
+ <lb/>fait le soir. Puis monterent a cheval et chevaucherent   
+ <lb/>en la maniere que avez ouy jusques a Bour̲deaux.   
+ <lb/>Et tousjours Jehan de Paris avoit ses logis   
+ <lb/>faitz et aournez, et fournis de vivres a planté, et a   
+ <lb/>chascun repas il en envoyoit au roy d'Angleterre,   
+ <lb/>que moult c'esmerveilloit dont icelle viande pou̲voit   
+ <lb/>venir, et en cy petites bourgades comme ilz   
+ <lb/>logeoient aulcuns soirs.</p></div>
+<div type="chapitre">   
+<head>Comme le roy et Jehan de Paris chevauchoient   
+ <lb/>ensemble et devisoient de leur chemin.</head>   
+<p>Ung jour comme ilz chevauchoient par dela Bourdeaux,  
+ <lb/>le roy anglois demanda a Jehan de Paris se   
+ <lb/>il yroit jusques a Bayonne. Et Jehan de Paris luy   
+ <lb/>respondit que ouy. <q> Plut a Dieu </q>, dit le roy, <q> que   
+ <pb n="38"/>vostre voyage s'adressat de  venir jusques en   
+  <lb/>Espaigne, car j'en seroye moult joyeulx. </q></p>   
+<p><q> Certes </q>, dit lors Jehan de Paris, <q> a l'aventure si   
+ <lb/>fera il, car si le vouloir m'en prent, je l'acompliray,   
+ <lb/>s'il plaist a Dieu ; a aultre chose ne suis je subgect   
+ <lb/>après Dieu, si non a mon vouloir, car pour homme   
+ <lb/>qui vive je ne feroys que a ma voulenté. </q></p>   
+<p><q> C'est grant chose </q>, dit le roy, <q> que ce vous vivez   
+ <lb/>longuement en ce monde il vous fauldra changer   
+ <lb/>propoz, ou vous pourrez bien savoir que veult dire   
+ <lb/>soufferte. </q></p>   
+<p><q> Certes </q>, dit Jehan de Paris, <q> de ce n'ay je garde,   
+ <lb/>car la Dieu mercy, j'ay des biens assez, plus que n'en   
+ <lb/>pourray en tout mon vivant gaster a tenir l'ordre   
+ <lb/>que je tiens et l'estat que je maine. </q></p>   
+<p>Le roy regarda ses gens en disant a soy mesmes   
+ <lb/>que cest homme n'avoit pas bon sens naturel, et   
+ <lb/>estoit tout esbay tant qu'il ne savoit que y pencer.   
+ <lb/>Mais tant y avoit que Jehan de Paris tenoit le roy   
+ <lb/>le plus aize que oncques en son vivant eut esté.   
+ <lb/>Ung jour comme ilz chevauchoient entre Eibe Faviere   
+ <lb/>et Bayonne, il se mit tresfort a plouvoir.</p></div>
+<div type="chapitre">
+<head>Comme Jehan de Paris et ses gens voyant la  pluye   
+ <lb/>venir, vestirent leurs manteaux et chapperons   
+ <lb/>a gorge.</head>   
+<p>Quant Jehan de Paris et ses gens virent que la   
+ <lb/>pluye venoit a force, ilz prirent leurs manteaux et   
+ <lb/>chapperons a gorge, et vindrent jusques auprès du   
+ <lb/>roy d'Angleterre que commença a les regarder en   
+ <lb/>tel estat qu'ilz n'avoient garde de la pluye, et alors   
+ <pb n="39"/>le roy luy dit: <q> Jehan de Paris, mon amy, vous et   
+  <lb/>voz gens avez trouvez bons habillemens contre la	   
+  <lb/>pluye et le maulvais temps. </q> Car luy ne ses gens   
+ <lb/>n'avoient nulz manteaulx, pource que au temps   
+ <lb/>d'alors, n'en usoient point en Engleterre, et aussi ne         
+ <lb/>sçavoient pas la maniere de les faire. Et si portoient   
+ <lb/>les Anglois leurs bonnes robbes qu'ilz avoient fait    
+ <lb/>faire pour les nopces, car en leur pays n'estoit point    
+ <lb/>nouvelles de porter malles ne mener bautz, par quoy     
+ <lb/>vous povez pencer en quel point povoient estre leurs	    
+ <lb/>robbes. Les unes estoient longues, les aultres courtes,   
+ <lb/>les aultres fourreez de martres, de renards et de plu̲sieurs    
+ <lb/>aultres fourrures qui c'estoient retraictes pour   
+ <lb/>l'amour de l'eaue, et le lendemain eussiez veu le   
+ <lb/>drap que floctoit  sur lesdictes forrures qui estoient   
+ <lb/>gastees et retraictes. Lors respondit Jehan de Paris   
+ <lb/>au roy en ceste maniere :</p>   
+<p><q> Sire, vous qui estes roy d'Angleterre, et grant   
+ <lb/>seigneur, deussiez faire porter a voz gens maisons    
+ <lb/>pour eulx couvrir en temps de pluye. </q> Le roy d'An̲gleterre    
+ <lb/>pour ces parolles ce print moult fort a rire   
+ <lb/>et luy va respondre :</p>  
+<p><q> Par Dieu, mon amy, il fauldroit avoir des holi̲ffans   
+ <lb/>grant planté a porter tant de maisons. </q> Puis se   
+ <lb/>retira vers ses barons en disant et riant :</p>   
+<p><q> N'avez vous pas bien ouy se que ce gallant a dit ?   
+ <lb/>Ce monstre il pas bien que c'est ung follastre ? Il luy   
+ <lb/>est advys, pour le grant tresor qu'il a, lequel il n'a   
+ <lb/>pas acquis, que riens ne luy est impossible. </q></p>   
+<p><q> Sire, </q> dirent les barons anglois, <q> c'est ung beau   
+ <lb/>passe temps que d'estre auprès de luy, si ne vous en   
+ <lb/>debvez ennuyer, mesmement car il vous fait beau̲coup   
+ <lb/>de plaisirs, et si en passez plus legierement   
+ <pb n="40"/>le païs. Que plust a Dieu qu'il voulsist aller avecq   
+ <lb/>vous aux nopces, car tout vostre estat en seroit hon̲noré,   
+ <lb/>mais que il se voulsist allouer a vous, en luy   
+ <lb/>donnant une bonne somme d'argent. </q></p>   
+<p><q> Je le vouldroys bien </q>, dit le roy, <q> mais se il ne   
+ <lb/>se disoit  a nous, ce nous seroit une grande mespri̲son,   
+ <lb/>car peu priseroient les dames noz estatz contre   
+ <lb/>le sien. </q></p>   
+<p><q> Par Dieu </q>, dirent les barons, <q> sire, vous dictes   
+ <lb/>vray. </q> Si laisserent du tout le parlement les Anglois,   
+ <lb/>car la pluye les chargoit tant qu'il n'y avoit celuy   
+ <lb/>a qui le logis ne luy tardist. Quant ilz furent en la   
+ <lb/>ville, chascun s'en alla logier au logis qui luy estoit   
+ <lb/>appareillé. Si envoya Jehan de Paris au roy d'An̲gleterre   
+ <lb/>de ses biens.</p>   
+<p>Le lendemain au matin partirent et vindrent logier   
+ <lb/>a Bayonne. Et le lendemain matin se partirent du̲dict    
+ <lb/>Bayonne, et se mirent aux champs, et en chevau̲chant,   
+ <lb/>trouverent une petite riviere qui estoit moult   
+ <lb/>maulvaise, car il s'i noya plusieurs Anglois, comme   
+ <lb/>vous orrez.</p></div>
+<div type="chapitre">   
+<head>Comment en passant une petite riviere, beaucop   
+ <lb/>des Anglois se noyerent, et comme Jehan de   
+ <lb/>Paris et ses gens passerent ardyment.</head>   
+<p>Quant ilz furent arrivez auprès de la riviere, le   
+ <lb/>roy d'Angleterre et ses gens qui estoient devant,   
+ <lb/>se mirent a passer la  riviere a gué, ou il y en eut   
+ <lb/>de trois a quatre vingts de noyez qui estoient mal   
+ <pb n="41"/>montez, dont ledict roy fut moult desplaisant.   
+ <lb/>Jehan de Paris, qui venoit après tout bellement, qui   
+ <lb/>ne s'esmayoit guieres de celle riviere pource que luy      
+ <lb/>et sa compaignie estoient bien montez, commancerent.     
+ <lb/>a passer les ungs après les aultres, en telle fasson    
+ <lb/>et maniere que tous passerent, par la voulenté et   
+ <lb/>grace de Dieu sans nul peril ne danger, car la riviere     
+ <lb/>estoit devenue grosse et avoit abbatu le pont qui y     
+ <lb/>estoit, par quoy il y avoit grant dangier, mais Dieu a    
+ <lb/>celle foiz garda Jehan de Paris et ses gens d'estre noyez.</p>   
+<p>Le roy d'Angleterre estoit au bourt de la riviere,   
+ <lb/>lamantant et plourant ses gens qu'il avoit pardus,    
+ <lb/>et regardoit comme Jehan de Paris et ses gens pas̲soient,   
+ <lb/>dont estoit fort esmerveillé de ce que per̲sonne   
+ <lb/>des gens de Jehan de Paris ne demouroient   
+ <lb/>en la riviere. Et quant ilz furent dehors oultre, le   
+ <lb/>roy commensa a dire a Jehan de Paris :</p>   
+<p><q> Mon doulz amy, vous avez heu meilleur adven̲ture    
+ <lb/>en ceste riviere que moy, qui y ay pardu plu̲sieurs   
+ <lb/>de mes gens </q>. Lors  Jehan de Paris se print   
+ <lb/>a soubzrire et luy dit :</p>   
+<p><q> Je m' esmerveille de vous qui estes si puissant     
+ <lb/>et riche, que vous ne faictes porter ung pont pour   
+ <lb/>passer voz gens, car quant il vient aux rivieres pas̲ser,    
+ <lb/>il leur seroit bien necessaire. </q> Le roy se print    
+ <lb/>a rire, nonobstant sa perte, et dit : <q> Par Dieu, vous    
+  <lb/>me baillez de bonnes raisons. Or sus, chevauchons,    
+  <lb/>car je suis fort moillé, et vouldroys estre au logis. </q>   
+ <lb/>Si luy dit Jehan de Paris comme celuy qui faignoit ne   
+ <lb/>l'avoir point entendu :</p>    
+ <pb n="42"/><p><q> Sire, chassons ung peu par ces bois. </q></p>   
+<p><q> En bonne foy </q>, dit le roy, <q> je n'ay talant de   
+ <lb/>railler a ceste heure. </q> Si chevaucherent fort, tant que   
+ <lb/>chascun arriva en son logis, la ou les Anglois se plai̲gnoient    
+ <lb/>et lamentoient de leurs parens et amys qui   
+ <lb/>c'estoient noyez en celle riviere ; toutesfoiz firent ilz la   
+ <lb/>meilleur chiere qui leur fut possible, car il leur failloit   
+ <lb/>aller aux nopces, qui fut une partie de oublier leur   
+ <lb/>melencolie et courroux, et sejournerent la de deux   
+ <lb/>a trois jours.</p>   
+<p>Quant vint ung aultre jour, ainsi qu'ilz estoient   
+ <lb/>aux champs, et que le roy d'Angleterre avoit oublié   
+ <lb/>partie de sa melancolie, en chevauchant il demanda   
+ <lb/>a Jehan de Paris :</p>    
+<p><q> Mon doulz amy, je vous prie, dictes nous icy en   
+ <lb/>passant temps par quelle occasion vous venez en ce   
+ <lb/>pays d'Espaigne. </q></p>   
+<p><q> Vrayement, sire, </q> dit Jehan de Paris, <q> je le vous   
+ <lb/>diray voulentiers. Je vous diz et assure pour vray   
+ <lb/>qu'il y peult avoir environ quinze ans, que feu mon   
+ <lb/>pere, a qui Dieu face mercy, vint chasser en ce pays,   
+ <lb/>et quant il s'en partit, il tendit ung petit las a une   
+ <lb/>canne, et je me viens esbatre icy pour veoir si la canne   
+ <lb/>est prinse. </q></p>   
+<p><q> Par ma foy </q>, dit le roy en riant, <q> vous estes ung   
+ <lb/>grant chasseur, que si loing venez cercher vostre   
+ <lb/>gibbier. Par Dieu, si elle estoit prinse, elle seroit   
+ <lb/>pourrie et mangee des vers. </q></p>   
+<p><q> Vous ne sçavez </q>, dit Jehan de Paris, <q> car les   
+ <lb/>cannes de ce pays ne semblent pas aux vostres, car   
+ <lb/>ceulx cy ce gardent moult longuement sans pour̲rir. </q>   
+ <lb/>De ceste responce rirent moult longuement les   
+ <pb n="43"/>Anglois, pource qu'ilz n'entendoient pas a quelle fin    
+ <lb/>il le disoit, et disoient les aulcuns qu'il estoit demy    
+ <lb/>fol.</p>   
+<p>Quant ilz furent assez près de la cité de Burgues,    
+ <lb/>ou estoit le roy et la royne d'Espaigne, et en laquelle    
+ <lb/>ville les nopces se devoient faire, le roy d'Angleterre   
+ <lb/>va dire a Jehan de Paris en ceste maniere : <q> Jehan    
+  <lb/>de Paris, mon bon amy, si vous voulez venir avecq   
+  <lb/>nous jusques a Burgues, et vous avouer pour moy,   
+  <lb/>je vous donray de l'argent bien largement, et si   
+  <lb/>verrez une belle assemblee de dames et seigneurs. </q></p>   
+<p><q> Sire </q>, dit Jehan de Paris, <q> d'y aller je ne sçay que     
+ <lb/>j'en feray, car ce sera selon le vouloir qu'il m'en pren̲dra.   
+ <lb/>Et quant de m'avouer a vous et a vostre subjec̲tion,    
+ <lb/>cela ne vous fault impencer, car par Dieu, pour    
+ <lb/>vostre royaulme ne le feroye, ne de vostre argent   
+ <lb/>je n'en ay que faire, car j'en ay plus que vous. </q>  
+ <lb/>Quant le roy se ouyt ainsi refusé, il en fut moult   
+ <lb/>doulent, et eust bien voulu que Jehan de Paris fut   
+ <lb/>encore en France, doubtant que s'il alloit a Burgues,   
+ <lb/>son estat n'en seroit pas tant prisé contre le sien.   
+ <lb/>Si ne luy en oza plus parler, fors que il luy dit : </p>  
+<p><q> Par vostre foy, y pencez vous point venir ? </q></p>    
+<p><q> Par mon serment </q>, respondit Jehan de Paris,   
+ <lb/><q> a l'aventure que je iray, a l'aventure que non,    
+  <lb/>selon que je trouveray en moy. </q> Atant en laisserent    
+ <lb/>les parolles, mais le roy se pensa bien qu'il y vien̲droit,    
+ <lb/>dont fort se esmayoit, mais aultre semblant   
+ <lb/>n'en oza faire.</p>   
+<p>Le soir logerent comme ilz avoient acostumé.   
+ <lb/>Et quant ce vint l'endemain matin, Jehan de Pa̲ris   
+ <lb/>dit au roy qu'il ne l'atendit point, car il ne    
+ <lb/>bougeroit d'illec de tout le jour. Et pource le roy   
+ <pb n="44"/>s'en partit et estoit jour d'ung samedi, et les nopces    
+ <lb/>devoient estre le lundi ensuivant. Tant chevaucha    
+ <lb/>le roy que celuy jour arriva a Burgues, ou il fut receu    
+ <lb/>a grant triumphe et honneur.</p></div>
+<div type="chapitre">   
+<head>Comment le roy d'Angleterre arriva a Burgues   
+ <lb/>ou il fut honnorablement receu.</head>  
+<p>Environ trois ou quatre heures de soir, arriva le   
+roy d'Angleterre a Burgues, ou il fut moult bien receu,   
+car il y avoit une moult belle assemblee. Car avecq   
+le roy d'Espaigne estoit le roy de Portugal, le roy et   
+la royne d'Arragon, et le roy de Navarre, et plusieurs   
+princes et barons, dames et damoiselles sans nombre,   
+qui tous firent grant honneur au roy d'Angleterre.   
+Mais quant la fille du roy d'Espaigne l'eut bien veu   
+et regardé, et qu'elle l'eut en soy bien consideré,   
+elle n'en fut pas trop joyeuse, car saige fille estoit,   
+si se pensa en elle que ce n'estoit pas ce que luy   
+failloit. Toutesfoiz la chose estoit si avancee que   
+aultre remede n'y  pouvoit mectre, pour l'honneur   
+de ses pere et mere garder. Si laisserons ung petit   
+d'eulx a parler, et retornerons a Jehan de Paris,   
+qui chevaucha tout le dimenche comme le roy   
+anglois jusques a deux lieues près de la ville, car   
+bien sçavoit le jour des nopces, et s'en vint logier   
+en une petite ville qui estoit a deux lieues de Bur̲gues.    
+Si envoya deux heraulx acompaignez de cinq   
+cens chevaucheurs, au roy d'Espaigne, luy demander   
+logis en la ville pour Jehan de Paris.</p></div>
+<div type="chapitre">   
+<pb n="45"/>
+<head>Comment les deux heraulx, quant ilz furent au   
+ <lb/>près de la porte, laisserent les cinq cens chevau̲cheurs   
+ <lb/>qui estoient venuz avec  eulx , et n'entra   
+ <lb/>en la ville que eulx et deux serviteurs qui estoient    
+ <lb/>habillez de mesmes.</head>   
+<p>Les deux heraulx estoient tous deux vestus d'ung  
+ <lb/>riche drap d'or, montez sur deux acquenees blanches,    
+ <lb/>tant richement arnechees que c'estoit une merveille  
+ <lb/>a les veoir. Quant ilz furent près de la cité ilz firent   
+ <lb/>demeurer leurs gens là, jusques ilz fussent retournez,   
+ <lb/>et ne menerent que chascun ung page, qui estoient   
+ <lb/>habillez d'ung fin velours violet, et les  arnechemens    
+ <lb/>de leurs chevaulx de mesmes. Si s'en entrerent en   
+ <lb/>la ville et vindrent vers le palais du roy, et deman̲derent    
+ <lb/>a des gens qu'ilz trouverent. a la porte se ilz   
+ <lb/>pourroient parler au roy. Et ilz leur demanderent   
+ <lb/>a qui ilz estoient. <q> Nous sommes, </q> dirent ilz, <q> a Jehan   
+ <lb/>de Paris, que nous envoye icy pour dire aulcunes   
+ <lb/>choses au roy de par luy. </q></p>   
+<p>L'on l'alla dire au roy d'Espaigne, qui ja estoit   
+ <lb/>a table et toute la baronnie. Si fut dit au roy qu'il    
+ <lb/>estoit arrivé deux heraulx les mieulx en point qu'ilz    
+ <lb/>eussent oncques veuz, <q> que se disent estre serviteurs   
+ <lb/>d'ung nommé Jehan de Paris, qui les envoye par   
+ <lb/>devers vous. Que vous plaist il, sire, qu'on leur   
+ <lb/>die ? </q></p>   
+<p>Le roy leur dit : <q> Entretenez les, et les faictes bien    
+ <lb/>loger jusques nous aurons souppé et puis nous par̲lerons   
+ <lb/>a eulx. </q></p></div>
+<div type="chapitre">
+<pb n="46"/>   
+<head>Comment le roy d'Angleterre, qui avoit ouy le   
+ <lb/>messager parler, commença a compter des faitz   
+ <lb/>de Jehan de Paris, dont il fut bien ris tout le   
+ <lb/>long du soupper.</head>   
+<p>Ce pendant le roy d'Angleterre, qui bien congneut   
+ <lb/>que Jehan de Paris vouloit  venir a la feste, com̲mença    
+ <lb/>a parler en ceste maniere : <q> Mon trescher   
+ <lb/>seigneur, je vous prie que aux heraulx donnez bonne   
+ <lb/>responce, car vous verrez grans merveilles. Je cuyde   
+ <lb/>bien savoir que leur maistre demande. </q></p>   
+<p><q> Et qui est ce Jehan de Paris ? </q> dit le roy d'Arragon.</p>   
+<p><q> Sire, </q> dit il, <q> c'est le filz d'ung bourgeois de Paris,   
+ <lb/>qui maine le plus beau et haultain train que oncques   
+ <lb/>homme mena, pour tant de gens qu'il maine. </q></p>   
+<p><q> Et combien en a il ? </q> Dit le roy d'Angleterre :  
+ <lb/><q> De deux a trois cens chevaulx, les plus belles gens   
+ <lb/>et les mieulx acoustrez que vous veistes oncques,   
+  <lb/>a mon advys. </q></p>    
+<p><q> Par Dieu </q>, ce dit le roy d'Arragon, <q> ce seroit   
+ <lb/>une merveilleuse chose se ung simple bourgeois de   
+ <lb/>Paris pouvoit maintenir ung tel estat si longuement   
+ <lb/>comme de venir jusques icy. </q></p>   
+<p><q> Comment, </q> ce dit le roy d'Angleterre, <q> de la   
+ <lb/>vexelle d'or et d'argent de quoy il est servy seulle̲ment,   
+ <lb/>est assez bastante pour achepter ung royaulme.   
+ <lb/>Car je vous affie qu'il semble mieulx a ung songe   
+ <lb/>ou fantasie qu'a aultre chose. </q></p>   
+<p><q> Or, par Dieu, </q> dit la royne d'Arragon, <q> il le feroit   
+ <lb/>bon veoir ; si vous prions toutes que, quelque chose   
+ <lb/>qu'il doyve coster, que nous le  voyons. </q></p>   
+<p><q> Certes </q> dit le roy d'Angleterre, <q> il est plus fort    
+  <pb n="47"/>a contenter en fait d'honneur que vous vistes oncques.   
+ <lb/>Et si vous dy bien tant qu'il ne prise honneur royal  
+ <lb/>nem plus que le sien. Aultrement il est bien doulz,   
+ <lb/>courtois et bien fort communicatif. Mais certes,  
+ <lb/>bien vous diray plus, que il me semble bien, quelque   
+ <lb/>belle maniere qu'il aye, il tient ung quartier de la   
+ <lb/>lune, car il dit des motz aucunesfoiz que n'ont ne   
+ <lb/>chef ne queue. Aultrement l'on le jugeroit pour   
+ <lb/>tressage homme. </q></p>   
+<p><q> Et qu'esse ce qu'il dit, beau filz ? </q> dit le roy   
+ <lb/>d'Espaigne.</p>   
+<p><q> Par ma foy, </q> dit le roy d'Angleterre, <q> je le vous   
+ <lb/>diray. Ung jour comme nous chevauchions ensemble,   
+ <lb/>il plouvoit tresfort. Luy et ses gens avoient prins  
+ <lb/>certains habillemens qu'ilz faisoient porter a leurs   
+ <lb/>chevaulx, qui moult bien les gardoient de la pluye.   
+ <lb/>Je luy dis qu'il estoit bien en point contre la pluye,   
+ <lb/>et il me respondit que moy qui estois roy devois   
+ <lb/>faire porter a mes gens maisons pour les garder   
+ <lb/>de la pluye. </q> De ce mot tous ce prindrent a rire.   
+ <lb/><q> Or, messeigneurs, </q> dit le roy de Portugal, <q> il ne   
+ <lb/>se fault pas mocquer des gens en leur absence, et ne   
+ <lb/>croy point qu'il  ne soit ung sage homme, se il a   
+ <lb/>peu trouver la maniere de conduire une telle compai̲gnie  
+ <lb/>si loing ; ce n'est pas vray semblable que ce ne   
+ <lb/>soit sans grant sens ne entendement. </q> A ses parolles   
+ <lb/>du roy de Portugal donnerent grant foy les seigneurs   
+ <lb/>et dames, car moult sage estoit.</p>   
+<p><q> Encores n'avez vous riens ouy, </q> dit le roy d'An̲gleterre.     
+ <lb/><q> Je vous en diray deux, les plus nouvelles   
+  <lb/>que vous ouystes oncques. Ung jour a passer une   
+  <lb/>riviere, plusieurs de mes gens furent noyez pour l'eaue   
+<pb n="48"/>qui moult roidde alloit et qui estoit hors de rivage.    
+  <lb/>Et comme je regardoye vers ladicte riviere, cy vint    
+  <lb/>a moy, et pour me bien consoler il me va dire :    
+  <lb/><q> Sire, vous qui estes ung puissant roy, deussiez     
+   <lb/>faire porter ung pont pour faire passer a voz gens    
+   <lb/>les rivieres affin qu'ilz ne noyassent. </q></q> Quant il eut    
+ <lb/>dit cela, si commancerent a rire par la salle si fort    
+ <lb/>que c'estoit une terrible chose.</p>   
+<p>Quant tout fut appaisé, la fille du roy d'Espaigne,   
+ <lb/>qui tout cecy escoutoit, luy va dire : <q> Mon trescher   
+  <lb/>seigneur et amy, je vous prie, dictes nous l'aultre   
+  <lb/>qu'il vous a dit. </q></p>   
+<p><q> Certes, </q> dit il, <q> ma mye, voulentiers. L'aultre   
+ <lb/>si est que ainsi que chevauchions ensemble, je luy   
+ <lb/>demandé, pour passer le temps, qui estoit la cause   
+ <lb/>pour quoy il venoit en ce païs. Il me respondit qu'il   
+ <lb/>y avoit bien environ quinze ans que son feu pere   
+ <lb/>estoit venu en Espaigne, et a son retour il avoit   
+ <lb/>tandu ung las a une canne, et il venoit maintenant   
+ <lb/>veoir si la canne estoit prinse. </q> Quant l'en ouyt ses   
+ <lb/>parolles, le ris fut plus grant que devant. Et telle̲ment    
+ <lb/>fit durer le roy d'Angleterre ce qu'il recitoit   
+ <lb/>de Jehan de Paris que le soupper fut parachevé.</p>   
+<p>Quant les tables furent levees et graces dictes,   
+ <lb/>le roy envoya querir les heraulx et les fit venir    
+ <lb/>devant toute la compaignie, lesquelz entrerent en la   
+ <lb/>salle moult hardiement, et saluerent le roy et la   
+ <lb/>compaignie moult honnorablement comme vous   
+ <lb/>orrez.</p></div>
+<div type="chapitre">
+<pb n="49"/>   
+<head>Comment les heraulx de Jehan de Paris entrerent    
+ <lb/>en la salle, la ou estoit le roy d'Espaigne, acom̲paigné    
+ <lb/>de plusieurs roys, barons, dames et    
+ <lb/>chevaliers, pour demander logis au roy pour leur   
+ <lb/>maistre.</head>   
+<p><q> Sire roy d'Espaigne, nostre maistre Jehan de   
+ <lb/>Paris vous salue, et toute la noble  compaignie,   
+ <lb/>si vous prie qu'il vous plaise luy faire deslivrer logis   
+ <lb/>competant pour luy et ses gens en ung quartier de   
+ <lb/>ceste ville a part, et il vous viendra veoir et les dames,   
+ <lb/>aultrement il ne viendra point. </q></p>   
+<p><q> En bonne foy, mes amys </q>, dit le roy, <q> pour logis   
+ <lb/>ne demeurera il pas, car assez luy en feray bailler. </q></p>   
+<p><q> Sire </q>, dirent les heraulx, <q> s'il vous plaist, a      
+ <lb/>ceste heure le nous ferez delivrer, pour veoir s'il y   
+ <lb/>pourra loger. </q></p>   
+<p><q> Je le veulx bien </q>, dit le roy : et adonc leur bailla   
+ <lb/>ung sien maistre d'ostel et leur dit :  <q> Or allez de par   
+  <lb/>Dieu, mes amys. Et si vous avez a faire de quelque   
+  <lb/>chose, demandez le, et je vous le feray delivrer. </q></p>   
+<p><q> Grans mercis, sire </q>, dirent les heraulx. Si s'en   
+ <lb/>allerent par la cité et leur vouloient bailler logis   
+ <lb/>pour trois cens chevaulx, mais ilz n'en tindrent   
+ <lb/>compte. Si furent remenez devant le roy, que leur   
+ <lb/>demanda s'ilz avoient assez logis.</p>  
+<p><q> Par Dieu, sire, nenny, car il nous en fault bien   
+ <lb/>dix foiz autant, avant que nostre maistre et ses gens   
+ <lb/>puissent loger. </q></p>   
+<p><q> Comment, </q> dit le roy, <q> avez vous a loger plus de   
+ <lb/>trois cens chevaulx ? </q></p>   
+<p><q> Oui, sire, plus de dix mille, ou il ne viendra   
+  <pb n="50"/>point icy. Il nous fault avoir depuis la grant esglise   
+ <lb/>jusques au bas a la porte. </q></p>   
+<p><q> Et comment, </q> dit le roy, <q> c'est plus du quart  de    
+ <lb/>la cité. </q></p>   
+<p><q> Sire, nous ne pouvons a moins, comme verrez   
+ <lb/>demain. </q></p>   
+<p><q> Or, par Dieu, si l'aurez vous demain au bon   
+ <lb/>matin, car les dames desirent moult a veoir vostre   
+ <lb/>maistre. Si ferons anuyt desloger ceulx qui y sont   
+ <lb/>logez, et demain au matin, le trouverez prest. </q>   
+ <lb/>Atant prindrent congié du roy et luy dirent qu'ilz   
+ <lb/>iroient querir les fourriers pour faire les logis bien   
+ <lb/>matin.</p>   
+<p><q> Or allez seurement, </q> dit le roy, <q> car il n'y aura   
+ <lb/>point de faulte, et me recommandez a vostre maistre. </q>   
+ <lb/>Grant parlement fut tenu celle nuyt de Jehan de   
+ <lb/>Paris, si leur tardoit le lendemain matin pour le   
+ <lb/>veoir. Si laisserons d'eulx a parler et dirons des   
+ <lb/>heraulx qui sortirent de la cité, et vindrent vers   
+ <lb/>leurs cinq cens hommes a cheval qu'ilz avoient   
+ <lb/>laissez, lesquelz ne cesserent toute nuyt de eulx   
+ <lb/>acoustrer pour l'endemain.</p></div>
+<div type="chapitre">   
+<head>Comment les heraulx vindrent devers Jehan de   
+ <lb/>Paris luy dire la responce que le roy d'Espaigne   
+ <lb/>leur avoit faicte.</head>   
+<p>Les heraulx chevaucherent toute nuyt pour aller    
+ <lb/>faire leur responce a Jehan de Paris de ce qu'ilz      
+ <lb/>avoient fait et besongné avecq le roy  d'Espaigne.   
+ <lb/>Si firent tant qu'ilz arriverent devers Jehan de   
+ <pb n="51"/>Paris, et luy compterent au long ce qu'ilz avoient   
+ <lb/>fait, et de la grant beaulté de la pucelle que moult   
+ <lb/>agrea a Jehan de Paris. Si les en fit retourner pour   
+ <lb/>aller conduyre les premiers cinq cens pour faire les   
+ <lb/>logis. Puis appella tous ces princes et barons, et leur   
+ <lb/>pria que bien gardassent ses commandemens, selon   
+ <lb/>la forme et maniere qu'ilz avoient desliberé tenir.   
+ <lb/>Si ne fault pas demander si chascun avoit grant   
+ <lb/>desir de le bien servir et honnorer, car a aultre   
+ <lb/>chose ne taschoient que a faire chose que luy fut   
+ <lb/>agreable.</p>   
+<p>Quant vint le lendemain au matin, les seigneurs   
+ <lb/>et dames qui aux nopces estoient venus, et mesme̲ment    
+ <lb/>la fille d'Espaigne, si se leverent moult grant   
+ <lb/>matin, de la grant peur qu'ilz avoient que point ne   
+ <lb/>veissent arriver Jehan de Paris. Si firent clorre    
+ <lb/>tous les sentiers et rues de la ville, affin que Jehan   
+ <lb/>de Paris ne peust passer par aultre lieu que par    
+ <lb/>devant le palais. Et ce pendant qu'ilz en parloient,    
+ <lb/>vecy arriver les deux heraulx avecq les deux pages,    
+ <lb/>au point que devant avez ouy ; puis venoient les    
+ <lb/>cinq cens fourriers après bien en point.  Si coururent   
+ <lb/>les nouvelles au palais que c'estoit Jehan de Paris    
+ <lb/>qui venoit. Incontinent qu'ilz ouyrent les nouvelles,   
+ <lb/>vous eussez veu venir gens a si grans flottes que   
+ <lb/>c'estoit une merveilleuse chose, car le maistre n'at̲tendoit    
+ <lb/>pas le varlet, ne le varlet le maistre ; qui   
+ <lb/>pouvoit mieulx aller, alloit. Et quant les François   
+ <lb/>commançerent a approucher le palais, et qu'ilz   
+ <lb/>passoient, le roy s'avansa pour parler a eulx comme   
+ <lb/>voz orrez.</p></div>
+<div type="chapitre"><pb n="52"/>   
+<head>Comment les François passerent devant le palaix    
+ <lb/>du roy d'Espaigne, lequel leur dit que ilz fussent    
+ <lb/>les  biens venuz.</head>   
+<p>Le roy d'Espaigne leur dit : <q> Messeigneurs, vous   
+ <lb/>soyez les tresbien venuz. Dictes nous, s'il vous plaist,   
+ <lb/>lequel est Jehan de Paris, afin de le congnoistre. </q></p>   
+<p><q> Sire, </q> dit l'ung d'eulx, <q> il n'est pas en ceste com̲paignie. </q></p>   
+<p><q> Et qui estes vous donc ? </q> dit le roy.</p>   
+<p><q> Nous sommes, </q> dirent ilz, <q> ses fourriers, que luy   
+ <lb/>venons faire son logis. </q> Quant les princes qui la   
+ <lb/>estoient  et les dames qui celle responce ouyrent,   
+ <lb/>et veoient telle assemblee de fourriers, ilz en furent   
+ <lb/>tous esbays. Si dit le roy d'Espaigne au roy d'An̲gleterre :   
+ <lb/><q> Comment, beau filz, vous disiez que il   
+  <lb/>n'avoit en tout que environ trois cens chevaulx,   
+  <lb/>et ilz sont ja passez plus de cinq cens, et si ne viendra   
+  <lb/>pas sans belle compaignie. </q></p>   
+<p><q> Par mon serment, </q> dit la fille, <q> vela de belles gens   
+ <lb/>et bien en point. Certes, bien debvez festier leur sei̲gneur    
+ <lb/>qui nous vient faire si grant honneur de venir   
+ <lb/>aux nopces, car toute la feste en sera honnoree. </q></p>   
+<p><q> Vrayement, ma fille, </q> dit le roy, <q> vous dictes vray.   
+ <lb/>Si envoyray devers ses gens qui sont venus, pour les   
+ <lb/>faire fornir de linge, vaixelle et tapisserie, et de tout   
+ <lb/>ce que leur sera necessaire. </q> Si appela son maistre   
+ <lb/>d'ostel, et luy dit : <q> Allez au quartier qu'avez desli̲vré   
+  <lb/>a ses gens et leur faictes bailler tout ce que leur   
+  <lb/>fauldra. </q></p>   
+<p>Le maistre d'ostel si y alla, et les trouva tous    
+<pb n="53"/>enbesongnez. Les ungs faisoient barrieres, les aultres   
+ <lb/>rompoient maisons pour passer de l'une en l'aultre,    
+ <lb/>les aultres  tendoient tappisseries qu'il sembloit     
+ <lb/>que ce fut une foire. Quant le maistre d'ostel vit    
+ <lb/>cecy, il en fut tout esbay. Toutesfoiz fit son message    
+ <lb/>et leur dit : <q> Messeigneurs, le roy m'a icy envoyé        
+  <lb/>devers vous pour vous dire que ce qu'il vous fauldra,    
+  <lb/>soit linge, vaixelle, tapisserie et aultres choses, que je   
+  <lb/>le vous face delivrer. </q></p>   
+<p><q> Sire, </q> respondit l'ung des heraulx, <q> grantz merciz    
+ <lb/>au roy et a vous. Certes, il ne nous fault riens, car   
+ <lb/>les chariotz arriveront tantost qui apportent les     
+ <lb/>utenxilles. Et dictes au roy que s'il estoit enserré    
+ <lb/>de tapisserie, vaixelle d'or ou d'argent, nous en avons     
+ <lb/>assez pour nous et pour luy, et si luy en fault, pource    
+ <lb/>qu'il a grant seigneurie estrange, comme l'en dit,   
+ <lb/>venez le nous tantost dire, et nous ferons arrester   
+ <lb/>devant son palaix dix ou douze chariotz chargez   
+ <lb/>que bien le forniront. </q></p>   
+<p><q> Grant mercy </q>, dit le maistre d'ostel. Et atant   
+ <lb/>s'en part tout esmerveillé, et s'en vient au palaix    
+ <lb/>ou il fit son rapport au roy devant toute la baronnie   
+ <lb/>et les dames, qui bien l'escouterent. Moult s'esmer̲veilloient    
+ <lb/>les barons et les dames  du raport que    
+ <lb/>fait avoit le maistre d'ostel. Si ne parloient par le   
+ <lb/>palais que de Jehan de Paris, duquel la venue leur   
+ <lb/>tardoit beaucop. Le roy fit chanter la messe, et tous   
+ <lb/>les princes, barons, seigneurs et dames l'alerent ouyr.   
+ <lb/>Et quant vint vers la fin de la messe, vecy venir ung   
+ <lb/>escuier courant qui vint dire : <q> Venez veoir arriver   
+  <lb/>celuy Jehan de Paris ; hastez vous tantost. </q> Les    
+ <lb/>roys prindrent les dames chascun en son endroit,   
+  <pb n="54"/>et s'en vindrent aux fenestres du palaix, les aultres    
+ <lb/>sortoient hors en la rue pour le mieulx veoir.</p></div>
+<div type="chapitre">   
+<head>Comment les conducteurs des chariotz de Jehan   
+ <lb/>de Paris vindrent en belle ordonnance après   
+ <lb/>les chariotz de la tapisserie.</head>   
+<p>Alors arriverent deux cens hommes d'armes bien   
+ <lb/>en point, armez et bardez comme tel cas le requiert,   
+ <lb/>et aloit deux trompetes devant et deux tabourins   
+ <lb/>de Souysse et ung phiphre, et estoient montez ces   
+ <lb/>gens sus bons coursiers, qu'ilz vous faisoient saul̲ter   
+ <lb/>et faire  gambades que c'estoit ung triumphe   
+ <lb/>a les regarder, et venoient deux a deux en moult   
+ <lb/>belle ordonnance. Le roy d'Espaigne demanda au   
+ <lb/>roy d'Angleterre que estoient ces gens.</p>   
+<p><q> Sire, </q> respondit il, <q> je n'en sçay riens, car point   
+ <lb/>ne les ay veuz au voyage. </q> Et lors le roy de Navarre,   
+ <lb/>qui tenoit la pucelle par la main, cria par la fenestre :   
+ <lb/><q> Qui estes vous, messeigneurs ? </q></p>   
+<p><q> Nous sommes, </q> dirent ilz, <q> les conducteurs des   
+ <lb/>chariotz de Jehan de Paris, qui icy viennent après   
+ <lb/>nous. </q></p>   
+<p><q> Hee, Vierge Marie, </q> dit la pucelle, <q> que vecy bel   
+ <lb/>estat pour ung homme. </q></p>   
+<p><q> Pensez, belle seur, </q> dit le roy de Navarre, <q> que   
+ <lb/>j'en suis tout effrayé ; ce semble mieulx songe que   
+ <lb/>aultre chose. </q> Ainsi comme ilz parloient, vecy appar̲roistre    
+ <lb/>les chariotz de la tapisserie, a tout groz cour̲siers,    
+ <lb/>et en chascun chariot avoit huit groz coursiers   
+ <lb/>moult richement harnechez, et y avoit vingt cinq   
+ <lb/>chariotz, tous couvers de velours sur velours vert   
+ <pb n="55"/>moult riche. Quant les dames virent ces beaux cha̲riotz,    
+ <lb/>elles furent toutes ravies, et les seigneurs    
+ <lb/>aussi. <q> Helas, </q> dit la pucelle, <q> nous ne le verrons    
+  <lb/>point, car il doit estre dedans ces beaux chariotz. </q>     
+ <lb/>Et lors le roy de Navarre cria a ceulx que les che̲vaulx     
+ <lb/>desdicts chariotz conduisoient, car a chascun    
+ <lb/>cheval avoit deux hommes a pié, pour mieulx gou̲verner    
+ <lb/>lesdicts chevaulx que moult fiers et puissans   
+ <lb/>estoient : <q> Dictes, mes amys, qu'est ce dedans ces   
+  <lb/>beaux chariotz ? </q></p>   
+<p><q> C'est la tapisserie </q>, dit l'ung. Et quant il en   
+ <lb/>fut passé vingt ou vingt deux, il dit a ung aultre :   
+ <lb/><q> Dictes, mon amy, qu'est ce dedans ces beaux cha̲riotz ? </q></p>   
+<p><q> Monseigneur, </q> respondit celuy, <q> tous les couvers   
+ <lb/>de vert sont les chariotz de la tapisserie et linge. </q>   
+ <lb/>Moult furent esmerveillez tous quant ilz ouyrent   
+ <lb/>celle responce. <q> Haa, mon amy, </q> dit la pucelle au roy   
+ <lb/>d'Angleterre, <q> vous ne nous avez pas tout dit ce que   
+  <lb/>sçaviez de Jehan de Paris. </q></p>   
+<p><q> Par Dieu, ma mye, </q> respondit le roy d'Angle̲terre,    
+ <lb/><q> je n'en avoye veu si non ce que j'en avoye dit.   
+  <lb/>Si suis moult esbay que ce peult estre. </q> En tant   
+ <lb/>comme ilz parloient, lesdicts chariotz acheverent de   
+ <lb/>passer.</p></div>
+<div type="chapitre">   
+<head>Comment aultres vingt cinq chariotz entrerent   
+ <lb/>que portoient les utenxilles de la cuysine.</head>   
+<p>Incontinent après les premiers chariotz, en appa̲rurent   
+ <lb/>aultres vingt cinq chariotz a groz  cour̲siers,    
+ <lb/>comme les aultres, mais les chariotz n'estoient   
+ <pb n="56"/>couvers que de grans pans de cuyr roge, et tantost   
+ <lb/>le roy de Portugal demanda : <q> Dictes, messeigneurs,   
+  <lb/>quelz chariotz sont cela, et a qui sont ilz ? </q></p>   
+<p><q> Ilz sont, </q> firent ilz, <q> les chariotz de la cuysine   
+ <lb/>de Jehan de Paris. </q></p>   
+<p><q> Par Dieu, </q> dit le roy de Portugal, <q> je me tien̲droye   
+ <lb/>bien honnoré d'en avoir demye douzayne de   
+ <lb/>telz, et si en ferois bien mes grans honneurs. </q> Pa̲reillement   
+ <lb/>dirent tous les aultres. <q> Hee, doulce Vierge   
+  <lb/>Marie, </q> dit la royne d'Arragon, <q> qui est celuy qui peult   
+   <lb/>mener et entretenir une telle triumphe, et ne le ver̲rons    
+   <lb/>nous pas ? </q>  Et ainsi comme ilz devisoient,   
+ <lb/>l'on leur vint dire que le disner estoit prest. <q> Helas,   
+  <lb/>pour Dieu, </q> dirent les dames, <q> ne parlez plus de cela,   
+   <lb/>car il n'est plaisir que de veoir ces innumerables   
+   <lb/>richesses. </q></p>   
+<p>Quant lesdicts chariotz furent passez, en arriva   
+ <lb/>aultres vingt cinq, couvers de damas bleu, et les cour̲siers    
+ <lb/>harnechez de mesmes comme vous orrez.</p></div>
+<div type="chapitre">   
+<head>Comme il entra en la ville aultres vingt cinq    
+ <lb/>chariotz couvers de damas bleu, qui portoient les    
+ <lb/>robbes  et habillemens de Jehan de Paris.</head>   
+<p><q> Or, regardez, </q> dit la pucelle, <q> vecy venir aultres   
+ <lb/>chariotz encore plus riches que les aultres. </q> Et quant   
+ <lb/>ilz furent près, on demanda a ceulx que les menoient,   
+ <lb/>a qui estoient lesdicts chariotz qu'ilz menoient.   
+ <lb/>Alors respondirent en disant : <q> Ce sont les chariotz   
+  <lb/>de la garde robe de Jehan de Paris nostre maistre. </q></p>   
+<p><q> O royne des cieulx, quelz habillemens peult il   
+ <lb/>avoir leans ! Et qui ce pourroit ennuyer de regarder   
+ <lb/>cecy ! </q> Puis crya elle mesmes a la fenestre : <q> Dictes,   
+ <pb n="57"/>mon amy, combien en y a il de la garde robe ? </q>   
+ <lb/>Si luy respondirent que vingt cinq. <q> Par Dieu, </q>   
+ <lb/>dit le roy de Portugal, <q> vela assez de richesse pour   
+  <lb/>achepter tous noz royaulmes. Il me semble que je   
+  <lb/>songe quant je voy cecy. </q> Grant bruit en estoit   
+ <lb/>par toute la cité, et en especial au palais, de la venue   
+ <lb/>de cest homme, car les chevaulx hannissoient et   
+ <lb/>menoient tel bruit que c'estoit merveilles. Le roy    
+ <lb/>d'Angleterre estoit tout estonné de veoir ce qu'il   
+ <lb/>veoit, et ouyoit tous les rappors que l'on faisoit par    
+ <lb/>la cité de cest homme, car de luy ne tenoit on plus   
+ <lb/>d'extime. Mesmement, que pis estoit, il  n'avoit   
+ <lb/>loisir ny espasse de parler ny de soy jouer avecq   
+ <lb/>sa fiancee comme il desiroit, dont il estoit fort marry.</p>   
+<p>Toutesfois, pour abreger la matiere, ces vingt   
+ <lb/>cinq chariotz furent passez. Tantost vindrent les    
+ <lb/>aultres vingt cinq tous couvers d'ung velours sur   
+ <lb/>velours cramoisi broché d'or moult riche a tout   
+ <lb/>franges d'or de Chippre. Si reluisoient contre le soleil    
+ <lb/>a merveilles. Quant l'on les vit apparoistre chascun   
+ <lb/>s'avança pour regarder.</p></div>
+<div type="chapitre">   
+<head>Comme les chariotz de la vaixelle de Jehan de   
+ <lb/>Paris entrerent.</head>   
+<p><q> Certes, </q> dit la pucelle, <q> je croy que Dieu et paradis   
+ <lb/>doit arriver a ceste heure. Et que peult estre ce ?   
+ <lb/>Est il homme mortel qui puisse telle noblesse assem̲bler ? </q></p>   
+<p><q> Par Dieu, </q> respondit le roy de Navarre, <q> si l'on     
+ <lb/>m'eust dit que c'eust esté le roy de France, je ne    
+ <lb/>m'en fusse pas fort esmerveillé, car c'est ung trium̲phant    
+ <pb n="58"/>royaulme, mais de cestuy bourgeois, je ne     
+ <lb/>sçay que y rimer. Si suis si fort estonné que je ne    
+ <lb/>sçay ou je suis.  </q></p>   
+<p><q> Comment, </q> dit la pucelle, <q> vous semble il bien   
+ <lb/>que ung roy de France pourroit bien autant faire   
+ <lb/>comme cestuy ? </q></p>   
+<p><q> Certes, ma doulce scur, je croy que ouy, quant   
+ <lb/>il auroit bien entreprins. </q></p>   
+<p><q> Sur ma foy, </q> dit elle, <q> c'est une merveilleuse be̲songne ;    
+ <lb/>il me tarde fort que je le voye, sçavoir   
+ <lb/>mon si c'est ung homme comme les aultres. </q> Tant   
+ <lb/>parlerent que les vingt cinq chariotz furent passez,   
+ <lb/>fors que a ung des conducteurs au quel le roy demanda :   
+ <q> Dictes, mon amy, qu'i a il en ces chariotz couvers   
+  <lb/>de cramoisi ? </q></p>   
+<p><q> Sire, </q> dit il, <q> c'est la vaixelle et bagues de Jehan   
+ <lb/>de Paris. </q> Et incontinant après va arriver deux   
+ <lb/>cens hommes d'armes tous em point comme pour   
+ <lb/>combatre, et venoient quatre a quatre en moult   
+ <lb/>belle ordonnance et sans bruyt. Le roy d'Espaigne   
+ <lb/>appella le premier, qui portoit ung penom en sa   
+ <lb/>lance, et luy dit: <q> Messeigneurs, Jehan de Paris   
+  <lb/>est il en ceste compaignie ? </q></p>   
+<p><q> Sire, </q> dit celuy, <q> nenny. Il ne viendra encores de   
+ <lb/>deux heures, car luy et ses gens disnent aux champs,   
+ <lb/>mais nous sommes commis pour la garde de ces   
+ <lb/>vingt cinq chariotz que passent cy devant. </q></p>   
+<p>Quant les chariotz et les deux cens hommes   
+ <lb/>d'armes eurent passé, le roy va dire que l'on allast   
+ <lb/>disner ce pendant, mais les dames luy firent requeste   
+ <lb/>que pour Dieu il laissast bonnes gardes  a la porte   
+ <lb/>qu'ilz vinssent dire de bonne heure les nouvelles   
+ <lb/>quant il viendroit, car, comme elles disoient: <q> tous   
+ <pb n="59"/>ces gens sont passez, si n'amenera pas grant monde    
+  <lb/>avecq luy, et point ne le verrons arriver. - Ne vous    
+  <lb/>en souciez, </q> dit le roy, <q> car j'en seroye plus doulant    
+   <lb/>que vous ; si y mectray si bonne garde que bien en    
+   <lb/>sçaurons les nouvelles. </q> Ilz s'en allerent disner,    
+ <lb/>mais oncques ne fut parlé en toute la table que des    
+ <lb/>grandes merveilles qu'ilz avoient veuez, dont le roy    
+ <lb/>d'Angleterre estoit tout estonné, si ne pouvoit faire   
+ <lb/>bonne chiere, mais la royne d'Espaigne, que moult   
+ <lb/>sage dame estoit, l'entretenoit au mieulx qu'elle    
+ <lb/>pouvoit. Quant ilz eurent disné et graces dictes, si    
+ <lb/>commancerent a deviser des nopces, mais veez cy   
+ <lb/>venir deux escuyers que dirent : <q> Venez veoir la    
+  <lb/>plus belle compaignie que oncques fut veue sus terre. </q>   
+ <lb/>Lors saillirent les roys avecq les dames, barons et    
+ <lb/>chevaliers, tenant chascun une damoiselle par la    
+ <lb/>main selon leurs degrez, et s'en vindrent les ungs    
+ <lb/>aulx fenestres, les aultres en plaine rue, que tant estoit    
+ <lb/>plain de peuple d'ung costé et d'aultre que c'estoit   
+ <lb/>une chose infinie.</p></div>
+<div type="chapitre">   
+<head>Comment les archiers de la garde de Jehan de    
+ <lb/>Paris entrerent en grant triumphe et honneur.</head>    
+<p>Tantost arriverent six clerons moult bien em point    
+ <lb/>qui sonnoient si melodieusement que c'estoit une     
+ <lb/>belle chose de les ouyr. Puis venoit ung homme    
+ <lb/>d'armes, monté sus ung grant coursier bardé, qui    
+ <lb/>portoit l'enseigne, et après luy venoient deux mille    
+ <lb/>archiers bien montez et bien en point qui tous avoient    
+ <lb/>hocquetons d'orfaverie que moult fort reluisoient     
+ <pb n="60"/>contre le soleil. Le roy d'Espaigne demanda a celuy    
+ <lb/>qui l'enseigne portoit si Jehan de Paris estoit illec.    
+ <lb/>Et il luy respondit que nenny, <q> cecy sont les archiers    
+  <lb/>de sa garde que je guide. </q></p>   
+<p><q> Comment, </q> dit le roy, <q> m'apelez vous cecy archiers    
+ <lb/>qui tous semblent estre grans seigneurs ? </q></p>   
+<p><q> Par Dieu, </q> dit le cappitaine, <q> vous direz bien    
+ <lb/>aultre chose avant qu'il soit arrivé. </q> Si passa oultre,    
+ <lb/>menant ses gens le petit pas, deux a deux, en belle     
+ <lb/>ordonnance. Il ne fault pas demander comment ilz    
+ <lb/>estoient diligemment regardez d'hommes et femmes ;     
+ <lb/>si n'eussez ouy ung seul mot sonner, tant estoient en̲clins     
+ <lb/>a regarder les merveilles que veoient.</p>   
+<p>Tantost vint ung des heraulx de Jehan de Paris    
+ <lb/>au palaix demander au roy la clef d'une petite esglise    
+ <lb/>pour y ouyr vespres, car Jehan de Paris les vouloit    
+ <lb/>ouyr ce jour, pource qu'il estoit dimenche. Le roy    
+ <lb/>luy dit : <q> Mon amy, vous aurez tout ce que vous    
+  <lb/>sçauriez demander, mais je vous prie que, si bonne̲ment    
+  <lb/>povez icy demeurer, pour nous monstrer Jehan   
+  <lb/>de Paris, que demeuriez. </q></p>   
+<p><q> Je ne puis, </q> dit le herault, <q> a present, mais je    
+ <lb/>vous laisseray mon page, que le vous monstrera.    
+ <lb/>Il ne viendra pas encores, car trop y a de ses gen̲darmes    
+ <lb/>a venir que entreront premier que luy. </q>   
+ <lb/>Si s'en alla, et commenda a son page que tout leur    
+ <lb/>monstrast. La pucelle appella le page, que moult    
+ <lb/>bien estoit aprins, et luy demanda son nom. Et il    
+ <lb/>respondit que Gabriel s'appelloit. <q> Or, Gabriel, </q>   
+ <lb/>dit elle, <q> je vous prie que point ne vous departez    
+  <lb/>de moy, et veez cy cestuy anneau que je vous donne. </q></p>   
+ <pb n="61"/><p><q> Grant mercy, dame </q>, dit le page.</p>   
+<p><q> Helas, mon amy Gabriel, viendra encores Jehan    
+ <lb/>de Paris ? </q></p>   
+<p><q> Ma damoiselle, </q> dit il, <q> non pas, car il y a a venir     
+ <lb/>premier ces gensdarmes. </q></p>   
+<p><q> Et comment, </q> dit elle, <q> ne sont ce pas ceulx icy   
+ <lb/>que passent ? </q></p>    
+<p><q> Nenny, </q> dit le page, <q> ce ne sont que ses archiers    
+ <lb/>de l'avantgarde, que sont deux mille, et aultant en   
+ <lb/>l'arrieregarde. Je ne sçay s'ilz viendront avecques   
+ <lb/>les hommes d'armes ou après. </q> Les roys et les dames   
+ <lb/>escoutoient le page dont ilz estoient tous esbays.   
+<q> Et comment, </q> dit le roy d'Arragon, <q> va il en quelque   
+ <lb/>guerre qu'il maine tant de gensdarmes ? </q></p>  
+<p><q> Certes, </q> dit le page, <q> nenny, car ce n'est que son   
+ <lb/>droit estat qu'il entretient tous les jours. </q>   
+<q> Par Dieu, </q> dit le roy, <q> c'est la plus estrange chose    
+ <lb/>de quoy jamais ouysse parler. </q></p></div>
+<div type="chapitre">   
+<head>Comment il entra six aultres clerons que menoient   
+ <lb/>les archiers de l'arrieregarde de Jehan de Paris.</head>   
+<p>Tantost vindrent aultres six clerons comme les    
+ <lb/>aultres, et leur capitaine devant, qui guidoit les   
+ <lb/>aultres deux mille. <q> Par Dieu, </q> ce dit le roy d'Angle̲terre,    
+ <lb/><q> je croy que ces gens entrent par une porte et   
+ <lb/>sortent par l'aultre pour nous faire icy muser. </q></p>   
+<p><q> Vrayement, </q> dit le roy de Portugal, <q> ce seroit   
+ <lb/>finement fait. </q> Si envoya deux barons  au quartier    
+ <lb/>du logis de Jehan de Paris, qui allerent tout visiter.     
+ <lb/>Et quant ilz furent retournez, ilz vindrent faire leur   
+ <lb/>raport de ce qu'ilz avoient veu. Tous furent espou̲ventez,    
+ <lb/>car tous ceulx, comme ilz disoient, ainsi   
+ <pb n="62"/>comme ilz arrivoient, on prenoit leurs chevaulx,   
+ <lb/>et se mectoient en belle bataille, en moult fiere   
+ <lb/>ordonnance. <q> Et vous di bien tant, </q> ce dit celuy qui   
+ <lb/>le raport faisoit, <q> que ce vous prenez tant soit peu   
+  <lb/>de noize a eulx, ilz sont gens pour oultrager tant   
+  <lb/>que vous estez. Si n'a pas esté bien regardé ne advizé   
+  <lb/>de mectre tant de gens en ceste ville. </q></p>   
+<p><q> Par Dieu, </q> dit le page qui la estoit, lequel estoit   
+ <lb/>bien duit et fait a entretenir dames et seigneurs,   
+ <lb/>car aultrement n'eust eu la charge de demeurer en ce   
+ <lb/>lieu, <q> il ne vous en fault doubter, car ilz ne viennent   
+  <lb/>icy pour aulcun mal ne desplaisir vous faire. Et tant   
+  <lb/>y a que quant vous luy feriez reffuz, et il se cour̲rossoit   
+  <lb/>contre vous, ja vostre cité ne vous garantiroit   
+  <lb/>de sa puissance. </q></p>   
+<p><q> Or vrayement, </q> dit le roy d'Espaigne, <q> il soit le   
+ <lb/>tresbien venu, car grant joye et grant honneur   
+ <lb/>nous fait. </q> En tant passerent les aultres deux mille   
+ <lb/>archiers, que fort furent  regardez des gens, tant du   
+ <lb/>palais comme de la cité.</p></div>
+<div type="chapitre">   
+<head>Comme le maistre d'ostel de Jehan de Paris entra   
+ <lb/>honnorablement avecq les cent pages d'honneur.</head>   
+<p>Après que les archiers eurent passé, arriva ung   
+ <lb/>bel homme, grant et bien formé, qui estoit vestu   
+ <lb/>d'ung drap d'or a tout ung grant baston en sa main   
+ <lb/>sur une moult belle acquenee grise, et après luy   
+ <lb/>venoient les cent pages d'honneur de Jehan de Paris,   
+ <lb/>tous vestus d'ung moult beau velours cramoisi,   
+ <lb/>et les pourpoins de satin broché d'or moult riche,   
+ <lb/>montez tous sur chevaulx grisons harnechez de   
+ <pb n="63"/>velours cramoysi comme les robes des pages, semez   
+ <lb/>d'orfaverie doree bien espesse. Si venoient leur petit   
+ <lb/>train moult bien arrengez deux a deux, et les faisoit   
+ <lb/>merveilleusement beau veoir, car ilz avoient estez   
+ <lb/>choisis a l'eslite, et avoient les cheveulx aussi blondez    
+ <lb/>que fin or, qui leur batoient jusques sur leurs espaules.    
+ <lb/>Bien estoient dignes d'estre regardez, et aussi estoient   
+ <lb/>ilz, de plusieurs et en maintes manieres. La pucelle   
+ <lb/>cuydoit bien de vray que celuy qui alloit devant  les     
+ <lb/>pages fut sans nulle doubte Jehan de Paris. Si se leva    
+ <lb/>debout pour le cuyder saluer, et aussi firent plusieurs    
+ <lb/>barons et dames, mais le page, que beaucop sçavoit,   
+ <lb/>s'en apparceut et dit : <q> Ma damoiselle, ne vous   
+  <lb/>bougez jusques je le vous diray, car celuy que vous   
+  <lb/>voyez la est le maistre d'hostel de nostre maistre,   
+  <lb/>qui est ceste sepmaine en office ; ilz sont quatre   
+  <lb/>que servent par sepmaines, et il maine les pages   
+  <lb/>après luy pour aller veoir comment les logis sont en   
+  <lb/>point. </q></p></div>
+<div type="chapitre">   
+<head>Comment les trompettes de Jehan de Paris en̲trerent    
+ <lb/>avecq moult belle compaignie.</head>   
+<p>Veez cy arriver une moult belle compaignie avec   
+ <lb/>les trompetes, lesquelles furent tantost oyes de ceulx   
+ <lb/>de la ville. Si estoient toutes couvertes d'orfaverie   
+ <lb/>et les chevaulx aussy jusques en terre, et estoient   
+ <lb/>douze trompettes. Après venoit le cappitaine, que   
+ <lb/>portoit une grant baniere de taffetas bleu, mais   
+ <lb/>il n'y avoit nulles armes, de peur d'estre congneuz.   
+ <lb/>Si estoit monté sur ung beau et merveilleux cheval,   
+ <lb/>tout  couvert d'ung damas violet semé d'orfaverie,    
+ <lb/>et estoit habillé de mesmes couleurs. Si le cheval   
+ <pb n="64"/>estoit fier, aussi estoit le maistre qui dessus estoit.    
+ <lb/>Et après luy venoient mille et cinq cens hommes    
+ <lb/>d'armes, montez et habillez moult richement : se    
+ <lb/>l'ung estoit bien en point, l'aultre estoit encore     
+ <lb/>mieulx. Le page monstroit aux roys et aux dames    
+ <lb/>tout l'estat et ordonnance, dont fort s'esmerveil̲loient,    
+ <lb/>et bien disoient tous qu'il estoit pour sub̲juguer    
+ <lb/>a soy tout le demeurant du monde.</p></div>
+<div type="chapitre">   
+<head>Comment le grant escuyer que portoit son espee   
+ <lb/>dedans le fourreau tout couvert d'orfaverie et de   
+ <lb/>pierres  precieuses entra en grant triumphe.</head>    
+<p>Quant tous les hommes d'armes furent passez,    
+ <lb/>que longuement durerent a passer, vint ung moult    
+ <lb/>beau chevalier vestu d'ung riche drap d'or semé     
+ <lb/>au rebras de perles et de pierrerie, qui chevauchoit    
+ <lb/>ung grant coursier tout couvert de mesmes, si non    
+ <lb/>que la hosseure estoit de violet. La robe dudict    
+ <lb/>chevalier traynoit plus bas que la hosseure du    
+ <lb/>cheval  et estoit fourree ladicte hosseure d'ermines    
+ <lb/>moult richement. Cestuy portoit en sa main une    
+ <lb/>espee dedans son fourreau, et estoit ledict fourreau    
+ <lb/>tout couvert de riche pierrerie que fort estincelloit    
+ <lb/>contre le soleil. Lors le page cria haultement, tant    
+ <lb/>qu'il fut ouy des seigneurs et dames du palais, en     
+ <lb/>disant : <q> Or, ma damoiselle, veez la celuy qui porte    
+  <lb/>l'espee de Jehan de Paris. Certes, ilz sera icy mainte̲nant. </q></p>    
+<p><q> Helas, mon amy, regardez bien, a celle fin que le    
+ <lb/>nous monstrez de bonne heure. </q></p>    
+ <pb n="65"/><p><q> Si feray je, </q> dit le page, <q> n'en doubtez point. </q></p>    
+<p>Si eussiez veu venir six cens hommes tous montez    
+ <lb/>sus grisons d'ung poil et d'une sorte, et de semblant    
+ <lb/>d'harnois, tous semez d'orfaverie tout au long des     
+ <lb/>bors, tant que c'estoit belle chose que de les veoir,    
+ <lb/>car par dessus les croppes des chevaulx avoit grosses    
+ <lb/>campanes d'argent qui estoient attachees a grosses    
+ <lb/>chaines d'argent toutes dorees, qui menoient grant    
+ <lb/>bruit, et les seigneurs qui montez estoient dessus     
+ <lb/>estoient tant beaulx qu'ilz ressembloient proprement    
+ <lb/>anges, et si estoient tous vestuz d'ung riche velours    
+ <lb/>cramoisi et pourpoins de satin broché d'or comme   
+ <lb/>les  pages qui estoient devant passez. Si venoient   
+ <lb/>deux a deux en moult belle ordonnance, et bien   
+ <lb/>monstroient qu'ilz estoient gens de grant estat    
+ <lb/>et honneur. Le page vit venir de loing Jehan de Paris ;    
+ <lb/>si appella la pucelle en disant: <q> Or sus, ma damoiselle,    
+  <lb/>je me vois acquiter envers vous, car je vous mons̲treray    
+  <lb/>le plus bel crestien, le plus noble, et le plus     
+  <lb/>gracieux que vous veistes oncques, c'est Jehan de    
+  <lb/>Paris, mon maistre. </q></p></div>
+<div type="chapitre">    
+<head>Comment Jehan de Paris arriva en la ville de   
+ <lb/>Burgues en grant triumphe.</head>   
+<p>Lors dit le page : <q> Ma damoiselle, regardez la en   
+ <lb/>bas, celuy qui porte ung petit baston blanc en sa   
+ <lb/>main et ung colier d'or au col. Regardez comment   
+ <lb/>il a les cheveulx jaulnes, l'or de son colier ne luy   
+ <lb/>change point la couleur de ses cheveulx. </q> Si fut   
+ <lb/>moult joyeuse la pucelle des parolles que le page   
+ <lb/>luy disoit. Si arriva Jehan de Paris moult richement   
+ <pb n="66"/>habillé et a l'entour de luy avoit quatre lacquetz,    
+ <lb/>deux de ça et deux de la, habillez tous de drap    
+ <lb/>d'or.  Quant la pucelle l'eut apparceu, elle devint    
+ <lb/>si roge qu'il sembloit que le feu luy sortist du visaige,     
+ <lb/>si fut toute ravye. Et le roy de Navarre, qui bien    
+ <lb/>l'apparceut, luy estraignit la main. Or elle tint la    
+ <lb/>meilleur contenance que a elle fut possible, et quant    
+ <lb/>Jehan de Paris fut au droit d'elle assez près, elle luy    
+ <lb/>tendit ung couvrechief de plaisance que elle avoit     
+ <lb/>en sa main, en le saluant bien doulcement. Et quant    
+ <lb/>Jehan de Paris la vit si belle, si fut feru du dart    
+ <lb/>d'amours, comme a vous aultres messeigneurs les    
+ <lb/>amoureux sçavez bien. Si broche le cheval des espe̲rons,    
+ <lb/>qui fit ung tel sault que en saillant print le     
+ <lb/>couvrechef et osta son bonnet et fit la reverence    
+ <lb/>et mercia la damoiselle. Si passe oultre, et ses gens    
+ <lb/>après luy. Le roy d'Espaigne et tous les aultres    
+ <lb/>seigneurs et dames furent moult joyeulx du beau    
+ <lb/>recueil que la pucelle luy avoit fait, sans en avoir     
+ <lb/>esté de nul advertie. Et disoient tous que moult bien    
+ <lb/>et honnestement l'avoit fait la pucelle, et encores    
+ <lb/>mieulx le jouvencel, mais de ce n'estoit pas trop    
+ <lb/>joyeulx le roy d'Angleterre, car en son cueur pene     
+ <lb/>soit  que ce luy pourroit tourner a quelque dommag̲et   
+ <lb/>deshonneur ; nonobstant fallut qu'il print en    
+ <lb/>pacience et luy fallut faire la meilleur contenance    
+ <lb/>qu'il luy estoit possible pour son honneur.</p></div>
+<div type="chapitre">    
+<head>Comment les cinq cens hommes d'armes de l'arriere̲garde    
+ <lb/>entrerent en belle ordonnance.</head>    
+<p>Quant Jehan de Paris fut entré comme avez ouy,    
+ <lb/>arriverent les cinq cens hommes d'armes de l'arriere̲garde,   
+ <pb n="67"/>qui estoient demourez derriere pour secorir	   
+ <lb/>Jehan de Paris s'il en eust eu necessité. Si furent   
+ <lb/>merveilleusement esbays les seigneurs et dames de   
+ <lb/>veoir tant de gens. Si dit la pucelle : <q> Hee, Dieu de     
+  <lb/>paradis, y a il encores de gensdarmes ? </q></p>   
+<p><q> Ma damoiselle, </q> dit le page, <q> c'est l'arrieregarde   
+ <lb/>de nostre maistre, qui sont cinq cens, de mesmes   
+ <lb/>a ceulx qui sont passez devant. </q></p>   
+<p><q> Par mon serment </q>, dit le roy de Navarre, <q> il feroit   
+ <lb/>mal prendre noise a ung tel seigneur. Je croy que au   
+ <lb/>demeurant du monde n'a point tant de richesse que   
+ <lb/>aujourd'uy nous en avons veue. </q></p>   
+<p>Quant tout fut passé, il  fut entre trois et quatre   
+ <lb/>heures après midi. Les dames vindrent devers le   
+ <lb/>roy luy requerir que son plaisir fut d'envoyer querir   
+ <lb/>Jehan de Paris. Et le roy leur promit qu'il y envoy̲roit.   
+ <lb/>Si appella le conte de Quarion et ung aultre de   
+ <lb/>ses barons et leur dit comme voz orrez.</p></div>
+<div type="chapitre">   
+<head>Comment le conte de Quarion et son compaignon   
+ <lb/>allerent devers Jehan de Paris.</head>   
+<p>Si leur dit le roy : <q> Vous voz en irez vers Jehan de   
+ <lb/>Paris, et le saluerez de par moy, et luy dictes que moy   
+ <lb/>et les dames luy prions que son plaisir soit venir   
+ <lb/>en nostre palais pour commancer la feste, et menez   
+ <lb/>avecques vous jusques a cinquante des plus nobles   
+ <lb/>barons de ceans. </q></p>   
+<p>Tantost partit le conte bien joyeulx avec sa com̲paignie   
+ <lb/>pour aller faire son message. Et quant ilz   
+ <lb/>commancerent a entrer au quartier qui avoit esté    
+ <lb/>deslivré a Jehan de Paris, ilz furent tous esbays,     
+ <pb n="68"/>car ilz trouverent les rues toutes fossoyeez et fortif̲fieez    
+ <lb/>avecques bonnes barrieres, et gensdarmes a     
+ <lb/>grant nombre que  les gardoient, tous en point    
+ <lb/>comme pour combatre. Si trouverent les gardes de la     
+ <lb/>premiere barriere que leur demanderent : <q> Que    
+  <lb/>demandez vous, messeigneurs ? </q></p>    
+<p><q> Nous sommes, </q> dit le conte, <q> au roy d'Espaigne,    
+ <lb/>que nous envoye a Jehan de Paris. </q></p>    
+<p><q> Et y a il icy duc ou conte ? </q> dirent les gardes.</p>     
+<p><q> Ouy certes </q>, dit le conte.</p>   
+<p><q> Or entrez doncques avecq vostre compaignie. </q>    
+ <lb/>Lors entrerent et virent toutes les rues tendues de    
+ <lb/>moult riche tapisserie. Et quant ilz furent venuz    
+ <lb/>devant le logis de Jehan de Paris, ilz trouverent la,     
+ <lb/>grant compaignie de gens d'armes qui avoient    
+ <lb/>haches en leurs mains comme pour combatre, et    
+ <lb/>estoit le cappitaine devant la porte du logis en moult    
+ <lb/>riche estat. Le conte de Quarion luy demanda si    
+ <lb/>pourroit parler a Jehan de Paris. <q> Et qui estes vous ? </q>     
+ <lb/>dit le cappitaine.</p>    
+<p><q> Je suis le conte de Quarion, que le roy d'Es̲paigne    
+ <lb/>envoye devers Jehan de Paris. </q></p>    
+<p><q> Or me suyvez, </q> dit il, <q> avecq voz gens. </q> Si se mect    
+ <lb/>devant, et le Conte avecq ses gens après, et quant     
+ <lb/>ilz furent en la premiere salle, que moult estoit    
+ <lb/>grande et toute tapissee, le dessus et les coustez,    
+ <lb/>d'ung drap d'or de haulte  lisse, a grantz person̲nages    
+ <lb/>de la destruction de Troye, la plus riche    
+ <lb/>besongne que l'on sceut veoir, quant ilz eurent une     
+ <lb/>piesse regardé, vint ledict cappitaine que leur dit :    
+ <lb/><q> Attendons encores ung peu, car je n'ay peu entrer,    
+  <lb/>pource qu'on tient le conseil, si n'ozeroye hurter a    
+ <pb n="69"/>l'uys. </q> Quant ilz eurent ung peu attendu, le cappi̲taine   
+ <lb/>entendit ouvrir l'uys ; si alla celle part et mena   
+ <lb/>avecques luy le conte de Quarion et sa compaignie.   
+ <lb/>Si parla le cappitaine a ung des chambellans, et luy   
+ <lb/>dit que le conte de Quarion vouloit parler a Jehan   
+ <lb/>de Paris. <q> Je vois appeller le chancellier </q>, dit le cham̲bellan,     
+ <lb/><q> qui parlera a vous. </q> Si ferme l'uys et s'en va   
+ <lb/>querir le chancellier, lequel incontinant il amena.   
+ <lb/>Et quant il fut arrivé, il demanda audict conte :   
+ <lb/><q> Que demandez vous, vous aultres messeigneurs ? </q></p>   
+<p><q> Nous venons, </q> dit le conte, <q> parler a Jehan de   
+ <lb/>Paris, de par le roy d'Espaigne. </q></p>   
+<p><q> Et comment, </q> dit le chancellier, <q> est il si fort ma̲lade    
+ <lb/>qu'il ne fust peu venir jusques icy dire ce qu'il   
+ <lb/>veult ? Certes, vous n'y pourriez parler, ja ne vous   
+ <lb/>fault icy plus actendre. </q></p>   
+<p>Quant le conte et ses compaignons ouyrent ceste   
+ <lb/>responce, ilz furent moult esbays, et se mirent a   
+ <lb/>retourner le plus bref qu'ilz peurent. Les dames et   
+ <lb/>damoiselles estoient aux fenestres a grant nombre,   
+ <lb/>attendans la venue de Jehan de Paris. Et quant elles   
+ <lb/>virent venir le conte sans luy, si furent moult descon̲fortees    
+ <lb/>et marries. Si dit la pucelle au roy son pere :   
+ <lb/><q> Helas, monseigneur, nous ne verrons point ce beau   
+  <lb/>prince, car vecy venir le conte de Quarion qui point   
+  <lb/>ne l'amaine. </q></p></div>
+<div type="chapitre">   
+<head>Comment le conte de Quarion, luy estre arrivé   
+ <lb/>devant le roy d'Espaigne, luy fit la responce   
+ <lb/>de ce que avoit fait avecq les gens de Jehan de   
+ <lb/>Paris, present les barons.</head>   
+<p>Quant le conte fut entré en la salle, tous vindrent    
+ <lb/>autour de luy, pour escouter la responce qu'il feroit.    
+ <pb n="70"/>Si leur compta la maniere comment les rues estoient    
+ <lb/>ja fortiffieez, et les grans gardes que l'entree gar̲doient.    
+ <lb/><q> Par Dieu, </q> dit le roy, <q> il doit estre vaillant    
+ <lb/>guerroyeur, que si bien se veult tenir sus ses gardes. </q>    
+ <lb/>Après leur compta comment les rues estoient toutes    
+ <lb/>tendues de tapisserie moult riche, et comment ilz    
+ <lb/>estoient venuz jusques devant son logis, ou ilz avoient    
+ <lb/>trouvé le cappitaine de la garde en ung moult riche    
+ <lb/>estat, <q> lequel nous a mené en une salle tapissee de la    
+  <lb/>plus riche tapisserie que jamais nous vismes, car il n'y    
+  <lb/>avoit guieres aultre chose que fil d'or et d'argent,    
+  <lb/>la ou estoit pourtraicte la destruction de Troye    
+  <lb/>en grantz personnages tous faiz de fin or et de soye,    
+  <lb/>et avons esté la l'espace d'ung quart d'heure, tan̲dis    
+  <lb/>que le cappitaine estoit allé a la porte de la chambre    
+  <lb/>de Jehan de Paris, a laquelle n'a ozé hurter. Si nous    
+  <lb/>a faillu attendre que quelcun aye ouvert l'uys.    
+  <lb/>Le cappitaine, que bien tenoit l'ueil si personne ou̲vriroit    
+  <lb/>point la porte, a veu ung des chambellans     
+  <lb/>a la porte ; adonc nous a menez a luy, en luy disant :    
+  <lb/><q> Monseigneur le chambellan, veez cy le conte de    
+   <lb/>Quarion que le roy d'Espaigne envoye pour parler    
+   <lb/>a Jehan de Paris. - Or demeurez icy, </q> dit il, <q> et je le    
+    <lb/>iray dire au chancelier. </q>. Si c'est retiré en la chambre     
+  <lb/>et a fermé l'uys apres luy, et bien tost après a amené    
+  <lb/>le chancelier qui est ung homme de grant represen̲tation,    
+  <lb/>que m'a demandé que je vouloye. Et je luy    
+  <lb/>ay respondu que le roy m'avoit envoyé pour parler    
+  <lb/>a Jehan de Paris. Et lors il m'a respondu en ceste    
+  <lb/>maniere : <q> Comment, le roy est il si fort malade    
+   <lb/>que il ne luy pouvoit venir dire ce qu'il veult ?    
+   <lb/>Certes, vous n'y pourriez parler. </q> Si avons esté    
+ <pb n="71"/>tous esbays, et le plus tost que nous avons peu nous   
+  <lb/>en sommes retournez vous venir dire la responce. </q>   
+   <lb/>Le roy d'Angleterre de ce fut moult joyeux, pensant   
+   <lb/>qu'il ne se trouveroit point a la feste, mais cy fit,   
+   <lb/>dont il fut bien marry, comme vous orrez. Si dit :   
+   <lb/><q> Ne vous avois je pas bien dit qu'il avoit la teste   
+    <lb/>lunaticque, et qu'il tenoit du fol ? Et cy c'estoit   
+    <lb/>a moy a faire, je ne le prieroye ja plus. </q></p>   
+<p><q> Par Dieu, </q> dit le roy d'Arragon, <q> si le roy m'en   
+ <lb/>veult croire il le ira convoyer, et je iray avecq luy,   
+ <lb/>et que luy peult cela nuyre, veu qu'il a si noble estat,   
+ <lb/>et qu'il est venu en sa cité, mesmement contre une   
+ <lb/>telle feste, par quoy on ny doit regarder nul ordre. </q>  
+ <lb/>Les dames furent moult joyeuses de ce que le roy   
+ <lb/>d'Arragon avoit dit, si l'en remercierent grande̲ment.</p></div>
+<div type="chapitre">   
+<head>Comment le roy d'Espaigne, acompaigné du roy   
+ <lb/>d'Angleterre, allerent convoyer Jehan de Paris.</head>    
+<p><q> Vrayement, </q> dit le roy d'Espaigne, <q> il vault bien    
+ <lb/>que l'on y aille devers luy, et ne puis croire que ce    
+ <lb/>ne soit ung tressaige homme. Si iray veoir si je le    
+ <lb/>pourray amener, et croyez que ja ne sera ma faulte    
+ <lb/>que ne s'en viengne festier avecq les dames. </q></p>   
+<p><q> Je iray avecq vous </q>, dit le roy d'Arragon aussi    
+ <lb/>le dirent tous les aultres. Et le roy d'Angleterre,    
+ <lb/>pour faire le bon vallet, va dire : <q> Certes, messei̲gneurs,    
+  <lb/>je y iray, car nous sommes longtemps venuz    
+  <lb/>ensemble, si en viendra plus volentiers, car aussi    
+  <lb/>l'avois je ja convoyé de y venir. </q></p>    
+<p><q> C'est moult bien dit, </q> dit le roy d'Espaigne, <q> nous   
+ <pb n="72"/>yrons, mon beau filz et moy, et vous demeurerez    
+ <lb/>pour entretenir les dames </q>, dit il au roy d'Arragon    
+ <lb/>et de Navarre et a plusieurs aultres barons et sei̲gneurs,    
+ <lb/><q> et aussi pour recevoir plus honnorablement     
+  <lb/>Jehan de Paris, car je cuyde qu'il viendra pour moy    
+  <lb/>et pour l'amour de mon beau filz, lequel est venu    
+  <lb/>avecques luy, comme il dit. </q></p>    
+<p>Ainsi s'en partirent les roys d'Espaigne et d'An̲gleterre    
+ <lb/>avecq moult belle compaignie. Et quant    
+ <lb/>ilz furent a la premiere barriere, et virent que la rue    
+ <lb/>estoit si fort fortiffiee, ilz en furent moult esmerveillez.    
+ <lb/>Le roy dit aux gardes : <q> Mes amys, nous voulons aller    
+  <lb/>parler a Jehan de Paris, si vous avez congié de nous    
+  <lb/>laissez entrer. </q></p>    
+<p><q> Et qui estez vous ? </q> dit le portier.</p>    
+<p><q> Je suis le roy de ce pays. </q></p>   
+<p><q> Pardonnez moy, sire, car je ne vous congnoissoye.    
+ <lb/>A vous n'est riens fermé, car nous l'avons par exprès    
+ <lb/>commandement. </q> Et vouloit entrer le roy par le    
+ <lb/>petit huisset, mais le portier ne le voulsit oncques    
+ <lb/>souffrir, ains luy ouvrit toute la grant porte, et ne    
+ <lb/>fut oncques puis fermee, tandis que le roy d'Es̲paigne    
+ <lb/>fut dedans. Si furent moult esmerveillez les    
+ <lb/>deux roys, quant ilz alloient par les rues, de veoir     
+ <lb/>si belle tapisserie, car il sembloit ung paradis, des    
+ <lb/>delices et plaisances, et des beautés et richesses qui    
+ <lb/>y estoient, et si y estoit tout plain de gensdarmes,    
+ <lb/>ne point ne faisoient semblant de eulx desarmer.    
+ <lb/>Quant ilz furent arrivez devant le logis, si trouverent     
+ <lb/>le cappitaine de la garde, qui a merveilles estoit bel    
+ <lb/>homme, et qui estoit en ung moult riche  estat.    
+ <lb/>Le roy luy dit : <q> Sire, pourrions nous point parler    
+  <lb/>a Jehan de Paris ? </q></p>   
+ <pb n="73"/><p><q> Et qui estes vous ? </q> dit le cappitaine.</p>   
+<p><q> Je suis le roy de ce pays, et veez cy mon beau   
+ <lb/>filz le roy d'Angleterre ; si voulons semondre Jehan   
+ <lb/>de Paris a venir aux nopces. </q></p>   
+<p><q> Sire, </q> dit le cappitaine, <q> ne vous desplaise, car je    
+ <lb/>ne vous congnoissoye point, mais je congnois bien    
+ <lb/>le roy d'Angleterre. A vous, sire, n'est riens fermé :   
+ <lb/>si me mectray devant pour vous conduyre. </q> Lors   
+ <lb/>se mect devant, et le roy d'Espaigne qui tenoit   
+ <lb/>l'aultre par la main, se mect après, avecq grant     
+ <lb/>nombre de gens. Quant ilz furent en la salle du com̲mun,    
+ <lb/>ilz se esmerveillerent fort de la richesse de la   
+ <lb/>tapisserie que illecq estoit.</p>   
+<p>Tantost le cappitaine alla hurter a la chambre   
+ <lb/>du conseil, et dit a ung des huissiers que le roy d'Es̲paigne   
+ <lb/>et d'Angleterre estoient a la porte, qui vou̲loient   
+ <lb/>parler a leur seigneur. Tantost sortit le chan̲celier    
+ <lb/>de la chambre, acompaigné bien de cinquante   
+ <lb/>barons en ung moult bel et riche estat, entre les̲quieulx    
+ <lb/>estoient les ducz d'Orleans et de Borbon,   
+ <lb/>et plusieurs aultres ducz et contes anciens, car tous   
+ <lb/>les jeunes princes, Jehan de  Paris les tenoit avecques   
+ <lb/>luy, du nombre des cent que avez ouy cy devant.   
+ <lb/>Le chancelier receut moult honnorablement les roys   
+ <lb/>et leur compaignie. Si dit le chancelier au roy :   
+ <lb/><q> Sire, que venez vous icy faire, qui avez tant de     
+  <lb/>passe temps en vostre palaix ? Vous soyez le tres̲bien    
+  <lb/>venu en vostre mesme terre. </q></p>   
+<p><q> Certes, </q> dit le roy, <q> je ne me pourroye tenir de   
+ <lb/>venir veoir Jehan de Paris, et le semondre que son   
+ <lb/>plaisir soit venir jusques a mon palais et le sien,   
+ <lb/>veoir les dames, que moult fort le desirent ; si vous   
+ <lb/>prie que a luy me fassez parler s'il est possible. </q></p>   
+ <pb n="74"/><p><q> Par Dieu, sire, il est bien aisé a faire, car il y a    
+  <lb/>exprès commandement que a vous riens ne soit cellé    
+  <lb/>ne fermé, si povez entrer par jour et nuyt, et comman̲der   
+  <lb/>comme en vostre maison. </q></p>   
+<p><q> Grantz mercis </q>, dit le roy.</p>   
+<p><q> Or venez donc, sire, </q> dit le chancellier, <q> et je vous   
+ <lb/>monstreray le chemin. </q> Si les mena en la chambre  
+ <lb/>du conseil, que toute estoit tendue de satin rouge,   
+ <lb/>brouché de fueillaige d'or, le ciel de mesmes et le   
+ <lb/>pavement. Puis vint hurter a la chambre du secret,    
+ <lb/>ou Jehan de Paris estoit en la forme et maniere que    
+ <lb/>vous orrez.</p>     
+<p>Premierement, toute la chambre, le ciel et pavement,   
+ <lb/>estoient tendus d'ung velours vert a grans   
+ <lb/>personnages d'or, bien enrichis de perles, ou estoit    
+ <lb/>pourtraict l'Ancien Testament. Au coing de la chambre    
+ <lb/>avoit ung hault siege a trois degrez, couvert d'ung    
+ <lb/>moult riche palle d'or, et par dessus, avoit ung moult    
+ <lb/>riche pavillon, tout fait d'orfaverie esmaillee, a grant     
+ <lb/>nombre de chainettes d'or que tenoient diamans,    
+ <lb/>rubis, esmerauldes, saffirs, et plusieurs aultres pierres    
+ <lb/>precieuses, qui estincelloient merveilleusement. Jehan    
+ <lb/>de Paris et ses cent gentilz hommes estoient tous    
+ <lb/>vestus d'ung drap d'or batu, tant riche que ne le     
+ <lb/>vous sçaurois declairer, et si estoient toutes les    
+ <lb/>robbes jusques en terre, et toutes d'une mesme    
+ <lb/>sorte, fors que Jehan de Paris, qui avoit ung moult    
+ <lb/>riche colier tout couvert de riche pierrerie. L'uissier    
+ <lb/>vint ouvrir la porte pour veoir que c'estoit qui y     
+ <lb/>hurtoit, si trouva ledict chancellier et les deux roys,    
+ <lb/>que dit a l'uissier : <q> Que fait nostre maistre ? </q></p>   
+<p><q> Monseigneur, </q> dit l'uissier, <q> il est en son siege,    
+ <lb/>qu'il devise avecq ses barons. </q></p>   
+ <pb n="75"/><p><q> Vecy le roy d'Espaigne, </q> dit le chancellier, <q> que le   
+  <lb/>vient veoir </q>, et alors entrerent dedans la chambre   
+  <lb/>comme vous orrez.</p></div>
+<div type="chapitre">   
+<head>Comment le roy d'Espaigne et d'Angleterre,   
+ <lb/>acompaignez de plusieurs grans seigneurs et   
+ <lb/>barons, entrerent en la chambre de Jehan de   
+ <lb/>Paris, et comment Jehan de Paris se leva de   
+ <lb/>son siege pour faire reverence au roy d'Espaigne.</head>   
+<p>A l'entree de la chambre le chancellier ce mit a   
+ <lb/>genoil devant Jehan de Paris, disant : <q> Sire, vecy   
+  <lb/>le roy d'Espaigne que vous vient saluer. </q> Quant le   
+ <lb/>roy d'Espaigne le vit en si hault triumphe, il ne se   
+ <lb/>peut tenir de s'encliner bien bas en luy faisant la   
+ <lb/>reverence. Et quant Jehan de Paris le vit, se leva   
+ <lb/>de son siege et le vint acoler, en disant : <q> Sire roy   
+  <lb/>d'Espaigne, Dieu vous maintiengne et toute vostre   
+  <lb/>belle et noble compaignie. Au regart de vostre   
+  <lb/>beau filz, il n'y a guieres que nous nous sommes veuz ;    
+  <lb/>venez vous en soir. </q> Si le prent par la main et le   
+ <lb/>maine asseoir auprès de luy, puis dit au roy d'An̲gleterre :     
+ <lb/><q> Prenez place ou il vous plaira. </q> Les barons   
+ <lb/>de Jehan de Paris firent asseoir les aultres, et quant   
+ <lb/>tout le monde fut assis, le roy d'Espaigne parla en   
+ <lb/>ceste maniere : <q> Jehan de Paris, si je ne vous nomme       
+  <lb/>aultrement, il me doit estre pardonné, car voz gens   
+  <lb/>ne nous ont voulu nommer voz tiltres.  Toutesfoiz    
+  <lb/>vous soyez le tresbien venu en ce païs, qui est du tout    
+  <lb/>a vostre commandement. </q></p>  
+ <pb n="76"/><p><q> Grantz mercis </q>, dit Jehan de Paris.</p>   
+<p><q> Je vous prie, </q> dit le roy, <q> qu'il soit vostre bon   
+ <lb/>plaisir de nous faire cest honneur de venir jusques   
+ <lb/>au palais veoir les dames, que moult fort vous de̲sirent.    
+ <lb/>Si y trouverez le roy et la royne d'Arragon,   
+ <lb/>les roys de Navarre et de Portugal, et plusieurs   
+ <lb/>aultres dames et grans barons et seigneurs. Si ne   
+ <lb/>serez pas si honnestement traicté ne receu comme   
+ <lb/>ceans, mais de belles et honnestes dames et damoi̲selles   
+ <lb/>y a, que vous feront bonne chere. </q> Les gens du   
+ <lb/>roy anglois estoient tous marris de la grant humilité   
+ <lb/>et amour que le roy d'Espaigne monstroit a Jehan   
+ <lb/>de Paris. <q> Vrayement, </q> dit Jehan de Paris, <q> vous ne   
+  <lb/>les dames n'estes pas a reffuser ; si ferons collation,   
+  <lb/>et puis les irons veoir. </q></p></div>
+<div type="chapitre">   
+<head>Comment Jehan de Paris fit apporter espices et   
+ <lb/>confitures de toutes sortes, et vins de plusieurs   
+ <lb/>façons et couleurs.</head>   
+<p>Tantost apporterent espices et confitures de toutes   
+ <lb/>sortes en grans couppes d'or et de pierrerie ; après,   
+ <lb/>les vins de plusieurs manieres, dont le roy  estoit   
+ <lb/>tout esmerveillé. Quant ilz eurent fait la collation,   
+ <lb/>Jehan de Paris dit au roy : <q> Or sus, allons quant il   
+  <lb/>vous plaira. </q> Si print le roy par la main dextre,   
+ <lb/>et le roy d'Angleterre par la main senestre, et se   
+ <lb/>mectent a chemin. Et quant il fut a la porte de son   
+ <lb/>logis, il dit au cappitaine de la garde qu'il ne menast   
+ <lb/>que ung peu de gens, tous les barons, et les cent   
+ <lb/>hommes de son habit. Tantost ledict cappitaine ce   
+ <lb/>mit devant avec cent hommes d'armes pour faire    
+ <pb n="77"/>voye, car grant estoit la presse du peuple de tous estaz.</p>     
+<p>Les dames et seigneurs qui estoient demorez au    
+ <lb/>palais furent tous esbays quant ilz virent que les    
+ <lb/>deux roys tant demeuroient, mais il vint ung cheva̲lier    
+ <lb/>courant qui vint dire : <q> Sus, apprestez vous, car    
+  <lb/>veez cy venir les plus belles gens et les mieulx en    
+  <lb/>point que jamais furent veuz sur la terre. </q> Grant    
+ <lb/>joye eurent les dames et seigneurs et sur tous en eut    
+ <lb/>grant joye la pucelle a qui le cueur tout sautelloit     
+ <lb/>de joye. Le roy d'Arragon print la royne d'Espaigne,    
+ <lb/>et sa fille fut menee par le roy de Navarre, et le roy    
+ <lb/>de Portugal print la royne d'Arragon, et les aultres    
+ <lb/>princes et barons prirent chascun dame et damoi̲selle,    
+ <lb/>et se mirent en tresbelle  ordonnance. Si les     
+ <lb/>allerent ung peu veoir venir de loing par les fenestres,    
+ <lb/>puis se mit chascun en sa place en disant l'ung a    
+ <lb/>l'aultre :</p>    
+<p><q> Voyez comment celuy prent honneur devant    
+ <lb/>les roys, que tous deux les mayne et marche le pre̲mier ;    
+ <lb/>par Dieu, il est homme de grant haultesse et    
+ <lb/>audace, et ne monstre pas qu'il soit en païs estrange. </q></p>    
+<p><q> Certes, </q> dirent les aultres, <q> il est par tout le plus    
+ <lb/>fort, que luy donne ce courage. </q></p>   
+<p><q> Et, par Dieu, </q> dit la pucelle, <q> la fierté qu'il a luy     
+ <lb/>siet moult bien, car c'est ung droit mirouer de beaulté. </q>   
+ <lb/>Et a tant veez cy venir et entrer ses hommes de la    
+ <lb/>garde qui tous ensemble saluerent la compaignie,    
+ <lb/>et puis se vont sarrer en une part contre ung coing    
+ <lb/>de la salle, qui sembloit que tous cent ne tinssent     
+ <lb/>pas la place de quarante.</p></div>
+<div type="chapitre">
+<pb n="78"/>   
+<head>Comment Jehan de Paris entra en la salle ou    
+ <lb/>estoient les seigneurs et dames qui luy vindrent    
+ <lb/>au devant.</head>    
+<p>Estre arrivé, Jehan de Paris, entre les deux roys   
+ <lb/>d'Espaigne et d'Angleterre, entrerent en ladicte   
+ <lb/>salle : les seigneurs, dames et damoiselles  leur   
+ <lb/>vindrent au devant. Jehan de Paris salua les roys   
+ <lb/>d'Arragon, de Navarre et de Portugal, puis osta   
+ <lb/>son chappeau et baiza les deux roynes. Après print   
+ <lb/>la pucelle par la main bien priveement et la baisa   
+ <lb/>moult doulcement en disant : <q> Je vous mercie, ma   
+  <lb/>doulce seur, de vostre present. </q> Adonc elle rogit   
+ <lb/>ung peu et s'enclina jusques bien bas. Puis dit Jehan   
+ <lb/>de Paris a ses barons : <q> Allez baiser toutes ces dames,   
+  <lb/>et nous nous irons reposer. </q> Si print les deux roynes   
+ <lb/>par les mains, et dit au duc d'Orleans qui après luy   
+ <lb/>venoit, que luy amenast la damoiselle. Si s'en va   
+ <lb/>seoir au plus noble lieu de toute la salle, qui moult   
+ <lb/>grande estoit, et se assit au milieu des deux roynes.   
+ <lb/>Puis dit au duc d'Orleans, son cosin : <q> Amenez moy   
+  <lb/>ce que vous ay baillé ; vous n'estes pas si honteux   
+  <lb/>que vous ne prenez du meilleur endroit, </q> dont chas̲cun   
+ <lb/>se mit a rire. Puis dit haultement : <q> Messeigneurs,   
+  <lb/>prenez place ou bon vous semblera, car nous avons   
+  <lb/>prins la nostre. </q> Si commença a deviser avecq la   
+ <lb/>pucelle, et tous les roys et grans princes et dames et   
+ <lb/>damoiselles le plus que peurent se approucherent   
+ <lb/>pour les ouyr deviser. Et en  parlant, la pucelle dit   
+ <lb/>a Jehan de Paris : <q> Sire, vous avez amené une moult   
+  <pb n="79"/>belle armee, la mieulx en point que jamais l'on vit   
+  <lb/>en ces contrees. </q></p>   
+<p><q> Ma mye, </q> dit Jehan de Paris, <q> je l'ay fait pour  
+ <lb/>l'amour de vous. </q></p>   
+<p><q> Et comment, </q> dit la pucelle en rogissant, <q> pour    
+ <lb/>l'amour de moy ? </q></p>    
+<p><q> Je le vous diray, </q> respondit il ; <q> j'ay ouy dire que    
+ <lb/>l'on vous devoit combatre demain, et pource je vous   
+ <lb/>viens offrir si vous avez point a faire de mes gens   
+ <lb/>d'armes, qui ont bonnes lances et roiddes. </q> Au mot   
+ <lb/>fut moult grant le bruit parmy la salle de rire, car     
+ <lb/>tous escoutoient diligemment. <q> Sire, </q> dit la pucelle,   
+ <lb/>toute honteuse, <q> je vous mercie de vostre offre, car   
+  <lb/>il n'y fault pas si grande assemblee. </q></p>   
+<p><q> Sainct Jehan, </q> dit il, <q> il est vray, car ce sera corps    
+ <lb/>a corps en champ de bataille estroit. </q> Jamais vous    
+ <lb/>ne veistes tant rire comme ces seigneurs et dames    
+ <lb/>rirrent des questions qu'il luy faisoit. Si dit le roy    
+ <lb/>de Navarre au roy d'Espaigne : <q> Oyez vous pas   
+  <lb/>cest homme que mon cosin vostre beau filz blas̲moit,    
+  <lb/>en disant que par foiz il dit les motz d'ung   
+  <lb/>follastre ? Par Dieu, je croy que non fait, mais les   
+  <lb/>baille si tres couvers que l'aultre ne les peult entendre.   
+  <lb/>Si vouldrois bien que  les luy fissions explicquer. </q></p>   
+<p><q> Je le veulx bien, </q> dit le roy, <q> mais j'ey peur de luy   
+ <lb/>desplaire, car sur ma foy c'est la plus plaisant crea̲ture    
+ <lb/>que je visse oncques. Si suis tout ravy de luy ;   
+ <lb/>s'il vouloit, il acquerroit beaucop de dames. </q></p>   
+<p><q> Par ma foy, autant vous en dis. Si seroit bon de le   
+ <lb/>faire boire. </q></p>   
+<p><q> Voire, </q> dit le roy, <q> mais nous ne pourrions ainsi   
+ <lb/>faire comme il nous a fait. Pleust a Dieu que vous y    
+ <lb/>eussiez esté. </q></p>   
+  <pb n="80"/><p><q> Amen, </q> dit il, <q> mais ilz ne s'en iront encore, si    
+   <lb/>desire fort avoir accoinctance a luy. </q></p></div>
+<div type="chapitre">   
+<head>Comme le roy fit apporter pour faire colation    
+ <lb/>a Jehan de Paris.</head>   
+<p>En tant le roy commenda apporter colation qui    
+ <lb/>tost fust preste. Et le maistre d'ostel de leans vint    
+ <lb/>dire a ung des barons de Jehan de Paris comment    
+ <lb/>il le feroit boire. <q> Attendez, </q> dit celuy, <q> je vois querir    
+  <lb/>celuy qui l'en sert, que luy portera. </q> Et incontinant    
+ <lb/>celuy alla dire au duc de Normandie que l'on vouloit    
+ <lb/>servir de vin. Le duc appella l'escuyer et luy dit    
+ <lb/>qu'il allast prendre la couppe pour servir de boire,    
+ <lb/>ce qu'il fit incontinant, et deux aultres escuyers     
+ <lb/>aussi qui prirent chascun une couppe, et  les vindrent    
+ <lb/>presenter toutes trois a Jehan de Paris, lequel print   
+ <lb/>la sienne et commenda bailler les aultres deux aux 
+ <lb/>deux roynes en disant : <q> Bevons nous trois pour des̲pescher,       
+  <lb/>et les aultres bevront quant il leur plaira. </q>   
+ <lb/>Si beut sans riens actendre, puis bailla sa couppe   
+ <lb/>a la pucelle que devant luy tenoit, en disant : <q> Tenez,    
+  <lb/>ma mye, j'ay beu a vous, si croy bien que ja ne me    
+  <lb/>craindrez. </q></p>   
+<p><q> Par Dieu, </q> dit la pucelle, <q> il n'y a cause pour quoy ;    
+ <lb/>si vous en mercie de bon cueur. </q> Les roys et aultres     
+ <lb/>seigneurs et dames beurent, que fort s'esmerveilloient    
+ <lb/>dont Jehan de Paris prenoit ainsi l'honneur sur tous    
+ <lb/>les roys, qui estoient plus vieulx que luy.</p>    
+<p>Quant colation fut faicte, les roys et dames s'apro̲cherent   
+ <pb n="81"/>de Jehan de Paris pour railler et deviser   
+ <lb/>avecques luy. Si luy demanda le roy de Navarre :   
+<q> Jehan de Paris, mon doulx amy, que dictes vous de   
+ <lb/>nostre nouvelle mariee ? </q></p>   
+<p><q> Certes, </q> dit il, <q> je n'en sçaurois dire que tout bien   
+ <lb/>et honneur, car il me semble que Dieu l'a parfaicte   
+ <lb/>a son loisir, que riens n'y a oublié. Si n'a besoing   
+ <lb/>que d'un bon officier. </q></p>   
+<p><q> Et quel officier, sire ? </q> dit elle.</p>   
+<p><q> Or le demandez a messeigneurs, </q> dit il, <q> savoir   
+ <lb/>moult s'il le vous sçauront nommer. </q></p>   
+<p><q> Par ma  foy, </q> dit le roy de Portugal, <q> voz motz   
+ <lb/>sont si fors a entendre que nous ne sçarions que   
+ <lb/>exprimer ; si vous prie que le nous vueillez nommer. </q>  
+<q> Par ma foy, </q> dit il, <q> c'est chose bien aizee a savoir,   
+ <lb/>car je croy bien que de maistre d'ostel, d'escuyers   
+ <lb/>ne de secretaires est elle bien fornye, mais voulen̲tiers   
+ <lb/>quant dames sont loin de leur pays, elles en   
+ <lb/>desirent souvent avoir des nouvelles, et pource   
+ <lb/>elle a bon besoing du bon chevaucheur. </q> Quant ilz   
+ <lb/>entendirent ces parolles, chascun se print moult fort   
+ <lb/>a rire. <q> Or, par Dieu, </q> dit le roy d'Espaigne, <q> sire,   
+  <lb/>vous sçavez tresbien ce qu'il fault aux femmes, mais   
+  <lb/>en voz motz il fault tousjours glozes. </q></p></div>
+<div type="chapitre">   
+<head>Comment  le roy d'Espaigne demanda a Jehan de   
+ <lb/>Paris l'exposition des motz qu'il avoit ditz au   
+ <lb/>roy d'Angleterre son beaufilz.</head>   
+<p><q> Si je n'avoye peur de vous desplaire, </q> dit le roy   
+ <lb/>d'Espaigne, <q> je vous demanderoye l'exposition d'aul̲cuns    
+ <pb n="82"/>motz que vous avez ditz en chemin a mon beau    
+  <lb/>filz. </q></p>   
+<p><q> Certes, </q> dit Jehan de Paris, <q> demandez ce qu'il    
+ <lb/>vous plaira, car riens ne me sçauroit desplaire. </q></p>      
+<p><q> A vostre congié dont, </q> dit le roy d'Espaigne,    
+ <lb/><q> je vous en vois dire ung. Mon beau filz d'Angleterre   
+  <lb/>m'a dit, que quant vous veniez, ung jour que pleuvoit   
+  <lb/>tresfort, vous luy dictes que luy qui estoit roy,   
+  <lb/>devoit faire porter a ses gens des maisons pour eulx   
+  <lb/>garder de la pluye en chevauchant. Si ne puis entendre   
+  <lb/>comme ces maisons pourroient aller ne qui les por̲teroit. </q>   
+ <lb/>Jehan de Paris ce print moult fort a rire   
+ <lb/>puis luy dit :</p>   
+<p><q> Certes, c'est bien aisé a entendre si vous eussiez   
+ <lb/>esté sur le lieu, car il pouvoit bien prendre exemple   
+ <lb/>a moy et a mes gens qui prismes bons manteaux   
+ <lb/>et chapperons a gorge avecq noz oseaulx qui nous   
+ <lb/>gardoient bien de la pluye. Et quant il faisoit beau   
+ <lb/>temps, si les mections sus nous bautz, et se sont les   
+ <lb/>maisons que je disoye a vostre beau filz qui estoit   
+ <lb/>moillié, luy et ses gens, comme s'ilz fussent plongez   
+ <lb/>en la riviere. </q></p>   
+<p><q> Haa, </q> dit le roy, <q> par Dieu, vous en dictes la   
+ <lb/>verité. </q></p>   
+<p><q> Vrayement, </q> dit le roy de Portugal a l'oreille   
+ <lb/>du roy d'Espaigne, <q> cestuy n'est pas si fol comme   
+  <lb/>vostre beau filz disoit, ains a ung moult beau et vif   
+  <lb/>entendement de son eage. </q></p>   
+<p><q> Encore vous en demanderay une aultre chose, </q>  
+ <lb/>se dit le roy d'Espaigne, <q> s'il est vostre plaisir. C'est   
+  <lb/>que ung aultre jour vous  luy dictes qu'il ne faisoit   
+  <lb/>porter a ses gens ung pont pour passer les rivieres. </q></p>   
+ <pb n="83"/><p><q> De cela ne fault il pas grant exposition, </q> dit    
+  <lb/>Jehan de Paris, <q> car elle est de mesmes a la premiere.    
+   <lb/>Il est vray que par de ça Bayonne, ung jour nous    
+   <lb/>trouvasmes une petite riviere bien creuse et roide.     
+   <lb/>Le roy d'Angleterre et ses gens, qui estoient mal    
+   <lb/>montez, se mirent dedans pour passer, dont il s'en    
+   <lb/>noya bien soixante des plus mal montez, et je passey    
+   <lb/>après avec mes gens que n'eurent nul mal, et quant    
+   <lb/>nous fusmes passez, le roy me fit ses plains de ses     
+   <lb/>gens qui estoient noyez, et lors je luy dis qu'il devoit    
+   <lb/>faire apporter ung pont pour les faire a saulveté    
+   <lb/>passer les rivieres, c'est a dire bons chevaulx comme    
+   <lb/>ils virent bien les miens, qu'ilz n'eurent aulcung    
+   <lb/>mal. Je cuydoie bien qu'il l'eust entendu. </q></p>   
+<p><q> Par Dieu, </q> dit le roy de Navarre, <q> bien le luy    
+ <lb/>bailliez par entendre. </q></p>   
+<p><q> Or puis que tant nous en avez dit, </q> dit le roy    
+ <lb/>d'Espaigne, <q> je vous prie que nous declairez le tiers,    
+  <lb/>et plus ne vous en parlerons. </q></p>   
+<p><q> Je vous ay dit que tout ce qu'il vous plaira me    
+ <lb/>plaist, pource n'en faictes difficulté. </q></p>   
+<p><q> Je vous prie donc </q>, dit le roy d'Espaigne, <q> que    
+ <lb/>vous nous declairez comment vous entendez ce que     
+ <lb/>vous luy  dictes que vostre feu pere estoit venu     
+ <lb/>en ce païs il y avoit environ quinze ans, et avoit    
+ <lb/>tendu ung lax a une canne, et que vous veniez pour    
+ <lb/>veoir si la canne estoit prinse. </q></p>   
+<p><q> De cela, </q> dit Jehan de Paris, <q> je ne blasme point    
+ <lb/>le roy d'Angleterre, car il est bien fort a entendre.     
+ <lb/>Et toutesfoiz, puis qu'il vient a propoz, je suis con̲tant    
+ <lb/>de le vous declairer. Or, entendez que c'est.    
+ <lb/>Il est vray qu'il y a environ quinze ans passez que le    
+ <pb n="84"/>roy de France, feu mon pere, vint en ce pays pour    
+ <lb/>remectre vostre royaulme en vostre obeissance,    
+ <lb/>et lever le siege a la royne vostre femme, que veez    
+ <lb/>cy, et quant il s'en voulut aller, tous deux luy don̲nastes    
+ <lb/>vostre fille pour icelle marier ou bon luy    
+ <lb/>sembleroit, et il vous respondit que ce seroit avecques    
+ <lb/>moy, et c'est le lasson, et vecy la canne que je suis    
+ <lb/>venu veoir ci elle est prinse. </q></p></div>
+<div type="chapitre">   
+<head>Comment Jehan de Paris rebrassa ses habillemens   
+ <lb/>pour demonstrer qu'il estoit, et fit rebrasser   
+ <lb/>celles des ducz d'Orleans et de Bourbon qui   
+ <lb/>estoient avecq luy.</head>   
+<p>Alors qu'il eut fini le parlement avecq le roy   
+ <lb/>d'Espaigne, rebrassa sa robbe, que dedans estoit    
+ <lb/>d'ung velours bleu semé de fleurs de lis d'or.</p>     
+<p>Quant le roy et la royne d'Espaigne ouyrent ces    
+ <lb/>parolles, tous deux se gecterent a ses piedz avec leur    
+ <lb/>fille en disant : <q> O trespuissant et noble roy, pour    
+  <lb/>Dieu plaise vous nous pardonner nostre grant offence,     
+  <lb/>car tout ce que vous avez dit est vray, et bien    
+  <lb/>le sçavons et la plus part de tous mes barons    
+  <lb/>que icy sont ; si suis content d'en recepvoir telle    
+  <lb/>pugnition comme il vous plaira a ordonner. Et quant    
+  <lb/>est de ma fille, bien sçay qu'elle n'est pas digne     
+  <lb/>d'estre conjoincte avecq vous, mais dès maintenant    
+  <lb/>je la vous livre pour la marier a celuy que sera vostre    
+  <lb/>bon plaisir, et a celuy baille dès maintenant la pos̲session    
+  <lb/>de mon royaulme. </q></p>   
+<p>Le roy Jehan de France les leva et moult les mercia,     
+ <lb/>puis dit a la pucelle : <q> Ma mye, vous avez ouy ce    
+  <lb/>que vostre pere et mere ont dit ; que en dictes vous,    
+ <pb n="85"/>car le fait vous touche ? Voulez vous le roy d'Angle̲terre ? </q></p>   
+<p><q> Treshault et puissant seigneur, je veulx tenir   
+ <lb/>de point en point, </q> dit la pucelle, <q> ce que mon pere   
+  <lb/>vous a dit, car les premieres promesses doivent tenir.   
+  <lb/>Si me tiendroye a bien heuree si j'avois ung de voz   
+  <lb/>barons de vostre royaulme. </q></p>   
+<p><q> Or me dictes donc lequel vous  voulez, car    
+ <lb/>veez en cy belle compaignie. Regardez dessoubz   
+ <lb/>leurs robes, car chascun porte ses armes. </q></p></div>
+<div type="chapitre">   
+<head>Comment le roy Jehan commenda au duc d'Or̲leans    
+ <lb/>et de Bourbon, et a plusieurs aultres, qu'ilz   
+ <lb/>rebrassassent leurs robes.</head>   
+<p>Lors fit le roy Jehan rebrasser toutes les robes   
+ <lb/>desdis barons, que moult beau veoir faisoit. Si se    
+ <lb/>firent congnoistre les plus aagez que en Espaigne    
+ <lb/>avoient estez avecq le feu roy, comme les ducz d'Or̲leans    
+ <lb/>et de Bourbon et plusieurs aultres barons.    
+ <lb/>Le roy Jehan demanda de rechief a la pucelle :   
+<q> Avez vous advisé lequel vous voulez de ceulx icy    
+ <lb/>ou ce vous y voulez encores pencer ? </q></p>   
+<p><q> Treshault seigneur, </q> dit elle, <q> a moy n'appartient    
+ <lb/>pas de choisir, mais celuy que vous plaira me plaist   
+ <lb/>en ensuivant la promesse que monseigneur mon   
+ <lb/>pere fit au vostre. </q></p>   
+<p><q> A, par Dieu, vous estes fine femme, </q> dit le roy    
+ <lb/>Jehan, <q> puis que vous dictes que vous voulez tenir    
+  <lb/>la promesse de vostre pere. C'est a dire que je doy    
+  <lb/>tenir aussi la promesse que le mien fit, c'est que vous   
+  <lb/>seriez ma femme. </q> Alors se  mirent tous a rire,   
+ <pb n="86"/>fors que les Anglois. <q> Or sa, </q> dit le roy Jehan, <q> par   
+  <lb/>vostre foy, vouldriez vous bien estre ma femme   
+  <lb/>si vostre pere et mere le vouloient et si je m'y con̲sentoye ? </q></p>     
+<p><q> Sire, c'est une question ou il ne fault point de   
+ <lb/>responce, car bien pouvez sçavoir qu'il n'est chose   
+ <lb/>au monde que tant je desirasse. </q></p>   
+<p><q> Or donc, ma mye, et je m'y consens, et vous   
+ <lb/>prometz espouser le matin, au plaisir de Dieu et de   
+ <lb/>vous amys. </q></p>   
+<p>Le roy d'Espaigne et la royne le mercierent moult   
+ <lb/>fort, et les roys d'Arragon, de Navarre et de Por̲tugal    
+ <lb/>luy vindrent demander pardon de ce qu'ilz   
+ <lb/>ne luy avoient fait l'honneur que luy estoit deu.   
+<q> Sire d'Angleterre, </q> dit le roy de France, <q> vous ne   
+ <lb/>devez estre mal content de cecy, car elle estoit   
+ <lb/>mienne passé a quinze ans, si n'ay voulu faulcer la   
+ <lb/>promesse de feu mon pere. </q></p></div>
+<div type="chapitre">   
+<head>Comment le roy d'Angleterre s'en alla de Burgues   
+ <lb/>bien marry et courrossé quant il vit que le roy   
+ <lb/>de France luy avoit osté celle que tenoit son   
+ <lb/>cueur et sa pensee.</head>   
+<p>Voyant toutes choses, le roy d'Angleterre fut   
+ <lb/>moult marry et courrossé. Si se  partit du palais,   
+ <lb/>et dès l'heure s'en alla monter a cheval et s'en alla,   
+ <lb/>luy et ses gens, en leur païs les plus hastivement   
+ <lb/>qu'ilz peurent. Après le despartement dudict roy,   
+ <lb/>commença la feste grande et planteureuse par le   
+ <lb/>palais, aussi fit elle par la cité, quant l'on sceut   
+ <lb/>que c'estoit le roy de France qui espousoit la fille.   
+ <pb n="87"/>Le soupper fut moult grant et servis de plusieurs    
+ <lb/>entremetz que venoient de la cuysine du roy de    
+ <lb/>France, et moult fut regardee la vexelle en quoy    
+ <lb/>il estoit servy. La pucelle estoit si joyeuse qu'on ne le     
+ <lb/>sçauroit racompter ne dire, si m'en passe aussi    
+ <lb/>pour cause de briefveté.</p>    
+<p>Quant vint le lendemain au matin, le roy Jehan    
+ <lb/>envoya de moult riches bagues a la pucelle, et si    
+ <lb/>luy envoya de vexelle d'or pour ung buffet, et ung    
+ <lb/>aultre buffet de vaixelle d'argent et ung pavillon    
+ <lb/>tout fait de fleurs de lys chargié de pierrerie le plus    
+ <lb/>riche que l'on eust jamais veu, et luy envoya ses    
+ <lb/>tailliendiers pour luy faire habillemens a la mode de    
+ <lb/>France, et aussi a toutes ses damoiselles.</p></div>
+<div type="chapitre">   
+<head>Comment le roy de France espousa la fille du roy    
+ <lb/>d'Espaigne en grant triumphe et honneur    
+ <lb/>a l'abit du païs, ors mis la coronne qu'elle por̲toit.</head>     
+<p>Le jour venu que les nopces ce devoient faire,     
+ <lb/>si esposa le roy Jehan la fille au roy d'Espaigne    
+ <lb/>en la ville de Burgues, et en l'abit du païs, ors mis la    
+ <lb/>coronne que le roy Jehan luy donna, qui moult riche    
+ <lb/>estoit. De la feste, des triumphes, des honneurs    
+ <lb/>et des services qui y furent faitz, je m'en passe pour     
+ <lb/>eschever la matiere.</p>    
+<p>Quant vint le soir, le roy Jehan dit que point ne    
+ <lb/>cocheroit au palais, et pource furent meneez les dames    
+ <lb/>en son logis avecq la mariee. Quant elles virent les    
+ <lb/>merveilles et richesses qui y estoient, toutes disoient     
+ <lb/>que a bonne heure estoit la pucelle nee d'avoir ung    
+ <lb/>tel prince espousé, et qu'elle avoit fait en peu d'heure    
+ <lb/>ung beau change. La pucelle estoit si tresjoyeuse    
+ <lb/>qu'elle ne sçavoit quelle contenance faire. Ce pendant    
+ <pb n="88"/>que les dames la desabilloient, le roy Jehan arriva    
+ <lb/>avecq belle compaignie, si dit a sa mye : <q> Et puis,    
+  <lb/>ma mye, vous desplaist il point d'avoir laissé  le    
+  <lb/>palaix de vostre pere ? </q></p>   
+<p><q> Certes, mon redoubté seigneur, il ne le me fault    
+ <lb/>pas demander, car je n'euz jamais si parfaicte joye    
+ <lb/>comme j'ay eu quant je me suis trouvee ceans.    
+ <lb/>Aussi n'est a comparer le palaix de monseigneur    
+ <lb/>mon pere a vostre logis, mais encores vous dis je    
+ <lb/>plus, que quant vous n'ariez riens que vostre noble    
+ <lb/>et redoubté personne, si vous ayme je mieulx que    
+ <lb/>tout le demourant du monde. </q> Ce mot pleust moult    
+ <lb/>fort au roy, si la corut acoler et baiser en luy disant :    
+<q> Ma mye, ce mot jamais ne sera oublié. Or sa, que     
+ <lb/>donrez vous a ses dames et damoiselles, que tant de    
+ <lb/>peine ont prins pour vous ? </q></p>   
+<p><q> Monseigneur, </q> dit elle, <q> je ne sçay. </q></p>   
+<p><q> Veez la, </q> dit il, <q> ces six coffres plains de bagues    
+ <lb/>et de draps d'or ; despartez les ou bon vous sem̲blera,    
+ <lb/>car pour ce faire ont ilz estez apportez. </q>  
+ <lb/>La pucelle se agenoilla et moult humblement le mer̲cia,    
+ <lb/>mais il la leva bien tost et luy dit que plus ne le    
+ <lb/>fit, mais que priveement a luy parlat, comme de    
+ <lb/>pareil a pareil. <q> Il n'est pas raison </q>, dit la mere.</p>     
+<p><q> Et je le veulx ainsi, </q> dit il, <q> et si luy commande    
+ <lb/>despartir ces bagues et joyaulx aux dames et damoi̲selles    
+ <lb/>selon leur qualité, </q> dont elles priserent fort le     
+ <lb/>noble  roy de France.</p></div>
+<div type="chapitre">   
+<head>Comment on coucha la pucelle et comment le roy   
+ <lb/>de France s'alla coucher auprès d'elle.</head>   
+<p>Après que l'espousee eut esté desabillee, se cocha,    
+ <lb/>puis s'en allerent les dames et damoiselles retirer    
+ <lb/>chascune en son lieu. Si vint incontinant le roy de    
+ <pb n="89"/>France, a qui il tardoit bien l'heure, en la chambre,    
+ <lb/>lequel fut tantost desabillé. Si ce mit auprès de celle   
+ <lb/>qu'il aymoit par dessus toutes creatures, et il n'avoit    
+ <lb/>pas tort, car c'estoit la plus doulce, la plus humble,     
+ <lb/>la plus belle, la plus sage, la plus honneste et la    
+ <lb/>mieulx moriginee que fut pour lors en tout le monde.    
+ <lb/>Grant joye s'entrefirent les deux amans, et firent de    
+ <lb/>beaux passetemps durant la nuyt, comme voz aultres,    
+ <lb/>jeunes gens que bien aymez quelque belle jeune fille,     
+ <lb/>quant la povez tenir entre voz bras : Dieu scet le    
+ <lb/>plaisir et la joye que vous avez. Si l'engrossa celle    
+ <lb/>nuyt le roy d'un beau filz, que despuis fut roy de    
+ <lb/>France.</p>    
+<p>Et quant vint l'endemain, a heure de lever, le roy    
+ <lb/>Jehan se leva et s'en alla railler avecq ses barons   
+ <lb/>que moult joyeulx estoient de leur seigneur que tant    
+ <lb/>honnestement  son cas conduisoit. Les dames vin̲drent    
+ <lb/>veoir la nouvelle royne que moult bonne chere    
+ <lb/>leur fit, et ainsi comme ilz la cuydoient habiller,     
+ <lb/>vint ung maistre taillandier du roy qui leur dit    
+ <lb/>a genoulx : <q> Mes dames, ne vous desplaise, car    
+  <lb/>elle doit aujourd'uy estre habillee a la mode fran̲çoise. </q></p>   
+<p><q> Helas, mon amy, </q> dit la royne de France, <q> je vous     
+ <lb/>prie que je y soye habillee, car bonne Françoise suis    
+ <lb/>et seray tout mon vivant. </q></p></div>
+<div type="chapitre">   
+<head>Comment les costuriers et tailliandiers du roy   
+ <lb/>Jehan habillerent la royne a la mode de France.</head>   
+<p>Incontinant vindrent escuyers et costuriers de     
+ <lb/>par le roy Jehan mectre la jeune royne en point    
+ <pb n="90"/>a grant diligence. Si luy vestirent une moult riche    
+ <lb/>cotte d'ung drap d'or cramoisi, et par dessus une    
+ <lb/>robe d'ung velours bleu semé de fleurs de lis d'or,    
+ <lb/>tant belle et tant mignonne que avecq la beaulté    
+ <lb/>qu'elle avoit sembloit plus divine qu'humaine.    
+ <lb/>Puis luy mirent en la teste ung atour merveilleuse̲ment    
+ <lb/>beau et riche. Si luy fut mis autour ung colier    
+ <lb/>d'or  tout couvert de rubis, de diamans, et d'esme̲rauldes,    
+ <lb/>et y avoit au millieu ung escharboucle que    
+ <lb/>rendoit une grant lumiere. Et ainsi comme l'on    
+ <lb/>l'abilloit, vindrent les roys d'Espaigne, de Portugal,    
+ <lb/>de Navarre, et d'Arragon, qu'ilz trouverent le roy    
+ <lb/>Jehan qui estoit avecq ses barons. Si le saluerent,    
+ <lb/>et il les recueillit moult doulcement, puis luy deman̲dirent    
+ <lb/>comme il luy estoit depuis a soir. <q> Moult    
+  <lb/>bien, la Dieu mercy, si trouverez vostre fille sayne    
+  <lb/>et saulve. </q></p>   
+<p><q> Nous l'irons veoir, par vostre congié </q>, dirent les    
+ <lb/>quatre roys.</p>     
+<p><q> Et je y vois avecques vous, </q> dit le roy Jehan,    
+ <lb/><q> pour veoir et oyr qu'elle vous dira. </q> Et quant ilz    
+ <lb/>furent entrez en la chambre et ilz virent la royne de    
+ <lb/>France ainsi habillee, luy firent la reverence deue    
+ <lb/>comme a royne appartient.</p></div>
+<div type="chapitre">    
+<head>Comme le roy de Navarre, parlant a la royne de   
+ <lb/>France, luy dit que les fleurs de lis luy estoient   
+ <lb/>monteez dessus.</head>   
+<p>Quant les quatre roys eurent fait la reverence   
+ <lb/>a la nouvelle royne, elle leur rendit leur salut et leur   
+ <pb n="91"/>fit moult bonne chiere. Si furent moult esbays de    
+ <lb/>la veoir en si riche estat,  si luy dit le roy de Navarre    
+ <lb/>en riant : <q> Comment, ma dame ma cosine, les fleurs    
+  <lb/>de lis vous ont monteez dessus le corps ? </q></p>   
+<p><q> Ouy, </q> dit elle, <q> beau cosin, mais encores en y a il    
+ <lb/>beaucop plus par dedans, que jamais n'en sauldront. </q>   
+ <lb/>Quant le roy Jehan l'entendit, il en fut merveilleuse̲ment    
+ <lb/><lb/>joyeux, si n'en fit nul semblant. Quant tout    
+ <lb/>fut appresté, on alla a l'esglise, qui fut moult riche̲ment    
+ <lb/>tendue de fleurs de lis, et le roy les donna    
+ <lb/>a l'esglise, et tous les haornemens de l'autel, qui    
+ <lb/>grant richesse valloient.</p>    
+<p>Que vous iroys je plus racomptant ? La feste dura    
+ <lb/>quinze jours, si donna le roy Jehan de moult riches     
+ <lb/>dons au roy et a la royne d'Espaigne, ses beau    
+ <lb/>pere et mere, si fit il aux roys d'Arragon, de Portu̲gal    
+ <lb/>et de Navarre, et a leurs femmes, et generalle̲ment    
+ <lb/>a tous les chevaliers, barons, seigneurs, dames    
+ <lb/>et damoiselles, tant que chascun le tenoit au plus     
+ <lb/>vaillant et riche prince que fut au monde.</p></div>
+<div type="chapitre">    
+<head>Comment le roy Jehan print congié de son beau   
+ <lb/>pere et de sa belle mere pour s'en retorner en   
+ <lb/>France, et comment la royne de France ploroit   
+ <lb/>pource qu'il avoit dit que la lairroit en Espaigne.</head>   
+<p>Après que les nopces furent passeez, le roy de   
+ <lb/>France vint au roy d'Espaigne et la royne, present   
+ <lb/>leur fille sa femme, si leur dit : <q> Beau pere, et vous,   
+  <lb/>belle mere, vous sçavez comme j'ay grant charge   
+  <lb/>de mon royaulme gouverner et entretenir, et si ay   
+  <lb/>avec moy la plus part de mes barons, si ay laissé   
+ <pb n="92"/>ma mere seulle que grant desir a de me revoir.   
+  <lb/>Pource, si est de vostre plaisir, me donnerez congié,   
+  <lb/>et doubtant vous desplaire, ne vous oze demander   
+  <lb/>licence d'emmener ma mye, car si c'est vostre plaisir   
+  <lb/>qu'elle demeure, je la vous recommande. Je luy   
+  <lb/>laisseray son estat comme a telle royne appartient,   
+  <lb/>car de voz biens ne veulx je qu'elle despende ung   
+  <lb/>denier. Je vous prie que traictez bien vostre peuple,   
+  <lb/>et le plus que pourrez le gardez de oppresser, et ilz   
+  <lb/>prieront Dieu pour vous. </q> En disant ses parolles   
+ <lb/>la jeune dame fondoit en lermes, voyant qu'elle   
+ <lb/>estoit pour demeurer, et que son amy s'en alloit   
+ <lb/>sans elle.</p>   
+<p>Oyant le roy d'Espaigne ce que le roy de France   
+ <lb/>luy avoit dit, luy respondit : <q> Monseigneur mon filz,   
+  <lb/>puis qu'il vous a pleu de me faire cest honneur que   
+  <lb/>d'avoir prins ma fille a femme, je vous supplie   
+  <lb/>que  ne la vueillez laisser, car sans vous elle ne   
+  <lb/>pourroit durer, comme la raison bien le vouldroit.   
+  <lb/>Si vous supplie que en ce royaulme vueillez commectre   
+  <lb/>telz gouverneurs comme il vous plaira, car dès main̲tenant    
+  <lb/>je vous livre le royaulme. </q></p>   
+<p><q> Monseigneur, </q> dit le roy de France, <q> qu'est ce que    
+ <lb/>vous avez dit ? Je vous prie que jamais n'en soit    
+ <lb/>parlé, car dé ce royaulme et du mien tant comme   
+ <lb/>vous vivrez pourrez faire et disposer a vostre vou̲lenté,   
+ <lb/>car soyez seur et certain que vostre royaulme   
+ <lb/>ne voz biens ne m'ont point esmeu a avoir vostre   
+ <lb/>fille que icy est, mais sa bonne renommee. Et puis   
+ <lb/>que c'est vostre bon plaisir que je l'en mayne, j'en   
+ <lb/>suis moult joyeulx, ce elle y veult consentir. </q></p>   
+<p>Quant la royne de France ouyt les parolles que le   
+ <pb n="93"/>roy Jehan avoit dictes, elle se gecta a genoulx de̲vant    
+ <lb/>luy en disant : <q> Mon tresredoubté seigneur,    
+  <lb/>pour quoy demandez vous mon consentement ?    
+  <lb/>Car sur ma foy je n'en ay point, si non ainsi comme    
+  <lb/>le vostre le meyne, et vous asseure pour tous̲jours    
+  <lb/>que vous ne sçariez vouloir chose qui ne me    
+  <lb/>pleust, et s'il estoit possible que je peusse sçavoir    
+  <lb/>toutes voz voulentez, a mon pouvoir je les acom̲plieroye. </q></p>      
+<p>Longuement parlerent ensemble de ceste departie    
+ <lb/>que trop seroit longue a racompter. A la fin, après    
+ <lb/>plusieurs parolles, pleurs et regretz, prinrent congié    
+ <lb/>les ungs des aultres.</p></div>
+<div type="chapitre">   
+<head>Comment le roy de France et sa femme la royne    
+ <lb/>partirent d'Espaigne pour eulx en aller en    
+ <lb/>France.</head>    
+<p>Avoir prins congié les ungs des aultres, le roy   
+ <lb/>de France et la royne ce partirent d'Espaigne, et   
+ <lb/>firent tant par leurs journees qu'ilz arriverent en   
+ <lb/>France, ou ilz furent receuz par les bonnes citez et   
+ <lb/>villes a grant honneur et triumphe, et firent tant   
+ <lb/>qu'ilz arriverent a Paris, ou la reception que l'on   
+ <lb/>leur fit seroit trop longue a racompter, car grant   
+ <lb/>honneur leur fut faict, et aux seigneurs d'Espaigne,   
+ <lb/>que leur dame avoient conduitte. Si demeurerent   
+ <lb/>en France six mois, pendant lequel temps firent   
+ <lb/>bonne chere, si s'en retornerent en Espaigne. Et au   
+ <lb/>bout de neuf moys fit la royne ung beau filz, et au   
+ <lb/>bout de cinq ans en fit ung aultre, lequel fut roy   
+ <pb n="94"/>d'Espaigne après  le decèz de son grant pere, et le   
+ <lb/>premier fut roy de France après son pere, que   
+ <lb/>longuement vesquit, et que tint son royaulme en   
+ <lb/>bonne paix et union. Puis trespasserent de ce siecle   
+ <lb/>pour aller en la gloire eternelle, ou je prie a Dieu   
+ <lb/>qu'il nous doint grace que y puissions parvenir.   
+ <lb/>Amen.</p>
+</div>
+</div>
+</body>
+</text>
+</TEI>

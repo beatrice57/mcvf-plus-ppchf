@@ -1,0 +1,797 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main"> Qvelqves particvlaritez dv pays des hvrons en la Novvelle France </title>
+        <title type="sub"/>
+        <title type="short">Gendron.Hurons</title>
+        <author>
+          <persName>
+            <surname>François Gendron</surname>
+            <forename/>
+          </persName>
+        </author>
+        <editor>Modéliser le changement, les voies du français GTRC/CRSH</editor>
+        <principal>
+          <persName>France Martineau</persName>
+        </principal>
+        <funder>
+          <orgName>Université d'Ottawa</orgName>
+          <orgName>Conseil de recherche en sciences humaines du Canada</orgName>
+        </funder>
+        <respStmt>
+          <resp>Codage</resp>
+          <persName xml:id="Fauchon">Caroline Fauchon</persName>
+          <persName xml:id="Labelle">Simon-Pier Labelle-Hogue</persName>
+          <persName xml:id="Desnoyers">Yves Desnoyers</persName>
+          <persName xml:id="Gour">Clive Gour</persName>
+          <persName xml:id="Martineau">France Martineau</persName>
+          <persName xml:id="Morin">Yves Charles Morin</persName>
+        </respStmt>
+      </titleStmt>
+      <extent>3663</extent>
+      <publicationStmt>
+        <date when="2008-01-01"/>
+        <publisher>
+          <orgName>Modéliser le changement : les voies du français GTRC/CRSH</orgName>
+          <address>
+            <addrLine>60, rue Université</addrLine>
+            <addrLine>Ottawa, Ontario</addrLine>
+            <addrLine>K1N 6N5</addrLine>
+            <addrLine>Tél : 613-562-5797</addrLine>
+            <addrLine>Fax : 613-562-5981</addrLine>
+            <addrLine><email>fmartin@uottawa.ca</email></addrLine>
+            <addrLine>http://www.voies.uottawa.ca/</addrLine>                       
+          </address>
+        </publisher>
+        <distributor>
+          <orgName>Modéliser le changement : les voies du français GTRC/CRSH</orgName>
+          <address>
+            <addrLine>60, rue Université</addrLine>
+            <addrLine>Ottawa, Ontario</addrLine>
+            <addrLine>K1N 6N5</addrLine>
+            <addrLine>Tél : 613-562-5797</addrLine>
+            <addrLine>Fax : 613-562-5981</addrLine>
+            <addrLine><email>fmartin@uottawa.ca</email></addrLine>
+            <addrLine>http://www.voies.uottawa.ca/</addrLine>                       
+          </address>
+        </distributor>
+        <availability status="restricted">
+          <p>(c) Modéliser le changement : les voies du français (CRSH/GTRC, dirigé par F.
+            Martineau)</p>
+          <p>Les Corpus MCVF demeurent la propriété du projet Modéliser le changement :
+            les voies du français. Les références à ces Corpus devraient apparaître
+            ainsi : Corpus MCVF, Modéliser le changement : les voies du français (F.
+            Martineau (dir.), U. d'Ottawa).Tous les documents du Corpus MCVF ne peuvent
+            être divulgués à de tierces parties sans l'autorisation préalable de la
+            Directrice du Projet </p>
+          <p>Pour tout autre usage, contacter : <persName>France Martineau</persName>
+            <orgName>Modéliser le changement : les voies du français, Université
+              d'Ottawa</orgName>
+            <email>fmartin@uottawa.ca</email></p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct type="Source_publique">
+          <monogr>
+            <author>
+              <persName>
+                <surname>François Gendron</surname>
+              </persName>
+            </author>
+            <editor>
+              <persName>
+                <surname>d'Avity</surname>
+                <forename>Pierre</forename>
+              </persName>
+            </editor>
+            <title> Le monde ou la description générale de ses quatre parties </title>
+            <title type="sub"/>
+            <imprint>
+              <pubPlace>Paris</pubPlace>
+              <publisher>Bechet et Billaine</publisher>
+              <date when="1660">1660</date>
+            </imprint>
+          </monogr>
+          <series/>
+        </biblStruct>       
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Projet : Modéliser le changement les voies du français (GTRC/CRSH) <lb/>Resp. :
+          <persName>France Martineau</persName> Institution : Département de français,
+          Université d'Ottawa
+          <address>
+            <addrLine>60, rue Université</addrLine>
+            <addrLine>Ottawa, Ontario</addrLine>
+            <addrLine>K1N 6N5</addrLine>
+            <addrLine>Tél : 613-562-5797</addrLine>
+            <addrLine>Fax : 613-562-5981</addrLine>
+            <addrLine><email>fmartin@uottawa.ca</email></addrLine>
+            <addrLine>www.voies.uottawa.ca</addrLine>                       
+          </address></p>
+      </projectDesc>
+      <editorialDecl>
+        <p>Voir le manuel d'annotation TEI au http://www.voies.uottawa.ca</p>
+        <p>L'édition de référence a été respectée quant à l'orthographe, la ponctuation, la
+          mise en page et la pagination. Cependant, la césure des mots en fin de lignes
+          (ou de pages) a été supprimée, le mot est placé dans la ligne ou la page où il
+          commence. </p>
+        <p>Les paragraphes sont notés par P pour la prose. Pour les vers, P rend="gv"
+          indique que le paragraphe est constitué d'un groupe de vers. </p>
+        <p> Les débuts des vers sont encodés par LB. Cette balise peut également servir dans
+          les textes en prose à indiquer les débuts des lignes selon la pagination de
+          l'édition. </p>
+        <p>Les changements de pages sont indiqués par la balise PB</p>
+        <p>Le corps du texte est obligatoirement compris dans le BODY. Le FRONT contenant le
+          titre et/ou le prologue et le BACK (explicit) sont facultatifs et ne sont mis
+          qu'au besoin. </p>
+        <p>Les différentes parties du texte (livre, chapitre...) sont encodées par DIV,
+          auquel s'ajoute l'attribut TYPE qui spécifie sa nature. </p>
+        <p>Les paragraphes (P), lignes (LB) et pages (PB) de même de certaines divisions
+          (DIV) sont ou peuvent être numérotés par l'attribut N s'ils le sont dans
+          l'édition. </p>
+        <p>Quelques commentaires ou corrections ont été introduits à l'aide de la balise
+          NOTE, CORR ou SIC. </p>
+        <p>Les discours directs et les citations ont été encodés par la balise Q. Cette
+          balise est mise à chaque fois que des guillemets sont utilisés dans l'édition. </p>
+        <p>L'élément FOREIGN indique un passage en latin qui est noté en italique dans
+          l'édition, les occurrences non en italique sont signalées par l'attribut ROMAIN. </p>
+        <p>Les folios sont notés par la balise <tag>pb rend="folio"</tag></p>
+        <p>Les notes de bas de pages ont été retirées. </p>
+        <p>Les paragraphes entièrement en latin ont été retirés, une balise P et une NOTE
+          les signalent. </p>
+        <p>Note spécifique au texte ci-dessous: Aucune.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <profileDesc>
+      <creation>
+        <date when="1644"/>
+        <placeName/>
+      </creation>
+      <langUsage><language ident="fr"/></langUsage>
+      <textDesc>
+        <channel></channel>
+        <constitution>Texte intégral</constitution>
+        <derivation></derivation>
+        <domain></domain>
+        <factuality></factuality>
+        <interaction></interaction>
+        <preparedness></preparedness>
+        <purpose></purpose>
+      </textDesc>
+      <textClass>
+        <keywords scheme="GTRC">
+          <list>
+            <item n="domaine">Non Littéraire</item>
+            <item n="genre">Journal / Mémoire personnel</item>
+            <item n="forme">Prose</item>
+            <item n="docRegion1">France</item>
+            <item n="docRegion2">Inconnue</item>
+            <item n="docRegion3"/>
+            <item n="auteurRegion1">France</item>
+            <item n="auteurRegion2">France Centre</item>
+            <item n="auteurRegion3">Orléans</item>
+            <item n="auteurSexe">Homme</item>
+            <item n="occupation">Érudit</item>
+            <item n="scribeRegion1"/>
+            <item n="scribeRegion2"/>
+            <item n="scribeRegion3"/>
+            <item n="imprimeurRegion1">France</item>
+            <item n="imprimeurRegion2">France Centre</item>
+            <item n="imprimeurRegion3"/>
+          </list>
+        </keywords>
+        <classCode scheme="Indice de Dees"/>
+      </textClass>
+      <particDesc>
+        <listPerson>
+          <person role="auteur">
+            <persName>
+              <surname>Gendron</surname>
+              <forename>François</forename>
+            </persName>
+            <birth>
+            	<date when="1618-04-18">18 avril 1618</date>
+            </birth>
+          </person>
+          <person role="scribe">
+            <persName>
+              <surname/>
+              <forename/>
+            </persName>
+            <birth/>
+          </person>
+          <person role="imprimeur"/>
+        </listPerson>
+      </particDesc>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2009-03-31" who="#Labelle">Vérification des en-têtes</change>
+      <change when="2009-03-19" who="#Fauchon">Vérification et correction du TEI et du header d'après les normes du P5 et du schéma MCVF</change>
+      <change when="2008-04-08" who="#Martineau">Validation de l'en-tête </change>
+      <change when="2008-11-12" who="#Labelle">Mise à jour (dates)</change>
+      <change when="2008-04-08" who="#Morin">Validation du protocole TEI </change>
+      <change when="2008-03-30" who="#Martineau">Validation partielle du header </change>
+      <change when="2008-03-10" who="#Desnoyers">Correction du TEI</change>
+      <change when="2006-07-09" who="#Gour">Correction de la saisie</change>
+      <change when="2000-01-01" who="#Martineau">Numérisation</change>
+    </revisionDesc>
+  </teiHeader>
+      <text>
+        <front>
+           <pb n="3"/>
+          <div>
+           <head><hi rend="pmaj">QVELQVES PARTICVLARITEZ
+           <lb/>DV PAYS
+           <lb/>DES HVRONS
+           <lb/>EN LA
+           <lb/>NOVVELLE France.</hi></head>
+           <p><hi rend="ital">Remarquées par le Sieur</hi> Gendron,
+           <lb/><hi rend="ital">Docteur en Medecine</hi>, qui a de̲meuré
+           <lb/>dans ce Pays-là fort
+             <lb/>long-temps.</p></div>
+          </front>
+          <body>
+           <p>VN mien Amy m'ayant mis depuis
+           <lb/>peu entre les mains quelques
+           <lb/>Lettres écrites és années mil
+           <lb/>ſix cens quarante-quatre &amp; quarante cinq
+           <lb/>que le Sieur Gendron, natif de Vouë
+           <lb/>en Beauſſe, luy auoit enuoyées de ce
+           <lb/>païs, où il eſtoit pour lors : I'ay eu la
+           <lb/>curioſité d'en tranſcrire mot pour mot
+           <lb/>ce qui fuit, pour vne plus grande intelli̲gence
+           <pb n="4"/>
+           <lb/> &amp; connoiſſance de ces terres nou̲uellement
+           <lb/>découuertes : &amp; l'ay fait d'au̲tant
+           <lb/>plus volontiers que cette perſſonne
+           <lb/>eſt digne de Foy, &amp; qu'il les eſcriuoit à
+           <lb/>des hommes de mérite qui auoient beau̲coup
+           <lb/>voyagé. Aprés luy auoir décrit dans
+           <lb/>vne de ces Lettres, le Fort &amp; la ville de
+           <lb/>Kebec, des trois Riuieres, de Richelieu,
+           <lb/>&amp; de Mont-Royal habité par les Fran̲çois
+           <lb/>qui y cultiuent les terres, &amp; y font
+           <lb/>marchandiſe de Pelleterie auec les Sauua̲ges,
+           <lb/>&amp; raconté les diuerſes auantures qui
+           <lb/>luy eſtoient arriuées en ſon voyage des
+           <lb/>Hurons, qui eſtoit enuiron de trois cens
+           <lb/>lieuës, à commencer depuis Kebec; il
+           <lb/>pourſuit en cette forte, parlant dudit païs
+           <lb/>des Hurons.</p>
+           <p>Pleuſt à Dieu (Monſieur) que les Meſ̲ſagers
+           <lb/>ne fuſſent point ſi preſſez de partir,
+           <lb/>&amp; que le temps me peuſt permettre de
+           <lb/>vous écrire vn peu plus au long : ie ne
+           <lb/>me contenterois pas de vous enuoyer vne
+           <lb/>ſi courte &amp; briéve Relation de mon
+           <pb n="5"/>
+           <lb/>voyage, ie voudrois encore vous faire
+           <lb/>voir la beauté &amp; fecondité du païs, le
+           <lb/>nombre, la ſituation &amp; la force des villes,
+           <lb/>bourgs &amp; bourgades qui ſ'y rencontrent,
+           <lb/>les loix, la police, les meurs, les richeſſes
+           <lb/>&amp; toutes les ceremonies de ces Nations,
+           <lb/>qui pour eſtre contraires aux noſtres,
+           <lb/>n'en ſont pas moins curieuſes à ſçauoir.</p>
+           <p>Mais puis que l'vn &amp; l'autre me man̲que
+           <lb/>&amp; preſſe également, &amp; qu'il ne me
+           <lb/>reſte de loiſir que pour vous donner,
+           <lb/>comme vous le deſirez, la ſituation du
+           <lb/>païs des Hurons, où ie ſuis à preſent,
+           <lb/>leurs Alliez &amp; leurs ennemis; Ie vous
+           <lb/>diray en peu de mots, laiſſant tout le
+           <lb/>reſte pour vne autre fois : que le païs des
+             <lb/>Hurons eſt entre le quarante-quatre &amp;
+           <lb/>le quarante-cinquiéme degré de latitude,
+           <lb/>&amp; de longitude demye heure plus à l'Oc̲cident
+           <lb/>que Kebec; du coſté de l'Occident
+           <lb/>d'Eſté vient aboutir à vn lac, dont le
+           <lb/>tour eſt quaſi de quatre cent lieuës, que
+           <lb/>nous nommons la Mer Douce, qui a
+           <pb n="6"/>
+           <lb/>quelque flux &amp; reflux, &amp; qui dans ſon
+           <lb/>extremité plus éloignée de la maiſon
+           <lb/>que les RR. PP. Ieſuites ont fait baſtir
+           <lb/>en ce païs, a communicattion auec deux
+           <lb/>autres lacs encore plus grands, bordez de
+           <lb/>diverſes nations, non encore inſtruïtes à
+             <lb/>la Foy, faute d'Ouuriers Apoſtoliques, &amp;
+           <lb/>ie croy de moyens pour les y pouuoir
+           <lb/>entretenir. Ie vous parleray ailleurs ſur
+           <lb/>ce ſujet, eſtant reuenu depuis peu de ce
+           <lb/>païs. Cette mer Douce a quantité d'Iſles,
+           <lb/>&amp; vne entr'autre qui a de tour prés de
+           <lb/>ſoixante lieuës, où il y a preſentement vn
+           <lb/>Miſſionnaire ſeul parmy ces peuples, les
+           <lb/>plus barbares &amp; ſuperſtitieux qui ie con̲noiſſe
+           <lb/>en tout ce Nouueau Monde. Du
+           <lb/>coſté de l Ouëſt-ſur-Ouëſt, c'eſt à dire,
+           <lb/>quaſi à l'Occident, eſt la Nation du Petun,
+           <lb/>qui n'eſt éloignée de ladite maiſon des
+           <lb/>Ieſuites qu'enuiron douze lieuës : Il y a
+           <lb/>en cette Nation deux Miſſionnaires. Du
+           <lb/>coſté du Midy tirant vn peu vers l'Occi-
+           <lb/>dent, eſt la nation Neutre, dont les bourgs
+           <pb n="7"/>
+           <lb/>qui ſont ſur la frontiere en deça, ne ſont
+           <lb/>éloignez des Hurons qu'enuiron trente
+           <lb/>lieuës.  Elle a quarante ou cinquante
+           <lb/>lieuës d'eſtenduë. Cette Nation n'a en̲core
+           <lb/>voulu iuſques à preſent receuoir
+           <lb/>l Euangile, quelques efforts que ces bons
+           <lb/>Peres ayent peu faire. Au de là de la
+           <lb/>Nation Neutre, tirant vn peu vers l'Ori̲ent,
+           <lb/>on va à la Nouuelle Suede, où habi̲tent
+           <lb/>les Ondaſtacronons, alliez de nos
+           <lb/>Hurons, &amp; qui parlent comme eux,
+           <lb/>éloignez de l'habitation des Peres Ieſu̲ites
+           <lb/>de droicte ligne cent cinquante
+           <lb/>lieuës : ce voyage ſe fait auec beaucoup
+           <lb/>de peine.</p>
+                       <p>De la Nation Neutre, tirant preſque
+           <lb/>au Midy, on trouue vn grand lac, quaſi
+           <lb/>de deux cent lieuës de tour, nommé
+           <lb/>Erié, qui ſe forme de la décharge de la
+           <lb/>Mer-Douce, &amp; qui va ſe precipiter par
+           <lb/>vne cheute d'eau d'vne effroyable hauteur
+           <lb/>dans le troiſiéme lac, nommé Ontarié,
+           <lb/>que nous appellons le lac S.Louis. De
+           <pb n="8"/>
+           <lb/>l'eſcume de ces eaux bondiſſantes aux
+           <lb/>pieds de certains grands rochers qui ſe
+           <lb/>rencontrent en ce lieu, ſe forme vne
+           <lb/>pierre, ou pluſtoſt vn ſel petrifiée, de
+           <lb/>couleur tirant vn peu ſur le jaune d'vne
+           <lb/>admirable vertu, pour la curation des
+           <lb/>playes, fiſtules, &amp; vlceres malignes. Dans
+           <lb/>ce lieu plein d'horreur habitent auſſi
+           <lb/>certains Sauuages, qui ne viuent que des
+                         <lb/>Eſlans, des Cerfs, des Vaches ſauuages, &amp;
+           <lb/>toutes autres ſortes de gibier, que le rapide
+           <lb/>entraiſne &amp; bouleuerſe dans l'entre de ces
+           <lb/>Rochers, où ils en attrapent ſans courir,
+           <lb/>plus que ſuffiſamment pour leur proui̲ſion,
+           <lb/>&amp; l'entretien des paſſans, auſquels
+           <lb/>ils traittent auſſi de ces pierres Erienes,
+           <lb/>ainſi nommées à cauſe de ce lac, pour
+           <lb/>les porter &amp; diſtribuer puis aprés aux
+           <lb/>autres Nations. Ce lac nommé Erié, eſtoit
+           <lb/>autresfois habité en ces coſtes qui ſont
+           <lb/>vers le Midy, par certains peuples que
+           <lb/>nous nommons la Nation du Chat, ainſi
+           <lb/>nommées pour la grande quantité de
+           <lb/><space extent="30 lettres"/>Chats
+           <pb n="9"/>
+           <lb/>Chats ſauuages qui ſe rencontrent en ce
+           <lb/>païs, bien plus grands que les Renards ne
+           <lb/>ſont en noſtre France. Cette Nation a
+           <lb/>eſté obligée de ſe retirer bien auant dans
+           <lb/>les terres, pour s'éloigner de leurs enne̲mis
+           <lb/>qui ſont vers l'Occident : ces gens
+           <lb/>de la Nation du Chat ont quantité de
+           <lb/>bourgades arreſtées, où ils cultiuent la
+           <lb/>terre, &amp; ſont de meſme langue que nos
+           <lb/>Hurons.</p>
+           <p>Partant des Hurons &amp; marchant vers
+           <lb/>le Midy, ayant fait trente ou quarante
+           <lb/>lieuës de chemin, ou rencontre le lac
+           <lb/>Saint Louis, qui a quatre-vingts ou no̲nante
+           <lb/>lieuës de longueur; &amp; en ſa me̲diocre
+           <lb/>largeur quinze ou vingt lieuës, ſa
+           <lb/>longueur eſt quaſi de l'Orient à l'Occi̲dent,
+           <lb/>&amp; ſa largeur du Midy au Septem̲trion :
+           <lb/>c'eſt ce lac Saint Louis, qui par
+           <lb/>ſa décharge forme vn bras de la riuiere
+           <lb/>S. Laurent, ſçavoir celuy qui eſt au Midy
+           <lb/>de l'Iſle de Monreal, qui va décendre à
+           <lb/>Kebec : Au de-là de ce lac S. Louis, vn
+           <lb/><space extent="8 lettres"/>B
+           <pb n="10"/>
+           <lb/>peu dans les terres, habitent les cinq
+           <lb/>Nations Hiroquoiſes, ennemis de nos
+           <lb/>Hurons, qui dans leur ſcituation ſont
+           <lb/>quaſi paralelles à la longueur de ce
+           <lb/>lac : les Sonnontoucronons ſont à ſeptante
+           <lb/>lieuës des Hurons, ſuiuant le Sud Sud̲Eſt,
+           <lb/>c'eſt à dire entre le Midy &amp; l'Orient.
+           <lb/>Plus vers le Midy plus bas ſuivent les
+           <lb/>Onioncronnons, quaſi en droicte ligne,
+           <lb/>à vingt cinq lieuës ou enuiron des Son̲nontacronnons :
+           <lb/>les Sonnontacronnons
+           <lb/>ſont à dix ou douze lieuës des Onion̲cronnons,
+           <lb/>les Onniocheronnons à ſept ou
+           <lb/>huiƈt lieuës des Annontacronnons, les
+           <lb/>Annicronnons ſont éloignez des Onnera̲cheronnons
+           <lb/>vingt cinq ou trente lieuës,
+           <lb/>ils détournent tant ſoit peu dans les ter̲res,
+           <lb/>&amp; ſont plus Orientaux aux Hurons;
+           <lb/>ce ſont ceux qui ſont plus proches des
+           <lb/>Trois riuieres, &amp; plus voiſines de la
+           <lb/>nouuelle Hollande : Toutes ces Nations
+           <lb/>ennemies, n'ont encore voulu entendre
+           <lb/>la parole de I<hi rend="pmaj">ESVS</hi>-C<hi rend="pmaj">HRIST. </hi></p>
+           <pb n="11"/>
+           <p>Ce ſeroit par ce lac Sainƈt Louis, que
+           <lb/>l'on iroit droit à Kebec en peu de iours
+           <lb/>&amp; auec moins de peine, n'y ayant que
+           <lb/>trois ou quatre ſaults, ou pluſtoſt courants
+           <lb/>d'eaux à paſſer qui ſoient bien rapides,
+           <lb/>iuſques à Montroyal, qui n'eſt diſtant de
+           <lb/>l'emboucheure du lac S. Louis qu'enui̲ron
+           <lb/>ſoixante lieuës; mais la crainte des
+           <lb/>ennemis qui habitent le long de ce lac,
+           <lb/>obligent nos Hurons de prendre vn grand
+           <lb/>détour pour aller gaigner vn autre bras
+           <lb/>de la riuiere S. Laurent, ſçauoir celuy
+           <lb/>qui eſt au Nort de Montroyal, que nous
+           <lb/>nommons la riuiere des Prairies. Du
+           <lb/>coſté du Septemtrion des Hurons, il y a
+           <lb/>diuerſes Nations Algonquines, qui ne
+           <lb/>cultiuent point la terre, &amp; qui ne viuent
+           <lb/>que de Chaſſe &amp; de peſche, iuſques à la
+           <lb/>mer du Nort. Ie reſerve pour vne au̲tresfois
+           <lb/>à vous entretenir plus amplement
+           <lb/>de toutes ces nations que i'eſpere de par̲courir
+           <lb/>en peu de temps.</p>
+           <p>En vne autre lettre, il dit : Le païs
+           <pb n="12"/>
+           <lb/>des Hurons eſt vn des plus beaux &amp; agrea̲bles
+           <lb/>que i'aye veu depuis que la curioſité
+           <lb/>m'a porté à voyager dans ces terres eſ̲trangeres :
+           <lb/>car l'on n'y void point ces
+           <lb/>faces hideuſes de rochers, &amp; montagnes
+           <lb/>ſteriles, comme il ſe voit preſque dans
+           <lb/>toutes les autres contrées Canadieres. Il
+           <lb/>y a de belles &amp; grandes plaines cultiuées
+           <lb/>&amp; enſemancées de bled d'Inde, dont les
+           <lb/>eſpics ſont preſque d'vne coudée de long,
+           <lb/>de gros poids &amp; féves, de citroüilles
+           <lb/>plattes de figures d'eſtoilles de diuerſes
+           <lb/>couleurs, de tourneſol, dont les habitans
+           <lb/>tirent vne huile fort douce &amp; excellente,
+           <lb/>pour aſſaiſonner leurs mets, n'ayant l'vſage
+           <lb/>de beurre, l'on y voit auſſi des montagnes
+           <lb/>&amp; petites collines couuertes d'arbres
+           <lb/>fruictiers de toutes ſortes, fort agreables
+           <lb/>au gouſt &amp; a la veuë, de grands Cedres,
+           <lb/>Pins, Sapins, Eſpinettes, Cheſnes, Fou̲teaux,
+             <lb/>Erables, Chaſtigniers, Noyers &amp;
+           <lb/>autres inconneues dans l'Europe.</p>
+           <p>Ce pays eſt auſſi entre-coupé de lacs
+           <pb n="13"/>
+           <lb/>&amp; belles riuieres, où toutes ſortes de poiſ̲ſons
+           <lb/>ſe peſchent en abondance, particu̲lierement
+           <lb/>les Truites, Barbuës, Carpes,
+           <lb/>&amp; Anguilles, qui ſont d'vne admirable
+             <lb/>groſſeur, auſſi bien que les Brochets &amp;
+           <lb/>Eſturgeons, qui ſ'y trouuent de plus de
+           <lb/>cinq à ſix pieds de long, en vn nombre
+           <lb/>infiny, ce qui ne ſe rencontre iamais en
+           <lb/>nos riuieres, dont les Sauuages ſont ſe̲cherie
+           <lb/>pour aſſaiſoner quelquesfois leur
+           <lb/>ſagamité quand ils ſont ennuyés de viande.
+           <lb/>Les Oyſeaux aquatiques, comme Cygnes,
+             <lb/>Gruës, ou Tardes, Breneſches, Canars &amp;
+           <lb/>Sarcelles, y ſont auſſi en abondance.</p>
+           <p>Les prairies y ſont à perte de veuë, où
+           <lb/>l'on peut reconnoiſtre les diuerſes piſtes
+           <lb/>de Caſtors qui font en partie la richeſſe
+           <lb/>de ces peuples : car outre qu'ils en man̲gent
+           <lb/>la chair que en eſt fort bonne, ils
+           <lb/>s'habillent encore de leurs peaux, qu'ils
+           <lb/>vendent ou eſchangent ; eſtant aiſé à nos
+           <lb/>François d'en auoir pour des armes, des
+           <lb/>haches, couteaux, chaudieres &amp; autres
+           <pb n="14"/>
+           <lb/>marchandiſes ſemblables, dont il ont be̲ſoin,
+           <lb/>meſme les teſticules, dont nos
+           <lb/>Medecins de France ſe ſeruent pour la
+           <lb/>gueriſon de pluſieurs maladies qui arri̲uent
+           <lb/>aux femmes. Sur ce ſujet, ie diray
+           <lb/>en la consideration de Monſieur A. B.
+           <lb/>Medecin voſtre bon amy, que l'on ne rend
+           <lb/>aux Apotiquaires pour l'ordinaire au lieu
+           <lb/>des vrais teſticules de Caſtors que cer̲taines
+           <lb/>glandes que ces animaux aquati̲ques
+           <lb/>ont proche des teſticules : attendu
+             <lb/>que la pluſpart des chaſſeurs arrachent &amp;
+           <lb/>jettent les vrays teſticules ſi-toſt que
+           <lb/>l'Animal eſt pris pour euiter la mauuaiſe
+           <lb/>odeur qui en pourroit la chair &amp; la
+           <lb/>peau, i'ay ſouuent faiƈt cette obſervation
+           <lb/>eſtant à la chaſſe auec eux, &amp; conferé
+           <lb/>leſdites glands qui ne ſont remplies que
+           <lb/>d'vne humeur oleagineuſe, tirant vn peu
+           <lb/>ſur le noir, auec les vrays teſticules, qui
+           <lb/>ſont au contraire pleines d'vne humeur
+           <lb/>blanchaſtre amaſſée par grumeaux, bien
+           <lb/>plus puantes que n'eſt celle de ces glandes
+           <pb n="15"/>
+           <lb/>que les ſauuages diſtribuent aux François
+           <lb/>qui les enuoyent puis aprés en France,
+           <lb/>ie vous diray en paſſant que ces animaux
+           <lb/>ont tant d'induſtrie à faire leurs cabanes,
+           <lb/>ſur le bort des lacs &amp; riuieres, qu'on ne
+           <lb/>les peut voir ſans admiration, eſtant la
+           <lb/>pluſpart à deux &amp; trois eſtages fort ſpa̲cieux,
+           <lb/>baſties ſur piloties de bois &amp; de
+           <lb/>terre aſſez fort, pour reſiſter aux injures
+             <lb/>du temps &amp; à l'innondation des eaux, &amp;
+           <lb/>ſubtilement faites pour ſe garantir de
+           <lb/>l'aſtuce des chaſſeurs, qui difficilement
+           <lb/>les y peuuent ſurprendre, peuuent par les
+           <lb/>ouuertures qu'ils y font, ſe ſauuer par
+           <lb/>eau ou par terre, ſelon que la neceſſité
+           <lb/>les y oblige.  On prend auſſi dans ces
+           <lb/>meſmes lacs &amp; riuieres force beaux
+           <lb/>loutres noires, &amp; rats d'eaux, dont l'odeur
+           <lb/>des teſticules qui ſent le muſque, eſt mille
+           <lb/>fois plus douce &amp; agreable que celle des
+           <lb/>ciuettes, particulierement ſi on les tuë
+           <lb/>pendant les mois de May, Iuin, Iuillet.</p>
+           <p>Si les eaux y ſont fecondes &amp; abon̲dantes
+           <pb n="16"/>
+           <lb/>en poiſſons de toutes ſortes, ie
+           <lb/>puis dire que les bois &amp; les foreſts, ne le
+           <lb/>ſont moins en diuerſes eſpeces d'ani̲maux :
+           <lb/>car les Eſlans y ſont communs,
+           <lb/>le Caribous &amp; Loups Ceruiers, les Vaches
+           <lb/>ſauuages s'y rencontrent par bandes auſſi
+           <lb/>bien que les Cerfs que l'on y voit de trois
+           <lb/>ſortes, de grands, de petits, &amp; comme
+           <lb/>ceux que nous auons en France. Les
+           <lb/>cauernes y ſont auſſi plaines d'Ours noirs
+           <lb/>&amp; gris, &amp; les tanieres de diuerſes eſpeces
+           <lb/>de Renard, comme de gris argentez, de
+           <lb/>noirs &amp; autres couleurs fort rares, comme
+           <lb/>auſſi les vieux troncs d'arbres, de chats
+           <lb/>ſauuages d'vne extréme grandeur, d'Eſ̲curieux
+           <lb/>volants &amp; autres bigarez de diuer̲ſes
+           <lb/>couleurs, qui leur donnent le nom de
+           <lb/>Suiſſes, &amp; enfin pluſieurs autres animaux
+           <lb/>qui nous ſont inconnus en l'ancienne
+           <lb/>France.</p>
+                       <p>L'air y eſt temperé comme en l'an̲cienne
+           <lb/>France, les originaires du pays y
+           <lb/>ſont fort doux, affables, &amp; grandement
+           <lb/><space extent="28 lettres"/>hoſpitaliers,
+           <pb n="17"/>
+           <lb/>hoſpitaliers, d'humeur vn peu melan̲colique,
+                         <lb/>&amp; qui ſçauent bien dompter &amp;
+           <lb/>diſſimuler leurs paſſions; Ils ſont bel̲liqueux,
+           <lb/>vaillans &amp; adroits aux armes, ce
+           <lb/>qui les a fait vn fort long-temps craindre
+           <lb/>&amp; redouter de toutes les autres nations
+           <lb/>voiſines, quoy que preſentement ils ſem̲blent
+           <lb/>auoir degeneré en quelque façon à
+           <lb/>leur ancienne generoſité, eſtant ſouuent
+           <lb/>vaincus de leurs ennemis, pour, comme
+           <lb/>ie croy, ſe confier trop aux armes que
+           <lb/>les François leur liurent maintenant à
+           <lb/>Kebec pour leur Pelleterie.</p>
+           <p>Toutes ces nations n'adorent &amp; ne re̲connoiſſent
+           <lb/>aucune diuinité, quoy qu'ils
+             <lb/>croyent les ames eſtre immortelles, &amp;
+           <lb/>qu'aprés eſtre ſeparées des corps elles
+           <lb/>doiuent à iamais ioüir d'vn eternel bon̲heur,
+           <lb/>qu'ils forgent à leur mode, &amp; ſelon
+           <lb/>leurs ſens, ſans neantmoins faire diſtinc̲tion
+           <lb/>des bons d'auec les méchans; ainſi
+           <lb/>ſont contes faits à plaiſir, que les diables
+           <lb/>les battent &amp; s'apparoiſſent à eux en
+           <lb/><space extent="10 lettres"/>C
+           <pb n="18"/>
+           <lb/>diuerſes figures pour les tromper &amp; ſe̲duire ;
+           <lb/>car dans tout le temps que i'ay
+           <lb/>demeuré parmy ces peuples, ie n'en ay
+           <lb/>encore veu aucun d'entre-eux qui en ait
+           <lb/>ſeulement eu la moindre connoiſſance;
+             <lb/>Il y a bien certains Iongleurs ſubtils &amp;
+           <lb/>adroits qui pour attraper quelque choſe
+           <lb/>des ſimples, font pluſieurs tours de paſſe̲paſſe,
+           <lb/>comme nos Baſteleurs de France,
+           <lb/>&amp; meſmes leurs annoncent, comme nos
+           <lb/>Aſtrologues, les choſes à venir, vrayes ou
+           <lb/>fauſſes, &amp; comme les Boheſmes, diſent
+           <lb/>auſſi les bonnes auantures, diſent-ils, les
+           <lb/>mauuaiſes, quand bon leur ſemble : com̲me
+           <lb/>dégeler les bleds, ſi ils veulent échau̲fer
+           <lb/>la terre de leur ventre, qu'ils couchent
+           <lb/>à nud contre icelle, &amp; autres mille niaiſe̲ries
+           <lb/>ſemblables, qui ont deceu les premiers
+           <lb/>François qui ont eſté en ce pays, ſur le
+           <lb/>rapport ſans doute, de ces fins-matois, ou
+           <lb/>de quelques idiots, ou autres Sauuages,
+           <lb/>qui ſe vouloient rire &amp; donner carriere.</p>
+           <p>Ces Nations ont pluſieurs villes, bourgs,
+           <pb n="19"/>
+           <lb/>&amp; bourgades diſtinguées per familles,
+           <lb/>qui ont en chaque famille deux Capi̲taines ;
+           <lb/>l'vn pour la guerre, &amp; l'autre
+           <lb/>pour la police.  Les derniers ſont pour
+           <lb/>maintenir chaque famille en ſon deuoir,
+           <lb/>&amp; iuger de leur differend auec les An̲ciens;
+           <lb/>ſans l'aduis deſquels ils ne peuuent
+           <lb/>rien reſoudre de conſiderable; les Capi̲taines
+           <lb/>de guerre n'ont autre ſoin que de
+           <lb/>tenir la Ieuneſſe ſous les armes, &amp; de
+           <lb/>pouruoir à toutes les choſes neceſſaires
+           <lb/>pour leur entretient, lorſqu'il faut aller en
+           <lb/>guerre : car chaque famille doit fournir
+           <lb/>ſes Soldats d'armes &amp; de toutes autres
+           <lb/>munitions neceſſaires, preparans auſſi
+           <lb/>pour chaque Soldat vn petit ſac plein de
+           <lb/>farine, faite de bled d'Inde roſty au feu,
+           <lb/>deuant qu'il fuſt parfaitement meur,
+           <lb/>meſlé auec quelque peu de graine de
+           <lb/>torneſol, miſe auſſi en poudre fort ſub̲tile,
+           <lb/>ainſi ne ſont à charge au public,
+           <lb/>pouuant viure vn mois entier de cette
+           <lb/>petite prouiſion, ſans y chercher autre
+           <pb n="20"/>
+           <lb/>aſſaiſonnement que de l'eau, pour hu̲meƈter
+           <lb/>vn peu de la dite farine dans le
+           <lb/>creux de leur main, ce qui leur doit ſuf̲fire
+           <lb/>pour vn repas.</p>
+           <p>Les Capitaines de familles en  éliſent
+             <lb/>encore deux autres en chaque ville &amp;
+           <lb/>bourgade, qui ſont comme les Intendans;
+           <lb/>l'vn pour la police, &amp; l'autre pour la
+           <lb/>guerre, ayant chacun d'eux à voir ſur les
+           <lb/>Capitaines qui leur ſont ſouſmis, ſans
+           <lb/>toutesfois, non plus que les autres, pou̲uoir
+           <lb/>rien entreprendre, ny iuger d'eux̲meſmes,
+           <lb/>que premierement ils n'ayent
+           <lb/>les ſentiments des ſuſdits Capitaines de
+           <lb/>famille, qui ne ſont à le bien prendre,
+           <lb/>que les Interpretes de leurs Anciens, dont
+           <lb/>ils portent la parole, ainſi s'exemptent de
+           <lb/>pluſieurs brigues &amp; mauuaiſes intelligen̲ces
+           <lb/>qui ſe pourroient faire, tant dans les
+           <lb/>affaires publiques, que dans les particu̲lieres,
+           <lb/>ſans cét ordre qu'ils gardent inuio̲lablement.
+           <lb/>Les Capitaines qui ſont pour
+           <lb/>la guerre, doiuent entretenir aux deſpens
+           <pb n="21"/>
+           <lb/>du Public, des Eſpions dans les armées
+           <lb/>ennemies pour en apprendre les deſſeins
+           <lb/>&amp; la marche, pour puis aprés, en cas de
+           <lb/>beſoing, aduertir les Capitaines de ſe tenir
+           <lb/>ſur leurs gardes, &amp; s'aſſeurer de leurs
+           <lb/>Soldats. I'aurois mille autres belles par̲ticularitez
+           <lb/>à vous écrire ſur ce ſuiet, ſi
+           <lb/>ce ne craynois de vous eſtre importun,
+           <lb/>cette lettre eſtant deſia bien plus longue
+           <lb/>que ie n'auois deſſein de la faire, voulant
+           <lb/>reſeruer au retour de mon Voyage du
+           <lb/>Nort, à vous eſcrire plus amplement
+           <lb/>toutes ces particularitez &amp; pluſieurs au̲tres,
+           <lb/>dont peu de perſonnes ont eu iuſques
+           <lb/>à preſent connoiſſance.</p>
+                       <p>Dans vne autre Lettre qu'il écriuoit à
+           <lb/>vn bon Eccleſiaſtique parlant des Miſ̲ſionaires
+           <lb/>de ce Nouueau Monde, il n'y a
+           <lb/>(dit-il) que les Reuerends Peres de la
+           <lb/>Compagnie de I<hi rend="pmaj">ESVS</hi>, qui trauaillent à
+           <lb/>défricher cette grande vigne, auec neant̲moins
+           <lb/>autant de ſuccés &amp; de bonheur,
+           <lb/>qu'ils ſe rendent infatigable en ce trauail,
+           <pb n="22"/>
+           <lb/>capable, ie vous aſſeure, de rebutter les
+           <lb/>plus zelez, ſans vn ſecours tout particulier
+           <lb/>de la grace, la nature y eſtant dans vn
+           <lb/>continuel aneantiſſement, ſous le faix
+           <lb/>des perſecutions, &amp; de l'objet d'vne mort
+           <lb/>cruelle, dont elle ſe voit menacée à tout
+           <lb/>moment.</p>
+           <p>Leur principale maiſon, nommée Sainte
+           <lb/>Marie, eſt ſcituée dans le milieu du pays
+           <lb/>des Hurons, ſur le riuage d'vne petite
+           <lb/>riuiere, qui va de la mer Douce, dans vn
+           <lb/>petit Lac d'enuiron deux lieuës de tour,
+           <lb/>celle eſt vn refuge de tous les Chreſtiens
+           <lb/>du pays qui y abordent de toutes parts,
+           <lb/>au moins les quatre principales Feſtes de
+           <lb/>l'année, pour aſſiſter au Seruice qui s'y
+           <lb/>fait fort ſolemnellement en ces grands
+           <lb/>iours de deuotion. Tous ces bons Peres
+           <lb/>s'y aſſemblent pour lors, afin de vaquer à
+             <lb/>Dieu ſeul dans le repos de l'Oraiſon, &amp;
+           <lb/>conferer enſemble des moyens &amp; des
+           <lb/>lumieres que le Saint-Eſprit &amp; l'experi̲ence
+           <lb/>leur donnent de iour en iour pour
+           <pb n="23"/>
+           <lb/>la conuerſion de tous ces peuples. I'y
+           <lb/>en ay compté en ce temps iuſques à dix̲huiƈt
+           <lb/>ou vingt. Ce n'eſt pas que ce
+           <lb/>nombre s'y trouue d'ordinaire, car le
+           <lb/>plus ſouuent ils ſont diſperſez deux à
+           <lb/>deux, &amp; quelque fois ſeuls dans les
+             <lb/>Miſſions éloignées de quatre-vingt &amp;
+           <lb/>cent lieuës : car pour l'ordinaire il n'y
+           <lb/>demeure qu'vn Procureur, aſſiſté de
+           <lb/>quelques perſonnes choiſies qui ſe ſont
+           <lb/>données à Dieu en cette Maiſon pour y
+           <lb/>ſeruir le reſte de leur vie ; les uns à
+           <lb/>baſtir des Egliſes &amp; Chapelles dans les
+           <lb/>villes &amp; bourgades circonuoiſines, à me̲ſure
+           <lb/>que le Chriſtianiſme s'y eſtablit,
+           <lb/>les autres à l'entretien des Miſſionnaires
+           <lb/>qui viuent en inſtruiſant ces Peuples au
+           <lb/>dépens du grand ménage de cette Mai̲ſon,
+           <lb/>ou pluſtoſt de la manne &amp; bene̲diƈtion
+           <lb/>celeſte, que Dieu répand ſur le
+           <lb/>trauail de ces Fideles ſeruiteurs, qui
+           <lb/>ſuffit meſme à l'entretien d'vn nombre
+           <lb/>infiny de pauures Chreſtiens eſtrangers,
+           <pb n="24"/>
+           <lb/>chaſſez ou exilez de leurs pays, qui y
+           <lb/>trouuent vn Hoſpital pendant leurs
+           <lb/>maladies, vn refuge au plus fort des
+           <lb/>allarmes, &amp; touſiours des cœurs charita̲bles
+           <lb/>preſts à leur faire du bien. I'ay
+           <lb/>ſouuent veu dans les Miſſions ces hom̲mes
+           <lb/>vrayement Apoſtoliques, ne viure
+             <lb/>la plus part du temps que de glands &amp;
+           <lb/>fruiƈts ſauuages, pendant ces dernieres
+           <lb/>années de diſette, pour donner à leur
+           <lb/>pauures Chreſtiens languiſſans de faim,
+           <lb/>le peu de bled d'Inde &amp; autres prouiſions
+           <lb/>qui leur eſtoit enuoyé de cette Maiſon
+           <lb/>de Dieu, pour ſuruenir à leurs neceſſitez :
+           <lb/>comme auſſi dans les plus grandes ri̲gueurs
+           <lb/>de l'Hyuer, ſe dépoüiller d'vne
+           <lb/>partie de leurs veſtemens pour couurir
+           <lb/>de pauures miſerables tranſis de froid,
+           <lb/>qui ſe venoient faire inſtruire de bien
+           <lb/>loing dans cette faſcheuſe ſaiſon.</p>
+           <p>Combien de fois pour aſſiſter des
+           <lb/>malades Cathecumenes ou Chreſtiens vn
+           <lb/>peu foibles, &amp; chancelans en la foy, les
+           <lb/><space extent="32 lettres"/>aiſ-ie
+           <pb n="25"/>
+           <lb/>aiſ-ie veu paſſer des nuiƈts en Oraiſon,
+           <lb/>ſans dormir, n'y repoſer aucunement, de
+           <lb/>crainte que le diable qui touſiours veille
+           <lb/>à noſtre perte, ſe ſeruant de l'infidelité
+           <lb/>de leurs parens ou amis, de la foibleſſe
+           <lb/>de la nature, &amp; de l'accablement de
+           <lb/>leurs maux, en leurs faiſans expoſer le
+           <lb/>ſoulagement de leurs anciennes ſuper̲ſſitions,
+           <lb/>ne dérobaſt ces ames à Dieu, &amp;
+           <lb/>ne leur fiſt perdre en vn moment tout
+           <lb/>le fruiƈt de leurs trauaux, quoyque
+           <lb/>touſiours digne d'vne eternelle recom̲penſe.
+           <lb/></p>
+                       <p>Ie ne m'eſtendray pas dauantage ſur
+           <lb/>ces vertues admirables, qui ſont la ioye
+           <lb/>des Anges, &amp; l'admiration des hommes,
+           <lb/>puis qu'elles ſe pratiquent icy commu̲nément,
+           <lb/>meſme de la pluſpart des Chreſ̲tiens
+           <lb/>de cette nouuelle Egliſe, qui ne
+           <lb/>croyent pas, à l'exemple de ces bons
+           <lb/>Peres, beaucoup meriter, ſi outre ces
+           <lb/>deuoirs de Chreſtiens, à quoy ils penſent
+           <lb/>eſtre obligez, ils ne s'eſtudioient &amp; tra̲uailloient
+           <lb/><space extent="11 lettres"/>D
+           <pb n="26"/>
+           <lb/>encore à s'eſtablir dans d'autres
+           <lb/>vertus plus ſolides, qui pour eſtre moins
+           <lb/>connuës aux hommes, &amp; ſenſibles à la
+           <lb/>nature leur puiſſe eſtre d'vn plus grand
+           <lb/>merite deuant Dieu : auquel ſeul ils
+           <lb/>veulent complaire. Ce ſeroit de ces
+           <lb/>vertus interieures &amp; toutes diuines q'ils
+           <lb/>pratiquent inceſſamment, que ie ſou̲haitterois
+           <lb/>volontiers vous pouuoir en̲tretenir,
+           <lb/>ſi mon eſprit eſtoit capable
+             <lb/>de comprendre ces voyes myſtiques, &amp;
+           <lb/>penetrer dans l'interieur de ces ames
+           <lb/>eleuées.</p>
+		</body>
+	</text>
+</TEI>
