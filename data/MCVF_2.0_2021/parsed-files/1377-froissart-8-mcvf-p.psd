@@ -2604,7 +2604,7 @@
 					  (CP-REL (WNP-1 (WPRO qui))
 						  (IP-SUB (NP-SBJ *T*-1)
 							  (CL-NP-DTV (CL li))
-							  (EJ avoit)
+							  (AJ avoit)
 							  (VPP mort)
 							  (NP-ACC (DZ son) (NCS pere)))))))))
 	  (PONFP .))

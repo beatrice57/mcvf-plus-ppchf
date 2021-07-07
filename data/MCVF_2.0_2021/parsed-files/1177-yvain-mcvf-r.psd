@@ -34906,7 +34906,7 @@
 					      (CP-REL-SPE (WNP-2 (WPRO qui))
 							  (IP-SUB-SPE (NP-SBJ *T*-2)
 								      (NP-ACC (NCS joie))
-								      (CL-NP-DTV (CL s'))
+								      (CL-NP-RFL (CL s'))
 								      (EJ est)
 								      (VPP tolue))))))
 	  (PONFP ?))

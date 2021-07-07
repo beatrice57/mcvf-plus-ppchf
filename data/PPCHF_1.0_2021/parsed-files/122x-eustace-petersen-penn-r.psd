@@ -2372,8 +2372,7 @@
 ( (CODE <P_12>))
 
 ( (IP-MAT (ADVP-TMP (ADV Omques))
-	  (NP-ACC (ADJP (QR plus) (ADJ bel)))
-	  (NP-SBJ *con*)
+	  (NP-SBJ (ADJP (QR plus) (ADJ bel)))
 	  (NEG ne)
 	  (EJ fu)
 	  (VPP veü)
@@ -5744,7 +5743,7 @@
 	  (PP (P sanz)
 	      (NP (Q nule) (NCS compaignie)))
 	  (NP-SBJ *con*)
-	  (EJ Ont)
+	  (AJ Ont)
 	  (VPP trespassee)
 	  (NP-ACC (NPRS Lombardie))
 	  (PONFP .))

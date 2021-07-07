@@ -8327,7 +8327,7 @@
 				  (NP-PART (DF de) (NCS respit))
 				  (CP-DEG (CONJS qu')
 					  (IP-SUB (NP-SBJ (PRO il))
-						  (EJ eussent)
+						  (AJ eussent)
 						  (VPP fet)
 						  (NP-ACC (DZ lor) (NCS oroison)))))))
 	  (PONFP ,))

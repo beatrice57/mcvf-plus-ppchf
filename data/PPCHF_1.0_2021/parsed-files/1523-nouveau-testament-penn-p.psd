@@ -1876,12 +1876,11 @@
   (ID 1523-NOUVEAU-TESTAMENT-PENN-P,5V.96))
 
 ( (IP-MAT (CONJO Et)
-	  (NP-SBJ *con*)
 	  (EJ fure~t)
 	  (VPP adjoutees)
 	  (PP (P en)
 	      (NP (D celuy) (NCS jour)))
-	  (NP-ACC (ADJP (ADV environ) (CODE <P_6R>) (ADJNUM trois) (ADJNUM mille))
+	  (NP-SBJ (ADJP (ADV environ) (CODE <P_6R>) (ADJNUM trois) (ADJNUM mille))
 		  (NCPL ames))
 	  (PONFP .))
   (ID 1523-NOUVEAU-TESTAMENT-PENN-P,6R.97))

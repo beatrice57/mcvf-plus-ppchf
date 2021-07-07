@@ -21177,6 +21177,7 @@
 	      (NP-SBJ (D l')
 		      (NCS aventure)
 		      (CP-REL-SPE (WNP-1 (WPRO que))
+				  (CODE {TMP:CP-THT?})
 				  (CODE <lb$$>)
 				  (IP-SUB-SPE (NP-ACC *T*-1)
 					      (NP-SBJ (D li) (NCPL pecheor))
