@@ -78,7 +78,7 @@ a Java program developed by Tony Kroch and Beth Randall for searching,
 revising, and coding parsed corpora.  The program can be downloaded at
 <https://sourceforge.net/projects/corpussearch>.
 
-<p> The original users guide site is no longer being maintained.  Please
+The original users guide site is no longer being maintained.  Please
 refer instead to the corrected and revised live version
 (<https://www.ling.upenn.edu/~beatrice/corpus-ling/CS-users-guide>).
 
