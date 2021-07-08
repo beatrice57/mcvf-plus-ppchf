@@ -58,7 +58,7 @@
 								(PP (P sor)
 								    (NP (NCPL sarrazíns))))))))))
 	  (PONFP .))
-  (ID 122X-PSEUDO-TURPIN-MCVF-P,.4))
+  (ID 122X-PSEUDO-TURPIN-MCVF-P,262.4))
 
 ( (IP-MAT (NP-SBJ (Q Maintes) (NCPL gens))
 	  (CL-PP-1 (CL en))
@@ -68,7 +68,7 @@
 		  (PP *ICH*-1)
 		  (VX (VX conter) (PON .) (CONJO e) (VX chanter)))
 	  (PONFP .))
-  (ID 122X-PSEUDO-TURPIN-MCVF-P,.5))
+  (ID 122X-PSEUDO-TURPIN-MCVF-P,262.5))
 
 ( (IP-MAT (CONJO mes)
 	  (NEG n#)
@@ -88,7 +88,7 @@
 					  (CONJP (CONJO ne)
 						 (NP (D cil) (NCPL conteor)))))))
 	  (PONFP .))
-  (ID 122X-PSEUDO-TURPIN-MCVF-P,.6))
+  (ID 122X-PSEUDO-TURPIN-MCVF-P,262.6))
 
 ( (IP-MAT (NP-SBJ (Q nus)
 		  (NCS contes)
@@ -98,7 +98,7 @@
 	  (VJ est)
 	  (ADJP-PRD (ADJ ueraís))
 	  (PONFP .))
-  (ID 122X-PSEUDO-TURPIN-MCVF-P,.7))
+  (ID 122X-PSEUDO-TURPIN-MCVF-P,262.7))
 
 ( (IP-MAT (QP (Q tot))
 	  (VJ est)
@@ -110,7 +110,7 @@
 				  (NP-SBJ (PRO il))
 				  (CL-PP (CL en))
 				  (VJ dient)))))
-  (ID 122X-PSEUDO-TURPIN-MCVF-P,.8))
+  (ID 122X-PSEUDO-TURPIN-MCVF-P,262.8))
 
 ( (IP-MAT (CONJO quar)
 	  (NP-SBJ (PRO il))
@@ -123,7 +123,7 @@
 			  (IP-INF (NP-SBJ *arb*)
 				  (VX díre)))))
 	  (PONFP .))
-  (ID 122X-PSEUDO-TURPIN-MCVF-P,.9))
+  (ID 122X-PSEUDO-TURPIN-MCVF-P,262.9))
 
 ( (IP-MAT (NP-SBJ (D Li)
 		  (ADJ bons)
@@ -138,7 +138,7 @@
 	  (NP-MSR (Q molt))
 	  (NP-ACC (NPRS karl'maine))
 	  (PONFP .))
-  (ID 122X-PSEUDO-TURPIN-MCVF-P,.10))
+  (ID 122X-PSEUDO-TURPIN-MCVF-P,262.10))
 
 ( (IP-MAT (CONJO ne)
 	  (NP-SBJ *con*)
@@ -152,7 +152,7 @@
 					  (NP-SBJ (PRO len))
 					  (VJ chantast)))))
 	  (PONFP .))
-  (ID 122X-PSEUDO-TURPIN-MCVF-P,.11))
+  (ID 122X-PSEUDO-TURPIN-MCVF-P,262.11))
 
 ( (IP-MAT (ADVP (ADV ainz))
 	  (NP-SBJ *con*)
@@ -179,7 +179,7 @@
 								 (VJ @troueroít)
 								 (NP-ACC (D la) (ADJ ueraíe) (NCS estoíra)))))))))
 	  (PONFP .))
-  (ID 122X-PSEUDO-TURPIN-MCVF-P,.12))
+  (ID 122X-PSEUDO-TURPIN-MCVF-P,262.12))
 
 ( (IP-MAT (CONJO nj)
 	  (ADVP-TMP (ADV onques))
@@ -193,7 +193,7 @@
 		  (VX *ICH*-1))
 	  (NP-SBJ (D li) (NCPL clerc))
 	  (PONFP .))
-  (ID 122X-PSEUDO-TURPIN-MCVF-P,.13))
+  (ID 122X-PSEUDO-TURPIN-MCVF-P,262.13))
 
 ( (IP-MAT (QP-1 (Q Tant))
 	  (NP-SBJ *proimp*)
@@ -209,7 +209,7 @@
 				      (IP-INF (NP-ACC (D l#) (NCS es=toire))
 					      (VX quere))))))
 	  (PONFP .))
-  (ID 122X-PSEUDO-TURPIN-MCVF-P,.14))
+  (ID 122X-PSEUDO-TURPIN-MCVF-P,262.14))
 
 ( (IP-MAT (ADVP (ADV eisi)
 		(CP-CMP (WADVP-1 0)
@@ -229,7 +229,7 @@
 		  (PP (P en)
 		      (NP (NPRS borguonie)))))
 	  (PONFP .))
-  (ID 122X-PSEUDO-TURPIN-MCVF-P,.15))
+  (ID 122X-PSEUDO-TURPIN-MCVF-P,262.15))
 
 ( (IP-MAT (NP-LFD (D Icele)
 		  (NCS estoire)
@@ -336,7 +336,7 @@
 									     (IP-INF (VX oir)
 										     (IP-INF (NP-SBJ *arb*)
 											     (VX dire)))))))))))))
-  (ID 122X-PSEUDO-TURPIN-MCVF-P,.16))
+  (ID 122X-PSEUDO-TURPIN-MCVF-P,263.16))
 
 ( (IP-MAT (NP-SBJ (D Li)
 		  (NCS clers)
@@ -348,7 +348,7 @@
 	  (VJ contreescrit)
 	  (NP-ACC (D l#) (NCS estoíre))
 	  (PONFP .))
-  (ID 122X-PSEUDO-TURPIN-MCVF-P,.17))
+  (ID 122X-PSEUDO-TURPIN-MCVF-P,263.17))
 
 ( (IP-MAT (CONJO e)
 	  (NP-DTV (DAT a)
@@ -377,7 +377,7 @@
 						    (NP-SBJ (PRO il))
 						    (VJ uesqui))))))
 	  (PONFP .))
-  (ID 122X-PSEUDO-TURPIN-MCVF-P,.18))
+  (ID 122X-PSEUDO-TURPIN-MCVF-P,263.18))
 
 ( (IP-MAT (CONJO e)
 	  (CP-ADV (CONJS quant)
@@ -399,7 +399,7 @@
 			  (PP (P de)
 			      (NP (NPRS saínt) (NPRS Po)))))
 	  (PONFP .))
-  (ID 122X-PSEUDO-TURPIN-MCVF-P,.19))
+  (ID 122X-PSEUDO-TURPIN-MCVF-P,263.19))
 
 ( (IP-MAT (CONJO e)
 	  (ADVP (ADV si))
@@ -420,7 +420,7 @@
 						  (NP-SBJ (PRO ela))
 						  (VJ uíureit))))))
 	  (PONFP .))
-  (ID 122X-PSEUDO-TURPIN-MCVF-P,.20))
+  (ID 122X-PSEUDO-TURPIN-MCVF-P,263.20))
 
 ( (IP-MAT (NP-SBJ (D La) (ADJ bona) (NCS contessa))
 	  (AJ ha)
@@ -430,7 +430,7 @@
 	      (PP (P @a)
 		  (ADVP (ADV ore))))
 	  (PONFP .))
-  (ID 122X-PSEUDO-TURPIN-MCVF-P,.21))
+  (ID 122X-PSEUDO-TURPIN-MCVF-P,263.21))
 
 ( (IP-MAT (ADVP-TMP (ADV or))
 	  (NP-SBJ *pro*)
@@ -461,7 +461,7 @@
 						    (IP-INF (PP *ICH*-3)
 							    (VX eslire))))))))
 	  (PONFP .))
-  (ID 122X-PSEUDO-TURPIN-MCVF-P,.22))
+  (ID 122X-PSEUDO-TURPIN-MCVF-P,263.22))
 
 ( (IP-MAT (CONJO e@)
 	  (PP (P @por)
@@ -470,7 +470,7 @@
 	  (NP-SBJ (PRO il))
 	  (ADVP (ADVR mielz))
 	  (VPP gardez))
-  (ID 122X-PSEUDO-TURPIN-MCVF-P,.23))
+  (ID 122X-PSEUDO-TURPIN-MCVF-P,263.23))
 
 ( (IP-IMP (ADVP (ADV or))
 	  (ADVP (ADV si))
@@ -481,7 +481,7 @@
 			      (CL-PP (CL en))
 			      (VJ reconte)))
 	  (PONFP .))
-  (ID 122X-PSEUDO-TURPIN-MCVF-P,.24))
+  (ID 122X-PSEUDO-TURPIN-MCVF-P,263.24))
 
 ( (IP-MAT (NP-SBJ (NPRS Turpins)
 		  (RRC (PP (P par)
@@ -513,7 +513,7 @@
 			  (NCS dien)
 			  (PP (P d#)
 			      (NP (NPRS ais) (NPRS la) (NPRS chapela))))))
-  (ID 122X-PSEUDO-TURPIN-MCVF-P,.25))
+  (ID 122X-PSEUDO-TURPIN-MCVF-P,263.25))
 
 ( (IP-MAT (CONJO e)
 	  (ADVP (ADV si))
@@ -564,7 +564,7 @@
 										  (PP (P a@)
 										      (NP (D @us) (NCPL sarrazíns))))))))))
 	  (PONFP .))
-  (ID 122X-PSEUDO-TURPIN-MCVF-P,.26))
+  (ID 122X-PSEUDO-TURPIN-MCVF-P,263.26))
 
 ( (IP-MAT (NP-SBJ *pro*)
 	  (CL-NP-DTV (CL uos))
@@ -611,7 +611,7 @@
 									     (PP (P ob)
 										 (NP (DZ ses) (NCPL oz)))))))))))))
 	  (PONFP .))
-  (ID 122X-PSEUDO-TURPIN-MCVF-P,.27))
+  (ID 122X-PSEUDO-TURPIN-MCVF-P,263.27))
 
 ( (IP-MAT (CONJO e)
 	  (NP-SBJ (PRO ie))
@@ -634,7 +634,7 @@
 						  (PP (P en)
 						      (NP (NPRS espaígne))))))))
 	  (PONFP .))
-  (ID 122X-PSEUDO-TURPIN-MCVF-P,.28))
+  (ID 122X-PSEUDO-TURPIN-MCVF-P,263.28))
 
 ( (IP-MAT (PP (P E@)
 	      (NP (D @s)
@@ -658,7 +658,7 @@
 					(CL-NP-DTV (CL uos))
 					(VJ diraj))))))
 	  (PONFP .))
-  (ID 122X-PSEUDO-TURPIN-MCVF-P,.29))
+  (ID 122X-PSEUDO-TURPIN-MCVF-P,263.29))
 
 ( (IP-IMP (IP-IMP (ADVP-TMP (ADV or))
 		  (CL-PP (CL hi))
@@ -669,7 +669,7 @@
 			 (CL-NP-DTV (CL uos))
 			 (VJ conteraj)))
 	  (PONFP .))
-  (ID 122X-PSEUDO-TURPIN-MCVF-P,.30))
+  (ID 122X-PSEUDO-TURPIN-MCVF-P,263.30))
 
 ( (IP-MAT (NP-SBJ (NCS Mis=sires)
 		  (NPRS sainz)
@@ -698,7 +698,7 @@
 	  (PP (P en)
 	      (NP (NPRS engualice)))
 	  (PONFP .))
-  (ID 122X-PSEUDO-TURPIN-MCVF-P,.31))
+  (ID 122X-PSEUDO-TURPIN-MCVF-P,263.31))
 
 ( (IP-MAT (CONJO e)
 	  (NP-SBJ (PRO co))
@@ -714,7 +714,7 @@
 						 (NP (D la) (NCS fei))))
 				  (VJ preecha))))
 	  (PONFP .))
-  (ID 122X-PSEUDO-TURPIN-MCVF-P,.32))
+  (ID 122X-PSEUDO-TURPIN-MCVF-P,263.32))
 
 ( (IP-MAT (ADVP-TMP (ADV Apres))
 	  (NP-SBJ *con*)
@@ -724,7 +724,7 @@
 	  (PP (P en)
 	      (NP (NPRS ierlm)))
 	  (PONFP .))
-  (ID 122X-PSEUDO-TURPIN-MCVF-P,.33))
+  (ID 122X-PSEUDO-TURPIN-MCVF-P,263.33))
 
 ( (IP-MAT (CONJO e)
 	  (ADVP-LOC (ADV la))
@@ -736,7 +736,7 @@
 	      (NP (NPRS herode)
 		  (NP-PRN (D le) (NCS rej))))
 	  (PONFP .))
-  (ID 122X-PSEUDO-TURPIN-MCVF-P,.34))
+  (ID 122X-PSEUDO-TURPIN-MCVF-P,263.34))
 
 ( (IP-MAT (CONJO e)
 	  (NP-SBJ (DZ sei) (NCPL disciple))
@@ -746,7 +746,7 @@
 		  (NCS cors)
 		  (PP (P de)
 		      (NP (PRO luj)))))
-  (ID 122X-PSEUDO-TURPIN-MCVF-P,.35))
+  (ID 122X-PSEUDO-TURPIN-MCVF-P,263.35))
 
 ( (IP-MAT (ADVP (ADV si))
 	  (NP-SBJ *con*)
@@ -759,7 +759,7 @@
 		  (PP (P en)
 		      (NP (NPRS Engalice)))))
 	  (PONFP .))
-  (ID 122X-PSEUDO-TURPIN-MCVF-P,.36))
+  (ID 122X-PSEUDO-TURPIN-MCVF-P,263.36))
 
 ( (IP-MAT (CONJO E)
 	  (NP-LFD (NP (D la) (NCS predication))
@@ -778,7 +778,7 @@
 	  (CL-NP-ACC-RSP (CL la))
 	  (VJ fermerent)
 	  (PONFP .))
-  (ID 122X-PSEUDO-TURPIN-MCVF-P,.37))
+  (ID 122X-PSEUDO-TURPIN-MCVF-P,264.37))
 
 ( (IP-MAT (CONJO Mes)
 	  (NP-SBJ (D li)
@@ -795,7 +795,7 @@
 	  (ADVP-TMP (ADV puís))
 	  (NP-ACC (DZ nre) (NPRS seígnor))
 	  (PONFP .))
-  (ID 122X-PSEUDO-TURPIN-MCVF-P,.38))
+  (ID 122X-PSEUDO-TURPIN-MCVF-P,264.38))
 
 ( (IP-MAT (CONJO e)
 	  (NP-SBJ *con*)
@@ -808,7 +808,7 @@
 		      (NCS temps)
 		      (NP-COM (NPRS karl'=maíne)))))
 	  (PONFP .))
-  (ID 122X-PSEUDO-TURPIN-MCVF-P,.39))
+  (ID 122X-PSEUDO-TURPIN-MCVF-P,264.39))
 
 ( (IP-MAT (NP-SBJ (D Icist) (ADJ bons=eurez) (NPRS karl'maines))
 	  (ADVP (ADV si))
@@ -817,7 +817,7 @@
 	  (PP (P en)
 	      (NP (DZ son) (NCS tens)))
 	  (PONFP .))
-  (ID 122X-PSEUDO-TURPIN-MCVF-P,.40))
+  (ID 122X-PSEUDO-TURPIN-MCVF-P,264.40))
 
 ( (IP-MAT (CONJO e@)
 	  (NP-MSR (Q @molt))
@@ -825,7 +825,7 @@
 	  (VJ ot)
 	  (NP-ACC (NCPL penes) (CONJO e@) (NCPL @trauaus))
 	  (PONFP .))
-  (ID 122X-PSEUDO-TURPIN-MCVF-P,.41))
+  (ID 122X-PSEUDO-TURPIN-MCVF-P,264.41))
 
 ( (IP-MAT (IP-MAT-1 (NP-SBJ (PRO Il))
 		    (VJ conquist)
@@ -869,7 +869,7 @@
 				       (PP (P en)
 					   (NP (D l#) (ADJ autre)))))))
 	  (PONFP .))
-  (ID 122X-PSEUDO-TURPIN-MCVF-P,.42))
+  (ID 122X-PSEUDO-TURPIN-MCVF-P,264.42))
 
 ( (IP-MAT (CONJO E)
 	  (NP-ACC (PRO eco))
@@ -879,7 +879,7 @@
 	  (PP (P par)
 	      (NP (NPRS de)))
 	  (PONFP .))
-  (ID 122X-PSEUDO-TURPIN-MCVF-P,.43))
+  (ID 122X-PSEUDO-TURPIN-MCVF-P,264.43))
 
 ( (IP-MAT (CONJO quar)
 	  (NP-SBJ (PRO il))
@@ -888,7 +888,7 @@
 	  (ADVP-TMP (ADV onques))
 	  (VPP uencuz)
 	  (PONFP .))
-  (ID 122X-PSEUDO-TURPIN-MCVF-P,.44))
+  (ID 122X-PSEUDO-TURPIN-MCVF-P,264.44))
 
 ( (IP-MAT (CONJO e)
 	  (NP-ACC (Q tot) (PRO co))
@@ -897,7 +897,7 @@
 	  (PP (P a)
 	      (NP (D la) (NCS crestiante)))
 	  (PONFP .))
-  (ID 122X-PSEUDO-TURPIN-MCVF-P,.45))
+  (ID 122X-PSEUDO-TURPIN-MCVF-P,264.45))
 
 ( (IP-MAT (CONJO e)
 	  (NP-ACC (Q totes) (D les) (NCPL terres))
@@ -916,7 +916,7 @@
 				  (IP-INF (PP *ICH*-2)
 					  (VX creire))))))
 	  (PONFP .))
-  (ID 122X-PSEUDO-TURPIN-MCVF-P,.46))
+  (ID 122X-PSEUDO-TURPIN-MCVF-P,264.46))
 
 ( (IP-MAT (CONJO Quar)
 	  (NP-SBJ (PRO il))
@@ -928,7 +928,7 @@
 		     (PP (P par)
 			 (NP (ADJ grief) (CODE <milestone_unit="folio"_n="42b"$$>) (NCS trauail)))))
 	  (PONFP .))
-  (ID 122X-PSEUDO-TURPIN-MCVF-P,.47))
+  (ID 122X-PSEUDO-TURPIN-MCVF-P,264.47))
 
 ( (IP-MAT (ADVP (ADV si))
 	  (NP-SBJ *con*)
@@ -945,7 +945,7 @@
 					 (NEG ne)
 					 (VJ feret)))))
 	  (PONFP .))
-  (ID 122X-PSEUDO-TURPIN-MCVF-P,.48))
+  (ID 122X-PSEUDO-TURPIN-MCVF-P,264.48))
 
 ( (IP-MAT (PP (P A@)
 	      (NP (D @una) (NCS nuít)))
@@ -969,7 +969,7 @@
 	  (NP-ACC (NCS uoie)
 		  (ADJP (Q tota) (VPP estelea)))
 	  (PONFP .))
-  (ID 122X-PSEUDO-TURPIN-MCVF-P,.49))
+  (ID 122X-PSEUDO-TURPIN-MCVF-P,264.49))
 
 ( (IP-MAT (ADVP (ADV si))
 	  (NP-SBJ *pro*)
@@ -979,7 +979,7 @@
 		  (NCS mer)
 		  (PP (P de)
 		      (NP (NPRS Frise))))))
-  (ID 122X-PSEUDO-TURPIN-MCVF-P,.50))
+  (ID 122X-PSEUDO-TURPIN-MCVF-P,264.50))
 
 ( (IP-MAT (IP-MAT-1 (CONJO e)
 		    (ADVP (ADV si))
@@ -1019,7 +1019,7 @@
 								 (VJ estoit)))))))))
 	  (CODE <note_resp="encoder"_sic="rebos_expunctuated"_rend=""_var="missing_from_cod._124"$$>)
 	  (PONFP .))
-  (ID 122X-PSEUDO-TURPIN-MCVF-P,.51))
+  (ID 122X-PSEUDO-TURPIN-MCVF-P,264.51))
 
 ( (IP-MAT (CONJO Mes)
 	  (PP (P en)
@@ -1030,7 +1030,7 @@
 	  (CL-PP (CL i))
 	  (VJ conoiseit)
 	  (PONFP .))
-  (ID 122X-PSEUDO-TURPIN-MCVF-P,.52))
+  (ID 122X-PSEUDO-TURPIN-MCVF-P,264.52))
 
 ( (IP-MAT (CP-ADV (CONJS Quant)
 		  (IP-SUB (NP-SBJ (D li) (ADJ bons) (NCS reis))
@@ -1054,7 +1054,7 @@
 					  (NP-SBJ (D cela) (NCS uísions))
 					  (VJ signefiot)))))
 	  (PONFP .))
-  (ID 122X-PSEUDO-TURPIN-MCVF-P,.53))
+  (ID 122X-PSEUDO-TURPIN-MCVF-P,264.53))
 
 ( (IP-MAT (PP (P A)
 	      (NP (D une) (NCS noit)))
@@ -1062,7 +1062,7 @@
 	  (VJ pensot)
 	  (NP-SBJ (D li) (NCS rois))
 	  (ADVP (Q molt) (ADV durement)))
-  (ID 122X-PSEUDO-TURPIN-MCVF-P,.54))
+  (ID 122X-PSEUDO-TURPIN-MCVF-P,264.54))
 
 ( (IP-MAT (ADVP (ADV si))
 	  (VJ uinc)
@@ -1081,7 +1081,7 @@
 				  (IP-INF (VX dire)
 					  (NP-ACC (DZ-RSP=1 sa) (NCS beaute))))))
 	  (PONFP .))
-  (ID 122X-PSEUDO-TURPIN-MCVF-P,.55))
+  (ID 122X-PSEUDO-TURPIN-MCVF-P,264.55))
 
 ( (IP-MAT (ADVP (ADV si))
 	  (NP-SBJ *con*)
@@ -1090,7 +1090,7 @@
 	  (NP-DTV (DAT a@) (PRO @luj))
 	  (CODE <note_resp="encoder"_sic="j_with_acute_accent"_rend="j"$$>)
 	  (PONFP .))
-  (ID 122X-PSEUDO-TURPIN-MCVF-P,.56))
+  (ID 122X-PSEUDO-TURPIN-MCVF-P,264.56))
 
 ( (IP-MAT (CONJO e)
 	  (ADVP (ADV si))
@@ -1106,7 +1106,7 @@
 					      (NP-COM (NPRS karla)))))
 	  (PONFP .)
 	  (CODE <$$q>))
-  (ID 122X-PSEUDO-TURPIN-MCVF-P,.57))
+  (ID 122X-PSEUDO-TURPIN-MCVF-P,264.57))
 
 ( (IP-MAT (CONJO E)
 	  (NP-SBJ (NPRS karl'))
@@ -1120,7 +1120,7 @@
 			  (NP-VOC (NCS sire)))
 	  (PONFP ?)
 	  (CODE <$$q>))
-  (ID 122X-PSEUDO-TURPIN-MCVF-P,.58))
+  (ID 122X-PSEUDO-TURPIN-MCVF-P,264.58))
 
 ( (IP-MAT-SPE (CODE <q>)
 	      (NP-SBJ (PRO Je))
@@ -1144,7 +1144,7 @@
 			      (NP-COM (NPRS Joan)
 				      (NP-PRN (D l#) (NCS euangeliste)))))
 	      (PONFP .))
-  (ID 122X-PSEUDO-TURPIN-MCVF-P,.59))
+  (ID 122X-PSEUDO-TURPIN-MCVF-P,264.59))
 
 ( (IP-MAT-SPE (NP-SBJ (PRO Je))
 	      (VJ soi)
@@ -1166,7 +1166,7 @@
 								  (PP (P d#)
 								      (NP (NPRS en=Galice)))))))))
 	      (PONFP .))
-  (ID 122X-PSEUDO-TURPIN-MCVF-P,.60))
+  (ID 122X-PSEUDO-TURPIN-MCVF-P,264.60))
 
 ( (IP-MAT-SPE (NP-SBJ (PRO Je))
 	      (VJ soj)
@@ -1182,7 +1182,7 @@
 									      (NP-SBJ (D li) (NCPL sarrazín))
 									      (VJ tenent))))))))
 	      (PONFP .))
-  (ID 122X-PSEUDO-TURPIN-MCVF-P,.61))
+  (ID 122X-PSEUDO-TURPIN-MCVF-P,264.61))
 
 ( (IP-MAT-SPE (CONJO mes)
 	      (NP-SBJ *con*)
@@ -1192,7 +1192,7 @@
 	      (ADVP (ADVNEG mie))
 	      (VPP coneuz)
 	      (PONFP .))
-  (ID 122X-PSEUDO-TURPIN-MCVF-P,.62))
+  (ID 122X-PSEUDO-TURPIN-MCVF-P,264.62))
 
 ( (IP-MAT-SPE (NP-SBJ (PRO Je))
 	      (VJ soi)
@@ -1204,7 +1204,7 @@
 					      (PP (P d)
 						  (NP (D un) (NCS glaíue))))))
 	      (PONFP .))
-  (ID 122X-PSEUDO-TURPIN-MCVF-P,.63))
+  (ID 122X-PSEUDO-TURPIN-MCVF-P,264.63))
 
 ( (IP-MAT-SPE (ADVP (ADV si))
 	      (NP-SBJ *con*)
@@ -1224,7 +1224,7 @@
 					      (PP (P de)
 						  (NP (NCPL sarrazins)))))))
 	      (PONFP .))
-  (ID 122X-PSEUDO-TURPIN-MCVF-P,.64))
+  (ID 122X-PSEUDO-TURPIN-MCVF-P,265.64))
 
 ( (IP-MAT-SPE (IP-MAT-1-SPE (CONJO que)
 			    (NP-ACC (NP (Q tantes) (NCPL terres))
@@ -1250,7 +1250,7 @@
 					  (IP-INF-SPE (NP-SBJ *ICH*-2)
 						      (VX @ssauer)))))
 	      (PONFP .))
-  (ID 122X-PSEUDO-TURPIN-MCVF-P,.65))
+  (ID 122X-PSEUDO-TURPIN-MCVF-P,265.65))
 
 ( (IP-MAT-SPE (CONJO quar)
 	      (ADVP-LFD (ADV si)
@@ -1318,7 +1318,7 @@
 											    (IP-INF-SPE (VX renquerre)
 													(NP-ACC (D la) (ADJ pardurabble) (CODE <milestone_unit="folio"_n="42d"$$>) (NCS bon=eurte))))))))))))
 	      (PONFP .))
-  (ID 122X-PSEUDO-TURPIN-MCVF-P,.66))
+  (ID 122X-PSEUDO-TURPIN-MCVF-P,265.66))
 
 ( (IP-MAT-SPE (NP-SBJ (D La)
 		      (NCS semblance)
@@ -1369,7 +1369,7 @@
 							 (VJ @feras)
 							 (NP-ACC (D la@) (NCS @uoie))))))
 	      (PONFP .))
-  (ID 122X-PSEUDO-TURPIN-MCVF-P,.67))
+  (ID 122X-PSEUDO-TURPIN-MCVF-P,265.67))
 
 ( (IP-MAT-SPE (CONJO E)
 	      (PP (P apres)
@@ -1386,7 +1386,7 @@
 	      (PP (P en@)
 		  (NP (NCS @perelinage)))
 	      (PONFP .))
-  (ID 122X-PSEUDO-TURPIN-MCVF-P,.68))
+  (ID 122X-PSEUDO-TURPIN-MCVF-P,265.68))
 
 ( (IP-MAT-SPE (CONJO e)
 	      (ADVP-LOC (ADV iluec))
@@ -1397,7 +1397,7 @@
 	      (PP (P de)
 		  (NP (DZ lur) (NCPL pechez)))
 	      (PONFP .))
-  (ID 122X-PSEUDO-TURPIN-MCVF-P,.69))
+  (ID 122X-PSEUDO-TURPIN-MCVF-P,265.69))
 
 ( (IP-MAT-SPE (CONJO e)
 	      (ADVP (ADV si))
@@ -1415,7 +1415,7 @@
 							 (NP-SBJ (PRO il))
 							 (VJ fera))))))
 	      (PONFP .))
-  (ID 122X-PSEUDO-TURPIN-MCVF-P,.70))
+  (ID 122X-PSEUDO-TURPIN-MCVF-P,265.70))
 
 ( (IP-MAT-SPE (CONJO e@)
 	      (ADVP (Q @tot) (ADV eissi))
@@ -1431,7 +1431,7 @@
 			  (PP (P de@)
 			      (NP (D @l) (NCS monde))))))
 	      (PONFP .))
-  (ID 122X-PSEUDO-TURPIN-MCVF-P,.71))
+  (ID 122X-PSEUDO-TURPIN-MCVF-P,265.71))
 
 ( (IP-IMP-SPE (NP-VOC (ADJ Beaus) (NCS amís))
 	      (ADVP-TMP (ADV or))
@@ -1447,7 +1447,7 @@
 						(NP-SBJ (PRO tu))
 						(MDJ poirras)))))
 	      (PONFP .))
-  (ID 122X-PSEUDO-TURPIN-MCVF-P,.72))
+  (ID 122X-PSEUDO-TURPIN-MCVF-P,265.72))
 
 ( (IP-MAT-SPE (CONJO que)
 	      (NP-SBJ (PRO ie))
@@ -1457,7 +1457,7 @@
 		      (PP (P en@)
 			  (NP (Q @totes) (NCPL choses))))
 	      (PONFP .))
-  (ID 122X-PSEUDO-TURPIN-MCVF-P,.73))
+  (ID 122X-PSEUDO-TURPIN-MCVF-P,265.73))
 
 ( (IP-IMP-SPE (CONJO e)
 	      (VJ saches)
@@ -1496,7 +1496,7 @@
 									 (NP (D @l) (NCS segle))))))))))
 	      (PONFP .)
 	      (CODE <$$q>))
-  (ID 122X-PSEUDO-TURPIN-MCVF-P,.74))
+  (ID 122X-PSEUDO-TURPIN-MCVF-P,265.74))
 
 ( (IP-MAT (PP (P En)
 	      (NP (D icesta) (NCS maneire)))
@@ -1506,7 +1506,7 @@
 	  (PON .)
 	  (PP (P par)
 	      (NP (ADJNUM tres) (NCPL fez))))
-  (ID 122X-PSEUDO-TURPIN-MCVF-P,.75))
+  (ID 122X-PSEUDO-TURPIN-MCVF-P,265.75))
 
 ( (IP-MAT (NP-SBJ (D Li) (NCS enpereires))
 	  (CL-PP (CL en))
@@ -1524,14 +1524,14 @@
 					     (AJ aueit)
 					     (VPP dit)))))))
 	  (PONFP .))
-  (ID 122X-PSEUDO-TURPIN-MCVF-P,.76))
+  (ID 122X-PSEUDO-TURPIN-MCVF-P,265.76))
 
 ( (IP-MAT (ADVP (ADV si))
 	  (NP-SBJ *con*)
 	  (VJ fut)
 	  (ADJP-PRD (Q molt) (ADJ segurs))
 	  (PONFP .))
-  (ID 122X-PSEUDO-TURPIN-MCVF-P,.77))
+  (ID 122X-PSEUDO-TURPIN-MCVF-P,265.77))
 
 ( (IP-MAT (ADVP (ADV si))
 	  (NP-SBJ *con*)
@@ -1539,7 +1539,7 @@
 	  (NP-ACC (ADJP (Q molt) (ADJ grant))
 		  (NCS ost))
 	  (PONFP .))
-  (ID 122X-PSEUDO-TURPIN-MCVF-P,.78))
+  (ID 122X-PSEUDO-TURPIN-MCVF-P,265.78))
 
 ( (IP-MAT (CONJO e)
 	  (ADVP (ADV si))
@@ -1555,14 +1555,14 @@
 				      (NP (NPRS espaigne)))
 				  (PP (P sor)
 				      (NP (D les) (NCPL sarazins)))))))
-  (ID 122X-PSEUDO-TURPIN-MCVF-P,.79))
+  (ID 122X-PSEUDO-TURPIN-MCVF-P,265.79))
 
 ( (IP-MAT (CONJO e)
 	  (NP-SBJ (PRO il))
 	  (ADVP (ADV si))
 	  (VJ fit)
 	  (PONFP .))
-  (ID 122X-PSEUDO-TURPIN-MCVF-P,.80))
+  (ID 122X-PSEUDO-TURPIN-MCVF-P,265.80))
 
 ( (IP-MAT (NP-SBJ (D La)
 		  (ADJ premeire)
@@ -1575,7 +1575,7 @@
 	  (VJ fu)
 	  (NP-PRD (NPRS panpelune))
 	  (PONFP .))
-  (ID 122X-PSEUDO-TURPIN-MCVF-P,.81))
+  (ID 122X-PSEUDO-TURPIN-MCVF-P,265.81))
 
 ( (IP-MAT (CONJO e)
 	  (NP-SBJ *con*)
@@ -1584,7 +1584,7 @@
 	  (PP (P entor)
 	      (NP (ADJNUM tres) (NCPL mes)))
 	  (PONFP .))
-  (ID 122X-PSEUDO-TURPIN-MCVF-P,.82))
+  (ID 122X-PSEUDO-TURPIN-MCVF-P,265.82))
 
 ( (IP-MAT (CONJO ni)
 	  (ADVP-TMP (ADV onques))
@@ -1596,7 +1596,7 @@
 	  (IP-INF (NP-ACC *ICH*-2)
 		  (VX *ICH*-1))
 	  (PONFP .))
-  (ID 122X-PSEUDO-TURPIN-MCVF-P,.83))
+  (ID 122X-PSEUDO-TURPIN-MCVF-P,265.83))
 
 ( (IP-MAT (CONJO quar)
 	  (NP-SBJ (PRO ela))
@@ -1605,7 +1605,7 @@
 	  (PP (P de)
 	      (NP (ADJ bons) (NCPL murs)))
 	  (PONFP .))
-  (ID 122X-PSEUDO-TURPIN-MCVF-P,.84))
+  (ID 122X-PSEUDO-TURPIN-MCVF-P,265.84))
 
 ( (IP-MAT (ITJ Ala)
 	  (ADVP (ADV donc))
@@ -1617,7 +1617,7 @@
 		  (CONJP (CONJO e)
 			 (NP (NPRS saint) (NPRS Jasque))))
 	  (PONFP .))
-  (ID 122X-PSEUDO-TURPIN-MCVF-P,.85))
+  (ID 122X-PSEUDO-TURPIN-MCVF-P,265.85))
 
 ( (IP-MAT (CONJO e)
 	  (ADVP (ADV si))
@@ -1662,7 +1662,7 @@
 										 (NP (DZ ton) (NCS nom)))))))))))
 	  (PONFP .)
 	  (CODE <$$q>))
-  (ID 122X-PSEUDO-TURPIN-MCVF-P,.86))
+  (ID 122X-PSEUDO-TURPIN-MCVF-P,265.86))
 
 ( (IP-MAT (CONJO E)
 	  (ADVP-TMP (ADV apres))
@@ -1671,7 +1671,7 @@
 	  (NP-ACC (DZ sa) (NCS preeire))
 	  (NP-DTV (DAT a) (CODE <milestone_unit="folio"_n="43b"$$>) (NPRS saint) (NPRS Jasque))
 	  (PONFP .))
-  (ID 122X-PSEUDO-TURPIN-MCVF-P,.87))
+  (ID 122X-PSEUDO-TURPIN-MCVF-P,265.87))
 
 ( (IP-IMP-SPE (CODE <q>)
 	      (ITJ O)
@@ -1694,7 +1694,7 @@
 				      (VJ prengia)))
 	      (PONFP .)
 	      (CODE <$$q>))
-  (ID 122X-PSEUDO-TURPIN-MCVF-P,.88))
+  (ID 122X-PSEUDO-TURPIN-MCVF-P,265.88))
 
 ( (IP-MAT (ADVP-TMP (ADV lores))
 	  (PP (PP (P par)
@@ -1715,13 +1715,13 @@
 	      (NP (PRO eus)
 		  (ADJP (ADJ meímes))))
 	  (PONFP .))
-  (ID 122X-PSEUDO-TURPIN-MCVF-P,.89))
+  (ID 122X-PSEUDO-TURPIN-MCVF-P,266.89))
 
 ( (IP-MAT (NP-SBJ (D Li) (NCS reis))
 	  (VJ entra)
 	  (ADVP-DIR (ADV ens))
 	  (PONFP .))
-  (ID 122X-PSEUDO-TURPIN-MCVF-P,.90))
+  (ID 122X-PSEUDO-TURPIN-MCVF-P,266.90))
 
 ( (IP-MAT (CONJO e)
 	  (NP-LFD (D li)
@@ -1735,14 +1735,14 @@
 	  (VJ morirent)
 	  (ADVP (ADVNEG mía))
 	  (PONFP .))
-  (ID 122X-PSEUDO-TURPIN-MCVF-P,.91))
+  (ID 122X-PSEUDO-TURPIN-MCVF-P,266.91))
 
 ( (IP-MAT (ADVP (ADVR ainz))
 	  (NP-SBJ *con*)
 	  (VJ furent)
 	  (NP-PRD (NCPL crestien))
 	  (PONFP .))
-  (ID 122X-PSEUDO-TURPIN-MCVF-P,.92))
+  (ID 122X-PSEUDO-TURPIN-MCVF-P,266.92))
 
 ( (IP-MAT (CONJO e)
 	  (NP-LFD (PRO cil)
@@ -1754,7 +1754,7 @@
 	  (EJ furent)
 	  (VPP ocis)
 	  (PONFP .))
-  (ID 122X-PSEUDO-TURPIN-MCVF-P,.93))
+  (ID 122X-PSEUDO-TURPIN-MCVF-P,266.93))
 
 ( (IP-MAT (CP-ADV (CONJS Quant)
 		  (IP-SUB (NP-ACC (PRO co))
@@ -1773,7 +1773,7 @@
 		    (CONJP (CONJO e)
 			   (NP (DZ lor) (NCPL citez))))
 	  (PONFP .))
-  (ID 122X-PSEUDO-TURPIN-MCVF-P,.94))
+  (ID 122X-PSEUDO-TURPIN-MCVF-P,266.94))
 
 ( (IP-MAT (CONJO e)
 	  (NP-SBJ *con*)
@@ -1781,7 +1781,7 @@
 	  (VJ enueerent)
 	  (NP-ACC (NCS treu))
 	  (PONFP .))
-  (ID 122X-PSEUDO-TURPIN-MCVF-P,.95))
+  (ID 122X-PSEUDO-TURPIN-MCVF-P,266.95))
 
 ( (IP-MAT (CONJO e@)
 	  (NP-SBJ (Q @tota) (D cela) (NCS terra))
@@ -1793,7 +1793,7 @@
 	  (PP (P a)
 	      (NP (NPRS karla)))
 	  (PONFP .))
-  (ID 122X-PSEUDO-TURPIN-MCVF-P,.96))
+  (ID 122X-PSEUDO-TURPIN-MCVF-P,266.96))
 
 ( (IP-MAT (NP-SBJ (D La)
 		  (NCS genz)
@@ -1837,7 +1837,7 @@
 								     (PP (P de)
 									 (NP (ADJ beau) (NCS senblant)))))))))))
 	  (PONFP .))
-  (ID 122X-PSEUDO-TURPIN-MCVF-P,.97))
+  (ID 122X-PSEUDO-TURPIN-MCVF-P,266.97))
 
 ( (IP-MAT (ADVP (ADV si))
 	  (NP-SBJ *con*)
@@ -1845,7 +1845,7 @@
 	  (CODE <milestone_unit="folio"_n="43c"$$>)
 	  (NP-ACC (DZ lor) (NCPL armes))
 	  (PONFP .))
-  (ID 122X-PSEUDO-TURPIN-MCVF-P,.98))
+  (ID 122X-PSEUDO-TURPIN-MCVF-P,266.98))
 
 ( (IP-MAT (ADVP (ADV si))
 	  (NP-SBJ *con*)
@@ -1856,7 +1856,7 @@
 		       (PP (P en@)
 			   (NP (NCS @pais)))))
 	  (PONFP .))
-  (ID 122X-PSEUDO-TURPIN-MCVF-P,.99))
+  (ID 122X-PSEUDO-TURPIN-MCVF-P,266.99))
 
 ( (IP-MAT (NP-SBJ (NPRS karl'))
 	  (CL-NP-RFL (CL s#))
@@ -1874,7 +1874,7 @@
 							  (NP (NPRS Jasque))))
 					      (VJ gisoit)))))
 	  (PONFP .))
-  (ID 122X-PSEUDO-TURPIN-MCVF-P,.100))
+  (ID 122X-PSEUDO-TURPIN-MCVF-P,266.100))
 
 ( (IP-MAT (ADVP-TMP (ADV puis))
 	  (NP-SBJ *con*)
@@ -1883,7 +1883,7 @@
 	      (PP (P @a@)
 		  (NP (D @u) (NPRS Peiro))))
 	  (PONFP .))
-  (ID 122X-PSEUDO-TURPIN-MCVF-P,.101))
+  (ID 122X-PSEUDO-TURPIN-MCVF-P,266.101))
 
 ( (IP-MAT (CONJO e)
 	  (NP-SBJ *con*)
@@ -1892,7 +1892,7 @@
 	      (NP (D la@) (NCS @mer)))
 	  (NP-ACC (DZ sa) (NCS lance))
 	  (PONFP .))
-  (ID 122X-PSEUDO-TURPIN-MCVF-P,.102))
+  (ID 122X-PSEUDO-TURPIN-MCVF-P,266.102))
 
 ( (IP-MAT (CONJO e)
 	  (NP-SBJ *con*)
@@ -1909,7 +1909,7 @@
 				  (PP (P tres=qu#)
 				      (ADVP (ADV iloc))))))
 	  (PONFP .))
-  (ID 122X-PSEUDO-TURPIN-MCVF-P,.103))
+  (ID 122X-PSEUDO-TURPIN-MCVF-P,266.103))
 
 ( (IP-MAT (CONJO quar)
 	  (ADVP-1 (ADV oltra))
@@ -1919,7 +1919,7 @@
 	  (IP-INF (ADVP-DIR *ICH*-1)
 		  (VX aler))
 	  (PONFP .))
-  (ID 122X-PSEUDO-TURPIN-MCVF-P,.104))
+  (ID 122X-PSEUDO-TURPIN-MCVF-P,266.104))
 
 ( (IP-MAT (NP-LFD (D Les)
 		  (NCPL Gualiciens)
@@ -1950,7 +1950,7 @@
 			  (NP-COM (NPRS Turpín)
 				  (NP-PRN (D l#) (NCS arceuesque))))))
 	  (PONFP .))
-  (ID 122X-PSEUDO-TURPIN-MCVF-P,.105))
+  (ID 122X-PSEUDO-TURPIN-MCVF-P,266.105))
 
 ( (IP-MAT (NP-SBJ (PRO co))
 	  (VJ furent)
@@ -1970,7 +1970,7 @@
 				  (EPP este)
 				  (VPP baptize))))
 	  (PONFP .))
-  (ID 122X-PSEUDO-TURPIN-MCVF-P,.106))
+  (ID 122X-PSEUDO-TURPIN-MCVF-P,266.106))
 
 ( (IP-MAT (CONJO e)
 	  (NP-LFD (PRO cil)
@@ -1994,7 +1994,7 @@
 		  (NP-ACC *ICH*-3)
 		  (VX ocire))
 	  (PONFP .))
-  (ID 122X-PSEUDO-TURPIN-MCVF-P,.107))
+  (ID 122X-PSEUDO-TURPIN-MCVF-P,266.107))
 
 ( (IP-MAT (CONJO o)
 	  (NP-SBJ (PRO il))
@@ -2002,7 +2002,7 @@
 	  (PP (P en@)
 	      (NP (NCPL @chaitiuezons)))
 	  (PONFP .))
-  (ID 122X-PSEUDO-TURPIN-MCVF-P,.108))
+  (ID 122X-PSEUDO-TURPIN-MCVF-P,266.108))
 
 ( (IP-MAT (PP (P D#)
 	      (ADVP (ADV iloc)))
@@ -2019,7 +2019,7 @@
 		  (PP (P en)
 		      (NP (D l#) (ADJ autre))))
 	  (PONFP .))
-  (ID 122X-PSEUDO-TURPIN-MCVF-P,.109))
+  (ID 122X-PSEUDO-TURPIN-MCVF-P,266.109))
 
 ( (IP-MAT (NP-SBJ (NP (D les) (NCPL uiles))
 		  (CONJP (CONJO e)
@@ -2038,7 +2038,7 @@
 	  (CODE <milestone_unit="folio"_n="43d"$$>)
 	  (VPP apelees)
 	  (PONFP .))
-  (ID 122X-PSEUDO-TURPIN-MCVF-P,.110))
+  (ID 122X-PSEUDO-TURPIN-MCVF-P,266.110))
 
 ( (FRAG (PP (P en)
 	    (NP (D la)
@@ -2467,7 +2467,7 @@
 	    (PON .)
 	    (CONJP (NP (ETR Tellus) (ETR palaguorum)))
 	    (PONFP .)))
-  (ID 122X-PSEUDO-TURPIN-MCVF-P,.111))
+  (ID 122X-PSEUDO-TURPIN-MCVF-P,267.111))
 
 ( (CODE <pb_n="268"$$>))
 
@@ -2490,7 +2490,7 @@
 					   (AJ ai)
 					   (VPP nomees))))))
 	  (PONFP .))
-  (ID 122X-PSEUDO-TURPIN-MCVF-P,.113))
+  (ID 122X-PSEUDO-TURPIN-MCVF-P,268.113))
 
 ( (IP-MAT (IP-MAT-1 (ADVP (ADV si))
 		    (NP-SBJ *con*)
@@ -2524,7 +2524,7 @@
 						     (PP (P en@)
 							 (NP (NPRS @ualuert)))))))))
 	  (PONFP .))
-  (ID 122X-PSEUDO-TURPIN-MCVF-P,.114))
+  (ID 122X-PSEUDO-TURPIN-MCVF-P,268.114))
 
 ( (IP-MAT (NP-1 (PRO cele))
 	  (NEG ne)
@@ -2537,7 +2537,7 @@
 		      (PP (P a@)
 			  (NP (D @u) (NCS derreíran)))))
 	  (PONFP .))
-  (ID 122X-PSEUDO-TURPIN-MCVF-P,.115))
+  (ID 122X-PSEUDO-TURPIN-MCVF-P,268.115))
 
 ( (IP-MAT (PP (P A@)
 	      (NP (D @u@) (NCS @derreíran)))
@@ -2545,7 +2545,7 @@
 	  (VJ uínt)
 	  (PP (P a@)
 	      (NP (PRO @lj))))
-  (ID 122X-PSEUDO-TURPIN-MCVF-P,.116))
+  (ID 122X-PSEUDO-TURPIN-MCVF-P,268.116))
 
 ( (IP-MAT (CONJO et)
 	  (ADVP (ADV si))
@@ -2553,7 +2553,7 @@
 	  (CL-NP-ACC (CL l#))
 	  (VJ acist)
 	  (PONFP .))
-  (ID 122X-PSEUDO-TURPIN-MCVF-P,.117))
+  (ID 122X-PSEUDO-TURPIN-MCVF-P,268.117))
 
 ( (IP-MAT (CONJO e)
 	  (NP-SBJ *pro*)
@@ -2561,7 +2561,7 @@
 	  (VPP assegee)
 	  (NP-MSR (ADJNUM tres) (NCPL meis))
 	  (PONFP .))
-  (ID 122X-PSEUDO-TURPIN-MCVF-P,.118))
+  (ID 122X-PSEUDO-TURPIN-MCVF-P,268.118))
 
 ( (IP-MAT (CONJO e)
 	  (NP-SBJ *pro*)
@@ -2571,14 +2571,14 @@
 		  (CONJP (CONJO e)
 			 (NP (DAT a@) (NPRS @saint) (NPRS Jaque))))
 	  (PONFP .))
-  (ID 122X-PSEUDO-TURPIN-MCVF-P,.119))
+  (ID 122X-PSEUDO-TURPIN-MCVF-P,268.119))
 
 ( (IP-MAT (CONJO e@)
 	  (ADVP-TMP (ADV @lor))
 	  (VJ cheirent)
 	  (NP-SBJ (D lí) (NCPL mur))
 	  (PONFP .))
-  (ID 122X-PSEUDO-TURPIN-MCVF-P,.120))
+  (ID 122X-PSEUDO-TURPIN-MCVF-P,268.120))
 
 ( (IP-MAT (CONJO e)
 	  (NP-SBJ *pro*)
@@ -2587,7 +2587,7 @@
 	  (PP (P ius=qu@)
 	      (ADVP (ADV @au=ior=duj)))
 	  (PONFP .))
-  (ID 122X-PSEUDO-TURPIN-MCVF-P,.121))
+  (ID 122X-PSEUDO-TURPIN-MCVF-P,268.121))
 
 ( (IP-MAT (NP-PRD (D vns)
 		  (NCS lacs)
@@ -2596,7 +2596,7 @@
 	  (VJ deuint)
 	  (ADJP-1 (Q molt) (ADJ ners))
 	  (PONFP .))
-  (ID 122X-PSEUDO-TURPIN-MCVF-P,.122))
+  (ID 122X-PSEUDO-TURPIN-MCVF-P,268.122))
 
 ( (IP-MAT (ADVP-TMP (ADV or))
 	  (NP-SBJ=1 *proimp*)
@@ -2604,14 +2604,14 @@
 	  (NP-1 (NCPL peissonz)
 		(QP (Q assez)))
 	  (PONFP .))
-  (ID 122X-PSEUDO-TURPIN-MCVF-P,.123))
+  (ID 122X-PSEUDO-TURPIN-MCVF-P,268.123))
 
 ( (IP-MAT (CONJO mes)
 	  (NP-SBJ (Q tuit))
 	  (VJ sont)
 	  (ADJP-PRD (ADJ ner))
 	  (PONFP .))
-  (ID 122X-PSEUDO-TURPIN-MCVF-P,.124))
+  (ID 122X-PSEUDO-TURPIN-MCVF-P,268.124))
 
 ( (IP-MAT (NP-1 (NCPL Tes)
 		(PP *ICH*-2))
@@ -2658,7 +2658,7 @@
 						(NCS auenament)
 						(NP-COM (NPRS Karla)))))))))
 	  (PONFP .))
-  (ID 122X-PSEUDO-TURPIN-MCVF-P,.125))
+  (ID 122X-PSEUDO-TURPIN-MCVF-P,268.125))
 
 ( (IP-MAT (CONJO e)
 	  (PP (P apres)
@@ -2672,14 +2672,14 @@
 	  (PP (P sor)
 	      (NP (NCPL sarrazíns)))
 	  (PONFP .))
-  (ID 122X-PSEUDO-TURPIN-MCVF-P,.126))
+  (ID 122X-PSEUDO-TURPIN-MCVF-P,268.126))
 
 ( (IP-MAT (CONJO e)
 	  (ADVP (ADV si))
 	  (NP-SBJ *con*)
 	  (VJ conbatirent)
 	  (PONFP .))
-  (ID 122X-PSEUDO-TURPIN-MCVF-P,.127))
+  (ID 122X-PSEUDO-TURPIN-MCVF-P,268.127))
 
 ( (IP-MAT (NP-LFD (NP (NPRS Cloueus)
 		      (CP-REL (WNP-1 (WPRO qui))
@@ -2706,7 +2706,7 @@
 		  (PP (P d#)
 		      (NP (NPRS espaigne))))
 	  (PONFP .))
-  (ID 122X-PSEUDO-TURPIN-MCVF-P,.128))
+  (ID 122X-PSEUDO-TURPIN-MCVF-P,268.128))
 
 ( (IP-MAT (CONJO e)
 	  (NP-ACC (NCS partie))
@@ -2718,7 +2718,7 @@
 		      (IP-INF (NP-ACC *T*-1)
 			      (VX @conquere))))
 	  (PONFP .))
-  (ID 122X-PSEUDO-TURPIN-MCVF-P,.129))
+  (ID 122X-PSEUDO-TURPIN-MCVF-P,268.129))
 
 ( (IP-MAT (CONJO mes)
 	  (NP-SBJ (D iquist) (NPRS Karl'maines))
@@ -2728,7 +2728,7 @@
 	  (PP (P en@)
 	      (NP (DZ @son) (NCS tens)))
 	  (PONFP .))
-  (ID 122X-PSEUDO-TURPIN-MCVF-P,.130))
+  (ID 122X-PSEUDO-TURPIN-MCVF-P,268.130))
 
 ( (IP-MAT (CONJO E)
 	  (CODE <milestone_unit="folio"_n="43bis_d"$$>)
@@ -2741,7 +2741,7 @@
 				  (NP-SBJ (PRO il))
 				  (VJ conquist))))
 	  (PONFP .))
-  (ID 122X-PSEUDO-TURPIN-MCVF-P,.131))
+  (ID 122X-PSEUDO-TURPIN-MCVF-P,268.131))
 
 ( (IP-MAT (ADVP-TMP (ADV or))
 	  (NP-SBJ *pro*)
@@ -2749,7 +2749,7 @@
 	  (NP-ACC (ADJP (Q molt) (ADJ grant))
 		  (NCS trauail))
 	  (PONFP .))
-  (ID 122X-PSEUDO-TURPIN-MCVF-P,.132))
+  (ID 122X-PSEUDO-TURPIN-MCVF-P,268.132))
 
 ( (IP-MAT (CONJO e)
 	  (ADVP-TMP (ADV puís))
@@ -2758,7 +2758,7 @@
 	  (CL-NP-ACC (CL les))
 	  (VJ moudist)
 	  (PONFP .))
-  (ID 122X-PSEUDO-TURPIN-MCVF-P,.133))
+  (ID 122X-PSEUDO-TURPIN-MCVF-P,268.133))
 
 ( (IP-MAT (CONJO e)
 	  (PP (P par)
@@ -2769,7 +2769,7 @@
 	  (PP (P sanz)
 	      (NP (NCPL habiteors)))
 	  (PONFP .))
-  (ID 122X-PSEUDO-TURPIN-MCVF-P,.134))
+  (ID 122X-PSEUDO-TURPIN-MCVF-P,268.134))
 
 ( (NP (NP (NPRS Luizerna))
       (PON .)
@@ -2778,7 +2778,7 @@
       (PON .)
       (CONJP (NP (D les) (NCPL ydres)))
       (PONFP .))
-  (ID 122X-PSEUDO-TURPIN-MCVF-P,.135))
+  (ID 122X-PSEUDO-TURPIN-MCVF-P,268.135))
 
 ( (IP-MAT (CONJO e)
 	  (NP-LFD (D les)
@@ -2817,7 +2817,7 @@
 				    (IP-SMC (NP-SBJ *-5)
 					    (NP-PRD (NPRS salamcades)))))))
 	  (PONFP .))
-  (ID 122X-PSEUDO-TURPIN-MCVF-P,.136))
+  (ID 122X-PSEUDO-TURPIN-MCVF-P,268.136))
 
 ( (IP-MAT (IP-SMC (NP-PRD (NPRS cades))
 		  (NP-SBJ *-1))
@@ -2833,7 +2833,7 @@
 			    (VJ est)
 			    (NP-SBJ (NPRS salam))))
 	  (PONFP .))
-  (ID 122X-PSEUDO-TURPIN-MCVF-P,.137))
+  (ID 122X-PSEUDO-TURPIN-MCVF-P,268.137))
 
 ( (IP-MAT (NP-SBJ (NPRS Salam))
 	  (VJ dit)
@@ -2851,7 +2851,7 @@
 				  (PP (P en@)
 				      (NP (NCS @franceis))))))
 	  (PONFP .))
-  (ID 122X-PSEUDO-TURPIN-MCVF-P,.138))
+  (ID 122X-PSEUDO-TURPIN-MCVF-P,268.138))
 
 ( (IP-MAT (CONJO e)
 	  (ADVP (ADV si))
@@ -2885,7 +2885,7 @@
 					 (PP (P par)
 					     (NP (NCS enchantement)))))))
 	  (PONFP .))
-  (ID 122X-PSEUDO-TURPIN-MCVF-P,.139))
+  (ID 122X-PSEUDO-TURPIN-MCVF-P,268.139))
 
 ( (IP-MAT (CONJO e)
 	  (ADVP (ADV si))
@@ -2912,7 +2912,7 @@
 									  (IP-INF (NP-ACC *ICH*-1)
 										  (VX de=pesser)))))))))))
 	  (PONFP .))
-  (ID 122X-PSEUDO-TURPIN-MCVF-P,.140))
+  (ID 122X-PSEUDO-TURPIN-MCVF-P,268.140))
 
 ( (IP-MAT (ADVP-TMP (ADV Maintes=fez))
 	  (NP-SBJ=1 *proimp*)
@@ -2930,7 +2930,7 @@
 			    (VJ periglot)
 			    (ADVP (ADV enep=lepas))))
 	  (PONFP .))
-  (ID 122X-PSEUDO-TURPIN-MCVF-P,.141))
+  (ID 122X-PSEUDO-TURPIN-MCVF-P,268.141))
 
 ( (IP-MAT (CONJO E)
 	  (CP-ADV (CONJS quant)
@@ -2956,7 +2956,7 @@
 	  (CL-PP (CL en))
 	  (VJ parteit)
 	  (PONFP .))
-  (ID 122X-PSEUDO-TURPIN-MCVF-P,.142))
+  (ID 122X-PSEUDO-TURPIN-MCVF-P,268.142))
 
 ( (IP-MAT (NP-SBJ (D Cela) (NCS ymagre))
 	  (ADVP (ADV si))
@@ -2976,7 +2976,7 @@
 				    (NP-SBJ *pro*)
 				    (VJ moreit))))
 	  (PONFP .))
-  (ID 122X-PSEUDO-TURPIN-MCVF-P,.143))
+  (ID 122X-PSEUDO-TURPIN-MCVF-P,268.143))
 
 ( (IP-MAT (PP (P En)
 	      (NP (D la)
@@ -3009,7 +3009,7 @@
 			(CONJP (CONJO e)
 			       (ADJP (Q molt) (ADJ lee)))))
 	  (PONFP .))
-  (ID 122X-PSEUDO-TURPIN-MCVF-P,.144))
+  (ID 122X-PSEUDO-TURPIN-MCVF-P,269.144))
 
 ( (IP-MAT (ADVP (ADV si))
 	  (NP-SBJ *con*)
@@ -3028,7 +3028,7 @@
 							 (PP (P en)
 							     (ADJP (ADJ aut)))))))))
 	  (PONFP .))
-  (ID 122X-PSEUDO-TURPIN-MCVF-P,.145))
+  (ID 122X-PSEUDO-TURPIN-MCVF-P,269.145))
 
 ( (IP-MAT (CONJO e)
 	  (PP (P desus)
@@ -3046,7 +3046,7 @@
 			  (CODE <note_resp="editor"_content="?"_var="musique_?_in_cod._124"$$>)
 			  (ADVP (Q molt) (ADV tres) (ADV bien))))
 	  (PONFP .))
-  (ID 122X-PSEUDO-TURPIN-MCVF-P,.146))
+  (ID 122X-PSEUDO-TURPIN-MCVF-P,269.146))
 
 ( (IP-MAT (CONJO e)
 	  (ADVP (ADV si))
@@ -3056,7 +3056,7 @@
 		  (PP (P d#)
 		      (NP (NCS ome))))
 	  (PONFP .))
-  (ID 122X-PSEUDO-TURPIN-MCVF-P,.147))
+  (ID 122X-PSEUDO-TURPIN-MCVF-P,269.147))
 
 ( (IP-MAT (CONJO e)
 	  (ADVP (ADV si))
@@ -3066,7 +3066,7 @@
 		    (PP (P sor)
 			(NP (DZ ses) (NCPL piez))))
 	  (PONFP .))
-  (ID 122X-PSEUDO-TURPIN-MCVF-P,.148))
+  (ID 122X-PSEUDO-TURPIN-MCVF-P,269.148))
 
 ( (IP-MAT (CONJO e)
 	  (ADVP (ADV si))
@@ -3075,7 +3075,7 @@
 	  (PP (P uers)
 	      (NP (NCS meidj)))
 	  (PONFP .))
-  (ID 122X-PSEUDO-TURPIN-MCVF-P,.149))
+  (ID 122X-PSEUDO-TURPIN-MCVF-P,269.149))
 
 ( (IP-MAT (CONJO E)
 	  (CODE <milestone_unit="folio"_n="44b"$$>)
@@ -3096,7 +3096,7 @@
 					  (NP-DTV *ICH*-2)
 					  (VX tolír)))))
 	  (PONFP .))
-  (ID 122X-PSEUDO-TURPIN-MCVF-P,.150))
+  (ID 122X-PSEUDO-TURPIN-MCVF-P,269.150))
 
 ( (IP-MAT (CONJO e)
 	  (VJ dizoent)
@@ -3124,7 +3124,7 @@
 								(IP-INF (VX @tenír)
 									(NP-ACC (NCS crestiante))))))))))
 	  (PONFP .))
-  (ID 122X-PSEUDO-TURPIN-MCVF-P,.151))
+  (ID 122X-PSEUDO-TURPIN-MCVF-P,269.151))
 
 ( (IP-MAT (CONJO Mes)
 	  (NP-SBJ (PRO co))
@@ -3132,7 +3132,7 @@
 	  (PP (P a@)
 	      (NP (D @u) (ADJ derreiran) (NCS tens)))
 	  (PONFP .))
-  (ID 122X-PSEUDO-TURPIN-MCVF-P,.152))
+  (ID 122X-PSEUDO-TURPIN-MCVF-P,269.152))
 
 ( (IP-MAT (NP-ACC (PRO co))
 	  (AJ aueiant)
@@ -3149,7 +3149,7 @@
 						  (IP-PPL (VPP cheua)))
 					  (VG rebosissant)))))
 	  (PONFP .))
-  (ID 122X-PSEUDO-TURPIN-MCVF-P,.153))
+  (ID 122X-PSEUDO-TURPIN-MCVF-P,269.153))
 
 ( (IP-MAT (CONJO E)
 	  (ADVP (ADV si))
@@ -3170,7 +3170,7 @@
 				  (VJ donarent)
 				  (NP-DTV (DAT a) (NPRS Karl'=maíne))))))
 	  (PONFP .))
-  (ID 122X-PSEUDO-TURPIN-MCVF-P,.154))
+  (ID 122X-PSEUDO-TURPIN-MCVF-P,269.154))
 
 ( (IP-MAT (ADVP (ADV si))
 	  (NP-SBJ *pro*)
@@ -3178,7 +3178,7 @@
 	  (NP-ACC (D le)
 		  (NCS mostier)
 		  (NP-COM (NPRS saint) (NPRS Jaque))))
-  (ID 122X-PSEUDO-TURPIN-MCVF-P,.155))
+  (ID 122X-PSEUDO-TURPIN-MCVF-P,269.155))
 
 ( (IP-MAT (CONJO e)
 	  (NP-SBJ *pro*)
@@ -3194,7 +3194,7 @@
 				  (PP (P en)
 				      (NP (D ces) (NCPL parties)))))))
 	  (PONFP .))
-  (ID 122X-PSEUDO-TURPIN-MCVF-P,.156))
+  (ID 122X-PSEUDO-TURPIN-MCVF-P,269.156))
 
 ( (IP-MAT-1 (CONJO e)
 	    (ADVP (ADV si))
@@ -3215,7 +3215,7 @@
 				    (VJ fu)
 				    (NP-PRD (NCS euesques) (CONJO e) (NCS confessors)))))
 	    (PONFP .))
-  (ID 122X-PSEUDO-TURPIN-MCVF-P,.157))
+  (ID 122X-PSEUDO-TURPIN-MCVF-P,269.157))
 
 ( (IP-MAT (CONJO e)
 	  (ADVP (ADV si))
@@ -3238,7 +3238,7 @@
 		     (PP (P d#)
 			 (NP (ADJ autres) (NCPL ornemenz)))))
 	  (PONFP .))
-  (ID 122X-PSEUDO-TURPIN-MCVF-P,.158))
+  (ID 122X-PSEUDO-TURPIN-MCVF-P,269.158))
 
 ( (IP-MAT (NP-SBJ (PRO Il))
 	  (VJ aueient)
@@ -3248,7 +3248,7 @@
 		  (CONJP (CONJO e)
 			 (NX (NCS argent))))
 	  (PONFP .))
-  (ID 122X-PSEUDO-TURPIN-MCVF-P,.159))
+  (ID 122X-PSEUDO-TURPIN-MCVF-P,269.159))
 
 ( (IP-MAT (ADVP (ADV si))
 	  (NP-SBJ *pro*)
@@ -3258,7 +3258,7 @@
 	  (PP (P d#)
 	      (NP (NPRS espaigne)))
 	  (PONFP .))
-  (ID 122X-PSEUDO-TURPIN-MCVF-P,.160))
+  (ID 122X-PSEUDO-TURPIN-MCVF-P,269.160))
 
 ( (IP-MAT (CONJO e)
 	  (ADVP (ADV si))
@@ -3266,7 +3266,7 @@
 	  (VJ fit)
 	  (NP-ACC (Q maintes) (NCPL iglises))
 	  (PONFP .))
-  (ID 122X-PSEUDO-TURPIN-MCVF-P,.161))
+  (ID 122X-PSEUDO-TURPIN-MCVF-P,269.161))
 
 ( (IP-MAT (IP-MAT-1 (CONJO quar)
 		    (NP-SBJ (PRO il))
@@ -3341,7 +3341,7 @@
 						   (PP (P entra)
 						       (NP (NPRS Seine) (PON .) (CONJO e) (NPRS mont=Martre))))))))
 	  (PONFP .))
-  (ID 122X-PSEUDO-TURPIN-MCVF-P,.162))
+  (ID 122X-PSEUDO-TURPIN-MCVF-P,269.162))
 
 ( (IP-MAT (NP-ACC (NCPL Iglises)
 		  (CONJO et)
@@ -3368,7 +3368,7 @@
 						(PP *ICH*-5)
 						(VX mentauer))))))
 	  (PONFP .))
-  (ID 122X-PSEUDO-TURPIN-MCVF-P,.163))
+  (ID 122X-PSEUDO-TURPIN-MCVF-P,269.163))
 
 ( (IP-MAT (PP (P Apres)
 	      (NP (PRO ce)
@@ -3395,7 +3395,7 @@
 	  (PP (P en)
 	      (NP (NPRS espaigne)))
 	  (PONFP .))
-  (ID 122X-PSEUDO-TURPIN-MCVF-P,.164))
+  (ID 122X-PSEUDO-TURPIN-MCVF-P,269.164))
 
 ( (IP-MAT (ADVP (ADV si))
 	  (NP-SBJ *con*)
@@ -3403,7 +3403,7 @@
 	  (NP-ACC (ADJP (Q molt) (ADJ grant))
 		  (NCS ost))
 	  (PONFP .))
-  (ID 122X-PSEUDO-TURPIN-MCVF-P,.165))
+  (ID 122X-PSEUDO-TURPIN-MCVF-P,269.165))
 
 ( (IP-MAT (CONJO e)
 	  (ADVP (ADV si))
@@ -3411,7 +3411,7 @@
 	  (VJ prist)
 	  (NP-ACC (Q tota) (D la) (NCS terra))
 	  (PONFP .))
-  (ID 122X-PSEUDO-TURPIN-MCVF-P,.166))
+  (ID 122X-PSEUDO-TURPIN-MCVF-P,269.166))
 
 ( (IP-MAT (CONJO e)
 	  (NP-SBJ (PRO om))
@@ -3420,7 +3420,7 @@
 	  (VJ rendj)
 	  (QP (Q tote))
 	  (PONFP .))
-  (ID 122X-PSEUDO-TURPIN-MCVF-P,.167))
+  (ID 122X-PSEUDO-TURPIN-MCVF-P,269.167))
 
 ( (IP-MAT (CONJO e)
 	  (ADVP (ADV si))
@@ -3434,7 +3434,7 @@
 				  (CL-PP (CL en))
 				  (VJ fu)
 				  (NP-1 (Q nus) (NCS nombres))))))
-  (ID 122X-PSEUDO-TURPIN-MCVF-P,.168))
+  (ID 122X-PSEUDO-TURPIN-MCVF-P,269.168))
 
 ( (CODE <milestone_unit="folio"_n="44d"$$>))
 
@@ -3457,7 +3457,7 @@
 						       (PP (P por)
 							   (IP-INF (VX garder))))))))))
 	  (PONFP .))
-  (ID 122X-PSEUDO-TURPIN-MCVF-P,.170))
+  (ID 122X-PSEUDO-TURPIN-MCVF-P,269.170))
 
 ( (IP-MAT (CP-ADV (CONJS Quant)
 		  (IP-SUB (NP-SBJ *pro*)
@@ -3468,7 +3468,7 @@
 	  (VJ assembla)
 	  (NP-ACC (DZ ses) (NCPL oz))
 	  (PONFP .))
-  (ID 122X-PSEUDO-TURPIN-MCVF-P,.171))
+  (ID 122X-PSEUDO-TURPIN-MCVF-P,269.171))
 
 ( (IP-MAT (CONJO e)
 	  (NP-SBJ *con*)
@@ -3476,7 +3476,7 @@
 	  (PP (P en)
 	      (NP (NPRS espaigne)))
 	  (PONFP .))
-  (ID 122X-PSEUDO-TURPIN-MCVF-P,.172))
+  (ID 122X-PSEUDO-TURPIN-MCVF-P,269.172))
 
 ( (IP-MAT (CONJO e)
 	  (ADVP (ADV si))
@@ -3491,7 +3491,7 @@
 			  (VJ fu)
 			  (NP-1 (Q nus) (NCS nonbres))))
 	  (PONFP .))
-  (ID 122X-PSEUDO-TURPIN-MCVF-P,.173))
+  (ID 122X-PSEUDO-TURPIN-MCVF-P,269.173))
 
 ( (IP-MAT (PP (P A)
 	      (CODE <pb_n="270"$$>)
@@ -3513,7 +3513,7 @@
 					  (PP (P d@)
 					      (NP (D @es) (NCPL os)))))))
 	  (PONFP .))
-  (ID 122X-PSEUDO-TURPIN-MCVF-P,.174))
+  (ID 122X-PSEUDO-TURPIN-MCVF-P,270.174))
 
 ( (IP-MAT (CONJO Mes)
 	  (NP-1 (PRO co)
@@ -3548,7 +3548,7 @@
 										   (CL-NP-ACC (CL les))
 										   (VJ retenent)))))))))
 	  (PONFP .))
-  (ID 122X-PSEUDO-TURPIN-MCVF-P,.175))
+  (ID 122X-PSEUDO-TURPIN-MCVF-P,270.175))
 
 ( (IP-MAT (CONJO quar)
 	  (CP-ADV (CONJS quant)
@@ -3587,12 +3587,12 @@
 			    (NP-ACC (NCS nom))
 			    (NP-SPR (NPRS Romastes))))
 	  (PONFP .))
-  (ID 122X-PSEUDO-TURPIN-MCVF-P,.176))
+  (ID 122X-PSEUDO-TURPIN-MCVF-P,270.176))
 
 ( (IP-MAT (NP-SBJ (PRO Il))
 	  (VJ manda)
 	  (NP-ACC (D le) (NCS prouoire)))
-  (ID 122X-PSEUDO-TURPIN-MCVF-P,.177))
+  (ID 122X-PSEUDO-TURPIN-MCVF-P,270.177))
 
 ( (IP-MAT (ADVP (ADV si))
 	  (NP-SBJ *con*)
@@ -3601,14 +3601,14 @@
 	  (IP-SMC (NP-SBJ *ICH*-1)
 		  (NP-PRD (NCS confes)))
 	  (PONFP .))
-  (ID 122X-PSEUDO-TURPIN-MCVF-P,.178))
+  (ID 122X-PSEUDO-TURPIN-MCVF-P,270.178))
 
 ( (IP-MAT (CONJO e)
 	  (NP-SBJ *con*)
 	  (VJ recut)
 	  (NP-ACC (ETR corpus) (ETR dnj))
 	  (PONFP .))
-  (ID 122X-PSEUDO-TURPIN-MCVF-P,.179))
+  (ID 122X-PSEUDO-TURPIN-MCVF-P,270.179))
 
 ( (IP-MAT (CONJO E)
 	  (ADVP-TMP (ADV apres))
@@ -3616,7 +3616,7 @@
 	  (NP-SBJ *con*)
 	  (VJ de=partj)
 	  (NP-ACC (D la) (ADJZ soa) (NCS chose)))
-  (ID 122X-PSEUDO-TURPIN-MCVF-P,.180))
+  (ID 122X-PSEUDO-TURPIN-MCVF-P,270.180))
 
 ( (IP-MAT (NP-SBJ (PRO il))
 	  (VJ aueit)
@@ -3629,7 +3629,7 @@
 				  (VJ balia)
 				  (NP-DTV (DAT a) (D un) (ADJZ son) (NCS parent)))))
 	  (PONFP .))
-  (ID 122X-PSEUDO-TURPIN-MCVF-P,.181))
+  (ID 122X-PSEUDO-TURPIN-MCVF-P,270.181))
 
 ( (IP-MAT (ADVP (ADV si))
 	  (NP-SBJ *con*)
@@ -3662,13 +3662,13 @@
 						 (CONJP (CONJO e)
 							(NP (DAT a@) (D @us) (NCPL prouoires))))))))
 	  (PONFP .))
-  (ID 122X-PSEUDO-TURPIN-MCVF-P,.182))
+  (ID 122X-PSEUDO-TURPIN-MCVF-P,270.182))
 
 ( (IP-MAT (NP-SBJ (NPRS Romaires))
 	  (EJ fu)
 	  (VPP morz)
 	  (PONFP .))
-  (ID 122X-PSEUDO-TURPIN-MCVF-P,.183))
+  (ID 122X-PSEUDO-TURPIN-MCVF-P,270.183))
 
 ( (IP-MAT (NP-SBJ (PRO cil))
 	  (NEG ne)
@@ -3679,7 +3679,7 @@
 		  (PP (P d@)
 		      (NP (D @au) (NCS mort))))
 	  (PONFP .))
-  (ID 122X-PSEUDO-TURPIN-MCVF-P,.184))
+  (ID 122X-PSEUDO-TURPIN-MCVF-P,270.184))
 
 ( (IP-MAT (CONJO e)
 	  (NP-SBJ (PRO cil))
@@ -3687,18 +3687,18 @@
 	  (NP-ACC (D le) (NCS chíual))
 	  (NP-MSR (ADJNUM .c.) (NCPL sol'))
 	  (PONFP .))
-  (ID 122X-PSEUDO-TURPIN-MCVF-P,.185))
+  (ID 122X-PSEUDO-TURPIN-MCVF-P,270.185))
 
 ( (IP-MAT (NP-SBJ (PRO cil))
 	  (VJ fu)
 	  (ADJP-PRD (ADJ enueíos) (CONJO e) (ADJ coueitos)))
-  (ID 122X-PSEUDO-TURPIN-MCVF-P,.186))
+  (ID 122X-PSEUDO-TURPIN-MCVF-P,270.186))
 
 ( (IP-MAT (NP-SBJ (NCPL diable))
 	  (CL-NP-ACC (CL l#))
 	  (VJ engíníarent)
 	  (PONFP .))
-  (ID 122X-PSEUDO-TURPIN-MCVF-P,.187))
+  (ID 122X-PSEUDO-TURPIN-MCVF-P,270.187))
 
 ( (IP-MAT (CONJO quar)
 	  (NP-SBJ (PRO il))
@@ -3711,7 +3711,7 @@
 				  (VJ oc)
 				  (PP (P de@)
 				      (NP (D @l) (NCS chíual)))))))
-  (ID 122X-PSEUDO-TURPIN-MCVF-P,.188))
+  (ID 122X-PSEUDO-TURPIN-MCVF-P,270.188))
 
 ( (IP-MAT (IP-MAT-1 (ADVP (ADV si))
 		    (NP-SBJ *con*)
@@ -3737,7 +3737,7 @@
 		 (IP-MAT=1 (NP (PRO eco))
 			   (ADVP-TMP (Q molt) (ADV tost))))
 	  (PONFP .))
-  (ID 122X-PSEUDO-TURPIN-MCVF-P,.189))
+  (ID 122X-PSEUDO-TURPIN-MCVF-P,270.189))
 
 ( (IP-MAT (CONJO Mes)
 	  (PP (P a)
@@ -3761,7 +3761,7 @@
 	      (IP-INF (VX soffrir)
 		      (NP-MSR (ADJNUM .xxx.) (NCPL iors))))
 	  (PONFP .))
-  (ID 122X-PSEUDO-TURPIN-MCVF-P,.190))
+  (ID 122X-PSEUDO-TURPIN-MCVF-P,270.190))
 
 ( (IP-MAT (CONJO E)
 	  (PP (P a@)
@@ -3774,7 +3774,7 @@
 	  (NP-SBJ (D li) (NCS mors))
 	  (NP-DTV (DAT a@) (D @u) (NCS uíf))
 	  (PONFP .))
-  (ID 122X-PSEUDO-TURPIN-MCVF-P,.191))
+  (ID 122X-PSEUDO-TURPIN-MCVF-P,270.191))
 
 ( (IP-MAT (CONJO e)
 	  (ADVP (ADV si))
@@ -3798,7 +3798,7 @@
 					      (PP (P de)
 						  (NP (DZ m#) (NCS arme))))))))
 	  (PONFP .))
-  (ID 122X-PSEUDO-TURPIN-MCVF-P,.192))
+  (ID 122X-PSEUDO-TURPIN-MCVF-P,270.192))
 
 ( (IP-MAT-SPE (CONJO E)
 	      (NP-SBJ (PRO tu))
@@ -3807,7 +3807,7 @@
 	      (NP-ACC (Q rien))
 	      (VPP faít)
 	      (PONFP .))
-  (ID 122X-PSEUDO-TURPIN-MCVF-P,.193))
+  (ID 122X-PSEUDO-TURPIN-MCVF-P,270.193))
 
 ( (IP-IMP-SPE (VJ saches)
 	      (CP-THT-SPE (CONJS que)
@@ -3818,7 +3818,7 @@
 				      (VPP par=donez)
 				      (NP-ACC (Q toz) (DZ mez) (NCPL pechez))))
 	      (PONFP .))
-  (ID 122X-PSEUDO-TURPIN-MCVF-P,.194))
+  (ID 122X-PSEUDO-TURPIN-MCVF-P,270.194))
 
 ( (IP-MAT-SPE (CONJO e)
 	      (PP (P por)
@@ -3837,7 +3837,7 @@
 	      (PP (P en)
 		  (NP (NPRS enfer)))
 	      (PONFP .))
-  (ID 122X-PSEUDO-TURPIN-MCVF-P,.195))
+  (ID 122X-PSEUDO-TURPIN-MCVF-P,270.195))
 
 ( (IP-MAT-SPE (IP-MAT-1-SPE (CONJO e)
 			    (ADVP (ADV si))
@@ -3854,7 +3854,7 @@
 					   (CONJP (CONJO e)
 						  (NP (D les) (NCPL trauuaus))))))
 	      (PONFP .))
-  (ID 122X-PSEUDO-TURPIN-MCVF-P,.196))
+  (ID 122X-PSEUDO-TURPIN-MCVF-P,270.196))
 
 ( (IP-MAT-SPE (CONJO e)
 	      (NP-SBJ (PRO tu))
@@ -3870,7 +3870,7 @@
 					      (EJ soj)
 					      (VPP issuz)))))
 	      (PONFP .))
-  (ID 122X-PSEUDO-TURPIN-MCVF-P,.197))
+  (ID 122X-PSEUDO-TURPIN-MCVF-P,270.197))
 
 ( (IP-MAT-SPE (CONJO e)
 	      (NP-SBJ *con*)
@@ -3881,7 +3881,7 @@
 		      (ADJP (ADJ meisme))))
 	      (PONFP .)
 	      (CODE <$$q>))
-  (ID 122X-PSEUDO-TURPIN-MCVF-P,.198))
+  (ID 122X-PSEUDO-TURPIN-MCVF-P,270.198))
 
 ( (IP-MAT (CP-ADV (CONJS Quant)
 		  (IP-SUB (NP-ACC (PRO co))
@@ -3892,7 +3892,7 @@
 	  (CL-NP-RFL (CL s#))
 	  (VJ es=uanuj)
 	  (PONFP .))
-  (ID 122X-PSEUDO-TURPIN-MCVF-P,.199))
+  (ID 122X-PSEUDO-TURPIN-MCVF-P,270.199))
 
 ( (IP-MAT (CONJO e)
 	  (NP-SBJ (D li)
@@ -3907,7 +3907,7 @@
 			    (NP-MSR (Q molt))
 			    (VPP espaontez)))
 	  (PONFP .))
-  (ID 122X-PSEUDO-TURPIN-MCVF-P,.200))
+  (ID 122X-PSEUDO-TURPIN-MCVF-P,270.200))
 
 ( (IP-MAT (PP (P A@)
 	      (NP (D @u) (NCS matin)))
@@ -3919,7 +3919,7 @@
 		      (NP-ACC (DZ sa@) (NCS @uísion))
 		      (NP-DTV (DAT a) (Q toz))))
 	  (PONFP .))
-  (ID 122X-PSEUDO-TURPIN-MCVF-P,.201))
+  (ID 122X-PSEUDO-TURPIN-MCVF-P,270.201))
 
 ( (IP-MAT-1 (CONJO e)
 	    (NP-SBJ (Q tota) (D l#) (NCS oz))
@@ -3932,7 +3932,7 @@
 	    (IP-MAT-PRN=1 (NP-SBJ (D li) (NCS uns))
 			  (NP-DTV (DAT a) (D l#) (NCS autre)))
 	    (PONFP .))
-  (ID 122X-PSEUDO-TURPIN-MCVF-P,.202))
+  (ID 122X-PSEUDO-TURPIN-MCVF-P,270.202))
 
 ( (IP-MAT (CONJO E)
 	  (NP-MSR (Q molt))
@@ -3942,7 +3942,7 @@
 	  (PP (P de)
 	      (NP (D cela) (NCS uision)))
 	  (PONFP .))
-  (ID 122X-PSEUDO-TURPIN-MCVF-P,.203))
+  (ID 122X-PSEUDO-TURPIN-MCVF-P,270.203))
 
 ( (IP-MAT (CONJO E)
 	  (ADVP-TMP (ADV lors))
@@ -3956,7 +3956,7 @@
 	  (PP (P sor)
 	      (NP (D le) (NCS chaitif)))
 	  (PONFP .))
-  (ID 122X-PSEUDO-TURPIN-MCVF-P,.204))
+  (ID 122X-PSEUDO-TURPIN-MCVF-P,270.204))
 
 ( (IP-MAT (CONJO E)
 	  (NP-SBJ (D cil) (NCS criz))
@@ -3974,7 +3974,7 @@
 				     (NCPL bestes)
 				     (ADJP (ADJ saluagies)))))))
 	  (PONFP .))
-  (ID 122X-PSEUDO-TURPIN-MCVF-P,.205))
+  (ID 122X-PSEUDO-TURPIN-MCVF-P,270.205))
 
 ( (IP-MAT (ADVP-TMP (ADV Maintenant))
 	  (ADVP (ADV si))
@@ -3984,7 +3984,7 @@
 	  (PP (P d#)
 	      (PP (P entra)
 		  (NP (D la@) (NCS @gent)))))
-  (ID 122X-PSEUDO-TURPIN-MCVF-P,.206))
+  (ID 122X-PSEUDO-TURPIN-MCVF-P,270.206))
 
 ( (IP-MAT (CONJO e)
 	  (ADVP (ADV si))
@@ -3993,7 +3993,7 @@
 	  (NP-SBJ (NCPL diable))
 	  (IP-PPL (Q tot) (VG ullant))
 	  (PONFP .))
-  (ID 122X-PSEUDO-TURPIN-MCVF-P,.207))
+  (ID 122X-PSEUDO-TURPIN-MCVF-P,270.207))
 
 ( (IP-MAT (NP-SBJ (PRO Il))
 	  (EJ fu)
@@ -4016,7 +4016,7 @@
 			 (NP (NCS gent)
 			     (PP (P a)
 				 (NP (NCS cheual))))))))
-  (ID 122X-PSEUDO-TURPIN-MCVF-P,.208))
+  (ID 122X-PSEUDO-TURPIN-MCVF-P,270.208))
 
 ( (CODE <milestone_unit="folio"_n="45c"$$>))
 
@@ -4028,7 +4028,7 @@
 	  (IP-INF (NP-ACC *ICH*-1)
 		  (VX trouer))
 	  (PONFP .))
-  (ID 122X-PSEUDO-TURPIN-MCVF-P,.210))
+  (ID 122X-PSEUDO-TURPIN-MCVF-P,270.210))
 
 ( (IP-MAT (PP (P En)
 	      (NP (D la) (NCS fin)))
@@ -4076,7 +4076,7 @@
 	      (P de)
 	      (NP (NCS uoie)))
 	  (PONFP .))
-  (ID 122X-PSEUDO-TURPIN-MCVF-P,.211))
+  (ID 122X-PSEUDO-TURPIN-MCVF-P,271.211))
 
 ( (IP-MAT (CONJO e)
 	  (PP (P sor)
@@ -4089,7 +4089,7 @@
 			(NP (D la) (NCS cite)))
 		    (NP-MSR (ADJNUM .iiii.) (NCPL iornees)))
 	  (PONFP .))
-  (ID 122X-PSEUDO-TURPIN-MCVF-P,.212))
+  (ID 122X-PSEUDO-TURPIN-MCVF-P,271.212))
 
 ( (IP-MAT (IP-MAT-1 (ADVP-LOC (ADV iloc))
 		    (AJ auíent)
@@ -4112,7 +4112,7 @@
 						 (PP (P en)
 						     (NP (NPRS enfer))))))))
 	  (PONFP :))
-  (ID 122X-PSEUDO-TURPIN-MCVF-P,.213))
+  (ID 122X-PSEUDO-TURPIN-MCVF-P,271.213))
 
 ( (IP-MAT-EXL (PP (P Par)
 		  (NP (PRO cestuj)))
@@ -4165,7 +4165,7 @@
 								     (PP (P de)
 									 (NP (PRO cestuj))))))))))
 	      (PONFP .))
-  (ID 122X-PSEUDO-TURPIN-MCVF-P,.214))
+  (ID 122X-PSEUDO-TURPIN-MCVF-P,271.214))
 
 ( (IP-MAT (PP (P Apres)
 	      (NP (D cesta) (NCS merueille)))
@@ -4217,7 +4217,7 @@
 							     (NP (ADJP (Q molt) (ADJ beau))
 								 (NCS plaín))))))))))
 	  (PONFP .))
-  (ID 122X-PSEUDO-TURPIN-MCVF-P,.215))
+  (ID 122X-PSEUDO-TURPIN-MCVF-P,271.215))
 
 ( (IP-MAT (ADVP-TMP (ADV lors) (ADV apres))
 	  (ADVP (ADV si))
@@ -4247,7 +4247,7 @@
 					  (ADVP-LOC (ADV hiloc))
 					  (VJ reposent)))))))
 	  (PONFP .))
-  (ID 122X-PSEUDO-TURPIN-MCVF-P,.216))
+  (ID 122X-PSEUDO-TURPIN-MCVF-P,271.216))
 
 ( (IP-MAT (CONJO e)
 	  (ADVP (ADV si))
@@ -4257,7 +4257,7 @@
 		  (NCS abaie)
 		  (PP (P de)
 		      (NP (NCPL moínes)))))
-  (ID 122X-PSEUDO-TURPIN-MCVF-P,.217))
+  (ID 122X-PSEUDO-TURPIN-MCVF-P,271.217))
 
 ( (IP-MAT (CP-ADV (CONJS Quant)
 		  (IP-SUB (NP-SBJ (NPRS Aiguolanz))
@@ -4310,7 +4310,7 @@
 				       (FRAG (NP (NUM .jj.))
 					     (PP (P contre)
 						 (NP (NUM .jj.)))))))))
-  (ID 122X-PSEUDO-TURPIN-MCVF-P,.218))
+  (ID 122X-PSEUDO-TURPIN-MCVF-P,271.218))
 
 ( (IP-MAT (NP-SBJ (NPRS Karl'))
 	  (VJ prist)
@@ -4322,7 +4322,7 @@
 		  (NUM .c.)
 		  (NP-COM (NPRS aiguolant))))
 	  (PONFP .))
-  (ID 122X-PSEUDO-TURPIN-MCVF-P,.219))
+  (ID 122X-PSEUDO-TURPIN-MCVF-P,271.219))
 
 ( (IP-MAT (CONJO e)
 	  (ADVP (ADV si))
@@ -4330,7 +4330,7 @@
 	  (VPP ocis)
 	  (NP-SBJ (D li) (NCPL sarrazín))
 	  (PONFP .))
-  (ID 122X-PSEUDO-TURPIN-MCVF-P,.220))
+  (ID 122X-PSEUDO-TURPIN-MCVF-P,271.220))
 
 ( (IP-MAT (ADVP-TMP (ADV Lors))
 	  (VJ reprist)
@@ -4342,14 +4342,14 @@
 		  (PP (P d@)
 		      (NP (D @au) (NCPL noz)))))
 	  (PONFP .))
-  (ID 122X-PSEUDO-TURPIN-MCVF-P,.221))
+  (ID 122X-PSEUDO-TURPIN-MCVF-P,271.221))
 
 ( (IP-MAT (ADVP (ADV si))
 	  (EJ furent)
 	  (VPP ocis)
 	  (NP-SBJ (D li) (NCPL sarrazin))
 	  (PONFP .))
-  (ID 122X-PSEUDO-TURPIN-MCVF-P,.222))
+  (ID 122X-PSEUDO-TURPIN-MCVF-P,271.222))
 
 ( (IP-MAT (ADVP (ADV encora))
 	  (CL-PP (CL en))
@@ -4360,7 +4360,7 @@
 	      (PON .)
 	      (NP (NUM dos) (NUM míre)))
 	  (PONFP .))
-  (ID 122X-PSEUDO-TURPIN-MCVF-P,.223))
+  (ID 122X-PSEUDO-TURPIN-MCVF-P,271.223))
 
 ( (IP-MAT (ADVP (ADV si))
 	  (CL-PP (CL en@))
@@ -4368,7 +4368,7 @@
 	  (VPP ocise)
 	  (NP-SBJ (D l#) (ADJ une) (NCS partie))
 	  (PONFP .))
-  (ID 122X-PSEUDO-TURPIN-MCVF-P,.224))
+  (ID 122X-PSEUDO-TURPIN-MCVF-P,271.224))
 
 ( (IP-MAT (CONJO e)
 	  (NP-SBJ (D l#) (ADJ autra) (NCS partie))
@@ -4376,7 +4376,7 @@
 	  (CL-NP-RFL (CL s#))
 	  (VJ enfuj)
 	  (PONFP .))
-  (ID 122X-PSEUDO-TURPIN-MCVF-P,.225))
+  (ID 122X-PSEUDO-TURPIN-MCVF-P,271.225))
 
 ( (IP-MAT (PP (P A@)
 	      (NP (D @u) (ADJ ters) (NCS ior)))
@@ -4384,7 +4384,7 @@
 	  (VJ gita)
 	  (NP-ACC (DZ son) (NCS sort))
 	  (NP-SBJ (NPRS Aiguolans)))
-  (ID 122X-PSEUDO-TURPIN-MCVF-P,.226))
+  (ID 122X-PSEUDO-TURPIN-MCVF-P,271.226))
 
 ( (IP-MAT (CONJO e)
 	  (ADVP (ADV sí@))
@@ -4397,7 +4397,7 @@
 			  (PP (P en)
 			      (NP (D la) (NCS batalie)))))
 	  (PONFP .))
-  (ID 122X-PSEUDO-TURPIN-MCVF-P,.227))
+  (ID 122X-PSEUDO-TURPIN-MCVF-P,271.227))
 
 ( (IP-MAT (ADVP (ADV si))
 	  (NP-SBJ *con*)
@@ -4414,7 +4414,7 @@
 				      (PP (P en)
 					  (NP (ADJ planeíre) (NCS batalie))))))
 	  (PONFP .))
-  (ID 122X-PSEUDO-TURPIN-MCVF-P,.228))
+  (ID 122X-PSEUDO-TURPIN-MCVF-P,271.228))
 
 ( (IP-MAT (CONJO e)
 	  (NP-SBJ (PRO il))
@@ -4422,7 +4422,7 @@
 	  (VJ otroche)
 	  (ADVP (ADV eissj))
 	  (PONFP .))
-  (ID 122X-PSEUDO-TURPIN-MCVF-P,.229))
+  (ID 122X-PSEUDO-TURPIN-MCVF-P,271.229))
 
 ( (IP-MAT (ADVP-TMP (ADV Lors))
 	  (NP-SBJ=1 *proimp*)
@@ -4443,7 +4443,7 @@
 				(VJ aparelarent)
 				(NP-ACC (DZ lor) (NCPL armes)))))
 	  (PONFP .))
-  (ID 122X-PSEUDO-TURPIN-MCVF-P,.230))
+  (ID 122X-PSEUDO-TURPIN-MCVF-P,271.230))
 
 ( (IP-MAT (CONJO e)
 	  (NP-ACC (DZ lor) (NCPL lances))
@@ -4455,7 +4455,7 @@
 	      (NP (DZ lor) (NCPL arberges)))
 	  (ADJP-SPR (Q totes) (ADJ dreites))
 	  (PONFP .))
-  (ID 122X-PSEUDO-TURPIN-MCVF-P,.231))
+  (ID 122X-PSEUDO-TURPIN-MCVF-P,271.231))
 
 ( (IP-MAT (PP (P A@)
 	      (NP (D @u) (NCS matin)))
@@ -4473,7 +4473,7 @@
 						    (PP (P de)
 							(NP (NCPL branches)))))))))
 	  (PONFP .))
-  (ID 122X-PSEUDO-TURPIN-MCVF-P,.232))
+  (ID 122X-PSEUDO-TURPIN-MCVF-P,271.232))
 
 ( (IP-MAT (NP-SBJ=1 (PRO co))
 	  (VJ fu)
@@ -4485,7 +4485,7 @@
 			    (PP (P por)
 				(NP (DZ nostre) (NPRS seignor)))))
 	  (PONFP .))
-  (ID 122X-PSEUDO-TURPIN-MCVF-P,.233))
+  (ID 122X-PSEUDO-TURPIN-MCVF-P,271.233))
 
 ( (IP-MAT (CONJO e)
 	  (NP-TMP (D ceau) (NCS ior))
@@ -4519,7 +4519,7 @@
 				  (AJ aueit)
 				  (VPP demostre)))))
 	  (PONFP .))
-  (ID 122X-PSEUDO-TURPIN-MCVF-P,.234))
+  (ID 122X-PSEUDO-TURPIN-MCVF-P,272.234))
 
 ( (IP-MAT (CONJO e)
 	  (ADVP (ADV si))
@@ -4527,7 +4527,7 @@
 	  (VPP escriz)
 	  (NP-SBJ (D li) (NCS miracles))
 	  (PONFP .))
-  (ID 122X-PSEUDO-TURPIN-MCVF-P,.235))
+  (ID 122X-PSEUDO-TURPIN-MCVF-P,272.235))
 
 ( (IP-MAT (NP-ADT (PRO cil)
 		  (CP-REL (WNP-1 (WPRO qui))
@@ -4556,7 +4556,7 @@
 				  (PP (P en)
 				      (NP (D la) (NCS terra))))))
 	  (PONFP .))
-  (ID 122X-PSEUDO-TURPIN-MCVF-P,.236))
+  (ID 122X-PSEUDO-TURPIN-MCVF-P,272.236))
 
 ( (IP-MAT (QP-1 (Q molt))
 	  (NP-SBJ=2 *proimp*)
@@ -4569,7 +4569,7 @@
 			 (PP (P de)
 			     (NP (NCS fraíne)))))
 	  (PONFP .))
-  (ID 122X-PSEUDO-TURPIN-MCVF-P,.237))
+  (ID 122X-PSEUDO-TURPIN-MCVF-P,272.237))
 
 ( (IP-MAT (NP-SBJ=1 (PROIMP Il))
 	  (VJ uindrent)
@@ -4577,7 +4577,7 @@
 	      (NP (D @la@) (NCS @bataille)))
 	  (NP-1 (CONJO e) (NCPL sarrazin) (PON .) (CONJO e) (NCPL crestien))
 	  (PONFP .))
-  (ID 122X-PSEUDO-TURPIN-MCVF-P,.238))
+  (ID 122X-PSEUDO-TURPIN-MCVF-P,272.238))
 
 ( (IP-MAT (ADVP (ADV Si))
 	  (NP-SBJ=1 *proimp*)
@@ -4588,7 +4588,7 @@
 		(NUM .xl.)
 		(NUM míre))
 	  (PONFP .))
-  (ID 122X-PSEUDO-TURPIN-MCVF-P,.239))
+  (ID 122X-PSEUDO-TURPIN-MCVF-P,272.239))
 
 ( (IP-MAT (CONJO e)
 	  (NP-SBJ (D li)
@@ -4616,7 +4616,7 @@
 						  (IP-SUB (NP-SBJ *T*-1)
 							  (VJ florirent))))))))
 	  (PONFP .))
-  (ID 122X-PSEUDO-TURPIN-MCVF-P,.240))
+  (ID 122X-PSEUDO-TURPIN-MCVF-P,272.240))
 
 ( (IP-MAT (CONJO e)
 	  (NP-SBJ (FP nes)
@@ -4631,7 +4631,7 @@
 	  (PP (P en)
 	      (NP (D cela) (NCS batalie)))
 	  (PONFP .))
-  (ID 122X-PSEUDO-TURPIN-MCVF-P,.241))
+  (ID 122X-PSEUDO-TURPIN-MCVF-P,272.241))
 
 ( (IP-MAT (NP-SBJ (NPRS Karl'))
 	  (CL-NP-RFL (CL se))
@@ -4641,7 +4641,7 @@
 		  (IP-SUB (ADVP *T*-1)
 			  (NP-SBJ (ADJ ardiz))))
 	  (PONFP .))
-  (ID 122X-PSEUDO-TURPIN-MCVF-P,.242))
+  (ID 122X-PSEUDO-TURPIN-MCVF-P,272.242))
 
 ( (IP-MAT (CONJO e)
 	  (NP-SBJ *con*)
@@ -4654,7 +4654,7 @@
 		  (NUM mire)
 		  (PP (P de)
 		      (NP (DZ ses) (NCPL homes))))))
-  (ID 122X-PSEUDO-TURPIN-MCVF-P,.243))
+  (ID 122X-PSEUDO-TURPIN-MCVF-P,272.243))
 
 ( (IP-MAT (CONJO que)
 	  (NP-SBJ (QR plus))
@@ -4664,7 +4664,7 @@
 	  (EJ fu)
 	  (VPP remes)
 	  (PONFP .))
-  (ID 122X-PSEUDO-TURPIN-MCVF-P,.244))
+  (ID 122X-PSEUDO-TURPIN-MCVF-P,272.244))
 
 ( (IP-MAT (CONJO e)
 	  (NP-SBJ *pro*)
@@ -4690,7 +4690,7 @@
 							(IP-INF (NP-ACC *ICH*-4)
 								(VX numbrer)))))))))
 	  (PONFP .))
-  (ID 122X-PSEUDO-TURPIN-MCVF-P,.245))
+  (ID 122X-PSEUDO-TURPIN-MCVF-P,272.245))
 
 ( (IP-MAT (CONJO qu#)
 	  (NP-SBJ (PRO il))
@@ -4699,14 +4699,14 @@
 	  (PP (P de)
 	      (NP (Q totes) (NCPL pars)))
 	  (PONFP .))
-  (ID 122X-PSEUDO-TURPIN-MCVF-P,.246))
+  (ID 122X-PSEUDO-TURPIN-MCVF-P,272.246))
 
 ( (IP-MAT (CONJO e)
 	  (NP-SBJ (PRO il))
 	  (VJ trait)
 	  (NP-ACC (DZ s#) (NCS espee))
 	  (PONFP .))
-  (ID 122X-PSEUDO-TURPIN-MCVF-P,.247))
+  (ID 122X-PSEUDO-TURPIN-MCVF-P,272.247))
 
 ( (IP-MAT (CONJO e)
 	  (NP-SBJ *con*)
@@ -4716,7 +4716,7 @@
 	  (PP (P par)
 	      (NP (D lo) (NCS mielo)))
 	  (PONFP .))
-  (ID 122X-PSEUDO-TURPIN-MCVF-P,.248))
+  (ID 122X-PSEUDO-TURPIN-MCVF-P,272.248))
 
 ( (IP-MAT (CP-ADV (CONJS Quant)
 		  (IP-SUB (NP-SBJ (PRO ho))
@@ -4734,7 +4734,7 @@
 		  (CONJP (CONJO e)
 			 (NP (D li) (NCPL crestien))))
 	  (PONFP .))
-  (ID 122X-PSEUDO-TURPIN-MCVF-P,.249))
+  (ID 122X-PSEUDO-TURPIN-MCVF-P,272.249))
 
 ( (IP-MAT (ADVP-TMP (ADV Lendemain))
 	  (VJ uindrent)
@@ -4743,7 +4743,7 @@
 		  (NCS aie)
 		  (NP-COM (NPRS Karle))))
 	  (NP-SBJ (ADJNUM .iiii.) (NCPL duc)))
-  (ID 122X-PSEUDO-TURPIN-MCVF-P,.250))
+  (ID 122X-PSEUDO-TURPIN-MCVF-P,272.250))
 
 ( (IP-MAT (ADVP (ADV si))
 	  (NP-SBJ *con*)
@@ -4751,7 +4751,7 @@
 	  (PP (P deuers)
 	      (NP (NPRS lombardie)))
 	  (PONFP .))
-  (ID 122X-PSEUDO-TURPIN-MCVF-P,.251))
+  (ID 122X-PSEUDO-TURPIN-MCVF-P,272.251))
 
 ( (IP-MAT (CONJO e)
 	  (ADVP (ADV si))
@@ -4766,7 +4766,7 @@
 			(CONJP (CONJO e)
 			       (ADJP (Q molt) (ADJ ardiz)))))
 	  (PONFP .))
-  (ID 122X-PSEUDO-TURPIN-MCVF-P,.252))
+  (ID 122X-PSEUDO-TURPIN-MCVF-P,272.252))
 
 ( (IP-MAT (CONJO E)
 	  (CP-ADV (CONJS quant)
@@ -4779,7 +4779,7 @@
 	  (PP (P en@)
 	      (NP (NCS @fuíe)))
 	  (PONFP .))
-  (ID 122X-PSEUDO-TURPIN-MCVF-P,.253))
+  (ID 122X-PSEUDO-TURPIN-MCVF-P,272.253))
 
 ( (IP-MAT (CONJO e)
 	  (NP-SBJ *con*)
@@ -4789,7 +4789,7 @@
 	  (PP (P en@)
 	      (NP (NPRS @lemozin)))
 	  (PONFP .))
-  (ID 122X-PSEUDO-TURPIN-MCVF-P,.254))
+  (ID 122X-PSEUDO-TURPIN-MCVF-P,272.254))
 
 ( (IP-MAT (CONJO E)
 	  (NP-SBJ (NPRS karl'))
@@ -4799,4 +4799,4 @@
 	  (PP (P en)
 	      (NP (NPRS france)))
 	  (PONFP .))
-  (ID 122X-PSEUDO-TURPIN-MCVF-P,.255))
+  (ID 122X-PSEUDO-TURPIN-MCVF-P,272.255))

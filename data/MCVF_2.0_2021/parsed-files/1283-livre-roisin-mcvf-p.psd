@@ -36,7 +36,7 @@
 						       (NP (PRO eiaus)))
 						   (VX jugier))))))
 	  (PONFP :))
-  (ID 1283-LIVRE-ROISIN-MCVF-P,.8))
+  (ID 1283-LIVRE-ROISIN-MCVF-P,1.8))
 
 ( (IP-MAT (ADVP (ADV s'))
 	  (NP-SBJ=1 (PROIMP il))
@@ -80,7 +80,7 @@
 												 (NP (D @ou) (NCS tort)))
 											     (VJ naiscent)))))))))))))
 	  (PONFP .))
-  (ID 1283-LIVRE-ROISIN-MCVF-P,.9))
+  (ID 1283-LIVRE-ROISIN-MCVF-P,1.9))
 
 ( (CODE <lb$$>))
 
@@ -151,7 +151,7 @@
 						     (CODE <lb$$>)
 						     (VJ appartienent))))))))
 	  (PONFP ,))
-  (ID 1283-LIVRE-ROISIN-MCVF-P,.11))
+  (ID 1283-LIVRE-ROISIN-MCVF-P,1.11))
 
 ( (IP-MAT (CONJO et)
 	  (NP-SBJ *con*)
@@ -183,7 +183,7 @@
 					 (IP-INF (ADVP (ADV droiturierment))
 						 (VX jugier))))))
 	  (PONFP :))
-  (ID 1283-LIVRE-ROISIN-MCVF-P,.12))
+  (ID 1283-LIVRE-ROISIN-MCVF-P,1.12))
 
 ( (IP-MAT (CONJO car)
 	  (NP-SBJ (NCS jugieres)
@@ -204,7 +204,7 @@
 	  (CODE <lb$$>)
 	  (ADVP (ADVNEG mie))
 	  (ADVP (ADV honniestement)))
-  (ID 1283-LIVRE-ROISIN-MCVF-P,.13))
+  (ID 1283-LIVRE-ROISIN-MCVF-P,1.13))
 
 ( (IP-MAT (CONJO et)
 	  (NP-SBJ *con*)
@@ -219,14 +219,14 @@
 				  (CODE <lb$$>)
 				  (VJ est))))
 	  (PONFP ,))
-  (ID 1283-LIVRE-ROISIN-MCVF-P,.14))
+  (ID 1283-LIVRE-ROISIN-MCVF-P,1.14))
 
 ( (IP-MAT (ADVP (ADV ains))
 	  (NP-SBJ *proimp*)
 	  (CL-NP-DTV (CL li))
 	  (VJ tolt)
 	  (PONFP ,))
-  (ID 1283-LIVRE-ROISIN-MCVF-P,.15))
+  (ID 1283-LIVRE-ROISIN-MCVF-P,1.15))
 
 ( (IP-MAT (CONJO et)
 	  (ADVP (ADV si))
@@ -234,7 +234,7 @@
 	  (VJ blèche)
 	  (NP-ACC (NCS autruy))
 	  (PONFP .))
-  (ID 1283-LIVRE-ROISIN-MCVF-P,.16))
+  (ID 1283-LIVRE-ROISIN-MCVF-P,1.16))
 
 ( (IP-MAT (ADVP (ADV Dont))
 	  (PON ,)
@@ -304,7 +304,7 @@
 	  (PP (P à)
 	      (NP (D ceste) (NCS loy)))
 	  (PONFP ,))
-  (ID 1283-LIVRE-ROISIN-MCVF-P,.17))
+  (ID 1283-LIVRE-ROISIN-MCVF-P,1.17))
 
 ( (IP-MAT (ADVP (ADV ains))
 	  (NP-SBJ=1 *proimp*)
@@ -319,7 +319,7 @@
 			    (NP (D @u) (Q nient)))
 			(CONJP-2 (CONJO et) (CODE <lb$$>) (VX abatre))))
 	  (PONFP ,))
-  (ID 1283-LIVRE-ROISIN-MCVF-P,.18))
+  (ID 1283-LIVRE-ROISIN-MCVF-P,1.18))
 
 ( (IP-MAT (CONJO et)
 	  (PP (PP (P par)
@@ -350,7 +350,7 @@
 		  (PP (P de)
 		      (NP (D cest) (NCS castiel)))))
 	  (PONFP .))
-  (ID 1283-LIVRE-ROISIN-MCVF-P,.19))
+  (ID 1283-LIVRE-ROISIN-MCVF-P,1.19))
 
 ( (CODE <$$p>))
 
@@ -371,7 +371,7 @@
 		(NCPL franquises)
 		(PP (P d@)
 		    (NP (D @es) (NCPL bourgois))))))
-  (ID 1283-LIVRE-ROISIN-MCVF-P,.27))
+  (ID 1283-LIVRE-ROISIN-MCVF-P,2.27))
 
 ( (CODE <$$hi>))
 
@@ -450,7 +450,7 @@
 					(PP (P de)
 					    (NP (NPRS Lille)))))))
 	  (PONFP ;))
-  (ID 1283-LIVRE-ROISIN-MCVF-P,.32))
+  (ID 1283-LIVRE-ROISIN-MCVF-P,2.32))
 
 ( (CODE <lb$$>))
 
@@ -461,7 +461,7 @@
 	  (VJ sunt)
 	  (PP (P d@)
 	      (NP (D @ou) (Q tout))))
-  (ID 1283-LIVRE-ROISIN-MCVF-P,.34))
+  (ID 1283-LIVRE-ROISIN-MCVF-P,2.34))
 
 ( (IP-MAT (CONJO et)
 	  (NP-SBJ *con*)
@@ -478,7 +478,7 @@
 				  (PP (P de)
 				      (NP (NPRS Lille))))))))
 	  (PONFP .))
-  (ID 1283-LIVRE-ROISIN-MCVF-P,.35))
+  (ID 1283-LIVRE-ROISIN-MCVF-P,2.35))
 
 ( (CODE <$$p>))
 
@@ -555,7 +555,7 @@
 									(VX (VX rendre) (CODE <lb$$>) (CONJO et) (VX délivrer))
 									(NP-DTV (DAT à) (NCPL eschevins))))))))))
 	  (PONFP .))
-  (ID 1283-LIVRE-ROISIN-MCVF-P,.39))
+  (ID 1283-LIVRE-ROISIN-MCVF-P,2.39))
 
 ( (IP-MAT (ADVP (ADV Dont))
 	  (CP-ADV (CONJS se)
@@ -677,7 +677,7 @@
 			  (PP (P de)
 			      (NP (D le) (NCS bourgesie))))))
 	  (PONFP .))
-  (ID 1283-LIVRE-ROISIN-MCVF-P,.40))
+  (ID 1283-LIVRE-ROISIN-MCVF-P,2.40))
 
 ( (IP-MAT (CONJO Et)
 	  (CP-ADV (CONJS se)
@@ -814,7 +814,7 @@
 									 (NP-SBJ (PRO il))
 									 (MDJ doit)))))))))
 	  (PONFP .))
-  (ID 1283-LIVRE-ROISIN-MCVF-P,.41))
+  (ID 1283-LIVRE-ROISIN-MCVF-P,3.41))
 
 ( (IP-MAT (CONJO Et)
 	  (CP-ADV (CONJS se)
@@ -860,7 +860,7 @@
 							  (VPP fait)
 							  (NP-DTV (DAT à) (D le) (NCS ville)))))))))
 	  (PONFP .))
-  (ID 1283-LIVRE-ROISIN-MCVF-P,.42))
+  (ID 1283-LIVRE-ROISIN-MCVF-P,3.42))
 
 ( (IP-MAT (CONJO Et)
 	  (CODE <lb$$>)
@@ -910,7 +910,7 @@
 						       (PP (P d@)
 							   (NP (D @ou) (NCS bailliu)))))))))
 	  (PONFP .))
-  (ID 1283-LIVRE-ROISIN-MCVF-P,.43))
+  (ID 1283-LIVRE-ROISIN-MCVF-P,3.43))
 
 ( (IP-MAT (CONJO Et)
 	  (NP-SBJ *proimp*)
@@ -942,7 +942,7 @@
 				      (PP (P de)
 					  (NP (DZ se) (NCS franchise)))))))
 	  (PONFP ,))
-  (ID 1283-LIVRE-ROISIN-MCVF-P,.44))
+  (ID 1283-LIVRE-ROISIN-MCVF-P,3.44))
 
 ( (IP-MAT (ADVP (ADV ains))
 	  (NP-SBJ *proimp*)
@@ -995,7 +995,7 @@
 			      (VX faire)
 			      (NP-DTV (DAT à) (ADJ sainte) (NCS églize)))))
 	  (PONFP .))
-  (ID 1283-LIVRE-ROISIN-MCVF-P,.45))
+  (ID 1283-LIVRE-ROISIN-MCVF-P,3.45))
 
 ( (IP-MAT (CONJO Et)
 	  (ADVP (ADV encore))
@@ -1134,7 +1134,7 @@
 											      (PP (P en)
 												  (NP (D le) (NCS ville))))))))))))))))
 	  (PONFP :))
-  (ID 1283-LIVRE-ROISIN-MCVF-P,.46))
+  (ID 1283-LIVRE-ROISIN-MCVF-P,3.46))
 
 ( (IP-MAT (CONJO et)
 	  (CP-ADV (CONJS se)
@@ -1163,7 +1163,7 @@
 		  (PP (P par)
 		      (NP (DZ son) (NCS sierment))))
 	  (PONFP .))
-  (ID 1283-LIVRE-ROISIN-MCVF-P,.47))
+  (ID 1283-LIVRE-ROISIN-MCVF-P,3.47))
 
 ( (IP-MAT (CONJO Et)
 	  (PP (Q tout)
@@ -1208,7 +1208,7 @@
 				  (CODE <lb$$>)
 				  (NP (D le) (NCS ville))))))
 	  (PONFP .))
-  (ID 1283-LIVRE-ROISIN-MCVF-P,.48))
+  (ID 1283-LIVRE-ROISIN-MCVF-P,3.48))
 
 ( (IP-MAT (CONJO Et)
 	  (IP-MAT-1 (MDJ doit)
@@ -1250,7 +1250,7 @@
 						 (VPP dit)
 						 (EJ est))))))
 	  (PONFP .))
-  (ID 1283-LIVRE-ROISIN-MCVF-P,.49))
+  (ID 1283-LIVRE-ROISIN-MCVF-P,3.49))
 
 ( (IP-MAT (CONJO Et)
 	  (CP-ADV (CONJS se)
@@ -1320,7 +1320,7 @@
 					 (PP (P de)
 					     (NP (D le) (NCS ville))))))))
 	  (PONFP .))
-  (ID 1283-LIVRE-ROISIN-MCVF-P,.50))
+  (ID 1283-LIVRE-ROISIN-MCVF-P,4.50))
 
 ( (IP-MAT (CONJO Et)
 	  (CP-ADV (CONJS se)
@@ -1396,7 +1396,7 @@
 				(EJ est)
 				(VPP dit))))
 	  (PONFP ;))
-  (ID 1283-LIVRE-ROISIN-MCVF-P,.51))
+  (ID 1283-LIVRE-ROISIN-MCVF-P,4.51))
 
 ( (IP-MAT (CONJO et)
 	  (PP (Q tout)
@@ -1449,7 +1449,7 @@
 									 (CODE <lb$$>)
 									 (EJ seroient))))))))))
 	  (PONFP .))
-  (ID 1283-LIVRE-ROISIN-MCVF-P,.52))
+  (ID 1283-LIVRE-ROISIN-MCVF-P,4.52))
 
 ( (IP-MAT (CONJO Et)
 	  (CP-ADV (CONJS se)
@@ -1575,7 +1575,7 @@
 										     (PP (P de)
 											 (NP (D le) (NCS ville))))))))))))))
 	  (PONFP .))
-  (ID 1283-LIVRE-ROISIN-MCVF-P,.53))
+  (ID 1283-LIVRE-ROISIN-MCVF-P,4.53))
 
 ( (IP-MAT (CONJO Et)
 	  (CP-ADV (CONJS se)
@@ -1663,7 +1663,7 @@
 						 (VJ tiegne)
 						 (NP-ACC (DZ sen) (NCS sierment)))))))
 	  (PONFP .))
-  (ID 1283-LIVRE-ROISIN-MCVF-P,.54))
+  (ID 1283-LIVRE-ROISIN-MCVF-P,4.54))
 
 ( (IP-MAT (CONJO Et)
 	  (CP-ADV (CP-ADV (CONJS s')
@@ -1698,7 +1698,7 @@
 							  (MDJ doit))))
 				  (NP-DTV (DAT à) (D le) (NCS ville)))))
 	  (PONFP .))
-  (ID 1283-LIVRE-ROISIN-MCVF-P,.55))
+  (ID 1283-LIVRE-ROISIN-MCVF-P,4.55))
 
 ( (IP-MAT (CONJO Et)
 	  (MDJ doit)
@@ -1750,7 +1750,7 @@
 								    (PP (P par)
 									(NP (NCS eschevinage)))))))))))
 	  (PONFP ;))
-  (ID 1283-LIVRE-ROISIN-MCVF-P,.56))
+  (ID 1283-LIVRE-ROISIN-MCVF-P,4.56))
 
 ( (IP-MAT (NP-SBJ (PRO jou))
 	  (CL-NP-DTV (CL vos))
@@ -1777,7 +1777,7 @@
 			  (CODE <lb$$>)
 			  (VJ délivrés)))
 	  (PONFP ;))
-  (ID 1283-LIVRE-ROISIN-MCVF-P,.57))
+  (ID 1283-LIVRE-ROISIN-MCVF-P,4.57))
 
 ( (IP-MAT (CONJO et)
 	  (NP-SBJ (NCPL eschevin))
@@ -1791,7 +1791,7 @@
 				  (NP-SBJ (PRO il))
 				  (MDJ deve_ront))))
 	  (PONFP ;))
-  (ID 1283-LIVRE-ROISIN-MCVF-P,.58))
+  (ID 1283-LIVRE-ROISIN-MCVF-P,4.58))
 
 ( (CODE <pb_n="5"$$>))
 
@@ -1835,7 +1835,7 @@
 	  (PONFP .)
 	  (PON ")
 	  (CODE <$$q>))
-  (ID 1283-LIVRE-ROISIN-MCVF-P,.61))
+  (ID 1283-LIVRE-ROISIN-MCVF-P,5.61))
 
 ( (IP-MAT (CONJO Et)
 	  (MDJ doit)
@@ -1869,7 +1869,7 @@
 			  (NP=2 (NCS besoins))
 			  (VJ estoit)))
 	  (PONFP .))
-  (ID 1283-LIVRE-ROISIN-MCVF-P,.62))
+  (ID 1283-LIVRE-ROISIN-MCVF-P,5.62))
 
 ( (CODE <lb$$>))
 
@@ -1945,7 +1945,7 @@
 									 (EJ est)
 									 (VPP dit)))))))))
 	  (PONFP .))
-  (ID 1283-LIVRE-ROISIN-MCVF-P,.64))
+  (ID 1283-LIVRE-ROISIN-MCVF-P,5.64))
 
 ( (IP-MAT (CONJO Et)
 	  (PP (Q tout)
@@ -1977,7 +1977,7 @@
 					  (EJ est)
 					  (VPP deviset)))))
 	  (PONFP .))
-  (ID 1283-LIVRE-ROISIN-MCVF-P,.65))
+  (ID 1283-LIVRE-ROISIN-MCVF-P,5.65))
 
 ( (CODE <$$p>))
 
@@ -2012,7 +2012,7 @@
 		  (PP (P a@)
 		      (NP (D @u) (NCS conte))))
 	  (PONFP .))
-  (ID 1283-LIVRE-ROISIN-MCVF-P,.69))
+  (ID 1283-LIVRE-ROISIN-MCVF-P,5.69))
 
 ( (IP-MAT-1 (CONJO Et)
 	    (CP-ADV (CONJS se)
@@ -2083,7 +2083,7 @@
 									   (IP-INF (NP-ACC *ICH*-5)
 										   (VX semonre))))))))))
 	    (PONFP ,))
-  (ID 1283-LIVRE-ROISIN-MCVF-P,.70))
+  (ID 1283-LIVRE-ROISIN-MCVF-P,5.70))
 
 ( (IP-MAT (CONJO et)
 	  (NP-SBJ (PRO il))
@@ -2096,7 +2096,7 @@
 	  (PON ")
 	  (CODE <$$q>)
 	  (PONFP ;))
-  (ID 1283-LIVRE-ROISIN-MCVF-P,.71))
+  (ID 1283-LIVRE-ROISIN-MCVF-P,5.71))
 
 ( (FRAG (CONJO et)
 	(CODE <q>)
@@ -2158,7 +2158,7 @@
 										       (VJ délivrés))))))))
 	(CODE <$$paren>)
 	(PONFP .))
-  (ID 1283-LIVRE-ROISIN-MCVF-P,.72))
+  (ID 1283-LIVRE-ROISIN-MCVF-P,5.72))
 
 ( (IP-MAT-SPE (CONJO Et)
 	      (ADVP (ADV si))
@@ -2199,7 +2199,7 @@
 									    (ADV sus)))))))))
 	      (CODE <$$paren>)
 	      (PONFP ;))
-  (ID 1283-LIVRE-ROISIN-MCVF-P,.73))
+  (ID 1283-LIVRE-ROISIN-MCVF-P,5.73))
 
 ( (IP-MAT-SPE (CONJO et)
 	      (PP (P apriès)
@@ -2229,7 +2229,7 @@
 	      (CODE <$$q>)
 	      (PONFP .)
 	      (PON "))
-  (ID 1283-LIVRE-ROISIN-MCVF-P,.74))
+  (ID 1283-LIVRE-ROISIN-MCVF-P,5.74))
 
 ( (CODE <$$p>))
 
@@ -2265,7 +2265,7 @@
 								 (IP-INF (NP-RFL *ICH*-3)
 									 (PP *ICH*-4)
 									 (VX ensiuwir)))))))))))
-  (ID 1283-LIVRE-ROISIN-MCVF-P,.82))
+  (ID 1283-LIVRE-ROISIN-MCVF-P,6.82))
 
 ( (CODE <$$hi>))
 
@@ -2307,7 +2307,7 @@
 			   (PP (P de)
 			       (NP (QR plus))))))
 	    (PONFP ,))
-  (ID 1283-LIVRE-ROISIN-MCVF-P,.87))
+  (ID 1283-LIVRE-ROISIN-MCVF-P,6.87))
 
 ( (IP-MAT-1 (CONJO et)
 	    (AJ a)
@@ -2431,7 +2431,7 @@
 						       (IP-INF (VX monstrer)
 							       (NP-DTV (DAT à) (NCPL eschevins))))))))))
 	    (PONFP ,))
-  (ID 1283-LIVRE-ROISIN-MCVF-P,.88))
+  (ID 1283-LIVRE-ROISIN-MCVF-P,6.88))
 
 ( (IP-MAT (CONJO et)
 	  (PP (P apriès)
@@ -2496,7 +2496,7 @@
 											(AJ aroit)
 											(EPP estet))))))))))))
 	  (PONFP .))
-  (ID 1283-LIVRE-ROISIN-MCVF-P,.89))
+  (ID 1283-LIVRE-ROISIN-MCVF-P,6.89))
 
 ( (IP-MAT (CONJO Et)
 	  (CODE <lb$$>)
@@ -2558,7 +2558,7 @@
 										(PP-5 (P d@)
 										      (NP (D @ou) (NCS fait))))))))))))
 	  (PONFP .))
-  (ID 1283-LIVRE-ROISIN-MCVF-P,.90))
+  (ID 1283-LIVRE-ROISIN-MCVF-P,6.90))
 
 ( (IP-MAT (CONJO Et)
 	  (MDJ doit)
@@ -2585,7 +2585,7 @@
 				  (NP (D le) (NCS ville))))
 		      (VX warder)))
 	  (PONFP .))
-  (ID 1283-LIVRE-ROISIN-MCVF-P,.91))
+  (ID 1283-LIVRE-ROISIN-MCVF-P,6.91))
 
 ( (IP-MAT (CONJO Et)
 	  (CP-ADV (CONJS se)
@@ -2614,7 +2614,7 @@
 		  (ADVP (ADV bien))
 		  (VX oir))
 	  (PONFP ,))
-  (ID 1283-LIVRE-ROISIN-MCVF-P,.92))
+  (ID 1283-LIVRE-ROISIN-MCVF-P,6.92))
 
 ( (IP-MAT (CONJO et)
 	  (NP-SBJ *con*)
@@ -2660,7 +2660,7 @@
 								 (NP-ACC (D le) (NCS véritet))
 								 (VJ oront)))))))))))
 	  (PONFP .))
-  (ID 1283-LIVRE-ROISIN-MCVF-P,.93))
+  (ID 1283-LIVRE-ROISIN-MCVF-P,6.93))
 
 ( (CODE <lb$$>))
 
@@ -2726,7 +2726,7 @@
 			      (NP-ACC *ICH*-5)
 			      (VX enquerre))))
 	  (PONFP ,))
-  (ID 1283-LIVRE-ROISIN-MCVF-P,.95))
+  (ID 1283-LIVRE-ROISIN-MCVF-P,7.95))
 
 ( (IP-MAT (CONJO et)
 	  (NP-SBJ *con*)
@@ -2753,7 +2753,7 @@
 						    (CL-NP-DTV (CL leur))
 						    (VJ nommera))))))
 	  (PONFP ,))
-  (ID 1283-LIVRE-ROISIN-MCVF-P,.96))
+  (ID 1283-LIVRE-ROISIN-MCVF-P,7.96))
 
 ( (IP-MAT (CONJO et)
 	  (NP-SBJ *con*)
@@ -2781,7 +2781,7 @@
 				  (PON ,)
 				  (VJ seroient))))
 	  (PONFP .))
-  (ID 1283-LIVRE-ROISIN-MCVF-P,.97))
+  (ID 1283-LIVRE-ROISIN-MCVF-P,7.97))
 
 ( (CODE <$$p>))
 
@@ -2802,7 +2802,7 @@
 		  (PP (P em)
 		      (NP (ADJ plain) (NCS con_sel))))
 	  (PONFP ,))
-  (ID 1283-LIVRE-ROISIN-MCVF-P,.101))
+  (ID 1283-LIVRE-ROISIN-MCVF-P,7.101))
 
 ( (IP-MAT (CODE <lb$$>)
 	  (CONJO et)
@@ -2815,7 +2815,7 @@
 		  (EX estre)
 		  (VPP *ICH*-1))
 	  (PONFP .))
-  (ID 1283-LIVRE-ROISIN-MCVF-P,.102))
+  (ID 1283-LIVRE-ROISIN-MCVF-P,7.102))
 
 ( (IP-MAT (CONJO Et)
 	  (CP-ADV (CONJS se)
@@ -2852,7 +2852,7 @@
 	  (PP (P par)
 	      (CODE <lb$$>)
 	      (NP (ADJ commun) (NCS assens))))
-  (ID 1283-LIVRE-ROISIN-MCVF-P,.103))
+  (ID 1283-LIVRE-ROISIN-MCVF-P,7.103))
 
 ( (IP-MAT (CONJO et)
 	  (NP-SBJ *con*)
@@ -2870,7 +2870,7 @@
 	  (PP (P à)
 	      (NP (DZ son) (NCS hostel)))
 	  (PONFP .))
-  (ID 1283-LIVRE-ROISIN-MCVF-P,.104))
+  (ID 1283-LIVRE-ROISIN-MCVF-P,7.104))
 
 ( (IP-MAT (CONJO Et)
 	  (ADVP-TMP (ADV puis))
@@ -2927,7 +2927,7 @@
 						(PP (P o@)
 						    (NP (D @u) (NCS ban))))))))
 	  (PONFP .))
-  (ID 1283-LIVRE-ROISIN-MCVF-P,.105))
+  (ID 1283-LIVRE-ROISIN-MCVF-P,7.105))
 
 ( (IP-MAT (CONJO Et)
 	  (MDJ doit)
@@ -2966,7 +2966,7 @@
 									   (PP (P de)
 									       (NP (D le) (CODE <lb$$>) (NCS ville)))))))))))
 	  (PONFP ,))
-  (ID 1283-LIVRE-ROISIN-MCVF-P,.106))
+  (ID 1283-LIVRE-ROISIN-MCVF-P,7.106))
 
 ( (IP-MAT (CONJO et)
 	  (CP-ADV (ADV ainschois)
@@ -3054,7 +3054,7 @@
 												   (PP (P de)
 												       (NP (D le) (NCS ville)))))))))))))))
 	  (PONFP ,))
-  (ID 1283-LIVRE-ROISIN-MCVF-P,.107))
+  (ID 1283-LIVRE-ROISIN-MCVF-P,7.107))
 
 ( (IP-MAT (CONJO et)
 	  (CP-ADV (CONJS se)
@@ -3078,7 +3078,7 @@
 		      (IP-INF (NP-ACC (PRO chou))
 			      (VX faire))))
 	  (PONFP .))
-  (ID 1283-LIVRE-ROISIN-MCVF-P,.108))
+  (ID 1283-LIVRE-ROISIN-MCVF-P,7.108))
 
 ( (IP-MAT (CONJO Et)
 	  (ADVP (ADV dont))
@@ -3105,7 +3105,7 @@
 				 (EX estre)
 				 (VPP aparliés))))
 	  (PONFP ,))
-  (ID 1283-LIVRE-ROISIN-MCVF-P,.109))
+  (ID 1283-LIVRE-ROISIN-MCVF-P,7.109))
 
 ( (IP-MAT (CONJO et)
 	  (NP-SBJ (D li) (NCS rewars))
@@ -3114,7 +3114,7 @@
 	  (NP-ACC (D li) (NCS banier))
 	  (ADVP (ADV ausi))
 	  (PONFP ,))
-  (ID 1283-LIVRE-ROISIN-MCVF-P,.110))
+  (ID 1283-LIVRE-ROISIN-MCVF-P,7.110))
 
 ( (IP-MAT (CONJO et)
 	  (NP-SBJ *con*)
@@ -3140,7 +3140,7 @@
 					    (PP (P o@)
 						(NP (D @u) (NCS mar_chiet))))))))
 	  (PONFP .))
-  (ID 1283-LIVRE-ROISIN-MCVF-P,.111))
+  (ID 1283-LIVRE-ROISIN-MCVF-P,7.111))
 
 ( (CODE <lb$$>))
 
@@ -3155,7 +3155,7 @@
 	  (MDJ doivent)
 	  (IP-INF (VX mouvoir))
 	  (PONFP ,))
-  (ID 1283-LIVRE-ROISIN-MCVF-P,.113))
+  (ID 1283-LIVRE-ROISIN-MCVF-P,7.113))
 
 ( (IP-MAT (CONJO et)
 	  (NP-SBJ (NP (D li) (NCS rewars))
@@ -3197,7 +3197,7 @@
 				(EJ est)
 				(VPP dit))))
 	  (PONFP .))
-  (ID 1283-LIVRE-ROISIN-MCVF-P,.114))
+  (ID 1283-LIVRE-ROISIN-MCVF-P,8.114))
 
 ( (IP-MAT (CONJO Et)
 	  (MDJ doivent)
@@ -3230,7 +3230,7 @@
 						   (PP (P de)
 						       (NP (D le) (NCS ville))))))))))
 	  (PONFP .))
-  (ID 1283-LIVRE-ROISIN-MCVF-P,.115))
+  (ID 1283-LIVRE-ROISIN-MCVF-P,8.115))
 
 ( (IP-MAT (CONJO Et)
 	  (CP-ADV (CONJS quant)
@@ -3382,7 +3382,7 @@
 														(PP (P de)
 														    (NP (D le) (NCS ville))))))))))))))))))
 	  (PONFP ;))
-  (ID 1283-LIVRE-ROISIN-MCVF-P,.116))
+  (ID 1283-LIVRE-ROISIN-MCVF-P,8.116))
 
 ( (IP-MAT (CONJO et)
 	  (ADVP (ADV si)
@@ -3417,7 +3417,7 @@
 								   (NCS huis)
 								   (ADVP (ADV devant)))))))))))
 	  (PONFP .))
-  (ID 1283-LIVRE-ROISIN-MCVF-P,.117))
+  (ID 1283-LIVRE-ROISIN-MCVF-P,8.117))
 
 ( (IP-MAT (CONJO Et)
 	  (CP-ADV (CONJS s')
@@ -3488,7 +3488,7 @@
 						   (PP (P de)
 						       (NP (D le) (NCS ville)))))))))
 	  (PONFP .))
-  (ID 1283-LIVRE-ROISIN-MCVF-P,.118))
+  (ID 1283-LIVRE-ROISIN-MCVF-P,8.118))
 
 ( (IP-MAT (IP-MAT-1 (CONJO Et)
 		    (MDJ doit)
@@ -3535,7 +3535,7 @@
 				       (NP (D le) (NCS maison)))
 				   (NP-ACC (D le) (CODE <lb$$>) (NCS rewart)))))
 	  (PONFP ;))
-  (ID 1283-LIVRE-ROISIN-MCVF-P,.119))
+  (ID 1283-LIVRE-ROISIN-MCVF-P,8.119))
 
 ( (IP-MAT (CONJO et)
 	  (CP-ADV (CONJS se)
@@ -3591,7 +3591,7 @@
 								 (CODE <lb$$>)
 								 (NP (D le) (NCS ville)))))))))))
 	  (PONFP .))
-  (ID 1283-LIVRE-ROISIN-MCVF-P,.120))
+  (ID 1283-LIVRE-ROISIN-MCVF-P,8.120))
 
 ( (IP-MAT (CONJO Et)
 	  (ADVP (ADV dont))
@@ -3665,7 +3665,7 @@
 												 (PP (P sour)
 												     (NP (PRO eiaus))))))))))))))))
 	  (PONFP .))
-  (ID 1283-LIVRE-ROISIN-MCVF-P,.121))
+  (ID 1283-LIVRE-ROISIN-MCVF-P,8.121))
 
 ( (IP-MAT (CONJO Et)
 	  (PP (P à)
@@ -3692,7 +3692,7 @@
 				  (PP (P d@)
 				      (NP (D @ou) (NCS meffait)))))))
 	  (PONFP .))
-  (ID 1283-LIVRE-ROISIN-MCVF-P,.122))
+  (ID 1283-LIVRE-ROISIN-MCVF-P,8.122))
 
 ( (CODE <$$p>))
 
@@ -3885,7 +3885,7 @@
 							 (PP (P dedens)
 							     (NP (D le) (NCS pourpris)))))))))
 	  (PONFP .))
-  (ID 1283-LIVRE-ROISIN-MCVF-P,.125))
+  (ID 1283-LIVRE-ROISIN-MCVF-P,9.125))
 
 ( (CODE <$$p>))
 
@@ -3975,7 +3975,7 @@
 													    (VJ samblera)
 													    (NP-DTV (DAT à) (NCPL eschevins))))))))))))))))
 	  (PONFP .))
-  (ID 1283-LIVRE-ROISIN-MCVF-P,.129))
+  (ID 1283-LIVRE-ROISIN-MCVF-P,9.129))
 
 ( (CODE <$$p>))
 
@@ -4069,7 +4069,7 @@
 									   (PP (P en)
 									       (NP (DZ son) (NCS liu)))))))))))))
 	  (PONFP .))
-  (ID 1283-LIVRE-ROISIN-MCVF-P,.133))
+  (ID 1283-LIVRE-ROISIN-MCVF-P,9.133))
 
 ( (IP-MAT (CONJO Et)
 	  (CP-ADV (ADVP (ADV ia))
@@ -4132,7 +4132,7 @@
 						   (PP (P avoec)
 						       (NP (D le) (NCS ville)))))))))
 	  (PONFP .))
-  (ID 1283-LIVRE-ROISIN-MCVF-P,.134))
+  (ID 1283-LIVRE-ROISIN-MCVF-P,9.134))
 
 ( (CODE <$$p>))
 
@@ -4201,7 +4201,7 @@
 				     (PON ,)
 				     (ADVP (ADV sauvement))))))
 	  (PONFP .))
-  (ID 1283-LIVRE-ROISIN-MCVF-P,.138))
+  (ID 1283-LIVRE-ROISIN-MCVF-P,9.138))
 
 ( (CODE <$$p>))
 
@@ -4293,7 +4293,7 @@
 						       (NP (D le) (NCS ville)))
 						   (ADVP (ADV sauvement)))))))
 	  (PONFP .))
-  (ID 1283-LIVRE-ROISIN-MCVF-P,.142))
+  (ID 1283-LIVRE-ROISIN-MCVF-P,10.142))
 
 ( (CODE <$$p>))
 
@@ -4368,7 +4368,7 @@
 							  (PP (P de)
 							      (NP (D le) (NCS ville))))))))))))
 	  (PONFP ,))
-  (ID 1283-LIVRE-ROISIN-MCVF-P,.146))
+  (ID 1283-LIVRE-ROISIN-MCVF-P,10.146))
 
 ( (IP-MAT (CONJO et)
 	  (CODE <lb$$>)
@@ -4448,7 +4448,7 @@
 												       (PP (P sour)
 													   (NP (D le) (NCS meffaisant)))))))))))))))))
 	  (PONFP .))
-  (ID 1283-LIVRE-ROISIN-MCVF-P,.147))
+  (ID 1283-LIVRE-ROISIN-MCVF-P,10.147))
 
 ( (CODE <$$p>))
 
@@ -4603,7 +4603,7 @@
 												(CODE <lb$$>)
 												(VJ enjoinderont)))))))))))))
 	  (PONFP .))
-  (ID 1283-LIVRE-ROISIN-MCVF-P,.153))
+  (ID 1283-LIVRE-ROISIN-MCVF-P,10.153))
 
 ( (IP-MAT (CONJO Et)
 	  (CP-ADV (CONJS s')
@@ -4647,7 +4647,7 @@
 				(PP (P d@)
 				    (NP (D @es) (NCPL plèges))))))
 	  (PONFP .))
-  (ID 1283-LIVRE-ROISIN-MCVF-P,.154))
+  (ID 1283-LIVRE-ROISIN-MCVF-P,10.154))
 
 ( (CODE <$$p>))
 
@@ -4723,7 +4723,7 @@
 								    (PP (P à)
 									(NP (NCS véritet))))))))))))
 	  (PONFP .))
-  (ID 1283-LIVRE-ROISIN-MCVF-P,.158))
+  (ID 1283-LIVRE-ROISIN-MCVF-P,11.158))
 
 ( (CODE <lb$$>))
 
@@ -4753,7 +4753,7 @@
 			    (PP (P de)
 				(NP (D le) (NCS porte)))))
 	  (PONFP ,))
-  (ID 1283-LIVRE-ROISIN-MCVF-P,.160))
+  (ID 1283-LIVRE-ROISIN-MCVF-P,11.160))
 
 ( (IP-MAT (CONJO et)
 	  (ADVP-1 (ADV là))
@@ -4781,7 +4781,7 @@
 			     (PP (P a@)
 				 (NP (D @u) (QR mains))))))
 	  (PONFP .))
-  (ID 1283-LIVRE-ROISIN-MCVF-P,.161))
+  (ID 1283-LIVRE-ROISIN-MCVF-P,11.161))
 
 ( (CODE <$$p>))
 
@@ -4889,7 +4889,7 @@
 										 (PP (P en)
 										     (NP (D le) (NCS castelerie))))))))))))))
 	  (PONFP .))
-  (ID 1283-LIVRE-ROISIN-MCVF-P,.167))
+  (ID 1283-LIVRE-ROISIN-MCVF-P,11.167))
 
 ( (IP-MAT (CONJO Et)
 	  (CP-ADV (CONJS s')
@@ -5057,7 +5057,7 @@
 	  (PONFP .)
 	  (PON ")
 	  (CODE <$$q>))
-  (ID 1283-LIVRE-ROISIN-MCVF-P,.168))
+  (ID 1283-LIVRE-ROISIN-MCVF-P,11.168))
 
 ( (IP-MAT (CONJO Et)
 	  (ADVP (ADV dont))
@@ -5082,7 +5082,7 @@
 			     (PP (P par)
 				 (NP (NCS sournon))))))
 	  (PONFP .))
-  (ID 1283-LIVRE-ROISIN-MCVF-P,.169))
+  (ID 1283-LIVRE-ROISIN-MCVF-P,11.169))
 
 ( (IP-MAT (CONJO Et)
 	  (NP-SBJ *proimp*)
@@ -5097,7 +5097,7 @@
 				      (PP (P sour)
 					  (NP (D le) (NCS hart)))))))
 	  (PONFP .))
-  (ID 1283-LIVRE-ROISIN-MCVF-P,.170))
+  (ID 1283-LIVRE-ROISIN-MCVF-P,11.170))
 
 ( (CODE <$$p>))
 
@@ -5133,7 +5133,7 @@
 	  (PON -)
 	  (NP-SBJ (PRO on))
 	  (PONFP ,))
-  (ID 1283-LIVRE-ROISIN-MCVF-P,.174))
+  (ID 1283-LIVRE-ROISIN-MCVF-P,11.174))
 
 ( (IP-MAT (CONJO et)
 	  (MDJ doit)
@@ -5180,7 +5180,7 @@
 								      (PP (P de)
 									  (NP (D le) (NCS ville)))))))))))
 	  (PONFP ,))
-  (ID 1283-LIVRE-ROISIN-MCVF-P,.175))
+  (ID 1283-LIVRE-ROISIN-MCVF-P,12.175))
 
 ( (IP-MAT-SPE (CONJO et)
 	      (NP-SBJ (PRO il))
@@ -5193,7 +5193,7 @@
 			  (PP (P à)
 			      (NP (D le) (NCS ville))))
 	      (PONFP :))
-  (ID 1283-LIVRE-ROISIN-MCVF-P,.176))
+  (ID 1283-LIVRE-ROISIN-MCVF-P,12.176))
 
 ( (IP-MAT-OPT-SPE (NP-SBJ (PRO chou))
 		  (VJ soit)
@@ -5208,7 +5208,7 @@
 		  (PON ")
 		  (CODE <$$q>)
 		  (PONFP ,))
-  (ID 1283-LIVRE-ROISIN-MCVF-P,.177))
+  (ID 1283-LIVRE-ROISIN-MCVF-P,12.177))
 
 ( (IP-MAT (CONJO et)
 	  (PP (P apriès)
@@ -5264,7 +5264,7 @@
 						     (CONJP (CONJO et)
 							    (NP (D le) (NCS consel)))))))))
 	  (PONFP ,))
-  (ID 1283-LIVRE-ROISIN-MCVF-P,.178))
+  (ID 1283-LIVRE-ROISIN-MCVF-P,12.178))
 
 ( (IP-MAT (CODE <lb$$>)
 	  (CONJO et)
@@ -5318,7 +5318,7 @@
 							       (PP (P em)
 								   (NP (NCS prison))))))))))
 	  (PONFP .))
-  (ID 1283-LIVRE-ROISIN-MCVF-P,.179))
+  (ID 1283-LIVRE-ROISIN-MCVF-P,12.179))
 
 ( (IP-MAT (CONJO Et)
 	  (NP-TMP (NP (D le)
@@ -5465,7 +5465,7 @@
 					    (PP (P en)
 						(NP (D le) (NCS ville))))))))
 	  (PONFP ,))
-  (ID 1283-LIVRE-ROISIN-MCVF-P,.180))
+  (ID 1283-LIVRE-ROISIN-MCVF-P,12.180))
 
 ( (IP-MAT (ADVP (ADV s'))
 	  (NP-SBJ (PRO il))
@@ -5509,7 +5509,7 @@
 						    (VJ euissent)
 						    (NP-ACC (D le) (NCS respit))))))))
 	  (PONFP .))
-  (ID 1283-LIVRE-ROISIN-MCVF-P,.181))
+  (ID 1283-LIVRE-ROISIN-MCVF-P,12.181))
 
 ( (IP-MAT (CONJO Et)
 	  (CP-ADV (CONJS quant)
@@ -5588,7 +5588,7 @@
 	  (PONFP ?)
 	  (PON ")
 	  (CODE <$$q>))
-  (ID 1283-LIVRE-ROISIN-MCVF-P,.182))
+  (ID 1283-LIVRE-ROISIN-MCVF-P,12.182))
 
 ( (CODE <$$p>))
 
@@ -5644,7 +5644,7 @@
 		  (NCPL sols)
 		  (NP-MSR (D le) (NCS jour))))
 	  (PONFP .))
-  (ID 1283-LIVRE-ROISIN-MCVF-P,.188))
+  (ID 1283-LIVRE-ROISIN-MCVF-P,13.188))
 
 ( (IP-MAT (CONJO Et)
 	  (NP-SBJ (D li)
@@ -5680,7 +5680,7 @@
 		  (NCPL sols)
 		  (NP-MSR (D le) (NCS jour))))
 	  (PONFP ,))
-  (ID 1283-LIVRE-ROISIN-MCVF-P,.189))
+  (ID 1283-LIVRE-ROISIN-MCVF-P,13.189))
 
 ( (IP-MAT (CONJO et)
 	  (NP-SBJ (D li)
@@ -5726,7 +5726,7 @@
 		  (CODE <$$abbr>)
 		  (NP-MSR (D le) (NCS jour)))
 	  (PONFP .))
-  (ID 1283-LIVRE-ROISIN-MCVF-P,.190))
+  (ID 1283-LIVRE-ROISIN-MCVF-P,13.190))
 
 ( (CODE <$$p>))
 
@@ -5838,7 +5838,7 @@
 									      (PP (P de)
 										  (NP (NPRS Lille)))))))))))))
 	  (PONFP .))
-  (ID 1283-LIVRE-ROISIN-MCVF-P,.196))
+  (ID 1283-LIVRE-ROISIN-MCVF-P,13.196))
 
 ( (IP-MAT (CONJO Et)
 	  (CP-ADV (CONJS se)
@@ -5929,7 +5929,7 @@
 											(NP-ACC (ADJ teuls) (NCPL gens))
 											(VJ conforte_roient)))))))))))))
 	  (PONFP .))
-  (ID 1283-LIVRE-ROISIN-MCVF-P,.197))
+  (ID 1283-LIVRE-ROISIN-MCVF-P,13.197))
 
 ( (CODE <lb$$>))
 
@@ -5993,7 +5993,7 @@
 					(VPP dit)
 					(EJ est)))))
 	  (PONFP .))
-  (ID 1283-LIVRE-ROISIN-MCVF-P,.199))
+  (ID 1283-LIVRE-ROISIN-MCVF-P,13.199))
 
 ( (CODE <$$p>))
 
@@ -6099,7 +6099,7 @@
 								(CODE <lb$$>)
 								(NP (D le) (NCS ville))))))))))
 	  (PONFP .))
-  (ID 1283-LIVRE-ROISIN-MCVF-P,.205))
+  (ID 1283-LIVRE-ROISIN-MCVF-P,14.205))
 
 ( (CODE <$$p>))
 
@@ -6135,7 +6135,7 @@
 						   (VPP racaté)
 						   (NP-ACC (DZ leur) (NCS bourgesie)))))))
       (PONFP .))
-  (ID 1283-LIVRE-ROISIN-MCVF-P,.212))
+  (ID 1283-LIVRE-ROISIN-MCVF-P,14.212))
 
 ( (CODE <$$hi>))
 
@@ -6187,7 +6187,7 @@
 						(NP-SBJ (D li) (NCPL bourgois))
 						(VJ ont))))))
 	  (PONFP .))
-  (ID 1283-LIVRE-ROISIN-MCVF-P,.217))
+  (ID 1283-LIVRE-ROISIN-MCVF-P,14.217))
 
 ( (IP-MAT (CONJO Et)
 	  (CP-ADV (CONJS se)
@@ -6253,7 +6253,7 @@
 				  (VJ aroit)
 				  (NP-ACC (DZ son) (NCS eage)))))
 	  (PONFP ;))
-  (ID 1283-LIVRE-ROISIN-MCVF-P,.218))
+  (ID 1283-LIVRE-ROISIN-MCVF-P,14.218))
 
 ( (IP-MAT (CONJO et)
 	  (CP-ADV (CONJS quant)
@@ -6287,7 +6287,7 @@
 						   (PP (P de@)
 						       (NP (D @l) (NCS arsin))))))))
 	  (PONFP ,))
-  (ID 1283-LIVRE-ROISIN-MCVF-P,.219))
+  (ID 1283-LIVRE-ROISIN-MCVF-P,14.219))
 
 ( (IP-MAT (CONJO mais)
 	  (NP-ACC (Q toutes) (ADJ autres) (NCPL franchises))
@@ -6302,7 +6302,7 @@
 				(NP-SBJ (D li) (NCPL bourgois))
 				(VJ ont))))
 	  (PONFP .))
-  (ID 1283-LIVRE-ROISIN-MCVF-P,.220))
+  (ID 1283-LIVRE-ROISIN-MCVF-P,14.220))
 
 ( (IP-MAT (CONJO Et)
 	  (CP-ADV (CP-ADV (CONJS se)
@@ -6339,7 +6339,7 @@
 			  (AJ ara)
 			  (VPP partit)))
 	  (PONFP ,))
-  (ID 1283-LIVRE-ROISIN-MCVF-P,.221))
+  (ID 1283-LIVRE-ROISIN-MCVF-P,14.221))
 
 ( (IP-MAT (CONJO mais)
 	  (NP-ACC (Q toutes) (ADJ autres) (CODE <lb$$>) (NCPL franchises))
@@ -6363,7 +6363,7 @@
 				      (IP-INF (NP-MSR *T*-2)
 					      (VX marier))))))
 	  (PONFP .))
-  (ID 1283-LIVRE-ROISIN-MCVF-P,.222))
+  (ID 1283-LIVRE-ROISIN-MCVF-P,14.222))
 
 ( (IP-MAT (CONJO Et)
 	  (CP-ADV (CONJS s')
@@ -6418,7 +6418,7 @@
 				  (PP (P de)
 				      (NP (NCS bourgois))))))
 	  (PONFP ,))
-  (ID 1283-LIVRE-ROISIN-MCVF-P,.223))
+  (ID 1283-LIVRE-ROISIN-MCVF-P,14.223))
 
 ( (IP-MAT (CONJO mais)
 	  (CP-ADV (CONJS se)
@@ -6446,7 +6446,7 @@
 					(PP (P de)
 					    (NP (NCS forains)))))))
 	  (PONFP ,))
-  (ID 1283-LIVRE-ROISIN-MCVF-P,.224))
+  (ID 1283-LIVRE-ROISIN-MCVF-P,14.224))
 
 ( (IP-MAT (CONJO et)
 	  (ADVP (ADV si))
@@ -6458,7 +6458,7 @@
 	  (PON ,)
 	  (VPP escassés)
 	  (PONFP .))
-  (ID 1283-LIVRE-ROISIN-MCVF-P,.225))
+  (ID 1283-LIVRE-ROISIN-MCVF-P,14.225))
 
 ( (CP-THT (CP-ADV (CONJS Se)
 		  (IP-SUB (NP-SBJ (NCS fius)
@@ -6512,7 +6512,7 @@
 				(NP (NCS endroit)
 				    (NP-XXX (NCS arsin))))))
 	  (PONFP .))
-  (ID 1283-LIVRE-ROISIN-MCVF-P,.226))
+  (ID 1283-LIVRE-ROISIN-MCVF-P,14.226))
 
 ( (IP-MAT (CONJO Et)
 	  (PP (PP (P o@)
@@ -6576,7 +6576,7 @@
 					(NCS bourgois)
 					(IP-PPL (VPP siermentet)))))))
 	  (PONFP .))
-  (ID 1283-LIVRE-ROISIN-MCVF-P,.227))
+  (ID 1283-LIVRE-ROISIN-MCVF-P,15.227))
 
 ( (CODE <$$p>))
 
@@ -6601,7 +6601,7 @@
 			  (PP (P sur)
 			      (NP (D le) (NCS bour_gesie))))))
 	  (PONFP .))
-  (ID 1283-LIVRE-ROISIN-MCVF-P,.234))
+  (ID 1283-LIVRE-ROISIN-MCVF-P,15.234))
 
 ( (CODE <$$hi>))
 
@@ -6729,7 +6729,7 @@
 										    (EX estre)
 										    (VPP arriéret))))))))))
 	  (PONFP .))
-  (ID 1283-LIVRE-ROISIN-MCVF-P,.239))
+  (ID 1283-LIVRE-ROISIN-MCVF-P,15.239))
 
 ( (CODE <$$p>))
 
@@ -6880,7 +6880,7 @@
 												(NP-SBJ (NCS usages))
 												(VJ porte))))))))))))
 	  (PONFP .))
-  (ID 1283-LIVRE-ROISIN-MCVF-P,.245))
+  (ID 1283-LIVRE-ROISIN-MCVF-P,15.245))
 
 ( (CODE <$$p>))
 

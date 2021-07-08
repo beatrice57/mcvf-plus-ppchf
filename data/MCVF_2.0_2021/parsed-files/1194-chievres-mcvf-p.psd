@@ -89,7 +89,7 @@
 										     (CODE <lb$$>)
 										     (NP (D les) (ADJ altres) (NCPL forfais)))))))))))))
 	  (PONFP .))
-  (ID 1194-CHIEVRES-MCVF-P,.4))
+  (ID 1194-CHIEVRES-MCVF-P,[1].4))
 
 ( (CODE <$$p>))
 
@@ -109,7 +109,7 @@
 	  (IP-INF (NP-ACC *ICH*-1)
 		  (VX amender))
 	  (PONFP ;))
-  (ID 1194-CHIEVRES-MCVF-P,.6))
+  (ID 1194-CHIEVRES-MCVF-P,[2].6))
 
 ( (IP-MAT (CODE <pb_n="114"$$>)
 	  (IP-MAT-1 (PP (P de)
@@ -134,7 +134,7 @@
 						   (VJ porchace))))
 			   (NP-ACC (ADJNUM VI) (NCPL sol.))))
 	  (PONFP ;))
-  (ID 1194-CHIEVRES-MCVF-P,.7))
+  (ID 1194-CHIEVRES-MCVF-P,114.7))
 
 ( (IP-MAT (CP-ADV (CONJS se)
 		  (IP-SUB (NP-SBJ (PRO il))
@@ -147,7 +147,7 @@
 		  (PP (P de@)
 		      (NP (D @l) (NCS païs))))
 	  (PONFP .))
-  (ID 1194-CHIEVRES-MCVF-P,.8))
+  (ID 1194-CHIEVRES-MCVF-P,114.8))
 
 ( (CODE <$$p>))
 
@@ -169,7 +169,7 @@
 	  (IP-INF (VX prendre)
 		  (NP-ACC (FP ke) (ADJNUM XXX) (NCPL sol.)))
 	  (PONFP ;))
-  (ID 1194-CHIEVRES-MCVF-P,.10))
+  (ID 1194-CHIEVRES-MCVF-P,[3].10))
 
 ( (CODE <lb$$>))
 
@@ -190,7 +190,7 @@
 		 (IP-MAT=1 (NP-SBJ (D li) (NCS provos))
 			   (NP-ACC (NUM III))))
 	  (PONFP .))
-  (ID 1194-CHIEVRES-MCVF-P,.12))
+  (ID 1194-CHIEVRES-MCVF-P,[3].12))
 
 ( (CODE <$$p>))
 
@@ -200,7 +200,7 @@
 	(PON ,)
 	(NP (ADJNUM XV) (NCPL sol.))
 	(PONFP ;))
-  (ID 1194-CHIEVRES-MCVF-P,.14))
+  (ID 1194-CHIEVRES-MCVF-P,[4].14))
 
 ( (IP-MAT (IP-MAT-1 (PP (P de)
 			(NP (PRO ço)))
@@ -219,7 +219,7 @@
 		 (IP-MAT=1 (NP-SBJ (D li) (NCS prevos))
 			   (NP-ACC (NUM II))))
 	  (PONFP .))
-  (ID 1194-CHIEVRES-MCVF-P,.15))
+  (ID 1194-CHIEVRES-MCVF-P,[4].15))
 
 ( (CODE <$$p>))
 
@@ -229,7 +229,7 @@
 	(PON ,)
 	(NP (ADJNUM V) (NCPL sol) (PON .))
 	(PONFP ;))
-  (ID 1194-CHIEVRES-MCVF-P,.17))
+  (ID 1194-CHIEVRES-MCVF-P,[4].17))
 
 ( (IP-MAT (IP-MAT-1 (PP (P de)
 			(NP (PRO ço)))
@@ -245,7 +245,7 @@
 			   (CODE <lb$$>)
 			   (NP-ACC (NUM II))))
 	  (PONFP .))
-  (ID 1194-CHIEVRES-MCVF-P,.18))
+  (ID 1194-CHIEVRES-MCVF-P,[4].18))
 
 ( (CODE <$$p>))
 
@@ -270,7 +270,7 @@
 					      (PP (P a@)
 						  (NP (D @s) (NCPL segneurs))))))))
 	      (PONFP ,))
-  (ID 1194-CHIEVRES-MCVF-P,.20))
+  (ID 1194-CHIEVRES-MCVF-P,[6].20))
 
 ( (IP-MAT (CONJO mais)
 	  (PP (P en)
@@ -285,7 +285,7 @@
 		      (NP (NCS congiet))))
 	  (CODE <lb$$>)
 	  (PONFP .))
-  (ID 1194-CHIEVRES-MCVF-P,.21))
+  (ID 1194-CHIEVRES-MCVF-P,[6].21))
 
 ( (CODE <$$p>))
 
@@ -320,7 +320,7 @@
 							    (NP-SBJ (PRO il))
 							    (MDJ vuelent)))))))
 	  (PONFP ,))
-  (ID 1194-CHIEVRES-MCVF-P,.23))
+  (ID 1194-CHIEVRES-MCVF-P,[7].23))
 
 ( (IP-MAT (CONJO et)
 	  (NP-SBJ *con*)
@@ -338,7 +338,7 @@
 		  (PP (P sauve)
 		      (NP (DZ leur) (NCS issue))))
 	  (PONFP ,))
-  (ID 1194-CHIEVRES-MCVF-P,.24))
+  (ID 1194-CHIEVRES-MCVF-P,[7].24))
 
 ( (IP-MAT (CONJO et)
 	  (NP-SBJ (D li) (NCPL segneur))
@@ -351,7 +351,7 @@
 			    (PP (P de)
 				(NP (DZ luer) (CODE <lb$$>) (NCS terre)))))
 	  (PONFP .))
-  (ID 1194-CHIEVRES-MCVF-P,.25))
+  (ID 1194-CHIEVRES-MCVF-P,[7].25))
 
 ( (CODE <$$p>))
 
@@ -376,7 +376,7 @@
 					(IP-INF (NP-ACC (D les) (NCPL droitures))
 						(VX warder))))))
 	  (PONFP ;))
-  (ID 1194-CHIEVRES-MCVF-P,.27))
+  (ID 1194-CHIEVRES-MCVF-P,[8].27))
 
 ( (IP-MAT (CONJO et)
 	  (CP-ADV (CONJS se)
@@ -400,7 +400,7 @@
 	  (IP-INF (NP-ACC *ICH*-1)
 		  (VX oster))
 	  (PONFP ;))
-  (ID 1194-CHIEVRES-MCVF-P,.28))
+  (ID 1194-CHIEVRES-MCVF-P,[8].28))
 
 ( (IP-MAT (CONJO et)
 	  (CP-ADV (CONJS se)
@@ -424,7 +424,7 @@
 			 (IP-INF (NP-ACC (NCS altre))
 				 (VX metre))))
 	  (PONFP .))
-  (ID 1194-CHIEVRES-MCVF-P,.29))
+  (ID 1194-CHIEVRES-MCVF-P,[8].29))
 
 ( (CODE <$$p>))
 
@@ -476,7 +476,7 @@
 			      (IP-INF (NP-DTV *ICH*-3)
 				      (VX prover))))
 	      (PONFP ;))
-  (ID 1194-CHIEVRES-MCVF-P,.31))
+  (ID 1194-CHIEVRES-MCVF-P,[9].31))
 
 ( (IP-MAT (CONJO et)
 	  (CP-ADV (CONJS se)
@@ -508,7 +508,7 @@
 			  (VX jurer)))
 	  (CODE <lb$$>)
 	  (PONFP EOS))
-  (ID 1194-CHIEVRES-MCVF-P,.32))
+  (ID 1194-CHIEVRES-MCVF-P,[9].32))
 
 ( (IP-MAT (CONJO et)
 	  (ADVP-TMP (ADV puis))
@@ -517,7 +517,7 @@
 	  (IP-INF (VX porter)
 		  (NP-ACC (NCS tesmoing)))
 	  (PONFP .))
-  (ID 1194-CHIEVRES-MCVF-P,.33))
+  (ID 1194-CHIEVRES-MCVF-P,[9].33))
 
 ( (CODE <$$p>))
 
@@ -557,7 +557,7 @@
 			  (CONJP (CONJO u)
 				 (IP-SUB=2 (VPP (VPP ferut) (CONJO u) (VPP desmentit))))))
 	  (PONFP ;))
-  (ID 1194-CHIEVRES-MCVF-P,.35))
+  (ID 1194-CHIEVRES-MCVF-P,[10].35))
 
 ( (CODE <lb$$>))
 
@@ -580,7 +580,7 @@
 			      (CODE <lb$$>)
 			      (NP-ACC (NCS entrepresure)))))
 	  (PONFP ;))
-  (ID 1194-CHIEVRES-MCVF-P,.37))
+  (ID 1194-CHIEVRES-MCVF-P,[10].37))
 
 ( (IP-MAT (CONJO et)
 	  (CP-ADV (CONJS se)
@@ -601,7 +601,7 @@
 			  (PP (P de)
 			      (NP (D le) (NCS vile))))))
 	  (PONFP .))
-  (ID 1194-CHIEVRES-MCVF-P,.38))
+  (ID 1194-CHIEVRES-MCVF-P,[10].38))
 
 ( (CODE <$$p>))
 
@@ -637,7 +637,7 @@
 			      (NP-SBJ (PRO on))
 			      (NP-ACC (DZ lor) (NCS iretage))))
 	      (PONFP .))
-  (ID 1194-CHIEVRES-MCVF-P,.40))
+  (ID 1194-CHIEVRES-MCVF-P,[11].40))
 
 ( (CODE <$$p>))
 
@@ -693,7 +693,7 @@
 						    (PP (P devant)
 							(NP (D le) (NCS justice))))))))
 	  (PONFP .))
-  (ID 1194-CHIEVRES-MCVF-P,.42))
+  (ID 1194-CHIEVRES-MCVF-P,[12].42))
 
 ( (CODE <$$p>))
 
@@ -716,7 +716,7 @@
 			  (CONJP (CONJO et)
 				 (NP (ADJNUM III) (NCPL d.))))))
 	  (PONFP ;))
-  (ID 1194-CHIEVRES-MCVF-P,.44))
+  (ID 1194-CHIEVRES-MCVF-P,[13].44))
 
 ( (IP-MAT (IP-MAT-1 (PP (P de)
 			(NP (PRO ço)))
@@ -738,7 +738,7 @@
 		 (IP-MAT=1 (NP-SBJ (D li) (ADJNUM III) (NCPL d.))
 			   (NP-DTV (D le) (NCS justice))))
 	  (PONFP .))
-  (ID 1194-CHIEVRES-MCVF-P,.45))
+  (ID 1194-CHIEVRES-MCVF-P,[13].45))
 
 ( (CODE <$$p>))
 
@@ -773,7 +773,7 @@
 				    (P a)
 				    (NP (NCS loi))))))
 	  (PONFP ;))
-  (ID 1194-CHIEVRES-MCVF-P,.47))
+  (ID 1194-CHIEVRES-MCVF-P,[14].47))
 
 ( (IP-MAT (CONJO et)
 	  (PP (P a)
@@ -787,7 +787,7 @@
 				  (NP-ACC (D la) (NCS parole))
 				  (VJ wart))))
 	  (PONFP .))
-  (ID 1194-CHIEVRES-MCVF-P,.48))
+  (ID 1194-CHIEVRES-MCVF-P,[14].48))
 
 ( (CODE <$$p>))
 
@@ -815,7 +815,7 @@
 						     (PP (P por)
 							 (NP (ADJR mellor) (NCS catel))))))))
 	  (PONFP ,))
-  (ID 1194-CHIEVRES-MCVF-P,.50))
+  (ID 1194-CHIEVRES-MCVF-P,[15].50))
 
 ( (IP-MAT (CONJO ains)
 	  (MDJ doivent)
@@ -824,7 +824,7 @@
 	  (IP-INF (VX remanoir)
 		  (NP-DTV (DAT a) (DZ leur) (NCPL oirs)))
 	  (PONFP EOS))
-  (ID 1194-CHIEVRES-MCVF-P,.51))
+  (ID 1194-CHIEVRES-MCVF-P,[15].51))
 
 ( (IP-MAT (CONJO et)
 	  (NP-SBJ (PRO cil)
@@ -853,7 +853,7 @@
 						    (PP (P d@)
 							(NP (D @es) (NCPL jureez))))))))))
 	  (PONFP ;))
-  (ID 1194-CHIEVRES-MCVF-P,.52))
+  (ID 1194-CHIEVRES-MCVF-P,[15].52))
 
 ( (IP-MAT (NP-SBJ (CONJO ne)
 		  (NP (D li) (NCPL segneur))
@@ -868,7 +868,7 @@
 	  (IP-INF (NP-ACC *ICH*-1)
 		  (VX enprunter))
 	  (PONFP .))
-  (ID 1194-CHIEVRES-MCVF-P,.53))
+  (ID 1194-CHIEVRES-MCVF-P,[15].53))
 
 ( (CODE <$$p>))
 
@@ -931,7 +931,7 @@
 				(IP-INF (NP-ACC (DZ lor) (NCS sairement))
 					(VX sauver)))))
 	  (PONFP .))
-  (ID 1194-CHIEVRES-MCVF-P,.55))
+  (ID 1194-CHIEVRES-MCVF-P,[16].55))
 
 ( (CODE <$$p>))
 
@@ -966,7 +966,7 @@
 				    (PP (P par)
 					(NP (NCS sairement))))))
 	  (PONFP ;))
-  (ID 1194-CHIEVRES-MCVF-P,.57))
+  (ID 1194-CHIEVRES-MCVF-P,[17].57))
 
 ( (IP-MAT (CONJO et)
 	  (CP-ADV (CONJS se)
@@ -987,7 +987,7 @@
 			    (NP (NCS relaiz)))
 			(NP-DTV (DAT a@) (D @s) (NCPL segnors))))
 	  (PONFP .))
-  (ID 1194-CHIEVRES-MCVF-P,.58))
+  (ID 1194-CHIEVRES-MCVF-P,[17].58))
 
 ( (CODE <$$p>))
 
@@ -1006,7 +1006,7 @@
 						(CODE <lb$$>)
 						(VX quere))))))
 	  (PONFP .))
-  (ID 1194-CHIEVRES-MCVF-P,.60))
+  (ID 1194-CHIEVRES-MCVF-P,[18].60))
 
 ( (CODE <$$p>))
 
@@ -1073,7 +1073,7 @@
 									      (VJ ait)
 									      (NP-ACC (DZ sen) (NCS catel))))))))))
 	  (PONFP .))
-  (ID 1194-CHIEVRES-MCVF-P,.62))
+  (ID 1194-CHIEVRES-MCVF-P,[19].62))
 
 ( (CODE <$$p>))
 
@@ -1166,7 +1166,7 @@
 					       (PP (P a@)
 						   (NP (D @s) (NCPL segneurs)))))))))
 	  (PONFP .))
-  (ID 1194-CHIEVRES-MCVF-P,.64))
+  (ID 1194-CHIEVRES-MCVF-P,[20].64))
 
 ( (CODE <$$p>))
 
@@ -1189,7 +1189,7 @@
 				(IP-INF (VX paier)
 					(NP-ACC (D les) (ADJNUM LXXXXII) (NCPL lb))))))
 	  (PONFP .))
-  (ID 1194-CHIEVRES-MCVF-P,.66))
+  (ID 1194-CHIEVRES-MCVF-P,[21].66))
 
 ( (CODE <$$p>))
 
@@ -1220,7 +1220,7 @@
 							(PP (P en)
 							    (NP (D le) (NCS vile))))))))
 	  (PONFP .))
-  (ID 1194-CHIEVRES-MCVF-P,.68))
+  (ID 1194-CHIEVRES-MCVF-P,[22].68))
 
 ( (CODE <$$p>))
 
@@ -1252,7 +1252,7 @@
 						      (NP (D @es) (NCPL eschevins)))))
 					  (ADVP (ADVNEG non))))))
 	  (PONFP .))
-  (ID 1194-CHIEVRES-MCVF-P,.70))
+  (ID 1194-CHIEVRES-MCVF-P,[23].70))
 
 ( (CODE <$$p>))
 
@@ -1285,7 +1285,7 @@
 				      (PP (P de)
 					  (NP (D le) (NCS vile)))))))
 	      (PONFP EOS))
-  (ID 1194-CHIEVRES-MCVF-P,.72))
+  (ID 1194-CHIEVRES-MCVF-P,[24].72))
 
 ( (IP-MAT (CONJO mais)
 	  (NP-SBJ *proimp*)
@@ -1304,7 +1304,7 @@
 			  (PP (P devant)
 			      (NP (D l') (NCS assize)))))
 	  (PONFP .))
-  (ID 1194-CHIEVRES-MCVF-P,.73))
+  (ID 1194-CHIEVRES-MCVF-P,[24].73))
 
 ( (CODE <$$p>))
 
@@ -1347,7 +1347,7 @@
 				    (NP-ACC (NCS aiue))
 				    (NP-DTV (DAT a) (D le) (NCS vile)))))
 	  (PONFP ;))
-  (ID 1194-CHIEVRES-MCVF-P,.75))
+  (ID 1194-CHIEVRES-MCVF-P,[25].75))
 
 ( (IP-MAT (CONJO et)
 	  (CP-ADV (CONJS se)
@@ -1384,7 +1384,7 @@
 	  (CL-NP-3 (CL le))
 	  (MDJ doivent)
 	  (PONFP .))
-  (ID 1194-CHIEVRES-MCVF-P,.76))
+  (ID 1194-CHIEVRES-MCVF-P,118.76))
 
 ( (CODE <$$p>))
 
@@ -1435,7 +1435,7 @@
 			    (IP-INF (NP-ACC *ICH*-3)
 				    (VX amender))))
 	  (PONFP ;))
-  (ID 1194-CHIEVRES-MCVF-P,.78))
+  (ID 1194-CHIEVRES-MCVF-P,[26].78))
 
 ( (IP-MAT (IP-MAT-1 (ADVP (ADV si))
 		    (CL-PP (CL en))
@@ -1448,7 +1448,7 @@
 			   (PP (P sens)
 			       (NP (NCS relais)))))
 	  (PONFP .))
-  (ID 1194-CHIEVRES-MCVF-P,.79))
+  (ID 1194-CHIEVRES-MCVF-P,[26].79))
 
 ( (CODE <$$p>))
 
@@ -1506,7 +1506,7 @@
 		  (CONJP (CONJO et)
 			 (NP (D li) (NCPL jureet))))
 	  (PONFP .))
-  (ID 1194-CHIEVRES-MCVF-P,.81))
+  (ID 1194-CHIEVRES-MCVF-P,[27].81))
 
 ( (CODE <$$p>))
 
@@ -1515,7 +1515,7 @@
 ( (IP-MAT (LATIN (ETR Actum) (ETR anno) (ETR ab) (ETR incarnatione) (ETR Domini) (ETR Mo.) (ETR Co.))
 	  (NP (NUM LXXXX.IIIIo.))
 	  (CODE <$$p>))
-  (ID 1194-CHIEVRES-MCVF-P,.84))
+  (ID 1194-CHIEVRES-MCVF-P,[27].84))
 
 ( (CODE <%%body>))
 

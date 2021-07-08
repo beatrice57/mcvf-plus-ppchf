@@ -17,7 +17,7 @@
 				 (NP-ACC (NCS honor))
 				 (VX porter))))
 	  (PONFP ;))
-  (ID 0980-LEGER-PENN-V,.5))
+  (ID 0980-LEGER-PENN-V,I.5))
 
 ( (IP-MAT (PP (P in)
 	      (NP (DZ su') (NCS amor)))
@@ -34,7 +34,7 @@
 				  (VJ augrent)
 				  (NP-ACC (ADJ granz) (NCS aanz))))))
 	  (PONFP ;))
-  (ID 0980-LEGER-PENN-V,.6))
+  (ID 0980-LEGER-PENN-V,I.6))
 
 ( (IP-MAT-1 (CONJO et)
 	    (ADVP-TMP (ADV or))
@@ -53,7 +53,7 @@
 			      (PP (P de)
 				  (NP (ADJ sant) (NPRS Lethgier)))))
 	    (PONFP .))
-  (ID 0980-LEGER-PENN-V,.7))
+  (ID 0980-LEGER-PENN-V,I.7))
 
 ( (CODE <p_n="II">))
 
@@ -76,7 +76,7 @@
 				  (PP (P ab)
 				      (NP (ADJNUM duos) (NCPL seniors)))))))
 	  (PONFP ;))
-  (ID 0980-LEGER-PENN-V,.10))
+  (ID 0980-LEGER-PENN-V,II.10))
 
 ( (IP-MAT (ADVP-TMP (ADV apres))
 	  (NP-SBJ *con*)
@@ -106,7 +106,7 @@
 						 (NP (ADJ grant) (NCS torment)))
 					     (VJ occist)))))))
 	  (PONFP .))
-  (ID 0980-LEGER-PENN-V,.11))
+  (ID 0980-LEGER-PENN-V,II.11))
 
 ( (CODE <p_n="III">))
 
@@ -135,7 +135,7 @@
 			    (PP (P a)
 				(NP (D ciel) (NCS di)))))
 	  (PONFP :))
-  (ID 0980-LEGER-PENN-V,.14))
+  (ID 0980-LEGER-PENN-V,III.14))
 
 ( (IP-MAT (NP-SBJ (PRO cio))
 	  (VJ fud)
@@ -143,20 +143,20 @@
 		  (NP-PRN (NCS fils)
 			  (NP-COM (NPRS Baldequi))))
 	  (PONFP .))
-  (ID 0980-LEGER-PENN-V,.15))
+  (ID 0980-LEGER-PENN-V,III.15))
 
 ( (IP-MAT (NP-SBJ (PRO il))
 	  (CL-NP-ACC (CL l'))
 	  (VJ enamat)
 	  (PONFP ;))
-  (ID 0980-LEGER-PENN-V,.16))
+  (ID 0980-LEGER-PENN-V,III.16))
 
 ( (IP-MAT (NP-DTV (NPRS deu))
 	  (NP-SBJ *con*)
 	  (CL-NP-ACC (CL lo))
 	  (VJ covit)
 	  (PONFP ;))
-  (ID 0980-LEGER-PENN-V,.17))
+  (ID 0980-LEGER-PENN-V,III.17))
 
 ( (IP-MAT (NP-SBJ *con*)
 	  (VJ rovat)
@@ -166,7 +166,7 @@
 			  (NP-SBJ *pro*)
 			  (VJ apresist)))
 	  (PONFP .))
-  (ID 0980-LEGER-PENN-V,.18))
+  (ID 0980-LEGER-PENN-V,III.18))
 
 ( (CODE <p_n="IV">))
 
@@ -184,13 +184,13 @@
 		  (NCS reis)
 		  (NP-PRN (NPRS Lothiers)))
 	  (PONFP .))
-  (ID 0980-LEGER-PENN-V,.21))
+  (ID 0980-LEGER-PENN-V,IV.21))
 
 ( (IP-MAT (NP-SBJ (PRO il))
 	  (CL-NP-ACC (CL lo))
 	  (VJ reciut)
 	  (PONFP ,))
-  (ID 0980-LEGER-PENN-V,.22))
+  (ID 0980-LEGER-PENN-V,IV.22))
 
 ( (IP-MAT (ADVP (Q tam)
 		(ADV ben)
@@ -224,7 +224,7 @@
 							      (PP (P por)
 								  (NP (ADJ bona) (NCS fied)))))))))
 	  (PONFP .))
-  (ID 0980-LEGER-PENN-V,.23))
+  (ID 0980-LEGER-PENN-V,IV.23))
 
 ( (CODE <p_n="V">))
 
@@ -248,20 +248,20 @@
 				  (CL-NP-ACC (CL lo))
 				  (VJ comandat))))
 	  (PONFP .))
-  (ID 0980-LEGER-PENN-V,.26))
+  (ID 0980-LEGER-PENN-V,V.26))
 
 ( (IP-MAT (NP-SBJ (PRO il))
 	  (CL-NP-ACC (CL lo))
 	  (VJ reciut)
 	  (PONFP ,))
-  (ID 0980-LEGER-PENN-V,.27))
+  (ID 0980-LEGER-PENN-V,V.27))
 
 ( (IP-MAT (ADVP (ADV bien))
 	  (NP-SBJ *con*)
 	  (CL-NP-ACC (CL lo))
 	  (VJ nodrit)
 	  (PONFP ,))
-  (ID 0980-LEGER-PENN-V,.28))
+  (ID 0980-LEGER-PENN-V,V.28))
 
 ( (IP-MAT (NP-SBJ (PRO cio))
 	  (VJ fud)
@@ -274,7 +274,7 @@
 			  (CL-NP-ACC (CL los))
 			  (VJ ting)))
 	  (PONFP .))
-  (ID 0980-LEGER-PENN-V,.29))
+  (ID 0980-LEGER-PENN-V,V.29))
 
 ( (IP-MAT (NP-SBJ (NPRS deus)
 		  (CP-REL *ICH*-1))
@@ -285,7 +285,7 @@
 			    (NP-SBJ (PRO el))
 			    (VJ servid)))
 	  (PONFP ,))
-  (ID 0980-LEGER-PENN-V,.30))
+  (ID 0980-LEGER-PENN-V,V.30))
 
 ( (IP-MAT (NP-PRD (PP (P de)
 		      (NP (ADJ sanct) (NPRS Maxens)))
@@ -293,7 +293,7 @@
 	  (NP-SBJ *pro*)
 	  (VJ divint)
 	  (PONFP .))
-  (ID 0980-LEGER-PENN-V,.31))
+  (ID 0980-LEGER-PENN-V,V.31))
 
 ( (CODE <p_n="VI">))
 
@@ -314,7 +314,7 @@
 				    (PP (P a)
 					(NP (D ciels) (NCS temps))))))
 	  (PONFP ;))
-  (ID 0980-LEGER-PENN-V,.34))
+  (ID 0980-LEGER-PENN-V,VI.34))
 
 ( (IP-MAT (ADJ-1 perfectus)
 	  (NP-SBJ *con*)
@@ -323,7 +323,7 @@
 		    (PP (P in)
 			(NP (NCS caritet))))
 	  (PONFP ,))
-  (ID 0980-LEGER-PENN-V,.35))
+  (ID 0980-LEGER-PENN-V,VI.35))
 
 ( (IP-MAT (NP-ACC (NCS fid)
 		  (CONJP *ICH*-2)
@@ -333,7 +333,7 @@
 	  (ADJP-1 (ADJ grand))
 	  (CONJP-2 (CONJO et) (NCS veritiet))
 	  (PONFP ,))
-  (ID 0980-LEGER-PENN-V,.36))
+  (ID 0980-LEGER-PENN-V,VI.36))
 
 ( (IP-MAT (CONJO et)
 	  (PP (P in)
@@ -344,7 +344,7 @@
 	  (NP-ACC (ADJP *ICH*-1)
 		  (NCPL sermons))
 	  (PONFP ,))
-  (ID 0980-LEGER-PENN-V,.37))
+  (ID 0980-LEGER-PENN-V,VI.37))
 
 ( (IP-MAT (NP-ACC (NCS humilitiet))
 	  (NP-SBJ *con*)
@@ -352,7 +352,7 @@
 	  (PP (P per)
 	      (NP (ADV tres@) (Q @toz)))
 	  (PONFP .))
-  (ID 0980-LEGER-PENN-V,.38))
+  (ID 0980-LEGER-PENN-V,VI.38))
 
 ( (CODE <p_n="VII">))
 
@@ -361,7 +361,7 @@
 ( (IP-MAT (NP-SBJ (PRO Cio))
 	  (ADVP-TMP (ADV sempre))
 	  (VJ fud))
-  (ID 0980-LEGER-PENN-V,.41))
+  (ID 0980-LEGER-PENN-V,VII.41))
 
 ( (IP-MAT (CONJO et)
 	  (ADVP (ADV ja))
@@ -369,7 +369,7 @@
 	  (NP-SBJ *con*)
 	  (VJ er)
 	  (PONFP :))
-  (ID 0980-LEGER-PENN-V,.42))
+  (ID 0980-LEGER-PENN-V,VII.42))
 
 ( (IP-MAT (NP-SBJ (CP-FRL (WNP-1 (WPRO qui))
 			  (IP-SUB (NP-SBJ *T*-1)
@@ -381,7 +381,7 @@
 	  (EJ er)
 	  (VPP *ICH*-2)
 	  (PONFP .))
-  (ID 0980-LEGER-PENN-V,.43))
+  (ID 0980-LEGER-PENN-V,VII.43))
 
 ( (IP-MAT (CONJO et)
 	  (NP-SBJ (ADJ sanz) (NPRS Letgiers))
@@ -389,7 +389,7 @@
 	  (VJ fud)
 	  (ADJP-PRD (ADJ bons))
 	  (PONFP ,))
-  (ID 0980-LEGER-PENN-V,.44))
+  (ID 0980-LEGER-PENN-V,VII.44))
 
 ( (IP-MAT (ADVP-TMP (ADV sempre))
 	  (NP-SBJ *con*)
@@ -401,7 +401,7 @@
 				    (NP-SBJ (PRO el))
 				    (MDJ pod))))
 	  (PONFP .))
-  (ID 0980-LEGER-PENN-V,.45))
+  (ID 0980-LEGER-PENN-V,VII.45))
 
 ( (IP-MAT (PP (P davant)
 	      (NP (D lo) (NCS rei)))
@@ -410,7 +410,7 @@
 	  (EJ fud)
 	  (VPP laudiez)
 	  (PONFP ;))
-  (ID 0980-LEGER-PENN-V,.46))
+  (ID 0980-LEGER-PENN-V,VII.46))
 
 ( (IP-MAT (CP-ADV (CONJS cum)
 		  (IP-SUB (NP-SBJ (PRO il))
@@ -423,7 +423,7 @@
 	  (CL-PP (CL @n))
 	  (VPP amet)
 	  (PONFP .))
-  (ID 0980-LEGER-PENN-V,.47))
+  (ID 0980-LEGER-PENN-V,VII.47))
 
 ( (CODE <p_n="VIII">))
 
@@ -433,7 +433,7 @@
 	  (NP-SBJ *pro*)
 	  (CL-NP-ACC (CL @l))
 	  (VJ mandat))
-  (ID 0980-LEGER-PENN-V,.50))
+  (ID 0980-LEGER-PENN-V,VIII.50))
 
 ( (IP-MAT (CONJO et)
 	  (NP-ACC (PRO cio))
@@ -441,40 +441,40 @@
 	  (CL-NP-DTV (CL li))
 	  (VJ dist)
 	  (PONFP ,))
-  (ID 0980-LEGER-PENN-V,.51))
+  (ID 0980-LEGER-PENN-V,VIII.51))
 
 ( (IP-MAT (PP (P a)
 	      (NP (NCS curt)))
 	  (NP-SBJ *pro*)
 	  (VJ fust)
 	  (PONFP ,))
-  (ID 0980-LEGER-PENN-V,.52))
+  (ID 0980-LEGER-PENN-V,VIII.52))
 
 ( (IP-MAT (ADVP-TMP (ADV sempre))
 	  (NP-SBJ *con*)
 	  (CL-NP-ACC (CL lui))
 	  (VJ servist)
 	  (PONFP .))
-  (ID 0980-LEGER-PENN-V,.53))
+  (ID 0980-LEGER-PENN-V,VIII.53))
 
 ( (IP-MAT (NP-SBJ (PRO il))
 	  (CL-NP-ACC (CL l'))
 	  (VJ exaltat))
-  (ID 0980-LEGER-PENN-V,.54))
+  (ID 0980-LEGER-PENN-V,VIII.54))
 
 ( (IP-MAT (CONJO e)
 	  (NP-SBJ *con*)
 	  (CL-NP-ACC (CL l'))
 	  (VJ onarat)
 	  (PONFP ,))
-  (ID 0980-LEGER-PENN-V,.55))
+  (ID 0980-LEGER-PENN-V,VIII.55))
 
 ( (IP-MAT (NP-ACC (DZ sa) (NCS gratia))
 	  (NP-SBJ *con*)
 	  (CL-NP-DTV (CL li))
 	  (VJ perdonat)
 	  (PONFP ,))
-  (ID 0980-LEGER-PENN-V,.56))
+  (ID 0980-LEGER-PENN-V,VIII.56))
 
 ( (IP-MAT (CONJO et)
 	  (ADVP (ADV hunc))
@@ -495,7 +495,7 @@
 			    (CL-PP (CL en))
 			    (VJ fist)))
 	  (PONFP .))
-  (ID 0980-LEGER-PENN-V,.57))
+  (ID 0980-LEGER-PENN-V,VIII.57))
 
 ( (CODE <p_n="IX">))
 
@@ -512,28 +512,28 @@
 	  (EJ fud)
 	  (NP-SBJ (ADJ sancz) (NPRS Lethgiers))
 	  (PONFP .))
-  (ID 0980-LEGER-PENN-V,.60))
+  (ID 0980-LEGER-PENN-V,IX.60))
 
 ( (IP-MAT (NP-SBJ (PRO il))
 	  (CL-NP-XXX (CL se))
 	  (EJ fud)
 	  (VPP morz)
 	  (PONFP ,))
-  (ID 0980-LEGER-PENN-V,.61))
+  (ID 0980-LEGER-PENN-V,IX.61))
 
 ( (IP-MAT (NP-SBJ (NCS damz))
 	  (CL-PP (CL i))
 	  (VJ fud)
 	  (ADJP-PRD (ADJ granz))
 	  (PONFP ;))
-  (ID 0980-LEGER-PENN-V,.62))
+  (ID 0980-LEGER-PENN-V,IX.62))
 
 ( (IP-MAT (NP-ACC (PRO cio))
 	  (VJ controverent)
 	  (NP-SBJ (NCPL baron)
 		  (ADJP (ADJ franc)))
 	  (PONFP ,))
-  (ID 0980-LEGER-PENN-V,.63))
+  (ID 0980-LEGER-PENN-V,IX.63))
 
 ( (IP-MAT (PP (P por)
 	      (NP (PRO cio)
@@ -550,7 +550,7 @@
 	  (NP-ACC (NCS rei)
 		  (PP *ICH*-1))
 	  (PONFP .))
-  (ID 0980-LEGER-PENN-V,.64))
+  (ID 0980-LEGER-PENN-V,IX.64))
 
 ( (CODE <p_n="X">))
 
@@ -565,7 +565,7 @@
 		  (PP (P en)
 		      (NP (D l') (NCS estrit))))
 	  (PONFP :))
-  (ID 0980-LEGER-PENN-V,.67))
+  (ID 0980-LEGER-PENN-V,X.67))
 
 ( (IP-MAT (NP-SBJ (PRO ciel)
 		  (ADVP (ADV eps)))
@@ -573,7 +573,7 @@
 	  (VJ auret)
 	  (NP-SPR (NPRS Evrui))
 	  (PONFP .))
-  (ID 0980-LEGER-PENN-V,.68))
+  (ID 0980-LEGER-PENN-V,X.68))
 
 ( (IP-MAT (IP-MAT-1 (NP-SBJ *con*)
 		    (NEG ne)
@@ -589,7 +589,7 @@
 				   (NP-PRN (NPRS Theotri)))))
 	  (CODE {ED_Linskill:Theoiri})
 	  (PONFP .))
-  (ID 0980-LEGER-PENN-V,.69))
+  (ID 0980-LEGER-PENN-V,X.69))
 
 ( (IP-MAT (NEG ne@)
 	  (CL-NP-ACC (CL @l))
@@ -597,7 +597,7 @@
 	  (NP-SBJ (Q nuls)
 		  (NP-PART (DF de) (ADJZ sos) (NCPL piers)))
 	  (PONFP ,))
-  (ID 0980-LEGER-PENN-V,.70))
+  (ID 0980-LEGER-PENN-V,X.70))
 
 ( (IP-MAT (NP-1 (NCS rei))
 	  (NP-SBJ *pro*)
@@ -608,7 +608,7 @@
 			  (NP-PRD *ICH*-1)))
 	  (NP-ADV (DZ so) (NCS gred))
 	  (PONFP .))
-  (ID 0980-LEGER-PENN-V,.71))
+  (ID 0980-LEGER-PENN-V,X.71))
 
 ( (CODE <p_n="XI">))
 
@@ -621,7 +621,7 @@
 	      (P a)
 	      (NP (NCS conseil)))
 	  (PONFP ,))
-  (ID 0980-LEGER-PENN-V,.74))
+  (ID 0980-LEGER-PENN-V,XI.74))
 
 ( (IP-MAT (VX-1 estre)
 	  (NP-ADV (DZ so) (NCS gret))
@@ -632,7 +632,7 @@
 		  (VX *ICH*-1)
 		  (NP-PRD (NCS rei)))
 	  (PONFP .))
-  (ID 0980-LEGER-PENN-V,.75))
+  (ID 0980-LEGER-PENN-V,XI.75))
 
 ( (IP-MAT (CONJO et)
 	  (NP-SBJ (NPRS Evvruins))
@@ -653,7 +653,7 @@
 					  (NP-ACC *ICH*-2)
 					  (PP *ICH*-3))))))
 	  (PONFP .))
-  (ID 0980-LEGER-PENN-V,.76))
+  (ID 0980-LEGER-PENN-V,XI.76))
 
 ( (IP-MAT (PP (P por)
 	      (NP (D cils) (ADJ tiel) (NCS duol)))
@@ -662,7 +662,7 @@
 	  (IP-SMC (CL-NP-SBJ (CL @s))
 		  (NP-PRD (NCS clergier)))
 	  (PONFP ,))
-  (ID 0980-LEGER-PENN-V,.77))
+  (ID 0980-LEGER-PENN-V,XI.77))
 
 ( (IP-MAT (ADVP (ADV si))
 	  (NP-SBJ *con*)
@@ -672,7 +672,7 @@
 	  (PP (P in)
 	      (NP (D un) (NCS monstier)))
 	  (PONFP .))
-  (ID 0980-LEGER-PENN-V,.78))
+  (ID 0980-LEGER-PENN-V,XI.78))
 
 ( (CODE <p_n="XII">))
 
@@ -692,7 +692,7 @@
 			    (NP-SBJ *pro*)
 			    (VJ fist)))
 	  (PONFP .))
-  (ID 0980-LEGER-PENN-V,.81))
+  (ID 0980-LEGER-PENN-V,XII.81))
 
 ( (IP-MAT (CP-ADV (CONJS quandius)
 		  (IP-SUB (PP (P a@)
@@ -708,12 +708,12 @@
 	  (CL-PP (CL i))
 	  (VJ garda)
 	  (PONFP ,))
-  (ID 0980-LEGER-PENN-V,.82))
+  (ID 0980-LEGER-PENN-V,XII.82))
 
 ( (IP-MAT (NP-ACC (NCS lei))
 	  (NP-SBJ *con*)
 	  (VJ (VJ consentit) (CONJO et) (VJ observat)))
-  (ID 0980-LEGER-PENN-V,.83))
+  (ID 0980-LEGER-PENN-V,XII.83))
 
 ( (IP-MAT (CONJO et)
 	  (NP-ACC (DZ son) (NCS regnet))
@@ -721,7 +721,7 @@
 	  (NP-SBJ *con*)
 	  (VJ dominat)
 	  (PONFP .))
-  (ID 0980-LEGER-PENN-V,.84))
+  (ID 0980-LEGER-PENN-V,XII.84))
 
 ( (CODE <p_n="XIII">))
 
@@ -743,7 +743,7 @@
 				(PP (P ab)
 				    (NP (NPRS Chielpering))))))
 	  (PONFP .))
-  (ID 0980-LEGER-PENN-V,.87))
+  (ID 0980-LEGER-PENN-V,XIII.87))
 
 ( (IP-MAT (NP-SBJ (D l') (NCS ira))
 	  (VJ fud)
@@ -751,7 +751,7 @@
 		    (PP (P cum)
 			(PP (P de)
 			    (NP (NCS senior))))))
-  (ID 0980-LEGER-PENN-V,.88))
+  (ID 0980-LEGER-PENN-V,XIII.88))
 
 ( (IP-MAT (CONJO et)
 	  (NP-SBJ (ADJ sancz) (NPRS Lethgiers))
@@ -760,7 +760,7 @@
 	  (CL-PP (CL ent))
 	  (NP-ACC (NCS pavor))
 	  (PONFP ;))
-  (ID 0980-LEGER-PENN-V,.89))
+  (ID 0980-LEGER-PENN-V,XIII.89))
 
 ( (IP-MAT (CP-ADV (ADVP (ADV ja))
 		  (IP-SUB (NP-SBJ *pro*)
@@ -772,7 +772,7 @@
 	  (CL-NP-ACC (CL le))
 	  (VJ celat)
 	  (PONFP ,))
-  (ID 0980-LEGER-PENN-V,.90))
+  (ID 0980-LEGER-PENN-V,XIII.90))
 
 ( (IP-MAT (NP-DTV (DAT a) (Q nuil) (NCS omne))
 	  (NP-SBJ *con*)
@@ -780,7 +780,7 @@
 	  (CL-NP-ACC (CL @l))
 	  (VJ demonstrat)
 	  (PONFP .))
-  (ID 0980-LEGER-PENN-V,.91))
+  (ID 0980-LEGER-PENN-V,XIII.91))
 
 ( (CODE <p_n="XIV">))
 
@@ -798,28 +798,28 @@
 	  (PP (P in)
 	      (NP (ADV eps) (D cel) (NCS di)))
 	  (PONFP ;))
-  (ID 0980-LEGER-PENN-V,.94))
+  (ID 0980-LEGER-PENN-V,XIV.94))
 
 ( (IP-MAT (CONJO et)
 	  (NP-SBJ (ADJ sancz) (NPRS Lethgiers))
 	  (VJ fist)
 	  (NP-ACC (DZ son) (NCS mistier))
 	  (PONFP ,))
-  (ID 0980-LEGER-PENN-V,.95))
+  (ID 0980-LEGER-PENN-V,XIV.95))
 
 ( (IP-MAT (NP-ACC (NCS misse))
 	  (CODE {ED_Linskill:missæ})
 	  (NP-SBJ *con*)
 	  (VJ cantat)
 	  (PONFP ,))
-  (ID 0980-LEGER-PENN-V,.96))
+  (ID 0980-LEGER-PENN-V,XIV.96))
 
 ( (IP-MAT (NP-SBJ *con*)
 	  (VJ fist)
 	  (CL-NP-ACC (CL lo))
 	  (ADVP (Q mul) (ADV ben))
 	  (PONFP .))
-  (ID 0980-LEGER-PENN-V,.97))
+  (ID 0980-LEGER-PENN-V,XIV.97))
 
 ( (IP-MAT (NP-ACC (NP (NCS pobl'))
 		  (CONJP (CONJO et)
@@ -827,7 +827,7 @@
 	  (NP-SBJ *con*)
 	  (VJ communiet)
 	  (CODE {ED_Linskill:communïet}))
-  (ID 0980-LEGER-PENN-V,.98))
+  (ID 0980-LEGER-PENN-V,XIV.98))
 
 ( (IP-MAT (CONJO et)
 	  (PP (P sens)
@@ -838,7 +838,7 @@
 	  (CL-PP (CL en))
 	  (VJ ralet)
 	  (PONFP .))
-  (ID 0980-LEGER-PENN-V,.99))
+  (ID 0980-LEGER-PENN-V,XIV.99))
 
 ( (CODE <p_n="XV">))
 
@@ -853,14 +853,14 @@
 	  (VJ presdra)
 	  (NP-ACC (DZ sos) (NCPL meis))
 	  (PONFP ,))
-  (ID 0980-LEGER-PENN-V,.102))
+  (ID 0980-LEGER-PENN-V,XV.102))
 
 ( (IP-MAT (NP-DTV (DAT a) (PRO lui@))
 	  (NP-SBJ *con*)
 	  (CL-NP-ACC (CL @s))
 	  (VJ tramist)
 	  (PONFP ,))
-  (ID 0980-LEGER-PENN-V,.103))
+  (ID 0980-LEGER-PENN-V,XV.103))
 
 ( (IP-MAT (NP-ACC (PRO cio)
 		  (CP-THT *ICH*-1))
@@ -871,7 +871,7 @@
 		    (IP-SUB (NP-SBJ *pro*)
 			    (VJ revenist)))
 	  (PONFP ,))
-  (ID 0980-LEGER-PENN-V,.104))
+  (ID 0980-LEGER-PENN-V,XV.104))
 
 ( (IP-MAT (NP-ACC (DZ sa) (NCS gratia))
 	  (PP (P por)
@@ -879,7 +879,7 @@
 	  (NP-SBJ *con*)
 	  (VJ ouist)
 	  (PONFP .))
-  (ID 0980-LEGER-PENN-V,.105))
+  (ID 0980-LEGER-PENN-V,XV.105))
 
 ( (IP-MAT (CONJO et)
 	  (NP-SBJ (ADJ sancz) (NPRS Lethgiers))
@@ -889,7 +889,7 @@
 	  (IP-SMC (NP-SBJ *ICH*-1)
 		  (NP-PRD (VPP mesfait)))
 	  (PONFP ;))
-  (ID 0980-LEGER-PENN-V,.106))
+  (ID 0980-LEGER-PENN-V,XV.106))
 
 ( (IP-MAT (CP-ADV (CONJS cum)
 		  (IP-SUB (NP-SBJ *pro*)
@@ -901,7 +901,7 @@
 	  (NP-SBJ *con*)
 	  (VJ ralat)
 	  (PONFP .))
-  (ID 0980-LEGER-PENN-V,.107))
+  (ID 0980-LEGER-PENN-V,XV.107))
 
 ( (CODE <p_n="XVI">))
 
@@ -918,7 +918,7 @@
 		      (NP-SBJ *pro*)
 		      (VJ estrai))
 	  (PONFP ,))
-  (ID 0980-LEGER-PENN-V,.110))
+  (ID 0980-LEGER-PENN-V,XVI.110))
 
 ( (IP-IMP-SPE (NP-1 (DZ meu) (NCS evesquet))
 	      (NEG ne@)
@@ -937,7 +937,7 @@
 							  (IP-INF-SPE (NP-ACC *ICH*-4)
 								      (VX aver)))))))
 	      (PONFP .))
-  (ID 0980-LEGER-PENN-V,.111))
+  (ID 0980-LEGER-PENN-V,XVI.111))
 
 ( (IP-IMP-SPE (PP-1 (P en)
 		    (NP (D u) (NCS monstier)))
@@ -947,7 +947,7 @@
 			  (PP *ICH*-1)
 			  (VX intrer))
 	      (PONFP ,))
-  (ID 0980-LEGER-PENN-V,.112))
+  (ID 0980-LEGER-PENN-V,XVI.112))
 
 ( (IP-MAT-SPE (CP-ADV-SPE (CONJS pos)
 			  (IP-SUB-SPE (ADVP-LOC (ADV ci))
@@ -961,7 +961,7 @@
 			  (VX ester))
 	      (PONFP .)
 	      (PON '))
-  (ID 0980-LEGER-PENN-V,.113))
+  (ID 0980-LEGER-PENN-V,XVI.113))
 
 ( (CODE <p_n="XVII">))
 
@@ -975,7 +975,7 @@
 	  (PON ,)
 	  (CONJP-1 (ADVP (ADVNEG non) (ADV voluntiers)))
 	  (PONFP ,))
-  (ID 0980-LEGER-PENN-V,.116))
+  (ID 0980-LEGER-PENN-V,XVII.116))
 
 ( (IP-MAT (NP-SBJ *con*)
 	  (VJ laisse)
@@ -985,7 +985,7 @@
 		  (PP (P in)
 		      (NP (D u) (NCS monstier))))
 	  (PONFP :))
-  (ID 0980-LEGER-PENN-V,.117))
+  (ID 0980-LEGER-PENN-V,XVII.117))
 
 ( (IP-MAT (NP-SBJ (PRO cio))
 	  (VJ fud)
@@ -995,7 +995,7 @@
 			  (NP-SBJ (PRO il))
 			  (VJ intrat)))
 	  (PONFP .))
-  (ID 0980-LEGER-PENN-V,.118))
+  (ID 0980-LEGER-PENN-V,XVII.118))
 
 ( (IP-MAT (NP-ACC (NCS clerj') (NPRS Evvrui))
 	  (CODE {ED_Linskill:Ewrui})
@@ -1003,7 +1003,7 @@
 	  (NP-SBJ *pro*)
 	  (VJ trovat)
 	  (PONFP .))
-  (ID 0980-LEGER-PENN-V,.119))
+  (ID 0980-LEGER-PENN-V,XVII.119))
 
 ( (IP-MAT (NP-SBJ (D cil) (NPRS Evvruins))
 	  (CODE {ED_Linskill:Ewruins})
@@ -1019,7 +1019,7 @@
 			 (P per)
 			 (NP (NCS el)))))
 	  (PONFP .))
-  (ID 0980-LEGER-PENN-V,.120))
+  (ID 0980-LEGER-PENN-V,XVII.120))
 
 ( (CODE <p_n="XVIIII">))
 
@@ -1030,7 +1030,7 @@
 	  (VJ fist)
 	  (NP-ACC (DZ so) (NCS mistier))
 	  (PONFP ,))
-  (ID 0980-LEGER-PENN-V,.123))
+  (ID 0980-LEGER-PENN-V,XVIIII.123))
 
 ( (IP-MAT (NP-1 (NPRS Evvrui))
 	  (CODE {ED_Linskill:Ewrui})
@@ -1040,7 +1040,7 @@
 	      (IP-INF (NP-ACC *ICH*-1)
 		      (VX castier)))
 	  (PONFP ;))
-  (ID 0980-LEGER-PENN-V,.124))
+  (ID 0980-LEGER-PENN-V,XVIIII.124))
 
 ( (IP-MAT (NP-ADT (NP (D ciel')
 		      (NCS ira)
@@ -1058,7 +1058,7 @@
 			    (CL-NP-ACC-RSP (CL lo))
 			    (QP (Q toth))))
 	  (PONFP :))
-  (ID 0980-LEGER-PENN-V,.125))
+  (ID 0980-LEGER-PENN-V,XVIIII.125))
 
 ( (IP-MAT (CP-ADV (IP-SUB (IP-SUB (NP-SBJ *proimp*)
 				  (VJ fus)
@@ -1084,7 +1084,7 @@
 			    (PP (P ab)
 				(NP (PRO lui)))))
 	  (PONFP .))
-  (ID 0980-LEGER-PENN-V,.126))
+  (ID 0980-LEGER-PENN-V,XVIIII.126))
 
 ( (CODE <p_n="XIX">))
 
@@ -1096,7 +1096,7 @@
 	  (VJ fist)
 	  (NP-ACC (ADJ fincta) (NCS pais))
 	  (PONFP :))
-  (ID 0980-LEGER-PENN-V,.129))
+  (ID 0980-LEGER-PENN-V,XIX.129))
 
 ( (IP-MAT (NP-ACC (PRO cio@)
 		  (CP-THT-PRN *ICH*-1))
@@ -1109,7 +1109,7 @@
 				(CL-PP (CL i))
 				(VJ paias)))
 	  (PONFP .))
-  (ID 0980-LEGER-PENN-V,.130))
+  (ID 0980-LEGER-PENN-V,XIX.130))
 
 ( (IP-MAT (CP-ADV (CONJS quandius)
 		  (IP-SUB (PP (P in)
@@ -1128,7 +1128,7 @@
 				(CL-NP-DTV (CL li))
 				(VJ fust)))
 	  (PONFP ;))
-  (ID 0980-LEGER-PENN-V,.131))
+  (ID 0980-LEGER-PENN-V,XIX.131))
 
 ( (IP-MAT (CONJO mais)
 	  (PP (P en)
@@ -1145,7 +1145,7 @@
 				    (PP (P por)
 					(NP (ADJ mala) (NCS fied)))))
 	  (PONFP .))
-  (ID 0980-LEGER-PENN-V,.132))
+  (ID 0980-LEGER-PENN-V,XIX.132))
 
 ( (CODE <p_n="XX">))
 
@@ -1157,7 +1157,7 @@
 	  (EJ fud)
 	  (VPP mors)
 	  (PONFP ,))
-  (ID 0980-LEGER-PENN-V,.135))
+  (ID 0980-LEGER-PENN-V,XX.135))
 
 ( (IP-MAT (PP (P per)
 	      (NP (D lo) (NCS regnet)))
@@ -1166,7 +1166,7 @@
 	  (CODE {ED_Linskill:sowrent})
 	  (NP-SBJ (Q toit))
 	  (PONFP .))
-  (ID 0980-LEGER-PENN-V,.136))
+  (ID 0980-LEGER-PENN-V,XX.136))
 
 ( (IP-MAT (VJ vindrent)
 	  (NP-SBJ (NP (NCPL parent))
@@ -1180,7 +1180,7 @@
 				     (NP-COM (NPRS Evvrui))))))
 	  (CODE {ED_Linskill:Ewrui})
 	  (PONFP ;))
-  (ID 0980-LEGER-PENN-V,.137))
+  (ID 0980-LEGER-PENN-V,XX.137))
 
 ( (IP-MAT (NP-ACC (PRO cio)
 		  (CP-THT *ICH*-1))
@@ -1196,7 +1196,7 @@
 			    (PP (P in)
 				(NP (DZ lor) (NCS honors)))))
 	  (PONFP .))
-  (ID 0980-LEGER-PENN-V,.138))
+  (ID 0980-LEGER-PENN-V,XX.138))
 
 ( (CODE <p_n="XXI">))
 
@@ -1219,7 +1219,7 @@
 			    (PP (P en)
 				(NP (DZ s') (NCS evesquet)))))
 	  (PONFP ;))
-  (ID 0980-LEGER-PENN-V,.141))
+  (ID 0980-LEGER-PENN-V,XXI.141))
 
 ( (IP-MAT (CONJO et)
 	  (NP-SBJ (NPRS Evvruins)
@@ -1236,7 +1236,7 @@
 			    (VJ deveng)
 			    (NP-PRD (NCS anatemaz))))
 	  (PONFP ;))
-  (ID 0980-LEGER-PENN-V,.142))
+  (ID 0980-LEGER-PENN-V,XXI.142))
 
 ( (IP-MAT (NP-LFD (DZ son)
 		  (NCS queu)
@@ -1253,7 +1253,7 @@
 	  (IP-INF (NP-XXX *ICH*-2)
 		  (VX recimer))
 	  (PONFP .))
-  (ID 0980-LEGER-PENN-V,.143))
+  (ID 0980-LEGER-PENN-V,XXI.143))
 
 ( (CODE <p_n="XXII">))
 
@@ -1264,7 +1264,7 @@
 	  (CL-NP-ACC-RSP (CL lo))
 	  (CODE {ED_Ottawa:in_cio})
 	  (VJ laissat))
-  (ID 0980-LEGER-PENN-V,.146))
+  (ID 0980-LEGER-PENN-V,XXII.146))
 
 ( (IP-MAT (CONJO et)
 	  (NP-DTV (DAT a) (NPRS diable@))
@@ -1273,7 +1273,7 @@
 	  (CODE {ED_Linskill:dïable})
 	  (VJ comandat)
 	  (PONFP .))
-  (ID 0980-LEGER-PENN-V,.147))
+  (ID 0980-LEGER-PENN-V,XXII.147))
 
 ( (IP-MAT (NP-ACC (CP-FRL (WNP-1 (WPRO qui))
 			  (IP-SUB (IP-SUB (NP-SBJ *T*-1)
@@ -1291,7 +1291,7 @@
 	  (ADVP-TMP (ADV semper))
 	  (VJ reciut)
 	  (PONFP .))
-  (ID 0980-LEGER-PENN-V,.148))
+  (ID 0980-LEGER-PENN-V,XXII.148))
 
 ( (IP-MAT (PP (P cum)
 	      (NP (NCS fulc)))
@@ -1300,7 +1300,7 @@
 	  (VJ aut)
 	  (NP-ACC (ADJ grand) (NCS adunat))
 	  (PONFP ,))
-  (ID 0980-LEGER-PENN-V,.149))
+  (ID 0980-LEGER-PENN-V,XXII.149))
 
 ( (IP-MAT (NP-1 (D lo) (NCS regne))
 	  (NP-SBJ *con*)
@@ -1309,7 +1309,7 @@
 	      (IP-INF (NP-ACC *ICH*-1)
 		      (VX devaster)))
 	  (PONFP .))
-  (ID 0980-LEGER-PENN-V,.150))
+  (ID 0980-LEGER-PENN-V,XXII.150))
 
 ( (CODE <p_n="XXIII">))
 
@@ -1329,7 +1329,7 @@
 				 (VG persecutan))))
 	  (CODE {ED_Linskill:percutan})
 	  (PONFP ;))
-  (ID 0980-LEGER-PENN-V,.153))
+  (ID 0980-LEGER-PENN-V,XXIII.153))
 
 ( (IP-MAT (PP (P por)
 	      (NP (CP-FRL (WNP-1 (WPRO quant))
@@ -1342,7 +1342,7 @@
 	  (NP-ACC (QP *ICH*-2)
 		  (NP-PART (DF de) (NCS miel)))
 	  (PONFP ,))
-  (ID 0980-LEGER-PENN-V,.154))
+  (ID 0980-LEGER-PENN-V,XXIII.154))
 
 ( (IP-MAT (PP (P por)
 	      (NP (NPRS deu)))
@@ -1353,7 +1353,7 @@
 	  (IP-INF (NP-ACC *ICH*-1)
 		  (VX observer))
 	  (PONFP .))
-  (ID 0980-LEGER-PENN-V,.155))
+  (ID 0980-LEGER-PENN-V,XXIII.155))
 
 ( (IP-MAT (NP-SBJ (PRO ciel)
 		  (CP-REL *ICH*-1))
@@ -1368,7 +1368,7 @@
 			    (NP-ACC (ADJ tal) (NCS exercite))
 			    (VJ vidist)))
 	  (PONFP .))
-  (ID 0980-LEGER-PENN-V,.156))
+  (ID 0980-LEGER-PENN-V,XXIII.156))
 
 ( (CODE <p_n="XXIV">))
 
@@ -1386,7 +1386,7 @@
 	  (IP-INF-PRP (NP-ACC *ICH*-1)
 		      (VX asalir))
 	  (PONFP .))
-  (ID 0980-LEGER-PENN-V,.159))
+  (ID 0980-LEGER-PENN-V,XXIV.159))
 
 ( (IP-MAT (NP-SBJ *con*)
 	  (NEG ne)
@@ -1395,21 +1395,21 @@
 		  (PP (P en)
 		      (NP (D la) (NCS ciutat))))
 	  (PONFP ;))
-  (ID 0980-LEGER-PENN-V,.160))
+  (ID 0980-LEGER-PENN-V,XXIV.160))
 
 ( (IP-MAT (ADVP-LOC (ADV defors))
 	  (NP-SBJ *con*)
 	  (CL-NP-ACC (CL l'))
 	  (VJ asist)
 	  (PONFP ,))
-  (ID 0980-LEGER-PENN-V,.161))
+  (ID 0980-LEGER-PENN-V,XXIV.161))
 
 ( (IP-MAT (NP-SBJ *con*)
 	  (VJ fist)
 	  (CL-PP (CL i))
 	  (NP-ACC (ADJ gran) (NCS miel))
 	  (PONFP ,))
-  (ID 0980-LEGER-PENN-V,.162))
+  (ID 0980-LEGER-PENN-V,XXIV.162))
 
 ( (IP-MAT (CONJO et)
 	  (NP-SBJ (ADJ sancz) (NPRS Lethgiers))
@@ -1428,7 +1428,7 @@
 				  (NP-SBJ *pro*)
 				  (VJ vid)))))
 	  (PONFP .))
-  (ID 0980-LEGER-PENN-V,.163))
+  (ID 0980-LEGER-PENN-V,XXIV.163))
 
 ( (CODE <p_n="XXV">))
 
@@ -1438,7 +1438,7 @@
 	  (NP-SBJ *con*)
 	  (VJ (VJ pres) (CONJO et) (VJ revestit))
 	  (CODE {ED_Linskill:pres_il_revestiz}))
-  (ID 0980-LEGER-PENN-V,.166))
+  (ID 0980-LEGER-PENN-V,XXV.166))
 
 ( (IP-MAT (CONJO et)
 	  (PP (P ob)
@@ -1449,7 +1449,7 @@
 	  (CL-PP (CL en))
 	  (VJ exit)
 	  (PONFP .))
-  (ID 0980-LEGER-PENN-V,.167))
+  (ID 0980-LEGER-PENN-V,XXV.167))
 
 ( (IP-MAT (PP (P porr@)
 	      (NP (PRO @o@)
@@ -1472,7 +1472,7 @@
 							(PP (P por)
 							    (NP (NPRS deu))))))))
 	  (PONFP .))
-  (ID 0980-LEGER-PENN-V,.168))
+  (ID 0980-LEGER-PENN-V,XXV.168))
 
 ( (IP-MAT (NP-SBJ (D ciel) (NPRS Evvruins))
 	  (CODE {ED_Linskill:Ewruins})
@@ -1489,7 +1489,7 @@
 	  (IP-INF (NP-ACC *ICH*-3)
 		  (VX *ICH*-2))
 	  (PONFP ,))
-  (ID 0980-LEGER-PENN-V,.169))
+  (ID 0980-LEGER-PENN-V,XXV.169))
 
 ( (IP-MAT (VX-1 lier)
 	  (CODE {ED_Linskill:lïer})
@@ -1500,7 +1500,7 @@
 		  (NP-ACC *ICH*-2)
 		  (VX *ICH*-1))
 	  (PONFP .))
-  (ID 0980-LEGER-PENN-V,.170))
+  (ID 0980-LEGER-PENN-V,XXV.170))
 
 ( (CODE <p_n="XXVI">))
 
@@ -1523,7 +1523,7 @@
 				  (CODE {ED_Linskill:fisdra_,})
 				  (NP-LFD (D li) (NCS tiranz)))))
 	  (PONFP .))
-  (ID 0980-LEGER-PENN-V,.173))
+  (ID 0980-LEGER-PENN-V,XXVI.173))
 
 ( (IP-MAT (NP-SBJ (D li) (NCS perfides))
 	  (QP-1 (Q tam))
@@ -1544,7 +1544,7 @@
 					    (NP-DTV *ICH*-4)
 					    (VX crever)))))
 	  (PONFP .))
-  (ID 0980-LEGER-PENN-V,.174))
+  (ID 0980-LEGER-PENN-V,XXVI.174))
 
 ( (IP-MAT (CP-ADV (CONJS cum)
 		  (IP-SUB (ADVP (ADV si))
@@ -1558,7 +1558,7 @@
 	  (PP (P en)
 	      (NP (NCS reclus)))
 	  (PONFP :))
-  (ID 0980-LEGER-PENN-V,.175))
+  (ID 0980-LEGER-PENN-V,XXVI.175))
 
 ( (IP-MAT (NEG ne)
 	  (VJ soth)
@@ -1569,7 +1569,7 @@
 			      (EJ es)
 			      (VPP devenguz)))
 	  (PONFP .))
-  (ID 0980-LEGER-PENN-V,.176))
+  (ID 0980-LEGER-PENN-V,XXVI.176))
 
 ( (CODE <p_n="XXVII">))
 
@@ -1597,7 +1597,7 @@
 						       (NP (NCS queu))))))))
 	  (CODE {ED_Linskill:quev})
 	  (PONFP .))
-  (ID 0980-LEGER-PENN-V,.179))
+  (ID 0980-LEGER-PENN-V,XXVII.179))
 
 ( (IP-MAT (CP-ADV (CONJS cum)
 		  (IP-SUB (ADVP (ADV si))
@@ -1628,7 +1628,7 @@
 						      (NP-DTV (NPRS deu))
 						      (VX parlier)))))
 	  (PONFP ,))
-  (ID 0980-LEGER-PENN-V,.180))
+  (ID 0980-LEGER-PENN-V,XXVII.180))
 
 ( (IP-MAT-SPE (ADVP (ADV ja))
 	      (ADVP (ADVNEG non))
@@ -1639,7 +1639,7 @@
 			  (VX laudier))
 	      (PONFP .)
 	      (PON '))
-  (ID 0980-LEGER-PENN-V,.181))
+  (ID 0980-LEGER-PENN-V,XXVII.181))
 
 ( (CODE <p_n="XXVIII">))
 
@@ -1650,7 +1650,7 @@
 	  (NP-SBJ *pro*)
 	  (VJ joth)
 	  (PONFP ,))
-  (ID 0980-LEGER-PENN-V,.184))
+  (ID 0980-LEGER-PENN-V,XXVIII.184))
 
 ( (IP-MAT (QP-1 (Q mult))
 	  (NP-SBJ *con*)
@@ -1658,7 +1658,7 @@
 	  (ADJP-PRD (QP *ICH*-1)
 		    (ADJ afflicz))
 	  (PONFP ,))
-  (ID 0980-LEGER-PENN-V,.185))
+  (ID 0980-LEGER-PENN-V,XXVIII.185))
 
 ( (IP-MAT (ADVP (ADVNEG non))
 	  (NP-SBJ *con*)
@@ -1671,7 +1671,7 @@
 				  (CL-PP (CL en))
 				  (VJ calsist))))
 	  (PONFP .))
-  (ID 0980-LEGER-PENN-V,.186))
+  (ID 0980-LEGER-PENN-V,XXVIII.186))
 
 ( (IP-MAT (PP-1 (P super)
 		(NP (D lis) (NCPL piez)))
@@ -1681,7 +1681,7 @@
 	  (IP-INF (PP *ICH*-1)
 		  (VX ester))
 	  (PONFP ,))
-  (ID 0980-LEGER-PENN-V,.187))
+  (ID 0980-LEGER-PENN-V,XXVIII.187))
 
 ( (IP-MAT (CONJO que)
 	  (QP (Q toz))
@@ -1690,7 +1690,7 @@
 	  (NP-SBJ (PRO il))
 	  (VPP condemnets)
 	  (PONFP .))
-  (ID 0980-LEGER-PENN-V,.188))
+  (ID 0980-LEGER-PENN-V,XXVIII.188))
 
 ( (IP-MAT (ADVP-TMP (ADV or'))
 	  (CODE {ED_Linskill:Or})
@@ -1702,7 +1702,7 @@
 				  (NP-DTV (NPRS deu))
 				  (VX parlier))))
 	  (PONFP ,))
-  (ID 0980-LEGER-PENN-V,.189))
+  (ID 0980-LEGER-PENN-V,XXVIII.189))
 
 ( (IP-MAT (ADVP (ADV ja))
 	  (ADVP (ADVNEG non))
@@ -1712,7 +1712,7 @@
 	  (IP-INF (NP-ACC (NPRS deu))
 		  (VX laudier))
 	  (PONFP .))
-  (ID 0980-LEGER-PENN-V,.190))
+  (ID 0980-LEGER-PENN-V,XXVIII.190))
 
 ( (CODE <p_n="XXIX">))
 
@@ -1732,7 +1732,7 @@
 	  (NP-ADV (D lis) (ADJZ sos) (NCPL pensez))
 	  (CODE {ED_Linskill:pensaez})
 	  (PONFP ;))
-  (ID 0980-LEGER-PENN-V,.193))
+  (ID 0980-LEGER-PENN-V,XXIX.193))
 
 ( (IP-MAT (CONJO et)
 	  (CP-ADV (CONJS si)
@@ -1749,7 +1749,7 @@
 	  (VJ ad)
 	  (ADJP-SPR (ADJ espiritiels))
 	  (PONFP ;))
-  (ID 0980-LEGER-PENN-V,.194))
+  (ID 0980-LEGER-PENN-V,XXIX.194))
 
 ( (IP-MAT (CONJO et)
 	  (CP-ADV (CONJS si)
@@ -1765,7 +1765,7 @@
 	  (CODE {ED_Linskill:awra})
 	  (NP-ACC (NCS consolament))
 	  (PONFP .))
-  (ID 0980-LEGER-PENN-V,.195))
+  (ID 0980-LEGER-PENN-V,XXIX.195))
 
 ( (CODE <p_n="XXX">))
 
@@ -1779,7 +1779,7 @@
 				  (CL-NP-ACC (CL @l))
 				  (VJ comandat))))
 	  (PONFP ;))
-  (ID 0980-LEGER-PENN-V,.198))
+  (ID 0980-LEGER-PENN-V,XXX.198))
 
 ( (IP-MAT (ADVP-DIR (ADV la) (ADV jus))
 	  (PP (P en)
@@ -1789,7 +1789,7 @@
 	  (CL-PP (CL en))
 	  (VJ menat)
 	  (PONFP ,))
-  (ID 0980-LEGER-PENN-V,.199))
+  (ID 0980-LEGER-PENN-V,XXX.199))
 
 ( (IP-MAT (CONJO et)
 	  (PP (P en)
@@ -1802,7 +1802,7 @@
 	  (VJ reclusdrent)
 	  (NP-ACC (ADJ sanct) (NPRS Lethgier))
 	  (PONFP .))
-  (ID 0980-LEGER-PENN-V,.200))
+  (ID 0980-LEGER-PENN-V,XXX.200))
 
 ( (IP-MAT (NP-SBJ (NCS domine) (NPRS deus))
 	  (PP (P in)
@@ -1814,7 +1814,7 @@
 		  (NP-PRN (DZ son) (NCS servv)))
 	  (CODE {ED_Linskill:serw})
 	  (PONFP .))
-  (ID 0980-LEGER-PENN-V,.201))
+  (ID 0980-LEGER-PENN-V,XXX.201))
 
 ( (CODE <p_n="XXXI">))
 
@@ -1827,7 +1827,7 @@
 	  (CODE {ED_Ottawa:missing_"ad"})
 	  (VPP restaurat)
 	  (PONFP :))
-  (ID 0980-LEGER-PENN-V,.204))
+  (ID 0980-LEGER-PENN-V,XXXI.204))
 
 ( (IP-MAT (ADVP (ADV si)
 		(CP-CMP (WADVP-1 0)
@@ -1840,7 +1840,7 @@
 	  (IP-INF (NP-ACC *ICH*-2)
 		  (VX laudier))
 	  (PONFP .))
-  (ID 0980-LEGER-PENN-V,.205))
+  (ID 0980-LEGER-PENN-V,XXXI.205))
 
 ( (IP-MAT (CONJO et)
 	  (ADVP (ADV hanc))
@@ -1864,7 +1864,7 @@
 							      (IP-SUB (ADVP *T*-3)
 								      (ADVP-TMP (ADV desanz))))))))))
 	  (PONFP .))
-  (ID 0980-LEGER-PENN-V,.206))
+  (ID 0980-LEGER-PENN-V,XXXI.206))
 
 ( (IP-MAT (ADVP (ADV donc))
 	  (VJ pres)
@@ -1873,7 +1873,7 @@
 	      (IP-INF (VX predier)))
 	  (CODE {ED_Linskill:preïer})
 	  (PONFP ,))
-  (ID 0980-LEGER-PENN-V,.207))
+  (ID 0980-LEGER-PENN-V,XXXI.207))
 
 ( (IP-MAT (NP-1 (NCS poble))
 	  (ADVP (ADV ben))
@@ -1885,7 +1885,7 @@
 		  (PP (P in)
 		      (NP (NPRS deu))))
 	  (PONFP .))
-  (ID 0980-LEGER-PENN-V,.208))
+  (ID 0980-LEGER-PENN-V,XXXI.208))
 
 ( (CODE <p_n="XXXII">))
 
@@ -1912,7 +1912,7 @@
 			  (CL-NP-ACC (CL @l))
 			  (VJ vid)))
 	  (PONFP .))
-  (ID 0980-LEGER-PENN-V,.211))
+  (ID 0980-LEGER-PENN-V,XXXII.211))
 
 ( (IP-MAT (CP-ADV (CONJS cum)
 		  (IP-SUB (NP-SBJ (PRO il))
@@ -1923,7 +1923,7 @@
 	  (VJ fud)
 	  (ADJP-PRD (ADJ corroptios))
 	  (PONFP ;))
-  (ID 0980-LEGER-PENN-V,.212))
+  (ID 0980-LEGER-PENN-V,XXXII.212))
 
 ( (IP-MAT (ADVP (ADV donc))
 	  (NP-SBJ *con*)
@@ -1932,7 +1932,7 @@
 	      (NP (PRO lui)))
 	  (NP-ACC (ADJ dures) (NCPL raizons))
 	  (PONFP ;))
-  (ID 0980-LEGER-PENN-V,.213))
+  (ID 0980-LEGER-PENN-V,XXXII.213))
 
 ( (IP-MAT (CONJO e@)
 	  (NP-SBJ (D @l) (NCS cor))
@@ -1940,7 +1940,7 @@
 	  (CODE {ED_Linskill:exaspra})
 	  (NP-DTV (DAT a@) (D @l) (NCS tirant))
 	  (PONFP ,))
-  (ID 0980-LEGER-PENN-V,.214))
+  (ID 0980-LEGER-PENN-V,XXXII.214))
 
 ( (IP-MAT (NP-ACC (NCS peis))
 	  (NP-SBJ *con*)
@@ -1950,7 +1950,7 @@
 	      (PP (P en)
 		  (ADVP (ADV avant))))
 	  (PONFP .))
-  (ID 0980-LEGER-PENN-V,.215))
+  (ID 0980-LEGER-PENN-V,XXXII.215))
 
 ( (CODE <p_n="XXXIII">))
 
@@ -1967,7 +1967,7 @@
 	  (VJ recomanda)
 	  (NP-DTV (NPRS Laudebert))
 	  (PONFP .))
-  (ID 0980-LEGER-PENN-V,.218))
+  (ID 0980-LEGER-PENN-V,XXXIII.218))
 
 ( (IP-MAT (NP-ACC (PRO cio)
 		  (CP-THT *ICH*-1))
@@ -1986,13 +1986,13 @@
 				    (IP-SUB (NP-SBJ (PRO el))
 					    (VJ viu)))))
 	  (PONFP .))
-  (ID 0980-LEGER-PENN-V,.219))
+  (ID 0980-LEGER-PENN-V,XXXIII.219))
 
 ( (IP-MAT (NP-SBJ (D ciel) (NPRS Laudebert))
 	  (VJ fura)
 	  (NP-PRD (ADJ buons) (NCS om))
 	  (PONFP ,))
-  (ID 0980-LEGER-PENN-V,.220))
+  (ID 0980-LEGER-PENN-V,XXXIII.220))
 
 ( (IP-MAT (CONJO et)
 	  (NP-ACC (ADJ sancz) (NPRS Lethgiers))
@@ -2001,7 +2001,7 @@
 	  (PP (P a)
 	      (NP (DZ son) (NCS dom)))
 	  (PONFP .))
-  (ID 0980-LEGER-PENN-V,.221))
+  (ID 0980-LEGER-PENN-V,XXXIII.221))
 
 ( (CODE <p_n="XXXIV">))
 
@@ -2014,7 +2014,7 @@
 		  (VX faire)
 		  (NP-ACC (Q mult) (NCS amet)))
 	  (PONFP ;))
-  (ID 0980-LEGER-PENN-V,.224))
+  (ID 0980-LEGER-PENN-V,XXXIV.224))
 
 ( (IP-MAT (NP-1 (NCS beuure))
 	  (CODE {ED_Linskill:Bewre})
@@ -2026,12 +2026,12 @@
 		  (NP-DTV *ICH*-2)
 		  (VX aporter))
 	  (PONFP .))
-  (ID 0980-LEGER-PENN-V,.225))
+  (ID 0980-LEGER-PENN-V,XXXIV.225))
 
 ( (IP-MAT (NP-SBJ *con*)
 	  (VJ garda)
 	  (PONFP ,))
-  (ID 0980-LEGER-PENN-V,.226))
+  (ID 0980-LEGER-PENN-V,XXXIV.226))
 
 ( (IP-MAT (ADVP (ADV si))
 	  (NP-SBJ *con*)
@@ -2066,7 +2066,7 @@
 							     (ADJP (ADJ clar))
 							     (ADJP (ADJ ardanz)))))))))
 	  (PONFP .))
-  (ID 0980-LEGER-PENN-V,.227))
+  (ID 0980-LEGER-PENN-V,XXXIV.227))
 
 ( (CODE <p_n="XXXV">))
 
@@ -2085,13 +2085,13 @@
 	  (PP (P a@)
 	      (NP (D @ls) (NCPL altres)))
 	  (PONFP ,))
-  (ID 0980-LEGER-PENN-V,.230))
+  (ID 0980-LEGER-PENN-V,XXXV.230))
 
 ( (IP-MAT (ADVP (ADV si))
 	  (NP-SBJ *con*)
 	  (CL-NP-DTV (CL lor))
 	  (VJ dist))
-  (ID 0980-LEGER-PENN-V,.231))
+  (ID 0980-LEGER-PENN-V,XXXV.231))
 
 ( (IP-MAT (PON ')
 	  (NP-ACC (D ciest)
@@ -2110,7 +2110,7 @@
 				(NP (PRO ciel)))))
 	  (PONFP .)
 	  (PON '))
-  (ID 0980-LEGER-PENN-V,.232))
+  (ID 0980-LEGER-PENN-V,XXXV.232))
 
 ( (IP-MAT (PP (P por)
 	      (NP (D ciels)
@@ -2129,7 +2129,7 @@
 		      (NP-MSR *ICH*-3)
 		      (VX conlauder)))
 	  (PONFP .))
-  (ID 0980-LEGER-PENN-V,.233))
+  (ID 0980-LEGER-PENN-V,XXXV.233))
 
 ( (CODE <p_n="XXXVI">))
 
@@ -2146,7 +2146,7 @@
 	  (PP (P a)
 	      (IP-INF (VX venir)))
 	  (PONFP ;))
-  (ID 0980-LEGER-PENN-V,.236))
+  (ID 0980-LEGER-PENN-V,XXXVI.236))
 
 ( (IP-MAT (CONJO et)
 	  (NP-SBJ (ADJ sancz) (NPRS Lethgiers))
@@ -2154,14 +2154,14 @@
 	  (VJ prediat)
 	  (CODE {ED_Linskill:predïat})
 	  (PONFP ,))
-  (ID 0980-LEGER-PENN-V,.237))
+  (ID 0980-LEGER-PENN-V,XXXVI.237))
 
 ( (IP-MAT (NP-DTV (NCS domine) (NPRS deu))
 	  (NP-SBJ (PRO il))
 	  (CL-NP-ACC (CL les))
 	  (VJ lucrat)
 	  (PONFP ;))
-  (ID 0980-LEGER-PENN-V,.238))
+  (ID 0980-LEGER-PENN-V,XXXVI.238))
 
 ( (IP-MAT (NP-SBJ *con*)
 	  (VJ rendet)
@@ -2176,7 +2176,7 @@
 				  (CODE {ED_Linskill:auret})
 				  (VPP perdonat))))
 	  (PONFP .))
-  (ID 0980-LEGER-PENN-V,.239))
+  (ID 0980-LEGER-PENN-V,XXXVI.239))
 
 ( (CODE <p_n="XXXVII">))
 
@@ -2203,7 +2203,7 @@
 			  (CL-NP-ACC (CL @l))
 			  (VJ vid)))
 	  (PONFP .))
-  (ID 0980-LEGER-PENN-V,.242))
+  (ID 0980-LEGER-PENN-V,XXXVII.242))
 
 ( (IP-MAT (NP-LFD (D cil)
 		  (NCS biens)
@@ -2215,7 +2215,7 @@
 	  (CL-NP-DTV (CL li))
 	  (VJ pesat)
 	  (PONFP ,))
-  (ID 0980-LEGER-PENN-V,.243))
+  (ID 0980-LEGER-PENN-V,XXXVII.243))
 
 ( (IP-MAT (VX-1 occidere)
 	  (NP-SBJ *pro*)
@@ -2224,7 +2224,7 @@
 	  (IP-INF (NP-ACC *ICH*-2)
 		  (VX *ICH*-1))
 	  (PONFP .))
-  (ID 0980-LEGER-PENN-V,.244))
+  (ID 0980-LEGER-PENN-V,XXXVII.244))
 
 ( (IP-MAT (NP-ACC (ADJNUM quatr')
 		  (NCPL omnes)
@@ -2241,7 +2241,7 @@
 			    (IP-INF-PRP (NP-ACC *ICH*-4)
 					(VX decoller))))
 	  (PONFP .))
-  (ID 0980-LEGER-PENN-V,.245))
+  (ID 0980-LEGER-PENN-V,XXXVII.245))
 
 ( (CODE <p_n="XXXVIII">))
 
@@ -2252,7 +2252,7 @@
 	  (PP (P a)
 	      (NP (ADJ sanct) (NPRS Lethgier)))
 	  (PONFP ,))
-  (ID 0980-LEGER-PENN-V,.248))
+  (ID 0980-LEGER-PENN-V,XXXVIII.248))
 
 ( (IP-MAT (ADVP-DIR (ADV jus))
 	  (NP-SBJ *con*)
@@ -2261,7 +2261,7 @@
 	  (PP (P a)
 	      (NP (DZ sos) (NCPL pez)))
 	  (PONFP .))
-  (ID 0980-LEGER-PENN-V,.249))
+  (ID 0980-LEGER-PENN-V,XXXVIII.249))
 
 ( (IP-MAT (PP (P de)
 	      (NP (DZ lor)
@@ -2277,7 +2277,7 @@
 	  (VJ (VJ absols) (CONJO et) (VJ perdonet))
 	  (CODE {ED_Linskill:perdonét})
 	  (PONFP .))
-  (ID 0980-LEGER-PENN-V,.250))
+  (ID 0980-LEGER-PENN-V,XXXVIII.250))
 
 ( (IP-MAT (NP-SBJ (D lo)
 		  (NCS quarz)
@@ -2294,7 +2294,7 @@
 	  (CL-NP-ACC (CL lo))
 	  (VJ decollat)
 	  (PONFP .))
-  (ID 0980-LEGER-PENN-V,.251))
+  (ID 0980-LEGER-PENN-V,XXXVIII.251))
 
 ( (CODE <p_n="XXXIX">))
 
@@ -2314,7 +2314,7 @@
 	  (PP (P sobre@)
 	      (NP (D @ls) (NCPL piez)))
 	  (PONFP ;))
-  (ID 0980-LEGER-PENN-V,.254))
+  (ID 0980-LEGER-PENN-V,XXXIX.254))
 
 ( (IP-MAT (NP-SBJ (PRO cio))
 	  (VJ fud)
@@ -2325,7 +2325,7 @@
 			  (NP-SBJ *pro*)
 			  (VJ cadit)))
 	  (PONFP .))
-  (ID 0980-LEGER-PENN-V,.255))
+  (ID 0980-LEGER-PENN-V,XXXIX.255))
 
 ( (IP-MAT (ADVP-DIR (ADV lai)
 		    (CP-REL *ICH*-1))
@@ -2338,7 +2338,7 @@
 			    (CL-NP-ACC (CL lui))
 			    (VJ firid)))
 	  (PONFP ;))
-  (ID 0980-LEGER-PENN-V,.256))
+  (ID 0980-LEGER-PENN-V,XXXIX.256))
 
 ( (IP-MAT (CP-ADV (ADV entro@)
 		  (IP-SUB (NP-SBJ *pro*)
@@ -2353,7 +2353,7 @@
 	  (ADVP-TMP (ADV sempre))
 	  (ADVP-LOC (ADV sus))
 	  (PONFP .))
-  (ID 0980-LEGER-PENN-V,.257))
+  (ID 0980-LEGER-PENN-V,XXXIX.257))
 
 ( (CODE <p_n="XL">))
 
@@ -2377,14 +2377,14 @@
 					   (NP-SBJ *pro*)
 					   (VJ sustint))))))
 	  (PONFP .))
-  (ID 0980-LEGER-PENN-V,.260))
+  (ID 0980-LEGER-PENN-V,XL.260))
 
 ( (IP-MAT (NP-ACC (D l') (NCS anima))
 	  (VJ reciut)
 	  (NP-SBJ (NPRS dominedeus))
 	  (CODE {ED_Linskill:Domine_Deus})
 	  (PONFP ,))
-  (ID 0980-LEGER-PENN-V,.261))
+  (ID 0980-LEGER-PENN-V,XL.261))
 
 ( (IP-MAT (PP (P a@)
 	      (NP (D @ls) (ADJ altres) (NCPL sanz)))
@@ -2394,7 +2394,7 @@
 	  (PP (P en)
 	      (NP (NPRS cel)))
 	  (PONFP .))
-  (ID 0980-LEGER-PENN-V,.262))
+  (ID 0980-LEGER-PENN-V,XL.262))
 
 ( (IP-MAT (NP-SBJ (PRO il))
 	  (CL-NP-ACC (CL nos))
@@ -2411,4 +2411,4 @@
 	  (CODE {ED_Linskill:passïons})
 	  (PONFP .)
 	  (CODE {ED_Linskill:!}))
-  (ID 0980-LEGER-PENN-V,.263))
+  (ID 0980-LEGER-PENN-V,XL.263))

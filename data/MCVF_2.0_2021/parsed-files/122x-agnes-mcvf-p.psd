@@ -8,7 +8,7 @@
       (NCS SERMONS)
       (PP (P SOR)
 	  (NP (ADJ SAINTE) (NPRS AGNÉS))))
-  (ID 122X-AGNES-MCVF-P,.4))
+  (ID 122X-AGNES-MCVF-P,246.4))
 
 ( (CODE <milestone_unit="folio"_n="223b"$$>))
 
@@ -21,7 +21,7 @@
 		  (IP-SUB (NP-SBJ (PRO il))
 			  (VJ conkeilhisent)
 			  (NP-ACC (D le) (NCS relie[f])))))
-  (ID 122X-AGNES-MCVF-P,.7))
+  (ID 122X-AGNES-MCVF-P,246.7))
 
 ( (IP-MAT (CONJO k')
 	  (NP-SBJ (PRO il))
@@ -31,7 +31,7 @@
 	  (CODE Joan_6,12)
 	  (CODE <$$ref>)
 	  (PONFP .))
-  (ID 122X-AGNES-MCVF-P,.8))
+  (ID 122X-AGNES-MCVF-P,246.8))
 
 ( (IP-MAT (PP (P Por)
 	      (NP (PRO ce)
@@ -65,7 +65,7 @@
 				  (EJ fuissent)
 				  (VPP oblié)))))
 	  (PONFP .))
-  (ID 122X-AGNES-MCVF-P,.9))
+  (ID 122X-AGNES-MCVF-P,246.9))
 
 ( (CODE <milestone_unit="paragraphe"_n="2"$$>))
 
@@ -95,7 +95,7 @@
 				     (PP (P por)
 					 (NP (Q toz) (DZ mes) (NCPL amis)))))))
 	  (PONFP .))
-  (ID 122X-AGNES-MCVF-P,.11))
+  (ID 122X-AGNES-MCVF-P,246.11))
 
 ( (CODE <milestone_unit="paragraphe"_n="3"$$>))
 
@@ -144,7 +144,7 @@
 										(EJ fut)
 										(VPP entendue))))))))))
 	  (PONFP .))
-  (ID 122X-AGNES-MCVF-P,.13))
+  (ID 122X-AGNES-MCVF-P,246.13))
 
 ( (IP-MAT (NP-ACC (D Cest)
 		  (NCS se[r]mon)
@@ -169,7 +169,7 @@
 	  (CODE <$$ref>)
 	  (CODE <$$cit>)
 	  (PONFP .))
-  (ID 122X-AGNES-MCVF-P,.14))
+  (ID 122X-AGNES-MCVF-P,246.14))
 
 ( (IP-MAT (NP-SBJ (PRO Nos))
 	  (VJ trovons)
@@ -199,7 +199,7 @@
 						(IP-INF (NP-ACC *ICH*-1)
 							(VX rechaufer)))))))
 	  (PONFP ;))
-  (ID 122X-AGNES-MCVF-P,.15))
+  (ID 122X-AGNES-MCVF-P,246.15))
 
 ( (CODE <milestone_unit="paragraphe"_n="5"$$>))
 
@@ -217,7 +217,7 @@
 				  (ADVP-DIR (ADV avant))
 				  (VPP mises))))
 	  (PONFP :))
-  (ID 122X-AGNES-MCVF-P,.17))
+  (ID 122X-AGNES-MCVF-P,246.17))
 
 ( (IP-IMP-SPE (CODE <cit>)
 	      (VJ Querons)
@@ -253,7 +253,7 @@
 									 (NP-PRN (D le) (NCS roi))))))))
 	      (PONFP .)
 	      (CODE <$$cit>))
-  (ID 122X-AGNES-MCVF-P,.18))
+  (ID 122X-AGNES-MCVF-P,246.18))
 
 ( (CODE <milestone_unit="paragraphe"_n="6"$$>))
 
@@ -274,13 +274,13 @@
 	(CODE <$$ref>)
 	(CODE <$$cit>)
 	(PONFP .))
-  (ID 122X-AGNES-MCVF-P,.20))
+  (ID 122X-AGNES-MCVF-P,246.20))
 
 ( (IP-MAT (CODE <cit>)
 	  (NP-SBJ (PRO Il))
 	  (CL-NP-ACC (CL la))
 	  (VJ kisent))
-  (ID 122X-AGNES-MCVF-P,.21))
+  (ID 122X-AGNES-MCVF-P,246.21))
 
 ( (IP-MAT (CONJO et)
 	  (ADVP (ADV si))
@@ -289,7 +289,7 @@
 	  (NP-ACC (NPRS Abysac) (NPRS Sunamitem))
 	  (PONFP .)
 	  (CODE <$$cit>))
-  (ID 122X-AGNES-MCVF-P,.22))
+  (ID 122X-AGNES-MCVF-P,246.22))
 
 ( (IP-MAT (NP-SBJ (D Cez) (NCPL paroles))
 	  (VJ covinent)
@@ -312,7 +312,7 @@
 				(VJ orez)
 				(ADVP-TMP (ADV aprés)))))
 	  (PONFP .))
-  (ID 122X-AGNES-MCVF-P,.23))
+  (ID 122X-AGNES-MCVF-P,246.23))
 
 ( (CODE <milestone_unit="paragraphe"_n="7"$$>))
 
@@ -344,7 +344,7 @@
 					  (PP (P de)
 					      (NP (NCS pechiét))))))))
 	  (PONFP .))
-  (ID 122X-AGNES-MCVF-P,.25))
+  (ID 122X-AGNES-MCVF-P,246.25))
 
 ( (IP-MAT (ADVP (ADV Dont))
 	  (NP-SBJ (ADJ sainz) (NPRS Pouz))
@@ -360,7 +360,7 @@
 		      (VJ est)
 		      (NP-PRD (D les) (ADJ viez) (NCPL acostumances)))
 	  (PONFP ,))
-  (ID 122X-AGNES-MCVF-P,.26))
+  (ID 122X-AGNES-MCVF-P,246.26))
 
 ( (IP-IMP-SPE (CODE <quote>)
 	      (CONJO et)
@@ -377,7 +377,7 @@
 	      (CODE <$$ref>)
 	      (CODE <$$cit>)
 	      (PONFP .))
-  (ID 122X-AGNES-MCVF-P,.27))
+  (ID 122X-AGNES-MCVF-P,246.27))
 
 ( (CODE <milestone_unit="paragraphe"_n="8"$$>))
 
@@ -414,7 +414,7 @@
 	  (CODE <$$ref>)
 	  (CODE <$$cit>)
 	  (PONFP .))
-  (ID 122X-AGNES-MCVF-P,.29))
+  (ID 122X-AGNES-MCVF-P,246.29))
 
 ( (IP-MAT (PP (P Par)
 	      (NP (D les) (NCPL dras)))
@@ -435,7 +435,7 @@
 					     (PP (P senz)
 						 (NP (NCS desier))))))))
 	  (PONFP .))
-  (ID 122X-AGNES-MCVF-P,.30))
+  (ID 122X-AGNES-MCVF-P,246.30))
 
 ( (CODE <milestone_unit="paragraphe"_n="9"$$>))
 
@@ -450,7 +450,7 @@
 				  (PP (P en)
 				      (NP (NCS pechiét))))))
 	  (PONFP .))
-  (ID 122X-AGNES-MCVF-P,.32))
+  (ID 122X-AGNES-MCVF-P,246.32))
 
 ( (IP-MAT (PP (P A)
 	      (IP-INF (NP-ACC (PRO cestui))
@@ -476,7 +476,7 @@
 						      (PP (P de)
 							  (NP (NCS cariteit)))))))))
 	  (PONFP .))
-  (ID 122X-AGNES-MCVF-P,.33))
+  (ID 122X-AGNES-MCVF-P,247.33))
 
 ( (CODE <milestone_unit="paragraphe"_n="10"$$>))
 
@@ -492,7 +492,7 @@
 			    (NP (NCS madame)
 				(NP-PRN (ADJ sainte) (NPRS Agnés))))))
 	  (PONFP ,))
-  (ID 122X-AGNES-MCVF-P,.35))
+  (ID 122X-AGNES-MCVF-P,247.35))
 
 ( (IP-MAT (CONJO car)
 	  (NP-SBJ (PRO ele))
@@ -501,7 +501,7 @@
 		    (CONJP (CONJO et)
 			   (ADJP (Q mult) (ADJ fervanz))))
 	  (PONFP .))
-  (ID 122X-AGNES-MCVF-P,.36))
+  (ID 122X-AGNES-MCVF-P,247.36))
 
 ( (IP-IMP (CONJO Mais)
 	  (VJ notez)
@@ -529,12 +529,12 @@
 								 (EJ fu)
 								 (VPP trovee))))))))
 	  (PONFP :))
-  (ID 122X-AGNES-MCVF-P,.37))
+  (ID 122X-AGNES-MCVF-P,247.37))
 
 ( (IP-MAT (NP-SBJ (D li) (NCPL angele))
 	  (CL-NP-ACC (CL la))
 	  (VJ kisent))
-  (ID 122X-AGNES-MCVF-P,.38))
+  (ID 122X-AGNES-MCVF-P,247.38))
 
 ( (IP-MAT (CONJO et)
 	  (ADVP (ADV si))
@@ -542,7 +542,7 @@
 	  (CL-NP-ACC (CL la))
 	  (VJ troverent)
 	  (PONFP .))
-  (ID 122X-AGNES-MCVF-P,.39))
+  (ID 122X-AGNES-MCVF-P,247.39))
 
 ( (CODE <milestone_unit="paragraphe"_n="11"$$>))
 
@@ -556,13 +556,13 @@
 				      (EJ fu)
 				      (VPP trovee))))
 	      (PONFP ?))
-  (ID 122X-AGNES-MCVF-P,.41))
+  (ID 122X-AGNES-MCVF-P,247.41))
 
 ( (IP-MAT (NP-SBJ (PRO Ce))
 	  (VJ fut)
 	  (NP-PRD (ADJ sainte) (NPRS Agnés))
 	  (PONFP .))
-  (ID 122X-AGNES-MCVF-P,.42))
+  (ID 122X-AGNES-MCVF-P,247.42))
 
 ( (IP-MAT (NP-SBJ (D Li) (NCPL angele))
 	  (CL-NP-ACC (CL la))
@@ -573,7 +573,7 @@
 		  (PP (P d')
 		      (NP (NPRS Israel)))))
 	  (PONFP .))
-  (ID 122X-AGNES-MCVF-P,.43))
+  (ID 122X-AGNES-MCVF-P,247.43))
 
 ( (IP-MAT (NP-SBJ (PRO Ele)
 		  (CP-REL *ICH*-1))
@@ -597,7 +597,7 @@
 						  (PP (P en)
 						      (NP (DZ sa) (NCS Vie))))))))
 	  (PONFP .))
-  (ID 122X-AGNES-MCVF-P,.44))
+  (ID 122X-AGNES-MCVF-P,247.44))
 
 ( (CODE <milestone_unit="paragraphe"_n="12"$$>))
 
@@ -610,7 +610,7 @@
 				 (PP (P en)
 				     (NP (NCS amor))))))
 	  (PONFP .))
-  (ID 122X-AGNES-MCVF-P,.46))
+  (ID 122X-AGNES-MCVF-P,247.46))
 
 ( (IP-MAT (ADJP-PRD (ADJ Tele))
 	  (VJ est)
@@ -623,7 +623,7 @@
 				  (PP (P par)
 				      (NP (NCS graze))))))
 	  (PONFP .))
-  (ID 122X-AGNES-MCVF-P,.47))
+  (ID 122X-AGNES-MCVF-P,247.47))
 
 ( (IP-MAT (NP-SBJ (PRO Ele))
 	  (VJ est)
@@ -648,7 +648,7 @@
 									     (IP-INF (VX faire)
 										     (NP-ACC (NCS penance))))))))))))
 	  (PONFP .))
-  (ID 122X-AGNES-MCVF-P,.48))
+  (ID 122X-AGNES-MCVF-P,247.48))
 
 ( (CODE <milestone_unit="paragraphe"_n="13"$$>))
 
@@ -661,7 +661,7 @@
 	  (QTP (ETR Nunc))
 	  (PONFP .)
 	  (CODE <$$cit>))
-  (ID 122X-AGNES-MCVF-P,.50))
+  (ID 122X-AGNES-MCVF-P,247.50))
 
 ( (IP-MAT (NP-SBJ (PRO C'))
 	  (VJ est)
@@ -673,7 +673,7 @@
 		      (ADVP-TMP (ADV primes))
 		      (VPP comencié))
 	  (PONFP .))
-  (ID 122X-AGNES-MCVF-P,.51))
+  (ID 122X-AGNES-MCVF-P,247.51))
 
 ( (IP-MAT (NP-SBJ (PRO C'))
 	  (VJ est)
@@ -701,7 +701,7 @@
 								(NP (D @l) (NCS comencement))))))))
 	  (PONFP .)
 	  (CODE <$$q>))
-  (ID 122X-AGNES-MCVF-P,.52))
+  (ID 122X-AGNES-MCVF-P,247.52))
 
 ( (CODE <milestone_unit="paragraphe"_n="14"$$>))
 
@@ -712,7 +712,7 @@
 	  (VJ est)
 	  (ADJP-PRD (ADJ forte))
 	  (PONFP ,))
-  (ID 122X-AGNES-MCVF-P,.54))
+  (ID 122X-AGNES-MCVF-P,247.54))
 
 ( (IP-MAT (CONJO et)
 	  (NP-SBJ (PRO nos))
@@ -725,7 +725,7 @@
 			  (PP (P de)
 			      (NP (DZ noz) (NCPL oevres))))))
 	  (PONFP ,))
-  (ID 122X-AGNES-MCVF-P,.55))
+  (ID 122X-AGNES-MCVF-P,247.55))
 
 ( (IP-MAT (NP-SBJ (PRO c'))
 	  (VJ est)
@@ -742,7 +742,7 @@
 						    (ADVP (ADV or))
 						    (ADVP-TMP (ADV primes)))))))
 	  (PONFP .))
-  (ID 122X-AGNES-MCVF-P,.56))
+  (ID 122X-AGNES-MCVF-P,247.56))
 
 ( (CODE <milestone_unit="paragraphe"_n="15"$$>))
 
@@ -762,7 +762,7 @@
 					(PP (P de)
 					    (NP (DZ lor) (NCPL oevres))))))))
 	  (PONFP ,))
-  (ID 122X-AGNES-MCVF-P,.58))
+  (ID 122X-AGNES-MCVF-P,247.58))
 
 ( (IP-MAT (CONJO car)
 	  (CP-ADV (CONJS cant)
@@ -797,7 +797,7 @@
 								(PP (P de)
 								    (NP (NCS perfection)))))))))))
 	  (PONFP .))
-  (ID 122X-AGNES-MCVF-P,.59))
+  (ID 122X-AGNES-MCVF-P,247.59))
 
 ( (CODE <milestone_unit="paragraphe"_n="16"$$>))
 
@@ -809,7 +809,7 @@
 	  (VJ at)
 	  (ADVP (ADVNEG mie))
 	  (PONFP ,))
-  (ID 122X-AGNES-MCVF-P,.61))
+  (ID 122X-AGNES-MCVF-P,247.61))
 
 ( (IP-MAT (CONJO kar)
 	  (CP-ADV (CONJS kant)
@@ -830,21 +830,21 @@
 				  (PP (P a@)
 				      (NP (D @l) (NCS comencier))))))
 	  (PONFP .))
-  (ID 122X-AGNES-MCVF-P,.62))
+  (ID 122X-AGNES-MCVF-P,247.62))
 
 ( (CODE <milestone_unit="paragraphe"_n="17"$$>))
 
 ( (IP-MAT (NP-SBJ (D Les) (NCPL jovenceles))
 	  (VJ sunt)
 	  (ADJP-PRD (ADJ plaisanz)))
-  (ID 122X-AGNES-MCVF-P,.64))
+  (ID 122X-AGNES-MCVF-P,247.64))
 
 ( (IP-MAT (CONJO car)
 	  (NP-SBJ (PRO eles))
 	  (VJ sunt)
 	  (ADJP-PRD (ADJ hontouses))
 	  (PONFP ,))
-  (ID 122X-AGNES-MCVF-P,.65))
+  (ID 122X-AGNES-MCVF-P,247.65))
 
 ( (IP-MAT (CONJO ne)
 	  (NP-SBJ (Q nule) (NCS chose))
@@ -859,7 +859,7 @@
 				    (IP-SUB (ADJP-PRD *T*-2)
 					    (NP-SBJ (NCS hunte))))))
 	  (PONFP ,))
-  (ID 122X-AGNES-MCVF-P,.66))
+  (ID 122X-AGNES-MCVF-P,247.66))
 
 ( (IP-MAT (CONJO car)
 	  (PP (P en)
@@ -870,7 +870,7 @@
 	  (ADVP (ADVNEG point))
 	  (NP-1 (DF d') (NCS orguelh))
 	  (PONFP .))
-  (ID 122X-AGNES-MCVF-P,.67))
+  (ID 122X-AGNES-MCVF-P,247.67))
 
 ( (CODE <milestone_unit="paragraphe"_n="18"$$>))
 
@@ -885,7 +885,7 @@
 	  (ADVP (ADVNEG nient))
 	  (ADJP-PRD (ADJ orguilhos))
 	  (PONFP .))
-  (ID 122X-AGNES-MCVF-P,.69))
+  (ID 122X-AGNES-MCVF-P,247.69))
 
 ( (IP-MAT (CONJO Et)
 	  (NP-SBJ (Q nule) (NCS vertuz))
@@ -900,7 +900,7 @@
 			    (IP-SUB (ADJP-PRD *T*-1)
 				    (NP-SBJ (ADJ vraie) (NCS humilitez)))))
 	  (PONFP ,))
-  (ID 122X-AGNES-MCVF-P,.70))
+  (ID 122X-AGNES-MCVF-P,247.70))
 
 ( (IP-MAT (CONJO ne)
 	  (PP (P senz)
@@ -910,7 +910,7 @@
 	  (VJ plaist)
 	  (NP-SBJ (Q nule) (NCS oevre))
 	  (PONFP .))
-  (ID 122X-AGNES-MCVF-P,.71))
+  (ID 122X-AGNES-MCVF-P,247.71))
 
 ( (CODE <milestone_unit="paragraphe"_n="19"$$>))
 
@@ -939,7 +939,7 @@
 					      (PP (P d')
 						  (NP (NCS orguel)))))))
 	  (PONFP ,))
-  (ID 122X-AGNES-MCVF-P,.73))
+  (ID 122X-AGNES-MCVF-P,247.73))
 
 ( (IP-MAT-1 (CONJO kar)
 	    (NP-SBJ (Q nulz) (NCS pechiez))
@@ -961,7 +961,7 @@
 		      (IP-SUB (ADVP *T*-4)
 			      (NP-SBJ (NCS orguez))))
 	    (PONFP .))
-  (ID 122X-AGNES-MCVF-P,.74))
+  (ID 122X-AGNES-MCVF-P,247.74))
 
 ( (ADVP (ADV Si)
 	(CP-CMP (WADVP-1 0)
@@ -979,7 +979,7 @@
 	(CODE <$$ref>)
 	(CODE <$$cit>)
 	(PONFP .))
-  (ID 122X-AGNES-MCVF-P,.75))
+  (ID 122X-AGNES-MCVF-P,247.75))
 
 ( (CODE <milestone_unit="paragraphe"_n="20"$$>))
 
@@ -1010,7 +1010,7 @@
 							      (VJ est)
 							      (ADJP-PRD (ADV tres) (ADJ granz)))))))
 	      (PONFP ,))
-  (ID 122X-AGNES-MCVF-P,.77))
+  (ID 122X-AGNES-MCVF-P,247.77))
 
 ( (IP-MAT (CONJO car)
 	  (NP-SBJ (PRO il))
@@ -1033,7 +1033,7 @@
 							    (PP (P de)
 								(NP (Q totes) (NCPL creatures))))))))))
 	  (PONFP ,))
-  (ID 122X-AGNES-MCVF-P,.78))
+  (ID 122X-AGNES-MCVF-P,247.78))
 
 ( (IP-MAT (CONJO et)
 	  (ADVP (ADV se))
@@ -1052,7 +1052,7 @@
 					      (VJ est)
 					      (ADJP-PRD (ADV tres) (ADJ granz)))))))
 	  (PONFP ,))
-  (ID 122X-AGNES-MCVF-P,.79))
+  (ID 122X-AGNES-MCVF-P,247.79))
 
 ( (IP-MAT (CONJO car)
 	  (NP-SBJ (PRO il))
@@ -1062,7 +1062,7 @@
 			    (PP (P a)
 				(NP (NPRS Deu)))))
 	  (PONFP .))
-  (ID 122X-AGNES-MCVF-P,.80))
+  (ID 122X-AGNES-MCVF-P,247.80))
 
 ( (CODE <milestone_unit="paragraphe"_n="21"$$>))
 
@@ -1096,7 +1096,7 @@
 						(VPP asembleit)
 						(PP (P devant)
 						    (NP (NPRS Deu)))))))))
-  (ID 122X-AGNES-MCVF-P,.82))
+  (ID 122X-AGNES-MCVF-P,247.82))
 
 ( (IP-MAT (ADVP (ADV se))
 	  (VJ fu)
@@ -1107,7 +1107,7 @@
 	  (CODE Job_1,6)
 	  (CODE <$$ref>)
 	  (PONFP .))
-  (ID 122X-AGNES-MCVF-P,.83))
+  (ID 122X-AGNES-MCVF-P,247.83))
 
 ( (CODE <milestone_unit="paragraphe"_n="22"$$>))
 
@@ -1119,14 +1119,14 @@
 		  (IP-SUB (NP-SBJ (PRO il))
 			  (VJ steüst)))
 	  (PONFP ,))
-  (ID 122X-AGNES-MCVF-P,.85))
+  (ID 122X-AGNES-MCVF-P,247.85))
 
 ( (IP-MAT (CONJO mais)
 	  (NP-SBJ (PRO il))
 	  (CL-PP (CL i))
 	  (VJ fu)
 	  (PONFP ,))
-  (ID 122X-AGNES-MCVF-P,.86))
+  (ID 122X-AGNES-MCVF-P,247.86))
 
 ( (IP-MAT (CONJO car)
 	  (NP-SBJ (PRO il))
@@ -1134,7 +1134,7 @@
 	  (ADVP-TMP (ADV ja))
 	  (VPP enboez)
 	  (PONFP ,))
-  (ID 122X-AGNES-MCVF-P,.87))
+  (ID 122X-AGNES-MCVF-P,247.87))
 
 ( (IP-MAT (ADVP (ADV se))
 	  (NP-SBJ *pro*)
@@ -1151,7 +1151,7 @@
 				(IP-INF (NP-ACC *ICH*-1)
 					(VX veoir)))))
 	  (PONFP ,))
-  (ID 122X-AGNES-MCVF-P,.88))
+  (ID 122X-AGNES-MCVF-P,247.88))
 
 ( (IP-MAT (CONJO et)
 	  (PP (P por)
@@ -1161,7 +1161,7 @@
 	  (NP-SBJ (PRO il))
 	  (ADVP (ADVNEG mie))
 	  (PONFP ,))
-  (ID 122X-AGNES-MCVF-P,.89))
+  (ID 122X-AGNES-MCVF-P,247.89))
 
 ( (IP-MAT (CONJO et)
 	  (PP (P por)
@@ -1177,7 +1177,7 @@
 				  (ADJP (ADV tres) (ADJ grant))
 				  (NCS pechiét)))))
 	  (PONFP .))
-  (ID 122X-AGNES-MCVF-P,.90))
+  (ID 122X-AGNES-MCVF-P,247.90))
 
 ( (CODE <milestone_unit="paragraphe"_n="23"$$>))
 
@@ -1212,7 +1212,7 @@
 	      (CODE Ps_18,15)
 	      (CODE <$$ref>)
 	      (CODE <$$cit>))
-  (ID 122X-AGNES-MCVF-P,.92))
+  (ID 122X-AGNES-MCVF-P,247.92))
 
 ( (IP-MAT (CONJO car)
 	  (PP (P des)
@@ -1242,7 +1242,7 @@
 		  (CONJP (CONJO ne)
 			 (NP (DZ ses) (NCPL oevres))))
 	  (PONFP .))
-  (ID 122X-AGNES-MCVF-P,.93))
+  (ID 122X-AGNES-MCVF-P,247.93))
 
 ( (CODE <milestone_unit="paragraphe"_n="24"$$>))
 
@@ -1261,13 +1261,13 @@
 		    (Q mult)
 		    (ADJ plaisanz))
 	  (PONFP .))
-  (ID 122X-AGNES-MCVF-P,.95))
+  (ID 122X-AGNES-MCVF-P,247.95))
 
 ( (IP-MAT (NP-SBJ (D Les) (CODE <milestone_unit="folio"_n="224c"$$>) (NCPL jovenceles))
 	  (EJ sunt)
 	  (VPP lies)
 	  (PONFP ,))
-  (ID 122X-AGNES-MCVF-P,.96))
+  (ID 122X-AGNES-MCVF-P,247.96))
 
 ( (IP-MAT (CONJO car)
 	  (NP-SBJ (ADJ teiles)
@@ -1291,7 +1291,7 @@
 	      (CONJP (PP (P senz)
 			 (NP (NCS accide)))))
 	  (PONFP .))
-  (ID 122X-AGNES-MCVF-P,.97))
+  (ID 122X-AGNES-MCVF-P,247.97))
 
 ( (CODE <milestone_unit="paragraphe"_n="25"$$>))
 
@@ -1300,7 +1300,7 @@
 	  (NP-SBJ *con*)
 	  (VJ sunt)
 	  (ADJP-PRD (ADJ fructifianz)))
-  (ID 122X-AGNES-MCVF-P,.99))
+  (ID 122X-AGNES-MCVF-P,247.99))
 
 ( (IP-MAT (CONJO car)
 	  (NP-SBJ (PRO eles))
@@ -1309,7 +1309,7 @@
 		  (NCS fruit)
 		  (PP (P de)
 		      (NP (ADJ bones) (NCPL oevres)))))
-  (ID 122X-AGNES-MCVF-P,.100))
+  (ID 122X-AGNES-MCVF-P,247.100))
 
 ( (IP-MAT (CONJO et)
 	  (ADVP (ADV se))
@@ -1339,7 +1339,7 @@
 	  (CODE <$$ref>)
 	  (CODE <$$cit>)
 	  (PONFP ,))
-  (ID 122X-AGNES-MCVF-P,.101))
+  (ID 122X-AGNES-MCVF-P,248.101))
 
 ( (IP-MAT (NP-SBJ (PRO c'))
 	  (VJ est)
@@ -1350,7 +1350,7 @@
 		      (VJ amerent))
 	  (PONFP .)
 	  (CODE <$$cit>))
-  (ID 122X-AGNES-MCVF-P,.102))
+  (ID 122X-AGNES-MCVF-P,248.102))
 
 ( (CODE <milestone_unit="paragraphe"_n="26"$$>))
 
@@ -1377,14 +1377,14 @@
 						      (PP (P de)
 							  (NP (NCS pechiét)))))))))
 	  (PONFP .))
-  (ID 122X-AGNES-MCVF-P,.104))
+  (ID 122X-AGNES-MCVF-P,248.104))
 
 ( (IP-MAT (ADJP-PRD (ADJ Tele))
 	  (VJ fut)
 	  (NP-SBJ (NCS madame)
 		  (NP-PRN (ADJ sainte) (NPRS Agnés)))
 	  (PONFP ,))
-  (ID 122X-AGNES-MCVF-P,.105))
+  (ID 122X-AGNES-MCVF-P,248.105))
 
 ( (IP-MAT (CONJO car)
 	  (NP-SBJ (PRO ele))
@@ -1404,7 +1404,7 @@
 					    (PP *ICH*-2)
 					    (VX torner)))))
 	  (PONFP .))
-  (ID 122X-AGNES-MCVF-P,.106))
+  (ID 122X-AGNES-MCVF-P,248.106))
 
 ( (CODE <milestone_unit="paragraphe"_n="27"$$>))
 
@@ -1430,7 +1430,7 @@
 	  (CODE <$$ref>)
 	  (CODE <$$cit>)
 	  (PONFP .))
-  (ID 122X-AGNES-MCVF-P,.108))
+  (ID 122X-AGNES-MCVF-P,248.108))
 
 ( (IP-IMP-SPE (CODE <cit>)
 	      (CODE <quote>)
@@ -1446,7 +1446,7 @@
 		      (PP (P de)
 			  (NP (PRO moi)))))
 	      (PONFP ,))
-  (ID 122X-AGNES-MCVF-P,.109))
+  (ID 122X-AGNES-MCVF-P,248.109))
 
 ( (IP-MAT-SPE (CONJO car)
 	      (NP-SBJ (PRO je))
@@ -1458,7 +1458,7 @@
 	      (PONFP .)
 	      (CODE <$$quote>)
 	      (CODE <$$cit>))
-  (ID 122X-AGNES-MCVF-P,.110))
+  (ID 122X-AGNES-MCVF-P,248.110))
 
 ( (CODE <milestone_unit="paragraphe"_n="28"$$>))
 
@@ -1471,7 +1471,7 @@
 		      (VPP adevancie))
 	  (CODE <$$cit>)
 	  (PONFP ,))
-  (ID 122X-AGNES-MCVF-P,.112))
+  (ID 122X-AGNES-MCVF-P,248.112))
 
 ( (IP-MAT (CONJO car)
 	  (NP-SBJ (PRO il))
@@ -1479,7 +1479,7 @@
 	  (AJ avoit)
 	  (VPP (VPP adevancie) (CONJO et) (VPP aprise) (CONJO et) (VPP esprise) (CONJO et) (VPP entreprise) (CONJO et) (VPP soprise))
 	  (PONFP .))
-  (ID 122X-AGNES-MCVF-P,.113))
+  (ID 122X-AGNES-MCVF-P,248.113))
 
 ( (IP-MAT (NP-SBJ (PRO Il))
 	  (CL-NP-ACC (CL l'))
@@ -1492,7 +1492,7 @@
 				  (CL-NP-DTV (CL li))
 				  (VJ tolist)))))
 	  (PONFP .))
-  (ID 122X-AGNES-MCVF-P,.114))
+  (ID 122X-AGNES-MCVF-P,248.114))
 
 ( (CODE <milestone_unit="paragraphe"_n="29"$$>))
 
@@ -1508,7 +1508,7 @@
 			    (CL-NP-ACC (CL l'))
 			    (VJ adevanci)))
 	  (PONFP ,))
-  (ID 122X-AGNES-MCVF-P,.116))
+  (ID 122X-AGNES-MCVF-P,248.116))
 
 ( (IP-MAT (CONJO car)
 	  (CP-ADV (CONJS s')
@@ -1525,7 +1525,7 @@
 	  (IP-INF (NP-ACC *ICH*-1)
 		  (VX perdre))
 	  (PONFP ;))
-  (ID 122X-AGNES-MCVF-P,.117))
+  (ID 122X-AGNES-MCVF-P,248.117))
 
 ( (IP-MAT (CONJO mais)
 	  (NP-SBJ (PRO il))
@@ -1533,7 +1533,7 @@
 	  (VJ adevanci)
 	  (PP (P par)
 	      (NP (DZ sa) (NCS grasce))))
-  (ID 122X-AGNES-MCVF-P,.118))
+  (ID 122X-AGNES-MCVF-P,248.118))
 
 ( (IP-MAT (CONJO et)
 	  (ADVP (ADV si))
@@ -1541,7 +1541,7 @@
 	  (CL-NP-ACC (CL l'))
 	  (VJ aprist)
 	  (PONFP ,))
-  (ID 122X-AGNES-MCVF-P,.119))
+  (ID 122X-AGNES-MCVF-P,248.119))
 
 ( (IP-MAT (CONJO car)
 	  (CP-ADV (CONJS s')
@@ -1571,7 +1571,7 @@
 				(VJ orez)
 				(ADVP-TMP (ADV aprés)))))
 	  (PONFP .))
-  (ID 122X-AGNES-MCVF-P,.120))
+  (ID 122X-AGNES-MCVF-P,248.120))
 
 ( (CODE <milestone_unit="paragraphe"_n="30"$$>))
 
@@ -1597,7 +1597,7 @@
 				      (IP-INF (NP-DTV *ICH*-3)
 					      (VX eschaper)))))
 	  (PONFP ,))
-  (ID 122X-AGNES-MCVF-P,.122))
+  (ID 122X-AGNES-MCVF-P,248.122))
 
 ( (IP-MAT (CONJO et)
 	  (ADVP (ADV si))
@@ -1606,7 +1606,7 @@
 	  (AJ avoit)
 	  (VPP soprise)
 	  (PONFP .))
-  (ID 122X-AGNES-MCVF-P,.123))
+  (ID 122X-AGNES-MCVF-P,248.123))
 
 ( (IP-MAT (NP-SBJ (PRO Ce))
 	  (NEG ne)
@@ -1619,14 +1619,14 @@
 			  (EJ fut)
 			  (VPP soprise)))
 	  (PONFP ,))
-  (ID 122X-AGNES-MCVF-P,.124))
+  (ID 122X-AGNES-MCVF-P,248.124))
 
 ( (IP-MAT (CONJO car)
 	  (NP-SBJ (PRO ce))
 	  (VJ estoit)
 	  (NP-PRD (D uns) (NCS enfes))
 	  (PONFP ,))
-  (ID 122X-AGNES-MCVF-P,.125))
+  (ID 122X-AGNES-MCVF-P,248.125))
 
 ( (IP-MAT (CONJO et)
 	  (NP-1 (D l') (NCS enfant))
@@ -1636,7 +1636,7 @@
 		  (ADVP-TMP (ADV tost))
 		  (VX sorprendre))
 	  (PONFP .))
-  (ID 122X-AGNES-MCVF-P,.126))
+  (ID 122X-AGNES-MCVF-P,248.126))
 
 ( (CODE <milestone_unit="paragraphe"_n="31"$$>))
 
@@ -1665,7 +1665,7 @@
 				      (EJ fuist)
 				      (VPP sopris)))))
 	  (PONFP .))
-  (ID 122X-AGNES-MCVF-P,.128))
+  (ID 122X-AGNES-MCVF-P,248.128))
 
 ( (IP-MAT (CODE {TMP:ok?})
 	  (NP-LFD (NCPL Choses)
@@ -1684,7 +1684,7 @@
 	  (NP-SBJ (PRO ele))
 	  (VPP soprise)
 	  (PONFP .))
-  (ID 122X-AGNES-MCVF-P,.129))
+  (ID 122X-AGNES-MCVF-P,248.129))
 
 ( (CODE <milestone_unit="paragraphe"_n="32"$$>))
 
@@ -1703,7 +1703,7 @@
 				  (PP (P de)
 				      (NP (NCS mariage))))))
 	  (PONFP .))
-  (ID 122X-AGNES-MCVF-P,.131))
+  (ID 122X-AGNES-MCVF-P,248.131))
 
 ( (IP-MAT (CL-NP-1 (CL La))
 	  (VJ priset)
@@ -1728,7 +1728,7 @@
 					      (IP-INF (NP-ACC *T*-4)
 						      (VX amer))))))))
 	  (PONFP .))
-  (ID 122X-AGNES-MCVF-P,.132))
+  (ID 122X-AGNES-MCVF-P,248.132))
 
 ( (CODE <milestone_unit="paragraphe"_n="33"$$>))
 
@@ -1740,7 +1740,7 @@
 			  (PP (P de)
 			      (NP (ADJ grant) (NCS parage)))))
 	  (PONFP ;))
-  (ID 122X-AGNES-MCVF-P,.134))
+  (ID 122X-AGNES-MCVF-P,248.134))
 
 ( (IP-MAT (IP-MAT-1 (NP-SBJ (D la) (NCS seconde))
 		    (VJ est)
@@ -1826,7 +1826,7 @@
 						   (VJ est)
 						   (ADJP-PRD (ADJ honestes))))))))
 	  (PONFP ;))
-  (ID 122X-AGNES-MCVF-P,.135))
+  (ID 122X-AGNES-MCVF-P,248.135))
 
 ( (IP-MAT (CONJO et)
 	  (PP (P por)
@@ -1836,7 +1836,7 @@
 	  (NP-SBJ (PRO ele))
 	  (VPP soprise)
 	  (PONFP .))
-  (ID 122X-AGNES-MCVF-P,.136))
+  (ID 122X-AGNES-MCVF-P,248.136))
 
 ( (CODE <milestone_unit="paragraphe"_n="35"$$>))
 
@@ -1860,7 +1860,7 @@
 	  (CODE <$$ref>)
 	  (CODE <$$cit>)
 	  (PONFP .))
-  (ID 122X-AGNES-MCVF-P,.138))
+  (ID 122X-AGNES-MCVF-P,248.138))
 
 ( (IP-MAT-SPE (CODE <cit>)
 	      (CODE <quote>)
@@ -1888,7 +1888,7 @@
 	      (PONFP .)
 	      (CODE <$$quote>)
 	      (CODE <$$cit>))
-  (ID 122X-AGNES-MCVF-P,.139))
+  (ID 122X-AGNES-MCVF-P,248.139))
 
 ( (CODE <milestone_unit="paragraphe"_n="36"$$>))
 
@@ -1898,7 +1898,7 @@
 	  (ADVP-TMP (ADV unkes))
 	  (VPP oïz)
 	  (PONFP ,))
-  (ID 122X-AGNES-MCVF-P,.141))
+  (ID 122X-AGNES-MCVF-P,248.141))
 
 ( (IP-MAT (CONJO car)
 	  (ADVP-TMP (ADV unkes))
@@ -1908,7 +1908,7 @@
 	  (VJ fu)
 	  (NP-1 (QR plus))
 	  (PONFP .))
-  (ID 122X-AGNES-MCVF-P,.142))
+  (ID 122X-AGNES-MCVF-P,248.142))
 
 ( (IP-MAT (PP (P Por)
 	      (NP (PRO ce)))
@@ -1925,7 +1925,7 @@
 	  (CODE <$$ref>)
 	  (CODE <$$cit>)
 	  (PONFP .))
-  (ID 122X-AGNES-MCVF-P,.143))
+  (ID 122X-AGNES-MCVF-P,248.143))
 
 ( (CP-QUE-MAT-SPE (CODE <cit>)
 		  (CODE <quote>)
@@ -1944,7 +1944,7 @@
 		  (PONFP ?)
 		  (CODE <$$quote>)
 		  (CODE <$$cit>))
-  (ID 122X-AGNES-MCVF-P,.144))
+  (ID 122X-AGNES-MCVF-P,248.144))
 
 ( (CODE <milestone_unit="paragraphe"_n="37"$$>))
 
@@ -1968,7 +1968,7 @@
 						   (ADVP (ADVR miez))
 						   (VX dire)))))))
 	  (PONFP ,))
-  (ID 122X-AGNES-MCVF-P,.146))
+  (ID 122X-AGNES-MCVF-P,248.146))
 
 ( (IP-MAT-1 (CONJO car)
 	    (PP (P de)
@@ -2002,7 +2002,7 @@
 		      (NPRS Fiz)
 		      (NP-COM (NPRS Deu))))
 	    (PONFP .))
-  (ID 122X-AGNES-MCVF-P,.147))
+  (ID 122X-AGNES-MCVF-P,248.147))
 
 ( (CODE <milestone_unit="paragraphe"_n="38"$$>))
 
@@ -2025,7 +2025,7 @@
 			  (QTP (ETR Ostendit) (ETR mihi) (ETR thesauros) (ETR incomparabiles))))
 	  (PONFP .)
 	  (CODE <$$cit>))
-  (ID 122X-AGNES-MCVF-P,.149))
+  (ID 122X-AGNES-MCVF-P,248.149))
 
 ( (IP-MAT (NP-SBJ (PRO C'))
 	  (VJ est)
@@ -2037,7 +2037,7 @@
 		      (VPP mostré)
 		      (NP-ACC (DZ ses) (NCPL tresors)))
 	  (PONFP ,))
-  (ID 122X-AGNES-MCVF-P,.150))
+  (ID 122X-AGNES-MCVF-P,248.150))
 
 ( (IP-MAT-SPE (NP-SBJ (PRO ce))
 	      (NEG ne)
@@ -2045,13 +2045,13 @@
 	      (IP-INF-SPE (VX comparer))
 	      (PONFP .)
 	      (CODE <$$cit>))
-  (ID 122X-AGNES-MCVF-P,.151))
+  (ID 122X-AGNES-MCVF-P,248.151))
 
 ( (IP-MAT (NP-SBJ (D Ciz) (NCS moz))
 	  (VJ at)
 	  (NP-ACC (ADJNUM ·ii·) (NCPL interpretations))
 	  (PONFP ,))
-  (ID 122X-AGNES-MCVF-P,.152))
+  (ID 122X-AGNES-MCVF-P,248.152))
 
 ( (FRAG (CONJO car)
 	(NP-SBJ (QTP (VX comparer)))
@@ -2061,7 +2061,7 @@
 			(IP-SUB (NP-MSR *T*-1)
 				(NP-SBJ (QTP (VX assimiler))))))
 	(PONFP .))
-  (ID 122X-AGNES-MCVF-P,.153))
+  (ID 122X-AGNES-MCVF-P,248.153))
 
 ( (CODE <milestone_unit="paragraphe"_n="39"$$>))
 
@@ -2095,7 +2095,7 @@
 									    (PP (P de)
 										(NP (D cest) (CODE <milestone_unit="folio"_n="225b"$$>) (NCS siecle))))))))))))
 	  (PONFP .))
-  (ID 122X-AGNES-MCVF-P,.155))
+  (ID 122X-AGNES-MCVF-P,248.155))
 
 ( (CODE <milestone_unit="paragraphe"_n="40"$$>))
 
@@ -2109,7 +2109,7 @@
 			  (IP-SUB (NP-MSR *T*-1)
 				  (NP-SBJ (QTP (VX achater))))))
 	  (PONFP ,))
-  (ID 122X-AGNES-MCVF-P,.157))
+  (ID 122X-AGNES-MCVF-P,248.157))
 
 ( (IP-MAT (CONJO car)
 	  (NP-1 (D cez) (NCPL joies))
@@ -2124,7 +2124,7 @@
 			  (VJ donoit)
 			  (NP-ACC (Q tot) (D le) (NCS munde))))
 	  (PONFP .))
-  (ID 122X-AGNES-MCVF-P,.158))
+  (ID 122X-AGNES-MCVF-P,248.158))
 
 ( (IP-MAT (CONJO Mais)
 	  (NP-SBJ (DZ nostre) (NPRS Sires))
@@ -2134,7 +2134,7 @@
 	  (PP (P por)
 	      (NP (DZ sa) (NCS bonté)))
 	  (PONFP .))
-  (ID 122X-AGNES-MCVF-P,.159))
+  (ID 122X-AGNES-MCVF-P,248.159))
 
 ( (CODE <milestone_unit="paragraphe"_n="41"$$>))
 
@@ -2143,7 +2143,7 @@
 	  (NP-SBJ (D li) (NPRS Sires))
 	  (NP-DTV (DAT a) (ADJ sainte) (NPRS Agnés))
 	  (PONFP ,))
-  (ID 122X-AGNES-MCVF-P,.161))
+  (ID 122X-AGNES-MCVF-P,248.161))
 
 ( (IP-MAT (CONJO et)
 	  (PP (P por)
@@ -2159,14 +2159,14 @@
 			  (EJ fu)
 			  (VPP soprise)))
 	  (PONFP ,))
-  (ID 122X-AGNES-MCVF-P,.162))
+  (ID 122X-AGNES-MCVF-P,248.162))
 
 ( (IP-MAT (CONJO car)
 	  (NP-SBJ (PRO ce))
 	  (VJ astoit)
 	  (NP-PRD (D unz) (NCS enfes))
 	  (PONFP .))
-  (ID 122X-AGNES-MCVF-P,.163))
+  (ID 122X-AGNES-MCVF-P,248.163))
 
 ( (IP-MAT (CONJO Car)
 	  (CP-ADV (CONJS cant)
@@ -2186,7 +2186,7 @@
 			  (CL-NP-ACC (CL l'))
 			  (VJ at)))
 	  (PONFP .))
-  (ID 122X-AGNES-MCVF-P,.164))
+  (ID 122X-AGNES-MCVF-P,248.164))
 
 ( (CODE <milestone_unit="paragraphe"_n="42"$$>))
 
@@ -2216,7 +2216,7 @@
 								      (PP (P senz)
 									  (NP (NCS departie)))))))))))
 	  (PONFP ,))
-  (ID 122X-AGNES-MCVF-P,.166))
+  (ID 122X-AGNES-MCVF-P,248.166))
 
 ( (IP-MAT (CONJO et)
 	  (ADVP (ADV se))
@@ -2230,7 +2230,7 @@
 				  (VJ astoit)
 				  (NP-PRD (DZ s') (NCS amie))))))
 	  (PONFP .))
-  (ID 122X-AGNES-MCVF-P,.167))
+  (ID 122X-AGNES-MCVF-P,248.167))
 
 ( (IP-MAT (CONJO Car)
 	  (NP-DTV (NP (DAT a) (CODE <pb_n="249"$$>) (D l') (NCS estrange))
@@ -2242,7 +2242,7 @@
 	  (ADVP (ADVNEG mie))
 	  (NP-ACC (DZ son) (NCS tresor))
 	  (PONFP .))
-  (ID 122X-AGNES-MCVF-P,.168))
+  (ID 122X-AGNES-MCVF-P,249.168))
 
 ( (CODE <milestone_unit="paragraphe"_n="43"$$>))
 
@@ -2263,14 +2263,14 @@
 					  (NP-ACC (D cez) (NCPL tresors))
 					  (VPP promis)))))
 	  (PONFP ,))
-  (ID 122X-AGNES-MCVF-P,.170))
+  (ID 122X-AGNES-MCVF-P,249.170))
 
 ( (IP-MAT (CONJO car)
 	  (NP-SBJ (PRO ce))
 	  (VJ fut)
 	  (NP-PRD (ADJ granz) (NCS largece))
 	  (PONFP ,))
-  (ID 122X-AGNES-MCVF-P,.171))
+  (ID 122X-AGNES-MCVF-P,249.171))
 
 ( (IP-MAT (CONJO car)
 	  (CP-ADV (CONJS cant)
@@ -2291,7 +2291,7 @@
 	  (QTP (ETR quos) (ETR se) (ETR donaturum) (ETR repromisit))
 	  (CODE <$$cit>)
 	  (PONFP ,))
-  (ID 122X-AGNES-MCVF-P,.172))
+  (ID 122X-AGNES-MCVF-P,249.172))
 
 ( (IP-MAT-SPE (CODE <cit>)
 	      (X giers)
@@ -2303,7 +2303,7 @@
 	      (VPP (VPP promis) (CONJO et) (VPP repromis))
 	      (CODE <$$cit>)
 	      (PONFP ,))
-  (ID 122X-AGNES-MCVF-P,.173))
+  (ID 122X-AGNES-MCVF-P,249.173))
 
 ( (IP-MAT (CONJO et)
 	  (PP (P por)
@@ -2323,7 +2323,7 @@
 					    (AJ avoit)
 					    (VPP promis)))))
 	  (PONFP .))
-  (ID 122X-AGNES-MCVF-P,.174))
+  (ID 122X-AGNES-MCVF-P,249.174))
 
 ( (CODE <milestone_unit="paragraphe"_n="44"$$>))
 
@@ -2346,7 +2346,7 @@
 			  (QTP (ETR Ipsi) (ETR sum) (ETR desponsata) (ETR cui) (ETR angeli) (ETR serviunt))))
 	  (PONFP .)
 	  (CODE <$$cit>))
-  (ID 122X-AGNES-MCVF-P,.176))
+  (ID 122X-AGNES-MCVF-P,249.176))
 
 ( (IP-MAT-SPE (CODE <cit>)
 	      (NP-SBJ (PRO Je))
@@ -2361,7 +2361,7 @@
 					(VJ servent)))
 	      (PONFP .)
 	      (CODE <$$cit>))
-  (ID 122X-AGNES-MCVF-P,.177))
+  (ID 122X-AGNES-MCVF-P,249.177))
 
 ( (IP-MAT (PP (P En)
 	      (NP (D cez) (NCPL paroles)))
@@ -2372,7 +2372,7 @@
 		  (PP (P de)
 		      (NP (DZ son) (NCS ami))))
 	  (PONFP ,))
-  (ID 122X-AGNES-MCVF-P,.178))
+  (ID 122X-AGNES-MCVF-P,249.178))
 
 ( (IP-MAT (CONJO car)
 	  (NP-SBJ (PRO cil)
@@ -2398,7 +2398,7 @@
 					   (VJ sunt)
 					   (ADJP-PRD (ADJ obediant))))))
 	  (PONFP .))
-  (ID 122X-AGNES-MCVF-P,.179))
+  (ID 122X-AGNES-MCVF-P,249.179))
 
 ( (CODE <milestone_unit="paragraphe"_n="45"$$>))
 
@@ -2420,7 +2420,7 @@
 								     (NP (D cel) (NCS throne)))
 								 (VJ seoit)
 								 (NP-SBJ (D unz) (ADJ hauz) (NCS hom))))))))))
-  (ID 122X-AGNES-MCVF-P,.181))
+  (ID 122X-AGNES-MCVF-P,249.181))
 
 ( (IP-MAT (CONJO et)
 	  (ADVP-TMP (ADV puis))
@@ -2436,7 +2436,7 @@
 				  (NP (D @es) (NCPL milhiers))))
 		      (CL-NP-ACC (CL l'))
 		      (VJ aministrevent)))
-  (ID 122X-AGNES-MCVF-P,.182))
+  (ID 122X-AGNES-MCVF-P,249.182))
 
 ( (IP-MAT-SPE (CONJO et)
 	      (NP-SBJ (Q tant)
@@ -2456,7 +2456,7 @@
 	      (CODE Dan_7,10)
 	      (CODE <$$ref>)
 	      (CODE <$$cit>))
-  (ID 122X-AGNES-MCVF-P,.183))
+  (ID 122X-AGNES-MCVF-P,249.183))
 
 ( (CODE <milestone_unit="paragraphe"_n="46"$$>))
 
@@ -2477,7 +2477,7 @@
 							  (VJ servoient)
 							  (NP-ACC (DZ son) (NCS ami)))))))))
 	  (PONFP .))
-  (ID 122X-AGNES-MCVF-P,.185))
+  (ID 122X-AGNES-MCVF-P,249.185))
 
 ( (IP-MAT (ADVP-TMP (ADV Aprés))
 	  (NP-SBJ *pro*)
@@ -2493,7 +2493,7 @@
 			  (QTP (ETR Cuius) (ETR pulchritudinem) (ETR sol) (ETR et) (ETR luna) (ETR mirantur))))
 	  (PONFP .)
 	  (CODE <$$cit>))
-  (ID 122X-AGNES-MCVF-P,.186))
+  (ID 122X-AGNES-MCVF-P,249.186))
 
 ( (IP-MAT-SPE (CODE <cit>)
 	      (CODE <quote>)
@@ -2522,7 +2522,7 @@
 	      (PONFP .)
 	      (CODE <$$quote>)
 	      (CODE <$$cit>))
-  (ID 122X-AGNES-MCVF-P,.187))
+  (ID 122X-AGNES-MCVF-P,249.187))
 
 ( (CODE <milestone_unit="paragraphe"_n="47"$$>))
 
@@ -2568,7 +2568,7 @@
 	  (CODE <$$ref>)
 	  (CODE <$$cit>)
 	  (PONFP ,))
-  (ID 122X-AGNES-MCVF-P,.189))
+  (ID 122X-AGNES-MCVF-P,249.189))
 
 ( (IP-MAT (ADVP (ADV anz))
 	  (NP-SBJ *pro*)
@@ -2602,7 +2602,7 @@
 							  (PP (P por)
 							      (NP (DZ lor) (NCS beauté)))))))))
 	  (PONFP .))
-  (ID 122X-AGNES-MCVF-P,.190))
+  (ID 122X-AGNES-MCVF-P,249.190))
 
 ( (CODE <milestone_unit="paragraphe"_n="48"$$>))
 
@@ -2626,7 +2626,7 @@
 				  (CL-NP-ACC (CL les))
 				  (VJ fist))))
 	  (PONFP ,))
-  (ID 122X-AGNES-MCVF-P,.192))
+  (ID 122X-AGNES-MCVF-P,249.192))
 
 ( (IP-MAT (CONJO car)
 	  (NP-SBJ (D li)
@@ -2636,7 +2636,7 @@
 	  (CL-NP-ACC (CL les))
 	  (VJ establi)
 	  (PONFP .))
-  (ID 122X-AGNES-MCVF-P,.193))
+  (ID 122X-AGNES-MCVF-P,249.193))
 
 ( (IP-MAT (CONJO Et)
 	  (NP-SBJ (ADJP (ADV si) (ADJ bele))
@@ -2650,7 +2650,7 @@
 					(NCPL mains)))
 				(ADVP (ADVNEG non)))))
 	  (PONFP .))
-  (ID 122X-AGNES-MCVF-P,.194))
+  (ID 122X-AGNES-MCVF-P,249.194))
 
 ( (CODE <milestone_unit="paragraphe"_n="49"$$>))
 
@@ -2681,7 +2681,7 @@
 	  (CODE <ref>)
 	  (CODE Sap_13,2)
 	  (CODE <$$ref>))
-  (ID 122X-AGNES-MCVF-P,.196))
+  (ID 122X-AGNES-MCVF-P,249.196))
 
 ( (IP-MAT (CONJO et)
 	  (PP (P por)
@@ -2697,7 +2697,7 @@
 				  (CONJP (CONJO et)
 					 (NP (D la) (NCS lune))))))
 	  (PONFP .))
-  (ID 122X-AGNES-MCVF-P,.197))
+  (ID 122X-AGNES-MCVF-P,249.197))
 
 ( (CODE <milestone_unit="paragraphe"_n="50"$$>))
 
@@ -2723,7 +2723,7 @@
 						  (AJ avoit)
 						  (VPP aornee))))))
 	  (PONFP ,))
-  (ID 122X-AGNES-MCVF-P,.199))
+  (ID 122X-AGNES-MCVF-P,249.199))
 
 ( (IP-MAT (CONJO car)
 	  (CP-ADV (CONJS se)
@@ -2751,7 +2751,7 @@
 			    (QTP (ETR Ornavit) (ETR dextrocherio) (ETR dexteram) (ETR meam))))
 	  (PONFP .)
 	  (CODE <$$cit>))
-  (ID 122X-AGNES-MCVF-P,.200))
+  (ID 122X-AGNES-MCVF-P,249.200))
 
 ( (IP-MAT (NP-LFD (ETR Dextrocherio))
 	  (NP-SBJ-RSP (PRO c'))
@@ -2774,7 +2774,7 @@
 				  (PP (P sor)
 				      (NP (D le) (NCS braz))))))
 	  (PONFP .))
-  (ID 122X-AGNES-MCVF-P,.201))
+  (ID 122X-AGNES-MCVF-P,249.201))
 
 ( (CODE <milestone_unit="paragraphe"_n="51"$$>))
 
@@ -2790,7 +2790,7 @@
 				  (PP (P por)
 				      (NP (NCS salut))))))
 	  (PONFP ,))
-  (ID 122X-AGNES-MCVF-P,.203))
+  (ID 122X-AGNES-MCVF-P,249.203))
 
 ( (IP-MAT (CONJO car)
 	  (PP (P par)
@@ -2812,7 +2812,7 @@
 						      (PP (P de)
 							  (ADVP (ADV la) (ADV amont)))))))))
 	  (PONFP ,))
-  (ID 122X-AGNES-MCVF-P,.204))
+  (ID 122X-AGNES-MCVF-P,249.204))
 
 ( (IP-MAT (CONJO k')
 	  (NP-SBJ=1 (PROIMP il))
@@ -2821,7 +2821,7 @@
 	  (VJ at)
 	  (NP-1 (ADJ autre) (NCS chose))
 	  (PONFP .))
-  (ID 122X-AGNES-MCVF-P,.205))
+  (ID 122X-AGNES-MCVF-P,249.205))
 
 ( (CODE <milestone_unit="paragraphe"_n="52"$$>))
 
@@ -2832,7 +2832,7 @@
 	  (NP-SBJ (QTP (ETR Dextram) (CODE <milestone_unit="folio"_n="226a"$$>) (ETR meam) (ETR et) (ETR collum) (ETR meum) (ETR cinxit) (ETR lapidibus) (ETR preciosis)))
 	  (PONFP .)
 	  (CODE <$$cit>))
-  (ID 122X-AGNES-MCVF-P,.207))
+  (ID 122X-AGNES-MCVF-P,249.207))
 
 ( (IP-MAT-SPE (CODE <cit>)
 	      (CODE <quote>)
@@ -2856,13 +2856,13 @@
 	      (PONFP .)
 	      (CODE <$$quote>)
 	      (CODE <$$cit>))
-  (ID 122X-AGNES-MCVF-P,.208))
+  (ID 122X-AGNES-MCVF-P,249.208))
 
 ( (IP-MAT (NP-SBJ (PRO Ele))
 	  (VJ dist)
 	  (NP-ACC (NCPL merveilhes))
 	  (PONFP ;))
-  (ID 122X-AGNES-MCVF-P,.209))
+  (ID 122X-AGNES-MCVF-P,249.209))
 
 ( (IP-MAT (NP-SBJ (PRO on))
 	  (NEG ne)
@@ -2882,7 +2882,7 @@
 				 (NP (NCS mi)
 				     (NP-COM (D les) (NCPL rains)))))))
 	  (PONFP .))
-  (ID 122X-AGNES-MCVF-P,.210))
+  (ID 122X-AGNES-MCVF-P,249.210))
 
 ( (CODE <milestone_unit="paragraphe"_n="53"$$>))
 
@@ -2891,7 +2891,7 @@
 	  (CL-NP-RFL (CL se))
 	  (VJ chaint)
 	  (NP-SBJ (PRO om)))
-  (ID 122X-AGNES-MCVF-P,.212))
+  (ID 122X-AGNES-MCVF-P,249.212))
 
 ( (IP-MAT (NP-SBJ (PRO on))
 	  (CL-NP-RFL (CL se))
@@ -2925,7 +2925,7 @@
 					     (PP (P a)
 						 (NP (NCS terre)))))))))
 	  (PONFP .))
-  (ID 122X-AGNES-MCVF-P,.213))
+  (ID 122X-AGNES-MCVF-P,249.213))
 
 ( (CODE <milestone_unit="paragraphe"_n="54"$$>))
 
@@ -2935,7 +2935,7 @@
 	  (VPP chaintes)
 	  (NP-SBJ (DZ ses) (NCPL oevres))
 	  (PONFP ,))
-  (ID 122X-AGNES-MCVF-P,.215))
+  (ID 122X-AGNES-MCVF-P,249.215))
 
 ( (IP-MAT (CONJO k')
 	  (NP-SBJ (PRO eles))
@@ -2943,7 +2943,7 @@
 	  (CL-NP-DTV (CL li))
 	  (VJ chaïssent)
 	  (PONFP ,))
-  (ID 122X-AGNES-MCVF-P,.216))
+  (ID 122X-AGNES-MCVF-P,249.216))
 
 ( (IP-MAT (CONJO et)
 	  (ADVP (ADV si))
@@ -2962,7 +2962,7 @@
 					(PP *ICH*-2)
 					(VX chaïr)))))
 	  (PONFP ,))
-  (ID 122X-AGNES-MCVF-P,.217))
+  (ID 122X-AGNES-MCVF-P,249.217))
 
 ( (IP-MAT (CONJO et)
 	  (ADVP (ADV se))
@@ -2982,7 +2982,7 @@
 				  (PP (P par)
 				      (NP (NCS desier)))))))
 	  (PONFP ,))
-  (ID 122X-AGNES-MCVF-P,.218))
+  (ID 122X-AGNES-MCVF-P,249.218))
 
 ( (IP-MAT (CONJO car)
 	  (NP-ACC (D les)
@@ -2998,7 +2998,7 @@
 	  (NP-SBJ (PRO on))
 	  (ADVP (ADVNEG mie))
 	  (PONFP .))
-  (ID 122X-AGNES-MCVF-P,.219))
+  (ID 122X-AGNES-MCVF-P,249.219))
 
 ( (CODE <milestone_unit="paragraphe"_n="55"$$>))
 
@@ -3042,7 +3042,7 @@
 										    (NP (PRO lui)))
 										(ADVP (ADVNEG non)))))))))))
 	  (PONFP .))
-  (ID 122X-AGNES-MCVF-P,.221))
+  (ID 122X-AGNES-MCVF-P,249.221))
 
 ( (CODE <milestone_unit="paragraphe"_n="56"$$>))
 
@@ -3070,7 +3070,7 @@
 	  (CONJP-1 (CONJO et)
 		   (NP (DZ son) (CODE <milestone_unit="folio"_n="226b"$$>) (NCS col)))
 	  (PONFP .))
-  (ID 122X-AGNES-MCVF-P,.223))
+  (ID 122X-AGNES-MCVF-P,250.223))
 
 ( (IP-MAT (PP (P Par)
 	      (NP (D le) (NCS col)))
@@ -3078,7 +3078,7 @@
 	  (NP-SBJ (PRO om))
 	  (NP-ACC (D la) (NCS loenge))
 	  (PONFP ,))
-  (ID 122X-AGNES-MCVF-P,.224))
+  (ID 122X-AGNES-MCVF-P,250.224))
 
 ( (IP-MAT (CONJO car)
 	  (PP (P de@)
@@ -3088,12 +3088,12 @@
 		  (NCS voiz)
 		  (IP-PPL (VPP formee)))
 	  (PONFP .))
-  (ID 122X-AGNES-MCVF-P,.225))
+  (ID 122X-AGNES-MCVF-P,250.225))
 
 ( (IP-MAT (NP-SBJ (DZ Ses) (NCS colz))
 	  (EJ fu)
 	  (VPP chainz))
-  (ID 122X-AGNES-MCVF-P,.226))
+  (ID 122X-AGNES-MCVF-P,250.226))
 
 ( (IP-MAT (CONJO et)
 	  (NP-SBJ (DZ sa) (NCS loenge))
@@ -3104,7 +3104,7 @@
 			    (NP (PRO lui)))
 			(ADVP (ADVNEG non))))
 	  (PONFP .))
-  (ID 122X-AGNES-MCVF-P,.227))
+  (ID 122X-AGNES-MCVF-P,250.227))
 
 ( (CODE <milestone_unit="paragraphe"_n="57"$$>))
 
@@ -3116,7 +3116,7 @@
 	  (PP (P e@)
 	      (NP (D @l) (NCS col)))
 	  (PONFP :))
-  (ID 122X-AGNES-MCVF-P,.229))
+  (ID 122X-AGNES-MCVF-P,250.229))
 
 ( (IP-MAT (NP-1 (D le)
 		(NCS sac)
@@ -3135,7 +3135,7 @@
 				    (NP (D @l) (NCS col)))
 				(ADVP (ADVNEG non)))))
 	  (PONFP .))
-  (ID 122X-AGNES-MCVF-P,.230))
+  (ID 122X-AGNES-MCVF-P,250.230))
 
 ( (IP-MAT (PP (P Par)
 	      (NP (PRO ce)
@@ -3162,7 +3162,7 @@
 									(QR plus)
 									(ADJ *))))))))
 	  (PONFP ,))
-  (ID 122X-AGNES-MCVF-P,.231))
+  (ID 122X-AGNES-MCVF-P,250.231))
 
 ( (IP-MAT (CONJO et)
 	  (PP (P par)
@@ -3175,7 +3175,7 @@
 		    (PP (P e@)
 			(NP (D @l) (NCS col))))
 	  (PONFP .))
-  (ID 122X-AGNES-MCVF-P,.232))
+  (ID 122X-AGNES-MCVF-P,250.232))
 
 ( (CODE <milestone_unit="paragraphe"_n="58"$$>))
 
@@ -3186,7 +3186,7 @@
 	  (NP-SBJ (QTP (ETR Tradidit) (ETR auribus) (ETR meis) (ETR inestimabiles) (ETR margaritas)))
 	  (PONFP .)
 	  (CODE <$$cit>))
-  (ID 122X-AGNES-MCVF-P,.234))
+  (ID 122X-AGNES-MCVF-P,250.234))
 
 ( (IP-MAT (NP-SBJ (PRO Ele))
 	  (VJ dist)
@@ -3206,7 +3206,7 @@
 								  (VX aesmer)))))))
 	  (PONFP .)
 	  (CODE <$$cit>))
-  (ID 122X-AGNES-MCVF-P,.235))
+  (ID 122X-AGNES-MCVF-P,250.235))
 
 ( (CODE <milestone_unit="paragraphe"_n="59"$$>))
 
@@ -3219,7 +3219,7 @@
 	  (NP-SBJ (PRO om))
 	  (NP-ACC (NCS oïe) (CONJO et) (NCS obedience))
 	  (PONFP ,))
-  (ID 122X-AGNES-MCVF-P,.237))
+  (ID 122X-AGNES-MCVF-P,250.237))
 
 ( (IP-MAT (CONJO car)
 	  (NP-SBJ (D cez) (ADJNUM dous) (NCPL choses))
@@ -3232,7 +3232,7 @@
 				  (IP-INF (NP-ACC *T*-1)
 					  (VX aprisier)))))
 	  (PONFP ,))
-  (ID 122X-AGNES-MCVF-P,.238))
+  (ID 122X-AGNES-MCVF-P,250.238))
 
 ( (IP-MAT (CONJO car)
 	  (PP (P de)
@@ -3256,21 +3256,21 @@
 	  (CODE <$$ref>)
 	  (CODE <$$cit>)
 	  (PONFP .))
-  (ID 122X-AGNES-MCVF-P,.239))
+  (ID 122X-AGNES-MCVF-P,250.239))
 
 ( (CODE <milestone_unit="paragraphe"_n="60"$$>))
 
 ( (IP-IMP-SPE (CODE <cit>)
 	      (VJ Oiez)
 	      (NP-VOC (NCS filhe)))
-  (ID 122X-AGNES-MCVF-P,.241))
+  (ID 122X-AGNES-MCVF-P,250.241))
 
 ( (IP-IMP-SPE (CONJO et)
 	      (ADVP (ADV si))
 	      (VJ voiez)
 	      (CODE <$$cit>)
 	      (PONFP ,))
-  (ID 122X-AGNES-MCVF-P,.242))
+  (ID 122X-AGNES-MCVF-P,250.242))
 
 ( (IP-MAT (CONJO car)
 	  (NP-SBJ=1 (PROIMP il))
@@ -3293,7 +3293,7 @@
 						    (CL-NP-DTV (CL li))
 						    (VJ comande))))))
 	  (PONFP ,))
-  (ID 122X-AGNES-MCVF-P,.243))
+  (ID 122X-AGNES-MCVF-P,250.243))
 
 ( (IP-MAT (CONJO et)
 	  (PP (P por)
@@ -3303,14 +3303,14 @@
 	  (PON :)
 	  (CODE <cit>)
 	  (IP-IMP-SPE (VJ Oi)))
-  (ID 122X-AGNES-MCVF-P,.244))
+  (ID 122X-AGNES-MCVF-P,250.244))
 
 ( (IP-IMP-SPE (CONJO et)
 	      (ADVP (ADV se))
 	      (VJ voi)
 	      (CODE <$$cit>)
 	      (PONFP ,))
-  (ID 122X-AGNES-MCVF-P,.245))
+  (ID 122X-AGNES-MCVF-P,250.245))
 
 ( (IP-MAT (CONJO car)
 	  (PP (P de)
@@ -3318,7 +3318,7 @@
 	  (VJ vient)
 	  (NP-SBJ (D li) (NCS obedience))
 	  (PONFP .))
-  (ID 122X-AGNES-MCVF-P,.246))
+  (ID 122X-AGNES-MCVF-P,250.246))
 
 ( (CODE <milestone_unit="paragraphe"_n="61"$$>))
 
@@ -3338,7 +3338,7 @@
 						    (NP-SBJ (PRO um))
 						    (CL-NP-DTV (CL li))
 						    (VJ comande)))))))
-  (ID 122X-AGNES-MCVF-P,.248))
+  (ID 122X-AGNES-MCVF-P,250.248))
 
 ( (IP-MAT (CONJO et)
 	  (NP-SBJ (D cez)
@@ -3367,7 +3367,7 @@
 					       (PP (P a)
 						   (NP (DZ son) (NCS pooir)))))))
 	  (PONFP .))
-  (ID 122X-AGNES-MCVF-P,.249))
+  (ID 122X-AGNES-MCVF-P,250.249))
 
 ( (IP-MAT (CONJO Mais)
 	  (NP-SBJ=1 (PROIMP il))
@@ -3393,7 +3393,7 @@
 						    (ADVP (ADVNEG nient))
 						    (IP-INF (VX obeïr))))))))
 	  (PONFP .))
-  (ID 122X-AGNES-MCVF-P,.250))
+  (ID 122X-AGNES-MCVF-P,250.250))
 
 ( (CODE <milestone_unit="paragraphe"_n="62"$$>))
 
@@ -3418,7 +3418,7 @@
 			  (QTP (ETR Induit) (ETR me) (ETR Dominus) (ETR ciclade) (ETR auro) (ETR texta) (ETR et) (ETR immensis) (ETR monilibus) (ETR ornavit) (ETR me))))
 	  (PONFP .)
 	  (CODE <$$cit>))
-  (ID 122X-AGNES-MCVF-P,.252))
+  (ID 122X-AGNES-MCVF-P,250.252))
 
 ( (IP-MAT-SPE (CODE <cit>)
 	      (CODE <quote>)
@@ -3438,7 +3438,7 @@
 		      (IP-PPL-SPE (VPP teissue)
 				  (PP (P d')
 				      (NP (NCS or)))))))
-  (ID 122X-AGNES-MCVF-P,.253))
+  (ID 122X-AGNES-MCVF-P,250.253))
 
 ( (IP-MAT (CONJO et)
 	  (ADVP (ADV se))
@@ -3458,7 +3458,7 @@
 	  (PONFP .)
 	  (CODE <$$quote>)
 	  (CODE <$$cit>))
-  (ID 122X-AGNES-MCVF-P,.254))
+  (ID 122X-AGNES-MCVF-P,250.254))
 
 ( (CODE <milestone_unit="paragraphe"_n="63"$$>))
 
@@ -3469,7 +3469,7 @@
 	  (VJ senefie)
 	  (NP-ACC (NCS carité))
 	  (PONFP .))
-  (ID 122X-AGNES-MCVF-P,.256))
+  (ID 122X-AGNES-MCVF-P,250.256))
 
 ( (IP-MAT (NP-SBJ (PRO Elle))
 	  (NEG ne)
@@ -3483,7 +3483,7 @@
 			  (CONJP (CONJO mais)
 				 (IP-SUB=1 (VPP teissue)))))
 	  (PONFP ,))
-  (ID 122X-AGNES-MCVF-P,.257))
+  (ID 122X-AGNES-MCVF-P,250.257))
 
 ( (IP-MAT (CONJO car)
 	  (NP-1 (NCS vesture)
@@ -3496,7 +3496,7 @@
 	  (IP-INF (NP-ACC *T*-1)
 		  (VX defaire))
 	  (PONFP .))
-  (ID 122X-AGNES-MCVF-P,.258))
+  (ID 122X-AGNES-MCVF-P,250.258))
 
 ( (IP-MAT (NP-1 (D La)
 		(NCS teissue)
@@ -3516,7 +3516,7 @@
 				    (NP (ADJ grant) (NCS paine)))
 				(ADVP (ADVNEG non)))))
 	  (PONFP .))
-  (ID 122X-AGNES-MCVF-P,.259))
+  (ID 122X-AGNES-MCVF-P,250.259))
 
 ( (CODE <milestone_unit="paragraphe"_n="64"$$>))
 
@@ -3544,7 +3544,7 @@
 					      (ADVP-TMP (ADV unkes))
 					      (IP-INF (NP-ACC (FP nes) (D une) (NCS sole))
 						      (VX departir)))))))
-  (ID 122X-AGNES-MCVF-P,.261))
+  (ID 122X-AGNES-MCVF-P,250.261))
 
 ( (IP-MAT (CONJO et)
 	  (ADVP (ADV si))
@@ -3567,7 +3567,7 @@
 					     (NP-ACC (Q assez)
 						     (NP-PART *T*-1))))))))
 	  (PONFP ,))
-  (ID 122X-AGNES-MCVF-P,.262))
+  (ID 122X-AGNES-MCVF-P,250.262))
 
 ( (IP-MAT (CONJO car)
 	  (NP-SBJ (PRO ele))
@@ -3595,7 +3595,7 @@
 						  (NP (NCS carité)))))))
 	  (PONFP .)
 	  (CODE <$$cit>))
-  (ID 122X-AGNES-MCVF-P,.263))
+  (ID 122X-AGNES-MCVF-P,250.263))
 
 ( (CODE <milestone_unit="paragraphe"_n="65"$$>))
 
@@ -3630,7 +3630,7 @@
 				  (IP-INF (NP-ACC *T*-4)
 					  (VX mesurer)))))
 	  (PONFP .))
-  (ID 122X-AGNES-MCVF-P,.265))
+  (ID 122X-AGNES-MCVF-P,250.265))
 
 ( (IP-MAT (CONJO Car)
 	  (IP-MAT-1 (NP-SBJ (Q nulz))
@@ -3656,7 +3656,7 @@
 						   (CL-PP (CL en))
 						   (VJ done))))))
 	  (PONFP .))
-  (ID 122X-AGNES-MCVF-P,.266))
+  (ID 122X-AGNES-MCVF-P,250.266))
 
 ( (CODE <milestone_unit="paragraphe"_n="66"$$>))
 
@@ -3668,7 +3668,7 @@
 	  (CONJP-1 (CONJO et)
 		   (NP (ADVNEG nient) (QR plus)))
 	  (PONFP ,))
-  (ID 122X-AGNES-MCVF-P,.268))
+  (ID 122X-AGNES-MCVF-P,250.268))
 
 ( (IP-MAT (CONJO car)
 	  (NP-SBJ (PRO ce))
@@ -3678,7 +3678,7 @@
 		  (PP (P de)
 		      (NP (NPRS Deu))))
 	  (PONFP .))
-  (ID 122X-AGNES-MCVF-P,.269))
+  (ID 122X-AGNES-MCVF-P,250.269))
 
 ( (FRAG (CONJO Car)
 	(ADVP (ADV si)
@@ -3711,7 +3711,7 @@
 						 (IP-MAT-SPE=2 (NP (ADJP (ADJ celeste)))))))))
 	(PONFP .)
 	(CODE <$$cit>))
-  (ID 122X-AGNES-MCVF-P,.270))
+  (ID 122X-AGNES-MCVF-P,250.270))
 
 ( (CODE <milestone_unit="paragraphe"_n="67"$$>))
 
@@ -3732,7 +3732,7 @@
 			      (NP-ACC (DZ ma) (NCS face))))
 	  (PONFP .)
 	  (CODE <$$cit>))
-  (ID 122X-AGNES-MCVF-P,.272))
+  (ID 122X-AGNES-MCVF-P,250.272))
 
 ( (IP-MAT (NP-ACC (PRO Ce))
 	  (VJ dist)
@@ -3757,7 +3757,7 @@
 						(VJ eisse))))
 	  (PONFP .)
 	  (CODE <$$cit>))
-  (ID 122X-AGNES-MCVF-P,.273))
+  (ID 122X-AGNES-MCVF-P,250.273))
 
 ( (CODE <milestone_unit="paragraphe"_n="68"$$>))
 
@@ -3802,7 +3802,7 @@
 							     (NCPL travaz)
 							     (NP-COM (NPRS Jhesu) (NPRS Crist))))))))))
 	  (PONFP ,))
-  (ID 122X-AGNES-MCVF-P,.275))
+  (ID 122X-AGNES-MCVF-P,250.275))
 
 ( (IP-MAT (CONJO car)
 	  (NP-SBJ (PRO eles))
@@ -3811,7 +3811,7 @@
 	      (NP (PRO lui)))
 	  (VPP plorees)
 	  (PONFP .))
-  (ID 122X-AGNES-MCVF-P,.276))
+  (ID 122X-AGNES-MCVF-P,250.276))
 
 ( (CODE <milestone_unit="paragraphe"_n="69"$$>))
 
@@ -3832,7 +3832,7 @@
 				    (VJ funt)
 				    (NP-SBJ (ADJ telz) (NCPL larmes)))))
 	  (PONFP .))
-  (ID 122X-AGNES-MCVF-P,.278))
+  (ID 122X-AGNES-MCVF-P,250.278))
 
 ( (IP-MAT (PP (P De)
 	      (NP (NCPL teles)))
@@ -3843,7 +3843,7 @@
 	  (CODE <milestone_unit="folio"_n="227a"$$>)
 	  (VPP aornee)
 	  (PONFP ,))
-  (ID 122X-AGNES-MCVF-P,.279))
+  (ID 122X-AGNES-MCVF-P,250.279))
 
 ( (IP-MAT (CONJO car)
 	  (NP-ACC (NCPL teles))
@@ -3851,7 +3851,7 @@
 	  (NP-SBJ (PRO ele))
 	  (VPP plorees)
 	  (PONFP .))
-  (ID 122X-AGNES-MCVF-P,.280))
+  (ID 122X-AGNES-MCVF-P,250.280))
 
 ( (IP-MAT (CONJO Mais)
 	  (NP-LFD (D les)
@@ -3887,7 +3887,7 @@
 					     (CL-NP-ACC (CL les))
 					     (VJ plore))))))
 	  (PONFP .))
-  (ID 122X-AGNES-MCVF-P,.281))
+  (ID 122X-AGNES-MCVF-P,250.281))
 
 ( (CODE <milestone_unit="paragraphe"_n="70"$$>))
 
@@ -3907,7 +3907,7 @@
 	  (CODE <$$ref>)
 	  (CODE <$$cit>)
 	  (PONFP :))
-  (ID 122X-AGNES-MCVF-P,.283))
+  (ID 122X-AGNES-MCVF-P,250.283))
 
 ( (IP-MAT-SPE (CODE <cit>)
 	      (CODE <quote>)
@@ -3930,7 +3930,7 @@
 					      (PP (P por)
 						  (NP (PRO moi)))))))
 	      (PONFP ,))
-  (ID 122X-AGNES-MCVF-P,.284))
+  (ID 122X-AGNES-MCVF-P,251.284))
 
 ( (IP-MAT (CONJO ke)
 	  (NP-SBJ (PRO je))
@@ -3943,7 +3943,7 @@
 	  (PONFP .)
 	  (CODE <$$quote>)
 	  (CODE <$$cit>))
-  (ID 122X-AGNES-MCVF-P,.285))
+  (ID 122X-AGNES-MCVF-P,251.285))
 
 ( (CODE <milestone_unit="paragraphe"_n="71"$$>))
 
@@ -3957,7 +3957,7 @@
 			  (VPP aornee)
 			  (NP-ACC (DZ sa) (NCS face))))
 	  (PONFP ,))
-  (ID 122X-AGNES-MCVF-P,.287))
+  (ID 122X-AGNES-MCVF-P,251.287))
 
 ( (IP-MAT (CONJO k')
 	  (NP-SBJ (PRO ele))
@@ -3973,7 +3973,7 @@
 				  (NP-ACC (DZ son) (NCS sanc))
 				  (VPP espandu)))))
 	  (PONFP ,))
-  (ID 122X-AGNES-MCVF-P,.288))
+  (ID 122X-AGNES-MCVF-P,251.288))
 
 ( (IP-MAT (ADVP (ADV si))
 	  (NP-SBJ *con*)
@@ -3985,7 +3985,7 @@
 		      (PP (P por)
 			  (NP (PRO lui)))))
 	  (PONFP .))
-  (ID 122X-AGNES-MCVF-P,.289))
+  (ID 122X-AGNES-MCVF-P,251.289))
 
 ( (CODE <milestone_unit="paragraphe"_n="72"$$>))
 
@@ -3996,7 +3996,7 @@
 	  (IP-INF (NP-ACC *ICH*-1)
 		  (VX avoir))
 	  (PONFP ,))
-  (ID 122X-AGNES-MCVF-P,.291))
+  (ID 122X-AGNES-MCVF-P,251.291))
 
 ( (IP-MAT (CONJO car)
 	  (NP-SBJ (NCS hontes))
@@ -4007,7 +4007,7 @@
 		  (PP (P de)
 		      (NP (NCS face))))
 	  (PONFP ,))
-  (ID 122X-AGNES-MCVF-P,.292))
+  (ID 122X-AGNES-MCVF-P,251.292))
 
 ( (IP-MAT (CONJO car)
 	  (ADVP (ADV si)
@@ -4040,7 +4040,7 @@
 			   (PP (P par)
 			       (NP (NCPL larmes))))))
 	  (PONFP ,))
-  (ID 122X-AGNES-MCVF-P,.293))
+  (ID 122X-AGNES-MCVF-P,251.293))
 
 ( (IP-MAT (CONJO et)
 	  (ADVP (ADV ensi))
@@ -4048,7 +4048,7 @@
 	  (VJ prenderons)
 	  (NP-ACC (NCS color))
 	  (PONFP .))
-  (ID 122X-AGNES-MCVF-P,.294))
+  (ID 122X-AGNES-MCVF-P,251.294))
 
 ( (CODE <milestone_unit="paragraphe"_n="73"$$>))
 
@@ -4068,7 +4068,7 @@
 				     (NP (NCS argent))))))
 	  (PONFP .)
 	  (CODE <$$cit>))
-  (ID 122X-AGNES-MCVF-P,.296))
+  (ID 122X-AGNES-MCVF-P,251.296))
 
 ( (IP-MAT (NP-LFD (NP (D Li) (NCS ors))
 		  (CONJP (CONJO et)
@@ -4093,13 +4093,13 @@
 		  (PP (P d@)
 		      (NP (D @es) (NCPL cendres))))
 	  (PONFP ;))
-  (ID 122X-AGNES-MCVF-P,.297))
+  (ID 122X-AGNES-MCVF-P,251.297))
 
 ( (IP-MAT (NP-ACC (PRO ce))
 	  (VJ fait)
 	  (NP-SBJ (D li) (NCS aiwe))
 	  (PONFP .))
-  (ID 122X-AGNES-MCVF-P,.298))
+  (ID 122X-AGNES-MCVF-P,251.298))
 
 ( (CODE <milestone_unit="paragraphe"_n="74"$$>))
 
@@ -4140,7 +4140,7 @@
 	  (PP (P en)
 	      (NP (NCPL miez)))
 	  (PONFP ,))
-  (ID 122X-AGNES-MCVF-P,.300))
+  (ID 122X-AGNES-MCVF-P,251.300))
 
 ( (IP-MAT (CONJO ne)
 	  (NP-SBJ *con*)
@@ -4150,7 +4150,7 @@
 	  (PP (P de)
 	      (NP (DZ lor) (ADJ bone) (NCS savor)))
 	  (PONFP ;))
-  (ID 122X-AGNES-MCVF-P,.301))
+  (ID 122X-AGNES-MCVF-P,251.301))
 
 ( (IP-MAT (NP-ACC (PRO ce))
 	  (VJ funt)
@@ -4164,12 +4164,12 @@
 					  (IP-SUB (ADJP-PRD *T*-2)
 						  (NP-SBJ (NCS aiwe)))))))
 	  (PONFP .))
-  (ID 122X-AGNES-MCVF-P,.302))
+  (ID 122X-AGNES-MCVF-P,251.302))
 
 ( (CODE <milestone_unit="paragraphe"_n="75"$$>))
 
 ( (QTP (CODE <cit_lang="lat">) (ETR Anulo) (ETR fidei) (ETR sue) (ETR subarravit) (ETR me) (ETR Dominus) (CODE <$$cit>) (PONFP .))
-  (ID 122X-AGNES-MCVF-P,.304))
+  (ID 122X-AGNES-MCVF-P,251.304))
 
 ( (IP-MAT-SPE (CODE <cit>)
 	      (CODE <quote>)
@@ -4193,7 +4193,7 @@
 	      (CODE <$$quote>)
 	      (CODE <$$cit>)
 	      (PONFP ,))
-  (ID 122X-AGNES-MCVF-P,.305))
+  (ID 122X-AGNES-MCVF-P,251.305))
 
 ( (ADVP (ADV ausi)
 	(CP-CMP (WADVP-1 0)
@@ -4210,7 +4210,7 @@
 				    (ADVP-TMP (Q trop) (ADV tart))
 				    (VPP venuz))))
 	(PONFP ,))
-  (ID 122X-AGNES-MCVF-P,.306))
+  (ID 122X-AGNES-MCVF-P,251.306))
 
 ( (IP-MAT-SPE (CONJO car)
 	      (NP-SBJ (D uns)
@@ -4241,7 +4241,7 @@
 								 (NP (NCS dignité))))))))
 	      (PONFP .)
 	      (CODE <$$cit>))
-  (ID 122X-AGNES-MCVF-P,.307))
+  (ID 122X-AGNES-MCVF-P,251.307))
 
 ( (CODE <milestone_unit="paragraphe"_n="76"$$>))
 
@@ -4250,7 +4250,7 @@
 	  (QTP (ADVP (Q mult) (ADV bien))
 	       (VPP enerree))
 	  (PONFP ,))
-  (ID 122X-AGNES-MCVF-P,.309))
+  (ID 122X-AGNES-MCVF-P,251.309))
 
 ( (IP-MAT (CONJO car)
 	  (CP-ADV (CONJS cant)
@@ -4281,7 +4281,7 @@
 		  (VX estre)
 		  (ADVP-LOC (ADV devant)))
 	  (PONFP ,))
-  (ID 122X-AGNES-MCVF-P,.310))
+  (ID 122X-AGNES-MCVF-P,251.310))
 
 ( (IP-MAT (NP-SBJ (PRO cil))
 	  (NEG ne)
@@ -4292,7 +4292,7 @@
 			  (CL-NP-ACC (CL la))
 			  (VJ bargenhievet)))
 	  (PONFP .))
-  (ID 122X-AGNES-MCVF-P,.311))
+  (ID 122X-AGNES-MCVF-P,251.311))
 
 ( (CODE <milestone_unit="paragraphe"_n="77"$$>))
 
@@ -4302,7 +4302,7 @@
 	  (AJ avoit)
 	  (VPP enerree)
 	  (PONFP ,))
-  (ID 122X-AGNES-MCVF-P,.313))
+  (ID 122X-AGNES-MCVF-P,251.313))
 
 ( (IP-MAT (ADVP (ADV si))
 	  (NP-SBJ=1 *proimp*)
@@ -4314,7 +4314,7 @@
 			    (VJ fuist)
 			    (ADVP-LOC (ADV devant))))
 	  (PONFP ,))
-  (ID 122X-AGNES-MCVF-P,.314))
+  (ID 122X-AGNES-MCVF-P,251.314))
 
 ( (IP-MAT (CONJO car)
 	  (NP-SBJ (D les) (NCPL erres))
@@ -4323,7 +4323,7 @@
 	  (PP (P de@)
 	      (NP (D @l) (NCS pris)))
 	  (PONFP ,))
-  (ID 122X-AGNES-MCVF-P,.315))
+  (ID 122X-AGNES-MCVF-P,251.315))
 
 ( (IP-MAT (CONJO car)
 	  (NP-LFD (CP-FRL (WNP-1 (WPRO ki))
@@ -4339,7 +4339,7 @@
 			      (IP-INF (NP-ACC *T*-2)
 				      (VX paier)))))
 	  (PONFP ,))
-  (ID 122X-AGNES-MCVF-P,.316))
+  (ID 122X-AGNES-MCVF-P,251.316))
 
 ( (IP-MAT (CONJO et)
 	  (PP (P por)
@@ -4357,7 +4357,7 @@
 				  (PP (P de)
 				      (NP (DZ sa) (NCS foit)))))))
 	  (PONFP .))
-  (ID 122X-AGNES-MCVF-P,.317))
+  (ID 122X-AGNES-MCVF-P,251.317))
 
 ( (CODE <milestone_unit="paragraphe"_n="78"$$>))
 
@@ -4383,7 +4383,7 @@
 					  (PP *T*-2))
 				  (VPP donee))))
 	  (PONFP ,))
-  (ID 122X-AGNES-MCVF-P,.319))
+  (ID 122X-AGNES-MCVF-P,251.319))
 
 ( (IP-MAT (CONJO et)
 	  (ADVP (ADV si))
@@ -4395,14 +4395,14 @@
 	  (IP-INF (VX sentir)
 		  (PP (P de)
 		      (NP (D la) (NCS dolçor)))))
-  (ID 122X-AGNES-MCVF-P,.320))
+  (ID 122X-AGNES-MCVF-P,251.320))
 
 ( (IP-MAT (CONJO et)
 	  (NP-SBJ (PRO ce))
 	  (VJ furent)
 	  (NP-PRD (D les) (NCPL erres))
 	  (PONFP .))
-  (ID 122X-AGNES-MCVF-P,.321))
+  (ID 122X-AGNES-MCVF-P,251.321))
 
 ( (IP-MAT (NP-SBJ (D La)
 		  (NCS pierre)
@@ -4427,7 +4427,7 @@
 							(PP (P en)
 							    (NP (NCS anel)))))))))
 	  (PONFP .))
-  (ID 122X-AGNES-MCVF-P,.322))
+  (ID 122X-AGNES-MCVF-P,251.322))
 
 ( (CODE <milestone_unit="paragraphe"_n="79"$$>))
 
@@ -4440,7 +4440,7 @@
 				  (EJ fu)
 				  (VPP aornee))))
 	  (PONFP .))
-  (ID 122X-AGNES-MCVF-P,.324))
+  (ID 122X-AGNES-MCVF-P,251.324))
 
 ( (IP-MAT (CONJO Et)
 	  (PP (P en)
@@ -4457,7 +4457,7 @@
 						  (CL-NP-ACC (CL la))
 						  (VJ aorna)))))))
 	  (PONFP ,))
-  (ID 122X-AGNES-MCVF-P,.325))
+  (ID 122X-AGNES-MCVF-P,251.325))
 
 ( (IP-MAT (CONJO car)
 	  (CP-ADV (CONJS se)
@@ -4474,7 +4474,7 @@
 	  (AJ eüst)
 	  (VPP paree)
 	  (PONFP .))
-  (ID 122X-AGNES-MCVF-P,.326))
+  (ID 122X-AGNES-MCVF-P,251.326))
 
 ( (CODE <milestone_unit="paragraphe"_n="80"$$>))
 
@@ -4482,14 +4482,14 @@
 	  (NP-SBJ (PRO il))
 	  (CL-NP-ACC (CL la))
 	  (VJ aorna))
-  (ID 122X-AGNES-MCVF-P,.328))
+  (ID 122X-AGNES-MCVF-P,251.328))
 
 ( (IP-MAT (CONJO et)
 	  (ADVP (ADV si))
 	  (NP-SBJ *con*)
 	  (CL-NP-ACC (CL l'))
 	  (VJ aprist))
-  (ID 122X-AGNES-MCVF-P,.329))
+  (ID 122X-AGNES-MCVF-P,251.329))
 
 ( (IP-MAT (CONJO et)
 	  (ADVP (ADV si))
@@ -4497,7 +4497,7 @@
 	  (CL-NP-ACC (CL l'))
 	  (VJ esprist)
 	  (PONFP ,))
-  (ID 122X-AGNES-MCVF-P,.330))
+  (ID 122X-AGNES-MCVF-P,251.330))
 
 ( (CP-QUE-MAT (CONJO car)
 	      (CP-ADV (CONJS se)
@@ -4525,7 +4525,7 @@
 				      (PP (P en)
 					  (NP (PRO li))))))
 	      (PONFP ?))
-  (ID 122X-AGNES-MCVF-P,.331))
+  (ID 122X-AGNES-MCVF-P,251.331))
 
 ( (IP-MAT (ADVP (ADV Ensi))
 	  (ADVP (ADV donkes))
@@ -4535,7 +4535,7 @@
 		  (NCS sapientie)
 		  (NP-COM (DZ son) (NCS Ami)))
 	  (PONFP .))
-  (ID 122X-AGNES-MCVF-P,.332))
+  (ID 122X-AGNES-MCVF-P,251.332))
 
 ( (CODE <milestone_unit="paragraphe"_n="81"$$>))
 
@@ -4553,7 +4553,7 @@
 			  (QTP (ETR Mel) (ETR et) (ETR lac) (ETR ex) (ETR eius) (ETR ore) (ETR suscepi))))
 	  (PONFP .)
 	  (CODE <$$cit>))
-  (ID 122X-AGNES-MCVF-P,.334))
+  (ID 122X-AGNES-MCVF-P,251.334))
 
 ( (IP-MAT-SPE (CODE <cit>)
 	      (NP-SBJ (PRO J'))
@@ -4566,7 +4566,7 @@
 			     (NP (D le) (NCS lait))))
 	      (PONFP .)
 	      (CODE <$$cit>))
-  (ID 122X-AGNES-MCVF-P,.335))
+  (ID 122X-AGNES-MCVF-P,251.335))
 
 ( (IP-MAT (PP (P Par)
 	      (NP (D le) (NCS lait)))
@@ -4582,7 +4582,7 @@
 				  (PP (P de)
 				      (NP (DZ sa) (NCS boiche))))))
 	  (PONFP .))
-  (ID 122X-AGNES-MCVF-P,.336))
+  (ID 122X-AGNES-MCVF-P,251.336))
 
 ( (CODE <milestone_unit="paragraphe"_n="82"$$>))
 
@@ -4611,7 +4611,7 @@
 	  (NP-SBJ *pro*)
 	  (CL-NP-DTV (CL li))
 	  (VJ mache))
-  (ID 122X-AGNES-MCVF-P,.338))
+  (ID 122X-AGNES-MCVF-P,251.338))
 
 ( (IP-MAT (CONJO et)
 	  (ADVP (ADV se))
@@ -4619,14 +4619,14 @@
 	  (CL-NP-DTV (CL li))
 	  (VJ done)
 	  (PONFP ,))
-  (ID 122X-AGNES-MCVF-P,.339))
+  (ID 122X-AGNES-MCVF-P,251.339))
 
 ( (IP-MAT (CONJO car)
 	  (NP-SBJ (PRO ce))
 	  (VJ astoit)
 	  (NP-PRD (D uns) (NCS enfes))
 	  (PONFP .))
-  (ID 122X-AGNES-MCVF-P,.340))
+  (ID 122X-AGNES-MCVF-P,251.340))
 
 ( (CODE <milestone_unit="folio"_n="227d"$$>))
 
@@ -4665,7 +4665,7 @@
 						 (NP (PRO soi)))
 					     (VPP traite))))))
 	  (PONFP .))
-  (ID 122X-AGNES-MCVF-P,.342))
+  (ID 122X-AGNES-MCVF-P,251.342))
 
 ( (CODE <milestone_unit="paragraphe"_n="83"$$>))
 
@@ -4687,7 +4687,7 @@
 				  (VJ atraient)
 				  (NP-ACC (D les) (NCPL altres))))))
 	  (PONFP .))
-  (ID 122X-AGNES-MCVF-P,.344))
+  (ID 122X-AGNES-MCVF-P,251.344))
 
 ( (IP-MAT (ADVP (ADV Ensi))
 	  (VJ fist)
@@ -4707,7 +4707,7 @@
 						      (PP (P de)
 							  (NP (NCS contemplation))))))))
 	  (PONFP ,))
-  (ID 122X-AGNES-MCVF-P,.345))
+  (ID 122X-AGNES-MCVF-P,251.345))
 
 ( (IP-MAT (CONJO car)
 	  (NP-SBJ (D li) (NCS enmielez))
@@ -4715,7 +4715,7 @@
 	  (AJ avoit)
 	  (VPP enmielee)
 	  (PONFP .))
-  (ID 122X-AGNES-MCVF-P,.346))
+  (ID 122X-AGNES-MCVF-P,251.346))
 
 ( (CODE <milestone_unit="paragraphe"_n="84"$$>))
 
@@ -4739,7 +4739,7 @@
 			  (QTP (ETR Posuit) (ETR signum) (ETR in) (ETR faciem) (ETR meam) (ETR ut) (ETR nullum) (ETR praeter) (ETR eum) (ETR amatorem) (ETR admittam))))
 	  (PONFP .)
 	  (CODE <$$cit>))
-  (ID 122X-AGNES-MCVF-P,.348))
+  (ID 122X-AGNES-MCVF-P,251.348))
 
 ( (IP-MAT-SPE (CODE <cit>)
 	      (CODE <quote>)
@@ -4756,7 +4756,7 @@
 	      (PP (P en)
 		  (NP (DZ ma) (NCS face)))
 	      (PONFP ,))
-  (ID 122X-AGNES-MCVF-P,.349))
+  (ID 122X-AGNES-MCVF-P,251.349))
 
 ( (IP-MAT-SPE (CONJO ke)
 	      (NP-SBJ (PRO je))
@@ -4769,7 +4769,7 @@
 	      (PONFP .)
 	      (CODE <$$quote>)
 	      (CODE <$$cit>))
-  (ID 122X-AGNES-MCVF-P,.350))
+  (ID 122X-AGNES-MCVF-P,251.350))
 
 ( (CODE <milestone_unit="paragraphe"_n="85"$$>))
 
@@ -4791,7 +4791,7 @@
 							(PP (P de)
 							    (NP (NPRS Hongrie)))))))))
 	  (PONFP .))
-  (ID 122X-AGNES-MCVF-P,.352))
+  (ID 122X-AGNES-MCVF-P,251.352))
 
 ( (IP-MAT (NP-SBJ (PRO Om))
 	  (CL-NP-ACC (CL les))
@@ -4807,7 +4807,7 @@
 						      (NP-SBJ (PRO il))
 						      (VJ vinent)))))))
 	  (PONFP .))
-  (ID 122X-AGNES-MCVF-P,.353))
+  (ID 122X-AGNES-MCVF-P,251.353))
 
 ( (IP-MAT-SPE (CODE <cit>)
 	      (CODE <quote>)
@@ -4847,7 +4847,7 @@
 						    (IP-INF-SPE (NP-ACC *ICH*-4)
 								(VX retrover)))))
 	      (PONFP ;))
-  (ID 122X-AGNES-MCVF-P,.354))
+  (ID 122X-AGNES-MCVF-P,252.354))
 
 ( (IP-MAT-SPE (CONJO et)
 	      (ADVP (ADV se))
@@ -4877,7 +4877,7 @@
 	      (PONFP .)
 	      (CODE <$$quote>)
 	      (CODE <$$cit>))
-  (ID 122X-AGNES-MCVF-P,.355))
+  (ID 122X-AGNES-MCVF-P,252.355))
 
 ( (CODE <milestone_unit="paragraphe"_n="86"$$>))
 
@@ -4903,7 +4903,7 @@
 							 (NP (PRO li)))
 						     (VPP mises))))))))
 	  (PONFP .))
-  (ID 122X-AGNES-MCVF-P,.357))
+  (ID 122X-AGNES-MCVF-P,252.357))
 
 ( (IP-MAT (CONJO Et)
 	  (NP-SBJ (PRO c'))
@@ -4916,7 +4916,7 @@
 					    (PP (P de)
 						(NP (DZ ses) (NCPL amis)))))))
 	  (PONFP .))
-  (ID 122X-AGNES-MCVF-P,.358))
+  (ID 122X-AGNES-MCVF-P,252.358))
 
 ( (CODE <milestone_unit="paragraphe"_n="87"$$>))
 
@@ -4939,7 +4939,7 @@
 			  (QTP (ETR Quem) (ETR cum) (ETR amavero) (ETR casta) (ETR sum) (PON ,) (ETR cum) (ETR tetigero) (ETR munda) (ETR sum) (PON ,) (ETR cum) (ETR accepero) (ETR virgo) (ETR sum))))
 	  (PONFP .)
 	  (CODE <$$cit>))
-  (ID 122X-AGNES-MCVF-P,.360))
+  (ID 122X-AGNES-MCVF-P,252.360))
 
 ( (IP-MAT-SPE (CODE <cit>)
 	      (CODE <quote>)
@@ -4992,7 +4992,7 @@
 	      (PONFP .)
 	      (CODE <$$quote>)
 	      (CODE <$$cit>))
-  (ID 122X-AGNES-MCVF-P,.361))
+  (ID 122X-AGNES-MCVF-P,252.361))
 
 ( (CODE <milestone_unit="paragraphe"_n="88"$$>))
 
@@ -5003,7 +5003,7 @@
 	  (NP-SBJ (QTP (ETR Iam) (ETR castis) (ETR cius) (ETR amplexibus) (ETR astricta) (ETR sum)))
 	  (PONFP ,)
 	  (CODE <$$cit>))
-  (ID 122X-AGNES-MCVF-P,.363))
+  (ID 122X-AGNES-MCVF-P,252.363))
 
 ( (IP-MAT (NP-SBJ (PRO c'))
 	  (VJ est)
@@ -5018,7 +5018,7 @@
 		      (ADVP (ADV destroitement)))
 	  (PONFP .)
 	  (CODE <$$cit>))
-  (ID 122X-AGNES-MCVF-P,.364))
+  (ID 122X-AGNES-MCVF-P,252.364))
 
 ( (IP-MAT (NP-SBJ (PRO C'))
 	  (VJ est)
@@ -5028,7 +5028,7 @@
 				  (NP-SBJ (D l') (NCS Espouse))
 				  (VJ dist))))
 	  (PONFP :))
-  (ID 122X-AGNES-MCVF-P,.365))
+  (ID 122X-AGNES-MCVF-P,252.365))
 
 ( (IP-MAT-SPE (CODE <cit>)
 	      (CODE <quote>)
@@ -5036,7 +5036,7 @@
 	      (VJ est)
 	      (PP (P desoz)
 		  (NP (DZ mon) (NCS chief))))
-  (ID 122X-AGNES-MCVF-P,.366))
+  (ID 122X-AGNES-MCVF-P,252.366))
 
 ( (IP-MAT-SPE (CONJO et)
 	      (NP-SBJ (DZ sa) (NCS dextre))
@@ -5049,7 +5049,7 @@
 	      (CODE <$$ref>)
 	      (CODE <$$cit>)
 	      (PONFP .))
-  (ID 122X-AGNES-MCVF-P,.367))
+  (ID 122X-AGNES-MCVF-P,252.367))
 
 ( (CODE <milestone_unit="paragraphe"_n="89"$$>))
 
@@ -5074,20 +5074,20 @@
 			       (PP (P de@)
 				   (NP (D @l) (NCS ciel))))))
 	  (PONFP .))
-  (ID 122X-AGNES-MCVF-P,.369))
+  (ID 122X-AGNES-MCVF-P,252.369))
 
 ( (IP-MAT (NP-SBJ (D La) (NCS senestre))
 	  (VJ est)
 	  (PP (P desoz)
 	      (NP (D le) (NCS cief))))
-  (ID 122X-AGNES-MCVF-P,.370))
+  (ID 122X-AGNES-MCVF-P,252.370))
 
 ( (IP-MAT (CONJO et)
 	  (NP-SBJ *con*)
 	  (VJ eslieve)
 	  (NP-ACC (D l') (NCS esperit))
 	  (CODE {TEXT:esperite}))
-  (ID 122X-AGNES-MCVF-P,.371))
+  (ID 122X-AGNES-MCVF-P,252.371))
 
 ( (IP-MAT (CONJO et)
 	  (NP-SBJ *con*)
@@ -5095,7 +5095,7 @@
 	  (PP (P en)
 	      (NP (D ceste) (NCS vie)))
 	  (PONFP .))
-  (ID 122X-AGNES-MCVF-P,.372))
+  (ID 122X-AGNES-MCVF-P,252.372))
 
 ( (IP-MAT (CONJO Mais)
 	  (NP-SBJ (D la) (NCS dextre))
@@ -5103,7 +5103,7 @@
 	  (PP (P en)
 	      (NP (D l') (NCS autre)))
 	  (PONFP .))
-  (ID 122X-AGNES-MCVF-P,.373))
+  (ID 122X-AGNES-MCVF-P,252.373))
 
 ( (CP-QUE-MAT (WADVP-1 (WADV Por=koi))
 	      (IP-SUB (ADVP *T*-1)
@@ -5116,7 +5116,7 @@
 				      (ADVP-TMP (ADV ja))
 				      (VPP embracie))))
 	      (PONFP ?))
-  (ID 122X-AGNES-MCVF-P,.374))
+  (ID 122X-AGNES-MCVF-P,252.374))
 
 ( (CODE <milestone_unit="paragraphe"_n="90"$$>))
 
@@ -5137,7 +5137,7 @@
 					    (NCPL biens)
 					    (PP (P de)
 						(NP (D l') (ADJ autre) (NCS vie))))))))
-  (ID 122X-AGNES-MCVF-P,.376))
+  (ID 122X-AGNES-MCVF-P,252.376))
 
 ( (IP-MAT (CONJO et)
 	  (PP (P por)
@@ -5154,7 +5154,7 @@
 			  (EJ fu)
 			  (VPP soprise)))
 	  (PONFP ;))
-  (ID 122X-AGNES-MCVF-P,.377))
+  (ID 122X-AGNES-MCVF-P,252.377))
 
 ( (IP-MAT (CONJO car)
 	  (NP-SBJ (Q tot)
@@ -5166,7 +5166,7 @@
 	  (EJ sunt)
 	  (VPP sopris)
 	  (PONFP ,))
-  (ID 122X-AGNES-MCVF-P,.378))
+  (ID 122X-AGNES-MCVF-P,252.378))
 
 ( (IP-MAT (CONJO ne)
 	  (NP-SBJ (Q nuz))
@@ -5180,7 +5180,7 @@
 			  (EJ est)
 			  (VPP sopris)))
 	  (PONFP .))
-  (ID 122X-AGNES-MCVF-P,.379))
+  (ID 122X-AGNES-MCVF-P,252.379))
 
 ( (CODE <milestone_unit="paragraphe"_n="91"$$>))
 
@@ -5202,7 +5202,7 @@
 					      (AJ avoit)
 					      (VPP fait))))))
 	      (PONFP ?))
-  (ID 122X-AGNES-MCVF-P,.381))
+  (ID 122X-AGNES-MCVF-P,252.381))
 
 ( (IP-MAT (NP-SBJ (PRO Ce))
 	  (VJ sembleroit)
@@ -5213,7 +5213,7 @@
 				  (CL-NP-RFL (CL se))
 				  (VJ priseroit))))
 	  (PONFP .))
-  (ID 122X-AGNES-MCVF-P,.382))
+  (ID 122X-AGNES-MCVF-P,252.382))
 
 ( (IP-MAT (PP (P Por)
 	      (NP (ADJNUM dous) (NCPL choses)))
@@ -5243,7 +5243,7 @@
 									 (ADJP-PRD (ADV si) (ADJ bon)))
 								 (VPP trové)))))))))
 	  (PONFP .))
-  (ID 122X-AGNES-MCVF-P,.383))
+  (ID 122X-AGNES-MCVF-P,252.383))
 
 ( (IP-MAT (CONJO Et)
 	  (NP-SBJ (PRO ce))
@@ -5261,7 +5261,7 @@
 		     (PP (P d')
 			 (NP (NCS amor)))))
 	  (PONFP .))
-  (ID 122X-AGNES-MCVF-P,.384))
+  (ID 122X-AGNES-MCVF-P,252.384))
 
 ( (CODE <milestone_unit="paragraphe"_n="93"$$>))
 
@@ -5279,7 +5279,7 @@
 			      (PP (P d')
 				  (NP (NPRS Israel))))))
 	  (PONFP ,))
-  (ID 122X-AGNES-MCVF-P,.386))
+  (ID 122X-AGNES-MCVF-P,252.386))
 
 ( (IP-MAT (ADVP-LOC (ADV la))
 	  (CL-NP-ACC (CL le))
@@ -5294,7 +5294,7 @@
 				      (NP (NCPL oes)
 					  (NP-COM (D le) (NCS roi)))))))
 	  (PONFP .))
-  (ID 122X-AGNES-MCVF-P,.387))
+  (ID 122X-AGNES-MCVF-P,252.387))
 
 ( (IP-MAT (CONJO Car)
 	  (CP-ADV (CONJS s')
@@ -5314,7 +5314,7 @@
 	  (ADVP (ADVNEG nient))
 	  (VPP trovee)
 	  (PONFP .))
-  (ID 122X-AGNES-MCVF-P,.388))
+  (ID 122X-AGNES-MCVF-P,252.388))
 
 ( (CODE <milestone_unit="paragraphe"_n="94"$$>))
 
@@ -5330,7 +5330,7 @@
 					       (NP-ACC (NPRS Deu))))))))
 	  (CODE <$$cit>)
 	  (PONFP ,))
-  (ID 122X-AGNES-MCVF-P,.390))
+  (ID 122X-AGNES-MCVF-P,252.390))
 
 ( (IP-MAT (CONJO et)
 	  (NP-SBJ (PRO ce))
@@ -5342,7 +5342,7 @@
 			  (CL-NP-ACC (CL le))
 			  (VJ voient)))
 	  (PONFP .))
-  (ID 122X-AGNES-MCVF-P,.391))
+  (ID 122X-AGNES-MCVF-P,252.391))
 
 ( (IP-MAT (NP-SBJ (PRO Il))
 	  (CL-NP-ACC (CL le))
@@ -5355,7 +5355,7 @@
 		      (PP (P en)
 			  (NP (DZ lor) (NCPL voies))))
 	  (PONFP ,))
-  (ID 122X-AGNES-MCVF-P,.392))
+  (ID 122X-AGNES-MCVF-P,252.392))
 
 ( (IP-MAT (CONJO et)
 	  (CP-ADV (CONJS se)
@@ -5369,7 +5369,7 @@
 	  (VJ troveroient)
 	  (NP-SBJ (PRO il))
 	  (PONFP .))
-  (ID 122X-AGNES-MCVF-P,.393))
+  (ID 122X-AGNES-MCVF-P,252.393))
 
 ( (CODE <milestone_unit="paragraphe"_n="95"$$>))
 
@@ -5390,7 +5390,7 @@
 	  (IP-INF (NP-ACC *ICH*-1)
 		  (VX trover))
 	  (PONFP ,))
-  (ID 122X-AGNES-MCVF-P,.395))
+  (ID 122X-AGNES-MCVF-P,252.395))
 
 ( (IP-MAT (CONJO car)
 	  (NP-LFD (CP-FRL (WNP-1 (WPRO ki))
@@ -5415,7 +5415,7 @@
 	  (VJ troveroit)
 	  (ADVP-TMP (ADV jamais))
 	  (PONFP .))
-  (ID 122X-AGNES-MCVF-P,.396))
+  (ID 122X-AGNES-MCVF-P,252.396))
 
 ( (IP-MAT (CONJO Mais)
 	  (CP-ADV (CONJS s')
@@ -5429,7 +5429,7 @@
 	  (IP-INF (NP-ACC *ICH*-1)
 		  (VX trover))
 	  (PONFP .))
-  (ID 122X-AGNES-MCVF-P,.397))
+  (ID 122X-AGNES-MCVF-P,252.397))
 
 ( (CODE <milestone_unit="paragraphe"_n="96"$$>))
 
@@ -5441,7 +5441,7 @@
 	  (VJ est)
 	  (NP-PRD (NCS purtez) (CONJO et) (NCS obedience) (CONJO et) (NCS soigne))
 	  (PONFP ,))
-  (ID 122X-AGNES-MCVF-P,.399))
+  (ID 122X-AGNES-MCVF-P,252.399))
 
 ( (IP-MAT (CONJO car)
 	  (NP-SBJ (PRO il))
@@ -5489,7 +5489,7 @@
 	  (PONFP .)
 	  (CODE <$$quote>)
 	  (CODE <$$cit>))
-  (ID 122X-AGNES-MCVF-P,.400))
+  (ID 122X-AGNES-MCVF-P,252.400))
 
 ( (IP-MAT (CONJO Et)
 	  (CP-ADV (CONJS s')
@@ -5504,7 +5504,7 @@
 	  (ADVP (ADV soignosement))
 	  (NP-ACC (D l') (NCS anrme))
 	  (PONFP .))
-  (ID 122X-AGNES-MCVF-P,.401))
+  (ID 122X-AGNES-MCVF-P,252.401))
 
 ( (CODE <milestone_unit="paragraphe"_n="97"$$>))
 
@@ -5521,7 +5521,7 @@
 	  (VJ troveroient)
 	  (NP-SBJ (D li) (NCPL angele))
 	  (PONFP ,))
-  (ID 122X-AGNES-MCVF-P,.403))
+  (ID 122X-AGNES-MCVF-P,252.403))
 
 ( (IP-MAT (CONJO car)
 	  (PP (P en)
@@ -5530,7 +5530,7 @@
 	  (NP-SBJ (D la) (NCS jovencele))
 	  (VPP trovee)
 	  (PONFP .))
-  (ID 122X-AGNES-MCVF-P,.404))
+  (ID 122X-AGNES-MCVF-P,252.404))
 
 ( (CP-QUE-MAT (CONJO Et)
 	      (WADVP-1 (WADV coment))
@@ -5540,13 +5540,13 @@
 		      (PP (P a)
 			  (NP (NCS non))))
 	      (PONFP ?))
-  (ID 122X-AGNES-MCVF-P,.405))
+  (ID 122X-AGNES-MCVF-P,252.405))
 
 ( (FRAG (NP-SBJ (NPRS Abisac))
 	(PP (P en)
 	    (NP (ADJ droit) (NCS non)))
 	(PONFP ,))
-  (ID 122X-AGNES-MCVF-P,.406))
+  (ID 122X-AGNES-MCVF-P,252.406))
 
 ( (IP-MAT (CONJO et)
 	  (NP-LFD (NPRS Sunamitis))
@@ -5554,7 +5554,7 @@
 	  (VJ fut)
 	  (NP-PRD (D li) (NCS somons))
 	  (PONFP .))
-  (ID 122X-AGNES-MCVF-P,.407))
+  (ID 122X-AGNES-MCVF-P,252.407))
 
 ( (CODE <milestone_unit="paragraphe"_n="98"$$>))
 
@@ -5577,7 +5577,7 @@
 										  (QP (Q tot))
 										  (NP-DTV (DAT a) (NPRS Deu)))))))))))))
 	  (PONFP .))
-  (ID 122X-AGNES-MCVF-P,.409))
+  (ID 122X-AGNES-MCVF-P,252.409))
 
 ( (IP-MAT (ADJP-PRD (ADJ Tele))
 	  (VJ fu)
@@ -5598,7 +5598,7 @@
 						(VJ fait)
 						(NP-ACC (D l') (NCS encens)))))))
 	  (PONFP ,))
-  (ID 122X-AGNES-MCVF-P,.410))
+  (ID 122X-AGNES-MCVF-P,252.410))
 
 ( (IP-MAT (CONJO car)
 	  (NP-SBJ (PRO ele))
@@ -5613,7 +5613,7 @@
 			     (NCS feu)
 			     (ADJP (ADJ materiel))))))
 	  (PONFP .))
-  (ID 122X-AGNES-MCVF-P,.411))
+  (ID 122X-AGNES-MCVF-P,252.411))
 
 ( (CODE <milestone_unit="paragraphe"_n="99"$$>))
 
@@ -5635,7 +5635,7 @@
 					 (CL-NP-ACC (CL la))
 					 (VJ destraint)))))
 	  (PONFP ,))
-  (ID 122X-AGNES-MCVF-P,.413))
+  (ID 122X-AGNES-MCVF-P,252.413))
 
 ( (IP-MAT (CONJO et)
 	  (ADVP (ADV si))
@@ -5664,7 +5664,7 @@
 									 (AJ avoit)
 									 (VPP gardee)))))))))))
 	  (PONFP .))
-  (ID 122X-AGNES-MCVF-P,.414))
+  (ID 122X-AGNES-MCVF-P,252.414))
 
 ( (IP-MAT (PP (P En)
 	      (NP (NCS mi)
@@ -5678,14 +5678,14 @@
 			(IP-SUB (ADVP *T*-1)
 				(NP-SBJ (D li) (NCS encens)))))
 	  (PONFP .))
-  (ID 122X-AGNES-MCVF-P,.415))
+  (ID 122X-AGNES-MCVF-P,252.415))
 
 ( (CODE <milestone_unit="paragraphe"_n="100"$$>))
 
 ( (IP-MAT (NP-SBJ (PRO Ele))
 	  (VJ fu)
 	  (NP-PRD (NCS holocaustes)))
-  (ID 122X-AGNES-MCVF-P,.417))
+  (ID 122X-AGNES-MCVF-P,252.417))
 
 ( (IP-MAT (CONJO car)
 	  (NP-SBJ (PRO ele))
@@ -5697,7 +5697,7 @@
 		     (PP (P de)
 			 (NP (NCS carité)))))
 	  (PONFP .))
-  (ID 122X-AGNES-MCVF-P,.418))
+  (ID 122X-AGNES-MCVF-P,252.418))
 
 ( (IP-MAT (NP-SBJ (NPRS Sunamitis))
 	  (VJ dist)
@@ -5705,7 +5705,7 @@
 		  (PP (P cum)
 		      (QTP (NP (NCS roige)))))
 	  (PONFP ,))
-  (ID 122X-AGNES-MCVF-P,.419))
+  (ID 122X-AGNES-MCVF-P,252.419))
 
 ( (IP-MAT (CONJO et)
 	  (NP-SBJ (D ciz) (CODE <pb_n="253"$$>) (NCS nons))
@@ -5713,7 +5713,7 @@
 	  (ADVP (ADV bien))
 	  (NP-DTV (DAT a) (PRO li))
 	  (PONFP ,))
-  (ID 122X-AGNES-MCVF-P,.420))
+  (ID 122X-AGNES-MCVF-P,253.420))
 
 ( (IP-MAT (CONJO car)
 	  (PP (Q tot)
@@ -5732,7 +5732,7 @@
 				    (VJ trencha)
 				    (NP-ACC (D lo) (NCS chief)))))
 	  (PONFP .))
-  (ID 122X-AGNES-MCVF-P,.421))
+  (ID 122X-AGNES-MCVF-P,253.421))
 
 ( (IP-MAT (ADVP (ADV Or))
 	  (EJ est)
@@ -5741,7 +5741,7 @@
 	  (IP-SMC (NP-SBJ *-1)
 		  (NP-PRD (NPRS Abisac)))
 	  (PONFP .))
-  (ID 122X-AGNES-MCVF-P,.422))
+  (ID 122X-AGNES-MCVF-P,253.422))
 
 ( (CODE <milestone_unit="paragraphe"_n="101"$$>))
 
@@ -5754,7 +5754,7 @@
 			      (PP *ICH*-2)
 			      (VX faire)))
 	      (PONFP ?))
-  (ID 122X-AGNES-MCVF-P,.424))
+  (ID 122X-AGNES-MCVF-P,253.424))
 
 ( (IP-MAT (NP-SBJ (PRO Om))
 	  (CL-NP-1 (CL la))
@@ -5764,7 +5764,7 @@
 		  (PP (P a@)
 		      (NP (D @u) (NCS roi))))
 	  (PONFP .))
-  (ID 122X-AGNES-MCVF-P,.425))
+  (ID 122X-AGNES-MCVF-P,253.425))
 
 ( (IP-MAT (IP-MAT-1 (PP (P A@)
 			(NP (D @u)
@@ -5780,7 +5780,7 @@
 			   (PP (P en)
 			       (NP (DZ ses) (ADJ castes) (NCPL enbracemenz)))))
 	  (PONFP .))
-  (ID 122X-AGNES-MCVF-P,.426))
+  (ID 122X-AGNES-MCVF-P,253.426))
 
 ( (CP-QUE-MAT (WNP-1 (WPRO Ke))
 	      (IP-SUB (MDJ doit)
@@ -5789,7 +5789,7 @@
 			      (VX faire)
 			      (NP-DTV (D le) (NCS roi))))
 	      (PONFP ?))
-  (ID 122X-AGNES-MCVF-P,.427))
+  (ID 122X-AGNES-MCVF-P,253.427))
 
 ( (IP-MAT (NP-SBJ (PRO Ele))
 	  (MDJ doit)
@@ -5797,7 +5797,7 @@
 		  (PP (P devant)
 		      (NP (PRO lui))))
 	  (PONFP .))
-  (ID 122X-AGNES-MCVF-P,.428))
+  (ID 122X-AGNES-MCVF-P,253.428))
 
 ( (CODE <milestone_unit="paragraphe"_n="102"$$>))
 
@@ -5807,7 +5807,7 @@
 	  (PP (P devant)
 	      (NP (PRO lui)))
 	  (PONFP ,))
-  (ID 122X-AGNES-MCVF-P,.430))
+  (ID 122X-AGNES-MCVF-P,253.430))
 
 ( (IP-MAT (CONJO car)
 	  (NP-SBJ (PRO ele))
@@ -5816,7 +5816,7 @@
 		    (PP (P a)
 			(NP (PRO lui))))
 	  (PONFP .))
-  (ID 122X-AGNES-MCVF-P,.431))
+  (ID 122X-AGNES-MCVF-P,253.431))
 
 ( (IP-MAT (NP-SBJ (PRO Ele))
 	  (CL-PP (CL i))
@@ -5831,7 +5831,7 @@
 				  (PP (P en)
 				      (NP (D ceste) (NCS vie))))))
 	  (PONFP ,))
-  (ID 122X-AGNES-MCVF-P,.432))
+  (ID 122X-AGNES-MCVF-P,253.432))
 
 ( (IP-MAT (CONJO car)
 	  (NP-SBJ (DZ sa) (NCS vie))
@@ -5839,7 +5839,7 @@
 	  (VJ fu)
 	  (ADJP-PRD (ADJ plaisanz))
 	  (PONFP .))
-  (ID 122X-AGNES-MCVF-P,.433))
+  (ID 122X-AGNES-MCVF-P,253.433))
 
 ( (CP-QUE-MAT (CONJO Et)
 	      (WNP-1 (WPRO ke))
@@ -5851,7 +5851,7 @@
 			      (NP-MSR (QR plus))
 			      (VX faire)))
 	      (PONFP ?))
-  (ID 122X-AGNES-MCVF-P,.434))
+  (ID 122X-AGNES-MCVF-P,253.434))
 
 ( (IP-MAT (ADVP (ADV Se))
 	  (NP-SBJ *con*)
@@ -5860,7 +5860,7 @@
 	  (IP-INF (NP-ACC *ICH*-1)
 		  (VX norrir))
 	  (PONFP .))
-  (ID 122X-AGNES-MCVF-P,.435))
+  (ID 122X-AGNES-MCVF-P,253.435))
 
 ( (CODE <milestone_unit="paragraphe"_n="103"$$>))
 
@@ -5869,7 +5869,7 @@
 	  (VJ norri)
 	  (PP (P de)
 	      (NP (DZ ses) (ADJ bones) (NCPL oevres))))
-  (ID 122X-AGNES-MCVF-P,.437))
+  (ID 122X-AGNES-MCVF-P,253.437))
 
 ( (IP-MAT (CONJO et)
 	  (ADVP (ADV se))
@@ -5885,7 +5885,7 @@
 		     (PP (P de)
 			 (NP (DZ ses) (ADJ saintes) (NCPL leichons)))))
 	  (PONFP ,))
-  (ID 122X-AGNES-MCVF-P,.438))
+  (ID 122X-AGNES-MCVF-P,253.438))
 
 ( (IP-MAT (CONJO et)
 	  (ADVP-1 (ADV ensi)
@@ -5909,7 +5909,7 @@
 				      (AJ avons)
 				      (VPP dit))))
 	  (PONFP .))
-  (ID 122X-AGNES-MCVF-P,.439))
+  (ID 122X-AGNES-MCVF-P,253.439))
 
 ( (CODE <milestone_unit="paragraphe"_n="104"$$>))
 
@@ -5936,13 +5936,13 @@
 					      (PP (P en)
 						  (NP (DZ son) (NCS sain))))))
 	  (PONFP .))
-  (ID 122X-AGNES-MCVF-P,.441))
+  (ID 122X-AGNES-MCVF-P,253.441))
 
 ( (IP-MAT (NP-SBJ (PRO Ele))
 	  (CL-PP (CL i))
 	  (VJ dormi)
 	  (PONFP .))
-  (ID 122X-AGNES-MCVF-P,.442))
+  (ID 122X-AGNES-MCVF-P,253.442))
 
 ( (IP-MAT (CONJO Et)
 	  (PP (P de)
@@ -5956,7 +5956,7 @@
 			    (ADVP (ADV si) (ADV bien))
 			    (VPP aprise)))
 	  (PONFP .))
-  (ID 122X-AGNES-MCVF-P,.443))
+  (ID 122X-AGNES-MCVF-P,253.443))
 
 ( (IP-MAT (CONJO Et)
 	  (NP-SBJ (PRO ce))
@@ -5964,7 +5964,7 @@
 	  (VJ fu)
 	  (ADVP (ADVNEG pas))
 	  (NP-PRD (NCS merveilhe)))
-  (ID 122X-AGNES-MCVF-P,.444))
+  (ID 122X-AGNES-MCVF-P,253.444))
 
 ( (IP-MAT (CONJO car)
 	  (NP-SBJ (ADJ sainz)
@@ -5981,7 +5981,7 @@
 		  (PP (P de@)
 		      (NP (D @l) (NCS ciel))))
 	  (PONFP .))
-  (ID 122X-AGNES-MCVF-P,.445))
+  (ID 122X-AGNES-MCVF-P,253.445))
 
 ( (CODE <milestone_unit="paragraphe"_n="105"$$>))
 
@@ -6007,7 +6007,7 @@
 	  (CODE <$$ref>)
 	  (CODE <$$cit>)
 	  (PONFP .))
-  (ID 122X-AGNES-MCVF-P,.447))
+  (ID 122X-AGNES-MCVF-P,253.447))
 
 ( (IP-MAT (NP-SBJ (PRO C'))
 	  (VJ est)
@@ -6024,7 +6024,7 @@
 							      (NP-SBJ (PRO je))
 							      (AJ avoi)
 							      (VPP desiré)))))))))
-  (ID 122X-AGNES-MCVF-P,.448))
+  (ID 122X-AGNES-MCVF-P,253.448))
 
 ( (IP-MAT-SPE (CONJO et)
 	      (NP-SBJ (DZ ses) (NCS fruiz))
@@ -6034,7 +6034,7 @@
 			    (NP (DZ ma) (NCS gorge))))
 	      (PONFP .)
 	      (CODE <$$cit>))
-  (ID 122X-AGNES-MCVF-P,.449))
+  (ID 122X-AGNES-MCVF-P,253.449))
 
 ( (CODE <milestone_unit="paragraphe"_n="106"$$>))
 
@@ -6045,14 +6045,14 @@
 			  (CL-PP (CL i))
 			  (VJ sist)))
 	  (PONFP ,))
-  (ID 122X-AGNES-MCVF-P,.451))
+  (ID 122X-AGNES-MCVF-P,253.451))
 
 ( (IP-MAT (CONJO et)
 	  (NP-SBJ (ADJ sainte) (NPRS Agnés))
 	  (CL-PP (CL i))
 	  (VJ dormi)
 	  (PONFP .))
-  (ID 122X-AGNES-MCVF-P,.452))
+  (ID 122X-AGNES-MCVF-P,253.452))
 
 ( (IP-MAT (PP (P Par)
 	      (NP (D le) (NCS dormir)))
@@ -6069,14 +6069,14 @@
 					  (CL-PP (CL i))
 					  (VJ reposat)))))
 	  (PONFP .))
-  (ID 122X-AGNES-MCVF-P,.453))
+  (ID 122X-AGNES-MCVF-P,253.453))
 
 ( (IP-MAT (ADVP (ADV Ensi))
 	  (VJ dormit)
 	  (NP-SBJ (PRO ele))
 	  (PP (P en)
 	      (NP (DZ son) (NCS sain))))
-  (ID 122X-AGNES-MCVF-P,.454))
+  (ID 122X-AGNES-MCVF-P,253.454))
 
 ( (IP-MAT (CONJO et)
 	  (ADVP (ADV si))
@@ -6097,7 +6097,7 @@
 					      (EJ est)
 					      (VPP refroidie)))))
 	  (PONFP .))
-  (ID 122X-AGNES-MCVF-P,.455))
+  (ID 122X-AGNES-MCVF-P,253.455))
 
 ( (CODE <milestone_unit="paragraphe"_n="107"$$>))
 
@@ -6136,7 +6136,7 @@
 						   (PP (P en)
 						       (NP (NCS desier)))))))))
 	  (PONFP .))
-  (ID 122X-AGNES-MCVF-P,.457))
+  (ID 122X-AGNES-MCVF-P,253.457))
 
 ( (CODE <milestone_unit="paragraphe"_n="108"$$>))
 
@@ -6176,9 +6176,9 @@
 								  (VX parvenir)
 								  (LATIN (ETR in) (ETR vitam) (ETR eternam)))))))))
 	  (PONFP .))
-  (ID 122X-AGNES-MCVF-P,.459))
+  (ID 122X-AGNES-MCVF-P,253.459))
 
 ( (ITJP (ETR Amen) (PONFP .))
-  (ID 122X-AGNES-MCVF-P,.460))
+  (ID 122X-AGNES-MCVF-P,253.460))
 
 ( (CODE <$$text>))
