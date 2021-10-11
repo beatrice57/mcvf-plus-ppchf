@@ -30,8 +30,8 @@ The files in this repository are distributed under Creative
 Commons License Attribution-NonCommercial-ShareAlike 4.0 International
 CC BY-NC-SA 4.0 (<https://creativecommons.org/licenses/by-nc-sa/4.0>).
 
-Citation
-========
+Citing the corpora
+==================
 
 * The MCVF Corpus, version 1.0, 2009, consists of three parts
   (XML-annotated text, part-of-speech tagged, and parsed), which should be
