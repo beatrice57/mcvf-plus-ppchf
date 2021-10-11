@@ -30,38 +30,9 @@ The files in this repository are distributed under Creative
 Commons License Attribution-NonCommercial-ShareAlike 4.0 International
 CC BY-NC-SA 4.0 (<https://creativecommons.org/licenses/by-nc-sa/4.0>).
 
-Citation
-========
-
-* The MCVF Corpus, version 1.0, 2009, consists of three parts
-  (XML-annotated text, part-of-speech tagged, and parsed), which should be
-  cited as follows.
-
-  * Martineau, France, Paul Hirschbühler, Serge Lusignan, Christiane
-    Marchello-Nizia, Yves Charles Morin, and François Rouget, eds.  2009a.
-    MCVF Corpus, XML annotated, version 1.0.
-    Available for download at: <https://github.com/beatrice57/mcvf-plus-ppchf>
-
-  * Martineau, France,  Fernande Dupuis, Monique Dufresne, Paul
-    Hirschbühler, Anthony Kroch, and Yves Charles Morin, eds.  2009b.
-    MCVF Corpus, part-of-speech tagged, version 1.0.
-    Available for download at: <https://github.com/beatrice57/mcvf-plus-ppchf>
-
-  * Martineau, France, Paul Hirschbühler, Anthony Kroch, and Yves Charles
-    Morin, eds.  2009c.  MCVF Corpus, parsed, version 1.0.
-    Available for download at: <https://github.com/beatrice57/mcvf-plus-ppchf>
-
-* Martineau, France, Paul Hirschbühler, Anthony Kroch, and Yves Charles
-  Morin, eds.  2021.  MCVF Corpus, parsed, version 2.0.
-  <https://github.com/beatrice57/mcvf-plus-ppchf>
-
-* Kroch, Anthony, and Beatrice Santorini, eds.
-  2021.
-  Penn-BFM Parsed Corpus of Historical French, version 1.0.
-  <https://github.com/beatrice57/mcvf-plus-ppchf>
-
 Contact
 ========
+
 Beatrice Santorini (beatrice AT sas DOT upenn DOT edu, beatrice DOT
 santorini AT gmail DOT com)
 
