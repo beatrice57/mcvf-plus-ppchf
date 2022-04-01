@@ -162,7 +162,7 @@ treated as parentheticals in the IP that they modify.
 				 (IP-SUB-PRN=3 (CONJO et)
 				     	       (CP-ADV (CONJS qu')
 						       (IP-SUB (NP-SBJ (PRO ilz))
-						               (NP-ACC (CL l'))
+						               (CL-NP-ACC (CL l'))
 						               (AJ eussent)
 						               (VPP trouvee))))))))
 
@@ -206,7 +206,7 @@ treated as parentheticals in the IP that they modify.
           (IP-INF (NP-SBJ *arb*)				&larr; causee not expressed
 	          (VX donner)
                   (NP-ACC (D les) (NCS tartines))
-                  (NP-DAT (DAT &agrave;) (NPRS Jean)))))
+                  (NP-DTV (DAT &agrave;) (NPRS Jean)))))
 
 ( (IP-MAT (NP-SBJ (PRO Ils))
           (AJ ont)
@@ -386,7 +386,7 @@ in comparative and degree constructions alike.
 		        (CONJS que)
                         (IP-SUB (ADVP *T*-1)
 			        (NP-SBJ (PRO tu))
-			        (NP-ACC (CL l'))
+			        (CL-NP-ACC (CL l'))
                                 (AJ as)
 				(VPP voulu))))))
 				
@@ -396,8 +396,8 @@ in comparative and degree constructions alike.
 	  (ADJP-PRD (ADV assez)			&larr; degree particle
 	     	    (ADJ vite)			&larr; dimension of comparison
 	            (PP (P pour)		&larr; complement of degree particle
-		        (IP-INF (NP-RFL (CL s'))
-			        (PP (CL en))
+		        (IP-INF (CL-NP-RFL (CL s'))
+			        (CL-PP (CL en))
 				(VX fuir))))))
 
 ( (IP-MAT (NP-SBJ (PRO J'))
@@ -524,7 +524,7 @@ red).
 		        (CONJS que)
                         (IP-SUB (ADVP *T*-1)
 			        (NP-SBJ (PRO tu))
-			        (NP-ACC (CL l'))
+			        (CL-NP-ACC (CL l'))
                                 (AJ as)
 				(VPP voulu))))))
 
@@ -537,7 +537,7 @@ red).
 	        (CP-CMP (WADVP-1 0)		
 		        (CONJS que)
                         (IP-SUB (NP-SBJ (PRO tu))
-			        (NP-ACC (CL l'))
+			        (CL-NP-ACC (CL l'))
                                 (AJ as)
 				(VPP voulu)
 				(CP-THT <font color="blue">que</font>
@@ -554,7 +554,7 @@ red).
 	        (CP-CMP (WADVP-1 0)
 		        (CONJS que)
                         (IP-SUB (NP-SBJ (PRO tu))
-			        (NP-ACC (CL l'))
+			        (CL-NP-ACC (CL l'))
                                 (AJ as)
 				(VPP voulu)
 				(CP-THT <font color="blue">que</font>
@@ -626,8 +626,8 @@ trace wherever possible, but the elided material is not reconstructed.
 
 
 ( (IP-MAT (NP-SBJ (PRO il))
-          (NP-RFL (CL s'))
-          (PP (CL en))
+          (CL-NP-RFL (CL s'))
+          (CL-PP (CL en))
           (VJ vient)
           (ADVP-TMP (D le) (QR plus) 
 		    (ADV toust)
@@ -1013,7 +1013,7 @@ quantifiers are treated as subjects by default.
 <blockquote>
 <pre>
 ( (IP-MAT (CONJO et)
-	  (NP-DTV (CL leur))
+	  (CL-NP-DTV (CL leur))
 	  (VJ fist)
 	  (NP-SBJ (Q chascun))
 	  (NP-ACC (ADJ bonne) (NCS ch&egrave;re))
@@ -1044,14 +1044,14 @@ of floated quantifiers with other constituents is explicitly indicated.
 <blockquote>
 <pre>
 ( (IP-MAT (NP-SBJ (PRO ils))
-          (NP-DAT (CL nous)
+          (CL-NP-DTV (CL nous)
           (VJ portent)
           (QP (Q tous))			&larr; TOUS construed with subject; no trace
           (NP-ACC (ADJ grant) (NCS prejudice))))
 
 ( (IP-MAT (NP-SBJ (PRO il))
-          (NP-DAT (CL nous)
-                  (QP *ICH*-1))
+          (CL-NP-DTV (CL nous)
+                     (QP *ICH*-1))
           (VJ porte)
           (QP-1 (DAT a) (Q toutes))	&larr; TOUS construed with non-subject; explicit trace
           (NP-ACC (ADJ grant) (NCS prejudice))))
@@ -1083,12 +1083,12 @@ evidence from free relatives in Bavarian.
 	  (NP-ADV (CP-FRL (WNP-1 (WPRO que))
 			  (CONJS qu')
 			  (IP-SUB (NP-SBJ *T*-1)
-				  (PP (CL en))
+				  (CL-PP (CL en))
 				  (VJ soit))))
 	  (PON ,)
 	  (CODE <lb$$>)
 	  (NP-SBJ (D le) (ADJ bon) (NCS homme))
-	  (PP (CL en))
+	  (CL-PP (CL en))
 	  (VJ a)
 	  (NP-ACC (NCS besoing))))
 
@@ -1110,7 +1110,7 @@ because of the <a href="syntax-main.html#que_to_qui">QUE to QUI rule</a>.
 (NP-ADT (CP-FRL (WNP-2 (WD quelque) (NCS chose))
 	        (CONJS qui)					&larr; QUE to QUI
 		(IP-SUB (NP-SBJ *T*-2)
-			(NP-DTV (CL luy))
+			(CL-NP-DTV (CL luy))
 			(EJ fust)
 			(VPP (VPP dict) (CONJO et) (VPP oppin&eacute;)))))
 </pre>
@@ -1253,8 +1253,8 @@ is generally a small clause rather than a simple NP-ACC.
   (ID 1175-FANTOSME-BFM-R,98.1049))
 
 ( (IP-PRES (ITJ as)	     	        &larr; one of several variant spellings
-           (NP-1 (CL les))
-           (NP-DTV (CL vus))	        &larr; "ethical" dative
+           (CL-NP-1 (CL les))
+           (CL-NP-DTV (CL vus))	        &larr; "ethical" dative
            (IP-SMC (NP-SBJ *ICH*-1)
                    (VPP aquisez))
 	   (PONFP .)
@@ -1689,7 +1689,7 @@ a <u>phrasal</u> (rather than a lexical) node.
 ( (CP-REL (WNP-3 (WPRO qui))
           (IP-SUB (NP-SBJ *T*-3)
 		  (QP-4 (Q tant))
-	          (NP-DTV (CL lui))
+	          (CL-NP-DTV (CL lui))
 	          (AJ a)
 		  (VPP ouffert)
 		  (NP-ACC (QP *ICH*-4)
@@ -1697,7 +1697,7 @@ a <u>phrasal</u> (rather than a lexical) node.
 		          (CP-DEG (CONJS qu')
 			          (IP-SUB (NP-SBJ (PRO elle))
 					  (NEG ne)
-					  (NP-5 (CL l'))
+					  (CL-NP-5 (CL l'))
 					  (AJ a)
 					  (MDPP peu)
 					  (IP-INF (NP-ACC *ICH*-5)
@@ -1709,7 +1709,7 @@ a <u>phrasal</u> (rather than a lexical) node.
 	  (NP-SBJ (D la)
 		  (NCS dame))
 	  (NEG ne)
-	  (NP-RFL (CL s'))
+	  (CL-NP-RFL (CL s'))
 	  (EJ est)
 	  (ADVP (ADVNEG pas))
 	  (QP-1 (Q tant))
@@ -1800,7 +1800,7 @@ comparison may be silent.
 	          (CP-DEG (CONJS que)
 			  (IP-SUB (NP-SBJ (DZ mon) (NCS cuer))
 			          (NEG ne)
-			          (NP-3 (CL se))
+			          (CL-NP-3 (CL se))
 			          (MDJ pourroit)
 				  (IP-INF (NP-RFL *ICH*-3)
 					  (VX adonner)
@@ -1833,7 +1833,7 @@ is usual.
 		  (IP-INF (ADVP (ADV bien))
 			  (VX craindre)
 			  (PP (P de)
-			      (IP-INF (NP-RFL (CL se))
+			      (IP-INF (CL-NP-RFL (CL se))
 				      (VX mectre)
 				      (PP (P a@)
 					  (NP (D @u)
@@ -1845,7 +1845,7 @@ is usual.
 		 (WNP (WPRO quoy)))
 	  (IP-SUB (PP *T*-4)
 	          (NP-SBJ (Q toutes) (NCPL entreprinses))
-	          (NP-3 (CL se))
+	          (CL-NP-3 (CL se))
 		  (MDJ doyvent)
 		  (IP-INF (NP-RFL *ICH*-3)
 			  (ADVP (ADV bien))
@@ -1864,7 +1864,7 @@ In the meaning EXCEPT, tagged as a complex P.
 <pre>
 ( (IP-MAT (NP-SBJ (NCPL Franceis)
 		  (PP *ICH*-1))
-	  (NP-RFL (CL se))
+	  (CL-NP-RFL (CL se))
 	  (VJ taisent)
 	  (PON ,)
 	  (PP-1 (P (NEG ne) (QR mais) (P que))
@@ -1979,7 +1979,7 @@ than as associates of an expletive subject.
 	      (NP-PRD (NCS mestier))
 	      (CP-THT-SPE-1 (CONJS que)
 			    (IP-SUB-SPE (NP-SBJ (PRO vous))
-					(NP-ACC (CL le))
+					(CL-NP-ACC (CL le))
 					(VJ sachez)))
 	      (PONFP .)))
 
@@ -2161,7 +2161,7 @@ the lower <i>que</i> is treated as a complementizer).
 			        (VJ congnoissoit)
 			        (CP-THT (CONJS qui)			&larr; QUE to QUI
 				        (IP-SUB (NP-SBJ *T*-1)
-					        (NP-DTV (CL luy))
+					        (CL-NP-DTV (CL luy))
 					        (VJ plaisoient)))))))
 
 
@@ -2177,7 +2177,7 @@ the lower <i>que</i> is treated as a complementizer).
 					  (VJ pensoit)
 					  (CP-THT (CONJS qui)		&larr; QUE to QUI
 						  (IP-SUB (NP-SBJ *T*-1)
-							  (NP-2 (CL luy))
+							  (CL-NP-2 (CL luy))
 							  (MDJ pourroient)
 							  (IP-INF (NP-DTV *ICH*-2)
 								  (VX ayder))))))))
