@@ -4883,7 +4883,7 @@
 
 ( (IP-MAT-SPE (ADVP (ADV Einz))
 	      (CL-NP-DTV (CL vos))
-	      (EJ avrunt)
+	      (AJ avrunt)
 	      (NP-SBJ (D li) (ADJR meillor))
 	      (VPP cumperee)
 	      (PONFP .)

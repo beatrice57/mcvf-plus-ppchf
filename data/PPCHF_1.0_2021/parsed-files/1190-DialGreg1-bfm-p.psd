@@ -8150,6 +8150,7 @@
 	  (NP-SBJ (D uns) (NCS turbeilhons))
 	  (CL-NP-RFL <bracket>s@)
 	  (EJ @ai<$$bracket>)
+	  (CODE {COM:sic_for_"est"})
 	  (VPP faiz)
 	  (PP (P de@)
 	      (NP (D @l) (NCS ciel)))

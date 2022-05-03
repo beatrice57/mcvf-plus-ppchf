@@ -25626,7 +25626,7 @@
 						(IP-SUB (PP *T*-2)
 							(NP-SBJ (PRO je))
 							(CL-NP-DTV (CL vous))
-							(EJ ai)
+							(AJ ai)
 							(VPP parlé)
 							(ADVP-TMP (ADV devant)))))))))
 	  (PONFP .))

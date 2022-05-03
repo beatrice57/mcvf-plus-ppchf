@@ -25192,6 +25192,7 @@
 ( (IP-MAT (NP-SBJ *pro*)
 	  (NEG n')
 	  (EJ aions)
+	  (CODE {TEMP:AJ_EJ_revise_parse?})
 	  (PP (P par)
 	      (NP (NCS faim)))
 	  (VPP pris)

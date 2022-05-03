@@ -57,7 +57,7 @@
 				  (ADVP (ADV altresi))
 				  (VJ fazet)))))
 	  (PONFP .))
-  (ID 0842-STRASBBFM-BFM-P,.3))
+  (ID 0842-STRASBBFM-BFM-P,10.3))
 
 ( (IP-MAT (CONJO Et)
 	  (PP (P ab)
@@ -79,7 +79,7 @@
 				(NP (NCS damno)))
 			    (VJ sit)))
 	  (PONFP .))
-  (ID 0842-STRASBBFM-BFM-P,.4))
+  (ID 0842-STRASBBFM-BFM-P,10.4))
 
 ( (CODE [...]))
 
@@ -143,4 +143,4 @@
 	  (NP-SBJ (PRO ju))
 	  (VJ er)
 	  (PONFP .))
-  (ID 0842-STRASBBFM-BFM-P,.6))
+  (ID 0842-STRASBBFM-BFM-P,30.6))

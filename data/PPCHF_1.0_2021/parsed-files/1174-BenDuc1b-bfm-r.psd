@@ -26028,7 +26028,7 @@
 	  (NP-SBJ (Q tot) (D le) (NCS munt))
 	  (CL-NP-DTV (CL li))
 	  (AJ est)
-	  (CODE {COM:a})
+	  (CODE {COM:sic_for_"a"})
 	  (VPP failli)
 	  (PONFP .))
   (ID 1174-BENDUC1B-BFM-R,422.1629))

@@ -2286,7 +2286,7 @@
 				    (CP-THT (CONJS ke)
 					    (IP-SUB (IP-SUB (NP-SBJ (DZ ma) (NCS proiere))
 							    (CL-NP-ACC-MS (CL M'))
-							    (EJ eüst)
+							    (AJ eüst)
 							    (VPP mis)
 							    (ADVP-DIR (ADV La)
 								      (CP-REL (WADVP-2 (WPRO ou))

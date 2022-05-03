@@ -50,7 +50,7 @@
 		  (NCS apostoiles)
 		  (NP-PRN (NCS danz) (NPRS Benedeiz)))
 	  (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,30.4))
+  (ID 1120-BRENDAN-MCVF-R,1.4))
 
 ( (IP-MAT (IP-MAT-1 (NP-LFD (CP-FRL (WNP-2 (WPRO Que))
 				    (IP-SUB (NP-ACC *T*-2)
@@ -90,7 +90,7 @@
 								 (NPRS Brendan)
 								 (NP-PRN (D le) (ADJ bon) (NCS abéth))))))))))
 	  (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,30.5))
+  (ID 1120-BRENDAN-MCVF-R,1.5))
 
 ( (IP-MAT (CONJO Mais)
 	  (NP-SBJ (PRO tu@))
@@ -115,7 +115,7 @@
 										 (NP-SBJ *pro*)
 										 (VJ peot))))))))))
 	  (PONFP :))
-  (ID 1120-BRENDAN-MCVF-R,30.6))
+  (ID 1120-BRENDAN-MCVF-R,1.6))
 
 ( (IP-MAT (IP-INF=1 (NP-ACC (ADJ Itel) (NCS servant))
 		    (VX blasmer))
@@ -123,7 +123,7 @@
 	  (NEG n')
 	  (VJ esteot)
 	  (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,30.7))
+  (ID 1120-BRENDAN-MCVF-R,1.7))
 
 ( (IP-MAT (CONJO Mais)
 	  (NP-LFD (PRO cil)
@@ -144,7 +144,7 @@
 			    (CL-NP-RFL (CL se))
 			    (VJ doile)))
 	  (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,30.8))
+  (ID 1120-BRENDAN-MCVF-R,1.8))
 
 ( (IP-MAT (NP-SBJ (D Icist)
 		  (NCS seinz)
@@ -154,7 +154,7 @@
 	  (PP (P de)
 	      (NP (NCPL reis)))
 	  (PONFP ;))
-  (ID 1120-BRENDAN-MCVF-R,30.9))
+  (ID 1120-BRENDAN-MCVF-R,1.9))
 
 ( (IP-MAT (PP (P De)
 	      (NP (NCS naisance)))
@@ -163,7 +163,7 @@
 	  (PP (P d@)
 	      (NP (D @es) (NCPL Ireis)))
 	  (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,30.10))
+  (ID 1120-BRENDAN-MCVF-R,1.10))
 
 ( (IP-MAT (PP (P Pur)
 	      (NP (PRO ço)
@@ -178,7 +178,7 @@
 	  (PP (P a)
 	      (NP (ADJ noble) (NCS fin)))
 	  (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,30.11))
+  (ID 1120-BRENDAN-MCVF-R,1.11))
 
 ( (IP-MAT (ADVP (ADV Ben))
 	  (NP-SBJ *con*)
@@ -213,7 +213,7 @@
 								      (VJ savrat)))))))
 	  (PONFP .)
 	  (PON "))
-  (ID 1120-BRENDAN-MCVF-R,30.12))
+  (ID 1120-BRENDAN-MCVF-R,1.12))
 
 ( (IP-MAT (ADVP (ADV Puroc))
 	  (VJ guerpit)
@@ -222,7 +222,7 @@
 	  (PP (P pur)
 	      (NP (D iceals) (NCPL veirs)))
 	  (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,30.13))
+  (ID 1120-BRENDAN-MCVF-R,1.13))
 
 ( (IP-MAT (NP-ACC (NP (NCS Dras)
 		      (PP (P de)
@@ -364,7 +364,7 @@
 						  (PP (P pur)
 						      (NP (D les) (NCPL vifs)))))))))
 	  (PONFP ,))
-  (ID 1120-BRENDAN-MCVF-R,31.20))
+  (ID 1120-BRENDAN-MCVF-R,39.20))
 
 ( (IP-MAT (CONJO Quer)
 	  (NP-DTV (DAT a) (ADV tres@) (Q @tuz))
@@ -372,7 +372,7 @@
 	  (VJ ert)
 	  (NP-PRD (NCS amis))
 	  (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,31.21))
+  (ID 1120-BRENDAN-MCVF-R,39.21))
 
 ( (IP-MAT (CONJO Mais)
 	  (PP-1 (P de)
@@ -416,7 +416,7 @@
 								(EJ fumes)
 								(VPP deseritét)))))))
 	  (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,31.22))
+  (ID 1120-BRENDAN-MCVF-R,39.22))
 
 ( (IP-MAT (ADVP (ADV Bien))
 	  (NP-SBJ *pro*)
@@ -436,7 +436,7 @@
 						(VJ dit)
 						(NP-SBJ (ADJ veir') (NCS estorie)))))))
 	  (PONFP ,))
-  (ID 1120-BRENDAN-MCVF-R,31.23))
+  (ID 1120-BRENDAN-MCVF-R,39.23))
 
 ( (IP-MAT (CONJO Mais)
 	  (ADVP (ADV nepurtant))
@@ -451,7 +451,7 @@
 					  (IP-INF (ADVP-LOC *T*-1)
 						  (VX setheir))))))
 	  (PONFP ,))
-  (ID 1120-BRENDAN-MCVF-R,31.24))
+  (ID 1120-BRENDAN-MCVF-R,39.24))
 
 ( (IP-MAT (CONJO Mais)
 	  (PP (P par)
@@ -466,7 +466,7 @@
 			  (NP-SBJ *pro*)
 			  (VJ mist)))
 	  (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,31.25))
+  (ID 1120-BRENDAN-MCVF-R,39.25))
 
 ( (IP-MAT (NP-ACC (NPRS Deu))
 	  (NP-SBJ *pro*)
@@ -480,7 +480,7 @@
 			  (VJ mustret)
 			  (ADVP (ADV veablement))))
 	  (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,31.26))
+  (ID 1120-BRENDAN-MCVF-R,39.26))
 
 ( (IP-MAT (CP-ADV (ADV Ainz)
 		  (CONJS qu')
@@ -511,7 +511,7 @@
 							 (NP-SBJ (PRO il))
 							 (VJ recevrunt))))))
 	  (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,31.27))
+  (ID 1120-BRENDAN-MCVF-R,39.27))
 
 ( (IP-MAT (NP-1 (NP (NCS Enfern))
 		(CONJP *ICH*-2))
@@ -571,7 +571,7 @@
 		      (NP (NPRS Deu)))
 		  (VX sentir))
 	  (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,32.30))
+  (ID 1120-BRENDAN-MCVF-R,71.30))
 
 ( (IP-MAT (PP (P Od)
 	      (NP (PRO sei)))
@@ -592,14 +592,14 @@
 			    (CL-NP-2 (CL se))
 			    (VJ rent)))
 	  (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,32.31))
+  (ID 1120-BRENDAN-MCVF-R,71.31))
 
 ( (IP-MAT (NP-SPR (NPRS Barinz))
 	  (VJ out)
 	  (NP-ACC (NCS nun))
 	  (NP-SBJ (D cil) (NCS ermite))
 	  (PONFP ;))
-  (ID 1120-BRENDAN-MCVF-R,32.32))
+  (ID 1120-BRENDAN-MCVF-R,71.32))
 
 ( (IP-MAT (NCPL-1 Murs)
 	  (NP-SBJ *con*)
@@ -609,7 +609,7 @@
 		  (CONJP (CONJO e)
 			 (NP (ADJ sainte) (NCS vitte))))
 	  (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,32.33))
+  (ID 1120-BRENDAN-MCVF-R,71.33))
 
 ( (IP-MAT (NP-SBJ (D Li)
 		  (NCS fedeilz)
@@ -618,7 +618,7 @@
 	      (NP (NCS bois)))
 	  (VJ estout)
 	  (PONFP ,))
-  (ID 1120-BRENDAN-MCVF-R,32.34))
+  (ID 1120-BRENDAN-MCVF-R,71.34))
 
 ( (IP-MAT (NP-ACC (ADJP (ADJNUM Tres) (ADJNUM cenz))
 		  (NCPL moines))
@@ -627,7 +627,7 @@
 	  (NP-SBJ *con*)
 	  (VJ out)
 	  (PONFP ;))
-  (ID 1120-BRENDAN-MCVF-R,32.35))
+  (ID 1120-BRENDAN-MCVF-R,71.35))
 
 ( (IP-MAT (PP (P De)
 	      (NP (PRO lui)))
@@ -635,7 +635,7 @@
 	  (VJ prendrat)
 	  (NP-ACC (NCS conseil) (CONJO e) (NCS los))
 	  (PONFP ,))
-  (ID 1120-BRENDAN-MCVF-R,32.36))
+  (ID 1120-BRENDAN-MCVF-R,71.36))
 
 ( (IP-MAT (PP (P De)
 	      (NP (PRO lui)))
@@ -644,7 +644,7 @@
 	  (IP-INF (VX aveir)
 		  (NP-ACC (NCS ados)))
 	  (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,32.37))
+  (ID 1120-BRENDAN-MCVF-R,71.37))
 
 ( (IP-MAT (NP-SBJ (PRO Cil))
 	  (CL-NP-DTV (CL li))
@@ -672,7 +672,7 @@
 						  (IP-INF-PRP (NP-ACC *T*-2)
 							      (VX querre)))))))
 	  (PONFP :))
-  (ID 1120-BRENDAN-MCVF-R,32.38))
+  (ID 1120-BRENDAN-MCVF-R,71.38))
 
 ( (IP-MAT (NP-SBJ (PRO Ço))
 	  (VJ fud)
@@ -689,7 +689,7 @@
 								  (NP-SBJ (D cist) (NCS abes))
 								  (VJ ere)))))))))
 	  (PONFP ,))
-  (ID 1120-BRENDAN-MCVF-R,32.39))
+  (ID 1120-BRENDAN-MCVF-R,71.39))
 
 ( (IP-MAT (CONJO Mais)
 	  (PP (P de)
@@ -705,7 +705,7 @@
 				      (CONJP (CONJO e)
 					     (ADJP (QR plus) (ADJ sultif))))))
 	  (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,32.40))
+  (ID 1120-BRENDAN-MCVF-R,71.40))
 
 ( (IP-MAT (IP-MAT-1 (PP (P Par)
 			(NP (NP (DZ sun) (NCS abéth))
@@ -721,7 +721,7 @@
 			   (PP (P en)
 			       (NP (NCS vain)))))
 	  (PONFP ,))
-  (ID 1120-BRENDAN-MCVF-R,32.41))
+  (ID 1120-BRENDAN-MCVF-R,71.41))
 
 ( (IP-MAT (CONJO Quer)
 	  (ADVP-TMP (ADV puis))
@@ -740,7 +740,7 @@
 					(NP (FP sul) (D li) (NCPL piu)))))))
 	  (PONFP :)
 	  (CODE {ED_online_edition:92_has_semicolon}))
-  (ID 1120-BRENDAN-MCVF-R,32.42))
+  (ID 1120-BRENDAN-MCVF-R,71.42))
 
 ( (IP-MAT (NP-SBJ (PRO Ço))
 	  (VJ fud)
@@ -772,7 +772,7 @@
 							  (VJ gettent)
 							  (NP-SBJ (D li) (NCPL flur))))))))))
 	  (PONFP ,))
-  (ID 1120-BRENDAN-MCVF-R,32.43))
+  (ID 1120-BRENDAN-MCVF-R,71.43))
 
 ( (IP-MAT (CONJO Quer)
 	  (NP-SBJ (D cel)
@@ -808,7 +808,7 @@
 						   (NCS oïde)
 						   (PP *ICH*-5))))))
 	  (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,32.44))
+  (ID 1120-BRENDAN-MCVF-R,71.44))
 
 ( (IP-MAT (CONJO E)
 	  (ADVP-TMP (ADV puis))
@@ -828,7 +828,7 @@
 						    (NP-SBJ *pro*)
 						    (VJ dist))))))
 	  (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,32.45))
+  (ID 1120-BRENDAN-MCVF-R,71.45))
 
 ( (CODE <L_103>))
 
@@ -849,7 +849,7 @@
 	  (CL-PP (CL en))
 	  (VJ creit)
 	  (NP-SBJ (D le) (ADJZ soen) (NCS conseil)))
-  (ID 1120-BRENDAN-MCVF-R,32.47))
+  (ID 1120-BRENDAN-MCVF-R,103.47))
 
 ( (CODE <pb_n="33"$$>))
 
@@ -1205,7 +1205,7 @@
 				  (NP-PRD (ADJP (Q mult) (ADJ dulz))
 					  (NCS peres)))))
 	  (PONFP ,))
-  (ID 1120-BRENDAN-MCVF-R,34.69))
+  (ID 1120-BRENDAN-MCVF-R,145.69))
 
 ( (IP-MAT (CONJO E)
 	  (VPP-1 dist)
@@ -1225,7 +1225,7 @@
 				      (NP-ACC *ICH*-4)
 				      (VX creire))))
 	  (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,34.70))
+  (ID 1120-BRENDAN-MCVF-R,145.70))
 
 ( (IP-MAT (NP-DTV (DAT A) (DZ sun) (NCS prïur))
 	  (QP (Q tuz))
@@ -1233,7 +1233,7 @@
 	  (CL-NP-ACC (CL les))
 	  (VJ concreit)
 	  (PONFP ,))
-  (ID 1120-BRENDAN-MCVF-R,34.71))
+  (ID 1120-BRENDAN-MCVF-R,145.71))
 
 ( (IP-MAT (NP-SBJ *con*)
 	  (VJ Dist)
@@ -1247,7 +1247,7 @@
 				      (NP-ACC *ICH*-3)
 				      (VX *ICH*-2))))
 	  (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,34.72))
+  (ID 1120-BRENDAN-MCVF-R,145.72))
 
 ( (IP-MAT (NP-SBJ *con*)
 	  (VJ Cumandet)
@@ -1260,19 +1260,19 @@
 				 (ADVP (Q mult) (ADV bien))
 				 (VX servir))))
 	  (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,34.73))
+  (ID 1120-BRENDAN-MCVF-R,145.73))
 
 ( (IP-MAT (ADVP-TMP (ADV Puis))
 	  (CL-NP-ACC (CL les))
 	  (VJ baiset)
 	  (NP-SBJ (NPRS Brandan)))
-  (ID 1120-BRENDAN-MCVF-R,34.74))
+  (ID 1120-BRENDAN-MCVF-R,145.74))
 
 ( (IP-MAT (CONJO e)
 	  (NP-SBJ *con*)
 	  (VJ vait)
 	  (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,34.75))
+  (ID 1120-BRENDAN-MCVF-R,145.75))
 
 ( (IP-MAT (VJ Plurent)
 	  (NP-SBJ (ADV tres@) (Q @tuit))
@@ -1290,7 +1290,7 @@
 				(PP (P de)
 				    (NP (DZ lur) (NCPL freres))))))
 	  (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,34.76))
+  (ID 1120-BRENDAN-MCVF-R,145.76))
 
 ( (IP-MAT (VJ Vait)
 	  (CL-NP-RFL (CL s'))
@@ -1311,7 +1311,7 @@
 						  (IP-INF (ADVP-LOC *T*-1)
 							  (VX entrer))))))))
 	  (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,34.77))
+  (ID 1120-BRENDAN-MCVF-R,145.77))
 
 ( (IP-MAT (ADVP-TMP (ADV Unc))
 	  (NP-SBJ *con*)
@@ -1320,7 +1320,7 @@
 	  (PP (P vers)
 	      (NP (DZ sun) (NCS parent)))
 	  (PONFP :))
-  (ID 1120-BRENDAN-MCVF-R,34.78))
+  (ID 1120-BRENDAN-MCVF-R,145.78))
 
 ( (IP-MAT (IP-INF (PP (P En)
 		      (NP (ADJP (QR plus) (ADJ cher))
@@ -1329,7 +1329,7 @@
 	  (NP-SBJ *con*)
 	  (VJ entent)
 	  (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,34.79))
+  (ID 1120-BRENDAN-MCVF-R,145.79))
 
 ( (IP-MAT (NP-SBJ *con*)
 	  (VJ Alat)
@@ -1340,7 +1340,7 @@
 				  (NP-SBJ (NCS terre))
 				  (VJ dure))))
 	  (PONFP ;))
-  (ID 1120-BRENDAN-MCVF-R,34.80))
+  (ID 1120-BRENDAN-MCVF-R,145.80))
 
 ( (IP-MAT (PP-1 (P De@)
 		(NP (D @l) (NCS sujurner)))
@@ -1350,7 +1350,7 @@
 	  (NP-ACC (NCS cure)
 		  (PP *ICH*-1))
 	  (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,34.81))
+  (ID 1120-BRENDAN-MCVF-R,145.81))
 
 ( (IP-MAT (NP-SBJ *con*)
 	  (VJ Vint)
@@ -1366,7 +1366,7 @@
 						  (NCS Salt)
 						  (NP-COM (NPRS Brandan))))))))
 	  (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,34.82))
+  (ID 1120-BRENDAN-MCVF-R,145.82))
 
 ( (IP-MAT (NP-SBJ (PRO Icil))
 	  (CL-NP-RFL (CL s'))
@@ -1380,7 +1380,7 @@
 			(IP-SUB (ADVP *T*-1)
 				(NP-SBJ (D un) (NCS gruign)))))
 	  (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,34.83))
+  (ID 1120-BRENDAN-MCVF-R,145.83))
 
 ( (IP-MAT (CONJO E)
 	  (PP (P suz)
@@ -1396,7 +1396,7 @@
 				(VJ receit)
 				(NP-ACC (D un) (NCS gort)))))
 	  (PONFP ,))
-  (ID 1120-BRENDAN-MCVF-R,34.84))
+  (ID 1120-BRENDAN-MCVF-R,145.84))
 
 ( (IP-MAT (CONJO Mais)
 	  (ADJ-1 petiz)
@@ -1406,7 +1406,7 @@
 		    (CONJP (CONJO e)
 			   (ADJP (Q mult) (ADJ estreits))))
 	  (PONFP ;))
-  (ID 1120-BRENDAN-MCVF-R,34.85))
+  (ID 1120-BRENDAN-MCVF-R,145.85))
 
 ( (IP-MAT (PP (P De@)
 	      (NP (D @l) (NCS derube)))
@@ -1414,7 +1414,7 @@
 	  (VJ veneit)
 	  (ADVP (Q tut) (ADV dreiz))
 	  (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,34.86))
+  (ID 1120-BRENDAN-MCVF-R,145.86))
 
 ( (IP-MAT (NP-SBJ (NCS Altres))
 	  (PON ,)
@@ -1429,7 +1429,7 @@
 	  (ADVP-DIR (ADV aval))
 	  (NP-ACC (D cel) (NCS pui))
 	  (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,34.87))
+  (ID 1120-BRENDAN-MCVF-R,145.87))
 
 ( (IP-MAT (ADVP-1 (ADV Ci) (ADV aloeces))
 	  (NP-SBJ *con*)
@@ -1447,14 +1447,14 @@
 						  (NP-SBJ *arb*)
 						  (VX faire))))))
 	  (PONFP :))
-  (ID 1120-BRENDAN-MCVF-R,34.88))
+  (ID 1120-BRENDAN-MCVF-R,145.88))
 
 ( (FRAG (ADVP-LOC (Q Tut) (ADV dedenz))
 	(PP (P de)
 	    (NP (NCS fust)
 		(ADJP (ADJ sapin))))
 	(PONFP ,))
-  (ID 1120-BRENDAN-MCVF-R,34.89))
+  (ID 1120-BRENDAN-MCVF-R,145.89))
 
 ( (IP-MAT (ADVP-LOC (ADV Defors))
 	  (NP-SBJ *con*)
@@ -1464,7 +1464,7 @@
 	      (NP (NCS quir)
 		  (ADJP (ADJ bovin))))
 	  (PONFP ;))
-  (ID 1120-BRENDAN-MCVF-R,34.90))
+  (ID 1120-BRENDAN-MCVF-R,145.90))
 
 ( (IP-MAT (VX-1 Uindre)
 	  (NP-SBJ *con*)
@@ -1483,7 +1483,7 @@
 				    (CONJO e)
 				    (ADJ curante))))
 	  (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,34.91))
+  (ID 1120-BRENDAN-MCVF-R,145.91))
 
 ( (IP-MAT (NCPL-1 Ustilz)
 	  (NP-SBJ *con*)
@@ -1507,7 +1507,7 @@
 							 (PP *ICH*-6)
 							 (VX *ICH*-5)))))))
 	  (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,34.92))
+  (ID 1120-BRENDAN-MCVF-R,145.92))
 
 ( (CODE <pb_n="35"$$>))
 
@@ -1574,7 +1574,7 @@
 		 (IP-MAT=1 (NP-SBJ (PRO il))
 			   (ADVP-TMP (ADV aprés))))
 	  (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,35.100))
+  (ID 1120-BRENDAN-MCVF-R,187.100))
 
 ( (IP-PRES (ITJ Ast)
 	   (CL-NP-DTV (CL vos))
@@ -1593,7 +1593,7 @@
 					      (NP (PRO lui)))
 					  (VG tendant)))))
 	   (PONFP :))
-  (ID 1120-BRENDAN-MCVF-R,35.101))
+  (ID 1120-BRENDAN-MCVF-R,187.101))
 
 ( (IP-MAT-SPE (PON ')
 	      (PP (P De)
@@ -1601,7 +1601,7 @@
 	      (NP-SBJ *pro*)
 	      (EJ sumes)
 	      (VPP meüd))
-  (ID 1120-BRENDAN-MCVF-R,35.102))
+  (ID 1120-BRENDAN-MCVF-R,187.102))
 
 ( (IP-MAT-SPE (CONJO E)
 	      (PP (P desque)
@@ -1611,7 +1611,7 @@
 	      (AJ avum)
 	      (VPP seüd)
 	      (PONFP ;))
-  (ID 1120-BRENDAN-MCVF-R,35.103))
+  (ID 1120-BRENDAN-MCVF-R,187.103))
 
 ( (IP-IMP-SPE (VJ Lai)
 	      (IP-INF-SPE (IP-INF-SPE (NP-SBJ (Q nus))
@@ -1633,12 +1633,12 @@
 					     (VX errer))))
 	      (PONFP .)
 	      (PON '))
-  (ID 1120-BRENDAN-MCVF-R,35.104))
+  (ID 1120-BRENDAN-MCVF-R,187.104))
 
 ( (IP-MAT (NP-SBJ (PRO Il))
 	  (CL-NP-ACC (CL les))
 	  (VJ cunut))
-  (ID 1120-BRENDAN-MCVF-R,35.105))
+  (ID 1120-BRENDAN-MCVF-R,187.105))
 
 ( (IP-MAT (CONJO e)
 	  (ADVP (ADV si@))
@@ -1646,7 +1646,7 @@
 	  (CL-NP-ACC (CL @s))
 	  (VJ receit)
 	  (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,35.106))
+  (ID 1120-BRENDAN-MCVF-R,187.106))
 
 ( (IP-MAT (NP-LFD (CP-FRL (WNP-1 (WPRO Qu'))
 			  (IP-SUB (NP-SBJ *T*-1)
@@ -1657,7 +1657,7 @@
 	  (CL-NP-ACC-RSP (CL le))
 	  (VJ purveit)
 	  (PONFP :))
-  (ID 1120-BRENDAN-MCVF-R,35.107))
+  (ID 1120-BRENDAN-MCVF-R,187.107))
 
 ( (IP-MAT (NP-ACC (PRO Ço)
 		  (CP-REL (WNP-1 (WPRO que))
@@ -1671,7 +1671,7 @@
 	  (CL-NP-DTV (CL lur))
 	  (VJ celet)
 	  (PONFP ,))
-  (ID 1120-BRENDAN-MCVF-R,35.108))
+  (ID 1120-BRENDAN-MCVF-R,187.108))
 
 ( (IP-MAT (ADVP (ADV ainz))
 	  (NP-SBJ *con*)
@@ -1692,7 +1692,7 @@
 				 (PP (P od)
 				     (NP (NPRS Dathan))))))
 	  (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,35.109))
+  (ID 1120-BRENDAN-MCVF-R,187.109))
 
 ( (IP-MAT-SPE (NP-SBJ (D Li)
 		      (ADJ tierz)
@@ -1702,7 +1702,7 @@
 	      (EJ ert)
 	      (VPP temptez)
 	      (PONFP ,))
-  (ID 1120-BRENDAN-MCVF-R,35.110))
+  (ID 1120-BRENDAN-MCVF-R,187.110))
 
 ( (IP-MAT-SPE (CONJO Mais)
 	      (PP (P par)
@@ -1713,7 +1713,7 @@
 	      (VPP sustentez)
 	      (PONFP .)
 	      (PON '))
-  (ID 1120-BRENDAN-MCVF-R,35.111))
+  (ID 1120-BRENDAN-MCVF-R,187.111))
 
 ( (IP-MAT (CP-ADV-LFD (CONJS Quant)
 		      (IP-SUB (AJ out)
@@ -1728,7 +1728,7 @@
 	  (VJ drechet)
 	  (ADVP-DIR (ADV sus))
 	  (NP-ACC (Q ambes) (D les) (NCPL mains)))
-  (ID 1120-BRENDAN-MCVF-R,35.112))
+  (ID 1120-BRENDAN-MCVF-R,187.112))
 
 ( (IP-MAT (CONJO E)
 	  (NP-ACC (NPRS Deu))
@@ -1742,7 +1742,7 @@
 			  (PP (P de)
 			      (NP (NCS turment)))))
 	  (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,35.113))
+  (ID 1120-BRENDAN-MCVF-R,187.113))
 
 ( (IP-MAT (CONJO E)
 	  (ADVP-TMP (ADV puis))
@@ -1751,26 +1751,26 @@
 	  (ADVP-DIR (ADV sus))
 	  (NP-ACC (D la) (NCS destre))
 	  (PONFP ,))
-  (ID 1120-BRENDAN-MCVF-R,35.114))
+  (ID 1120-BRENDAN-MCVF-R,187.114))
 
 ( (IP-MAT (QP (Q Tuz))
 	  (CL-NP-ACC (CL les))
 	  (VJ signet)
 	  (NP-SBJ (D li) (ADJ sainz) (NCS prestre))
 	  (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,35.115))
+  (ID 1120-BRENDAN-MCVF-R,187.115))
 
 ( (IP-MAT (NP-SBJ *pro*)
 	  (VJ Drechent)
 	  (NP-ACC (D le) (NCS mast))
 	  (PONFP ,))
-  (ID 1120-BRENDAN-MCVF-R,35.116))
+  (ID 1120-BRENDAN-MCVF-R,187.116))
 
 ( (IP-MAT (NP-SBJ *con*)
 	  (VJ tendent)
 	  (NP-ACC (D le) (NCS veil))
 	  (PONFP ,))
-  (ID 1120-BRENDAN-MCVF-R,35.117))
+  (ID 1120-BRENDAN-MCVF-R,187.117))
 
 ( (IP-MAT (VJ Vunt)
 	  (CL-NP-RFL (CL s'))
@@ -1783,7 +1783,7 @@
 		  (NP-COM (NPRS Deu))
 		  (NCPL fetheil))
 	  (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,35.118))
+  (ID 1120-BRENDAN-MCVF-R,187.118))
 
 ( (IP-MAT (NP-SBJ (D Le)
 		  (NCS orrez)
@@ -1800,7 +1800,7 @@
 			    (PP (P vers)
 				(NP (NCS occident)))))
 	  (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,35.119))
+  (ID 1120-BRENDAN-MCVF-R,187.119))
 
 ( (IP-MAT (QP-1 (Q Tutes))
 	  (NP-SBJ *con*)
@@ -1815,7 +1815,7 @@
 				 (PP (P d@)
 				     (NP (D @es) (NCPL nües)))))))
 	  (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,35.120))
+  (ID 1120-BRENDAN-MCVF-R,187.120))
 
 ( (IP-MAT (PP (P Pur)
 	      (NP (D le) (ADJ bon) (NCS vent)))
@@ -1825,7 +1825,7 @@
 	  (CL-PP (CL en))
 	  (VJ feignent)
 	  (PONFP ,))
-  (ID 1120-BRENDAN-MCVF-R,35.121))
+  (ID 1120-BRENDAN-MCVF-R,187.121))
 
 ( (IP-MAT (CONJO Mais)
 	  (PP (P de)
@@ -1835,7 +1835,7 @@
 	  (CL-NP-RFL (CL se))
 	  (VJ peinent)
 	  (PONFP ;))
-  (ID 1120-BRENDAN-MCVF-R,35.122))
+  (ID 1120-BRENDAN-MCVF-R,187.122))
 
 ( (IP-MAT (CONJO E)
 	  (NP-SBJ *con*)
@@ -1885,7 +1885,7 @@
 				  (EJ ere)
 				  (VPP *ICH*-2)))))
 	  (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,36.126))
+  (ID 1120-BRENDAN-MCVF-R,221.126))
 
 ( (IP-MAT (NP-SBJ (D Li)
 		  (NCS abes)
@@ -1901,7 +1901,7 @@
 			    (NEG ne)
 			    (VJ cesset)))
 	  (PONFP :))
-  (ID 1120-BRENDAN-MCVF-R,36.127))
+  (ID 1120-BRENDAN-MCVF-R,221.127))
 
 ( (IP-IMP-SPE (PON ')
 	      (VJ Metez)
@@ -1910,7 +1910,7 @@
 		  (NP (NP-COM (NPRS Deu))
 		      (NCS maneie)))
 	      (PONFP ,))
-  (ID 1120-BRENDAN-MCVF-R,36.128))
+  (ID 1120-BRENDAN-MCVF-R,221.128))
 
 ( (IP-MAT-SPE (CONJO E)
 	      (NP-SBJ=1 *proimp*)
@@ -1923,7 +1923,7 @@
 					    (CL-NP-RFL (CL s'))
 					    (VJ esmaie))))
 	      (PONFP !))
-  (ID 1120-BRENDAN-MCVF-R,36.129))
+  (ID 1120-BRENDAN-MCVF-R,221.129))
 
 ( (IP-IMP-SPE (CP-ADV-SPE (CONJS Quant)
 			  (IP-SUB-SPE (NP-SBJ *pro*)
@@ -1933,7 +1933,7 @@
 	      (VJ siglez)
 	      (ADVP (ADV sulunc))
 	      (PONFP ;))
-  (ID 1120-BRENDAN-MCVF-R,36.130))
+  (ID 1120-BRENDAN-MCVF-R,221.130))
 
 ( (IP-IMP-SPE (CP-ADV-SPE (CONJS Cum)
 			  (IP-SUB-SPE (NP-1 (NCS venz))
@@ -1946,7 +1946,7 @@
 	      (ADVP (ADV idunc))
 	      (PONFP !)
 	      (PON '))
-  (ID 1120-BRENDAN-MCVF-R,36.131))
+  (ID 1120-BRENDAN-MCVF-R,221.131))
 
 ( (IP-MAT (PP (P A@)
 	      (NP (D @s) (NCPL aviruns)))
@@ -1955,7 +1955,7 @@
 	  (CL-NP-RFL (CL se))
 	  (VJ metent)
 	  (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,36.132))
+  (ID 1120-BRENDAN-MCVF-R,221.132))
 
 ( (IP-MAT (NP-ACC (D La)
 		  (NCS grace)
@@ -1964,7 +1964,7 @@
 	  (NP-SBJ *con*)
 	  (VJ regrettent)
 	  (PONFP ,))
-  (ID 1120-BRENDAN-MCVF-R,36.133))
+  (ID 1120-BRENDAN-MCVF-R,221.133))
 
 ( (IP-MAT (CONJO Quer)
 	  (NP-SBJ *con*)
@@ -1999,7 +1999,7 @@
 							 (NP-ACC (DZ lur) (NCS curs))
 							 (VX prendre))))))
 	  (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,36.134))
+  (ID 1120-BRENDAN-MCVF-R,221.134))
 
 ( (IP-MAT (NP-MSR (D Un)
 		  (NCS meis)
@@ -2012,7 +2012,7 @@
 	  (PP (P par)
 	      (NP (Q nul) (NCS desdeign)))
 	  (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,36.135))
+  (ID 1120-BRENDAN-MCVF-R,221.135))
 
 ( (IP-MAT (NP-MSR (Q Tant)
 		  (CP-CMP (WNP-1 0)
@@ -2028,7 +2028,7 @@
 		  (PP (P sanz)
 		      (NP (NCS defaile))))
 	  (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,36.136))
+  (ID 1120-BRENDAN-MCVF-R,221.136))
 
 ( (IP-MAT (NP-ACC (NCS Force)
 		  (CONJP *ICH*-1))
@@ -2037,7 +2037,7 @@
 	  (CONJP-1 (CONJO e)
 		   (NP (NCS vïande)))
 	  (PONFP ;))
-  (ID 1120-BRENDAN-MCVF-R,36.137))
+  (ID 1120-BRENDAN-MCVF-R,221.137))
 
 ( (IP-MAT (ADVP (ADV Puroc))
 	  (NP-SBJ *con*)
@@ -2045,7 +2045,7 @@
 	  (NP-ACC (NCS poür)
 		  (ADJP (ADJ grande)))
 	  (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,36.138))
+  (ID 1120-BRENDAN-MCVF-R,221.138))
 
 ( (IP-MAT (CP-ADV (CONJS Cum)
 		  (IP-SUB (CL-NP-DTV (CL lur))
@@ -2058,7 +2058,7 @@
 	  (VJ est)
 	  (ADJP-PRD (ADJ luinz))
 	  (PONFP :))
-  (ID 1120-BRENDAN-MCVF-R,36.139))
+  (ID 1120-BRENDAN-MCVF-R,221.139))
 
 ( (IP-MAT (ADVP (ADV Puroc))
 	  (NEG ne)
@@ -2066,7 +2066,7 @@
 	  (NP-SBJ (NCS hoem))
 	  (IP-INF (VX mescreire))
 	  (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,36.140))
+  (ID 1120-BRENDAN-MCVF-R,221.140))
 
 ( (IP-MAT (CP-ADV (CONJS Si)
 		  (IP-SUB (NP-SBJ (PRO cil))
@@ -2088,7 +2088,7 @@
 				  (IP-INF (NP-ACC *T*-2)
 					  (VX *ICH*-3)))))
 	  (PONFP ;))
-  (ID 1120-BRENDAN-MCVF-R,36.141))
+  (ID 1120-BRENDAN-MCVF-R,221.141))
 
 ( (IP-MAT (NP-SBJ (NPRS Deus))
 	  (CL-NP-DTV (CL li))
@@ -2099,7 +2099,7 @@
 				  (CL-NP-DTV (CL lui))
 				  (VJ estout))))
 	  (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,36.142))
+  (ID 1120-BRENDAN-MCVF-R,221.142))
 
 ( (IP-MAT (NCS-1 Terre)
 	  (NP-SBJ *pro*)
@@ -2110,7 +2110,7 @@
 			(CODE {ED_online_edition:247_has_et})
 			(ADJ halte)))
 	  (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,36.143))
+  (ID 1120-BRENDAN-MCVF-R,221.143))
 
 ( (IP-MAT (NP-SBJ (D Li) (NCS venz))
 	  (CL-NP-DTV (CL lur))
@@ -2118,7 +2118,7 @@
 	  (PP (P sanz)
 	      (NP (NCS defalte)))
 	  (PONFP :))
-  (ID 1120-BRENDAN-MCVF-R,36.144))
+  (ID 1120-BRENDAN-MCVF-R,221.144))
 
 ( (IP-MAT (NP-SBJ (CP-FRL (WNP-1 (WPRO Qui))
 			  (IP-SUB (NP-SBJ *T*-1)
@@ -2132,7 +2132,7 @@
 	  (EJ sunt)
 	  (VPP menét)
 	  (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,36.145))
+  (ID 1120-BRENDAN-MCVF-R,221.145))
 
 ( (IP-MAT (CONJO Mais)
 	  (NP-SBJ *con*)
@@ -2149,7 +2149,7 @@
 				  (EJ fust)
 				  (VPP eschipede))))
 	  (PONFP ,))
-  (ID 1120-BRENDAN-MCVF-R,36.146))
+  (ID 1120-BRENDAN-MCVF-R,221.146))
 
 ( (IP-MAT (CONJO Quer)
 	  (PP (P de)
@@ -2166,7 +2166,7 @@
 				    (IP-INF (ADVP-DIR *T*-1)
 					    (VX *ICH*-2)))))
 	  (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,36.147))
+  (ID 1120-BRENDAN-MCVF-R,221.147))
 
 ( (IP-MAT (ADJP-PRD (ADJ Halt))
 	  (VJ sunt)
@@ -2220,13 +2220,13 @@
 	  (NP-SBJ *con*)
 	  (VJ mistrent)
 	  (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,37.152))
+  (ID 1120-BRENDAN-MCVF-R,259.152))
 
 ( (IP-MAT (NP-ACC (D Un) (NCS port))
 	  (NP-SBJ *con*)
 	  (VJ truvent)
 	  (PONFP ,))
-  (ID 1120-BRENDAN-MCVF-R,37.153))
+  (ID 1120-BRENDAN-MCVF-R,259.153))
 
 ( (IP-MAT (ADVP-DIR (ADV la)
 		    (CP-REL *ICH*-1))
@@ -2244,7 +2244,7 @@
 				    (NCS liois)
 				    (ADJP (ADJ bis))))))
 	  (PONFP ,))
-  (ID 1120-BRENDAN-MCVF-R,37.154))
+  (ID 1120-BRENDAN-MCVF-R,259.154))
 
 ( (IP-MAT (CONJO Mais)
 	  (NP-SBJ *con*)
@@ -2256,7 +2256,7 @@
 		      (PP (P de)
 			  (NP (D une) (NCS nef)))))
 	  (PONFP ;))
-  (ID 1120-BRENDAN-MCVF-R,37.155))
+  (ID 1120-BRENDAN-MCVF-R,259.155))
 
 ( (IP-MAT (NP-SBJ (PRO Cil))
 	  (EJ fud)
@@ -2266,20 +2266,20 @@
 		  (NCS rocheit)
 		  (ADJP (ADJ blef))))
 	  (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,37.156))
+  (ID 1120-BRENDAN-MCVF-R,259.156))
 
 ( (IP-MAT (NP-SBJ *pro*)
 	  (VJ Ferment)
 	  (NP-ACC (D la) (NCS nef))
 	  (PONFP ,))
-  (ID 1120-BRENDAN-MCVF-R,37.157))
+  (ID 1120-BRENDAN-MCVF-R,259.157))
 
 ( (IP-MAT (VJ eisent)
 	  (CL-NP-RFL (CL s'))
 	  (CL-PP (CL en))
 	  (NP-SBJ (Q tuit))
 	  (PONFP ,))
-  (ID 1120-BRENDAN-MCVF-R,37.158))
+  (ID 1120-BRENDAN-MCVF-R,259.158))
 
 ( (IP-MAT (NP-SBJ *con*)
 	  (VJ Vunt)
@@ -2291,7 +2291,7 @@
 				  (CL-NP-ACC (CL les))
 				  (VJ duit))))
 	  (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,37.159))
+  (ID 1120-BRENDAN-MCVF-R,259.159))
 
 ( (IP-MAT (ADVP (ADV Dreit))
 	  (NP-SBJ *pro*)
@@ -2320,7 +2320,7 @@
 								 (ADJP (Q mult) (ADJ riche))
 								 (NCS feu)))))))))
 	  (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,37.160))
+  (ID 1120-BRENDAN-MCVF-R,259.160))
 
 ( (IP-MAT (NP-SBJ *pro*)
 	  (VJ Entrerent)
@@ -2337,7 +2337,7 @@
 				      (NP (NCS cristal)
 					  (ADJP (ADJ dur))))))))
 	  (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,37.161))
+  (ID 1120-BRENDAN-MCVF-R,259.161))
 
 ( (IP-MAT (NP-ACC (NCS Paleiz)
 		  (PP *ICH*-1))
@@ -2347,7 +2347,7 @@
 		(P a)
 		(NP (NCS marbre)))
 	  (PONFP ,))
-  (ID 1120-BRENDAN-MCVF-R,37.162))
+  (ID 1120-BRENDAN-MCVF-R,259.162))
 
 ( (IP-MAT (NP-SBJ=1 *proimp*)
 	  (NEG N')
@@ -2358,7 +2358,7 @@
 			(PP (P de)
 			    (NP (NCS arbre)))))
 	  (PONFP ;))
-  (ID 1120-BRENDAN-MCVF-R,37.163))
+  (ID 1120-BRENDAN-MCVF-R,259.163))
 
 ( (IP-MAT (NP-SBJ (NCPL Gemmes)
 		  (PP (P od)
@@ -2372,7 +2372,7 @@
 			    (EJ sunt)
 			    (VPP entailét)))
 	  (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,37.164))
+  (ID 1120-BRENDAN-MCVF-R,259.164))
 
 ( (IP-MAT (CONJO Mais)
 	  (NP-SBJ (D une)
@@ -2391,14 +2391,14 @@
 				(CL-PP (CL i))
 				(VJ out)))
 	  (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,37.165))
+  (ID 1120-BRENDAN-MCVF-R,259.165))
 
 ( (IP-MAT (ADVP-TMP (ADV Dunc))
 	  (NP-SBJ *pro*)
 	  (VJ esgardent)
 	  (NP-ACC (D l') (ADJ alçur) (NCS palais))
 	  (PONFP ,))
-  (ID 1120-BRENDAN-MCVF-R,37.166))
+  (ID 1120-BRENDAN-MCVF-R,259.166))
 
 ( (IP-MAT (NP-SBJ *con*)
 	  (VJ Entrent)
@@ -2410,7 +2410,7 @@
 		  (PP (P de)
 		      (NP (NCS pais)))))
 	  (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,37.167))
+  (ID 1120-BRENDAN-MCVF-R,259.167))
 
 ( (IP-MAT (PP (ADV Enz)
 	      (P en)
@@ -2418,7 +2418,7 @@
 	  (NP-SBJ (NPRS Brandan))
 	  (CL-NP-RFL (CL se))
 	  (VJ mist))
-  (ID 1120-BRENDAN-MCVF-R,37.168))
+  (ID 1120-BRENDAN-MCVF-R,259.168))
 
 ( (IP-MAT (CONJO E)
 	  (PP (P sur)
@@ -2428,7 +2428,7 @@
 	  (CL-NP-RFL (CL s'))
 	  (VJ asist)
 	  (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,37.169))
+  (ID 1120-BRENDAN-MCVF-R,259.169))
 
 ( (IP-MAT (NP-ACC (PP (P Fors)
 		      (NP (FP sul) (D les) (ADJZ soens)))
@@ -2438,14 +2438,14 @@
 	  (CL-PP (CL i))
 	  (VJ vit)
 	  (PONFP ;))
-  (ID 1120-BRENDAN-MCVF-R,37.170))
+  (ID 1120-BRENDAN-MCVF-R,259.170))
 
 ( (IP-MAT (NP-SBJ *con*)
 	  (VJ Prent)
 	  (PP (P a)
 	      (IP-INF (VX parler)))
 	  (PONFP ,))
-  (ID 1120-BRENDAN-MCVF-R,37.171))
+  (ID 1120-BRENDAN-MCVF-R,259.171))
 
 ( (IP-MAT (ADVP (ADV si))
 	  (NP-SBJ *con*)
@@ -2453,7 +2453,7 @@
 	  (AJ ad)
 	  (VPP dist)
 	  (PONFP :))
-  (ID 1120-BRENDAN-MCVF-R,37.172))
+  (ID 1120-BRENDAN-MCVF-R,259.172))
 
 ( (IP-IMP-SPE (PON ')
 	      (VJ Alez)
@@ -2473,11 +2473,11 @@
 										    (NP-PRD (NCS mesters)))))))
 	      (PONFP .)
 	      (PON '))
-  (ID 1120-BRENDAN-MCVF-R,37.173))
+  (ID 1120-BRENDAN-MCVF-R,259.173))
 
 ( (IP-MAT (VJ Alerent)
 	  (NP-SBJ (PRO cil)))
-  (ID 1120-BRENDAN-MCVF-R,37.174))
+  (ID 1120-BRENDAN-MCVF-R,259.174))
 
 ( (IP-MAT (CONJO e)
 	  (NP-SBJ *con*)
@@ -2490,7 +2490,7 @@
 				  (NP-SBJ *pro*)
 				  (VJ desirerent))))
 	  (PONFP :))
-  (ID 1120-BRENDAN-MCVF-R,37.175))
+  (ID 1120-BRENDAN-MCVF-R,259.175))
 
 ( (IP-MAT (NP-SBJ (PRO Ço))
 	  (VJ fud)
@@ -2519,7 +2519,7 @@
 						       (CONJO e)
 						       (ADJ (ADJ bele))))))))
 	  (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,37.176))
+  (ID 1120-BRENDAN-MCVF-R,259.176))
 
 ( (CODE <pb_n="38"$$>))
 
@@ -2542,7 +2542,7 @@
 				    (EJ sunt)
 				    (VPP entrét))))
 	  (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,38.179))
+  (ID 1120-BRENDAN-MCVF-R,293.179))
 
 ( (IP-MAT (NP-SBJ (D Le) (NCS abes))
 	  (CL-NP-DTV (CL lur))
@@ -2553,7 +2553,7 @@
 		      (CL-NP-DTV (CL nus))
 		      (ADVP-DIR (ADV ent)))
 	  (PONFP !))
-  (ID 1120-BRENDAN-MCVF-R,38.180))
+  (ID 1120-BRENDAN-MCVF-R,293.180))
 
 ( (IP-IMP-SPE (NEG N')
 	      (CL-PP (CL en))
@@ -2565,7 +2565,7 @@
 			      (CL-NP-DTV (CL vus))
 			      (VJ defent))
 	      (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,38.181))
+  (ID 1120-BRENDAN-MCVF-R,293.181))
 
 ( (IP-IMP-SPE (CONJO E)
 	      (VJ prïez)
@@ -2583,7 +2583,7 @@
 	      (CODE {ED_online_edition:298_has_fei})
 	      (PONFP .)
 	      (PON '))
-  (ID 1120-BRENDAN-MCVF-R,38.182))
+  (ID 1120-BRENDAN-MCVF-R,293.182))
 
 ( (IP-MAT (PP (P Pur)
 	      (NP (PRO ço)))
@@ -2592,7 +2592,7 @@
 	  (NP-SBJ (D li) (NCS abes))
 	  (IP-INF (NP-ACC *ICH*-1)
 		  (VX guarnir)))
-  (ID 1120-BRENDAN-MCVF-R,38.183))
+  (ID 1120-BRENDAN-MCVF-R,293.183))
 
 ( (IP-MAT (CONJO Quer)
 	  (ADVP (ADV bien))
@@ -2604,13 +2604,13 @@
 				  (PP (P a)
 				      (IP-INF (VX venir))))))
 	  (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,38.184))
+  (ID 1120-BRENDAN-MCVF-R,293.184))
 
 ( (IP-MAT (NP-SBJ (PRO Cil))
 	  (VJ aportent)
 	  (NP-ACC (Q asez) (NCS cunrei))
 	  (PONFP ,))
-  (ID 1120-BRENDAN-MCVF-R,38.185))
+  (ID 1120-BRENDAN-MCVF-R,293.185))
 
 ( (IP-MAT (CONJO E)
 	  (NP-SBJ *con*)
@@ -2621,7 +2621,7 @@
 	  (PP (P a)
 	      (NP (Q nul) (NCS desrei)))
 	  (PONFP ;))
-  (ID 1120-BRENDAN-MCVF-R,38.186))
+  (ID 1120-BRENDAN-MCVF-R,293.186))
 
 ( (IP-MAT (QP-1 (Q Tant))
 	  (NP-SBJ *con*)
@@ -2644,7 +2644,7 @@
 						 (CL-PP (CL en))
 						 (VJ estout))))))
 	  (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,38.187))
+  (ID 1120-BRENDAN-MCVF-R,293.187))
 
 ( (IP-MAT (PP (P De)
 	      (IP-INF (NP-ACC (NPRS Deu))
@@ -2654,7 +2654,7 @@
 	  (CL-NP-RFL (CL se))
 	  (VJ ublïent)
 	  (PONFP ,))
-  (ID 1120-BRENDAN-MCVF-R,38.188))
+  (ID 1120-BRENDAN-MCVF-R,293.188))
 
 ( (IP-MAT (CONJO Mais)
 	  (NP-XXX (DZ sa) (NCS merci))
@@ -2663,7 +2663,7 @@
 	  (X la)
 	  (VJ crïent)
 	  (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,38.189))
+  (ID 1120-BRENDAN-MCVF-R,293.189))
 
 ( (IP-MAT (PP-1 (P De@)
 		(NP (D @l) (NCS herberger)))
@@ -2672,7 +2672,7 @@
 	  (IP-INF (PP *ICH*-1)
 		  (VX oser))
 	  (PONFP ;))
-  (ID 1120-BRENDAN-MCVF-R,38.190))
+  (ID 1120-BRENDAN-MCVF-R,293.190))
 
 ( (IP-MAT (CP-ADV (CONJS Quant)
 		  (IP-SUB (NP-SBJ-1 *proimp*)
@@ -2683,7 +2683,7 @@
 	  (VJ vunt)
 	  (IP-INF-PRP (VX reposer))
 	  (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,38.191))
+  (ID 1120-BRENDAN-MCVF-R,293.191))
 
 ( (IP-PRES (CP-ADV (CONJS Cum)
 		   (IP-SUB (VPP-1 endormit)
@@ -2699,7 +2699,7 @@
 				   (NP-ACC (D l') (NCS un))
 				   (VJ seduit))))
 	   (PONFP :))
-  (ID 1120-BRENDAN-MCVF-R,38.192))
+  (ID 1120-BRENDAN-MCVF-R,293.192))
 
 ( (IP-MAT (NP-SBJ *con*)
 	  (VJ Mist)
@@ -2719,11 +2719,11 @@
 							  (ADVP-LOC (ADV la))
 							  (VPP ensemblét))))))))
 	  (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,38.193))
+  (ID 1120-BRENDAN-MCVF-R,293.193))
 
 ( (IP-MAT (NP-SBJ (D L') (NCS abes))
 	  (VJ veilout))
-  (ID 1120-BRENDAN-MCVF-R,38.194))
+  (ID 1120-BRENDAN-MCVF-R,293.194))
 
 ( (IP-MAT (CONJO e)
 	  (ADVP (ADV bien))
@@ -2743,7 +2743,7 @@
 						 (PP (P de)
 						     (NP (NCS or))))))))
 	  (PONFP ;))
-  (ID 1120-BRENDAN-MCVF-R,38.195))
+  (ID 1120-BRENDAN-MCVF-R,293.195))
 
 ( (IP-MAT (NP-1 (ADJP (QR Plus) (ADJ riche)))
 	  (NP-SBJ=1 *proimp*)
@@ -2753,13 +2753,13 @@
 	  (PP (P en)
 	      (NP (D un) (NCS tresor)))
 	  (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,38.196))
+  (ID 1120-BRENDAN-MCVF-R,293.196))
 
 ( (IP-MAT (NP-SBJ (PRO Cil))
 	  (VJ levet)
 	  (ADVP-DIR (ADV sus))
 	  (PONFP ,))
-  (ID 1120-BRENDAN-MCVF-R,38.197))
+  (ID 1120-BRENDAN-MCVF-R,293.197))
 
 ( (IP-MAT (VX-1 prendre)
 	  (NP-SBJ *con*)
@@ -2768,7 +2768,7 @@
 	  (IP-INF-PRP (NP-ACC *ICH*-2)
 		      (VX *ICH*-1))
 	  (PONFP ,))
-  (ID 1120-BRENDAN-MCVF-R,38.198))
+  (ID 1120-BRENDAN-MCVF-R,293.198))
 
 ( (IP-MAT (CONJO E)
 	  (PP (P en)
@@ -2778,7 +2778,7 @@
 	  (CL-NP-ACC (CL l'))
 	  (VJ enmalat)
 	  (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,38.199))
+  (ID 1120-BRENDAN-MCVF-R,293.199))
 
 ( (IP-MAT (CONJO E)
 	  (CP-ADV (ADV puis)
@@ -2794,7 +2794,7 @@
 		      (PP (P en)
 			  (NP (DZ sun) (NCS reclin))))
 	  (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,38.200))
+  (ID 1120-BRENDAN-MCVF-R,293.200))
 
 ( (IP-MAT (NP-ACC (Q Tut)
 		  (CP-THT-PRN *ICH*-2))
@@ -2810,7 +2810,7 @@
 				    (NP (NCS nuit)))
 				(VJ errout)))
 	  (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,38.201))
+  (ID 1120-BRENDAN-MCVF-R,293.201))
 
 ( (IP-MAT (PP (P Pur)
 	      (NP (NCPL tenebres)))
@@ -2818,7 +2818,7 @@
 	  (NEG ne)
 	  (VJ remaneit)
 	  (PONFP :))
-  (ID 1120-BRENDAN-MCVF-R,38.202))
+  (ID 1120-BRENDAN-MCVF-R,293.202))
 
 ( (IP-MAT (PP (P Sanz)
 	      (NP (NCS candeile)))
@@ -2827,7 +2827,7 @@
 	  (CL-NP-ACC (CL le))
 	  (VJ vetheit)
 	  (PONFP ,))
-  (ID 1120-BRENDAN-MCVF-R,38.203))
+  (ID 1120-BRENDAN-MCVF-R,293.203))
 
 ( (IP-MAT (CONJO Quar)
 	  (CP-ADV (CONJS quant)
@@ -2847,7 +2847,7 @@
 	  (IP-INF-3 (NP-ACC (NCS cirge))
 		    (VX alumer))
 	  (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,38.204))
+  (ID 1120-BRENDAN-MCVF-R,293.204))
 
 ( (IP-MAT (NP-MSR (ADJNUM Treis)
 		  (NCPL jurs)
@@ -2855,7 +2855,7 @@
 	  (NP-SBJ *pro*)
 	  (CL-PP (CL i))
 	  (VJ sujurnerent))
-  (ID 1120-BRENDAN-MCVF-R,38.205))
+  (ID 1120-BRENDAN-MCVF-R,293.205))
 
 ( (IP-MAT (CONJO E)
 	  (ADVP-TMP (ADV puis))
@@ -2866,7 +2866,7 @@
 	  (CL-PP (CL en))
 	  (VJ turnerent)
 	  (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,38.206))
+  (ID 1120-BRENDAN-MCVF-R,293.206))
 
 ( (CODE <L_329>))
 
@@ -2881,7 +2881,7 @@
 		      (CL-NP-ACC (CL vus))
 		      (VJ pri))
 	  (PONFP ,))
-  (ID 1120-BRENDAN-MCVF-R,38.208))
+  (ID 1120-BRENDAN-MCVF-R,329.208))
 
 ( (CODE <pb_n="39"$$>))
 
@@ -3116,7 +3116,7 @@
 	   (ADVP (Q mult) (ADV tost))
 	   (NP-ACC (D un) (NCS message))
 	   (PONFP :))
-  (ID 1120-BRENDAN-MCVF-R,39.229))
+  (ID 1120-BRENDAN-MCVF-R,356.229))
 
 ( (IP-MAT (NP-ACC (NP (NCS Pain))
 		  (CONJP *ICH*-1))
@@ -3125,7 +3125,7 @@
 	  (VJ portet)
 	  (CONJP-1 (CONJO e)
 		   (NP (D le) (NCS beivre))))
-  (ID 1120-BRENDAN-MCVF-R,39.230))
+  (ID 1120-BRENDAN-MCVF-R,356.230))
 
 ( (IP-MAT (CONJO E)
 	  (ADVP (ADV si@))
@@ -3135,7 +3135,7 @@
 	  (IP-INF (NP-ACC (PRO cel))
 		  (VX receivre))
 	  (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,39.231))
+  (ID 1120-BRENDAN-MCVF-R,356.231))
 
 ( (IP-MAT (ADVP-TMP (ADV Puis))
 	  (NP-SBJ *con*)
@@ -3153,7 +3153,7 @@
 						      (NP-SBJ (PRO vus))
 						      (VJ veiez)))))
 	  (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,39.232))
+  (ID 1120-BRENDAN-MCVF-R,356.232))
 
 ( (IP-IMP-SPE (NP-ADV (CP-FRL-SPE (WNP-1 (WPRO Que))
 				  (CONJS que)
@@ -3165,7 +3165,7 @@
 	      (VJ aëz)
 	      (NP-ACC (NCS poür))
 	      (PONFP :))
-  (ID 1120-BRENDAN-MCVF-R,39.233))
+  (ID 1120-BRENDAN-MCVF-R,356.233))
 
 ( (IP-MAT-SPE (NP-SBJ (NPRS Deus))
 	      (CL-NP-DTV (CL vus))
@@ -3173,7 +3173,7 @@
 	      (NP-ACC (ADJP (Q mult) (ADJ bon))
 		      (NCS oür))
 	      (PONFP ,))
-  (ID 1120-BRENDAN-MCVF-R,39.234))
+  (ID 1120-BRENDAN-MCVF-R,356.234))
 
 ( (IP-MAT-SPE (CONJO E)
 	      (NP-ACC (PRO ço)
@@ -3192,7 +3192,7 @@
 			  (NP (NPRS Deu)
 			      (NP-PRN (D le) (NCS grant))))))
 	      (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,39.235))
+  (ID 1120-BRENDAN-MCVF-R,356.235))
 
 ( (IP-IMP-SPE (CONJO E)
 	      (PP (P de)
@@ -3207,7 +3207,7 @@
 				      (CL-PP (CL en))
 				      (VJ aiez)))
 	      (PONFP :))
-  (ID 1120-BRENDAN-MCVF-R,39.236))
+  (ID 1120-BRENDAN-MCVF-R,356.236))
 
 ( (CODE <pb_n="40"$$>))
 
@@ -3273,7 +3273,7 @@
 			      (NP (NP-COM (NPRS Deu))
 				  (NCS cumant)))))
 	  (PONFP ,))
-  (ID 1120-BRENDAN-MCVF-R,40.243))
+  (ID 1120-BRENDAN-MCVF-R,371.243))
 
 ( (IP-MAT (CONJO E)
 	  (NP-SBJ *con*)
@@ -3290,7 +3290,7 @@
 				  (AJ unt)
 				  (VPP voüt)))))
 	  (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,40.244))
+  (ID 1120-BRENDAN-MCVF-R,371.244))
 
 ( (IP-MAT (CONJO E)
 	  (ADVP (ADV bien))
@@ -3301,7 +3301,7 @@
 			  (CL-NP-ACC (CL les))
 			  (VJ paist)))
 	  (PONFP :))
-  (ID 1120-BRENDAN-MCVF-R,40.245))
+  (ID 1120-BRENDAN-MCVF-R,371.245))
 
 ( (IP-MAT (PP (P De)
 	      (IP-INF (VX loër)
@@ -3311,14 +3311,14 @@
 	  (CL-NP-RFL (CL se))
 	  (VJ taist)
 	  (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,40.246))
+  (ID 1120-BRENDAN-MCVF-R,371.246))
 
 ( (IP-MAT (NP-SBJ *pro*)
 	  (VJ Siglent)
 	  (PP (P a@)
 	      (NP (D @l) (NCS vent)))
 	  (PONFP ,))
-  (ID 1120-BRENDAN-MCVF-R,40.247))
+  (ID 1120-BRENDAN-MCVF-R,371.247))
 
 ( (IP-MAT (NP-SBJ *con*)
 	  (VJ vunt)
@@ -3326,7 +3326,7 @@
 	  (CL-PP (CL en))
 	  (ADVP-TMP (ADV adés))
 	  (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,40.248))
+  (ID 1120-BRENDAN-MCVF-R,371.248))
 
 ( (IP-MAT (NP-SBJ (D Li)
 		  (NCS cunduz)
@@ -3337,7 +3337,7 @@
 	  (ADVP-LOC (QP *ICH*-1)
 		    (ADV pres))
 	  (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,40.249))
+  (ID 1120-BRENDAN-MCVF-R,371.249))
 
 ( (IP-MAT (NP-SBJ *pro*)
 	  (VJ Curent)
@@ -3347,7 +3347,7 @@
 		  (NCS part)
 		  (PP (P de)
 		      (NP (D l') (NCS an)))))
-  (ID 1120-BRENDAN-MCVF-R,40.250))
+  (ID 1120-BRENDAN-MCVF-R,371.250))
 
 ( (IP-MAT (CONJO E)
 	  (ADVP (ADV merveilles))
@@ -3355,7 +3355,7 @@
 	  (VJ trestrent)
 	  (NP-ACC (NCS ahan))
 	  (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,40.251))
+  (ID 1120-BRENDAN-MCVF-R,371.251))
 
 ( (IP-MAT (NP-ACC (NCS Terre))
 	  (NP-SBJ *con*)
@@ -3372,14 +3372,14 @@
 			  (IP-INF (NP-DTV *ICH*-1)
 				  (VX pareir))))
 	  (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,40.252))
+  (ID 1120-BRENDAN-MCVF-R,371.252))
 
 ( (IP-MAT (NP-SBJ *con*)
 	  (VJ Drechent)
 	  (NP-ACC (DZ lur) (NCS nef))
 	  (NP-DIR (D icele) (NCS part))
 	  (PONFP ,))
-  (ID 1120-BRENDAN-MCVF-R,40.253))
+  (ID 1120-BRENDAN-MCVF-R,371.253))
 
 ( (IP-MAT (CONJO E)
 	  (NP-SBJ=1 *proimp*)
@@ -3394,31 +3394,31 @@
 				(CL-NP-RFL (CL se))
 				(VJ tart))))
 	  (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,40.254))
+  (ID 1120-BRENDAN-MCVF-R,371.254))
 
 ( (IP-MAT (NP-SBJ *pro*)
 	  (VJ Lascent)
 	  (NP-ACC (NCPL cordes))
 	  (PONFP ,))
-  (ID 1120-BRENDAN-MCVF-R,40.255))
+  (ID 1120-BRENDAN-MCVF-R,371.255))
 
 ( (IP-MAT (NP-SBJ *con*)
 	  (VJ metent)
 	  (NP-ACC (NCS veil))
 	  (ADVP-DIR (ADV jus))
 	  (PONFP ;))
-  (ID 1120-BRENDAN-MCVF-R,40.256))
+  (ID 1120-BRENDAN-MCVF-R,371.256))
 
 ( (IP-MAT (NP-SBJ *con*)
 	  (VJ Ariverent))
-  (ID 1120-BRENDAN-MCVF-R,40.257))
+  (ID 1120-BRENDAN-MCVF-R,371.257))
 
 ( (IP-MAT (CONJO e)
 	  (NP-SBJ *con*)
 	  (VJ sailent)
 	  (ADVP-DIR (ADV sus))
 	  (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,40.258))
+  (ID 1120-BRENDAN-MCVF-R,371.258))
 
 ( (IP-MAT (NP-SBJ *con*)
 	  (VJ Veient)
@@ -3429,7 +3429,7 @@
 	  (FRAG (NP-DTV (DAT A) (Q chescune))
 		(NP (ADJ blanche) (NCS tuisun)))
 	  (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,40.259))
+  (ID 1120-BRENDAN-MCVF-R,371.259))
 
 ( (IP-MAT (NP-SBJ (Q Tutes))
 	  (VJ erent)
@@ -3443,7 +3443,7 @@
 				    (PP (P par)
 					(NP (D ces) (NCPL landes))))))
 	  (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,40.260))
+  (ID 1120-BRENDAN-MCVF-R,371.260))
 
 ( (IP-MAT (VJ Dist)
 	  (CL-NP-DTV (CL lur))
@@ -3461,7 +3461,7 @@
 		      (PP (P devant)
 			  (NP (ADJNUM terz) (NCPL di))))
 	  (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,40.261))
+  (ID 1120-BRENDAN-MCVF-R,371.261))
 
 ( (IP-MAT-SPE (NCS-1 Jusdi)
 	      (NP-SBJ *proimp*)
@@ -3478,7 +3478,7 @@
 				      (VJ suffrit)
 				      (NP-ACC (NCS peine))))
 	      (PONFP ;))
-  (ID 1120-BRENDAN-MCVF-R,40.262))
+  (ID 1120-BRENDAN-MCVF-R,371.262))
 
 ( (IP-MAT-SPE (NP-SBJ (PRO Il))
 	      (CL-NP-DTV (CL nus))
@@ -3498,7 +3498,7 @@
 											  (NP-ACC (D la) (NCS feste))
 											  (VX faire))))))))
 	      (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,40.263))
+  (ID 1120-BRENDAN-MCVF-R,371.263))
 
 ( (IP-IMP-SPE (VJ Pensez)
 	      (PP (P de)
@@ -3506,14 +3506,14 @@
 			      (ADVP-DIR (ADV sus))
 			      (VX traire)))
 	      (PONFP !))
-  (ID 1120-BRENDAN-MCVF-R,40.264))
+  (ID 1120-BRENDAN-MCVF-R,371.264))
 
 ( (IP-IMP-SPE (NP-ACC (PP (P De)
 			  (NP (D icez) (NCPL berbiz)))
 		      (NCS une))
 	      (VJ pernez)
 	      (PONFP ,))
-  (ID 1120-BRENDAN-MCVF-R,40.265))
+  (ID 1120-BRENDAN-MCVF-R,371.265))
 
 ( (IP-IMP-SPE (PP (P A@)
 		  (NP (D @l)
@@ -3522,7 +3522,7 @@
 	      (CL-NP-ACC (CL la))
 	      (VJ cunrëez)
 	      (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,40.266))
+  (ID 1120-BRENDAN-MCVF-R,371.266))
 
 ( (IP-IMP-SPE (NP-DTV (DAT A) (NPRS Deu))
 	      (NP-ACC (NCS cungét))
@@ -3541,7 +3541,7 @@
 				      (VJ truvum)))
 	      (PONFP .)
 	      (PON '))
-  (ID 1120-BRENDAN-MCVF-R,40.267))
+  (ID 1120-BRENDAN-MCVF-R,371.267))
 
 ( (CODE <pb_n="41"$$>))
 
@@ -3557,7 +3557,7 @@
 	  (NP-SBJ *pro*)
 	  (AJ unt)
 	  (PONFP ,))
-  (ID 1120-BRENDAN-MCVF-R,41.270))
+  (ID 1120-BRENDAN-MCVF-R,403.270))
 
 ( (IP-MAT (CONJO E)
 	  (PP (P par)
@@ -3566,7 +3566,7 @@
 	  (NP-SBJ *con*)
 	  (VJ estunt)
 	  (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,41.271))
+  (ID 1120-BRENDAN-MCVF-R,403.271))
 
 ( (IP-MAT (PP (P A@)
 	      (NP (D @l) (NCS samadi)))
@@ -3574,7 +3574,7 @@
 	  (VJ vient)
 	  (NP-SBJ (D uns) (NCS mes))
 	  (PONFP ,))
-  (ID 1120-BRENDAN-MCVF-R,41.272))
+  (ID 1120-BRENDAN-MCVF-R,403.272))
 
 ( (IP-MAT (PP (P De)
 	      (NP (D la)
@@ -3584,7 +3584,7 @@
 	  (VJ salüet)
 	  (CL-NP-ACC (CL les))
 	  (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,41.273))
+  (ID 1120-BRENDAN-MCVF-R,403.273))
 
 ( (IP-MAT (NCPL-1 Peil)
 	  (NP-SBJ *con*)
@@ -3595,7 +3595,7 @@
 		  (CONJP (NP-ACC (NCPL oilz)
 				 (ADJP (ADJ juvenilz)))))
 	  (PONFP :))
-  (ID 1120-BRENDAN-MCVF-R,41.274))
+  (ID 1120-BRENDAN-MCVF-R,403.274))
 
 ( (IP-MAT (NP-MSR (Q Mult))
 	  (NP-SBJ *con*)
@@ -3604,7 +3604,7 @@
 	  (PP (P sanz)
 	      (NP (Q tuz) (NCPL perilz)))
 	  (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,41.275))
+  (ID 1120-BRENDAN-MCVF-R,403.275))
 
 ( (IP-MAT (NCS-1 Pain)
 	  (NP-SBJ *con*)
@@ -3619,7 +3619,7 @@
 			       (ADJP (Q mult) (ADJ blanz)))))
 	  (NP-XXX (ADJ guasteus) (NCPL alis))
 	  (PONFP ;))
-  (ID 1120-BRENDAN-MCVF-R,41.276))
+  (ID 1120-BRENDAN-MCVF-R,403.276))
 
 ( (IP-MAT (CONJO E)
 	  (CP-ADV (CONJS si)
@@ -3637,7 +3637,7 @@
 		      (VJ promet)
 		      (ADVP (ADV bien)))
 	  (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,41.277))
+  (ID 1120-BRENDAN-MCVF-R,403.277))
 
 ( (IP-MAT (NP-ACC (D L')
 		  (NCS estre)
@@ -3646,7 +3646,7 @@
 	  (NP-SBJ (D l') (NCS abes))
 	  (VJ anquist)
 	  (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,41.278))
+  (ID 1120-BRENDAN-MCVF-R,403.278))
 
 ( (IP-MAT (NP-SBJ *pro*)
 	  (NEG Ne)
@@ -3655,7 +3655,7 @@
 		      (IP-SUB (NP-SBJ *pro*)
 			      (VJ osat)))
 	  (PONFP ,))
-  (ID 1120-BRENDAN-MCVF-R,41.279))
+  (ID 1120-BRENDAN-MCVF-R,403.279))
 
 ( (IP-MAT (CONJO mais)
 	  (NP-ACC (Q poi))
@@ -3664,7 +3664,7 @@
 	  (CL-PP (CL en))
 	  (VJ dist)
 	  (PONFP ;))
-  (ID 1120-BRENDAN-MCVF-R,41.280))
+  (ID 1120-BRENDAN-MCVF-R,403.280))
 
 ( (IP-MAT (NP-ACC (PRO Ço))
 	  (NP-SBJ *con*)
@@ -3684,7 +3684,7 @@
 						      (VJ savum)))))
 	  (PONFP .)
 	  (PON '))
-  (ID 1120-BRENDAN-MCVF-R,41.281))
+  (ID 1120-BRENDAN-MCVF-R,403.281))
 
 ( (IP-MAT (CONJO E)
 	  (VJ dist)
@@ -3696,7 +3696,7 @@
 		      (VJ ad)
 		      (ADVP-LOC (ADV ci)))
 	  (PONFP ,))
-  (ID 1120-BRENDAN-MCVF-R,41.282))
+  (ID 1120-BRENDAN-MCVF-R,403.282))
 
 ( (IP-MAT-SPE (ADVP-TMP (ADV Unc))
 	      (PP (P en)
@@ -3707,7 +3707,7 @@
 	      (VJ vi)
 	      (PONFP .)
 	      (PON '))
-  (ID 1120-BRENDAN-MCVF-R,41.283))
+  (ID 1120-BRENDAN-MCVF-R,403.283))
 
 ( (IP-MAT (VJ Respunt)
 	  (CL-NP-DTV (CL lui))
@@ -3719,7 +3719,7 @@
 		      (VJ est)
 		      (NP-PRD (NCS merveille)))
 	  (PONFP :))
-  (ID 1120-BRENDAN-MCVF-R,41.284))
+  (ID 1120-BRENDAN-MCVF-R,403.284))
 
 ( (IP-MAT-SPE (ADVP (ADV Ja))
 	      (ADVP-LOC (ADV ci))
@@ -3728,7 +3728,7 @@
 	      (VPP traite)
 	      (NP-SBJ (NCS öeile))
 	      (PONFP ;))
-  (ID 1120-BRENDAN-MCVF-R,41.285))
+  (ID 1120-BRENDAN-MCVF-R,403.285))
 
 ( (IP-MAT-SPE (NP-SBJ (D L') (NCS ivers))
 	      (NEG n')
@@ -3736,7 +3736,7 @@
 	      (VJ fait)
 	      (NP-ACC (NCS raëncune))
 	      (PONFP ,))
-  (ID 1120-BRENDAN-MCVF-R,41.286))
+  (ID 1120-BRENDAN-MCVF-R,403.286))
 
 ( (IP-MAT-SPE (CONJO Ne)
 	      (PP (P d')
@@ -3746,7 +3746,7 @@
 	      (VJ mort)
 	      (NP-SBJ (NCS une))
 	      (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,41.287))
+  (ID 1120-BRENDAN-MCVF-R,403.287))
 
 ( (IP-IMP-SPE (PP (P A)
 		  (NP (D cel)
@@ -3763,17 +3763,17 @@
 	      (PON ,)
 	      (NP-VOC (NPRS Brandan))
 	      (PONFP ,))
-  (ID 1120-BRENDAN-MCVF-R,41.288))
+  (ID 1120-BRENDAN-MCVF-R,403.288))
 
 ( (IP-IMP-SPE (CONJO e) (VJ va) (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,41.289))
+  (ID 1120-BRENDAN-MCVF-R,403.289))
 
 ( (IP-MAT-SPE (PP (P En)
 		  (NP (D cel) (NCS isle)))
 	      (ADVP-TMP (ADV anuit))
 	      (NP-SBJ *pro*)
 	      (VJ entras))
-  (ID 1120-BRENDAN-MCVF-R,41.290))
+  (ID 1120-BRENDAN-MCVF-R,403.290))
 
 ( (IP-MAT-SPE (CONJO E)
 	      (NP-ACC (DZ ta) (NCS feste))
@@ -3782,7 +3782,7 @@
 	      (CL-PP (CL i))
 	      (VJ fras)
 	      (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,41.291))
+  (ID 1120-BRENDAN-MCVF-R,403.291))
 
 ( (IP-MAT-SPE (ADVP-TMP (ADV Demain)
 			(PP (P enz)
@@ -3792,7 +3792,7 @@
 	      (CL-PP (CL en))
 	      (VJ turnerez)
 	      (PONFP ;))
-  (ID 1120-BRENDAN-MCVF-R,41.292))
+  (ID 1120-BRENDAN-MCVF-R,403.292))
 
 ( (IP-MAT-SPE (CP-QUE-SUB-LFD-SPE (WADVP-1 (WADV Pur=quei))
 				  (IP-SUB-SPE (ADVP *T*-1)
@@ -3803,7 +3803,7 @@
 	      (CL-NP-ACC-RSP (CL le))
 	      (VJ verrez)
 	      (PONFP !))
-  (ID 1120-BRENDAN-MCVF-R,41.293))
+  (ID 1120-BRENDAN-MCVF-R,403.293))
 
 ( (IP-MAT-SPE-1 (ADVP-TMP (ADV Puis))
 		(NP-SBJ *con*)
@@ -3819,7 +3819,7 @@
 			    (PP-2 (P de)
 				  (NP (D cest) (NCS costil))))
 		(PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,41.294))
+  (ID 1120-BRENDAN-MCVF-R,403.294))
 
 ( (IP-MAT-SPE (CONJO E)
 	      (ADVP-TMP (ADV puis))
@@ -3833,7 +3833,7 @@
 					      (NP-SBJ (PRO jo))
 					      (CL-PP (CL en))
 					      (VJ vois))))))
-  (ID 1120-BRENDAN-MCVF-R,41.295))
+  (ID 1120-BRENDAN-MCVF-R,403.295))
 
 ( (IP-MAT-SPE (CONJO e)
 	      (ADVP-DIR (ADV la))
@@ -3841,7 +3841,7 @@
 	      (CL-NP-ACC (CL vus))
 	      (VJ siu)
 	      (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,41.296))
+  (ID 1120-BRENDAN-MCVF-R,403.296))
 
 ( (IP-MAT-SPE (ADVP-LFD (Q Mult)
 			(ADV pres)
@@ -3853,7 +3853,7 @@
 	      (CL-NP-ACC (CL vus))
 	      (VJ truverai)
 	      (PONFP ;))
-  (ID 1120-BRENDAN-MCVF-R,41.297))
+  (ID 1120-BRENDAN-MCVF-R,403.297))
 
 ( (IP-MAT-SPE (NP-ACC (Q Asez) (NCS cunrei))
 	      (NP-SBJ *con*)
@@ -3861,19 +3861,19 @@
 	      (VJ porterai)
 	      (PONFP .)
 	      (PON '))
-  (ID 1120-BRENDAN-MCVF-R,41.298))
+  (ID 1120-BRENDAN-MCVF-R,403.298))
 
 ( (IP-MAT (VJ Siglet)
 	  (NP-SBJ (NPRS Brandan))
 	  (PONFP ,))
-  (ID 1120-BRENDAN-MCVF-R,41.299))
+  (ID 1120-BRENDAN-MCVF-R,403.299))
 
 ( (IP-MAT (NP-SBJ *con*)
 	  (NEG ne@)
 	  (CL-NP-ACC (CL @l))
 	  (VJ cuntredit)
 	  (PONFP ;))
-  (ID 1120-BRENDAN-MCVF-R,41.300))
+  (ID 1120-BRENDAN-MCVF-R,403.300))
 
 ( (IP-MAT (NP-SBJ *con*)
 	  (VJ Vait)
@@ -3887,14 +3887,14 @@
 				  (ADVP (ADV bien))
 				  (VJ vit)))))
 	  (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,41.301))
+  (ID 1120-BRENDAN-MCVF-R,403.301))
 
 ( (IP-MAT (NP-ACC (NCS Vent))
 	  (NP-SBJ *con*)
 	  (VJ out)
 	  (PP (P par)
 	      (NP (NPRS Deu))))
-  (ID 1120-BRENDAN-MCVF-R,41.302))
+  (ID 1120-BRENDAN-MCVF-R,403.302))
 
 ( (IP-MAT (CONJO e)
 	  (ADVP-TMP (ADV tost))
@@ -3902,7 +3902,7 @@
 	  (CL-PP (CL i))
 	  (VJ fud)
 	  (PONFP ,))
-  (ID 1120-BRENDAN-MCVF-R,41.303))
+  (ID 1120-BRENDAN-MCVF-R,403.303))
 
 ( (IP-MAT (CONJO Mais)
 	  (NP-ACC (ADJP (ADV bien) (ADJ grant))
@@ -3912,7 +3912,7 @@
 	  (CODE {ED_online_edition:438_has_eut})
 	  (VPP trescurud)
 	  (PONFP ;))
-  (ID 1120-BRENDAN-MCVF-R,41.304))
+  (ID 1120-BRENDAN-MCVF-R,403.304))
 
 ( (IP-MAT (ADVP (ADV Eissi))
 	  (VJ vait)
@@ -3922,7 +3922,7 @@
 				  (VJ maine))))
 	  (CODE {ED_online_edition:439_has_meine})
 	  (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,41.305))
+  (ID 1120-BRENDAN-MCVF-R,403.305))
 
 ( (IP-MAT-1 (NP-ACC (NCS Terre))
 	    (NP-SBJ *pro*)
@@ -3931,7 +3931,7 @@
 			  (PP (P sanz)
 			      (NP (NCS peine))))
 	    (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,41.306))
+  (ID 1120-BRENDAN-MCVF-R,403.306))
 
 ( (CODE <pb_n="42"$$>))
 
@@ -3953,7 +3953,7 @@
 					  (ADVP-LOC (ADV enz))
 					  (VJ ere))))))
 	  (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,42.309))
+  (ID 1120-BRENDAN-MCVF-R,441.309))
 
 ( (IP-MAT (NP-ACC (ADJP (ADJP (ADJ Beal))
 			(CODE {ED_online_edition:443_has_Beat})
@@ -3967,7 +3967,7 @@
 		  (CONJP (CONJO e)
 			 (NP (D le) (NCS matin))))
 	  (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,42.310))
+  (ID 1120-BRENDAN-MCVF-R,441.310))
 
 ( (IP-MAT (CP-ADV (ADV Puis)
 		  (CONJS que)
@@ -4001,7 +4001,7 @@
 	  (X la)
 	  (VJ pristrent)
 	  (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,42.311))
+  (ID 1120-BRENDAN-MCVF-R,441.311))
 
 ( (IP-MAT (NP-1 (DF De) (DF la) (NCS busche))
 	  (NP-SBJ *con*)
@@ -4009,7 +4009,7 @@
 	  (VJ vunt)
 	  (IP-INF-PRP (NP-ACC *ICH*-1)
 		      (VX quere)))
-  (ID 1120-BRENDAN-MCVF-R,42.312))
+  (ID 1120-BRENDAN-MCVF-R,441.312))
 
 ( (IP-MAT (ADVP-TMP (ADV Dunt))
 	  (NP-ACC (D le) (NCS manger))
@@ -4018,7 +4018,7 @@
 	  (PP (P a)
 	      (NP (NCS terre)))
 	  (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,42.313))
+  (ID 1120-BRENDAN-MCVF-R,441.313))
 
 ( (IP-MAT (CP-ADV (CONJS Cum)
 		  (IP-SUB (NP-SBJ (D li) (NCS mangers))
@@ -4033,7 +4033,7 @@
 		      (VJ asëez))
 	  (PONFP !)
 	  (PON '))
-  (ID 1120-BRENDAN-MCVF-R,42.314))
+  (ID 1120-BRENDAN-MCVF-R,441.314))
 
 ( (IP-MAT (ADVP-TMP (ADV Dunc))
 	  (NP-SBJ *pro*)
@@ -4051,13 +4051,13 @@
 		      (VJ atent))
 	  (PONFP !)
 	  (PON '))
-  (ID 1120-BRENDAN-MCVF-R,42.315))
+  (ID 1120-BRENDAN-MCVF-R,441.315))
 
 ( (IP-MAT (CONJO Quar)
 	  (NP-SBJ (D la) (NCS terre))
 	  (QP (Q tute))
 	  (VJ muveit))
-  (ID 1120-BRENDAN-MCVF-R,42.316))
+  (ID 1120-BRENDAN-MCVF-R,441.316))
 
 ( (IP-MAT (CONJO E)
 	  (PP (P de)
@@ -4067,7 +4067,7 @@
 	  (CL-NP-RFL (CL se))
 	  (VJ luigneit)
 	  (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,42.317))
+  (ID 1120-BRENDAN-MCVF-R,441.317))
 
 ( (IP-MAT (VJ Dist)
 	  (NP-SBJ (D li) (NCS abes))
@@ -4077,20 +4077,20 @@
 		      (CL-NP-RFL (CL vus))
 		      (VJ tamez))
 	  (PONFP ,))
-  (ID 1120-BRENDAN-MCVF-R,42.318))
+  (ID 1120-BRENDAN-MCVF-R,441.318))
 
 ( (IP-IMP-SPE (CONJO Mais)
 	      (NP-ACC (NPRS Damnedeu))
 	      (NP-MSR (Q mult))
 	      (VJ reclamez)
 	      (PONFP !))
-  (ID 1120-BRENDAN-MCVF-R,42.319))
+  (ID 1120-BRENDAN-MCVF-R,441.319))
 
 ( (IP-IMP-SPE (CONJO E)
 	      (VJ pernez)
 	      (NP-ACC (Q tut) (DZ nostre) (NCS cunrei))
 	      (PONFP ,))
-  (ID 1120-BRENDAN-MCVF-R,42.320))
+  (ID 1120-BRENDAN-MCVF-R,441.320))
 
 ( (IP-IMP-SPE (PP (ADV Enz)
 		  (P en)
@@ -4100,7 +4100,7 @@
 		  (NP (PRO mei)))
 	      (PONFP !)
 	      (PON '))
-  (ID 1120-BRENDAN-MCVF-R,42.321))
+  (ID 1120-BRENDAN-MCVF-R,441.321))
 
 ( (IP-MAT (NP-SBJ *pro*)
 	  (VJ Jetet)
@@ -4110,7 +4110,7 @@
 			 (NP (ADJP (ADV bien) (ADJ luncs))
 			     (NCPL raps))))
 	  (PONFP ;))
-  (ID 1120-BRENDAN-MCVF-R,42.322))
+  (ID 1120-BRENDAN-MCVF-R,441.322))
 
 ( (IP-MAT (PP (P Parmi)
 	      (NP (Q tut) (PRO ço)))
@@ -4118,7 +4118,7 @@
 	  (VJ muilent)
 	  (NP-ACC (DZ lur) (NCPL dras))
 	  (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,42.323))
+  (ID 1120-BRENDAN-MCVF-R,441.323))
 
 ( (IP-MAT (PARTP (PP (ADV Enz)
 		     (P en)
@@ -4127,7 +4127,7 @@
 	  (EJ sunt)
 	  (NP-SBJ (Q tuit))
 	  (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,42.324))
+  (ID 1120-BRENDAN-MCVF-R,441.324))
 
 ( (IP-MAT (CONJO Mais)
 	  (NP-SBJ (DZ lur) (NCS isle))
@@ -4136,7 +4136,7 @@
 	  (CL-PP (CL en))
 	  (VJ fuit)
 	  (PONFP ,))
-  (ID 1120-BRENDAN-MCVF-R,42.325))
+  (ID 1120-BRENDAN-MCVF-R,441.325))
 
 ( (IP-MAT (CONJO E)
 	  (PP (P de)
@@ -4155,7 +4155,7 @@
 			    (CL-PP (CL i))
 			    (VJ firent)))
 	  (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,42.326))
+  (ID 1120-BRENDAN-MCVF-R,441.326))
 
 ( (IP-MAT (NP-SBJ (NPRS Brandan))
 	  (CL-NP-DTV (CL lur))
@@ -4173,7 +4173,7 @@
 								  (NP-SBJ *pro*)
 								  (AJ avez)))))
 	  (PONFP ?))
-  (ID 1120-BRENDAN-MCVF-R,42.327))
+  (ID 1120-BRENDAN-MCVF-R,441.327))
 
 ( (IP-MAT-SPE (NP-SBJ *proimp*)
 	      (NEG N')
@@ -4181,7 +4181,7 @@
 	      (ADVP (ADVNEG pas))
 	      (NP-PRD (NCS terre))
 	      (PONFP ,))
-  (ID 1120-BRENDAN-MCVF-R,42.328))
+  (ID 1120-BRENDAN-MCVF-R,441.328))
 
 ( (IP-MAT-SPE (ADVP (ADV ainz))
 	      (NP-SBJ *proimp*)
@@ -4199,7 +4199,7 @@
 			      (PP (P sur)
 				  (NP (D les) (NCPL greinurs)))))
 	      (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,42.329))
+  (ID 1120-BRENDAN-MCVF-R,441.329))
 
 ( (IP-IMP-SPE (CONJO Ne)
 	      (VJ merveillés)
@@ -4208,7 +4208,7 @@
 	      (PON ,)
 	      (NP-VOC (NCS seignurs))
 	      (PONFP !))
-  (ID 1120-BRENDAN-MCVF-R,42.330))
+  (ID 1120-BRENDAN-MCVF-R,441.330))
 
 ( (IP-MAT-SPE (PP (P Pur)
 		  (NP (PRO ço)
@@ -4227,7 +4227,7 @@
 						    (NP-MSR (QR plus))
 						    (VX asener))))
 	      (PONFP :))
-  (ID 1120-BRENDAN-MCVF-R,42.331))
+  (ID 1120-BRENDAN-MCVF-R,441.331))
 
 ( (IP-MAT-SPE (CP-ADV-SPE (NP-1 (DZ Ses) (NCPL merveilles))
 			  (CONJS cum)
@@ -4243,7 +4243,7 @@
 	      (NP-SBJ *pro*)
 	      (VJ crerrez)
 	      (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,42.332))
+  (ID 1120-BRENDAN-MCVF-R,441.332))
 
 ( (IP-MAT (IP-SMC (NP-PRD (NCS Primes)
 			  (PP *ICH*-2))
@@ -4259,7 +4259,7 @@
 		    (ADJP (ADJ marins))))
 	  (PONFP .)
 	  (PON '))
-  (ID 1120-BRENDAN-MCVF-R,42.333))
+  (ID 1120-BRENDAN-MCVF-R,441.333))
 
 ( (CODE <pb_n="43"$$>))
 
@@ -4283,7 +4283,7 @@
 		  (ADJ grant)
 		  (NCS pan))
 	  (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,43.336))
+  (ID 1120-BRENDAN-MCVF-R,479.336))
 
 ( (IP-MAT (NP-SBJ *pro*)
 	  (VJ Veient)
@@ -4299,19 +4299,19 @@
 				(VPP dist)
 				(NP-SBJ (D cil) (NCS frere)))))
 	  (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,43.337))
+  (ID 1120-BRENDAN-MCVF-R,479.337))
 
 ( (IP-MAT (NP-SBJ *con*)
 	  (VJ Venent)
 	  (CL-PP (CL i))
 	  (ADVP (ADV tost)))
-  (ID 1120-BRENDAN-MCVF-R,43.338))
+  (ID 1120-BRENDAN-MCVF-R,479.338))
 
 ( (IP-MAT (CONJO e)
 	  (NP-SBJ *con*)
 	  (VJ arivent)
 	  (PONFP ,))
-  (ID 1120-BRENDAN-MCVF-R,43.339))
+  (ID 1120-BRENDAN-MCVF-R,479.339))
 
 ( (IP-MAT (CONJO Ne)
 	  (PP (P de)
@@ -4321,7 +4321,7 @@
 	  (CL-NP-RFL (CL s'))
 	  (VJ eschivent)
 	  (PONFP ,))
-  (ID 1120-BRENDAN-MCVF-R,43.340))
+  (ID 1120-BRENDAN-MCVF-R,479.340))
 
 ( (IP-MAT (CONJO Ne)
 	  (PP (P pur)
@@ -4330,7 +4330,7 @@
 	  (NEG ne)
 	  (VJ dutent)
 	  (PONFP ,))
-  (ID 1120-BRENDAN-MCVF-R,43.341))
+  (ID 1120-BRENDAN-MCVF-R,479.341))
 
 ( (IP-MAT (CONJO Mais)
 	  (PP (P a)
@@ -4339,7 +4339,7 @@
 	  (NP-SBJ *con*)
 	  (VJ butent)
 	  (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,43.342))
+  (ID 1120-BRENDAN-MCVF-R,479.342))
 
 ( (IP-MAT (PP (P Amunt)
 	      (NP (D un) (NCS duit)))
@@ -4348,7 +4348,7 @@
 	  (CL-PP (CL en))
 	  (VJ vunt)
 	  (ADVP (ADV süef)))
-  (ID 1120-BRENDAN-MCVF-R,43.343))
+  (ID 1120-BRENDAN-MCVF-R,479.343))
 
 ( (IP-MAT (CONJO E)
 	  (PP (P od)
@@ -4357,7 +4357,7 @@
 	  (VJ traient)
 	  (NP-ACC (DZ lur) (NCS nef))
 	  (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,43.344))
+  (ID 1120-BRENDAN-MCVF-R,479.344))
 
 ( (IP-MAT (PP (P A@)
 	      (NP (D @l)
@@ -4375,7 +4375,7 @@
 			      (IP-SUB (ADJP-PRD *T*-2)
 				      (NP-SBJ (NCS marbre))))))
 	  (PONFP ,))
-  (ID 1120-BRENDAN-MCVF-R,43.345))
+  (ID 1120-BRENDAN-MCVF-R,479.345))
 
 ( (IP-MAT (CONJO E)
 	  (NP-SBJ (D les) (NCPL fuiles))
@@ -4388,7 +4388,7 @@
 		      (NP (NCS ruge) (CONJO e) (NCS blanc)))
 		  (VPP taceledes))
 	  (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,43.346))
+  (ID 1120-BRENDAN-MCVF-R,479.346))
 
 ( (IP-MAT (PP (P De)
 	      (NP (NCS haltece)))
@@ -4399,7 +4399,7 @@
 	  (PP (P sur)
 	      (NP (D la) (NCS nue)))
 	  (PONFP ;))
-  (ID 1120-BRENDAN-MCVF-R,43.347))
+  (ID 1120-BRENDAN-MCVF-R,479.347))
 
 ( (IP-MAT (NP-MSR (PP (P Des)
 		      (NP (D le) (NCS sumét)))
@@ -4410,7 +4410,7 @@
 	  (NP-MSR (Q mult))
 	  (CL-NP-ACC (CL la))
 	  (VJ serre))
-  (ID 1120-BRENDAN-MCVF-R,43.348))
+  (ID 1120-BRENDAN-MCVF-R,479.348))
 
 ( (IP-MAT (CONJO E)
 	  (ADVP (ADV ledement))
@@ -4420,12 +4420,12 @@
 	  (PP (P par)
 	      (NP (D l') (NCS air)))
 	  (PONFP ,))
-  (ID 1120-BRENDAN-MCVF-R,43.349))
+  (ID 1120-BRENDAN-MCVF-R,479.349))
 
 ( (IP-MAT (NP-SBJ *con*)
 	  (VJ Umbraiet)
 	  (ADVP-DIR (ADV luin)))
-  (ID 1120-BRENDAN-MCVF-R,43.350))
+  (ID 1120-BRENDAN-MCVF-R,479.350))
 
 ( (IP-MAT (CONJO e)
 	  (NP-SBJ *con*)
@@ -4437,7 +4437,7 @@
 		  (PP (P de)
 		      (NP (ADJ blancs) (NCPL oiseus))))
 	  (PONFP :))
-  (ID 1120-BRENDAN-MCVF-R,43.351))
+  (ID 1120-BRENDAN-MCVF-R,479.351))
 
 ( (IP-MAT (ADVP-TMP (ADV Unches))
 	  (NP-SBJ (Q nul) (NCS hom))
@@ -4445,7 +4445,7 @@
 	  (VJ vit)
 	  (NP-ACC (Q tant) (ADJ beus))
 	  (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,43.352))
+  (ID 1120-BRENDAN-MCVF-R,479.352))
 
 ( (CODE <L_501>))
 
@@ -4453,7 +4453,7 @@
 	  (VJ prent)
 	  (PP (P a)
 	      (IP-INF (VX merveiller))))
-  (ID 1120-BRENDAN-MCVF-R,43.354))
+  (ID 1120-BRENDAN-MCVF-R,501.354))
 
 ( (IP-MAT (CONJO E)
 	  (NP-SBJ *con*)
@@ -4489,7 +4489,7 @@
 									       (EJ est)
 									       (VPP venuz)))))))))
 	  (PONFP ;))
-  (ID 1120-BRENDAN-MCVF-R,43.355))
+  (ID 1120-BRENDAN-MCVF-R,501.355))
 
 ( (IP-MAT (PP (P D')
 	      (NP (PRO iço)))
@@ -4499,7 +4499,7 @@
 	  (PP (P par)
 	      (NP (DZ ses) (NCPL vertuz)))
 	  (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,43.356))
+  (ID 1120-BRENDAN-MCVF-R,501.356))
 
 ( (IP-MAT (NP-LFD (DZ Sa) (NCS prïere))
 	  (CP-ADV (CONJS quant)
@@ -4515,7 +4515,7 @@
 	  (CL-PP (CL en))
 	  (VJ devolat)
 	  (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,43.357))
+  (ID 1120-BRENDAN-MCVF-R,501.357))
 
 ( (IP-MAT (ADVP (Q Tant)
 		(ADV dulcement)
@@ -4531,7 +4531,7 @@
 			    (VJ fait)
 			    (NP-SBJ (D li) (NCS cols))))
 	  (PONFP ;))
-  (ID 1120-BRENDAN-MCVF-R,43.358))
+  (ID 1120-BRENDAN-MCVF-R,501.358))
 
 ( (IP-MAT (CONJO E)
 	  (CP-ADV (ADV puis)
@@ -4559,7 +4559,7 @@
 		      (VJ prenges)
 		      (NP-ACC (NCS cure)))
 	  (PONFP !))
-  (ID 1120-BRENDAN-MCVF-R,43.359))
+  (ID 1120-BRENDAN-MCVF-R,501.359))
 
 ( (IP-IMP-SPE (ADVP-TMP (ADV Primes))
 	      (CL-NP-DTV (CL me))
@@ -4912,7 +4912,7 @@
 					  (NP-SBJ *pro*)
 					  (VJ devalat))))))
 	  (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,45.383))
+  (ID 1120-BRENDAN-MCVF-R,553.383))
 
 ( (IP-MAT (CP-ADV-LFD (CONJS Quant)
 		      (IP-SUB (VJ vint)
@@ -4927,7 +4927,7 @@
 	  (VJ funt)
 	  (NP-ACC (NCS cant))
 	  (PONFP ;))
-  (ID 1120-BRENDAN-MCVF-R,45.384))
+  (ID 1120-BRENDAN-MCVF-R,553.384))
 
 ( (IP-MAT (PP (P Od)
 	      (NP (ADJ dulces) (NCPL voices)))
@@ -4935,7 +4935,7 @@
 	  (ADVP (Q mult) (ADV halt))
 	  (NP-SBJ *con*)
 	  (VJ crïent))
-  (ID 1120-BRENDAN-MCVF-R,45.385))
+  (ID 1120-BRENDAN-MCVF-R,553.385))
 
 ( (IP-MAT (CONJO E)
 	  (PP (ADV enz)
@@ -4945,7 +4945,7 @@
 	  (NP-SBJ *con*)
 	  (VJ mercïent)
 	  (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,45.386))
+  (ID 1120-BRENDAN-MCVF-R,553.386))
 
 ( (IP-MAT (ADVP (ADV Or))
 	  (NP-SBJ *con*)
@@ -4962,7 +4962,7 @@
 				  (CODE {ED_online_edition:560_has_furent})
 				  (NP-SBJ (PRO cil)))))
 	  (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,45.387))
+  (ID 1120-BRENDAN-MCVF-R,553.387))
 
 ( (IP-MAT (NP-ACC (ADJ Humaine) (NCS gent))
 	  (ADVP-TMP (ADV unches) (ADV anceis))
@@ -4971,7 +4971,7 @@
 	  (VJ enveiat)
 	  (NP-SBJ (D li) (ADJ suvereins) (NCS reis))
 	  (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,45.388))
+  (ID 1120-BRENDAN-MCVF-R,553.388))
 
 ( (IP-MAT (ADVP-TMP (ADV Dunc))
 	  (VJ dist)
@@ -4988,14 +4988,14 @@
 								  (AJ unt)
 								  (VPP goïd)))))
 	  (PONFP ?))
-  (ID 1120-BRENDAN-MCVF-R,45.389))
+  (ID 1120-BRENDAN-MCVF-R,553.389))
 
 ( (IP-IMP-SPE (VJ (VJ Loëz)
 		  (CONJP *ICH*-1))
 	      (NP-ACC (NPRS Deu))
 	      (CONJP-1 (CONJO e) (VJ gracïez))
 	      (PONFP ,))
-  (ID 1120-BRENDAN-MCVF-R,45.390))
+  (ID 1120-BRENDAN-MCVF-R,553.390))
 
 ( (IP-MAT-SPE (QP-1 (QR Plus))
 	      (NP-SBJ *pro*)
@@ -5010,7 +5010,7 @@
 					      (VJ quïez))))
 	      (PONFP !)
 	      (PON '))
-  (ID 1120-BRENDAN-MCVF-R,45.391))
+  (ID 1120-BRENDAN-MCVF-R,553.391))
 
 ( (IP-MAT (NP-ACC (D La) (NCS nef))
 	  (NP-SBJ *pro*)
@@ -5018,7 +5018,7 @@
 	  (CODE {ED_online_edition:567_has_laisent})
 	  (PP (P en)
 	      (NP (D l') (NCS ewage))))
-  (ID 1120-BRENDAN-MCVF-R,45.392))
+  (ID 1120-BRENDAN-MCVF-R,553.392))
 
 ( (IP-MAT (CONJO E)
 	  (NP-SBJ *con*)
@@ -5026,7 +5026,7 @@
 	  (PP (P a@)
 	      (NP (D @l) (NCS rivage)))
 	  (PONFP ;))
-  (ID 1120-BRENDAN-MCVF-R,45.393))
+  (ID 1120-BRENDAN-MCVF-R,553.393))
 
 ( (IP-MAT (CONJO E)
 	  (ADVP-TMP (ADV puis))
@@ -5037,7 +5037,7 @@
 	      (NP (ADJP (Q mult) (ADJ grant))
 		  (NCS psalmodie)))
 	  (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,45.394))
+  (ID 1120-BRENDAN-MCVF-R,553.394))
 
 ( (IP-MAT (ADVP-TMP (ADV Puis))
 	  (PP (ADV enz)
@@ -5046,7 +5046,7 @@
 	  (NP-SBJ (Q tuit))
 	  (CL-NP-RFL (CL s'))
 	  (VJ espandent))
-  (ID 1120-BRENDAN-MCVF-R,45.395))
+  (ID 1120-BRENDAN-MCVF-R,553.395))
 
 ( (IP-MAT (CONJO E)
 	  (NP-DTV (DAT a) (NPRS Jesu))
@@ -5054,7 +5054,7 @@
 	  (CL-NP-RFL (CL se))
 	  (VJ cumandent)
 	  (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,45.396))
+  (ID 1120-BRENDAN-MCVF-R,553.396))
 
 ( (IP-MAT (NP-SBJ *con*)
 	  (VJ Dorment)
@@ -5075,7 +5075,7 @@
 									  (AJ unt)
 									  (VPP passét))))))))))
 	  (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,45.397))
+  (ID 1120-BRENDAN-MCVF-R,553.397))
 
 ( (IP-MAT (CONJO Mais)
 	  (ADVP (ADV nepurtant))
@@ -5089,7 +5089,7 @@
 	  (NP-ACC (NCPL *ICH*-1)
 		  (ADJP (ADJ ainzjurnals)))
 	  (PONFP ,))
-  (ID 1120-BRENDAN-MCVF-R,45.398))
+  (ID 1120-BRENDAN-MCVF-R,553.398))
 
 ( (IP-MAT (CONJO E)
 	  (PP (P a@)
@@ -5103,7 +5103,7 @@
 		  (PP (P de)
 		      (NP (D cez) (NCPL oisals))))
 	  (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,45.399))
+  (ID 1120-BRENDAN-MCVF-R,553.399))
 
 ( (IP-PRES (PP (P En)
 	       (NP (ADJ prime) (NCS main)))
@@ -5123,7 +5123,7 @@
 					   (VJ unt)
 					   (NP-XXX (D cest) (NCS avei))))))
 	   (PONFP ,))
-  (ID 1120-BRENDAN-MCVF-R,45.400))
+  (ID 1120-BRENDAN-MCVF-R,553.400))
 
 ( (IP-MAT (CONJO E)
 	  (PP (P par)
@@ -5132,7 +5132,7 @@
 	  (VJ unt)
 	  (NP-ACC (D le) (NCS cunrei))
 	  (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,45.401))
+  (ID 1120-BRENDAN-MCVF-R,553.401))
 
 ( (IP-MAT (CONJO E)
 	  (NP-SBJ (PRO il))
@@ -5150,7 +5150,7 @@
 			      (ADJP (ADJ grande))
 			      (PP *ICH*-1)))
 	  (PONFP ;))
-  (ID 1120-BRENDAN-MCVF-R,45.402))
+  (ID 1120-BRENDAN-MCVF-R,553.402))
 
 ( (IP-MAT-SPE-1 (NP-ACC (Q Asez))
 		(NP-SBJ *pro*)
@@ -5164,7 +5164,7 @@
 			(PP (P de)
 			    (NP (NPRS Pentecuste)))))
 		(PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,45.403))
+  (ID 1120-BRENDAN-MCVF-R,553.403))
 
 ( (IP-MAT-SPE (PP (P Puis)
 		  (NP (D les) (NCPL travalz)))
@@ -5172,7 +5172,7 @@
 	      (VJ estout)
 	      (NP-1 (NCS sujurn))
 	      (PONFP :))
-  (ID 1120-BRENDAN-MCVF-R,45.404))
+  (ID 1120-BRENDAN-MCVF-R,553.404))
 
 ( (IP-MAT-SPE (NP-MSR (ADJNUM Dous) (NCPL meis))
 	      (NP-SBJ *pro*)
@@ -5180,7 +5180,7 @@
 	      (ADVP-LOC (ADV ci) (ADV enturn))
 	      (PONFP .)
 	      (PON '))
-  (ID 1120-BRENDAN-MCVF-R,45.405))
+  (ID 1120-BRENDAN-MCVF-R,553.405))
 
 ( (CODE <L_589>))
 
@@ -5188,7 +5188,7 @@
 	  (NP-SBJ *pro*)
 	  (VJ prent)
 	  (NP-ACC (NCS cungé)))
-  (ID 1120-BRENDAN-MCVF-R,45.407))
+  (ID 1120-BRENDAN-MCVF-R,589.407))
 
 ( (IP-MAT (CONJO e)
 	  (NP-SBJ *con*)
@@ -5196,7 +5196,7 @@
 	  (CL-PP (CL en))
 	  (VJ alat)
 	  (PONFP ,))
-  (ID 1120-BRENDAN-MCVF-R,45.408))
+  (ID 1120-BRENDAN-MCVF-R,589.408))
 
 ( (CODE <pb_n="46"$$>))
 
@@ -5501,12 +5501,12 @@
 		  (NP-ACC (NPRS Deu))
 		  (VG gracïant))
 	  (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,46.433))
+  (ID 1120-BRENDAN-MCVF-R,621.433))
 
 ( (IP-MAT (VJ Crut)
 	  (CL-NP-DTV (CL lur))
 	  (NP-SBJ (D li) (NCS venz)))
-  (ID 1120-BRENDAN-MCVF-R,46.434))
+  (ID 1120-BRENDAN-MCVF-R,621.434))
 
 ( (IP-MAT (CONJO e)
 	  (ADVP-TMP (Q mult) (ADV suvent))
@@ -5517,7 +5517,7 @@
 		  (CONJP (CONJO e)
 			 (NP (ADJ grant) (NCS turment))))
 	  (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,46.435))
+  (ID 1120-BRENDAN-MCVF-R,621.435))
 
 ( (IP-MAT (PP (P Puis)
 	      (NP (ADJNUM quatre) (NCPL meis)))
@@ -5525,7 +5525,7 @@
 	  (VJ veient)
 	  (NP-ACC (NCS terre))
 	  (PONFP ,))
-  (ID 1120-BRENDAN-MCVF-R,46.436))
+  (ID 1120-BRENDAN-MCVF-R,621.436))
 
 ( (CODE <pb_n="47"$$>))
 
@@ -5888,21 +5888,21 @@
 						(EJ sunt)
 						(VPP mis)))))
 	  (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,48.468))
+  (ID 1120-BRENDAN-MCVF-R,665.468))
 
 ( (IP-MAT (CONJO Mais)
 	  (NP-SBJ (PRO cil))
 	  (CL-NP-RFL (CL se))
 	  (VJ taist)
 	  (PONFP ,))
-  (ID 1120-BRENDAN-MCVF-R,48.469))
+  (ID 1120-BRENDAN-MCVF-R,665.469))
 
 ( (IP-MAT (NP-ACC (NCS respuns))
 	  (NP-SBJ *con*)
 	  (NEG ne)
 	  (VJ fait)
 	  (PONFP ;))
-  (ID 1120-BRENDAN-MCVF-R,48.470))
+  (ID 1120-BRENDAN-MCVF-R,665.470))
 
 ( (IP-MAT (NP-SBJ *con*)
 	  (VJ Goït)
@@ -5912,7 +5912,7 @@
 	      (NP (ADJP (Q mult) (ADJ dulz))
 		  (NCS hait)))
 	  (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,48.471))
+  (ID 1120-BRENDAN-MCVF-R,665.471))
 
 ( (IP-MAT (QP-1 (Q Tant))
 	  (NP-SBJ *pro*)
@@ -5935,7 +5935,7 @@
 					  (NP-PRN (NCS Abeïe)
 						  (ADJP (ADJ bele) (CONJO e) (ADJ bone)))))))
 	  (PONFP ;))
-  (ID 1120-BRENDAN-MCVF-R,48.472))
+  (ID 1120-BRENDAN-MCVF-R,665.472))
 
 ( (IP-MAT (NP-1 (QR Plus) (ADJ sainte))
 	  (NP-SBJ=1 *proimp*)
@@ -5944,7 +5944,7 @@
 	  (PP (P suth)
 	      (NP (D le) (NCS trone)))
 	  (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,48.473))
+  (ID 1120-BRENDAN-MCVF-R,665.473))
 
 ( (IP-MAT (NP-SBJ (D Le)
 		  (NCS abes)
@@ -5987,7 +5987,7 @@
 									 (ADVP-LOC (ADV enz))
 									 (VPP encassét)))))))))))
 	  (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,48.474))
+  (ID 1120-BRENDAN-MCVF-R,665.474))
 
 ( (IP-MAT (NP-SBJ (D Li) (NCPL vestiment))
 	  (VJ sunt)
@@ -5995,7 +5995,7 @@
 	  (PP (P a)
 	      (NP (NCS or)))
 	  (PONFP ;))
-  (ID 1120-BRENDAN-MCVF-R,48.475))
+  (ID 1120-BRENDAN-MCVF-R,665.475))
 
 ( (IP-MAT (PP (P En)
 	      (NP (NPRS Arabie)))
@@ -6004,7 +6004,7 @@
 	  (VJ at)
 	  (NP-1 (ADJP (ADV si) (ADJ sor)))
 	  (PONFP ;))
-  (ID 1120-BRENDAN-MCVF-R,48.476))
+  (ID 1120-BRENDAN-MCVF-R,665.476))
 
 ( (IP-MAT (PP (PP (P Od)
 		  (NP (NCPL jagunces)
@@ -6025,13 +6025,13 @@
 	  (VJ sunt)
 	  (NP-SBJ (D les) (NCPL haspes))
 	  (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,48.477))
+  (ID 1120-BRENDAN-MCVF-R,665.477))
 
 ( (IP-MAT (NP-SBJ (Q Tuit) (D li) (NCPL moine))
 	  (EJ sunt)
 	  (VPP revestud)
 	  (PONFP ,))
-  (ID 1120-BRENDAN-MCVF-R,48.478))
+  (ID 1120-BRENDAN-MCVF-R,665.478))
 
 ( (IP-MAT (PP (P Od)
 	      (NP (DZ lur) (NCS abét)))
@@ -6040,7 +6040,7 @@
 	  (ADVP-DIR (ADV fors))
 	  (VPP eisud)
 	  (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,48.479))
+  (ID 1120-BRENDAN-MCVF-R,665.479))
 
 ( (IP-MAT (PP (P Od)
 	      (NP (NP (ADJ grant) (NCS goie))
@@ -6050,7 +6050,7 @@
 	  (VJ funt)
 	  (NP-SBJ (D li) (NCPL seignur))
 	  (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,48.480))
+  (ID 1120-BRENDAN-MCVF-R,665.480))
 
 ( (IP-MAT (CONJO E)
 	  (CP-ADV (CONJS quant)
@@ -6066,7 +6066,7 @@
 	      (NP (D la) (NCS main)))
 	  (VJ duit)
 	  (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,48.481))
+  (ID 1120-BRENDAN-MCVF-R,665.481))
 
 ( (IP-MAT (NP-SBJ *pro*)
 	  (VJ Meinent)
@@ -6078,7 +6078,7 @@
 		  (CONJP (CONJO e)
 			 (NP (DZ sa) (NCS cumpainie))))
 	  (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,48.482))
+  (ID 1120-BRENDAN-MCVF-R,665.482))
 
 ( (IP-MAT (NCS-1 Servise)
 	  (NP-SBJ *con*)
@@ -6086,7 +6086,7 @@
 	  (NP-ACC (NCS *ICH*-1)
 		  (ADJP (ADJ bel) (CONJO e) (ADJ leger)))
 	  (PONFP ;))
-  (ID 1120-BRENDAN-MCVF-R,48.483))
+  (ID 1120-BRENDAN-MCVF-R,665.483))
 
 ( (IP-MAT (NP-SBJ *con*)
 	  (NEG Ne@)
@@ -6096,7 +6096,7 @@
 		  (NP-MSR (Q trop))
 		  (VX agreger))
 	  (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,48.484))
+  (ID 1120-BRENDAN-MCVF-R,665.484))
 
 ( (IP-MAT (ADVP-TMP (ADV Puis))
 	  (NP-SBJ *con*)
@@ -6113,7 +6113,7 @@
 						    (CODE {ED_online_edition:698_has_for})
 						    (NP (D li) (NCS litur))))))))
 	  (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,48.485))
+  (ID 1120-BRENDAN-MCVF-R,665.485))
 
 ( (IP-MAT (PP (P Devant)
 	      (NP (PRO eals)))
@@ -6125,7 +6125,7 @@
 			(CONJP (CONJO e)
 			       (ADJP (ADV forment) (ADJ sain)))))
 	  (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,48.486))
+  (ID 1120-BRENDAN-MCVF-R,665.486))
 
 ( (IP-MAT (NP-ACC (NCPL Racines)
 		  (CP-REL *ICH*-1))
@@ -6227,7 +6227,7 @@
 	  (CL-NP-ACC (CL les))
 	  (VJ meinet)
 	  (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,49.494))
+  (ID 1120-BRENDAN-MCVF-R,711.494))
 
 ( (IP-MAT (PP (PP (P D')
 		  (NP (PRO els)))
@@ -6262,7 +6262,7 @@
 						 (NP-SBJ *pro*)
 						 (VJ unt)))))
 	  (PONFP :))
-  (ID 1120-BRENDAN-MCVF-R,49.495))
+  (ID 1120-BRENDAN-MCVF-R,711.495))
 
 ( (IP-MAT-SPE (PON ')
 	      (NP-SBJ (PRO Nus))
@@ -6270,7 +6270,7 @@
 	      (ADVP-LOC (ADV ci))
 	      (NP-PRD (NUM vint) (CONJO e) (NUM .iiii.))
 	      (PONFP ;))
-  (ID 1120-BRENDAN-MCVF-R,49.496))
+  (ID 1120-BRENDAN-MCVF-R,711.496))
 
 ( (IP-MAT-SPE (ADVP-LOC (ADV Ci))
 	      (NP-SBJ *con*)
@@ -6278,7 +6278,7 @@
 	      (PP (P en)
 		  (NP (D cest) (NCS atre)))
 	      (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,49.497))
+  (ID 1120-BRENDAN-MCVF-R,711.497))
 
 ( (IP-MAT-SPE (NP-1 (ADJNUM Uitante) (NCPL anz))
 	      (NP-SBJ=1 *proimp*)
@@ -6293,7 +6293,7 @@
 					      (NPRS Albeu)
 					      (NP-PRN (D li) (NCS pelerin)))))
 	      (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,49.498))
+  (ID 1120-BRENDAN-MCVF-R,711.498))
 
 ( (IP-MAT-SPE (NP-PRD (ADJ Riches)
 		      (NCS hom)
@@ -6304,7 +6304,7 @@
 		    (NP (ADJP (Q mult) (ADJ grant))
 			(NCS fiu)))
 	      (PONFP ,))
-  (ID 1120-BRENDAN-MCVF-R,49.499))
+  (ID 1120-BRENDAN-MCVF-R,711.499))
 
 ( (IP-MAT-SPE (CONJO Mais)
 	      (NP-ACC (Q tut))
@@ -6313,7 +6313,7 @@
 	      (PP (P pur)
 		  (NP (D cest) (NCS leu)))
 	      (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,49.500))
+  (ID 1120-BRENDAN-MCVF-R,711.500))
 
 ( (IP-MAT-SPE (CP-ADV-SPE (CONJS Quant)
 			  (IP-SUB-SPE (NP-SBJ *pro*)
@@ -6330,7 +6330,7 @@
 					      (CL-NP-ACC (CL l'))
 					      (VJ amenat))))
 	      (PONFP ;))
-  (ID 1120-BRENDAN-MCVF-R,49.501))
+  (ID 1120-BRENDAN-MCVF-R,711.501))
 
 ( (IP-MAT-SPE (NP-SBJ *pro*)
 	      (VJ trovat)
@@ -6345,7 +6345,7 @@
 						      (CL-PP (CL i))
 						      (VJ est)))))
 	      (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,49.502))
+  (ID 1120-BRENDAN-MCVF-R,711.502))
 
 ( (IP-MAT-SPE (CP-ADV-SPE (CONJS Quant)
 			  (IP-SUB-SPE (NP-SBJ *pro*)
@@ -6372,7 +6372,7 @@
 					      (NP-MSR (Q mult))
 					      (VJ amames)))))
 	      (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,49.503))
+  (ID 1120-BRENDAN-MCVF-R,711.503))
 
 ( (IP-MAT-SPE (NP-MSR (Q Tant)
 		      (CP-CMP-SPE (WNP-1 0)
@@ -6385,7 +6385,7 @@
 	      (CL-NP-DTV (CL lui))
 	      (VJ servimes)
 	      (PONFP ,))
-  (ID 1120-BRENDAN-MCVF-R,49.504))
+  (ID 1120-BRENDAN-MCVF-R,711.504))
 
 ( (IP-MAT-SPE (CP-ADV-SPE (WADVP-1 0)
 			  (CONJS Cume)
@@ -6395,7 +6395,7 @@
 	      (NP-SBJ *con*)
 	      (VJ obeïmes)
 	      (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,49.505))
+  (ID 1120-BRENDAN-MCVF-R,711.505))
 
 ( (CODE <L_733>))
 
@@ -6421,7 +6421,7 @@
 			    (NP (PRO sei)))
 			(ADV pres))
 	      (PONFP ;))
-  (ID 1120-BRENDAN-MCVF-R,49.507))
+  (ID 1120-BRENDAN-MCVF-R,733.507))
 
 ( (IP-MAT-SPE (NP-1 (ADJNUM Uitante) (NCPL anz))
 	      (NP-SBJ=1 *proimp*)
@@ -6432,7 +6432,7 @@
 				      (VJ prist)
 				      (NP-ACC (NCS decés))))
 	      (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,49.508))
+  (ID 1120-BRENDAN-MCVF-R,733.508))
 
 ( (IP-MAT-SPE (NP-SBJ (NPRS Deus))
 	      (CL-NP-ACC-MP (CL nus))
@@ -6828,7 +6828,7 @@
 	  (NP-ACC (D le) (NCS cungé))
 	  (VJ prist)
 	  (PONFP ;))
-  (ID 1120-BRENDAN-MCVF-R,51.536))
+  (ID 1120-BRENDAN-MCVF-R,779.536))
 
 ( (IP-MAT (NP-SBJ (D Li) (ADJ uns) (NCS abes))
 	  (NP-ACC (D l') (ADJ altre))
@@ -6841,14 +6841,14 @@
 			  (NCPL moine)
 			  (QP (Q tuit))))
 	  (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,51.537))
+  (ID 1120-BRENDAN-MCVF-R,779.537))
 
 ( (IP-MAT (NP-SBJ *pro*)
 	  (VJ Entrent)
 	  (PP (P en)
 	      (NP (NCS mer)))
 	  (PONFP ,))
-  (ID 1120-BRENDAN-MCVF-R,51.538))
+  (ID 1120-BRENDAN-MCVF-R,779.538))
 
 ( (IP-MAT (NP-ACC (NCS vent)
 		  (CP-REL *ICH*-1))
@@ -6865,7 +6865,7 @@
 				    (NCS isle)
 				    (NP-COM (NPRS Albeu))))))
 	  (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,51.539))
+  (ID 1120-BRENDAN-MCVF-R,779.539))
 
 ( (IP-MAT (NP-SBJ *con*)
 	  (VJ Curent)
@@ -6875,7 +6875,7 @@
 	      (NP (ADJP (Q mult) (ADJ lunc))
 		  (NCS tens)))
 	  (PONFP ,))
-  (ID 1120-BRENDAN-MCVF-R,51.540))
+  (ID 1120-BRENDAN-MCVF-R,779.540))
 
 ( (IP-MAT (CONJO Mais)
 	  (PP (P de)
@@ -6884,7 +6884,7 @@
 	  (VJ unt)
 	  (NP-ACC (Q nul) (NCS asens))
 	  (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,51.541))
+  (ID 1120-BRENDAN-MCVF-R,779.541))
 
 ( (IP-MAT (NP-SBJ *con*)
 	  (VJ Failent)
@@ -6894,14 +6894,14 @@
 		     (PP (P a)
 			 (NP (NCS cunreid)))))
 	  (PONFP ;))
-  (ID 1120-BRENDAN-MCVF-R,51.542))
+  (ID 1120-BRENDAN-MCVF-R,779.542))
 
 ( (IP-MAT (VJ Crut)
 	  (NP-SBJ (NP (D l') (ADJ egre) (NCS faim))
 		  (CONJP (CONJO e)
 			 (NP (D l') (VG ardant) (NCS seid))))
 	  (PONFP ;))
-  (ID 1120-BRENDAN-MCVF-R,51.543))
+  (ID 1120-BRENDAN-MCVF-R,779.543))
 
 ( (IP-MAT (CONJO E)
 	  (NP-SBJ (D la) (NCS mer))
@@ -6915,7 +6915,7 @@
 				  (NCS curs)
 				  (ADJP (Q mult) (ADJ peinible)))))
 	  (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,51.544))
+  (ID 1120-BRENDAN-MCVF-R,779.544))
 
 ( (IP-MAT (ADJ-1 Espesse)
 	  (NP-SBJ *con*)
@@ -6926,7 +6926,7 @@
 			    (IP-SUB (ADJP-PRD *T*-2)
 				    (NP-SBJ (NCS palud)))))
 	  (PONFP ;))
-  (ID 1120-BRENDAN-MCVF-R,51.545))
+  (ID 1120-BRENDAN-MCVF-R,779.545))
 
 ( (IP-MAT (NP-1 (NCS Tel)
 		(CP-REL *ICH*-2))
@@ -6941,7 +6941,7 @@
 			    (VJ creit)
 			    (NP-ACC (NCS salud))))
 	  (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,51.546))
+  (ID 1120-BRENDAN-MCVF-R,779.546))
 
 ( (IP-MAT (NP-SBJ (NPRS Deus))
 	  (CL-NP-ACC (CL les))
@@ -6949,7 +6949,7 @@
 	  (PP (P par)
 	      (NP (NCS orage)))
 	  (PONFP :))
-  (ID 1120-BRENDAN-MCVF-R,51.547))
+  (ID 1120-BRENDAN-MCVF-R,779.547))
 
 ( (IP-MAT (NP-ACC (NP (NCS Terre))
 		  (CONJP *ICH*-1))
@@ -6958,7 +6958,7 @@
 	  (CONJP-1 (CONJO e)
 		   (NP (NCS rivage)))
 	  (PONFP ,))
-  (ID 1120-BRENDAN-MCVF-R,51.548))
+  (ID 1120-BRENDAN-MCVF-R,779.548))
 
 ( (IP-MAT (CONJO E)
 	  (ADVP (ADV bien))
@@ -6971,7 +6971,7 @@
 			  (NP-SBJ (NPRS Deus))
 			  (VPP destinét)))
 	  (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,51.549))
+  (ID 1120-BRENDAN-MCVF-R,779.549))
 
 ( (IP-MAT (NP-SBJ *con*)
 	  (VJ Trovent)
@@ -6987,7 +6987,7 @@
 						    (EJ fust)
 						    (VPP destinee))))))
 	  (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,51.550))
+  (ID 1120-BRENDAN-MCVF-R,779.550))
 
 ( (IP-MAT (IP-MAT-1 (NP-ACC (D Un)
 			    (NCS duit)
@@ -6999,7 +6999,7 @@
 		 (IP-MAT=1 (NP-ACC (NCPL pessuns))
 			   (ADVP-LOC (ADV denz))))
 	  (PONFP ,))
-  (ID 1120-BRENDAN-MCVF-R,51.551))
+  (ID 1120-BRENDAN-MCVF-R,779.551))
 
 ( (IP-MAT (CONJO E)
 	  (NP-SBJ (PRO cil))
@@ -7009,7 +7009,7 @@
 		  (PP (P que)
 		      (NP (NUM cenz))))
 	  (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,51.552))
+  (ID 1120-BRENDAN-MCVF-R,779.552))
 
 ( (IP-MAT (NP-ACC (NCS Mester))
 	  (CL-NP-DTV (CL lur))
@@ -7023,7 +7023,7 @@
 				  (PP (P en)
 				      (NP (NCS betumeit))))))
 	  (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,51.553))
+  (ID 1120-BRENDAN-MCVF-R,779.553))
 
 ( (IP-MAT (NP-SBJ (D L') (NCS abes))
 	  (CL-NP-DTV (CL lur))
@@ -7040,7 +7040,7 @@
 						  (NP (NCS mesure)))))))
 	  (PONFP .)
 	  (PON '))
-  (ID 1120-BRENDAN-MCVF-R,51.554))
+  (ID 1120-BRENDAN-MCVF-R,779.554))
 
 ( (IP-MAT (NP-SBJ (PRO Cil))
 	  (CL-PP (CL em))
@@ -7048,7 +7048,7 @@
 	  (PP (P secund)
 	      (NP (DZ lur) (NCS seid)))
 	  (PONFP ,))
-  (ID 1120-BRENDAN-MCVF-R,51.555))
+  (ID 1120-BRENDAN-MCVF-R,779.555))
 
 ( (IP-MAT (NP-DTV (DAT A)
 		  (CODE {ED_online_edition:806_has_As})
@@ -7059,7 +7059,7 @@
 	  (VJ tenent)
 	  (NP-ACC (NCS feid))
 	  (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,51.556))
+  (ID 1120-BRENDAN-MCVF-R,779.556))
 
 ( (IP-MAT (NP-ACC (Q Tant))
 	  (NP-SBJ *con*)
@@ -7076,14 +7076,14 @@
 				  (NP-PRD (NCPL fol)))
 			  (VPP apelét)))
 	  (PONFP ,))
-  (ID 1120-BRENDAN-MCVF-R,51.557))
+  (ID 1120-BRENDAN-MCVF-R,779.557))
 
 ( (IP-MAT (CONJO Quar)
 	  (NP-SBJ (D li) (NCS sumnes))
 	  (CL-NP-DTV (CL lur))
 	  (VJ cureit)
 	  (ADVP-DIR (ADV sus)))
-  (ID 1120-BRENDAN-MCVF-R,51.558))
+  (ID 1120-BRENDAN-MCVF-R,779.558))
 
 ( (IP-MAT (ADVP (ADV Dum))
 	  (NP-SBJ (PRO il))
@@ -7091,7 +7091,7 @@
 	  (VJ giseient)
 	  (ADVP-DIR (ADV jus))
 	  (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,51.559))
+  (ID 1120-BRENDAN-MCVF-R,779.559))
 
 ( (IP-MAT (NP-SBJ (CP-FRL (WNP-1 (WPRO Qui))
 			  (IP-SUB (NP-SBJ *T*-1)
@@ -7195,7 +7195,7 @@
 			  (VJ vint)
 			  (ADJP-1 (ADJ absolud))))
 	  (PONFP ;))
-  (ID 1120-BRENDAN-MCVF-R,52.566))
+  (ID 1120-BRENDAN-MCVF-R,821.566))
 
 ( (IP-MAT (ADVP-TMP (ADV Dunc))
 	  (VJ reparat)
@@ -7211,7 +7211,7 @@
 				  (NP-TMP (D l') (ADJ altre) (NCS an))))))
 	  (PONFP .)
 	  (CODE {ED_online_edition:824_has_colon}))
-  (ID 1120-BRENDAN-MCVF-R,52.567))
+  (ID 1120-BRENDAN-MCVF-R,821.567))
 
 ( (IP-PRES (ITJ Ast)
 	   (NP-ACC (DZ lur)
@@ -7219,7 +7219,7 @@
 		   (PON ,)
 		   (NP-PRN (D le) (ADJ veil) (NCS chanud)))
 	   (PONFP :))
-  (ID 1120-BRENDAN-MCVF-R,52.568))
+  (ID 1120-BRENDAN-MCVF-R,821.568))
 
 ( (IP-MAT (PP (P A@)
 	      (NP (D @l) (NCS port)))
@@ -7229,7 +7229,7 @@
 	  (NP-ACC (D un) (NCS tref))
 	  (VPP tendud)
 	  (PONFP ;))
-  (ID 1120-BRENDAN-MCVF-R,52.569))
+  (ID 1120-BRENDAN-MCVF-R,821.569))
 
 ( (IP-MAT (IP-MAT-1 (VPP-2 Bainéd)
 		    (NP-SBJ *con*)
@@ -7242,7 +7242,7 @@
 		 (IP-MAT=1 (NP-ACC (ADJ nuveals) (NCPL dras))
 			   (VPP apareilez)))
 	  (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,52.570))
+  (ID 1120-BRENDAN-MCVF-R,821.570))
 
 ( (IP-MAT (NP-SBJ *pro*)
 	  (VJ Funt)
@@ -7258,7 +7258,7 @@
 			  (EJ est)
 			  (VPP cumandét)))
 	  (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,52.571))
+  (ID 1120-BRENDAN-MCVF-R,821.571))
 
 ( (IP-MAT (CONJO E)
 	  (NP-SBJ *con*)
@@ -7268,7 +7268,7 @@
 	      (PP (P a@)
 		  (NP (D @l) (ADJ .iii.) (NCS di))))
 	  (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,52.572))
+  (ID 1120-BRENDAN-MCVF-R,821.572))
 
 ( (IP-MAT (NP-SBJ *con*)
 	  (VJ Turnerent)
@@ -7276,7 +7276,7 @@
 	  (CL-PP (CL en))
 	  (PP (P a@)
 	      (NP (D @l) (NCS samadi))))
-  (ID 1120-BRENDAN-MCVF-R,52.573))
+  (ID 1120-BRENDAN-MCVF-R,821.573))
 
 ( (IP-MAT (CONJO E)
 	  (NP-SBJ *con*)
@@ -7285,7 +7285,7 @@
 		  (PP (P sur)
 		      (NP (D le) (NCS peisun))))
 	  (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,52.574))
+  (ID 1120-BRENDAN-MCVF-R,821.574))
 
 ( (IP-MAT (NP-SBJ (D L') (NCS abes))
 	  (CL-NP-DTV (CL lur))
@@ -7296,7 +7296,7 @@
 		      (VJ eisum))
 	  (PONFP !)
 	  (PON '))
-  (ID 1120-BRENDAN-MCVF-R,52.575))
+  (ID 1120-BRENDAN-MCVF-R,821.575))
 
 ( (IP-MAT (NP-XXX (DZ Lur)
 		  (NCS caldere)
@@ -7314,14 +7314,14 @@
 	  (X la)
 	  (VJ virent)
 	  (PONFP ;))
-  (ID 1120-BRENDAN-MCVF-R,52.576))
+  (ID 1120-BRENDAN-MCVF-R,821.576))
 
 ( (IP-MAT (NP-SBJ (D Li) (NCS jacoines))
 	  (CL-NP-ACC-FS (CL l'))
 	  (AJ ad)
 	  (VPP gwardee)
 	  (PONFP ,))
-  (ID 1120-BRENDAN-MCVF-R,52.577))
+  (ID 1120-BRENDAN-MCVF-R,821.577))
 
 ( (IP-MAT (ADVP (ADV Or))
 	  (NP-SBJ *pro*)
@@ -7331,7 +7331,7 @@
 	      (NP (PRO lui)))
 	  (VPP retruvee)
 	  (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,52.578))
+  (ID 1120-BRENDAN-MCVF-R,821.578))
 
 ( (IP-MAT (ADJP-PRD (QR Plus) (ADJ asoür))
 	  (PP (P sur)
@@ -7339,7 +7339,7 @@
 	  (NP-SBJ *con*)
 	  (VJ estunt)
 	  (PONFP ,))
-  (ID 1120-BRENDAN-MCVF-R,52.579))
+  (ID 1120-BRENDAN-MCVF-R,821.579))
 
 ( (IP-MAT (CONJO E)
 	  (NP-ACC (DZ lur)
@@ -7349,7 +7349,7 @@
 	  (CL-PP (CL i))
 	  (VJ funt)
 	  (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,52.580))
+  (ID 1120-BRENDAN-MCVF-R,821.580))
 
 ( (IP-MAT (NP-MSR (Q Tute) (D la) (NCS nuit))
 	  (PP (P desque)
@@ -7363,7 +7363,7 @@
 	  (NP-ACC (NCS fin)
 		  (PP *ICH*-1))
 	  (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,52.581))
+  (ID 1120-BRENDAN-MCVF-R,821.581))
 
 ( (IP-MAT (NP-ACC (D Le)
 		  (NCS di)
@@ -7371,7 +7371,7 @@
 	  (NP-SBJ *con*)
 	  (VJ celebrïent)
 	  (PONFP ;))
-  (ID 1120-BRENDAN-MCVF-R,52.582))
+  (ID 1120-BRENDAN-MCVF-R,821.582))
 
 ( (IP-MAT (PP (P De)
 	      (NP (DZ lur) (NCS hure)))
@@ -7380,7 +7380,7 @@
 	  (CL-NP-RFL (CL s'))
 	  (VJ ublïent)
 	  (PONFP :))
-  (ID 1120-BRENDAN-MCVF-R,52.583))
+  (ID 1120-BRENDAN-MCVF-R,821.583))
 
 ( (IP-MAT (NP-MSR (QR Plus)
 		  (PP (P de)
@@ -7389,7 +7389,7 @@
 	  (NEG ne)
 	  (VJ targerent)
 	  (PONFP ,))
-  (ID 1120-BRENDAN-MCVF-R,52.584))
+  (ID 1120-BRENDAN-MCVF-R,821.584))
 
 ( (IP-MAT (CONJO Mais)
 	  (ADVP-TMP (ADV dunc))
@@ -7397,7 +7397,7 @@
 	  (NP-SBJ *con*)
 	  (VJ rechargerent)
 	  (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,52.585))
+  (ID 1120-BRENDAN-MCVF-R,821.585))
 
 ( (CODE <L_847>))
 
@@ -7406,7 +7406,7 @@
 	  (CL-NP-RFL (CL s'))
 	  (CL-PP (CL en))
 	  (ADVP (ADV tost)))
-  (ID 1120-BRENDAN-MCVF-R,52.587))
+  (ID 1120-BRENDAN-MCVF-R,847.587))
 
 ( (IP-MAT (CONJO e)
 	  (VJ curt)
@@ -7420,7 +7420,7 @@
 				  (VJ furent)
 				  (ADVP-TMP (ADV ainz))))))
 	  (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,52.588))
+  (ID 1120-BRENDAN-MCVF-R,847.588))
 
 ( (IP-MAT (ADVP (ADV Bien))
 	  (NP-SBJ *pro*)
@@ -7816,7 +7816,7 @@
 					  (PP (P vers)
 					      (NP (NCS occident))))))))
 	  (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,54.623))
+  (ID 1120-BRENDAN-MCVF-R,893.623))
 
 ( (IP-MAT (NP-ACC (ADJP (VG Dormante)
 			(CONJP *ICH*-1))
@@ -7834,7 +7834,7 @@
 			    (ADJP-PRD (ADJ forte)
 				      (PP *ICH*-4))))
 	  (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,54.624))
+  (ID 1120-BRENDAN-MCVF-R,893.624))
 
 ( (IP-MAT (CP-ADV (ADV Puis)
 		  (CONJS q')
@@ -7849,7 +7849,7 @@
 	  (PP (P par)
 	      (NP (D les) (NCPL veines)))
 	  (PONFP :))
-  (ID 1120-BRENDAN-MCVF-R,54.625))
+  (ID 1120-BRENDAN-MCVF-R,893.625))
 
 ( (IP-MAT (NCS-1 Poür)
 	  (CL-NP-DTV (CL lur))
@@ -7864,7 +7864,7 @@
 				      (NP (NCS brande))))))
 	  (PONFP ,)
 	  (CODE {ED_online_edition:900_has_period}))
-  (ID 1120-BRENDAN-MCVF-R,54.626))
+  (ID 1120-BRENDAN-MCVF-R,893.626))
 
 ( (IP-MAT (CONJO E)
 	  (NP-MSR (Q poi))
@@ -7884,7 +7884,7 @@
 				    (NEG n')
 				    (VJ adente))))
 	  (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,54.627))
+  (ID 1120-BRENDAN-MCVF-R,893.627))
 
 ( (IP-MAT (ADVP-TMP (ADV Puis))
 	  (CL-NP-DTV (CL lur))
@@ -7907,7 +7907,7 @@
 										  (NP-SBJ (PRO il))
 										  (VJ traient)))))))))))
 	  (PONFP :))
-  (ID 1120-BRENDAN-MCVF-R,54.628))
+  (ID 1120-BRENDAN-MCVF-R,893.628))
 
 ( (IP-MAT (PP (P Vers)
 	      (NP (PRO eals)))
@@ -7926,7 +7926,7 @@
 						(IP-SUB (ADVP *T*-2)
 							(NP-SBJ (NCS venz))))))))
 	  (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,54.629))
+  (ID 1120-BRENDAN-MCVF-R,893.629))
 
 ( (IP-MAT (NP-SBJ (D Li)
 		  (NCS fus)
@@ -7942,13 +7942,13 @@
 				    (PP (P de)
 					(NP (NCS fornaise))))))
 	  (PONFP :))
-  (ID 1120-BRENDAN-MCVF-R,54.630))
+  (ID 1120-BRENDAN-MCVF-R,893.630))
 
 ( (IP-MAT (NP-SBJ (D La) (NCS flamme))
 	  (VJ est)
 	  (ADJP-PRD (ADJ grant))
 	  (PONFP ,))
-  (ID 1120-BRENDAN-MCVF-R,54.631))
+  (ID 1120-BRENDAN-MCVF-R,893.631))
 
 ( (IP-MAT (NP-SBJ *con*)
 	  (VJ escalféd)
@@ -7961,7 +7961,7 @@
 			  (VJ crement)
 			  (NP-ACC (D la) (NCS mort))))
 	  (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,54.632))
+  (ID 1120-BRENDAN-MCVF-R,893.632))
 
 ( (IP-MAT (ADJP-1 (PP (P Sanz)
 		      (NP (NCS mesure)))
@@ -7971,7 +7971,7 @@
 	  (IP-SMC (NP-SBJ (D le) (NCS cors))
 		  (ADJP-PRD *ICH*-1))
 	  (PONFP ;))
-  (ID 1120-BRENDAN-MCVF-R,54.633))
+  (ID 1120-BRENDAN-MCVF-R,893.633))
 
 ( (IP-MAT (ADVP (QR Plus)
 		(ADV halt)
@@ -7983,7 +7983,7 @@
 		    (IP-SUB (ADVP *T*-2)
 			    (NP-SBJ (ADJNUM quinze) (NCPL tors))))
 	  (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,54.634))
+  (ID 1120-BRENDAN-MCVF-R,893.634))
 
 ( (IP-MAT (CP-ADV-LFD (IP-SUB (NP-1 (NCS Peril)
 				    (PP *ICH*-2))
@@ -8000,7 +8000,7 @@
 	  (VJ fuïssent)
 	  (NP-SBJ (NUM mil) (CONJO e) (NUM cinc) (NUM cenz))
 	  (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,54.635))
+  (ID 1120-BRENDAN-MCVF-R,893.635))
 
 ( (IP-MAT (PP (P Sur)
 	      (NP (D les)
@@ -8017,7 +8017,7 @@
 	  (NEG n')
 	  (VJ estuveit)
 	  (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,54.636))
+  (ID 1120-BRENDAN-MCVF-R,893.636))
 
 ( (IP-MAT (CP-ADV-LFD (CONJS Cum)
 		      (IP-SUB (NP-SBJ *pro*)
@@ -8037,14 +8037,14 @@
 		      (PP (P en)
 			  (NP (NCS dutance))))
 	  (PONFP :))
-  (ID 1120-BRENDAN-MCVF-R,54.637))
+  (ID 1120-BRENDAN-MCVF-R,893.637))
 
 ( (IP-MAT-SPE (NP-SBJ (NPRS Deus))
 	      (CL-NP-DTV (CL vus))
 	      (VJ ferat)
 	      (NP-ACC (D la) (NCS venjance))
 	      (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,54.638))
+  (ID 1120-BRENDAN-MCVF-R,893.638))
 
 ( (IP-IMP-SPE (VJ Guardez)
 	      (CP-THT-SPE (CONJS que)
@@ -8058,7 +8058,7 @@
 				      (CONJP-1 (CONJO ne)
 					       (NP (ADJ bon) (NCS oür)))))
 	      (PONFP ,))
-  (ID 1120-BRENDAN-MCVF-R,54.639))
+  (ID 1120-BRENDAN-MCVF-R,893.639))
 
 ( (IP-MAT-SPE (CONJO Quar)
 	      (NP-SBJ (CP-FRL-SPE (WNP-1 (WPRO que))
@@ -8076,7 +8076,7 @@
 							  (VJ muit)))))
 	      (PONFP .)
 	      (PON '))
-  (ID 1120-BRENDAN-MCVF-R,54.640))
+  (ID 1120-BRENDAN-MCVF-R,893.640))
 
 ( (CODE <pb_n="55"$$>))
 
@@ -8093,7 +8093,7 @@
 	  (NP-SBJ *pro*)
 	  (VJ urat)
 	  (PONFP ;))
-  (ID 1120-BRENDAN-MCVF-R,55.643))
+  (ID 1120-BRENDAN-MCVF-R,925.643))
 
 ( (IP-MAT (NP-SBJ (PRO Ço)
 		  (CP-REL (WNP-1 (WPRO qu'))
@@ -8104,7 +8104,7 @@
 	  (NEG ne)
 	  (VJ demurat)
 	  (PONFP :))
-  (ID 1120-BRENDAN-MCVF-R,55.644))
+  (ID 1120-BRENDAN-MCVF-R,925.644))
 
 ( (IP-MAT (NP-1 (ADJ Altre)
 		(NCS beste)
@@ -8121,7 +8121,7 @@
 			    (IP-INF (NP-ACC *ICH*-4)
 				    (VX cuntretenir))))
 	  (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,55.645))
+  (ID 1120-BRENDAN-MCVF-R,925.645))
 
 ( (IP-MAT (CP-ADV (ADVP-1 (ADV Dreit))
 		  (CONJS cum)
@@ -8140,40 +8140,40 @@
 	      (NP (NCS rage)))
 	  (VJ braist)
 	  (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,55.646))
+  (ID 1120-BRENDAN-MCVF-R,925.646))
 
 ( (IP-MAT (NP-SBJ (PRO Ceste))
 	  (VJ cunuit)
 	  (NP-ACC (DZ sa) (NCS guarrere))
 	  (CODE {ED_online_edition:931_has_guerrere})
 	  (PONFP ;))
-  (ID 1120-BRENDAN-MCVF-R,55.647))
+  (ID 1120-BRENDAN-MCVF-R,925.647))
 
 ( (IP-MAT (NP-SBJ *con*)
 	  (VJ Guerpit)
 	  (NP-ACC (D la) (NCS nef))
 	  (PONFP ,))
-  (ID 1120-BRENDAN-MCVF-R,55.648))
+  (ID 1120-BRENDAN-MCVF-R,925.648))
 
 ( (IP-MAT (NP-SBJ *con*)
 	  (VJ traist)
 	  (NP-ACC (DZ s') (NCS arere))
 	  (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,55.649))
+  (ID 1120-BRENDAN-MCVF-R,925.649))
 
 ( (IP-MAT (VPP-1 Justedes)
 	  (EJ sunt)
 	  (VPP *ICH*-1)
 	  (NP-SBJ (D les) (ADJNUM dous) (NCPL bestes))
 	  (PONFP :))
-  (ID 1120-BRENDAN-MCVF-R,55.650))
+  (ID 1120-BRENDAN-MCVF-R,925.650))
 
 ( (IP-MAT (NP-SBJ *con*)
 	  (VJ Drechent)
 	  (ADVP (ADV forment) (ADV halt))
 	  (NP-ACC (D les) (NCPL testes))
 	  (PONFP ;))
-  (ID 1120-BRENDAN-MCVF-R,55.651))
+  (ID 1120-BRENDAN-MCVF-R,925.651))
 
 ( (IP-MAT (PP (P D@)
 	      (NP (D @es) (NCPL narines)))
@@ -8191,7 +8191,7 @@
 			    (VJ volet)
 			    (ADVP-DIR (ADV halt))))
 	  (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,55.652))
+  (ID 1120-BRENDAN-MCVF-R,925.652))
 
 ( (IP-MAT (NP-ACC (NCPL Colps))
 	  (NP-SBJ *con*)
@@ -8211,7 +8211,7 @@
 		     (PP (P d@)
 			 (NP (D @es) (NCPL podes)))))
 	  (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,55.653))
+  (ID 1120-BRENDAN-MCVF-R,925.653))
 
 ( (IP-MAT (PP (P A)
 	      (NP (NCPL denz)
@@ -8228,7 +8228,7 @@
 				    (ADJP (VG trenchant))))
 			    (VJ erent)))
 	  (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,55.654))
+  (ID 1120-BRENDAN-MCVF-R,925.654))
 
 ( (IP-MAT (VJ Salt)
 	  (CL-PP (CL ent))
@@ -8244,7 +8244,7 @@
 				  (PP (P en)
 				      (NP (D cez) (ADJ granz) (NCPL cors)))))))
 	  (PONFP ;))
-  (ID 1120-BRENDAN-MCVF-R,55.655))
+  (ID 1120-BRENDAN-MCVF-R,925.655))
 
 ( (IP-MAT (NP-SBJ (D Les) (NCPL plaies))
 	  (VJ sunt)
@@ -8256,13 +8256,13 @@
 			  (VJ sunt)
 			  (NP-SBJ (D les) (NCPL undes))))
 	  (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,55.656))
+  (ID 1120-BRENDAN-MCVF-R,925.656))
 
 ( (IP-MAT (NP-SBJ (D La) (NCS bataile))
 	  (VJ fud)
 	  (ADJP-PRD (ADJ estulte))
 	  (PONFP :))
-  (ID 1120-BRENDAN-MCVF-R,55.657))
+  (ID 1120-BRENDAN-MCVF-R,925.657))
 
 ( (IP-MAT (PP (P En)
 	      (NP (D la) (NCS mer)))
@@ -8270,14 +8270,14 @@
 	  (VJ out)
 	  (NP-1 (ADJ grant) (NCS tumulte))
 	  (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,55.658))
+  (ID 1120-BRENDAN-MCVF-R,925.658))
 
 ( (IP-MAT (CONJO E)
 	  (ADVP-TMP (ADV puis))
 	  (VJ venquit)
 	  (NP-SBJ (D la) (NCS dereine))
 	  (PONFP ;))
-  (ID 1120-BRENDAN-MCVF-R,55.659))
+  (ID 1120-BRENDAN-MCVF-R,925.659))
 
 ( (IP-MAT (ADJP-1 (VPP Morte))
 	  (NP-SBJ *con*)
@@ -8285,7 +8285,7 @@
 	  (IP-SMC (NP-SBJ (D la) (NCS primereine))
 		  (ADJP-PRD *ICH*-1))
 	  (PONFP :))
-  (ID 1120-BRENDAN-MCVF-R,55.660))
+  (ID 1120-BRENDAN-MCVF-R,925.660))
 
 ( (IP-MAT (PP (P A)
 	      (NP (NCPL denz)))
@@ -8302,7 +8302,7 @@
 			    (CL-NP-ACC (CL le))
 			    (VJ descirat)))
 	  (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,55.661))
+  (ID 1120-BRENDAN-MCVF-R,925.661))
 
 ( (IP-MAT (CONJO E)
 	  (CP-ADV (ADV puis)
@@ -8316,7 +8316,7 @@
 	  (PP (P a)
 	      (NP (DZ sa) (NCS remanance)))
 	  (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,55.662))
+  (ID 1120-BRENDAN-MCVF-R,925.662))
 
 ( (CODE <L_953>))
 
@@ -8358,7 +8358,7 @@
 							 (PP (P de)
 							     (NP (Q tantes) (NCPL morz)))))))))
 	    (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,55.664))
+  (ID 1120-BRENDAN-MCVF-R,953.664))
 
 ( (IP-MAT (NP-SBJ (D L') (NCS abes))
 	  (CL-NP-DTV (CL lur))
@@ -8368,7 +8368,7 @@
 	  (IP-IMP-SPE (VJ Laisum)
 		      (NP-ACC (Q tut) (NCS el)))
 	  (PONFP :))
-  (ID 1120-BRENDAN-MCVF-R,55.665))
+  (ID 1120-BRENDAN-MCVF-R,953.665))
 
 ( (IP-MAT-SPE (IP-INF-SPE (NP-ACC (NCS Seignur)
 				  (ADJP *ICH*-1))
@@ -8379,7 +8379,7 @@
 	      (ADJP-1 (ADJ tel))
 	      (PONFP .)
 	      (PON '))
-  (ID 1120-BRENDAN-MCVF-R,55.666))
+  (ID 1120-BRENDAN-MCVF-R,953.666))
 
 ( (IP-MAT (NP-SBJ (PRO Cil))
 	  (VJ respunent)
@@ -8717,13 +8717,13 @@
 	  (NEG ne)
 	  (VJ cesset)
 	  (PONFP :))
-  (ID 1120-BRENDAN-MCVF-R,57.695))
+  (ID 1120-BRENDAN-MCVF-R,1001.695))
 
 ( (IP-MAT (NP-SBJ (ADJ Altre) (NCS peril))
 	  (CL-NP-ACC (CL les))
 	  (VJ apresset)
 	  (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,57.696))
+  (ID 1120-BRENDAN-MCVF-R,1001.696))
 
 ( (IP-MAT (CP-ADV (CONJS Si)
 		  (IP-SUB (NP-SBJ *pro*)
@@ -8735,7 +8735,7 @@
 	  (NP-PRD (NCS meindres))
 	  (NP-SBJ (D Icist) (NCS perilz))
 	  (PONFP ,))
-  (ID 1120-BRENDAN-MCVF-R,57.697))
+  (ID 1120-BRENDAN-MCVF-R,1001.697))
 
 ( (IP-MAT (ADVP (ADV enz))
 	  (CODE {ED_online_edition:1004_has_ainz})
@@ -8743,7 +8743,7 @@
 	  (VJ fust)
 	  (ADJP-PRD (ADJR graindres))
 	  (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,57.698))
+  (ID 1120-BRENDAN-MCVF-R,1001.698))
 
 ( (IP-MAT (CONJO Mais)
 	  (NP-SBJ *pro*)
@@ -8762,7 +8762,7 @@
 		  (CONJP (CONJO e)
 			 (NP (D le) (NCS defens)))))
 	  (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,57.699))
+  (ID 1120-BRENDAN-MCVF-R,1001.699))
 
 ( (IP-MAT (NP-SBJ (D Uns)
 		  (NCS grips)
@@ -8771,7 +8771,7 @@
 	      (NP (D l') (NCS air)))
 	  (VJ descent)
 	  (PONFP ,))
-  (ID 1120-BRENDAN-MCVF-R,57.700))
+  (ID 1120-BRENDAN-MCVF-R,1001.700))
 
 ( (IP-MAT (PP (P Pur)
 	      (IP-INF (CL-NP-ACC (CL eals))
@@ -8780,7 +8780,7 @@
 	  (NP-SBJ *con*)
 	  (VJ tent)
 	  (PONFP ,))
-  (ID 1120-BRENDAN-MCVF-R,57.701))
+  (ID 1120-BRENDAN-MCVF-R,1001.701))
 
 ( (IP-MAT (CONJO E)
 	  (VG-1 flammantes)
@@ -8793,7 +8793,7 @@
 					   (ADVP (ADV fort)))
 				 (NP-SBJ (D les) (NCPL poës)))))
 	  (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,57.702))
+  (ID 1120-BRENDAN-MCVF-R,1001.702))
 
 ( (IP-MAT (NP-1 (NCS Bord)
 		(PP (P de)
@@ -8816,7 +8816,7 @@
 				  (CL-PP (CL en))
 				  (VJ port))))
 	  (PONFP ;))
-  (ID 1120-BRENDAN-MCVF-R,57.703))
+  (ID 1120-BRENDAN-MCVF-R,1001.703))
 
 ( (IP-MAT (PP (P Pur)
 	      (NP (NP (FP sul) (D l') (NCS aïr))
@@ -8829,7 +8829,7 @@
 	  (NEG ne)
 	  (VJ prent)
 	  (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,57.704))
+  (ID 1120-BRENDAN-MCVF-R,1001.704))
 
 ( (IP-MAT (CP-ADV (CONJS Cum)
 		  (IP-SUB (NP-SBJ *pro*)
@@ -8846,19 +8846,19 @@
 			  (ADVP (Q mult) (ADV cler))))
 	  (PONFP ;)
 	  (CODE {ED_online_edition:1016_has_colon}))
-  (ID 1120-BRENDAN-MCVF-R,57.705))
+  (ID 1120-BRENDAN-MCVF-R,1001.705))
 
 ( (IP-MAT (NP-SBJ *con*)
 	  (VJ Mot)
 	  (NP-ACC (D les) (NCPL eles))
 	  (PONFP ,))
-  (ID 1120-BRENDAN-MCVF-R,57.706))
+  (ID 1120-BRENDAN-MCVF-R,1001.706))
 
 ( (IP-MAT (NP-SBJ *con*)
 	  (VJ tent)
 	  (NP-ACC (D le) (NCS col))
 	  (PONFP ,))
-  (ID 1120-BRENDAN-MCVF-R,57.707))
+  (ID 1120-BRENDAN-MCVF-R,1001.707))
 
 ( (IP-MAT (PP (P Vers)
 	      (NP (D le) (NCS gripun)))
@@ -8866,7 +8866,7 @@
 	  (VJ drechet)
 	  (NP-ACC (DZ sun) (NCS vol))
 	  (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,57.708))
+  (ID 1120-BRENDAN-MCVF-R,1001.708))
 
 ( (IP-MAT (NP-SBJ (D La) (NCS bataile))
 	  (ADVP-LOC (ADV sus))
@@ -8874,7 +8874,7 @@
 	  (PP (P en)
 	      (NP (D l') (NCS air)))
 	  (PONFP :))
-  (ID 1120-BRENDAN-MCVF-R,57.709))
+  (ID 1120-BRENDAN-MCVF-R,1001.709))
 
 ( (IP-MAT (NP-SBJ (D Li)
 		  (NCS fus)
@@ -8883,7 +8883,7 @@
 	  (VJ fait)
 	  (NP-ACC (ADJ grant) (NCS esclair))
 	  (PONFP ;))
-  (ID 1120-BRENDAN-MCVF-R,57.710))
+  (ID 1120-BRENDAN-MCVF-R,1001.710))
 
 ( (IP-MAT (NP-ACC (NCPL Colps) (CONJO e) (NCPL flammes) (CONJO e) (NCPL morz) (CONJO e) (NCPL buz))
 	  (NP-SBJ *pro*)
@@ -8893,7 +8893,7 @@
 		      (NP-SBJ (PRO eals)
 			      (QP (Q tuz))))
 	  (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,57.711))
+  (ID 1120-BRENDAN-MCVF-R,1001.711))
 
 ( (IP-MAT (IP-MAT-1 (NP-SBJ (D Li) (NCS grips))
 		    (VJ est)
@@ -8902,7 +8902,7 @@
 	  (CONJP (IP-MAT=1 (NP-SBJ (NCS draguns))
 			   (ADJP-PRD (ADJ maigres))))
 	  (PONFP ;))
-  (ID 1120-BRENDAN-MCVF-R,57.712))
+  (ID 1120-BRENDAN-MCVF-R,1001.712))
 
 ( (IP-MAT (IP-MAT-1 (NP-SBJ (PRO Cil))
 		    (VJ est)
@@ -8911,21 +8911,21 @@
 	  (CONJP (IP-MAT=1 (NP-SBJ (PRO cil))
 			   (ADJP-PRD (QR plus) (ADJ aigres))))
 	  (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,57.713))
+  (ID 1120-BRENDAN-MCVF-R,1001.713))
 
 ( (IP-MAT (VPP-1 Morz)
 	  (EJ est)
 	  (VPP *ICH*-1)
 	  (NP-SBJ (D li) (NCS grips))
 	  (PONFP ,))
-  (ID 1120-BRENDAN-MCVF-R,57.714))
+  (ID 1120-BRENDAN-MCVF-R,1001.714))
 
 ( (IP-MAT (PP (P en)
 	      (NP (NCS mer)))
 	  (NP-SBJ *con*)
 	  (VJ chaït)
 	  (PONFP :))
-  (ID 1120-BRENDAN-MCVF-R,57.715))
+  (ID 1120-BRENDAN-MCVF-R,1001.715))
 
 ( (IP-MAT (VPP-1 Vengét)
 	  (CL-PP (CL en))
@@ -8937,20 +8937,20 @@
 				  (AJ unt)
 				  (VPP haït))))
 	  (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,57.716))
+  (ID 1120-BRENDAN-MCVF-R,1001.716))
 
 ( (IP-MAT (VJ Vait)
 	  (CL-NP-RFL (CL s'))
 	  (CL-PP (CL en))
 	  (NP-SBJ (NCS draguns))
 	  (PONFP ,))
-  (ID 1120-BRENDAN-MCVF-R,57.717))
+  (ID 1120-BRENDAN-MCVF-R,1001.717))
 
 ( (IP-MAT (NP-SBJ *con*)
 	  (VJ portet)
 	  (NP-ACC (NCS victorie))
 	  (PONFP ;))
-  (ID 1120-BRENDAN-MCVF-R,57.718))
+  (ID 1120-BRENDAN-MCVF-R,1001.718))
 
 ( (IP-MAT (NP-SBJ (PRO Cil))
 	  (CL-PP (CL en))
@@ -8958,7 +8958,7 @@
 	  (NP-DTV (NPRS Deu))
 	  (NP-ACC (D la) (NCS glorie))
 	  (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,57.719))
+  (ID 1120-BRENDAN-MCVF-R,1001.719))
 
 ( (IP-MAT (VJ Vunt)
 	  (CL-NP-RFL (CL s'))
@@ -8968,7 +8968,7 @@
 	      (ADVP (ADV iloec)))
 	  (ADVP-DIR (ADV avant))
 	  (PONFP ;))
-  (ID 1120-BRENDAN-MCVF-R,57.720))
+  (ID 1120-BRENDAN-MCVF-R,1001.720))
 
 ( (IP-MAT (PP (P Par)
 	      (NP (D l')
@@ -8980,7 +8980,7 @@
 	  (ADJP-PRD (QP *ICH*-1)
 		    (ADJ savant))
 	  (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,57.721))
+  (ID 1120-BRENDAN-MCVF-R,1001.721))
 
 ( (CODE <L_1031>))
 
@@ -8999,7 +8999,7 @@
 						  (NCS préd)
 						  (NP-COM (NPRS Nerunt)))))))))
 	  (PONFP ;))
-  (ID 1120-BRENDAN-MCVF-R,57.723))
+  (ID 1120-BRENDAN-MCVF-R,1031.723))
 
 ( (IP-MAT (NP-ACC (NCS Feste)
 		  (CONJP *ICH*-1))
@@ -9012,7 +9012,7 @@
 		  (NPRS Perrunt)
 		  (NP-PRN (D l') (NCS apostorie)))
 	  (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,57.724))
+  (ID 1120-BRENDAN-MCVF-R,1031.724))
 
 ( (IP-MAT (CP-ADV (CONJS Cum)
 		  (IP-SUB (NP-SBJ (D l') (NCS abes))
@@ -9034,7 +9034,7 @@
 	      (NP (NCS voiz)
 		  (ADJP (ADJ clere))))
 	  (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,57.725))
+  (ID 1120-BRENDAN-MCVF-R,1031.725))
 
 ( (CODE <pb_n="58"$$>))
 
@@ -9257,7 +9257,7 @@
 ( (IP-MAT (ADVP-DIR (ADV Avant))
 	  (NP-SBJ *pro*)
 	  (VJ curent))
-  (ID 1120-BRENDAN-MCVF-R,58.746))
+  (ID 1120-BRENDAN-MCVF-R,1063.746))
 
 ( (IP-MAT (CONJO e)
 	  (NP-SBJ *con*)
@@ -9268,7 +9268,7 @@
 		  (ADJP (ADJ halte))))
 	  (NP-ACC (D un) (ADJ grant) (NCS piler))
 	  (PONFP :))
-  (ID 1120-BRENDAN-MCVF-R,58.747))
+  (ID 1120-BRENDAN-MCVF-R,1063.747))
 
 ( (IP-MAT (PP (P De)
 	      (NP (NCS naturel)))
@@ -9276,7 +9276,7 @@
 	  (VJ fud)
 	  (NP-PRD (NCS jargunce))
 	  (PONFP ;))
-  (ID 1120-BRENDAN-MCVF-R,58.748))
+  (ID 1120-BRENDAN-MCVF-R,1063.748))
 
 ( (IP-MAT (PP (P D')
 	      (NP (ADJ altre) (NCS mairein)))
@@ -9286,7 +9286,7 @@
 	  (VJ out)
 	  (NP-1 (NCS unce))
 	  (PONFP ;))
-  (ID 1120-BRENDAN-MCVF-R,58.749))
+  (ID 1120-BRENDAN-MCVF-R,1063.749))
 
 ( (IP-MAT (PP (P De)
 	      (NP (NCS jargunce)))
@@ -9294,7 +9294,7 @@
 	  (VJ fud)
 	  (NP-PRD (NCS saphire))
 	  (PONFP ;))
-  (ID 1120-BRENDAN-MCVF-R,58.750))
+  (ID 1120-BRENDAN-MCVF-R,1063.750))
 
 ( (IP-MAT (ADJP-PRD (ADJ Riches))
 	  (VJ estreit)
@@ -9304,7 +9304,7 @@
 				  (VJ fust)
 				  (NP-PRD (NCS sire)))))
 	  (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,58.751))
+  (ID 1120-BRENDAN-MCVF-R,1063.751))
 
 ( (IP-MAT (PP (P Desqu')
 	      (PP (P a@)
@@ -9314,7 +9314,7 @@
 	  (PP (P en)
 	      (ADVP (ADV sus)))
 	  (PONFP ,))
-  (ID 1120-BRENDAN-MCVF-R,58.752))
+  (ID 1120-BRENDAN-MCVF-R,1063.752))
 
 ( (IP-MAT (PP (P A@)
 	      (NP (D @s)
@@ -9325,7 +9325,7 @@
 	  (VJ descendeit)
 	  (ADVP-DIR (ADV jus))
 	  (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,58.753))
+  (ID 1120-BRENDAN-MCVF-R,1063.753))
 
 ( (IP-MAT (NP-1 (D Uns) (NCS paveiluns))
 	  (ADVP (ADV enturn))
@@ -9333,7 +9333,7 @@
 	  (CL-PP (CL i))
 	  (VJ tent)
 	  (PONFP ;))
-  (ID 1120-BRENDAN-MCVF-R,58.754))
+  (ID 1120-BRENDAN-MCVF-R,1063.754))
 
 ( (IP-MAT (NP-MSR (PP (P Des)
 		      (NP (D le) (NCS sumét)))
@@ -9348,7 +9348,7 @@
 		  (IP-PPL (VPP uvrét)
 			  (ADVP (ADV sutil)))))
 	  (PONFP :))
-  (ID 1120-BRENDAN-MCVF-R,58.755))
+  (ID 1120-BRENDAN-MCVF-R,1063.755))
 
 ( (CODE <pb_n="59"$$>))
 
@@ -9550,7 +9550,7 @@
 	  (VPP fait)
 	  (NP-SBJ (D li) (NCPL pelerin))
 	  (PONFP ,))
-  (ID 1120-BRENDAN-MCVF-R,59.777))
+  (ID 1120-BRENDAN-MCVF-R,1097.777))
 
 ( (IP-MAT (CONJO Mais)
 	  (ADVP-TMP (ADV uncore))
@@ -9559,7 +9559,7 @@
 	  (VJ sevent)
 	  (NP-ACC (NCS fin))
 	  (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,59.778))
+  (ID 1120-BRENDAN-MCVF-R,1097.778))
 
 ( (IP-MAT (CONJO E)
 	  (ADVP (ADV nepurtant))
@@ -9569,7 +9569,7 @@
 	  (CL-PP (CL en))
 	  (VJ feignent)
 	  (PONFP :))
-  (ID 1120-BRENDAN-MCVF-R,59.779))
+  (ID 1120-BRENDAN-MCVF-R,1097.779))
 
 ( (IP-MAT (CONJO Mais)
 	  (CP-ADV (CONJS cum)
@@ -9582,7 +9582,7 @@
 	  (CL-NP-RFL (CL se))
 	  (VJ peinent)
 	  (PONFP ,))
-  (ID 1120-BRENDAN-MCVF-R,59.780))
+  (ID 1120-BRENDAN-MCVF-R,1097.780))
 
 ( (IP-MAT (CONJO Ne)
 	  (PP (P de)
@@ -9598,7 +9598,7 @@
 				    (NP-SBJ *pro*)
 				    (VJ verrunt)))))
 	  (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,59.781))
+  (ID 1120-BRENDAN-MCVF-R,1097.781))
 
 ( (IP-MAT (VJ Apparut)
 	  (CL-NP-DTV (CL lur))
@@ -9610,7 +9610,7 @@
 			     (PP (P de)
 				 (NP (NCS nuble))))))
 	  (PONFP :))
-  (ID 1120-BRENDAN-MCVF-R,59.782))
+  (ID 1120-BRENDAN-MCVF-R,1097.782))
 
 ( (IP-MAT (PP (PP (P De)
 		  (NP (ADJ flaistre) (NCS fum)))
@@ -9623,7 +9623,7 @@
 		       (NP (NCS caruine)
 			   (ADJP (QR plus) (ADJ puante)))))
 	  (PONFP ;))
-  (ID 1120-BRENDAN-MCVF-R,59.783))
+  (ID 1120-BRENDAN-MCVF-R,1097.783))
 
 ( (IP-MAT (PP (P De)
 	      (NP (ADJ grant) (NCS nerçun)))
@@ -9631,7 +9631,7 @@
 	  (EJ ert)
 	  (VPP enclose)
 	  (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,59.784))
+  (ID 1120-BRENDAN-MCVF-R,1097.784))
 
 ( (IP-MAT (NP-SBJ (PRO Cist))
 	  (NEG ne)
@@ -9640,7 +9640,7 @@
 		  (PP (P en)
 		      (NP (NCS pose))))
 	  (PONFP ,))
-  (ID 1120-BRENDAN-MCVF-R,59.785))
+  (ID 1120-BRENDAN-MCVF-R,1097.785))
 
 ( (IP-MAT (CONJO E)
 	  (PP (P de)
@@ -9657,7 +9657,7 @@
 			  (ADVP (ADV guairs))
 			  (VPP goït)))
 	  (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,59.786))
+  (ID 1120-BRENDAN-MCVF-R,1097.786))
 
 ( (IP-MAT (NP-MSR (Q Mult))
 	  (NP-SBJ *con*)
@@ -9667,7 +9667,7 @@
 	      (IP-INF (ADVP-DIR (ADV ailurs))
 		      (VX tendre)))
 	  (PONFP ,))
-  (ID 1120-BRENDAN-MCVF-R,59.787))
+  (ID 1120-BRENDAN-MCVF-R,1097.787))
 
 ( (CODE <pb_n="60"$$>))
 
@@ -9851,7 +9851,7 @@
 				  (NP-SBJ *pro*)
 				  (VJ unt))))
 	  (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,60.803))
+  (ID 1120-BRENDAN-MCVF-R,1131.803))
 
 ( (IP-MAT (ADVP-1 (ADV Forment))
 	  (VJ fud)
@@ -9859,7 +9859,7 @@
 		    (ADJ granz))
 	  (NP-SBJ (D icil) (NCS malfez))
 	  (PONFP ,))
-  (ID 1120-BRENDAN-MCVF-R,60.804))
+  (ID 1120-BRENDAN-MCVF-R,1131.804))
 
 ( (IP-MAT (PP (P D')
 	      (NP (NCS enfern)))
@@ -9867,7 +9867,7 @@
 	  (VJ eisit)
 	  (ADJP-SPR (Q tuz) (VPP eschalfez))
 	  (PONFP ;))
-  (ID 1120-BRENDAN-MCVF-R,60.805))
+  (ID 1120-BRENDAN-MCVF-R,1131.805))
 
 ( (IP-MAT (NP-ACC (D Un)
 		  (NCS mail)
@@ -9878,7 +9878,7 @@
 	  (NP-SBJ *con*)
 	  (VJ portout)
 	  (PONFP :))
-  (ID 1120-BRENDAN-MCVF-R,60.806))
+  (ID 1120-BRENDAN-MCVF-R,1131.806))
 
 ( (IP-MAT (PP (P A)
 	      (NP (D un) (NCS piler)))
@@ -9887,7 +9887,7 @@
 	  (CL-PP (CL i))
 	  (VJ out)
 	  (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,60.807))
+  (ID 1120-BRENDAN-MCVF-R,1131.807))
 
 ( (IP-MAT (CP-ADV (CONJS Cum)
 		  (IP-SUB (IP-SUB (NP-SBJ *pro*)
@@ -9924,7 +9924,7 @@
 			    (ADJP-SPR (QP *ICH*-4)
 				      (ADJ prest))))
 	  (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,60.808))
+  (ID 1120-BRENDAN-MCVF-R,1131.808))
 
 ( (IP-MAT (IP-PPL (VG Jetant)
 		  (NP-ACC (NCPL flammes))
@@ -9937,7 +9937,7 @@
 	  (PP (P en)
 	      (NP (DZ sa) (NCS forge)))
 	  (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,60.809))
+  (ID 1120-BRENDAN-MCVF-R,1131.809))
 
 ( (IP-MAT (NP-SBJ *con*)
 	  (VJ Revint)
@@ -9952,7 +9952,7 @@
 				(IP-SUB (ADJP-PRD *T*-1)
 					(NP-SBJ (NCS flamme)))))))
 	  (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,60.810))
+  (ID 1120-BRENDAN-MCVF-R,1131.810))
 
 ( (IP-MAT (PP (P E@)
 	      (NP (D @s)
@@ -9970,7 +9970,7 @@
 	  (CL-PP (CL i))
 	  (VJ aveit)
 	  (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,60.811))
+  (ID 1120-BRENDAN-MCVF-R,1131.811))
 
 ( (IP-MAT (NP-SBJ *pro*)
 	  (VJ Halcet)
@@ -9978,7 +9978,7 @@
 	  (ADVP-DIR (ADV sus))
 	  (PP (P vers)
 	      (NP (D la) (NCS nue))))
-  (ID 1120-BRENDAN-MCVF-R,60.812))
+  (ID 1120-BRENDAN-MCVF-R,1131.812))
 
 ( (IP-MAT (CONJO E)
 	  (PP (ADV dreit)
@@ -9989,7 +9989,7 @@
 	  (CL-NP-ACC (CL la))
 	  (VJ rue)
 	  (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,60.813))
+  (ID 1120-BRENDAN-MCVF-R,1131.813))
 
 ( (IP-MAT (IP-MAT-1 (NP-SBJ (NCS Esturbeiluns))
 		    (ADVP (QR plus) (ADV tost))
@@ -10108,7 +10108,7 @@
 			  (VJ pregnent)
 			  (NP-ACC (NCS fuite))))
 	  (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,61.823))
+  (ID 1120-BRENDAN-MCVF-R,1161.823))
 
 ( (IP-MAT (PP (P A@)
 	      (NP (D @l)
@@ -10119,7 +10119,7 @@
 	  (CL-PP (CL en))
 	  (VJ alerent)
 	  (PONFP ,))
-  (ID 1120-BRENDAN-MCVF-R,61.824))
+  (ID 1120-BRENDAN-MCVF-R,1161.824))
 
 ( (IP-MAT (CONJO Mais)
 	  (ADVP-DIR (ADV la))
@@ -10127,7 +10127,7 @@
 	  (NP-SBJ *con*)
 	  (VJ reguarderent)
 	  (PONFP :))
-  (ID 1120-BRENDAN-MCVF-R,61.825))
+  (ID 1120-BRENDAN-MCVF-R,1161.825))
 
 ( (IP-MAT (NP-1 (D L') (NCS isle))
 	  (NP-SBJ *con*)
@@ -10141,7 +10141,7 @@
 					     (NP (NCS fumé)))))))
 	  (CODE {ED_online_edition:1166_has_fumee})
 	  (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,61.826))
+  (ID 1120-BRENDAN-MCVF-R,1161.826))
 
 ( (IP-MAT (NCPL-1 Malsfeiz)
 	  (CODE {ED_online_edition:1167_has_Malsfez})
@@ -10151,7 +10151,7 @@
 		  (QP (Q plusurs))
 		  (NP-COM (NCPL *ICH*-1)))
 	  (PONFP ;))
-  (ID 1120-BRENDAN-MCVF-R,61.827))
+  (ID 1120-BRENDAN-MCVF-R,1161.827))
 
 ( (IP-MAT (NP-ACC (NCPL Criz)
 		  (CONJP *ICH*-1)
@@ -10161,7 +10161,7 @@
 	  (VJ oënt)
 	  (CONJP-1 (CONJO e) (NCPL plurs))
 	  (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,61.828))
+  (ID 1120-BRENDAN-MCVF-R,1161.828))
 
 ( (IP-MAT (NCS-1 Püur)
 	  (CL-NP-DTV (CL lur))
@@ -10180,7 +10180,7 @@
 					  (CL-NP-RFL (CL s'))
 					  (VJ espant))))))
 	  (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,61.829))
+  (ID 1120-BRENDAN-MCVF-R,1161.829))
 
 ( (IP-MAT (NP-SBJ *pro*)
 	  (VJ Endurerent)
@@ -10191,7 +10191,7 @@
 			  (NP-SBJ *pro*)
 			  (MDJ pourent)))
 	  (PONFP ;))
-  (ID 1120-BRENDAN-MCVF-R,61.830))
+  (ID 1120-BRENDAN-MCVF-R,1161.830))
 
 ( (IP-MAT (NP-SBJ *con*)
 	  (VJ Eschiverent)
@@ -10202,7 +10202,7 @@
 			  (NP-SBJ *pro*)
 			  (VJ sourent)))
 	  (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,61.831))
+  (ID 1120-BRENDAN-MCVF-R,1161.831))
 
 ( (IP-MAT (NP-LFD (ADJ Sainz) (NCS hoem))
 	  (CP-ADV (CONJS cum)
@@ -10231,7 +10231,7 @@
 	  (VJ creist)
 	  (NP-SBJ (DZ-RSP sis) (NCS oürs))
 	  (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,61.832))
+  (ID 1120-BRENDAN-MCVF-R,1161.832))
 
 ( (IP-MAT (ADVP (ADV Eisi))
 	  (NP-SBJ *proimp*)
@@ -10249,7 +10249,7 @@
 						  (EJ sunt)
 						  (VPP reçoüd))))))
 	  (PONFP :))
-  (ID 1120-BRENDAN-MCVF-R,61.833))
+  (ID 1120-BRENDAN-MCVF-R,1161.833))
 
 ( (IP-MAT (PP (P En)
 	      (NP (NPRS Deu)))
@@ -10258,7 +10258,7 @@
 	  (NP-ACC (DZ lur) (NCS fïance))
 	  (CODE {ED_online_edition:1179_has_fiance})
 	  (PONFP ,))
-  (ID 1120-BRENDAN-MCVF-R,61.834))
+  (ID 1120-BRENDAN-MCVF-R,1161.834))
 
 ( (IP-MAT (NP-SBJ *con*)
 	  (NEG N')
@@ -10266,7 +10266,7 @@
 	  (VJ aturnent)
 	  (NP-ACC (NCS mescreance))
 	  (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,61.835))
+  (ID 1120-BRENDAN-MCVF-R,1161.835))
 
 ( (IP-MAT (NP-SBJ *con*)
 	  (VJ Vunt)
@@ -10274,7 +10274,7 @@
 	  (CL-PP (CL en))
 	  (ADVP-DIR (ADV avant))
 	  (PONFP ,))
-  (ID 1120-BRENDAN-MCVF-R,61.836))
+  (ID 1120-BRENDAN-MCVF-R,1161.836))
 
 ( (IP-MAT (NP-SBJ *con*)
 	  (NEG n')
@@ -10282,7 +10282,7 @@
 	  (VJ dutent)
 	  (NP-ACC (Q rien))
 	  (PONFP ;))
-  (ID 1120-BRENDAN-MCVF-R,61.837))
+  (ID 1120-BRENDAN-MCVF-R,1161.837))
 
 ( (IP-MAT (PP (P Par)
 	      (NP (PRO ço)))
@@ -10293,7 +10293,7 @@
 			  (VJ espleitent)
 			  (ADVP (ADV bien))))
 	  (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,61.838))
+  (ID 1120-BRENDAN-MCVF-R,1161.838))
 
 ( (CODE <L_1183>))
 
@@ -10303,7 +10303,7 @@
 	  (PP (FP fors)
 	      (P a@)
 	      (NP (D @l) (NCS matin))))
-  (ID 1120-BRENDAN-MCVF-R,61.840))
+  (ID 1120-BRENDAN-MCVF-R,1183.840))
 
 ( (IP-MAT (NP-SBJ *pro*)
 	  (VJ Virent)
@@ -10319,7 +10319,7 @@
 			    (PP (P de)
 				(NP (NCS nublece)))))
 	  (PONFP ;))
-  (ID 1120-BRENDAN-MCVF-R,61.841))
+  (ID 1120-BRENDAN-MCVF-R,1183.841))
 
 ( (IP-MAT (ADVP-DIR (ADV La@))
 	  (CL-NP-ACC (CL @s))
@@ -10328,7 +10328,7 @@
 	  (PP (P par)
 	      (NP (NCS destrecce)))
 	  (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,61.842))
+  (ID 1120-BRENDAN-MCVF-R,1183.842))
 
 ( (IP-MAT (NP-SBJ *pro*)
 	  (VJ Vindrent)
@@ -10337,7 +10337,7 @@
 	  (PP (P a@)
 	      (NP (D @l) (NCS rivage)))
 	  (PONFP ,))
-  (ID 1120-BRENDAN-MCVF-R,61.843))
+  (ID 1120-BRENDAN-MCVF-R,1183.843))
 
 ( (IP-MAT (CONJO Mais)
 	  (QP-1 (Q mult))
@@ -10348,7 +10348,7 @@
 			(ADJ halt))
 		  (NCS estage)))
 	  (PONFP :))
-  (ID 1120-BRENDAN-MCVF-R,61.844))
+  (ID 1120-BRENDAN-MCVF-R,1183.844))
 
 ( (CODE <pb_n="62"$$>))
 
@@ -10569,7 +10569,7 @@
 	  (PP (P par)
 	      (NP (NCS mer)))
 	  (PONFP ,))
-  (ID 1120-BRENDAN-MCVF-R,62.867))
+  (ID 1120-BRENDAN-MCVF-R,1211.867))
 
 ( (IP-MAT (PP-1 (P D@)
 		(NP (D @es) (NCPL signacles)))
@@ -10581,7 +10581,7 @@
 		  (CL-NP-RFL *)
 		  (VX armer))
 	  (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,62.868))
+  (ID 1120-BRENDAN-MCVF-R,1211.868))
 
 ( (IP-MAT (NP-SBJ *pro*)
 	  (VJ Veient)
@@ -10596,7 +10596,7 @@
 				(VJ fust)
 				(NP-PRD (D une) (NCS roche)))))
 	  (PONFP ;))
-  (ID 1120-BRENDAN-MCVF-R,62.869))
+  (ID 1120-BRENDAN-MCVF-R,1211.869))
 
 ( (IP-MAT (CONJO E)
 	  (NP-PRD (NCS roche))
@@ -10604,7 +10604,7 @@
 	  (VJ fut)
 	  (ADVP (ADV verablement))
 	  (PONFP ,))
-  (ID 1120-BRENDAN-MCVF-R,62.870))
+  (ID 1120-BRENDAN-MCVF-R,1211.870))
 
 ( (IP-MAT (CONJO Mais)
 	  (NP-SBJ *pro*)
@@ -10613,7 +10613,7 @@
 	  (VJ quïent)
 	  (ADVP (ADV crëablement))
 	  (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,62.871))
+  (ID 1120-BRENDAN-MCVF-R,1211.871))
 
 ( (IP-MAT (ADVP-TMP (ADV Dunc))
 	  (VJ dist)
@@ -10622,7 +10622,7 @@
 	  (PON ')
 	  (IP-IMP-SPE (NEG Ne) (VJ demurum))
 	  (PONFP !))
-  (ID 1120-BRENDAN-MCVF-R,62.872))
+  (ID 1120-BRENDAN-MCVF-R,1211.872))
 
 ( (IP-IMP-SPE (VJ Sachum)
 	      (CP-QUE-SUB-SPE (WNP-1 (WPRO que))
@@ -10631,20 +10631,20 @@
 					  (NP-SBJ *pro*)
 					  (VJ seit)))
 	      (PONFP ,))
-  (ID 1120-BRENDAN-MCVF-R,62.873))
+  (ID 1120-BRENDAN-MCVF-R,1211.873))
 
 ( (IP-IMP-SPE (ADVP (ADV si))
 	      (CL-PP (CL i))
 	      (VJ curum)
 	      (PONFP .)
 	      (PON '))
-  (ID 1120-BRENDAN-MCVF-R,62.874))
+  (ID 1120-BRENDAN-MCVF-R,1211.874))
 
 ( (IP-MAT (NP-SBJ *pro*)
 	  (VJ Vindrent)
 	  (ADVP-DIR (ADV ila))
 	  (PONFP ,))
-  (ID 1120-BRENDAN-MCVF-R,62.875))
+  (ID 1120-BRENDAN-MCVF-R,1211.875))
 
 ( (IP-MAT (ADVP (ADV si))
 	  (NP-SBJ *con*)
@@ -10656,7 +10656,7 @@
 				  (NP-SBJ *pro*)
 				  (VJ espeirerent))))
 	  (PONFP :))
-  (ID 1120-BRENDAN-MCVF-R,62.876))
+  (ID 1120-BRENDAN-MCVF-R,1211.876))
 
 ( (IP-MAT (PP (P Sur)
 	      (NP (D la)
@@ -10672,7 +10672,7 @@
 		  (NP-SBJ (NCS homme)
 			  (ADJP (ADJ nud))))
 	  (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,62.877))
+  (ID 1120-BRENDAN-MCVF-R,1211.877))
 
 ( (IP-MAT (QP-1 (Q Mult))
 	  (NP-SBJ *pro*)
@@ -10684,7 +10684,7 @@
 		    (PON ,)
 		    (CONJP (ADJX (VPP Delacherez) (CONJO e) (VPP descirez))))
 	  (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,62.878))
+  (ID 1120-BRENDAN-MCVF-R,1211.878))
 
 ( (CODE <pb_n="63"$$>))
 
@@ -10824,7 +10824,7 @@
 			      (NP-SBJ (DZ ma) (NCS morz))
 			      (NP-TMP (CONJO n') (NCS ivern) (CONJO ne) (NCS estét)))
 		  (PONFP ?))
-  (ID 1120-BRENDAN-MCVF-R,63.892))
+  (ID 1120-BRENDAN-MCVF-R,1239.892))
 
 ( (IP-MAT-SPE (NP-VOC (NPRS Jesu)
 		      (PON ,)
@@ -10838,7 +10838,7 @@
 	      (NP-SBJ (DZ ta) (NCS mercit))
 	      (ADJP-PRD (Q itant) (ADJ bone))
 	      (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,63.893))
+  (ID 1120-BRENDAN-MCVF-R,1239.893))
 
 ( (IP-MAT-SPE (NP-VOC (NPRS Jesu))
 	      (PON ,)
@@ -10848,7 +10848,7 @@
 	      (ADJP-PRD (QP *ICH*-1)
 			(ADJ misericors))
 	      (PONFP ;))
-  (ID 1120-BRENDAN-MCVF-R,63.894))
+  (ID 1120-BRENDAN-MCVF-R,1239.894))
 
 ( (CP-QUE-MAT-SPE (IP-SUB-SPE (NP-SBJ=1 *proimp*)
 			      (VJ Ert)
@@ -10860,7 +10860,7 @@
 							    (VJ seie)
 							    (ADVP-LOC (ADV fors))))))
 		  (PONFP ?))
-  (ID 1120-BRENDAN-MCVF-R,63.895))
+  (ID 1120-BRENDAN-MCVF-R,1239.895))
 
 ( (IP-MAT-SPE (NP-VOC (NPRS Jesu)
 		      (PON ,)
@@ -10877,19 +10877,19 @@
 					  (NP-ACC (NCS mercit))
 					  (VJ crie)))
 	      (PONFP :))
-  (ID 1120-BRENDAN-MCVF-R,63.896))
+  (ID 1120-BRENDAN-MCVF-R,1239.896))
 
 ( (IP-MAT-SPE (NP-SBJ *con*)
 	      (NEG Ne)
 	      (MDJ puis))
-  (ID 1120-BRENDAN-MCVF-R,63.897))
+  (ID 1120-BRENDAN-MCVF-R,1239.897))
 
 ( (IP-MAT-SPE (CONJO ne)
 	      (NP-SBJ *con*)
 	      (NEG n')
 	      (VJ os)
 	      (PONFP ,))
-  (ID 1120-BRENDAN-MCVF-R,63.898))
+  (ID 1120-BRENDAN-MCVF-R,1239.898))
 
 ( (FRAG (CONJO quar)
 	(NP (Q tant)
@@ -10902,7 +10902,7 @@
 				    (VPP pris))))
 	(PONFP .)
 	(PON '))
-  (ID 1120-BRENDAN-MCVF-R,63.899))
+  (ID 1120-BRENDAN-MCVF-R,1239.899))
 
 ( (IP-MAT (CP-ADV-LFD (CONJS Quant)
 		      (IP-SUB (CL-NP-1 (CL le))
@@ -10922,20 +10922,20 @@
 		  (ADJP (ADJR graindre)))
 	  (PONFP ,)
 	  (CODE {ED_online_edition:1250_has_semicolon}))
-  (ID 1120-BRENDAN-MCVF-R,63.900))
+  (ID 1120-BRENDAN-MCVF-R,1239.900))
 
 ( (IP-MAT (NP-SBJ *con*)
 	  (VJ Levet)
 	  (NP-ACC (DZ sa) (NCS main))
 	  (PONFP ,))
-  (ID 1120-BRENDAN-MCVF-R,63.901))
+  (ID 1120-BRENDAN-MCVF-R,1239.901))
 
 ( (IP-MAT (QP (Q tuz))
 	  (NP-SBJ *con*)
 	  (CL-NP-ACC (CL les))
 	  (VJ seignet)
 	  (PONFP ,))
-  (ID 1120-BRENDAN-MCVF-R,63.902))
+  (ID 1120-BRENDAN-MCVF-R,1239.902))
 
 ( (IP-MAT (PP (P D')
 	      (IP-INF (VX apresmer)
@@ -10945,7 +10945,7 @@
 	  (CL-NP-RFL (CL se))
 	  (VJ peinet)
 	  (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,63.903))
+  (ID 1120-BRENDAN-MCVF-R,1239.903))
 
 ( (IP-MAT (CP-ADV (CONJS Cum)
 		  (IP-SUB (NP-SBJ *pro*)
@@ -10955,7 +10955,7 @@
 	  (NEG ne)
 	  (VJ mot)
 	  (PONFP ,))
-  (ID 1120-BRENDAN-MCVF-R,63.904))
+  (ID 1120-BRENDAN-MCVF-R,1239.904))
 
 ( (IP-MAT (CONJO Ne)
 	  (NP-SBJ (NCS venz) (CONJO ne) (NCS orrez))
@@ -10963,7 +10963,7 @@
 	  (CL-NP-ACC (CL la))
 	  (VJ commot)
 	  (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,63.905))
+  (ID 1120-BRENDAN-MCVF-R,1239.905))
 
 ( (IP-MAT (VJ Dist)
 	  (CL-NP-DTV (CL lui))
@@ -10982,7 +10982,7 @@
 						  (VJ suffres)
 						  (NP-ACC (D icez) (NCPL turmenz)))))
 	  (PONFP ?))
-  (ID 1120-BRENDAN-MCVF-R,63.906))
+  (ID 1120-BRENDAN-MCVF-R,1239.906))
 
 ( (IP-MAT-SPE (PP (P De)
 		  (NP (NCS part)
@@ -11002,7 +11002,7 @@
 				      (CL-NP-DTV (CL mei))
 				      (VJ dïes)))
 	      (PONFP ;))
-  (ID 1120-BRENDAN-MCVF-R,63.907))
+  (ID 1120-BRENDAN-MCVF-R,1239.907))
 
 ( (IP-IMP-SPE (CONJO E)
 	      (ADVP (ADV certement))
@@ -11023,7 +11023,7 @@
 								 (VJ es))))))
 	      (PONFP .)
 	      (PON '))
-  (ID 1120-BRENDAN-MCVF-R,63.908))
+  (ID 1120-BRENDAN-MCVF-R,1239.908))
 
 ( (CODE <pb_n="64"$$>))
 
@@ -11037,7 +11037,7 @@
 	  (IP-INF (ADVP-TMP (ADV Avant))
 		  (VX parler))
 	  (PONFP ,))
-  (ID 1120-BRENDAN-MCVF-R,64.911))
+  (ID 1120-BRENDAN-MCVF-R,1261.911))
 
 ( (IP-MAT (CONJO mais)
 	  (ADVP-TMP (ADV dunc))
@@ -11045,7 +11045,7 @@
 	  (CL-NP-RFL (CL se))
 	  (VJ tout)
 	  (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,64.912))
+  (ID 1120-BRENDAN-MCVF-R,1261.912))
 
 ( (IP-MAT (NP-SBJ (PRO Cil))
 	  (CL-NP-DTV (CL lui))
@@ -11054,7 +11054,7 @@
 	      (NP (NCS voiz)
 		  (ADJP (ADJ basse))))
 	  (PONFP ,))
-  (ID 1120-BRENDAN-MCVF-R,64.913))
+  (ID 1120-BRENDAN-MCVF-R,1261.913))
 
 ( (IP-MAT (QP-1 (Q Mult))
 	  (NP-SBJ *pro*)
@@ -11064,7 +11064,7 @@
 		    (PON ,)
 		    (CONJP (ADJP (ADV forment) (ADJ lasse))))
 	  (PONFP :))
-  (ID 1120-BRENDAN-MCVF-R,64.914))
+  (ID 1120-BRENDAN-MCVF-R,1261.914))
 
 ( (IP-MAT-SPE (PON ')
 	      (NP-SBJ (PRO Jo))
@@ -11079,7 +11079,7 @@
 									      (NP-SBJ (PRO jo))
 									      (VJ traïseie)))))))
 	      (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,64.915))
+  (ID 1120-BRENDAN-MCVF-R,1261.915))
 
 ( (IP-MAT-SPE (NP-SBJ (PRO Jo))
 	      (VJ sui)
@@ -11096,7 +11096,7 @@
 								 (CL-NP-ACC (CL me))
 								 (VJ pendi))))))
 	      (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,64.916))
+  (ID 1120-BRENDAN-MCVF-R,1261.916))
 
 ( (IP-MAT-SPE (NP-ACC (NCS Semblant)
 		      (PP (P d')
@@ -11106,7 +11106,7 @@
 	      (PP (P pur)
 		  (IP-INF-SPE (VX baiser)))
 	      (PONFP ,))
-  (ID 1120-BRENDAN-MCVF-R,64.917))
+  (ID 1120-BRENDAN-MCVF-R,1261.917))
 
 ( (IP-MAT-SPE (NP-SBJ *con*)
 	      (VJ Descordai)
@@ -11115,7 +11115,7 @@
 				      (MDJ dui)
 				      (IP-INF-SPE (VX apaiser))))
 	      (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,64.918))
+  (ID 1120-BRENDAN-MCVF-R,1261.918))
 
 ( (IP-MAT-SPE (NP-SBJ (PRO Jo))
 	      (VJ sui)
@@ -11124,7 +11124,7 @@
 					      (NP-ACC (DZ sun) (NCS aveir))
 					      (VJ guardai))))
 	      (PONFP ,))
-  (ID 1120-BRENDAN-MCVF-R,64.919))
+  (ID 1120-BRENDAN-MCVF-R,1261.919))
 
 ( (IP-MAT-SPE (PP (P En)
 		  (NP (NCS larecin)))
@@ -11132,7 +11132,7 @@
 	      (CL-NP-ACC (CL le))
 	      (VJ debardai)
 	      (PONFP ;))
-  (ID 1120-BRENDAN-MCVF-R,64.920))
+  (ID 1120-BRENDAN-MCVF-R,1261.920))
 
 ( (IP-MAT-SPE (CONJO E)
 	      (NP-ACC (D le)
@@ -11155,7 +11155,7 @@
 	      (PP (P en)
 		  (NP (DZ mes) (NCPL burses)))
 	      (PONFP :))
-  (ID 1120-BRENDAN-MCVF-R,64.921))
+  (ID 1120-BRENDAN-MCVF-R,1261.921))
 
 ( (IP-MAT-SPE (ADVP (ADV Puroc))
 	      (CL-NP-DTV (CL me))
@@ -11163,7 +11163,7 @@
 	      (NP-SBJ (NCPL peines))
 	      (ADJP-PRD (ADJ surses))
 	      (PONFP ;))
-  (ID 1120-BRENDAN-MCVF-R,64.922))
+  (ID 1120-BRENDAN-MCVF-R,1261.922))
 
 ( (IP-MAT-SPE (CONJO E)
 	      (NP-SBJ *pro*)
@@ -11179,27 +11179,27 @@
 								      (VJ fist)
 								      (NP-ACC (D cel) (NCS estelét)))))))
 	      (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,64.923))
+  (ID 1120-BRENDAN-MCVF-R,1261.923))
 
 ( (IP-MAT-SPE (NP-DTV (DAT A@) (D @s) (NCPL povres))
 	      (NP-SBJ (NPRS Deu))
 	      (NP-ACC (NCS bien))
 	      (VJ defendi)
 	      (PONFP ;))
-  (ID 1120-BRENDAN-MCVF-R,64.924))
+  (ID 1120-BRENDAN-MCVF-R,1261.924))
 
 ( (IP-MAT-SPE (ADVP-TMP (ADV Or))
 	      (NP-SBJ *pro*)
 	      (VJ sunt)
 	      (ADJP-PRD (ADJ riche))
 	      (PONFP ,))
-  (ID 1120-BRENDAN-MCVF-R,64.925))
+  (ID 1120-BRENDAN-MCVF-R,1261.925))
 
 ( (IP-MAT-SPE (CONJO e)
 	      (NP-SBJ (PRO jo))
 	      (VJ mendi)
 	      (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,64.926))
+  (ID 1120-BRENDAN-MCVF-R,1261.926))
 
 ( (IP-MAT-SPE (NP-SBJ (PRO Jo))
 	      (VJ sui)
@@ -11216,7 +11216,7 @@
 								     (NP (D @s) (NCPL lus)))
 								 (VJ trahi))))))
 	      (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,64.927))
+  (ID 1120-BRENDAN-MCVF-R,1261.927))
 
 ( (IP-MAT-SPE (CP-ADV-LFD-SPE (CONJS Quant)
 			      (IP-SUB-SPE (NP-SBJ *pro*)
@@ -11236,7 +11236,7 @@
 	      (NP-ACC (NCS chere)
 		      (ADJP (ADV forment) (ADJ mate)))
 	      (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,64.928))
+  (ID 1120-BRENDAN-MCVF-R,1261.928))
 
 ( (IP-IMP-SPE (CP-ADV-SPE (CONJS Quant)
 			  (IP-SUB-SPE (IP-SUB-SPE-1 (NP-SBJ *pro*)
@@ -11289,7 +11289,7 @@
 				      (NP-MSR (Q mult))
 				      (VPP dehaitez)))
 	      (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,64.929))
+  (ID 1120-BRENDAN-MCVF-R,1261.929))
 
 ( (IP-MAT-SPE (ADVP-TMP (ADV Puis))
 	      (NP-SBJ *pro*)
@@ -11300,7 +11300,7 @@
 				      (VPP menez)
 				      (IP-INF-PRP-SPE (VX tüer))))
 	      (PONFP ;))
-  (ID 1120-BRENDAN-MCVF-R,64.930))
+  (ID 1120-BRENDAN-MCVF-R,1261.930))
 
 ( (IP-MAT-SPE (NP-1 (D Le) (ADJ dulz) (NCS costéd))
 	      (NP-SBJ *con*)
@@ -11309,7 +11309,7 @@
 			  (NP-ACC (NCS sanc))
 			  (VX süer))
 	      (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,64.931))
+  (ID 1120-BRENDAN-MCVF-R,1261.931))
 
 ( (IP-MAT-SPE (CP-ADV-SPE (CONJS Quant)
 			  (IP-SUB-SPE (NP-SBJ *pro*)
@@ -11338,7 +11338,7 @@
 	      (VJ offri)
 	      (ADJP-1 (ADJNUM trente))
 	      (PONFP ;))
-  (ID 1120-BRENDAN-MCVF-R,64.932))
+  (ID 1120-BRENDAN-MCVF-R,1261.932))
 
 ( (IP-MAT-SPE (NP-SBJ (PRO Cil))
 	      (NEG ne)
@@ -11346,7 +11346,7 @@
 	      (IP-INF-SPE (VX cuilir)
 			  (NP-ACC (NCS rente)))
 	      (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,64.933))
+  (ID 1120-BRENDAN-MCVF-R,1261.933))
 
 ( (IP-MAT (NCS-1 Repentance)
 	  (NP-SBJ *con*)
@@ -11356,7 +11356,7 @@
 	  (NP-ACC (NCS *ICH*-1)
 		  (ADJP (ADJ sage)))
 	  (PONFP ,))
-  (ID 1120-BRENDAN-MCVF-R,64.934))
+  (ID 1120-BRENDAN-MCVF-R,1261.934))
 
 ( (CODE <pb_n="65"$$>))
 
@@ -11391,7 +11391,7 @@
 		      (PP (P en)
 			  (NP (NCS di))))
 	      (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,65.938))
+  (ID 1120-BRENDAN-MCVF-R,1299.938))
 
 ( (IP-MAT-SPE (NP-SBJ (PRO Tu))
 	      (NEG ne)
@@ -11408,7 +11408,7 @@
 						       (VJ demaine)))))
 	      (CODE {ED_online_edition:1302_has_demeine})
 	      (PONFP ;))
-  (ID 1120-BRENDAN-MCVF-R,65.939))
+  (ID 1120-BRENDAN-MCVF-R,1299.939))
 
 ( (IP-MAT-SPE (NP-SBJ (PRO Cist))
 	      (VJ est)
@@ -11425,7 +11425,7 @@
 					      (PP (P a@)
 						  (NP (D @l) (NCS seril))))))
 	      (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,65.940))
+  (ID 1120-BRENDAN-MCVF-R,1299.940))
 
 ( (IP-MAT-SPE (NP-TMP (NCS Dimaine)
 		      (CODE {ED_online_edition:1305_has_Diemaine})
@@ -11439,7 +11439,7 @@
 	      (VJ ai)
 	      (NP-ACC (ADJ tel) (NCS sujurn))
 	      (PONFP ,))
-  (ID 1120-BRENDAN-MCVF-R,65.941))
+  (ID 1120-BRENDAN-MCVF-R,1299.941))
 
 ( (IP-MAT-SPE (CONJO E)
 	      (NP-TMP (PP (P de@)
@@ -11450,7 +11450,7 @@
 	      (VJ deport)
 	      (NP-SBJ (DZ ma) (ADJ grant) (NCS peine))
 	      (PONFP ;))
-  (ID 1120-BRENDAN-MCVF-R,65.942))
+  (ID 1120-BRENDAN-MCVF-R,1299.942))
 
 ( (IP-MAT-SPE (CONJO E)
 	      (PP (P a@)
@@ -11465,7 +11465,7 @@
 	      (ADVP (ADV dunc))
 	      (ADVP (ADVNEG mie))
 	      (PONFP ;))
-  (ID 1120-BRENDAN-MCVF-R,65.943))
+  (ID 1120-BRENDAN-MCVF-R,1299.943))
 
 ( (IP-MAT-SPE (NP-TMP (NP (NPRS Pasches))
 		      (CONJP (CONJO e)
@@ -11484,7 +11484,7 @@
 	      (VJ ai)
 	      (NP-ACC (QR plus) (ADJ custe))
 	      (PONFP ;))
-  (ID 1120-BRENDAN-MCVF-R,65.944))
+  (ID 1120-BRENDAN-MCVF-R,1299.944))
 
 ( (IP-MAT-SPE (PP (P A)
 		  (NP (NCPL feste)
@@ -11501,7 +11501,7 @@
 			  (NP (DZ mun) (NCS ahan))))
 	      (PONFP .)
 	      (CODE {ED_online_edition:1314_has_comma}))
-  (ID 1120-BRENDAN-MCVF-R,65.945))
+  (ID 1120-BRENDAN-MCVF-R,1299.945))
 
 ( (IP-MAT-SPE (NP-TMP (NCS Dïemaine))
 	      (CODE {ED_online_edition:1315_has_Diemaine})
@@ -11517,7 +11517,7 @@
 		  (IP-INF-SPE (VX asperir)))
 	      (PONFP .)
 	      (PON '))
-  (ID 1120-BRENDAN-MCVF-R,65.946))
+  (ID 1120-BRENDAN-MCVF-R,1299.946))
 
 ( (CODE <L_1317>))
 
@@ -11549,7 +11549,7 @@
 							     (PP (P e@)
 								 (NP (D @s) (NCPL peines))))))))
 	  (PONFP ?))
-  (ID 1120-BRENDAN-MCVF-R,65.948))
+  (ID 1120-BRENDAN-MCVF-R,1317.948))
 
 ( (CP-QUE-MAT-SPE (CONJO E)
 		  (PP (P en)
@@ -11559,7 +11559,7 @@
 			      (VJ as)
 			      (NP-SBJ (PRO tu)))
 		  (PONFP ?))
-  (ID 1120-BRENDAN-MCVF-R,65.949))
+  (ID 1120-BRENDAN-MCVF-R,1317.949))
 
 ( (CP-QUE-MAT-SPE (CP-ADV-SPE (PP-1 (P D')
 				    (ADVP (ADV ici)))
@@ -11575,7 +11575,7 @@
 			      (NP-SBJ (PRO tu)))
 		  (PONFP ?)
 		  (PON '))
-  (ID 1120-BRENDAN-MCVF-R,65.950))
+  (ID 1120-BRENDAN-MCVF-R,1317.950))
 
 ( (IP-MAT (VJ Respunt)
 	  (NP-SBJ (NPRS Judas))
@@ -11595,7 +11595,7 @@
 						(VJ est)
 						(NP-SBJ (D li) (NCS fius)))))
 	  (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,65.951))
+  (ID 1120-BRENDAN-MCVF-R,1317.951))
 
 ( (IP-MAT-SPE (NP-SBJ=1 *proimp*)
 	      (NEG N')
@@ -11605,7 +11605,7 @@
 		    (PP (P fors)
 			(NP (FP sul) (D un) (Q poi))))
 	      (PONFP ;))
-  (ID 1120-BRENDAN-MCVF-R,65.952))
+  (ID 1120-BRENDAN-MCVF-R,1317.952))
 
 ( (IP-MAT-SPE (QP-1 (Q Tant))
 	      (NP-SBJ *pro*)
@@ -11620,14 +11620,14 @@
 						(CL-NP-ACC (CL @es))
 						(VJ oi))))
 	      (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,65.953))
+  (ID 1120-BRENDAN-MCVF-R,1317.953))
 
 ( (IP-MAT-SPE (NP-1 (ADJNUM Dous) (NCPL enfers))
 	      (NP-SBJ=1 *proimp*)
 	      (VJ ad)
 	      (ADVP-LOC (ADV ci) (ADV dejuste))
 	      (PONFP ;))
-  (ID 1120-BRENDAN-MCVF-R,65.954))
+  (ID 1120-BRENDAN-MCVF-R,1317.954))
 
 ( (IP-MAT-SPE (PP-1 (P De)
 		    (IP-INF-SPE (VX suffrir)
@@ -11637,7 +11637,7 @@
 	      (VJ est)
 	      (NP-PRD (ADJ grant) (NCS custe))
 	      (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,65.955))
+  (ID 1120-BRENDAN-MCVF-R,1317.955))
 
 ( (IP-MAT-SPE (ADVP-LOC (Q Mult)
 			(ADV pres)
@@ -11652,7 +11652,7 @@
 					      (VJ cessent)
 					      (NP-TMP (NCS estét) (CONJO ne) (NCS ivern)))))
 	      (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,65.956))
+  (ID 1120-BRENDAN-MCVF-R,1317.956))
 
 ( (IP-MAT-SPE (NP-SBJ (D Li)
 		      (ADJP (QR plus) (ADJ legiers)))
@@ -11668,7 +11668,7 @@
 				     (Q mult)
 				     (ADJ penibles))))
 	      (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,65.957))
+  (ID 1120-BRENDAN-MCVF-R,1317.957))
 
 ( (IP-MAT-SPE (NP-ACC (PRO Ço)
 		      (CP-THT-SPE *ICH*-2))
@@ -11686,7 +11686,7 @@
 					(NEG ne)
 					(VJ meinent)))
 	      (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,65.958))
+  (ID 1120-BRENDAN-MCVF-R,1317.958))
 
 ( (IP-MAT-SPE (PP (P Fors)
 		  (NP (PRO mei)))
@@ -11868,7 +11868,7 @@
 	      (PP (P en)
 		  (NP (NCS tresturn)))
 	      (PONFP ,))
-  (ID 1120-BRENDAN-MCVF-R,66.974))
+  (ID 1120-BRENDAN-MCVF-R,1353.974))
 
 ( (IP-MAT-SPE (CONJO E)
 	      (CODE {ED_online_edition:1355_has_Et})
@@ -11887,7 +11887,7 @@
 					    (VJ fait)
 					    (NP-SBJ (D li) (NCS venz)))))
 	      (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,66.975))
+  (ID 1120-BRENDAN-MCVF-R,1353.975))
 
 ( (IP-MAT-SPE (NP-SBJ (NCS Venz))
 	      (CL-NP-ACC (CL la))
@@ -11895,7 +11895,7 @@
 	      (PP (P par)
 		  (NP (Q tut) (D cel) (NCS air)))
 	      (PONFP :))
-  (ID 1120-BRENDAN-MCVF-R,66.976))
+  (ID 1120-BRENDAN-MCVF-R,1353.976))
 
 ( (IP-MAT-SPE (ADVP-TMP (ADV Tot=dis))
 	      (NP-SBJ *pro*)
@@ -11903,13 +11903,13 @@
 	      (CL-PP (CL en))
 	      (VJ voi)
 	      (PONFP ,))
-  (ID 1120-BRENDAN-MCVF-R,66.977))
+  (ID 1120-BRENDAN-MCVF-R,1353.977))
 
 ( (IP-MAT-SPE (ADVP-TMP (ADV tot=di))
 	      (NP-SBJ *con*)
 	      (VJ repair)
 	      (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,66.978))
+  (ID 1120-BRENDAN-MCVF-R,1353.978))
 
 ( (IP-MAT-SPE (ADVP-TMP (ADV Puis))
 	      (PP (P e@)
@@ -11928,7 +11928,7 @@
 								      (ADJP-PRD (Q tot) (VPP acaliz)))))))
 	      (PONFP :)
 	      (CODE {ED_online_edition:1360_has_semicolon}))
-  (ID 1120-BRENDAN-MCVF-R,66.979))
+  (ID 1120-BRENDAN-MCVF-R,1353.979))
 
 ( (IP-MAT-SPE (PP (P Ultre)
 		  (NP (D la) (NCS mer)))
@@ -11948,7 +11948,7 @@
 					      (NP-3 (QP *ICH*-2)
 						    (NCS mal))))))
 	      (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,66.980))
+  (ID 1120-BRENDAN-MCVF-R,1353.980))
 
 ( (IP-MAT-SPE (ADVP-LOC (ADV Iloces))
 	      (NP-SBJ *con*)
@@ -11960,7 +11960,7 @@
 		  (NP (NCPL dïables)
 		      (ADJP (Q mult) (VPP escrïez))))
 	      (PONFP ;))
-  (ID 1120-BRENDAN-MCVF-R,66.981))
+  (ID 1120-BRENDAN-MCVF-R,1353.981))
 
 ( (IP-MAT-SPE (PP (P E@)
 		  (NP (D @l) (NCS lit)))
@@ -11971,7 +11971,7 @@
 		  (NP (D les) (NCPL broches)))
 	      (CODE {ED_online_edition:1365_has_brothes})
 	      (PONFP ;))
-  (ID 1120-BRENDAN-MCVF-R,66.982))
+  (ID 1120-BRENDAN-MCVF-R,1353.982))
 
 ( (IP-MAT-SPE (PP (P Sur)
 		  (NP (PRO mei)))
@@ -11979,7 +11979,7 @@
 	      (VJ mettent)
 	      (NP-ACC (NCPL plums) (CONJO e) (NCPL roches))
 	      (PONFP ;))
-  (ID 1120-BRENDAN-MCVF-R,66.983))
+  (ID 1120-BRENDAN-MCVF-R,1353.983))
 
 ( (IP-MAT-SPE (ADVP-LOC (ADV Iloces))
 	      (NP-SBJ *pro*)
@@ -11993,7 +11993,7 @@
 					(NP-SBJ *pro*)
 					(VJ vëez)))
 	      (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,66.984))
+  (ID 1120-BRENDAN-MCVF-R,1353.984))
 
 ( (IP-MAT-SPE (PP (P A@)
 		  (NP (D @l) (NCS mecredi)))
@@ -12009,7 +12009,7 @@
 						(EJ est)
 						(VPP müez))))
 	      (PONFP :))
-  (ID 1120-BRENDAN-MCVF-R,66.985))
+  (ID 1120-BRENDAN-MCVF-R,1353.985))
 
 ( (IP-MAT-SPE (NP-XXX (NCS Pose)
 		      (PP (P de@)
@@ -12198,7 +12198,7 @@
 	      (PP (P en)
 		  (NP (NCS val)))
 	      (PONFP ,))
-  (ID 1120-BRENDAN-MCVF-R,67.998))
+  (ID 1120-BRENDAN-MCVF-R,1389.998))
 
 ( (IP-MAT-SPE (CONJO E)
 	      (PP (P pur)
@@ -12216,7 +12216,7 @@
 			    (CONJP (CONJO e)
 				   (ADJP (ADV forment) (ADJ ceu))))))
 	      (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,67.999))
+  (ID 1120-BRENDAN-MCVF-R,1389.999))
 
 ( (IP-MAT-SPE (QP-1 (Q Tant))
 	      (NP-SBJ *con*)
@@ -12241,7 +12241,7 @@
 												  (ADVP (Q tant) (ADV fort))
 												  (VJ art))))))))
 	      (PONFP ;))
-  (ID 1120-BRENDAN-MCVF-R,67.1000))
+  (ID 1120-BRENDAN-MCVF-R,1389.1000))
 
 ( (IP-MAT-SPE (CONJO E)
 	      (IP-MAT-PRN-SPE (ADVP-TMP (ADV dunc))
@@ -12262,7 +12262,7 @@
 					    (CL-NP-ACC (CL me))
 					    (VJ sente))))
 	      (PONFP ;))
-  (ID 1120-BRENDAN-MCVF-R,67.1001))
+  (ID 1120-BRENDAN-MCVF-R,1389.1001))
 
 ( (IP-MAT-SPE (CONJO E)
 	      (PP (P de)
@@ -12282,7 +12282,7 @@
 				      (EJ sui)
 				      (VPP mis)))
 	      (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,67.1002))
+  (ID 1120-BRENDAN-MCVF-R,1389.1002))
 
 ( (IP-MAT-SPE (PP (P A@)
 		  (NP (D @l) (NCS vendresdi)))
@@ -12296,7 +12296,7 @@
 						    (NP (PRO mei)))
 						(VJ sunt))))
 	      (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,67.1003))
+  (ID 1120-BRENDAN-MCVF-R,1389.1003))
 
 ( (IP-MAT-SPE (ADVP-TMP (ADV Dunc))
 	      (NP-SBJ *pro*)
@@ -12313,7 +12313,7 @@
 				      (ADVP (ADVNEG puint))
 				      (ADVP-LOC (ADV defors))))
 	      (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,67.1004))
+  (ID 1120-BRENDAN-MCVF-R,1389.1004))
 
 ( (IP-MAT-SPE (PP (P En)
 		  (NP (D la)
@@ -12327,7 +12327,7 @@
 	      (PP (P od)
 		  (NP (D l') (VG ardant) (NCS pel)))
 	      (PONFP ;))
-  (ID 1120-BRENDAN-MCVF-R,67.1005))
+  (ID 1120-BRENDAN-MCVF-R,1389.1005))
 
 ( (IP-MAT-SPE (ADVP-TMP (ADV Puis))
 	      (VJ revent)
@@ -12337,7 +12337,7 @@
 	      (PP (P a)
 		  (NP (D cel) (NCS turment)))
 	      (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,67.1006))
+  (ID 1120-BRENDAN-MCVF-R,1389.1006))
 
 ( (IP-MAT-SPE (NP-MSR (ADJNUM Dis)
 		      (NCPL feiz)
@@ -12347,7 +12347,7 @@
 	      (CL-NP-ACC (CL m'))
 	      (VJ escorcent)
 	      (PONFP ,))
-  (ID 1120-BRENDAN-MCVF-R,67.1007))
+  (ID 1120-BRENDAN-MCVF-R,1389.1007))
 
 ( (CODE <pb_n="68"$$>))
 
@@ -12642,7 +12642,7 @@
 				  (VJ ad)
 				  (NP-ACC (Q tanz) (NCPL dolurs))))))
 	  (PONFP ;))
-  (ID 1120-BRENDAN-MCVF-R,68.1033))
+  (ID 1120-BRENDAN-MCVF-R,1439.1033))
 
 ( (IP-MAT (NP-SBJ *con*)
 	  (VJ Comandet)
@@ -12672,7 +12672,7 @@
 											   (CL-NP-RFL (CL se))
 											   (VJ tint)))))))))))
 	  (PONFP ,))
-  (ID 1120-BRENDAN-MCVF-R,68.1034))
+  (ID 1120-BRENDAN-MCVF-R,1439.1034))
 
 ( (IP-MAT (NP-SBJ *con*)
 	  (VJ Demandet)
@@ -12685,7 +12685,7 @@
 			      (NP-SBJ *pro*)
 			      (VJ vint)))
 	  (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,68.1035))
+  (ID 1120-BRENDAN-MCVF-R,1439.1035))
 
 ( (IP-MAT (NP-SBJ (PRO Cil))
 	  (CL-NP-DTV (CL lui))
@@ -13072,7 +13072,7 @@
 	      (ADVP (ADV iloec)))
 	  (ADVP-DIR (ADV avant))
 	  (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,70.1064))
+  (ID 1120-BRENDAN-MCVF-R,1487.1064))
 
 ( (IP-MAT (ADVP (ADV Bien))
 	  (NP-SBJ *con*)
@@ -13084,7 +13084,7 @@
 			  (VJ ad)
 			  (NP-ACC (ADJ bon) (NCS guarant))))
 	  (PONFP ;))
-  (ID 1120-BRENDAN-MCVF-R,70.1065))
+  (ID 1120-BRENDAN-MCVF-R,1487.1065))
 
 ( (IP-MAT (CONJO E)
 	  (NP-SBJ (D li) (NCPL muine))
@@ -13100,7 +13100,7 @@
 			      (NP (D @l) (NPRS Deu)))
 			  (VPP cunduit)))
 	  (PONFP ;))
-  (ID 1120-BRENDAN-MCVF-R,70.1066))
+  (ID 1120-BRENDAN-MCVF-R,1487.1066))
 
 ( (IP-MAT (NP-SBJ *con*)
 	  (VJ Mercïent)
@@ -13111,7 +13111,7 @@
 		     (PP (P de)
 			 (NP (Q tutes) (DZ lur) (NCPL agreies)))))
 	  (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,70.1067))
+  (ID 1120-BRENDAN-MCVF-R,1487.1067))
 
 ( (IP-MAT (CP-ADV (CONJS Cum)
 		  (IP-SUB (CL-NP-RFL (CL se))
@@ -13125,7 +13125,7 @@
 	  (PP (P a)
 	      (NP (D l') (NCS un)))
 	  (PONFP ,))
-  (ID 1120-BRENDAN-MCVF-R,70.1068))
+  (ID 1120-BRENDAN-MCVF-R,1487.1068))
 
 ( (IP-MAT (CONJO E)
 	  (NP-SBJ *con*)
@@ -13143,7 +13143,7 @@
 						 (EJ est)
 						 (VPP detenuz)))))
 	  (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,70.1069))
+  (ID 1120-BRENDAN-MCVF-R,1487.1069))
 
 ( (IP-MAT (PP (P D@)
 	      (NP (D @es) (NUM dous)))
@@ -13156,7 +13156,7 @@
 			      (AJ unt)
 			      (VPP errét)))
 	  (PONFP ,))
-  (ID 1120-BRENDAN-MCVF-R,70.1070))
+  (ID 1120-BRENDAN-MCVF-R,1487.1070))
 
 ( (IP-MAT (CONJO Mais)
 	  (PP (P de)
@@ -13165,7 +13165,7 @@
 	  (EJ sunt)
 	  (VPP enserrét)
 	  (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,70.1071))
+  (ID 1120-BRENDAN-MCVF-R,1487.1071))
 
 ( (IP-MAT (NP-SBJ (D L')
 		  (NCS abes)
@@ -13190,7 +13190,7 @@
 						      (CL-NP-DTV (CL li))
 						      (VJ plout)))))
 	  (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,70.1072))
+  (ID 1120-BRENDAN-MCVF-R,1487.1072))
 
 ( (IP-IMP-SPE (PP (P D')
 		  (NP (PRO iço)))
@@ -13198,14 +13198,14 @@
 	      (VJ aiez)
 	      (NP-ACC (Q nule) (NCS dute))
 	      (PONFP ,))
-  (ID 1120-BRENDAN-MCVF-R,70.1073))
+  (ID 1120-BRENDAN-MCVF-R,1487.1073))
 
 ( (IP-IMP-SPE (ADVP (ADV Ainz))
 	      (VJ tenez)
 	      (ADVP (ADV bien))
 	      (NP-ACC (DZ vostre) (NCS rute))
 	      (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,70.1074))
+  (ID 1120-BRENDAN-MCVF-R,1487.1074))
 
 ( (IP-IMP-SPE (VJ Sachez)
 	      (CP-THT-SPE (CONJS qu')
@@ -13221,7 +13221,7 @@
 							     (NP (NCS turment))))))))
 	      (PONFP .)
 	      (PON '))
-  (ID 1120-BRENDAN-MCVF-R,70.1075))
+  (ID 1120-BRENDAN-MCVF-R,1487.1075))
 
 ( (CODE <L_1505>))
 
@@ -13243,14 +13243,14 @@
 		      (NP (NCS mer))))
 	  (PONFP .)
 	  (CODE {ED_online_edition:1506_has_comma}))
-  (ID 1120-BRENDAN-MCVF-R,70.1077))
+  (ID 1120-BRENDAN-MCVF-R,1505.1077))
 
 ( (IP-MAT (ADVP (ADV Tost))
 	  (NP-SBJ *con*)
 	  (CL-PP (CL i))
 	  (VJ venent)
 	  (PONFP ,))
-  (ID 1120-BRENDAN-MCVF-R,70.1078))
+  (ID 1120-BRENDAN-MCVF-R,1505.1078))
 
 ( (IP-MAT (CONJO mais)
 	  (NP-SBJ (D la) (NCS rive))
@@ -13261,7 +13261,7 @@
 		    (CONJO e)
 		    (ADJ escive))
 	  (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,70.1079))
+  (ID 1120-BRENDAN-MCVF-R,1505.1079))
 
 ( (IP-MAT (NP-SBJ (D L') (NCS abes))
 	  (CL-NP-DTV (CL lur))
@@ -13274,7 +13274,7 @@
 		      (CL-PP (CL en))
 		      (ADVP-DIR (ADV fors)))
 	  (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,70.1080))
+  (ID 1120-BRENDAN-MCVF-R,1505.1080))
 
 ( (IP-MAT-SPE (NEG Ne)
 	      (VJ movet)
@@ -13287,12 +13287,12 @@
 			      (NCS cors))))
 	      (PONFP !)
 	      (PON '))
-  (ID 1120-BRENDAN-MCVF-R,70.1081))
+  (ID 1120-BRENDAN-MCVF-R,1505.1081))
 
 ( (IP-MAT (NP-SBJ *con*)
 	  (VJ Puiet)
 	  (NP-ACC (D le) (NCS munt)))
-  (ID 1120-BRENDAN-MCVF-R,70.1082))
+  (ID 1120-BRENDAN-MCVF-R,1505.1082))
 
 ( (IP-MAT (CONJO e)
 	  (ADVP (ADV lunges))
@@ -13305,7 +13305,7 @@
 			  (NP-SBJ *pro*)
 			  (AJ ait)))
 	  (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,70.1083))
+  (ID 1120-BRENDAN-MCVF-R,1505.1083))
 
 ( (IP-MAT (PP (P Par)
 	      (NP (D un) (NCS rochét)))
@@ -13313,14 +13313,14 @@
 	  (NP-SBJ *con*)
 	  (VJ tint)
 	  (PONFP ,))
-  (ID 1120-BRENDAN-MCVF-R,70.1084))
+  (ID 1120-BRENDAN-MCVF-R,1505.1084))
 
 ( (IP-MAT (NP-SBJ (D Une) (NCS bodme))
 	  (ADVP-TMP (ADV puis))
 	  (CL-NP-DTV (CL li))
 	  (VJ survint)
 	  (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,70.1085))
+  (ID 1120-BRENDAN-MCVF-R,1505.1085))
 
 ( (IP-MAT (VJ Eisit)
 	  (NP-SBJ (D uns) (NCS hom))
@@ -13328,7 +13328,7 @@
 	  (PP (P de)
 	      (NP (D cel) (NCS liu)))
 	  (PONFP ,))
-  (ID 1120-BRENDAN-MCVF-R,70.1086))
+  (ID 1120-BRENDAN-MCVF-R,1505.1086))
 
 ( (IP-MAT (ADJ-1 Religïus)
 	  (NP-SBJ *con*)
@@ -13337,14 +13337,14 @@
 		    (CONJO e)
 		    (ADJ piu))
 	  (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,70.1087))
+  (ID 1120-BRENDAN-MCVF-R,1505.1087))
 
 ( (IP-MAT (NP-SBJ (PRO Cil))
 	  (VJ apelet)
 	  (NP-ACC (NPRS Brandan))
 	  (ADVP-DIR (ADV avant))
 	  (PONFP ,))
-  (ID 1120-BRENDAN-MCVF-R,70.1088))
+  (ID 1120-BRENDAN-MCVF-R,1505.1088))
 
 ( (IP-MAT (CONJO Quar)
 	  (PP (P par)
@@ -13354,14 +13354,14 @@
 	  (ADJP-PRD (NP-COM (DZ sun) (NCS nun))
 		    (ADJ savant))
 	  (PONFP ,))
-  (ID 1120-BRENDAN-MCVF-R,70.1089))
+  (ID 1120-BRENDAN-MCVF-R,1505.1089))
 
 ( (IP-MAT (ADVP-TMP (ADV Puis))
 	  (NP-SBJ *con*)
 	  (CL-NP-ACC (CL le))
 	  (VJ baiset)
 	  (PONFP ,))
-  (ID 1120-BRENDAN-MCVF-R,70.1090))
+  (ID 1120-BRENDAN-MCVF-R,1505.1090))
 
 ( (IP-MAT (NP-1 (DZ ses) (NCPL cumpaignuns))
 	  (CODE <pb_n="71"$$>)
@@ -13715,7 +13715,7 @@
 				      (ADVP-LOC (ADV ci))
 				      (VPP estét)))
 	      (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,71.1122))
+  (ID 1120-BRENDAN-MCVF-R,1553.1122))
 
 ( (IP-MAT-SPE (NP-1 (ADJ Beal) (NCS tens))
 	      (NP-SBJ=1 *proimp*)
@@ -13725,14 +13725,14 @@
 	      (FRAG (ADVP-TMP (ADV tuz=dis))
 		    (NP (NCS estét)))
 	      (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,71.1123))
+  (ID 1120-BRENDAN-MCVF-R,1553.1123))
 
 ( (IP-MAT-SPE (ADVP-LOC (ADV Ici))
 	      (NP-SBJ *pro*)
 	      (VJ atent)
 	      (NP-ACC (D le) (NCS juïse))
 	      (PONFP ;))
-  (ID 1120-BRENDAN-MCVF-R,71.1124))
+  (ID 1120-BRENDAN-MCVF-R,1553.1124))
 
 ( (IP-MAT-SPE (PP (P De)
 		  (NP (NPRS Deu)))
@@ -13741,7 +13741,7 @@
 	      (VJ ai)
 	      (NP-ACC (NCS cumandise))
 	      (PONFP :))
-  (ID 1120-BRENDAN-MCVF-R,71.1125))
+  (ID 1120-BRENDAN-MCVF-R,1553.1125))
 
 ( (IP-MAT-SPE (ADVP (ADV Tres@) (Q @tut))
 	      (NP-SBJ *con*)
@@ -13752,7 +13752,7 @@
 		  (CONJP (CONJO e)
 			 (PP (P en)
 			     (NP (NCPL os))))))
-  (ID 1120-BRENDAN-MCVF-R,71.1126))
+  (ID 1120-BRENDAN-MCVF-R,1553.1126))
 
 ( (CODE <pb_n="72"$$>))
 
@@ -14203,7 +14203,7 @@
 	  (PP (P vers)
 	      (NP (DZ lur) (NCS hoste)))
 	  (PONFP ,))
-  (ID 1120-BRENDAN-MCVF-R,73.1164))
+  (ID 1120-BRENDAN-MCVF-R,1607.1164))
 
 ( (IP-MAT (ADVP (ADV Si))
 	  (NP-SBJ *con*)
@@ -14211,7 +14211,7 @@
 	  (NP-ACC (NCPL niule)
 		  (ADJP (Q mult) (ADJ enposte)))
 	  (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,73.1165))
+  (ID 1120-BRENDAN-MCVF-R,1607.1165))
 
 ( (IP-MAT (NP-SBJ *con*)
 	  (VJ Siglent)
@@ -14229,7 +14229,7 @@
 					    (NP-SBJ *pro*)
 					    (VJ teingent)))))
 	  (PONFP ,))
-  (ID 1120-BRENDAN-MCVF-R,73.1166))
+  (ID 1120-BRENDAN-MCVF-R,1607.1166))
 
 ( (IP-MAT (CONJO E)
 	  (PP (P a@)
@@ -14244,7 +14244,7 @@
 	  (PP (P a)
 	      (NP (ADJ grant) (NCS peine)))
 	  (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,73.1167))
+  (ID 1120-BRENDAN-MCVF-R,1607.1167))
 
 ( (IP-MAT (ADVP-LOC (ADV Iloec))
 	  (NP-SBJ *con*)
@@ -14265,7 +14265,7 @@
 				    (IP-INF (NP-TMP *T*-2)
 					    (VX *ICH*-3))))))
 	  (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,73.1168))
+  (ID 1120-BRENDAN-MCVF-R,1607.1168))
 
 ( (IP-MAT (NP-TMP (D Le) (NCS samadi))
 	  (PP (P a@)
@@ -14273,7 +14273,7 @@
 	  (NP-SBJ *con*)
 	  (VJ vunt)
 	  (PONFP :))
-  (ID 1120-BRENDAN-MCVF-R,73.1169))
+  (ID 1120-BRENDAN-MCVF-R,1607.1169))
 
 ( (IP-MAT (CP-ADV (WADVP-1 0)
 		  (CONJS Cum)
@@ -14284,7 +14284,7 @@
 	  (CL-PP (CL i))
 	  (VJ funt)
 	  (PONFP ,))
-  (ID 1120-BRENDAN-MCVF-R,73.1170))
+  (ID 1120-BRENDAN-MCVF-R,1607.1170))
 
 ( (IP-MAT (CONJO E)
 	  (ADVP (ADV bien))
@@ -14301,14 +14301,14 @@
 					  (VJ est)
 					  (NP-PRD (DZ lur) (NCS servanz))))))
 	  (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,73.1171))
+  (ID 1120-BRENDAN-MCVF-R,1607.1171))
 
 ( (IP-MAT (NP-ACC (NPRS Deu))
 	  (NP-SBJ *con*)
 	  (CL-PP (CL en))
 	  (VJ loient)
 	  (PONFP :))
-  (ID 1120-BRENDAN-MCVF-R,73.1172))
+  (ID 1120-BRENDAN-MCVF-R,1607.1172))
 
 ( (IP-MAT (NP-SBJ *con*)
 	  (NEG n')
@@ -14322,7 +14322,7 @@
 		      (NP (NPRS Deu)))
 		  (ADJP (ADJ certe))))
 	  (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,73.1173))
+  (ID 1120-BRENDAN-MCVF-R,1607.1173))
 
 ( (IP-MAT (CONJO E)
 	  (NP-TMP (D l') (NCS endemain))
@@ -14339,7 +14339,7 @@
 				  (NP-SBJ (PRO il))
 				  (VJ trovent)))))
 	  (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,73.1174))
+  (ID 1120-BRENDAN-MCVF-R,1607.1174))
 
 ( (IP-MAT (PP (P Vers)
 	      (NP (D les) (NCPL oiseals)))
@@ -14354,7 +14354,7 @@
 				    (NP-SBJ *pro*)
 				    (VJ sujurnerunt))))
 	  (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,73.1175))
+  (ID 1120-BRENDAN-MCVF-R,1607.1175))
 
 ( (IP-MAT (ADVP-LOC (ADV Iloec))
 	  (NP-SBJ *con*)
@@ -14362,7 +14362,7 @@
 	  (PP (P a)
 	      (NP (ADJ grant) (NCS deduit)))
 	  (PONFP ,))
-  (ID 1120-BRENDAN-MCVF-R,73.1176))
+  (ID 1120-BRENDAN-MCVF-R,1607.1176))
 
 ( (IP-MAT (CONJO E)
 	  (NP-SBJ *con*)
@@ -14388,12 +14388,12 @@
 						    (CONJP (CONJO e)
 							   (ADJX (ADJ beals)))))))))
 	  (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,73.1177))
+  (ID 1120-BRENDAN-MCVF-R,1607.1177))
 
 ( (IP-MAT (NP-SBJ (PRO Cil))
 	  (VJ aprestet)
 	  (NP-ACC (Q tuz) (DZ lur) (NCPL busuinz)))
-  (ID 1120-BRENDAN-MCVF-R,73.1178))
+  (ID 1120-BRENDAN-MCVF-R,1607.1178))
 
 ( (IP-MAT (CONJO Quar)
 	  (ADVP (ADV bien))
@@ -14404,7 +14404,7 @@
 			  (VJ est)
 			  (ADJP-PRD (ADJ luinz))))
 	  (PONFP ;))
-  (ID 1120-BRENDAN-MCVF-R,73.1179))
+  (ID 1120-BRENDAN-MCVF-R,1607.1179))
 
 ( (IP-MAT (CONJO E)
 	  (ADVP (ADV bien))
@@ -14417,7 +14417,7 @@
 				  (CL-NP-DTV (CL lur))
 				  (VJ estot))))
 	  (PONFP ,))
-  (ID 1120-BRENDAN-MCVF-R,73.1180))
+  (ID 1120-BRENDAN-MCVF-R,1607.1180))
 
 ( (IP-MAT (PP (P Pur)
 	      (NP (PRO ço)))
@@ -14430,7 +14430,7 @@
 				  (NP-SBJ *pro*)
 				  (VJ poet)))))
 	  (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,73.1181))
+  (ID 1120-BRENDAN-MCVF-R,1607.1181))
 
 ( (IP-MAT (NP-SBJ *pro*)
 	  (VJ Entrent)
@@ -14440,7 +14440,7 @@
 	  (IP-ABS (NP-SBJ (D l') (NCS ostes))
 		  (ADVP-PRD (ADV ovoec)))
 	  (PONFP ;))
-  (ID 1120-BRENDAN-MCVF-R,73.1182))
+  (ID 1120-BRENDAN-MCVF-R,1607.1182))
 
 ( (CODE <pb_n="74"$$>))
 
@@ -14549,7 +14549,7 @@
 							  (VJ fud)
 							  (NP-PRD (NCS poëstis)))))))))
 	  (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,74.1190))
+  (ID 1120-BRENDAN-MCVF-R,1643.1190))
 
 ( (IP-MAT (NP-SBJ (NCPL Nües)
 		  (ADJP (ADJ grandes)))
@@ -14563,7 +14563,7 @@
 			  (CL-PP (CL i))
 			  (VJ unt)))
 	  (PONFP :))
-  (ID 1120-BRENDAN-MCVF-R,74.1191))
+  (ID 1120-BRENDAN-MCVF-R,1643.1191))
 
 ( (IP-MAT (NP-SBJ (D Li) (ADJ granz) (NCS calins))
 	  (QP-1 (Q tant))
@@ -14591,7 +14591,7 @@
 							  (IP-INF (VX passer)
 								  (NP-ACC (D cele) (NCS nue)))))))))
 	  (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,74.1192))
+  (ID 1120-BRENDAN-MCVF-R,1643.1192))
 
 ( (IP-MAT (ADVP-TMP (ADV Dunc))
 	  (VJ dist)
@@ -14602,7 +14602,7 @@
 		      (CL-PP (CL i))
 		      (VJ targez))
 	  (PONFP ,))
-  (ID 1120-BRENDAN-MCVF-R,74.1193))
+  (ID 1120-BRENDAN-MCVF-R,1643.1193))
 
 ( (IP-IMP-SPE (CONJO Mais)
 	      (NP-ACC (D la) (NCS sigle))
@@ -14611,7 +14611,7 @@
 	      (VJ chargez)
 	      (PONFP !)
 	      (PON '))
-  (ID 1120-BRENDAN-MCVF-R,74.1194))
+  (ID 1120-BRENDAN-MCVF-R,1643.1194))
 
 ( (IP-MAT (CP-ADV (CONJS Cum)
 		  (IP-SUB (NP-SBJ *pro*)
@@ -14625,7 +14625,7 @@
 		  (PP (P d')
 		      (NP (D une) (NCS rue)))))
 	  (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,74.1195))
+  (ID 1120-BRENDAN-MCVF-R,1643.1195))
 
 ( (IP-MAT (NP-SBJ (PRO Cil))
 	  (CL-NP-RFL (CL se))
@@ -14633,7 +14633,7 @@
 	  (PP (ADV enz)
 	      (P e@)
 	      (NP (D @l) (NCS calin))))
-  (ID 1120-BRENDAN-MCVF-R,74.1196))
+  (ID 1120-BRENDAN-MCVF-R,1643.1196))
 
 ( (IP-MAT (CONJO E)
 	  (ADVP-LOC (ADV parmi))
@@ -14641,7 +14641,7 @@
 	  (VJ unt)
 	  (NP-ACC (ADJ grant) (NCS chemin))
 	  (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,74.1197))
+  (ID 1120-BRENDAN-MCVF-R,1643.1197))
 
 ( (IP-MAT (NP-MSR (Q Mult))
 	  (NP-SBJ *con*)
@@ -14660,7 +14660,7 @@
 				  (PP (P en)
 				      (NP (NCS coste)))))))
 	  (PONFP :))
-  (ID 1120-BRENDAN-MCVF-R,74.1198))
+  (ID 1120-BRENDAN-MCVF-R,1643.1198))
 
 ( (IP-MAT (ADJ-1 Grant)
 	  (NP-SBJ *pro*)
@@ -14670,7 +14670,7 @@
 		    (CONJP (CONJO e)
 			   (ADJX (VPP serree))))
 	  (PONFP ,))
-  (ID 1120-BRENDAN-MCVF-R,74.1199))
+  (ID 1120-BRENDAN-MCVF-R,1643.1199))
 
 ( (IP-MAT (PP (P De)
 	      (NP (Q ambes) (NCPL parz)))
@@ -14678,7 +14678,7 @@
 	  (EJ est)
 	  (VPP amassee)
 	  (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,74.1200))
+  (ID 1120-BRENDAN-MCVF-R,1643.1200))
 
 ( (IP-MAT (NP-MSR (ADJNUM Treis) (NCPL jurz))
 	  (NP-SBJ *pro*)
@@ -14695,7 +14695,7 @@
 				  (VJ est)
 				  (ADJP-PRD (ADJ surs))))))
 	  (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,74.1201))
+  (ID 1120-BRENDAN-MCVF-R,1643.1201))
 
 ( (IP-MAT (PP (P E@)
 	      (NP (D @l) (NCS quart)))
@@ -14704,7 +14704,7 @@
 	  (PP (P de)
 	      (NP (D cel) (NCS calin)))
 	  (PONFP ;))
-  (ID 1120-BRENDAN-MCVF-R,74.1202))
+  (ID 1120-BRENDAN-MCVF-R,1643.1202))
 
 ( (IP-MAT (ADVP-1 (ADV Forment))
 	  (VJ sunt)
@@ -14712,7 +14712,7 @@
 		    (ADJ léd))
 	  (NP-SBJ (D li) (NCPL pelerin))
 	  (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,74.1203))
+  (ID 1120-BRENDAN-MCVF-R,1643.1203))
 
 ( (IP-MAT (PARTP (PP (P De)
 		     (NP (D la) (NCS nue)))
@@ -14723,7 +14723,7 @@
 	  (CL-NP-1 (CL s'))
 	  (CL-PP-2 (CL en))
 	  (EJ sunt))
-  (ID 1120-BRENDAN-MCVF-R,74.1204))
+  (ID 1120-BRENDAN-MCVF-R,1643.1204))
 
 ( (IP-MAT (CONJO E)
 	  (PARTP (NP-ACC (NPRS paraïs))
@@ -14732,7 +14732,7 @@
 	  (NP-SBJ *con*)
 	  (AJ unt)
 	  (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,74.1205))
+  (ID 1120-BRENDAN-MCVF-R,1643.1205))
 
 ( (CODE <L_1669>))
 
@@ -14753,7 +14753,7 @@
 			    (EJ ert)
 			    (VPP *ICH*-3)))
 	  (PONFP :))
-  (ID 1120-BRENDAN-MCVF-R,74.1207))
+  (ID 1120-BRENDAN-MCVF-R,1669.1207))
 
 ( (IP-MAT (NP-SBJ=1 *proimp*)
 	  (NEG N')
@@ -15116,7 +15116,7 @@
 		  (PON ,)
 		  (ADJP (ADV forment) (ADJ bel)))
 	  (PONFP ;))
-  (ID 1120-BRENDAN-MCVF-R,76.1237))
+  (ID 1120-BRENDAN-MCVF-R,1715.1237))
 
 ( (IP-MAT (CONJO E)
 	  (NP-SBJ (PRO cil))
@@ -15126,7 +15126,7 @@
 		  (NP-PRD (NP-COM (NPRS Deu))
 			  (NCS message)))
 	  (PONFP ,))
-  (ID 1120-BRENDAN-MCVF-R,76.1238))
+  (ID 1120-BRENDAN-MCVF-R,1715.1238))
 
 ( (IP-MAT (NP-SBJ *con*)
 	  (VJ Dist)
@@ -15136,18 +15136,18 @@
 			  (PP (P a)
 			      (NP (NCS rivage)))))
 	  (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,76.1239))
+  (ID 1120-BRENDAN-MCVF-R,1715.1239))
 
 ( (IP-MAT (NP-SBJ (PRO Il))
 	  (VJ arivent)
 	  (PONFP ;))
-  (ID 1120-BRENDAN-MCVF-R,76.1240))
+  (ID 1120-BRENDAN-MCVF-R,1715.1240))
 
 ( (IP-MAT (NP-SBJ (PRO cil))
 	  (CL-NP-ACC (CL les))
 	  (VJ receit)
 	  (PONFP ,))
-  (ID 1120-BRENDAN-MCVF-R,76.1241))
+  (ID 1120-BRENDAN-MCVF-R,1715.1241))
 
 ( (IP-MAT (QP (Q Tuz))
 	  (NP-SBJ *con*)
@@ -15157,7 +15157,7 @@
 	      (NP (DZ lur) (NCS nun)))
 	  (ADVP (ADV dreit))
 	  (PONFP ;))
-  (ID 1120-BRENDAN-MCVF-R,76.1242))
+  (ID 1120-BRENDAN-MCVF-R,1715.1242))
 
 ( (IP-MAT (IP-MAT-1 (ADVP-TMP (ADV Puis))
 		    (ADVP (ADV dulcement))
@@ -15172,7 +15172,7 @@
 				   (QP (Q tuz)))
 			   (VPP apaisez)))
 	  (PONFP :))
-  (ID 1120-BRENDAN-MCVF-R,76.1243))
+  (ID 1120-BRENDAN-MCVF-R,1715.1243))
 
 ( (IP-MAT (NP-SBJ *con*)
 	  (VJ Fait)
@@ -15185,7 +15185,7 @@
 			       (PP (P sanz)
 				   (NP (NCS guerre))))))
 	  (PONFP ;))
-  (ID 1120-BRENDAN-MCVF-R,76.1244))
+  (ID 1120-BRENDAN-MCVF-R,1715.1244))
 
 ( (IP-MAT (CONJO E)
 	  (CODE {ED_online_edition:1725_has_Et})
@@ -15203,14 +15203,14 @@
 					  (IP-INF (NP-SBJ *T*-2)
 						  (VX venir))))))
 	  (PONFP ;))
-  (ID 1120-BRENDAN-MCVF-R,76.1245))
+  (ID 1120-BRENDAN-MCVF-R,1715.1245))
 
 ( (IP-MAT (CONJO E)
 	  (NP-SBJ (D l') (NCS entree))
 	  (EJ est)
 	  (VPP uverte)
 	  (PONFP :))
-  (ID 1120-BRENDAN-MCVF-R,76.1246))
+  (ID 1120-BRENDAN-MCVF-R,1715.1246))
 
 ( (IP-MAT (NP-SBJ (Q Tuit))
 	  (VJ entrent)
@@ -15218,7 +15218,7 @@
 	      (NP (NCS glorie)
 		  (ADJP (ADJ certe))))
 	  (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,76.1247))
+  (ID 1120-BRENDAN-MCVF-R,1715.1247))
 
 ( (CODE <L_1729>))
 
@@ -15227,7 +15227,7 @@
 	  (VJ vait)
 	  (NP-SBJ (D cil) (NCS juvenceals))
 	  (PONFP ,))
-  (ID 1120-BRENDAN-MCVF-R,76.1249))
+  (ID 1120-BRENDAN-MCVF-R,1729.1249))
 
 ( (IP-MAT (PP (P Par)
 	      (NP (NPRS paraïs)))
@@ -15236,7 +15236,7 @@
 	  (PP (P ovoec)
 	      (NP (PRO eals)))
 	  (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,76.1250))
+  (ID 1120-BRENDAN-MCVF-R,1729.1250))
 
 ( (IP-MAT (PP-1 (PP (P De)
 		    (NP (ADJ beals) (NCPL bois)))
@@ -15250,7 +15250,7 @@
 			(ADJ plenere)
 			(PP *ICH*-1)))
 	  (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,76.1251))
+  (ID 1120-BRENDAN-MCVF-R,1729.1251))
 
 ( (IP-MAT (NP-PRD (NCS Gardins))
 	  (VJ est)
@@ -15262,7 +15262,7 @@
 				  (VJ est)
 				  (ADJP-PRD (ADJ beal) (VPP flurie)))))
 	  (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,76.1252))
+  (ID 1120-BRENDAN-MCVF-R,1729.1252))
 
 ( (IP-MAT (IP-MAT-1 (NP-SBJ (D Li)
 			    (NCPL flur)
@@ -15292,7 +15292,7 @@
 				   (NCPL udurs)
 				   (ADJP (Q mult) (ADJ precïus)))))
 	  (PONFP ;))
-  (ID 1120-BRENDAN-MCVF-R,76.1253))
+  (ID 1120-BRENDAN-MCVF-R,1729.1253))
 
 ( (IP-MAT (PP-1 (PP (P De)
 		    (NP (NCS runceie)))
@@ -15309,7 +15309,7 @@
 	  (NP-2 (NCS fusun)
 		(PP *ICH*-1))
 	  (PONFP ;))
-  (ID 1120-BRENDAN-MCVF-R,76.1254))
+  (ID 1120-BRENDAN-MCVF-R,1729.1254))
 
 ( (IP-MAT (NP-1 (DF D')
 		(NCS arbre)
@@ -15327,13 +15327,13 @@
 			    (NEG ne)
 			    (VJ rechrie)))
 	  (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,76.1255))
+  (ID 1120-BRENDAN-MCVF-R,1729.1255))
 
 ( (IP-MAT (NP-SBJ (NCPL Flurs) (CONJO e) (NCPL arbres))
 	  (ADVP-TMP (ADV tuz=dis))
 	  (VJ chargent)
 	  (PONFP ,))
-  (ID 1120-BRENDAN-MCVF-R,76.1256))
+  (ID 1120-BRENDAN-MCVF-R,1729.1256))
 
 ( (IP-MAT (CONJO Ne)
 	  (PP (P pur)
@@ -15343,7 +15343,7 @@
 	  (NEG ne)
 	  (VJ targent)
 	  (PONFP ;))
-  (ID 1120-BRENDAN-MCVF-R,76.1257))
+  (ID 1120-BRENDAN-MCVF-R,1729.1257))
 
 ( (IP-MAT (IP-MAT-1 (NP-PRD (NCS Estét)
 			    (ADJP (ADJ süef)))
@@ -15708,7 +15708,7 @@
 		      (CODE {ED_online_edition:1785_has_Return})
 		      (CL-NP-RFL (CL nus)))
 	  (PONFP !))
-  (ID 1120-BRENDAN-MCVF-R,78.1290))
+  (ID 1120-BRENDAN-MCVF-R,1785.1290))
 
 ( (IP-MAT-SPE (ADVP-DIR (ADV Avant)
 			(PP (P d')
@@ -15718,7 +15718,7 @@
 	      (VJ menrai)
 	      (CL-NP-ACC (CL vus))
 	      (PONFP ;))
-  (ID 1120-BRENDAN-MCVF-R,78.1291))
+  (ID 1120-BRENDAN-MCVF-R,1785.1291))
 
 ( (IP-MAT-SPE (NP-SBJ=1 *proimp*)
 	      (NEG Ne)
@@ -15728,7 +15728,7 @@
 	      (IP-INF-SPE-1 (VX aler)
 			    (ADVP-DIR (ADV avant)))
 	      (PONFP ,))
-  (ID 1120-BRENDAN-MCVF-R,78.1292))
+  (ID 1120-BRENDAN-MCVF-R,1785.1292))
 
 ( (IP-MAT-SPE (CONJO Quar)
 	      (QP-1 (Q poi))
@@ -15739,7 +15739,7 @@
 			    (NP (PRO ço)))
 			(ADJ savant))
 	      (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,78.1293))
+  (ID 1120-BRENDAN-MCVF-R,1785.1293))
 
 ( (IP-MAT-SPE (NP-VOC (NPRS Brandans))
 	      (PON ,)
@@ -15755,7 +15755,7 @@
 					      (NP-MSR (Q mult))
 					      (VPP requeïs))))
 	      (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,78.1294))
+  (ID 1120-BRENDAN-MCVF-R,1785.1294))
 
 ( (IP-MAT-SPE (NP-1 (NP-PART (DF De) (DF la) (NCS glorie))
 		    (NP-MSR (NUM cent) (NUM mil))
@@ -15772,7 +15772,7 @@
 	      (VJ ad)
 	      (ADVP-LOC (ADV ça) (ADV avant))
 	      (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,78.1295))
+  (ID 1120-BRENDAN-MCVF-R,1785.1295))
 
 ( (IP-MAT-SPE (PP (P A)
 		  (ADVP (ADV ore)))
@@ -15791,7 +15791,7 @@
 					      (NP-SBJ *pro*)
 					      (VJ revendras)))))
 	      (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,78.1296))
+  (ID 1120-BRENDAN-MCVF-R,1785.1296))
 
 ( (IP-MAT-SPE (ADVP-DIR (CP-FRL-SPE (WADVP-1 (WPRO O))
 				    (IP-SUB-SPE (ADVP *T*-1)
@@ -15805,7 +15805,7 @@
 	      (VJ revendras)
 	      (ADVP (ADV spiritalment))
 	      (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,78.1297))
+  (ID 1120-BRENDAN-MCVF-R,1785.1297))
 
 ( (IP-IMP-SPE (ADVP-TMP (ADV Or))
 	      (CODE {TMP:not_pseudo-imperative})
@@ -15813,20 +15813,20 @@
 	      (CL-PP (CL en))
 	      (VJ reva)
 	      (PONFP ;))
-  (ID 1120-BRENDAN-MCVF-R,78.1298))
+  (ID 1120-BRENDAN-MCVF-R,1785.1298))
 
 ( (IP-MAT-SPE (ADVP-DIR (ADV ci))
 	      (NP-SBJ *con*)
 	      (VJ revendras)
 	      (PONFP ,))
-  (ID 1120-BRENDAN-MCVF-R,78.1299))
+  (ID 1120-BRENDAN-MCVF-R,1785.1299))
 
 ( (IP-MAT-SPE (NP-ACC (D Le) (NCS juïse))
 	      (ADVP-LOC (ADV ci))
 	      (NP-SBJ *con*)
 	      (VJ atendras)
 	      (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,78.1300))
+  (ID 1120-BRENDAN-MCVF-R,1785.1300))
 
 ( (IP-IMP-SPE (PP-1 (P De)
 		    (NP (D cez) (NCPL peres)))
@@ -15842,7 +15842,7 @@
 			  (NP (NCS conforter)))))
 	      (PONFP .)
 	      (PON '))
-  (ID 1120-BRENDAN-MCVF-R,78.1301))
+  (ID 1120-BRENDAN-MCVF-R,1785.1301))
 
 ( (CODE <L_1801>))
 
@@ -15857,7 +15857,7 @@
 	  (CL-PP (CL en))
 	  (VJ alat)
 	  (PONFP ,))
-  (ID 1120-BRENDAN-MCVF-R,78.1303))
+  (ID 1120-BRENDAN-MCVF-R,1801.1303))
 
 ( (IP-MAT (NP-ACC (NCPL Enseignes)
 		  (PP (P de)
@@ -15865,7 +15865,7 @@
 	  (NP-SBJ *con*)
 	  (VJ portat)
 	  (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,78.1304))
+  (ID 1120-BRENDAN-MCVF-R,1801.1304))
 
 ( (IP-MAT (NP-SBJ (NPRS Brandans))
 	  (PP (PP (P de)
@@ -15882,7 +15882,7 @@
 			   (PP (P de)
 			       (NP (NPRS paraïs))))))
 	  (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,78.1305))
+  (ID 1120-BRENDAN-MCVF-R,1801.1305))
 
 ( (IP-MAT (NP-SBJ (D Li) (NCS juvenceals))
 	  (CL-NP-ACC (CL les))
@@ -15896,7 +15896,7 @@
 			  (VPP entrét)
 			  (NP-SBJ (Q tuit))))
 	  (PONFP ,))
-  (ID 1120-BRENDAN-MCVF-R,78.1306))
+  (ID 1120-BRENDAN-MCVF-R,1801.1306))
 
 ( (IP-MAT (ADVP-TMP (ADV Puis))
 	  (NP-SBJ *con*)
@@ -15906,7 +15906,7 @@
 	  (NP-ACC (NCS seignacle))
 	  (VPP fait)
 	  (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,78.1307))
+  (ID 1120-BRENDAN-MCVF-R,1801.1307))
 
 ( (IP-MAT (ADVP (Q Mult) (ADV tost))
 	  (NP-SBJ *pro*)
@@ -15915,7 +15915,7 @@
 	  (NP-ACC (DZ lur) (NCS sigle))
 	  (VPP trait)
 	  (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,78.1308))
+  (ID 1120-BRENDAN-MCVF-R,1801.1308))
 
 ( (IP-MAT (ADVP-LOC (ADV Iloec))
 	  (VJ remist)
@@ -15923,14 +15923,14 @@
 		  (NCPL hostes)
 		  (ADJP (ADJ pius)))
 	  (PONFP ,))
-  (ID 1120-BRENDAN-MCVF-R,78.1309))
+  (ID 1120-BRENDAN-MCVF-R,1801.1309))
 
 ( (IP-MAT (CONJO Quar)
 	  (NP-SBJ (ADJ paraïs))
 	  (VJ fud)
 	  (NP-PRD (DZ sis) (ADJ dreiz) (NCS fius))
 	  (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,78.1310))
+  (ID 1120-BRENDAN-MCVF-R,1801.1310))
 
 ( (IP-MAT (CONJO E)
 	  (NP-SBJ (PRO cil))
@@ -15939,7 +15939,7 @@
 	  (VJ vunt)
 	  (ADVP (ADV haitément))
 	  (PONFP ;))
-  (ID 1120-BRENDAN-MCVF-R,78.1311))
+  (ID 1120-BRENDAN-MCVF-R,1801.1311))
 
 ( (IP-MAT (NP-SBJ *con*)
 	  (NEG Nen)
@@ -15948,7 +15948,7 @@
 	      (NP (NCS orez)))
 	  (NP-ACC (NCS retenement))
 	  (PONFP :))
-  (ID 1120-BRENDAN-MCVF-R,78.1312))
+  (ID 1120-BRENDAN-MCVF-R,1801.1312))
 
 ( (IP-MAT (PP (P En)
 	      (NP (ADJNUM treis) (NCPL meis)))
@@ -15963,7 +15963,7 @@
 		      (NP (NPRS Deu)))
 		  (ADJP (ADJ grande))))
 	  (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,78.1313))
+  (ID 1120-BRENDAN-MCVF-R,1801.1313))
 
 ( (IP-MAT (NP-SBJ (D La)
 		  (NCS nuvele)
@@ -15979,7 +15979,7 @@
 			    (PP (P de)
 				(NP (NPRS paraïs)))))
 	  (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,78.1314))
+  (ID 1120-BRENDAN-MCVF-R,1801.1314))
 
 ( (CODE <L_1815>))
 
@@ -15988,14 +15988,14 @@
 	  (ADJP-PRD (ADJ haitét))
 	  (NP-SBJ (FP sul) (D li) (NCPL parent))
 	  (PONFP ,))
-  (ID 1120-BRENDAN-MCVF-R,78.1316))
+  (ID 1120-BRENDAN-MCVF-R,1815.1316))
 
 ( (IP-MAT (ADVP (ADV Ainz))
 	  (VJ sunt)
 	  (NP-SBJ (ADV tres@) (Q @tuz))
 	  (ADVP (ADV comunement))
 	  (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,78.1317))
+  (ID 1120-BRENDAN-MCVF-R,1815.1317))
 
 ( (IP-MAT (PP (P Sur)
 	      (NP (Q tuz)))
@@ -16010,7 +16010,7 @@
 				  (VJ unt)
 				  (NP-ACC (DZ lur) (ADJ dulz) (NCS pere))))))
 	  (PONFP .))
-  (ID 1120-BRENDAN-MCVF-R,78.1318))
+  (ID 1120-BRENDAN-MCVF-R,1815.1318))
 
 ( (IP-MAT (ADVP-TMP (ADV Suvent))
 	  (NP-SBJ *pro*)

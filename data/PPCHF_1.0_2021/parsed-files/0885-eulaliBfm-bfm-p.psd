@@ -55,7 +55,7 @@
 					    (PP (P en)
 						(NP (NPRS ciel)))))))
 	  (PONFP .))
-  (ID 0885-EULALIBFM-BFM-P,141v.8))
+  (ID 0885-EULALIBFM-BFM-P,5.8))
 
 ( (IP-MAT (CONJO Ne)
 	  (PP (PP (P por)
@@ -84,7 +84,7 @@
 					  (NP-COM (NPRS Deo))
 					  (NCS menestier)))))
 	  (PONFP .))
-  (ID 0885-EULALIBFM-BFM-P,141v.9))
+  (ID 0885-EULALIBFM-BFM-P,10.9))
 
 ( (IP-MAT (CONJO E)
 	  (PP (P por)
@@ -103,7 +103,7 @@
 					  (PP (P soure)
 					      (NP (NCPL pagiens)))))))
 	  (PONFP .))
-  (ID 0885-EULALIBFM-BFM-P,141v.10))
+  (ID 0885-EULALIBFM-BFM-P,10.10))
 
 ( (CODE <L_15>))
 
@@ -123,14 +123,14 @@
 				  (NCS nom)
 				  (ADJP (ADJ christiien)))))
 	  (PONFP .))
-  (ID 0885-EULALIBFM-BFM-P,141v.12))
+  (ID 0885-EULALIBFM-BFM-P,15.12))
 
 ( (IP-MAT (NP-SBJ (PRO Ell'))
 	  (CL-PP (CL ent))
 	  (VJ adunet)
 	  (NP-ACC (D lo) (ADJZ suon) (NCS element))
 	  (PONFP .))
-  (ID 0885-EULALIBFM-BFM-P,141v.13))
+  (ID 0885-EULALIBFM-BFM-P,15.13))
 
 ( (IP-MAT (ADVP (ADVR Melz)
 		(CP-CMP *ICH*-1))
@@ -145,7 +145,7 @@
 					    (VJ perdesse)
 					    (NP-ACC (DZ sa) (NCS virginitet))))))
 	  (PONFP .))
-  (ID 0885-EULALIBFM-BFM-P,141v.14))
+  (ID 0885-EULALIBFM-BFM-P,15.14))
 
 ( (CODE <L_20>))
 
@@ -157,7 +157,7 @@
 	  (PP (P a)
 	      (NP (ADJ grand) (NCS honestet)))
 	  (PONFP .))
-  (ID 0885-EULALIBFM-BFM-P,141v.16))
+  (ID 0885-EULALIBFM-BFM-P,20.16))
 
 ( (IP-MAT (PP (ADV Enz)
 	      (P en@)
@@ -170,14 +170,14 @@
 			  (VJ arde)
 			  (ADVP-TMP (ADV tost))))
 	  (PONFP .))
-  (ID 0885-EULALIBFM-BFM-P,141v.17))
+  (ID 0885-EULALIBFM-BFM-P,20.17))
 
 ( (IP-MAT (NP-SBJ (PRO Elle))
 	  (NP-ACC (NCPL colpes))
 	  (NEG non)
 	  (VJ auret)
 	  (PONFP ,))
-  (ID 0885-EULALIBFM-BFM-P,141v.18))
+  (ID 0885-EULALIBFM-BFM-P,20.18))
 
 ( (IP-MAT (PP (P por)
 	      (NP (PRO o)))
@@ -185,7 +185,7 @@
 	  (NEG nos)
 	  (VJ coist)
 	  (PONFP .))
-  (ID 0885-EULALIBFM-BFM-P,141v.19))
+  (ID 0885-EULALIBFM-BFM-P,20.19))
 
 ( (IP-MAT (PP-1 (P A)
 		(NP (PRO czo)))
@@ -197,7 +197,7 @@
 		  (NCS rex)
 		  (ADJP (ADJ pagiens)))
 	  (PONFP .))
-  (ID 0885-EULALIBFM-BFM-P,141v.20))
+  (ID 0885-EULALIBFM-BFM-P,20.20))
 
 ( (CODE <L_25>))
 
@@ -210,27 +210,27 @@
 		  (VX tolir)
 		  (NP-ACC (D lo) (NCS chief)))
 	  (PONFP .))
-  (ID 0885-EULALIBFM-BFM-P,141v.22))
+  (ID 0885-EULALIBFM-BFM-P,25.22))
 
 ( (IP-MAT (NP-SBJ (D La) (NCS domnizelle))
 	  (NP-ACC (D celle) (NCS kose))
 	  (NEG non)
 	  (VJ contredist)
 	  (PONFP :))
-  (ID 0885-EULALIBFM-BFM-P,141v.23))
+  (ID 0885-EULALIBFM-BFM-P,25.23))
 
 ( (IP-MAT (NP-SBJ *con*)
 	  (MDJ Volt)
 	  (IP-INF (NP-ACC (D lo) (NCS seule))
 		  (VX lazsier)))
-  (ID 0885-EULALIBFM-BFM-P,141v.24))
+  (ID 0885-EULALIBFM-BFM-P,25.24))
 
 ( (IP-MAT (ADVP (ADV si))
 	  (NP-SBJ *con*)
 	  (VJ ruovet)
 	  (NP-ACC (NPRS Krist))
 	  (PONFP .))
-  (ID 0885-EULALIBFM-BFM-P,141v.25))
+  (ID 0885-EULALIBFM-BFM-P,25.25))
 
 ( (IP-MAT (PP (P In)
 	      (NP (NCS figure)
@@ -241,7 +241,7 @@
 	  (PP (P a)
 	      (NP (NPRS ciel)))
 	  (PONFP .))
-  (ID 0885-EULALIBFM-BFM-P,141v.26))
+  (ID 0885-EULALIBFM-BFM-P,25.26))
 
 ( (IP-MAT (NP-SBJ (Q Tuit))
 	  (VJ oram)
@@ -272,4 +272,4 @@
 								 (PP (P Par)
 								     (NP (DZ souue) (NCS clementia))))))))))
 	  (PONFP .))
-  (ID 0885-EULALIBFM-BFM-P,141v.27))
+  (ID 0885-EULALIBFM-BFM-P,25.27))

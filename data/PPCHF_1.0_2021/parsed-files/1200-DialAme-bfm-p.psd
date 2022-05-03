@@ -6523,7 +6523,7 @@
 		  (CONJP *ICH*-1)))
 	  (CODE {TMP:ok?})
 	  (NP-SBJ *con*)
-	  (AJ est)
+	  (EJ est)
 	  (VPP revierdoné)
 	  (PP (P a)
 	      (NP (DZ mes) (NCS pechiz)))
