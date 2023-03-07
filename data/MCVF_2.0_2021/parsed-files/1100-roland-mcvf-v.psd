@@ -10690,9 +10690,8 @@
 	      (NEG ne)
 	      (VJ faz)
 	      (NP-SBJ (PRO jo))
-	      (NP-ACC (CP-FRL-SPE (WNP-1 (WPRO que))
-				  (IP-INF-SPE (NP-ACC *T*-1)
-					      (VX creire))))
+	      (IP-INF-SPE (FP que)
+			  (VX creire))
 	      (PONFP ,))
   (ID 1100-ROLAND-MCVF-V,78.949))
 
