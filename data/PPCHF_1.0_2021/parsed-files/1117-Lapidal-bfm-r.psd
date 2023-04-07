@@ -4173,7 +4173,7 @@
 				 (IP-SUB=1 (NP-SBJ=2 (PROIMP il))
 					   (CL-PP (CL i))
 					   (AJ ait)
-					   (NP-FP-2 (NCPL seies)
+					   (NP-2 (NCPL seies)
 						    (PP (P d')
 							(NP (NCS asnon))))
 					   (VPP Mises)
