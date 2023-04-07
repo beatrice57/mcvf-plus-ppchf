@@ -944,7 +944,7 @@
 	  (IP-MAT-SPE (NP-VOC (NPRS <bracket>Basili<$$bracket>e))
 		      (PON ,)
 		      (NP-SBJ (PRO jeo))
-		      (CL-NP-ACC-MS (CL t'))
+		      (CL-NP-ACC (CL t'))
 		      (AJ ai)
 		      (VPP sormontét)
 		      (PP (PP (P De)
@@ -960,7 +960,7 @@
 
 ( (IP-MAT-SPE (PON -)
 	      (NP-ADV (DZ Mon) (NCS voel))
-	      (CL-NP-ACC-MS (CL m'))
+	      (CL-NP-ACC (CL m'))
 	      (AJ oüses)
 	      (NP-SBJ (PRO tu))
 	      (VPP vencuz)

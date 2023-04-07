@@ -1433,7 +1433,7 @@
 
 ( (IP-MAT (NP-ADT (CP-FRL (WNP-1 (WPRO ki))
 			  (IP-SUB (IP-SUB (NP-SBJ *T*-1)
-					  (CL-NP-ACC-FS (CL l'))
+					  (CL-NP-ACC (CL l'))
 					  (AJ ad)
 					  (VPP perciede))
 				  (PON ,)
@@ -3574,7 +3574,7 @@
 				    (PON ,)
 				    (CP-THT-PRN (CONJS que)
 						(IP-SUB (NP-SBJ (PRO il))
-							(CL-NP-ACC-FS (CL l'))
+							(CL-NP-ACC (CL l'))
 							(AJ ait)
 							(VPP pensee))))))
 	  (PON ,)

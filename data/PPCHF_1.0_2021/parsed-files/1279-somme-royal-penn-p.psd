@@ -27320,7 +27320,7 @@
 			  (IP-SUB (NP-SBJ *T*-1)
 				  (VPP-2 apris)
 				  (NEG ne)
-				  (CL-NP-ACC-MS (CL l@))
+				  (CL-NP-ACC (CL l@))
 				  (AJ @a)
 				  (VPP *ICH*-2))))
 	  (PONFP .))
