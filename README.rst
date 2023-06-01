@@ -14,7 +14,7 @@ French, which together contain over 1.6 million words of running text.
 **Note:** Here and throughout the documentation, "number of words"
 excludes punctuation and metadata and reflects word tokenization in
 accordance with the annotation guidelines
-(<https://www.ling.upenn.edu/~beatrice/corpus-ling/annotation-french>).
+(<https://github.com/beatrice57/mcvf-plus-ppchf/tree/main/doc/annotation-french>).
 
 The repository also contains:
 
@@ -61,15 +61,14 @@ Citing the corpora
   <https://github.com/beatrice57/mcvf-plus-ppchf>
 
 Contact
-========
-Beatrice Santorini (beatrice AT sas DOT upenn DOT edu, beatrice DOT
-santorini AT gmail DOT com)
+=======
+Beatrice Santorini (beatrice DOT santorini AT gmail DOT com)
 
 Please do not hesitate to report errors of any sort or suggestions for
 improvement.
 
 Acknowledgements
-===============
+================
 
 * We thank France Martineau, who directed the MCVF project (2005-2010),
   for entrusting us with the ongoing curation and distribution of the
@@ -90,12 +89,11 @@ Acknowledgements
 Annotation guidelines
 =====================
 
-The POS-tagged and parsed files in this repository are annotated
-according to guidelines developed by Beatrice Santorini and Rodica
-Diaconescu
-(<https://www.ling.upenn.edu/~beatrice/corpus-ling/annotation-french>),
+The POS-tagged and parsed files in this repository are annotated according
+to guidelines developed by Beatrice Santorini and Rodica Diaconescu
+(<https://github.com/beatrice57/mcvf-plus-ppchf/tree/main/doc/annotation-french>),
 which extend guidelines for annotating historical English
-(<https://www.ling.upenn.edu/~beatrice/corpus-ling/annotation>).  All of
+(<https://www.ling.upenn.edu/hist-corpora/annotation/index.html>).  All of
 the parsed files in MCVF v2.0 and in PPCHF have been brought to the same
 level of consistency and adherence to the guidelines.
 
