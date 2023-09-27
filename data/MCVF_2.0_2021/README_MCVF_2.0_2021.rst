@@ -28,9 +28,12 @@ Differences from version 1.0:
 * The texts reflect corrections and revisions due to Beatrice
   Santorini and Alexandra Simonenko continuing past the end of the
   MCVF grant period.
+* The three texts from the Classical period (duplessis_lettre, gendron,
+  morin_annales) are missing since they did not go through the correction 
+  and revision process just mentioned.
 * Filenames have been changed to conform to our filename conventions
   (../../docs/sources/filename-conventions.html), as detailed below 
-  in "Filenamecorrespondences".
+  in "Filename correspondences".
 
 Funding
 =======
