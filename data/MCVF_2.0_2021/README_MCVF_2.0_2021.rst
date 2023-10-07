@@ -25,7 +25,7 @@ Text encoding: UTF-8.
 Differences from version 1.0:
 
 * Version 2.0 contains only parsed texts.
-* The texts reflect corrections and revisions due to Beatrice
+* The texts reflect corrections and revisions made by Beatrice
   Santorini and Alexandra Simonenko continuing past the end of the
   MCVF grant period.
 * The three texts from the Classical period (duplessis_lettre, gendron,
