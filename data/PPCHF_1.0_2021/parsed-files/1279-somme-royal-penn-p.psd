@@ -39390,7 +39390,7 @@
 	  (CP-CMP-1 (WNP-2 0)
 		    (CONJS que)
 		    (CODE <L_2635>)
-		    (IP-SJB (NP-PRD *T*-2)
+		    (IP-SUB (NP-PRD *T*-2)
 			    (PP (P d')
 				(IP-INF (VX estre)
 					(NP-PRD (NCS hoir)

@@ -4818,7 +4818,7 @@
 
 ( (CP-CAR (WNP-1 (WPRO Li=queil))
 	  (IP-SUB (NP-SBJ *T*-1)
-		  (IP-IPL (VG respondant))
+		  (IP-PPL (VG respondant))
 		  (VJ dissent)
 		  (PON :)
 		  (QTP (ITJ Non)))
