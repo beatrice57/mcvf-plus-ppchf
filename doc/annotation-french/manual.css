@@ -1,0 +1,25 @@
+blockquote {
+    background-color: #F0F8FF;
+    border: 1px solid;
+    padding: 5px;
+}
+
+body, html {
+    height: 100%;
+    width: 100%;
+}
+
+iframe {
+    align=left;
+    height: 100%;
+}
+
+table, td, th {
+    border: 1px solid;
+    border-collapse: collapse;
+    margin-left: 40px;
+    padding: 5px;
+    text-align: left;
+}
+
+

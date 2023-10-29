@@ -1,19 +1,22 @@
+<!doctype html>
 <html>
-
 <head>
+<link rel="stylesheet" href="../manual.css">
 <title>Protocole d'&eacute;tiquetage MCVF - D&eacute;coupage et
 unification de mots</title>
 </head>
 
-<h3>D&eacute;coupage et unification de mots</h3>
+<body>
+
+<h2>D&eacute;coupage et unification de mots</h2>
 
 <ul>
 <li><a href="pos-splitting.html#decoupage">D&eacute;coupage de mots</a>
     <ul>
-    <li><a href="pos-splitting.html#formes-avec-trait-d-union">Formes avec trait d'union</a>
-    <li><a href="pos-splitting.html#formes-sans-apostrophes">Formes sans apostrophe</a>
+    <li><a href="pos-splitting.html#forme-avec-trait-d-union">Forme avec trait d'union</a>
+    <li><a href="pos-splitting.html#forme-sans-apostrophe">Forme sans apostrophe moderne</a>
     (barre verticale, |) - in version 2.0, this character is replaced by the pound sign, #
-    <li><a href="pos-splitting.html#formes-autres">Autres formes</a> (arobase, @)
+    <li><a href="pos-splitting.html#forme-autre">Autre forme</a> (arobase, @)
     <li><a href="pos-splitting.html#liste-a-decouper">Liste de formes &agrave; d&eacute;couper</a>
     </ul>
 <li><a href="pos-splitting.html#unification">Unification de mots</a> (signe &eacute;gal, =)
@@ -23,45 +26,47 @@ unification de mots</title>
 <hr>
 
 <a name="decoupage">
-<h4>D&eacute;coupage de mots</h4>
+<h3>D&eacute;coupage de mots</h3>
 
 Pour faire possible l'analyse linguistique, et surtout l'analyse
 syntaxique, il faut d&eacute;couper certains mots orthographiques.
 Il y a trois cas:
 
 <ul>
-<li><a href="pos-splitting.html#formes-avec-trait-d-union">Formes avec trait d'union</a>
-<li><a href="pos-splitting.html#formes-sans-apostrophes">Formes sans apostrophe</a> (barre
+<li><a href="pos-splitting.html#forme-avec-trait-d-union">Forme avec trait d'union</a>
+<li><a href="pos-splitting.html#forme-sans-apostrophes">Forme sans apostrophe</a> (barre
 verticale, |) - in version 2.0, this character is replaced by the pound sign, #
-<li><a href="pos-splitting.html#formes-autres">Autres formes</a> (arobase, @)
+<li><a href="pos-splitting.html#forme-autre">Autres forme</a> (arobase, @)
 </ul>
 
-<a name="formes-avec-trait-d-union">
-<h4>Formes avec trait d'union</h4>
+<a name="forme-avec-trait-d-union">
+<h4>Forme avec trait d'union</h4>
 
 Les mots avec trait d'union qu'il faut d&eacute;couper sont
 d&eacute;coup&eacute;s sans faire rien de plus.
 
 <blockquote><pre>
 <b>Texte original:		D&eacute;coup&eacute;:	Tagg&eacute;:</b>
+
 est-ce			est - ce	est/VJ -/PON ce/PRO
 vient-il		vient - il	vient/VJ -/PON il/PRO
 </pre></blockquote>
 
-<p> Le <i>t</i> inser&eacute; pour l'euphonie dans les contextes
-d'inversion n'est pas d&eacute;coup&eacute;; avec le trait d'union qui
-le pr&eacute;c&eacute;de, ce <i>t</i> est trait&eacute; comme partie du
-verbe.  Le trait d'union qui le suit est d&eacute;coup&eacute;, comme
-dans le cas simple.
+<p> Le T inser&eacute; pour l'euphonie dans les contextes d'inversion
+n'est pas d&eacute;coup&eacute;; avec le trait d'union qui le
+pr&eacute;c&eacute;de, ce T est trait&eacute; comme partie du verbe.  Le
+trait d'union qui le suit est d&eacute;coup&eacute;, comme dans le cas
+simple.
 
 <blockquote><pre>
 <b>Texte original:		D&eacute;coup&eacute;:	Tagg&eacute;:</b>
+
 va-t-elle		va-t - elle	va-t/VJ -/PON elle/PRO
 </pre></blockquote>
 </ul>
 
-<a name="formes-sans-apostrophes">
-<h4>Formes sans apostrophe</h4>
+<a name="forme-sans-apostrophe">
+<h4>Forme sans apostrophe moderne</h4>
 
 For computational tractability, the vertical bar (|) is replaced in
 version 2.0 of the MCVF Corpus  by the pound sign (#).
@@ -74,12 +79,13 @@ la barre.  Le lieu de d&eacute;coupage est indiqu&eacute; une seule fois.
 
 <blockquote><pre>
 <b>Texte original:		D&eacute;coup&eacute;:	Tagg&eacute;:</b>
-jajoute			j| ajoute	j|/PRO ajoute/VJ
-Larm&eacute;e			L| arm&eacute;e	L|/D arm&eacute;e/NCS
+
+jajoute			j# ajoute	j#/PRO ajoute/VJ
+Larm&eacute;e			L# arm&eacute;e	L#/D arm&eacute;e/NCS
 </pre></blockquote>
 
-<a name="formes-autres">
-<h4>Autres formes</h4>
+<a name="forme-autres">
+<h4>Autre forme</h4>
 
 Dans toutes autres formes, le lieu de d&eacute;coupage est
 indiqu&eacute; par l'arobase (@).  Chaque lieu de d&eacute;coupage est
@@ -90,6 +96,7 @@ touche pas l'orthographie des mots.
 
 <blockquote><pre>
 <b>Texte original:		D&eacute;coup&eacute;:		Tagg&eacute;:</b>
+
 au roi			a@ @u roi		a@/P @u/D roi/NCS
 dudict royaume		d@ @u@ @dict royaume	d@/P @u@/D @dict royaume/NCS
 esse vray?		es@ @se vray ?		es@/VJ @se/PRO vray ?
@@ -101,6 +108,7 @@ la fin du mot avant de le d&eacute;couper.
 
 <blockquote><pre>
 <b>Texte original:		D&eacute;coup&eacute;:		Tagg&eacute;:</b>
+
 o roi			o@ @0 roi		o@/P @0/D roi/NCS
 </pre></blockquote>
 
@@ -130,7 +138,9 @@ aus			a@ @us			a@/P @us/D
 aux			a@ @ux			a@/P @ux/D	
 o			o@ @0			o@/P @0/D	(avec z&eacute;ro ajout&eacute;)	
 ou			o@ @u			o@/P @u/D	
+</pre></blockquote>
 
+<blockquote><pre>
 qui estoit a@/P @u/D millieu de l'ost
 
 a@/P @ux/D gens de pied
@@ -175,13 +185,16 @@ a@/P @tout/Q
 
 <blockquote><pre>
 <b>Texte original:		D&eacute;coup&eacute;:		Tagg&eacute;:</b>
+
 del			de@ @l			de@/P @l/D (ou de@/DF)	
 des			d@ @es			d@/P @es/D
 deu			de@ @u			de@/P @u/D	
 do			d@ @o			d@/P @o/D	
 dou			d@ @ou			d@/P @ou/D	
 du			d@ @u			d@/P @u/D	
+</pre></blockquote>
 
+<blockquote><pre>
 pour le bien d@/P @u/D royaume
 
 on a apport&eacute; d@/DF @u/DF vin
@@ -231,7 +244,9 @@ el			e@ @l			e@/P @l/D (ou @l/PRO)
 es			e@ @s			e@/P @s/D
 &egrave;s			&egrave;@ @s			&egrave;@/P @s/D
 eu			e@ @u			e@/P @u/D	
+</pre></blockquote>
 
+<blockquote><pre>
 e@/P @l/PRO voyant dans sa chambre
 
 maistre e@/P @s/D arts
@@ -256,13 +271,16 @@ ja@/ADV @soit/VJ qu' encore l&agrave;
 
 <blockquote><pre>
 <b>Texte original:		D&eacute;coup&eacute;:		Tagg&eacute;:</b>
+
 gel			ge@ @l			ge@/PRO @l/PRO
 ges			g@ @es			g@/PRO @es/PRO
 jel			je@ @l			je@/PRO @l/PRO
 jes			j@ @es			j@/PRO @es/PRO
 jeu			je@ @u			je@/PRO @u/PRO
 jou			jo@ @u			jo@/PRO @u/PRO
+</pre></blockquote>
 
+<blockquote><pre>
 ge@/PRO @l/PRO vois
 
 j@/PRO @es/PRO vois
@@ -273,8 +291,11 @@ j@/PRO @es/PRO vois
 
 <blockquote><pre>
 <b>Texte original:		D&eacute;coup&eacute;:		Tagg&eacute;:</b>
-jos			j@ @os			j@/PRO @os/PRO
 
+jos			j@ @os			j@/PRO @os/PRO
+</pre></blockquote>
+
+<blockquote><pre>
 J@/PRO @os/PRO connais, vous et vos probl&egrave;mes 
 </pre></blockquote>
 
@@ -283,13 +304,16 @@ J@/PRO @os/PRO connais, vous et vos probl&egrave;mes
 
 <blockquote><pre>
 <b>Texte original:		D&eacute;coup&eacute;:		Tagg&eacute;:</b>
+
 nel			ne@ @l			ne@/NEG @l/PRO
 nes			n@ @es			n@/NEG @es/PRO
 no			n@ @o			n@/NEG @o/PRO
 nou			n@ @ou			n@/NEG @ou/PRO
 nu			n@ @u			n@/NEG @u/PRO
 nul			n@ @ul			n@/NEG @ul/PRO
+</pre></blockquote>
 
+<blockquote><pre>
 son ami ne@/NEG @l/PRO connaissait plus 
 
 les filles n@/NEG @es/PRO consid&eacute;raient plus leurs comme des amis
@@ -317,12 +341,9 @@ par@/P @dela/ADV
 <a name="plutot">
 <p><b>PLUS + ADJ ou ADV</b>
 
-<blockquote> 
 En g&eacute;n&eacute;ral, les formes avec PLUS sont
-d&eacute;coup&eacute;es.  
-<a href="../words.html#plutot">PLUT&Ocirc;T</a> est
-un cas difficile.
-</blockquote> 
+d&eacute;coup&eacute;es.  <a href="../words.html#plutot">PLUT&Ocirc;T</a>
+est un cas difficile.
 
 <a name="pour-ce-que">
 <p><b>POUR + CE + QUE</b>
@@ -330,9 +351,10 @@ un cas difficile.
 <a name="pro-ci-la">
 <p><b>Pronom + CI / L&Agrave;</b>
 
-<blockquote>
+<p>
 Voir aussi <a href="../words.html#ci-la">-CI</a>.
 
+<blockquote>
 <pre>
 celui/PRO -/PON ci/ADV est venu
 
@@ -346,26 +368,27 @@ cestui/PRO -/PON l&agrave;/ADV est venu
 
 <blockquote><pre>
 <b>Texte original:		D&eacute;coup&eacute;:		Tagg&eacute;:</b>
+
 sel			se@ @l			se@/CONJS @l/PRO
 ses			s@ @es			s@/CONJS @es/PRO
 sil			si@ @l			si@/CONJS @l/PRO
 sin			si@ @n			si@/CONJS @n/NEG
 sis			si@ @s			si@/CONJS @s/PRO
+</pre></blockquote>
 
+<blockquote><pre>
 se@/CONJS @l/PRO verra venir, elle va le conna&icirc;tre mieux
 
 s@/CONJS @es/PRO verra venir, elle va les conna&icirc;tre mieux
-</pre>
-
-</blockquote>
+</pre></blockquote>
 
 <a name="si-tot">
 <p><b>SI + T&Ocirc;T</b>
 
-<blockquote>
+<p>
 Toujours d&eacute;coup&eacute;.
 
-<pre>
+<blockquote><pre>
 Ilz n'eurent pas si@/ADV @tost/ADV disn&eacute; qu'ilz demanderent
 l'interpretacion
 
@@ -373,8 +396,7 @@ Et la bonne damoiselle, qui point ne dormoit, si@/ADV @tost/ADV
 qu'il fut heure de descoucher, se leva.
 
 elle attendoit si@/ADV @tost/ADV que la mynuyt seroit sonn&eacute;e
-</pre>
-</blockquote>
+</pre></blockquote>
 
 <a name="tres-adj-adv">
 <p><b>TR&Egrave;S + ADJ ou ADV</b>
@@ -386,14 +408,15 @@ avec laquelle il fut tres@/ADV @amoureusement/ADV
 </pre></blockquote>
 
 <a name="unification">
-<h4>Unification de mots</h4></a>
+<h3>Unification de mots</h3>
 
-Quand il faut unifier deux mots orthographiques (voir <a
-href="../words.html">Mots difficiles</a>), cette unification 
-est indiqu&eacute;e par le signe &eacute;gal.
+Quand il faut unifier deux mots orthographiques
+(voir <a href="../words.html">Mots difficiles</a> pour des exemples),
+cette unification est indiqu&eacute;e par le signe &eacute;gal.
 
 <blockquote><pre>
 <b>Texte original:			Rendu comme:</b>
+
 a fin que			a=fin que
 avant garde			avant=garde
 non obstant			non=obstant
@@ -402,12 +425,14 @@ puis que			puis=que
 </pre></blockquote>
 
 <a name="combinaison">
-<h4>Combinaison de d&eacute;coupage et unification</h4>
+<h3>Combinaison de d&eacute;coupage et unification</h3>
 
 <blockquote><pre>
 <b>Texte original:			Rendu comme:</b>
+
 tresbien venu			tres@ @bien=venu
-qui la (= qu'il a)		qu| i=l a
+qui la (= qu'il a)		qu# i=l a
 </pre></blockquote>
 
+</body>
 </html>

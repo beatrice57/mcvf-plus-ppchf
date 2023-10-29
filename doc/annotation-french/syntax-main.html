@@ -1,59 +1,22 @@
+<html>
 <head>
+<link rel="stylesheet" href="manual.css">
 <title>Syntactic annotation guidelines for historical French</title>
+</head>
 
+<body>
+  
 <a name="top">
-<h3>Syntactic annotation guidelines for historical French</h3>
-
-<hr>
-
-<!--
-<p align=center>
-
-<a href="syntax-main.html#a">A</a> &sdot; 
-<a href="syntax-main.html#b">B</a> &sdot; 
-<a href="syntax-main.html#c">C</a> &sdot; 
-<a href="syntax-main.html#d">D</a> &sdot; 
-<a href="syntax-main.html#e">E</a> &sdot; 
-<a href="syntax-main.html#f">F</a> &sdot; 
-<a href="syntax-main.html#g">G</a> &sdot; 
-<a href="syntax-main.html#h">H</a> &sdot; 
-<a href="syntax-main.html#i">I</a> &sdot; 
-<a href="syntax-main.html#j">J</a> &sdot; 
-<a href="syntax-main.html#k">K</a> &sdot; 
-<a href="syntax-main.html#l">L</a> &sdot; 
-<a href="syntax-main.html#m">M</a> &sdot; 
-<a href="syntax-main.html#n">N</a> &sdot; 
-<a href="syntax-main.html#o">O</a> &sdot; 
-<a href="syntax-main.html#p">P</a> &sdot; 
-<a href="syntax-main.html#q">Q</a> &sdot; 
-<a href="syntax-main.html#r">R</a> &sdot; 
-<a href="syntax-main.html#s">S</a> &sdot; 
-<a href="syntax-main.html#t">T</a> &sdot; 
-<a href="syntax-main.html#u">U</a> &sdot; 
-<a href="syntax-main.html#v">V</a> &sdot; 
-<a href="syntax-main.html#w">W</a> &sdot; 
-<a href="syntax-main.html#x">X</a> &sdot; 
-<a href="syntax-main.html#y">Y</a> &sdot; 
-<a href="syntax-main.html#z">Z</a>  
-
-<hr>
--->
+<h2>Syntactic annotation guidelines for historical French</h2>
 
 <a name="a">
 
-<a name="adjectives">
-<h4>Adjectives</h4>
-
-For conjunction of prenominal with postnominal adjectives, see 
-<a href="syntax-main.html#conjunction-adj">Conjunction</a>.
-
 <a name="argument_or_modifier">
-<h4>Argument or modifier?</h4>
+<h3>Argument or modifier?</h3>
 
-Degree words that are ambiguous between acting as heads of arguments and
-acting as degree modifiers of a (possibly silent) dimension of
-comparison are treated by default as arguments (possibly licensing a
-partitive NP).
+Degree words that are ambiguous between heads of arguments and degree
+modifiers of a (possibly silent) dimension of comparison are treated by
+default as arguments (possibly licensing a partitive NP).
 
 <blockquote>
 <pre>
@@ -73,21 +36,20 @@ partitive NP).
 </pre>
 </blockquote>
 
-<a name="asyndetic-adverbial-clauses">
-<h4>Asyndetic adverbial clauses</h4>
+<a name="asyndetic-adverbial">
+<h3>Asyndetic adverbial clause</h3>
 
-Asyndetic (= complementizerless) adverbial clauses are labeled
-CP-ADV.
+Asyndetic (= complementizerless) adverbial clauses are labeled <tt>CP-ADV</tt>.
 
 <ul>
-<li><a href="syntax-main.html#soit-conditional-clauses">SOIT conditional clauses</a>
-<li><a href="syntax-main.html#tout-soit-concessive-clauses">TOUT SOIT concessive clauses</a>
-<li><a href="syntax-main.html#ja-soit-concessive-clauses">JA SOIT concessive clauses (also with JA F&Ucirc;T)</a>
-<li><a href="syntax-main.html#et-conditional-clauses">ET conditional clauses</a>
+<li><a href="syntax-main.html#soit-concessive">SOIT concessive clause</a>
+<li><a href="syntax-main.html#tout-soit-concessive">TOUT SOIT concessive clause</a>
+<li><a href="syntax-main.html#ja-soit-concessive">JA SOIT concessive clause (also with JA F&Ucirc;T)</a>
+<li><a href="syntax-main.html#et-conditional">ET conditional clause</a>
 </ul>
 
-<a name="soit-conditional-clauses">
-<b>SOIT conditional clauses</b>
+<a name="soit-conditional">
+<h4>SOIT conditional clause</h4>
 
 <blockquote>
 <pre>
@@ -100,49 +62,55 @@ CP-ADV.
 </pre>
 </blockquote>
 
-<a name="tout-soit-concessive-clauses">
-<b>TOUT SOIT concessive clauses.</b> TOUT SOIT clauses are treated like
-ALBEIT in the PPCME2 (which is in fact a calque on the French).
+<a name="tout-soit-concessive">
+<h4>TOUT SOIT concessive clause</h4>
+
+TOUT SOIT clauses are treated like ALBEIT clauses in the PPCME2 (which are
+in fact a calque on the French).
 
 <blockquote>
 <pre>
 (CP-ADV (QP (Q tout))
-      	(IP-SUB (NP-SBJ-1 *proimp*)		&larr; preverbal subject position by default
+      	(IP-SUB (NP-SBJ=1 *proimp*)		&larr; preverbal subject position by default
                 (VJ soit)
                 (CP-THT-1 (CONJS que)
                           (IP-SUB ...))))
 
 (CP-ADV (QP (Q tout))
         (IP-SUB (VJ soit)
-                (NP-SBJ-1 (PRO ce))
+                (NP-SBJ=1 (PRO ce))
                 (CP-THT-1 (CONJS que)
                           (IP-SUB ...))))
 </pre>
 </blockquote>
 
-<a name="ja-soit-concessive-clauses">
-<b>JA SOIT concessive clauses.</b> JA SOIT clauses and JA F&Ucirc;T
-clauses are treated analogously to TOUT SOIT clauses.
+<a name="ja-soit-concessive">
+<h4>JA SOIT concessive clause</h4>
+
+JA SOIT clauses (also with JA F&Ucirc;T) are treated analogously to TOUT SOIT
+clauses.
 
 <blockquote>
 <pre>
 (CP-ADV (ADVP (ADV ja@))
-        (IP-SUB (NP-SBJ-1 *proimp*)		&larr; preverbal subject position by default
+        (IP-SUB (NP-SBJ=1 *proimp*)		&larr; preverbal subject position by default
                 (VJ @soit)
                 (CP-THT-1 (CONJS que)
                           (IP-SUB ...))))
 
 (CP-ADV (ADVP (ADV ja@))
         (IP-SUB (VJ @soit)
-                (NP-SBJ-1 (PRO ce))
+                (NP-SBJ=1 (PRO ce))
                 (CP-THT-1 (CONJS que)
                           (IP-SUB ...))))
 </pre>
 </blockquote>
 
-<a name="et-conditional-clauses">
-<b>ET conditional clauses.</b>  Conditional clauses introduced by ET are
-treated as parentheticals in the IP that they modify.
+<a name="et-conditional">
+<h4>ET conditional clause</h4>
+
+Conditional clauses introduced by ET are treated as parentheticals in the
+IP that they modify.
 
 <blockquote>
 <pre>
@@ -154,7 +122,7 @@ treated as parentheticals in the IP that they modify.
 			       (VJ (VJ serchent) (CONJO et) (VJ querent))
 			       (ADVP-LOC (ADV partout))))
 	        (CONJP (CONJO et)
-		       (IP-SUB-3 (NP-SBJ **T-2)
+		       (IP-SUB-3 (NP-SBJ *T-2)
 			         (MDJ vouldroient)
 				 (IP-INF (AX avoir)
 				         (VPP donn&eacute;)
@@ -188,22 +156,22 @@ treated as parentheticals in the IP that they modify.
 
 <a name="c">
 
-<a name="causatives">
-<h4>Causatives</h4>
+<a name="causative">
+<h3>Causative</h3>
 
 <blockquote>
 <pre>
 ( (IP-MAT (NP-SBJ (PRO Ils))
           (AJ ont)
           (VPP fait)
-          (IP-INF (NP-SBJ *arb*)				&larr; causee not expressed
+          (IP-INF (NP-SBJ *arb*)			   &larr; causee not expressed
 	          (VX manger)
                   (NP-ACC (D les) (NCS tartines)))))
 
 ( (IP-MAT (NP-SBJ (PRO Ils))
           (AJ ont)
           (VPP fait)
-          (IP-INF (NP-SBJ *arb*)				&larr; causee not expressed
+          (IP-INF (NP-SBJ *arb*)	    		   &larr; causee not expressed
 	          (VX donner)
                   (NP-ACC (D les) (NCS tartines))
                   (NP-DTV (DAT &agrave;) (NPRS Jean)))))
@@ -213,92 +181,25 @@ treated as parentheticals in the IP that they modify.
           (VPP fait)
           (IP-INF (VX manger)	
                   (NP-ACC (D les) (NCS tartines))
-                  (NP-SBJ (DAT &agrave;) (NPRS Jean)))))		&larr; FAIRE &Agrave; construction (dative-marked causee)
+                  (NP-SBJ (DAT &agrave;) (NPRS Jean)))))          &larr; FAIRE &Agrave; construction (dative-marked causee)
 
 ( (IP-MAT (NP-SBJ (PRO Ils))
           (AJ ont)
           (VPP fait)
           (IP-INF (VX manger)
                   (NP-ACC (D les) (NCS tartines))
-		  (PP (P par)					&larr; FAIRE PAR construction
+		  (PP (P par)				   &larr; FAIRE PAR construction
 		      (NP (NPRS Jean))))))
 </pre>
 </blockquote>
 
-<a name="cl_vs_pro">
-<h4>CL versus PRO</h4>
-
-In Version 2.0 of the MCVF Corpus and the Penn MCVF Supplement, we
-distinguish between clitics (CL) and ordinary pronouns (PRO), a
-distinction that was not part of the original tagset developed at the
-University of Ottawa.  Subject pronouns are always tagged <tt>PRO</tt>.
-Object pronouns, on the other hand, are sometimes tagged as ordinary
-pronouns (<tt>PRO</tt>) and sometimes as clitics (<tt>CL</tt>).
-
-<p> There are in fact two relevant distinctions: a prosodic one, and a
-syntactic one.  Prosodically, pro-forms can be weak (<i>me, te, le, se,
-les</i>) or strong (also known as tonic) (<i>moi, toi, soi, eux</i>).
-Syntactically, pro-forms can be required to be adjacent to their
-licensing head, or they can have the relatively free distribution of
-ordinary noun phrases.  In principle, this gives rise to four expected
-possibilities, which are annotated as follows:
-
-<p>
-<table border cellpadding=5>
-<tr>
-<th align=left>Prosody
-<th align=left>Syntax
-<th align=left>Tag
-<th align=left>Example(s)
-<tr>
-<tr>
-<td rowspan=2>Weak
-<td>Separable
-<td colspan=2>This combination doesn't occur.
-
-<tr>
-
-<td>Nonseparable (preverbal)
-<td>CL
-<td>Le roi le/CL m'/CL a donn&eacute;.
-
-<tr>
-<td rowspan=2>Strong
-<td>Nonseparable
-    (postverbal in imperatives and other verb-initial contexts)
-<td>CL
-<td>Donne le/CL moi/CL
-
-<tr>
-
-<td>Separable (conjunction contexts, complement of preposition, left-dislocation)
-<td>PRO
-<td>Le roi a invit&eacute; ton fr&egrave;re et toi/PRO. <br>
-    Le roi a invit&eacute; toi/PRO et ton fr&egrave;re. <br>
-    Moi/PRO , je l' aime. <br>
-    Ce chien est &agrave; moi/PRO.
-</table>
-
-<p> To complicate matters yet a bit further, some forms are prosodically
-ambiguous (<i>lui, nous, vous</i>).  Such forms are annotated
-as <tt>CL</tt> or <tt>PRO</tt> depending on the syntactic context.
-
-<p>
-<blockquote>
-Le roi lui/CL a donn&eacute; un grand chien. (preverbal clitic)
-<br>
-Ce chien est a nous/PRO (complement of preposition)
-<br>
-Vous/PRO , vous &ecirc;tes fou. (left-dislocation)
-</blockquote>
-
-<a name="clause-adjoined_relatives">
-<h4>Clause-adjoined relatives (CP-CAR)</h4>
+<a name="clause-adjoined_relative">
+<h3>Clause-adjoined relative (CP-CAR)</h3>
 
 By convention, clause-adjoined relatives do not start a new token.
 
-<a name="clefts">
-<h4>Clefts (CP-CLF)</h4>
+<a name="cleft">
+<h3>Cleft (CP-CLF)</h3>
 
 <blockquote>
 <pre>
@@ -336,7 +237,7 @@ By convention, clause-adjoined relatives do not start a new token.
 </blockquote>
 
 <a name="clitic_climbing">
-<h4>Clitic climbing</h4>
+<h3>Clitic climbing</h3>
 
 Instances of clitic placement that are ambiguous between enclisis on an
 infinitive (possible in Early Old French) and clitic climbing plus
@@ -346,20 +247,81 @@ proclisis on a finite verb are treated by default as proclisis.
 In across-the-board clitic climbing, the climbed clitic binds two
 traces.
 
-<a name="comparative_and_degree_constructions">
-<h4>Comparative and degree constructions</h4>
+<a name="cl_vs_pro">
+<h3>Clitic pronoun (CL) versus ordinary pronoun (PRO)</h3>
 
-<p> See <a href="syntax-main.html#comparative_clauses">Comparative clauses</a> for 
+In the MCVF, version 2.0, and in the Penn-BFM Parsed Corpus of Historical
+French, clitics (<tt>CL</tt>) are distinguished from ordinary pronouns
+(<tt>PRO</tt>), which is not the case in the MCVF, version 1.0.
+
+<p> Subject pronouns are always tagged <tt>PRO</tt>.  Object pronouns are
+sometimes tagged as ordinary pronouns (<tt>PRO</tt>) and sometimes as
+clitics (<tt>CL</tt>).
+
+<p> There are two relevant distinctions: a prosodic one, and a syntactic
+one.  Prosodically, pro-forms can be weak (<i>me, te, le, se, les</i>) or
+strong (also known as tonic) (<i>moi, toi, soi, eux</i>).  Syntactically,
+pro-forms (or their traces) can be required to be adjacent to their
+licensing head, or they can have the relatively free distribution of
+ordinary noun phrases.  In principle, this gives rise to four expected
+possibilities, which are annotated as follows:
+
+<p>
+<table>
+<tr>
+<th>Prosody
+<th>Syntax
+<th>Tag
+<th>Example(s)
+<tr>
+<tr>
+<td rowspan=2>Weak
+<td>Separable
+<td colspan=2>This combination doesn't occur.
+
+<tr>
+<td>Nonseparable (preverbal)
+<td>CL
+<td>Le roi le/CL m'/CL a donn&eacute;.
+
+<tr>
+<td rowspan=2>Strong
+<td>Nonseparable
+    (postverbal in imperatives and other verb-initial contexts)
+<td>CL
+<td>Donne le/CL moi/CL
+
+<tr>
+<td>Separable (conjunction contexts, complement of preposition, dislocation)
+<td>PRO
+<td>Le roi a invit&eacute; ton fr&egrave;re et toi/PRO. <br>
+    Le roi a invit&eacute; toi/PRO et ton fr&egrave;re. <br>
+    Moi/PRO , je l' aime. <br>
+    Ce chien est &agrave; moi/PRO.
+</table>
+
+<p> To complicate matters yet a bit further, some forms (LUI, NOUS, VOUS)
+are prosodically ambiguous.  Such forms are annotated as <tt>CL</tt>
+or <tt>PRO</tt> depending on the syntactic context.
+
+<blockquote>
+<pre>
+Le roi lui/CL a donn&eacute; un grand chien . (preverbal clitic)
+
+Ce chien est a nous/PRO . (complement of preposition)
+
+Vous/PRO , vous &ecirc;tes fou. (dislocation)
+</pre>
+</blockquote>
+
+<a name="comparative_and_degree_constructions">
+<h3>Comparative and degree constructions</h3>
+
+See <a href="syntax-main.html#comparative_clause">Comparative clause</a> for 
 discussion of elided comparative clauses.
 
 <p>
-The annotation of comparative and degree constructions for French and
-Portuguese is streamlined compared to the English corpora, which we plan
-to revise eventually in accordance with the guidelines below.
-
-<p>
-Comparative and degree constructions both contain the following
-elements:
+Comparative and degree constructions both contain the following elements:
 
 <ul> 
 <li>a licensing degree particle, 
@@ -370,9 +332,8 @@ silent</a>), and
 extraposed</a>).
 </ul>
 
-In contrast to the English corpora, the licensing particle, the
-dimension of comparison, and the complement are all treated as sisters,
-in comparative and degree constructions alike.
+The licensing particle, the dimension of comparison, and the complement
+are all treated as sisters, in comparative and degree constructions alike.
 
 <blockquote>
 <pre>
@@ -393,9 +354,9 @@ in comparative and degree constructions alike.
 ( (IP-MAT (NP-SBJ (NPRS Jean))
           (AJ a)
 	  (VPP &eacute;t&eacute;)
-	  (ADJP-PRD (ADV assez)			&larr; degree particle
-	     	    (ADJ vite)			&larr; dimension of comparison
-	            (PP (P pour)		&larr; complement of degree particle
+	  (ADJP-PRD (ADV assez)			     &larr; degree particle
+	     	    (ADJ vite)			     &larr; dimension of comparison
+		    (PP (P pour)		     &larr; complement of degree particle
 		        (IP-INF (CL-NP-RFL (CL s'))
 			        (CL-PP (CL en))
 				(VX fuir))))))
@@ -436,19 +397,15 @@ In older forms of French, degree particles often undergo leftward
 movement.  See
 <a href="syntax-main.html#leftward_or_rightward_movement">Leftward or rightward
 movement?</a> for general discussion and 
-<a href="syntax-main.html#preverbal_degree_words">Preverbal degree words</a> for
+<a href="syntax-main.html#preverbal_degree_word">Preverbal degree word</a> for
 detailed discussion and examples.
 
 <a name="comparative_and_degree_complements_extraposition">
-<p> Complements of comparative and degree particles are often separated
-from their licensing head by the dimension of comparison.  In the
-English corpora, such complements are annotated as extraposed.  However,
-the complements in question can be extraposed further still in the
-syntax, so that this convention unnecessarily complicates syntactic
-searches.  As a result, in the French and Portuguese corpora, the
-complement's closest possible surface position to its licensing head is
-not annotated as extraposed; it is only more distant positions that are
-so annotated.
+<p> Complements of comparative and degree particles are generally
+separated from their licensing head by the dimension of comparison.  This
+discontinuous dependency is not overtly annotated.  It is only when the
+complement is extraposed further that the annotation includes an *ICH*
+trace.
 
 <blockquote>
 <pre>
@@ -485,14 +442,15 @@ so annotated.
 </pre>
 </blockquote>
 
-<a name="comparative_clauses">
-<h4>Comparative clauses (CP-CMP)</h4>
+<a name="comparative_clause">
+<h3>Comparative clause (CP-CMP)</h3>
 
-See also
+See also:
+
 <ul>
 <li><a href="syntax-main.html#comparative_and_degree_constructions">Comparative and degree
 constructions</a> for general discussion
-<li><a href="syntax-main.html#correlative">Correlative clauses
+<li><a href="syntax-main.html#correlative">Correlative clause
 <li><a href="words.html#tant_que">TANT QUE</a>
 <li><a href="words.html#tant_que_et">TANT QUE ... ET</a>
 <li><a href="words.html#tant_xp_que_yp">TANT ... QUE ...</a>
@@ -505,12 +463,14 @@ projection of the <a
 href="syntax-main.html#comparative_and_degree_constructions">dimension of comparison</a>
 (or <tt>NP-MSR</tt> in the case of a silent dimension of comparison),
 and the trace generally appears at the IP level (except in the case of
-<a href="syntax-main.html#comparative_subdeletion">comparative subdeletion</a>).  Note
-that the syntactic category and the trace and its position do not
-correspond exactly to what is required in the semantics.  This is
-because semantically more appropriate representations would require
-adding too much material that is not in the text (indicated below in
-red).
+<a href="syntax-main.html#comparative_subdeletion">comparative
+subdeletion</a>).
+
+<!--
+Note that the syntactic category and the trace and its position do not
+correspond exactly to what is required in the semantics.  This is because
+semantically more appropriate representations would require adding too
+much material that is not in the text (indicated below in blue).
 
 <blockquote>
 <pre>
@@ -561,7 +521,6 @@ red).
 					(IP-SUB (ADVP *T*-1)
 						<font color="blue">je le lise</font>)))))))
 
-
 ( (IP-MAT (NP-SBJ (D La) (NCS pomme))			&larr; this way
           (VJ est)
 	  (ADJP-PRD (QR plus) 
@@ -594,6 +553,7 @@ red).
 				    <font color="blue">est lourde</font>)))))
 </pre>
 </blockquote>
+-->
 
 <p>
 In cases of elision, the comparative is annotated as a clause with a
@@ -624,7 +584,6 @@ trace wherever possible, but the elided material is not reconstructed.
 					        (VJ etais)
 					        (NP-PRD (D une) (NCS voiture)))))))))
 
-
 ( (IP-MAT (NP-SBJ (PRO il))
           (CL-NP-RFL (CL s'))
           (CL-PP (CL en))
@@ -635,14 +594,14 @@ trace wherever possible, but the elided material is not reconstructed.
 			    (CONJS qu')
                             (IP-SUB (ADVP-TMP *T*-1)
 				    (NP-SBJ (PRO il))
-                                    (MDJ peut))))))		&larr; note absence of IP-INF complement of modal
+                                    (MDJ peut))))))	   &larr; note absence of IP-INF complement of modal
 </pre>
 </blockquote>
 
 <p>
-Comparative heads are treated as comparative prepositions (<tt>PR</tt>)
-only as a last resort (for instance, when a clausal analysis is
-impossible for morphological reasons).
+Comparative heads are treated as prepositions (<tt>P</tt>) only as a last
+resort (for instance, when a clausal analysis is impossible for
+morphological reasons).
 
 <blockquote>
 <pre>
@@ -652,7 +611,7 @@ impossible for morphological reasons).
 	  (NP-ACC (D le) (NCS livre))
 	  (ADVP (ADV ainsi)
 	     	(ADV vite)
-	        (PP (PR que)         		&larr; clausal structure impossible because of tonic pronoun
+	        (PP (PR que)         		&larr; clause impossible because of tonic pronoun
             	    (NP (PRO toi))))))
 </pre>
 </blockquote>
@@ -661,8 +620,7 @@ impossible for morphological reasons).
 <p> In cases of comparative subdeletion, the trace of the silent measure
 phrase appears lower than at the IP level (in other words, where it is
 expected on semantic grounds).  The syntactic category of the trace
-is <tt>QP</tt>, <tt>NP-MSR</tt> being restricted to the IP level (the
-English corpora are inconsistent with this, but will be retrofitted).
+is <tt>QP</tt>, <tt>NP-MSR</tt> being restricted to the IP level.
 
 <blockquote>
 <pre>
@@ -680,48 +638,41 @@ English corpora are inconsistent with this, but will be retrofitted).
 </pre>
 </blockquote>
 
-<a name="concessive_clauses">
-<h4>Concessive clauses</h4>
+<a name="concessive_clause">
+<h3>Concessive clause</h3>
 
 For concessive free relative clauses,
-see <a href="syntax-main.html#free_relative_clauses">Free relative clauses</a>.
+see <a href="syntax-main.html#free_relative_clause">Free relative
+clause</a>.
 
-<a name="conditional_clauses">
-<h4>Conditional clauses</h4>
-
-See
-
-<ul>
-<li><a href="syntax-main.html#et-conditional-clauses">ET conditional clauses</a>
-</ul>
-
-<a name="conjunction-adj">
-<h4>Conjunction of prenominal and postnominal adjectives</h4>
+<a name="conjoined_adjectives">
+<h3>Conjoined prenominal and postnominal adjectives</h3>
 
 <blockquote>
 <pre>
 (NP (ADJP (ADJP (ADJR meilleur)
                 (CONJP *ICH*-1)))
     (NCS pays)
-    (CONJP (CONJO et)
-           (ADJP (QR plus) (ADJ plantureux))))
+    (CONJP-1 (CONJO et)
+             (ADJP (QR plus) (ADJ plantureux))))
 </pre>
 </blockquote>
 
-<a name="copularVerbs">
-<h4>Copular verbs</h4>
+<a name="copular_verb">
+<h3>Copular verb</h3>
 
-Copular verbs include APPARAITRE, DEMOURER, DEVENIR, ETRE, PARVENIR,
-REMAINDRE, RESEMBLER, RESTER, SEMBLER, TOURNER, TOMBER (MALADE) .
+Copular verbs include:
+
+<blockquote>
+<pre>
+APPARAITRE, DEMOURER, DEVENIR, ETRE, PARVENIR, REMAINDRE, RESEMBLER, RESTER, SEMBLER, TOMBER (MALADE), TOURNER
+</pre>
+</blockquote>
+
 RETOURNER counts as a copular verb in the sense of 'turn again' (not 'return').
 
-
 <a name="correlative">
-<h4>Correlative constructions</h4>
-
-Click <a
-href="http://www.ling.upenn.edu/~beatrice/annotation/syn-sub.html#correlative_comparative_full">here</a>
-for English documentation on correlatives.
+<h3>Correlative construction</h3>
 
 <blockquote>
 <pre>
@@ -769,92 +720,91 @@ for English documentation on correlatives.
 
 <a name="d">
 
-<a name="degree_clauses">
-<h4>Degree clauses (CP-DEG)</h4>
+<a name="degree_clause">
+<h3>Degree clause (CP-DEG)</h3>
 
-See also <a href="syntax-main.html#comparative_and_degree_constructions">Comparative and
+See <a href="syntax-main.html#comparative_and_degree_constructions">Comparative and
 degree constructions</a>.
 
 <a name="e">
 
 <a name="emptyOperatorMovement">
-<h4>Empty operator movement</h4>
+<h3>Empty operator movement</h3>
 
-Unlike in the historical English corpora, the annotation scheme for
-French does not distinguish between <tt>CP-TMC</tt> (TOUGH movement) and
-other instances of empty operator movement; both are annotated
-as <tt>CP-EOP</tt>.
-<a name="empty_subjects">
-<h4>Empty subjects</h4>
+The annotation scheme for French does not distinguish
+between <tt>CP-TMC</tt> (TOUGH movement) and other instances of empty
+operator movement; both are annotated as <tt>CP-EOP</tt>.
+
+<a name="empty_subject">
+<h3>Empty subject</h3>
 
 Empty subjects are annotated as follows:
 <ul>
 <li>Traces
     <ul>
-    <li>*T* (as for English)
-    <li>*ICH* (guidelines as for *T*)
+    <li><tt>*T*</tt> (as for English)
+    <li><tt>*ICH*</tt> (as for English)
     </ul>
 <li>Other
     <ul>
-    <li>* (as for English)
-    <li>*arb* (as for English)
-    <li>*con* (see below)
-    <li>*pro* (see below)
-    <li>*proimp* (same as *exp* for English)
+    <li><tt>*arb*</tt> (as for English)
+    <li><tt>*con*</tt> (see below)
+    <li><tt>*pro*</tt> (see below)
+    <li><tt>*proimp*</tt> (same as *exp* for English)
+    <li><tt>*</tt> (as for English)
     </ul>
 </ul>
 
-<p> By default, empty *con*, *pro*, or *proimp* precedes the finite
-verb and any associated clitics, even in constructions where an overt
-subject would or might invert with the finite verb.
+<p> By default, empty <tt>*con*</tt>, <tt>*pro*</tt>, or <tt>*proimp*</tt>
+precedes the finite verb and any associated clitics, even in constructions
+where an overt subject would or might invert with the finite verb.
 
 <p>
-If an empty subject is ambiguous between a trace (*T*, *ICH*) or some other
-empty category, it is annotated as a trace.
+If an empty subject is ambiguous between a trace
+(<tt>*T*</tt>, </tt>*ICH*</tt>) or some other empty category, it is
+annotated as the appropriate trace.
 
 <p>
-If an empty subject could be *arb*, *proimp*, or *, it is annotated as such
-(even in conjunction contexts).
+If an empty subject could be <tt>*arb*</tt>, </tt>*proimp*</tt>,
+or <tt>*</tt>, it is annotated as such (even in conjunction contexts).
 
-<p> The remaining cases concern the distinction between *pro* ("small
-pro") and *con* (subject elided under conjunction).  The main purpose of
-the distinction is to facilitate the search for clear cases of *pro*
-(empty thematic subjects that are not possible in a language like modern
-English), taking in account that French loses *pro* and possibly changes
-from OV to VO in the course of its history.
+<p> The remaining cases concern the distinction between <tt>*pro*</tt>
+("small pro") and <tt>*con*</tt> (subject elided under conjunction).  The
+main purpose of the distinction is to facilitate the search for clear
+cases of <tt>*pro*</tt>, taking in account that French loses this category
+and changes from OV to VO in the course of its history.
 
 <p> In certain cases, for instance in clauses dominated by CP, the empty
-subject is clearly *pro*,
+subject is clearly <tt>*pro*</tt>.
 
 <blockquote>
 <pre>
 ( (Le roi depart.))
-( (La reine sait que *pro* (= le roi or la reine) ira a la foret.))
+( (La reine sait que *pro* (= "le roi" or "la reine") ira a la foret.))
 
 ( (Le roi depart.))
-( (La reine sait que *pro* (= le roi or la reine) ira a la foret,
+( (La reine sait que *pro* (= "le roi" or "la reine") ira a la foret,
                  et
-                 que *pro* (= le roi or la reine) cherchera les truffes.))
+                 que *pro* (= "le roi" or "la reine") cherchera les truffes.))
 </pre>
 </blockquote>
 
 <p> Clauses involving conjunction at a level lower than CP fall into two
 cases: first conjuncts and subsequent conjuncts.  In first conjuncts of
-this type, the empty subject is clearly *pro*.
+this type, the empty subject is clearly <tt>*pro*</tt>.
 
 <blockquote>
 <pre>
 ( (Le roi depart.))
-( (La reine sait que *pro* (= le roi or la reine) ira a la foret,
+( (La reine sait que *pro* (= "le roi" or "la reine") ira a la foret,
                  et
                  les barons l'accompagneront.))
 </pre>
 </blockquote>
 
-<p> But subsequent conjuncts of this type are systematically ambiguous
-(at least in principle) between a verb-final VP with a subject elided
-under conjunction and a topicalization structure with a small pro
-subject licensed by V2.
+<p> But subsequent conjuncts of this type are systematically ambiguous (at
+least in principle) between a verb-final VP with <tt>*con*</tt> and a
+topicalization structure with a <tt>*pro*</tt> subject licensed by V2.
 
 <blockquote>
 <pre>
@@ -863,54 +813,58 @@ subject licensed by V2.
 </pre>
 </blockquote>
 
+<!--
 <p>
-In accordance with the above-stated aim of reserving *pro* for clear
-cases, empty subjects in these ambiguous cases are annotated as *con*.
+In accordance with the above-stated aim of reserving <tt>*pro*</tt> for
+clear cases, empty subjects in these ambiguous cases are annotated
+as <tt>*con*</tt>.
+-->
 
-<p> The guideline for these ambiguous cases is to use *con* for subjects
-that are coreferential with the immediately preceding subject at the
-same level of embedding, and *pro* otherwise.  (Thus, *pro* is the
-default in the sense of being the elsewhere case, even though *con* is
-by far the more common case.)
+<p> The guideline for these ambiguous cases is to use <tt>*con*</tt> for
+subjects that are coreferential with the immediately preceding subject at
+the same level of embedding, and <tt>*pro*</tt> otherwise.
+(Thus, <tt>*pro*</tt> is the default in the sense of being the elsewhere
+case, even though <tt>*con*</tt> is by far the more common case.)
 
 <blockquote>
 <pre>
 ( (Le roi appella la reine,))
-( (et *con* (= le roi) lui donna une belle rose.))
+( (et *con* (= "le roi") lui donna une belle rose.))
 
 ( (Le roi appella la reine,))
-( (et une belle rose *con* (= le roi) lui donna.))
+( (et une belle rose *con* (= "le roi") lui donna.))
 
 ( (Le roi appella la reine,))
-( (et *pro* (= la reine) dist a son seigneur: "D'ou venez vous?"))
-( (Et *pro* (= le roi) respont: "De la foret".))
+( (et *pro* (= "la reine") dist a son seigneur: "D'ou venez vous?"))
+( (Et *pro* (= "le roi") respont: "De la foret".))
 
 ( (Le roi appella la reine,))
-( (et a son seigneur *pro* (= la reine) dist: "D'ou venez vous?"))
-( (Et *pro* (= le roi) respont: "De la foret".))
+( (et a son seigneur *pro* (= "la reine") dist: "D'ou venez vous?"))
+( (Et *pro* (= "le roi") respont: "De la foret".))
 
 ( (La reine sait que le roi est alle a la foret
                      et
-                     *con* (= le roi) chasse avec ses barons.))
+                     *con* (= "le roi") chasse avec ses barons.))
 
 ( (Le roi depart.))
-( (La reine sait que *pro* (= le roi) ira a la foret
+( (La reine sait que *pro* (= "le roi") ira a la foret
                      et
-                     *con* (= le roi) cherchera les truffes.))
+                     *con* (= "le roi") cherchera les truffes.))
 
 ( (Le roi depart.))
-( (La reine sait que *pro* (= la reine) ira a la foret
+( (La reine sait que *pro* (= "la reine") ira a la foret
                      et
-                     *con* (= la reine) cherchera les truffes.))
+                     *con* (= "la reine") cherchera les truffes.))
 
 ( (Le roi depart.))
-( (La reine sait que *pro* (= la reine) ira a la foret
+( (La reine sait que *pro* (= "la reine") ira a la foret
                      et
-                     *pro* (= le roi) cherchera les truffes.))
+                     *pro* (= "le roi") cherchera les truffes.))
+
 ( (Le roi depart.))
-( (La reine sait que *pro* (= le roi) ira a la foret
+( (La reine sait que *pro* (= "le roi") ira a la foret
                      et
-                     *pro* (= la reine) cherchera les truffes.))
+                     *pro* (= "la reine") cherchera les truffes.))
 </pre>
 </blockquote>
 
@@ -921,55 +875,56 @@ independent tokens of quoted speech.
 <blockquote>
 <pre>
 ( (Le roi appella la reine,))
-( (et *con* (= le roi) dist a elle: "Je viens de la foret,))
-( (et *con* (= je) vous ai apporte une belle rose".))
+( (et *con* (= "le roi") dist a elle: "Je viens de la foret,))
+( (et *con* (= "je") vous ai apporte une belle rose".))
 
 ( (Le roi appella la reine,))
-( (et *con* (= le roi) dist a elle: "Je viens de la foret,))
-( (et une belle rose *con* (= je) vous ai apporte".))
+( (et *con* (= "le roi") dist a elle: "Je viens de la foret,))
+( (et une belle rose *con* (= "je") vous ai apporte".))
 
 ( (Le roi appella la reine,))
-( (et *pro* (= la reine) dist a son seigneur: "D'ou *pro* (= vous) venez,))
-( (et *con* (= vous) m'avez apporte une belle rose?"))
+( (et *pro* (= "la reine") dist a son seigneur: "D'ou *pro* (= "vous") venez,))
+( (et *con* (= "vous") m'avez apporte une belle rose?"))
 </pre>
 </blockquote>
 
-<p> An empty subject in the first clause after a stretch of quoted
-speech is generally annotated as *pro*, even when it is coreferential
+<p> An empty subject in the first clause after a stretch of quoted speech
+is generally annotated as <tt>*pro*</tt>, even when it is coreferential
 with the matrix subject of the last token before the quoted speech
 (arguably the immediately preceding subject at the same level of
-embedding).  The rationale is that an empty subject would generally not
-be natural in this context in a non-pro-drop language like English.
+embedding).  The rationale is that an empty subject would not be natural
+in this context in a non-pro-drop language like English.
 
 <blockquote>
 <pre>
 ( (Le roi appella la reine,))
-( (et *con* (= le roi) dist a elle: "Je viens de la foret,))
-( (et *con* (= je) vous ai apporte une belle rose",))
-( (et *pro* (= le roi) donna la rose a la reine.))
+( (et *con* (= "le roi") dist a elle: "Je viens de la foret,))
+( (et *con* (= "je") vous ai apporte une belle rose",))
+( (et *pro* (= "le roi") donna la rose a la reine.))
 </pre>
 </blockquote>
 
-<p> If the discourse is very short, it may be that an empty subject
-would be natural in English, and it would be fine to use *con* (in
-accordance with the aim of reserving *pro* for clear instances).
+<p> If the discourse is very short, it may be that an empty subject would
+be natural in English, and it would be fine to use <tt>*con*</tt> (in
+accordance with the aim of reserving <tt>*pro*</tt> for clear instances).
 
-<p> To the extent that *pro* is subject to structural licensing
+<p> To the extent that <tt>*pro*</tt> is subject to structural licensing
 requirements, our referential - that is, nonstructural - basis for
-distinguishing between *pro* and *con* along with the bias towards *con*
-has the result that small pro is annotated as *con* in certain syntactic
-configurations.  Users who are particularly interested in the
-quantitative development of *pro* will need to identify and recode the
-relevant instances by means of coding or revision queries encoding the
-structural licensing requirements on *pro* assumed by their analysis.
+distinguishing between <tt>*pro*</tt> and </tt>*con*</tt> along with the
+bias towards <tt>*con*</tt> systematically undercounts <tt>*pro*</tt>.
+Users with a particular interest in the quantitative development
+of <tt>*pro*</tt> will need to identify and recode the relevant instances
+(say, with CorpusSearch coding or revision queries) to reflect the
+structural licensing requirements on <tt>*pro*</tt> assumed by their
+analysis.
 
-<h4>Extraposed complements of comparative and degree heads</h4>
+<h3>Extraposed complement of comparative or degree head</h3>
 
 See <a href="syntax-main.html#comparative_and_degree_complements_extraposition">Comparative
 and degree constructions</a>.
 
-<a name="extraposed_conjuncts">
-<h4>Extraposed conjuncts</h4>
+<a name="extraposed_conjunct">
+<h3>Extraposed conjunct</h3>
 
 When part of the subject, extraposed conjuncts are treated as instances
 of gapping because of subject-verb agreement.  The gapping analysis is
@@ -1004,8 +959,8 @@ extraposition).
 
 <a name="f">
 
-<a name="floated_quantifiers">
-<h4>Floated quantifiers</h4>
+<a name="floated_quantifier">
+<h3>Floated quantifier</h3>
 
 Quantifiers that are ambiguous between being subjects or floated
 quantifiers are treated as subjects by default.
@@ -1017,7 +972,7 @@ quantifiers are treated as subjects by default.
 	  (VJ fist)
 	  (NP-SBJ (Q chascun))
 	  (NP-ACC (ADJ bonne) (NCS ch&egrave;re))
-	  (PONFP .)) (ID COMMYNES-NEWTOK,37.465))
+	  (PONFP .)))
 
 ( (IP-MAT (CONJO et)
 	  (EJ furent)
@@ -1033,7 +988,7 @@ quantifiers are treated as subjects by default.
 		  (NCPL lieues)
 		  (PP (P de)
 		      (NP (NPRS Calais)))))
-	  (PONFP .)) (ID COMMYNES-NEWTOK,120.1642))
+	  (PONFP .)))
 </pre>
 </blockquote>
 
@@ -1046,20 +1001,20 @@ of floated quantifiers with other constituents is explicitly indicated.
 ( (IP-MAT (NP-SBJ (PRO ils))
           (CL-NP-DTV (CL nous)
           (VJ portent)
-          (QP (Q tous))			&larr; TOUS construed with subject; no trace
+          (QP (Q tous))			           &larr; TOUS construed with subject; no trace
           (NP-ACC (ADJ grant) (NCS prejudice))))
 
 ( (IP-MAT (NP-SBJ (PRO il))
           (CL-NP-DTV (CL nous)
                      (QP *ICH*-1))
           (VJ porte)
-          (QP-1 (DAT a) (Q toutes))	&larr; TOUS construed with non-subject; explicit trace
+          (QP-1 (DAT a) (Q toutes))	           &larr; TOUS construed with non-subject; explicit trace
           (NP-ACC (ADJ grant) (NCS prejudice))))
 </pre>
 </blockquote>
 
-<a name="free_relative_clauses">
-<h4>Free relative clauses</h4>
+<a name="free_relative_clause">
+<h3>Free relative clause</h3>
 
 The doubly-filled COMP analysis for free relative clauses that is shown
 below is preferable to conceivable alternatives because it extends to
@@ -1096,12 +1051,13 @@ evidence from free relatives in Bavarian.
         (CONJS que)
         (IP-SUB (VPP *ICH*-1)
                 (NP-SBJ (PRO nos))
-                (VJ feusmes)
+                (EJ feusmes)
 		(PP (P de)
 		    (NP (D ce) (NCS charroy)))))
 </pre>
 </blockquote>
 
+<!--
 Examples with QUI do not decide in favor of the second analysis
 because of the <a href="syntax-main.html#que_to_qui">QUE to QUI rule</a>. 
 
@@ -1115,6 +1071,7 @@ because of the <a href="syntax-main.html#que_to_qui">QUE to QUI rule</a>.
 			(VPP (VPP dict) (CONJO et) (VPP oppin&eacute;)))))
 </pre>
 </blockquote>
+-->
 
 <a name="g">
 
@@ -1123,19 +1080,19 @@ because of the <a href="syntax-main.html#que_to_qui">QUE to QUI rule</a>.
 <a name="i">
 
 <a name="impersonal">
-<h4>Impersonal predicates</h4>
+<h3>Impersonal predicate</h3>
 
 Certain impersonal predicates are treated as taking direct object
-(violating Burzio's generalization).  For details, see
+(violating Burzio's generalization).
 
 <ul>
 <li><a href="words.html#il_y_a">IL Y A</a>
 <li><a href="words.html#metier">METIER</a>
-<li><a href="syntax-main.html#weather">Weather predicates</a>
+<li><a href="syntax-main.html#weather">Weather predicate</a>
 </ul>
 
 <a name="inalienable_possession">
-<h4>Inalienable possession</h4>
+<h3>Inalienable possession</h3>
 
 The annotation for inalienable possession with AVOIR depends on whether
 the body part is introduced with the definite article.  If so, AVOIR
@@ -1149,14 +1106,23 @@ Mixed cases are annotated as gapping.
           (IP-SMC (NP-SBJ (D le) (NCS cors))
                   (ADJP-PRD (ADJ gent)))))
 
-o( (IP-MAT (ADJ-1 Gent)                             &larr; <a href="syntax-main.html#preverbal_arguments">preverbal predicate</a>
+( (IP-MAT (ADJ-1 Gent)                             &larr; <a href="syntax-main.html#preverbal_argument">preverbal predicate</a>
           (NP-SBJ *pro*)
           (VJ ad)
           (IP-SMC (ADJP-PRD (ADJ *ICH*-1))
                   (NP-SBJ (D le) (NCS cors)))))
 
+( (IP-MAT (CONJO et)
+	  (NP-SBJ *con*) 
+	  (VJ avisera)
+	  (CP-QUE (CONJS si)
+		  (IP-SUB (NP-SBJ (PRO elle))
+			  (VJ a)
+			  (IP-SMC (NP-SBJ (D les) (NCPL braz))
+				  (ADVP (ADV bien))
+				  (VPP couvers))))))
 
-( (IP-MAT (NCS-1 Cors)                             &larr; <a href="syntax-main.html#preverbal_arguments">preverbal argument</a>
+( (IP-MAT (NCS-1 Cors)                             &larr; <a href="syntax-main.html#preverbal_argument">preverbal argument</a>
           (NP-SBJ *pro*)
           (VJ ad)
           (NP-ACC (NCS-1 *ICH*-1))                 &larr; no definite article
@@ -1172,8 +1138,8 @@ o( (IP-MAT (ADJ-1 Gent)                             &larr; <a href="syntax-main.
 </pre>
 </blockquote>
 
-<a name="infinitives">
-<h4>Infinitives (IP-INF)</h4>
+<a name="infinitive">
+<h3>Infinitive (IP-INF)</h3>
 
 Infinitives introduced by DE and associated with an impersonal subject
 (<a href="words.html#ce">CE</a> or IL) are coindexed with the impersonal
@@ -1193,7 +1159,7 @@ Negative infinitives with imperative force are annotated as <tt>IP-INF-IMP</tt>.
 </blockquote>
 
 <a name="ip-pres">
-<h4>IP-PRES</h4>
+<h3>IP-PRES</h3>
 
 <a href="words.html#voici-voila">VOICI, VOILA</a> are always treated as
 heads of a presentational clause.  The focus of the clause is tagged as
@@ -1237,7 +1203,7 @@ is generally a small clause rather than a simple NP-ACC.
 
 <blockquote>
 <pre>
-( (IP-PRES (ITJ Estes)
+( (IP-PRES (ITJ Estes)                  &larr; variant spelling
 	   (CL-NP-DTV (CL vus))
 	   (NP-ACC (NPRS Rogier)
 		   (PP (P de)
@@ -1249,31 +1215,30 @@ is generally a small clause rather than a simple NP-ACC.
 				   (VJ saveit)
 				   (PP (P de)
 				       (NP (NCS guerre))))))
-	   (PONFP .))
-  (ID 1175-FANTOSME-BFM-R,98.1049))
+	   (PONFP .)))
 
-( (IP-PRES (ITJ as)	     	        &larr; one of several variant spellings
+( (IP-PRES (ITJ as)	     	        &larr; variant spelling
            (CL-NP-1 (CL les))
            (CL-NP-DTV (CL vus))	        &larr; "ethical" dative
            (IP-SMC (NP-SBJ *ICH*-1)
                    (VPP aquisez))
-	   (PONFP .)
-  (ID ROLLANT,42.263)))
+	   (PONFP .)))
 </pre>
 </blockquote>
 
 <a name="j">
 
 <a name="ja_soit_que">
-<h4>JA SOIT QUE</h4>
+<h3>JA SOIT QUE</h3>
 
-See <a href="syntax-main.html#ja-soit-concessive-clauses">JA SOIT concessive clauses</a>.
+See <a href="syntax-main.html#ja-soit-concessive">JA SOIT concessive clause</a>.
 
 <a name="je_ne_sais_qu">
-<h4>JE NE SAIS QU-</h4>
+<h3>JE NE SAIS QU-</h3>
 
-The JE NE SAIS QU- clause is annotated as a simple IP-MAT and surrounded
-with an appropriate constituent (often QP).
+The JE NE SAIS QU- clause is annotated as a simple IP-MAT (not as an
+amalgam with <tt>IP-MAT-AMA</tt>) and surrounded with an appropriate
+constituent (often <tt>QP</tt>).
 
 <blockquote>
 <pre>
@@ -1298,8 +1263,7 @@ with an appropriate constituent (often QP).
 				    (IP-INF-SPE (NP-DTV *ICH*-3)
 					        (VX dire)
 					        (CP-QUE-SUB-SPE (WNP (WPRO quanz)))))))
-	      (PONFP ,))
-  (ID 1100-ROLAND,196.2717))
+	      (PONFP ,)))
 </pre>
 </blockquote>
 
@@ -1308,7 +1272,7 @@ with an appropriate constituent (often QP).
 <a name="l">
 
 <a name="leftward_or_rightward_movement">
-<h4>Leftward or rightward movement?</h4>
+<h3>Leftward or rightward movement?</h3>
 
 In cases that are ambiguous between leftward or rightward movement, the
 default is leftward movement.  We do not claim that the resulting
@@ -1325,12 +1289,12 @@ CP-REL, PP, and perhaps a few others).
 For more detailed discussion concerning special cases, see:
 
 <ul>
-<li><a href="syntax-main.html#prefinite_infinitives">Prefinite infinitives</a>
-<li><a href="syntax-main.html#prefinite_participles">Prefinite participles</a>
-<li><a href="syntax-main.html#preverbal_arguments">Preverbal arguments</a>
-<li><a href="syntax-main.html#preverbal_degree_words">Preverbal degree words</a>
+<li><a href="syntax-main.html#prefinite_infinitive">Prefinite infinitive</a>
+<li><a href="syntax-main.html#prefinite_participle">Prefinite participle</a>
+<li><a href="syntax-main.html#preverbal_argument">Preverbal argument</a>
+<li><a href="syntax-main.html#preverbal_degree_word">Preverbal degree word</a>
 <li>Preverbal predicate adjectives and nominals
-    (see <a href="syntax-main.html#preverbal_arguments">Preverbal arguments</a>)
+    (see <a href="syntax-main.html#preverbal_argument">Preverbal argument</a>)
 </ul>
 
 <!--
@@ -1367,7 +1331,6 @@ between PP-MOD and the others can be particularly vexing.  By default,
 the following prepositions and expressions categorically
 project <tt>PP-MOD</tt>, except for a scant handful cases with SELON.
 
-<p>
 <blockquote>
 <pre>
 ATOUT, AVEC, MALGRE, O, OB, OT, PAR CE QUE, POUR CE QUE, SANS, SELON
@@ -1385,22 +1348,23 @@ the distinctions from ignoring them or entirely deleting them in their
 copies of the corpus.
 -->
   
-<a name="prefinite_infinitives">
-<h4>Prefinite infinitives</h4>
+<a name="prefinite_infinitive">
+<h3>Prefinite infinitive</h3>
 
 There are three cases (for convenience and ease of comparison, the
 examples below are constructed using Modern French words).
 
 <ul>
-<li>The prefinite infinitive has no dependents
+<li>The prefinite infinitive has no dependents.
 <li>The prefinite infinitive has at least one adjacent dependent
-    (not counting enclitics on the finite verb)
-<li>The prefinite infinitive has dependents elswhere in the clause
+    (not counting proclitics on the finite verb).
+<li>The prefinite infinitive has dependents elsewhere in the clause.
 </ul>
 
-<p>
-<b>Case 1:</b> In the absence of dependents, an IP-INF is added around a
-prefinite infinitive.
+<h4>Case 1: No dependents</h4>
+
+In the absence of dependents, an IP-INF is added around a prefinite
+infinitive.
 
 <blockquote>
 <pre>
@@ -1411,9 +1375,10 @@ prefinite infinitive.
 </pre>
 </blockquote>
     
-<p>
-<b>Case 2:</b> An IP-INF is also added around the prefinite infinitive
-and any adjacent dependents (apart from enclitics on the finite verb).
+<h4>Case 2: Adjacent dependents</h4>
+
+An IP-INF is also added around the prefinite infinitive and any adjacent
+dependents (apart from proclitics on the finite verb).
 
 <blockquote>
 <pre>
@@ -1428,7 +1393,7 @@ and any adjacent dependents (apart from enclitics on the finite verb).
 </blockquote>
 
 <p>
-Other dependents, including enclitics on the finite verb, are linked to
+Other dependents, including proclitics on the finite verb, are linked to
 the IP-INF via *ICH* traces.
 
 <blockquote>
@@ -1454,44 +1419,47 @@ the IP-INF via *ICH* traces.
 </pre>
 </blockquote>
 
-<p>
-<b>Case 3:</b> In the remaining case, an IP-INF is constructed in
-canonical position (immediately following the finite verb), and the
-prefinite infinitive is linked to an *ICH* trace in the IP-INF.
+<h4>Case 3: Elsewhere</h4>
+
+In the remaining case, an IP-INF is constructed in canonical position, and
+the prefinite infinitive and any dependents in noncanonical position are
+linked to the IP-INF via *ICH* traces.
 
 <blockquote>
 <pre>
 ( (IP-MAT (VX-1 Passer)
 	  (NP-SBJ *pro*)
-	  (CL-NP-RSP-1 (CL la))
+	  (CL-NP-2 (CL la))
 	  (MDJ veut)
 	  (NP-SBJ (D le) (NCS lion))
-	  (IP-INF (VX *ICH*)
-		  (NP-ACC (DZ sa) (NCS vie))
+	  (IP-INF (VX *ICH*-1)
+		  (NP-ACC *ICH*-2)
 		  (PP (P avec)
 		      (NP (NPRS Yvain))))
 	  (PONFP .)))
 </pre>
 </blockquote>
 
-<a name="prefinite_participles">
-<h4>Prefinite participles</h4>
+<a name="prefinite_participle">
+<h3>Prefinite participle</h3>
 
-As for <a href="syntax-main.html#prefinite_infinitives">prefinite
+As for <a href="syntax-main.html#prefinite_infinitive">prefinite
 infinitives</a>, there are three cases, but we discuss them separately,
 as they are not treated exactly analogously.
 
 <ul>
-<li>The prefinite participle has no dependents
+<li>The prefinite participle has no dependents.
 <li>The prefinite participle has at least one adjacent dependent
-    (not counting enclitics on the finite verb)
-<li>The prefinite participle has dependents elswhere in the clause
+    (not counting enclitics on the finite verb).
+<li>The prefinite participle has dependents elsewhere in the clause.
 </ul>
 
-<p>
-<b>Case 1:</b> The bare prefinite participle is annotated without any
-further material.  This is in contrast to the addition of an IP-INF for
-for <a href="syntax-main.html#prefinite_infinitives">prefinite infinitives</a>.
+<h4>Case 1: No dependents</h4>
+
+In the absence of depedents, the bare prefinite participle is annotated
+without any further material.  This is in contrast to the addition of an
+IP-INF for for <a href="syntax-main.html#prefinite_infinitive">prefinite
+infinitives</a>.
 
 <blockquote>
 <pre>
@@ -1502,13 +1470,15 @@ for <a href="syntax-main.html#prefinite_infinitives">prefinite infinitives</a>.
 </pre>
 </blockquote>
 
-<p>
-<b>Case 2:</b> A participle phrase (PARTP) is added around the prefinite
-participle and its adjacent dependents, and other dependents, including
-enclitics, are linked to the PARTP via *ICH* traces.  The PARTP is
-analogous to the IP-INF
-for <a href="syntax-main.html#prefinite_infinitives">prefinite
-infinitives</a>.
+<h4>Case 2: Adjacent dependents</h4>
+
+A participle phrase (<tt>PARTP</tt>) is added around the prefinite
+participle and its adjacent dependents.  Other dependents, including
+proclitics on the finite verb, are linked to the PARTP via *ICH* traces.
+The PARTP is analogous to the IP-INF
+for <a href="syntax-main.html#prefinite_infinitive">prefinite
+infinitives</a>.  The purpose of the PARTP is to facilitate searches for
+V2.
 
 <blockquote>
 <pre>
@@ -1536,12 +1506,13 @@ infinitives</a>.
 </pre>
 </blockquote>
 
-<p>
-<b>Case 3:</b> The prefinite participle is linked to an *ICH* trace in
-canonical position (immediately following the finite verb), but there is
-no further annotation.  In particular, in contrast to the IP-INF
-for <a href="syntax-main.html#prefinite_infinitives">prefinite
-infinitives</a>, no PARTP is added around the participle's trace and
+<h4>Case 3: Elsewhere</h4>
+
+The prefinite participle is linked to an *ICH* trace in canonical
+position, but there is no further annotation.  In particular, in contrast
+to the IP-INF
+for <a href="syntax-main.html#prefinite_infinitive">prefinite
+infinitives</a>, no PARTP is added around the participle's trace and its
 postfinite dependents.
 
 <blockquote>
@@ -1555,23 +1526,24 @@ postfinite dependents.
 </pre>
 </blockquote>
 
-<a name="preverbal_arguments">
-<h4>Preverbal arguments</h4>
+<a name="preverbal_argument">
+<h3>Preverbal argument</h3>
 
 The guidelines below are intended to cover (potential) cases of split
 topicalization, and they extend to nonverbal predicates (predicate
 adjectives and predicate nominals).
 
 <ul>
-<li>The preverbal argument has no dependents
+<li>The preverbal argument has no dependents.
 <li>The preverbal argument has at least one adjacent dependent
-    (not counting enclitics on the finite verb)
-<li>The preverbal argument has dependents elsewhere in the clause
+    (not counting enclitics on the finite verb).
+<li>The preverbal argument has dependents elsewhere in the clause.
 </ul>
 
-<p>
-<b>Case 1:</b> In the absence of dependents, the argument or nonverbal
-predicate is simply annotated with the appropriate syntactic category.
+<h4>Case 1: No dependents</h4>
+
+In the absence of dependents, the argument or nonverbal predicate is
+simply annotated with the appropriate syntactic category.
 
 <blockquote>
 <pre>  
@@ -1582,12 +1554,12 @@ predicate is simply annotated with the appropriate syntactic category.
 </pre>  
 </blockquote>
 
-<p>
-<b>Case 2:</b> If the head of a verbal argument or of a nonverbal
-   predicate precedes its verb (finite or not) and has adjacent
-   dependents, an appropriate syntactic category is added around the
-   head and the dependents, and any other related material is linked to
-   the constituent via *ICH* traces.
+<h4>Case 2: Adjacent dependents</h4>
+
+If the head of a verbal argument or of a nonverbal predicate precedes its
+verb (finite or not) and has adjacent dependents, an appropriate syntactic
+category is added around the head and the dependents, and any other
+related material is linked to the constituent via *ICH* traces.
 
 <blockquote>
 <pre>  
@@ -1612,12 +1584,12 @@ predicate is simply annotated with the appropriate syntactic category.
 </pre>  
 </blockquote>
 
-<p>
-<b>Case 3:</b> Finally, if the head of a verbal argument or of a
-   nonverbal predicate precedes its verb (finite or not), but its
-   dependents follow the verb, an appropriate syntactic category is
-   constructed around the dependents, and the head is linked to it via
-   an *ICH* trace.
+<h4>Case 3: Elsewhere</h4>
+
+Finally, if the head of a verbal argument or of a nonverbal predicate
+precedes its verb (finite or not), but its dependents follow the verb, an
+appropriate syntactic category is constructed around the dependents, and
+the head is linked to it via an *ICH* trace.
 
 <blockquote>
 <pre>  
@@ -1633,11 +1605,11 @@ predicate is simply annotated with the appropriate syntactic category.
 </pre>  
 </blockquote>
 
-<a name="preverbal_degree_words">
-<h4>Preverbal degree words</h4>
+<a name="preverbal_degree_word">
+<h3>Preverbal degree word</h3>
 
-Preverbal degree words are currently annotated like
-<a href="syntax-main.html#preverbal_arguments">preverbal arguments</a>,
+Preverbal degree words are annotated like
+<a href="syntax-main.html#preverbal_argument">preverbal arguments</a>,
 except that they and their *ICH* traces are dominated by
 a <u>phrasal</u> (rather than a lexical) node.
 
@@ -1668,7 +1640,6 @@ a <u>phrasal</u> (rather than a lexical) node.
 			  (VX savoir)
 			  (NP-ACC (QP *ICH*-2)
 			          (NP-PART (DF de) (DZ leurs) (NCPL voulent&eacute;s))))))
-
 
 ( (IP-MAT (ADVP-TMP (ADV Finablement))
 	  (PON ,)
@@ -1725,8 +1696,8 @@ a <u>phrasal</u> (rather than a lexical) node.
               (NP-SBJ *pro*)		&larr; preverbal subject position by default
 	      (VJ est)
 	      (NP-ACC (ADJP (QP *ICH*-4)
-		            (ADJ mal)
-			    (NCS homme)))))
+		            (ADJ mal))
+		      (NCS homme))))
 
 ( (IP-MAT-PRN (QP-4 (Q tant))
               (NP-SBJ *pro*) 
@@ -1811,16 +1782,15 @@ comparison may be silent.
 
 <a name="m">
 
-<a name="modals">
-<h4>Modals</h4>
+<a name="modal">
+<h3>Modal</h3>
 
 Modals are tagged as such when they govern an infinitive or in clear
 ellipsis contexts (notably, when there is an antecedent for the elided
 material in the same token).  Otherwise, they are tagged as main verbs.
 
 <p>
-In ambiguous cases, traces of wh- PPs are attached high by default, as
-is usual.
+In ambiguous cases, traces of wh- PPs are attached high by default.
 
 <blockquote>
 <pre>
@@ -1856,7 +1826,7 @@ is usual.
 <a name="n">
 
 <a name="ne_mais_que">
-<h4>NE MAIS (QUE)</h4>
+<h3>NE MAIS (QUE)</h3>
 
 In the meaning EXCEPT, tagged as a complex P.
 
@@ -1881,19 +1851,23 @@ In the meaning EXCEPT, tagged as a complex P.
 </blockquote>
 
 <a name="negation">
-<h4>Negation</h4>
+<h3>Negation</h3>
 
-See <a href="words.html#n'avoir_que">N'AVOIR QUE</a> and 
-<a href="words.html#ne">NE</a>.
+See:
+
+<ul>
+<li><a href="words.html#n'avoir_que">N'AVOIR QUE</a>
+<li><a href="words.html#ne">NE</a>
+</ul>
 
 <a name="nominalized_infinitive">
-<h4>Nominalized infinitive</h4>
+<h3>Nominalized infinitive</h3>
 
 Nominalized infinitives in locutions like AL COMENCIER are tagged as NCS-VX,
 though likely not completely consistently.
 
 <a name="np-adt">
-<h4>NP-ADT</h4>
+<h3>NP-ADT</h3>
 
 ADT marks (among others) the following types of NPs:
 
@@ -1905,14 +1879,14 @@ clause-initial).
 <blockquote>
 <pre>
 ( (IP-MAT ... 
-        (NP-ADT (PRO moy)
-                (ADVP (ADV aussy)))
-        ...
-        (NP-SBJ *pro*)
-        (AJ ay)
-        (VPP advise)
-        (CP-THT (CONJS que)
-                (IP-SUB ...))))
+          (NP-ADT (PRO moy)
+                  (ADVP (ADV aussy)))
+          ...
+          (NP-SBJ *pro*)
+          (AJ ay)
+          (VPP advise)
+          (CP-THT (CONJS que)
+                  (IP-SUB ...))))
 </pre>
 </blockquote>
 
@@ -1920,12 +1894,15 @@ clause-initial).
 </ul>
 
 <a name="np-com">
-<h4>NP-COM</h4>
+<h3>NP-COM</h3>
 
-Bare possessive NPs of the type LE FILS LE ROI are tagged as NP-COM.
+What in traditional grammar is known as "cas r&eacute;gime" is tagged as <tt>NP-COM</tt>.
 
 <blockquote>
 <pre>
+(NP (D le) (NCS fils)
+    (NP-COM (D le) (NCS roy)))
+
 (NP (NCS force)
     (NP-COM (NCPL gens))
 
@@ -1946,23 +1923,19 @@ Bare possessive NPs of the type LE FILS LE ROI are tagged as NP-COM.
 </blockquote>
 
 <a name="np-msr">
-<h4>NP-MSR</h4>
+<h3>NP-MSR</h3>
 
-Single prenominal modifiers are never surrounded by NP-MSR.  
-See <a href="syntax-main.html#quantifiers">Quantifiers</a> for examples.
+Single prenominal modifiers are never surrounded by <tt>NP-MSR</tt>.  
+See <a href="syntax-main.html#quantifier">Quantifier</a> for examples.
 
 <a name="np-part">
-<h4>NP-PART</h4>
+<h3>NP-PART</h3>
 
-NP complements of Q(R) are always treated as NP-PART.
+NP complements of <tt>Q(R)</tt> are always tagged <tt>NP-PART</tt>.
 
 <a name="np-prd">
-<h4>NP-PRD</h4>
+<h3>NP-PRD</h3>
 
-Predicate nominals and adjectives are tagged as -PRD (rather than as
-NP-ACC or bare ADJP).
-
-<p>
 METIER, RAISON, and the like are treated as predicate nominals rather
 than as associates of an expletive subject.
 
@@ -2001,10 +1974,10 @@ than as associates of an expletive subject.
 </blockquote>
 
 <a name="np-rfl">
-<h4>NP-RFL</h4>
+<h3>NP-RFL</h3>
 
 In infinitival contexts, the SE associated with verbs that are ordinarily
-reflexive can be missing.  We add a silent reflexive.
+reflexive can be missing.  A silent reflexive is added in the annotation.
 
 <blockquote>
 <pre>
@@ -2016,25 +1989,21 @@ reflexive can be missing.  We add a silent reflexive.
 </pre>
 </blockquote>
 
-<h4>Null subjects</h4>
-
-See <a href="syntax-main.html#empty_subjects">Empty subjects</a>.
-
-<a name="complex-numbers">
-<a name="numbers">
-<h4>Numbers</h4>
+<a name="complex-number">
+<a name="number">
+<h3>Number</h3>
 
 Expressions containing ENVIRON, JUSQUE &Agrave;, and PR&Egrave;S that
-function on a par with numbers are treated as follows.  The complex
-expression is given its ordinary analysis; cardinal numbers contained in
-it are tagged as ADJNUM (as if in an ellipsis context).  The entire
-expression is then enclosed within ADJP (or possibly, some other
+function as cardinal numbers are treated as follows.  The complex
+expression is given its ordinary analysis, and cardinal numbers contained
+in it are tagged <tt>ADJNUM</tt> (as if in an ellipsis context).  The
+entire expression is then enclosed within ADJP (or possibly, some other
 appropriate tag).
+
+<h4>ENVIRON</h4>
 
 <blockquote>
 <pre>
-ENVIRON
-
 (PP (P de)
     (NP (ADJP (ADJP (ADJNUM douze) (ADJNUM cens))
 	      (CONJP *ICH*-4))
@@ -2042,10 +2011,14 @@ ENVIRON
 	(PP (P d')
 	    (NP (NCPL armes)))
         (CONJP-4 (CONJO ou)
-                 (ADJP (ADV envyron) (ADJNUM *)))))
+                 (ADJP (ADV envyron) (ADJNUM *)))))         &larr; empty ADJNUM added for clarity
+</pre>
+</blockquote>
 
-JUSQUE &Agrave;
+<h4>JUSQUE &Agrave;</h4>
 
+<blockquote>
+<pre>
 (NP (D les) (NCPL prisonniers)
     (PON ,)
     (ADJP (PP (P jusques)
@@ -2063,9 +2036,13 @@ JUSQUE &Agrave;
 	(NCPL lieues)
 	(PP (P de)
 	    (NP (D la) (NCS ville))))
+</pre>
+</blockquote>
 
-PR&Egrave;S
+<h4>PR&Egrave;S</h4>
 
+<blockquote>
+<pre>
 (NP-ACC (ADJP (ADVP (ADV près)
 	            (PP (P de)
 			(NP (ADJNUM huyct) (ADJNUM cens)))))
@@ -2079,17 +2056,16 @@ PR&Egrave;S
 	       (NCS nuyt))))
 </pre>
 </blockquote>
-</font>
 
 <a name="o">
 
 <a name="p">
 
 <a name="partial-wh-movement">
-<h4>Partial wh-movement</h4>
+<h3>Partial wh-movement</h3>
 
-The scope-marking wh- phrase (<i>que</i>), the intermediate
-content-bearing wh- phrase, and the trace are all co-indexed.
+The scope-marking wh- phrase (QUE), the intermediate content-bearing wh-
+phrase, and the trace are all co-indexed.
 
 <blockquote>
 <pre>
@@ -2106,9 +2082,9 @@ content-bearing wh- phrase, and the trace are all co-indexed.
 </pre>
 </blockquote>
 
-The default for cases that are ambiguous between partial and
-long-distance wh- movement is long-distance movement (in other words,
-the lower <i>que</i> is treated as a complementizer).
+The default for cases that are ambiguous between partial and long-distance
+wh- movement is long-distance movement (in other words, the lower QUE is
+treated as a complementizer).
 
 <blockquote>
 <pre>
@@ -2126,8 +2102,8 @@ the lower <i>que</i> is treated as a complementizer).
 
 <a name="q">
 
-<a name="quantifiers">
-<h4>Quantifiers</h4>
+<a name="quantifier">
+<h3>Quantifier</h3>
 
 <blockquote>
 <pre>
@@ -2148,7 +2124,10 @@ the lower <i>que</i> is treated as a complementizer).
 </blockquote>
 
 <a name="que_to_qui">
-<h4>QUE to QUI</h4>
+<h3>QUE to QUI</h3>
+
+In order to facilitate retrieval of the relevant cases, the QUI that
+arises from the QUE to QUI rule is annotated as CONJS.
 
 <blockquote>
 <pre>
@@ -2163,7 +2142,6 @@ the lower <i>que</i> is treated as a complementizer).
 				        (IP-SUB (NP-SBJ *T*-1)
 					        (CL-NP-DTV (CL luy))
 					        (VJ plaisoient)))))))
-
 
 ( (IP-MAT (NP-SBJ (D Le) (NCS roy))
 	  (VJ faisoit)
@@ -2188,7 +2166,7 @@ the lower <i>que</i> is treated as a complementizer).
 <a name="r">
 
 <a name="rrc">
-<h4>Reduced relative clauses (RRC)</h4>
+<h3>Reduced relative clause (RRC)</h3>
 
 <blockquote>
 <pre>
@@ -2198,7 +2176,7 @@ the lower <i>que</i> is treated as a complementizer).
                   (PP (P par)
                       (NP (D le) (NCS bas))))
               (CONJP (RRC (ADJP (ADJ estroicte))
-                          (ADVP (ADV dessus)))))))
+                          (ADVP-LOC (ADV dessus)))))))
 
 (PP (P en)				 	     &larr; not like this
     (NP (D une) (NCS fosse)
@@ -2206,13 +2184,13 @@ the lower <i>que</i> is treated as a complementizer).
                     (PP (P par)
                         (NP (D le) (NCS bas))))
               (CONJP (ADJP (ADJ estroicte))
-                           (ADVP (ADV dessus))))))
+                           (ADVP-LOC (ADV dessus))))))
 </pre>
 </blockquote>
 </font>
 
 <a name="resumptive">
-<h4>Resumptive expressions</h4>
+<h3>Resumptive expression</h3>
 
 See also <a href="words.html#il_y_a">IL Y A</a>.
 
@@ -2230,12 +2208,12 @@ See also <a href="words.html#il_y_a">IL Y A</a>.
 </pre>
 </blockquote>
 
-<h4>Rightward movement</h4>
+<h3>Rightward movement</h3>
 
-See
+See:
 
 <ul>
-<li><a href="syntax-main.html#extraposed_conjuncts">Extraposed conjuncts</a>
+<li><a href="syntax-main.html#extraposed_conjunct">Extraposed conjunct</a>
 <li><a href="syntax-main.html#leftward_or_rightward_movement">Leftward or
     rightward movement?</a>
 </ul>
@@ -2243,15 +2221,19 @@ See
 <a name="s">
 
 <a name="si_non">
-<h4>SI ... NON</h4>
+<h3>SI ... NON</h3>
 
 <p>
 The SI ... NON construction is treated as a conditional clause with
 gapping, which is given a function in its matrix clause wherever
 possible (in a manner analogous to free relative clauses).  For
-simplicity, the gapping is not indicated explicitly (contrary to Jana
-Beck's convention for the Ancient Greek counterpart of this construction).
+simplicity, the gapping is not indicated explicitly.
+<!-- 
+(contrary to Jana Beck's convention for the Ancient Greek counterpart of
+this construction).
+-->
 
+<blockquote>
 <pre>
 ( (IP-MAT (NP-SBJ (PRO Elle))
           (NEG n')
@@ -2270,19 +2252,21 @@ Beck's convention for the Ancient Greek counterpart of this construction).
           (CL-PP (CL en))
           (PONFP .)))
 </pre>
+</blockquote>
 
 <p>
 As long as SI NON can be translated literally as IF NOT, it is treated as
 just described, even when it is spelled as a single orthographic word
 (in which case it is split).
 
+<blockquote>
 <pre>
 ( (IP-MAT (NP-ACC (Q Nuls)
                   (PP *ICH*-1))
           (NP-SBJ (PRO elle))
           (NEG n')
           (VJ aime)
-          (PP-1 (CP-ADV (CONJS si@)			&larr; SI NON
+          (PP-1 (CP-ADV (CONJS si@)			    &larr; SI NON
                         (FRAG (ADVP (ADVNEG @non))
 			      (NP (PRO lui)))))
           (PONFP .)))
@@ -2291,13 +2275,14 @@ just described, even when it is spelled as a single orthographic word
           (NEG n')
           (VJ veut)
 	  (NP-ACC (NCS chose))
-	  (CP-ADV (CONJS si)				&larr; SI NON
+	  (CP-ADV (CONJS si)				    &larr; SI NON
 		  (FRAG (ADVP (ADVNEG non))
 			(CP-THT (CONJS que)
 				(IP-SUB (NP-SBJ (PRO il))
                                         (VJ vient)))))
           (PONFP .)))
 </pre>
+</blockquote>
 
 <p>
 Eventually, SINON is reanalyzed as a P head meaning 'except'.  Following
@@ -2306,6 +2291,7 @@ are ambiguous between IF NOT and EXCEPT are annotated as the older IF
 NOT construction. The annotation for the new EXCEPT construction is
 illustrated in the following example.
 
+<blockquote>
 <pre>
 (IP-SUB (ADVP-TMP (ADV depuis))
         (NP-SBJ *pro*)
@@ -2320,33 +2306,30 @@ illustrated in the following example.
 				(AJ avez)
 				(VPP-FS oye)))))
 	(PON ,)
-        (PP (P sinon)
+        (PP (P sinon)                                   &larr; SINON
     	    (CP-THT (CONJS qu')
 	   	    (IP-SUB (NP-SBJ (PRO elle))
 		   	    (NEG ne)
 			    (VJ dormoit)
 			    (ADVP (ADVNEG point))))))
 </pre>
+</blockquote>
 
-<a name="small_clauses">
-<h4>Small clauses (IP-SMC)</h4>
+<a name="small_clause">
+<h3>Small clause (IP-SMC)</h3>
 
+See also <a href="syntax-main.html#inalienable_possession">Inalienable possession</a>.
+
+<p>
 Items that license small clause complements (mostly verbs, but note the
 preposition AVEC) include the following.
 
-<p>
-<table border cellpadding=3>
-<tr>
-<td>APPELER, AVEC, AVOIR, <br>
-CLAIMER, CONNA&Icirc;TRE, CROIRE, CUIDER, <br>
-FAIRE, <br>
-NOMMER, <br>
-OIR, <br>
-(SE) RENDRE, <br>
-SAVOIR, (SE) SENTIR, <br>
-TENIR, TROUVER, <br>
-VOIR
-</table>
+<blockquote>
+<pre>
+APPELER, AVEC, AVOIR, CLAIMER, CONNA&Icirc;TRE, CROIRE, CUIDER, FAIRE,
+NOMMER, OIR, (SE) RENDRE, SAVOIR, (SE) SENTIR, TENIR, TROUVER, VOIR
+</pre>
+</blockquote>
 
 <blockquote>
 <pre>
@@ -2357,16 +2340,6 @@ VOIR
 			  (VJ eussent)
 			  (IP-SMC (NP-SBJ (DZ leur) (NCS peuple))
 				  (ADJP-PRD (ADJ franc)))))))
-
-( (IP-MAT (CONJO et)
-	  (NP-SBJ *con*) 
-	  (VJ avisera)
-	  (CP-QUE (CONJS si)
-		  (IP-SUB (NP-SBJ (PRO elle))
-			  (VJ a)
-			  (IP-SMC (NP-SBJ (D les) (NCPL braz))
-				  (ADVP (ADV bien))
-				  (VPP couvers))))))
 
 (CP-REL-1 (WNP-2 (WPRO laquelle))
           (IP-SUB (NP-SBJ (PRO ilz))
@@ -2381,7 +2354,7 @@ VOIR
 </blockquote>
 
 <p>
-<a name="small_clauses_avec">
+<a name="small_clause_avec">
 In general, PPs are not treated as small clause predicates.
 Exceptions are possible with AVEC.
 
@@ -2403,12 +2376,12 @@ Exceptions are possible with AVEC.
 </blockquote>
 
 <a name="split_topicalization">
-<h4>Split topicalization</h4>
+<h3>Split topicalization</h3>
 
 See <a href="syntax-main.html#leftward_or_rightward_movement">Leftward or rightward movement?</a>
 
 <a name="sus">
-<h4>SUS</h4>
+<h3>SUS</h3>
 
 <blockquote>
 <pre>
@@ -2420,36 +2393,37 @@ mettre sus
 <a name="t">
 
 <a name="tout_soit_que">
-<h4>TOUT SOIT QUE</h4>
+<h3>TOUT SOIT QUE</h3>
 
-See <a href="syntax-main.html#tout-soit-concessive-clauses">TOUT SOIT concessive clauses</a>.
+See <a href="syntax-main.html#tout-soit-concessive">TOUT SOIT concessive clause</a>.
 
 <a name="u">
 
 <a name="v">
 
 <a name="verb_fronting">
-<h4>Verb fronting</h4>
+<h3>Verb fronting</h3>
 
-For verb fronting in connection with concessive clauses, see <a
-href="syntax-main.html#free_relative_clauses">Free relative clauses</a>.
+See:
 
-<p>
-For clause-initial verbal heads,
-see <a href="manual-index.html#clause-initial_heads">Clause-initial heads</a>.
+<ul>
+<li><a href="syntax-main.html#free_relative_clause">Free relative
+    clause</a> (for verb fronting in concessive clauses)
+<li><a href="syntax-main.html#prefinite_infinitive">Prefinite infinitive</a>
+<li><a href="syntax-main.html#prefinite_participle">Prefinite participle</a>
+</ul>
 
 <a name="w">
 
 <a name="weather">
-<h4>Weather predicates</h4>
+<h3>Weather predicate</h3>
 
 Weather predicates take an impersonal subject and, if necessary, a
 direct object.
 
 <p>
-If the head of the direct object is ambiguous between noun and
-adjective, it is construed as an adjective with the understood head
-TEMPS.
+If the head of the direct object is ambiguous between noun and adjective,
+it is construed as an adjective with an implicit head TEMPS.
 
 <blockquote>
 <pre>
@@ -2465,3 +2439,6 @@ TEMPS.
 <a name="y">
 
 <a name="z">
+
+</body>
+</html>
