@@ -3152,7 +3152,7 @@
 			  (IP-SUB (NP-SBJ (PRO je))
 				  (CL-NP-ACC (CL vous))
 				  (VJ prie)
-				  (CP-ADV (CONJS qu#)
+				  (CP-THT (CONJS qu#)
 					  (IP-SUB (NP-SBJ-RSP=1 (PRO ele))
 						  (VJ trouve)
 						  (ADVP-LOC (ADV isi))
