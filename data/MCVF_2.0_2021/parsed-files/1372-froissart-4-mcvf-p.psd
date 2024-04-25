@@ -6379,9 +6379,9 @@
 	  (CL-NP-RFL (CL se))
 	  (VJ requellierent)
 	  (NP-SBJ (D li)
-		  (NCPL Hainnuier)
-		  (CODE <lb$$>)
-		  (ADVP (Q moult) (ADV sagement))))
+		  (NCPL Hainnuier))
+	  (CODE <lb$$>)
+	  (ADVP (Q moult) (ADV sagement)))
   (ID 1372-FROISSART-4-MCVF-P,377.437))
 
 ( (IP-MAT (CONJO et)
