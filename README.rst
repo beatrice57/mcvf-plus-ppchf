@@ -1,3 +1,7 @@
+Modéliser le changement: Les voies de français (MCVF) and Penn-BFM
+Parsed Corpus of Historical French (PPCHF)
+===================================================================
+
 Contents
 ========
 
@@ -31,14 +35,14 @@ Commons License Attribution-NonCommercial-ShareAlike 4.0 International
 CC BY-NC-SA 4.0 (<https://creativecommons.org/licenses/by-nc-sa/4.0>).
 
 Contact
-========
+=======
 
 Beatrice Santorini (beatrice DOT santorini AT gmail DOT com)
 
 Please do not hesitate to report errors of any sort or suggestions for
 improvement.
 
-Acknowledgements
+Acknowledgments
 ===============
 
 * We thank France Martineau, who directed the MCVF project (2005-2010),
