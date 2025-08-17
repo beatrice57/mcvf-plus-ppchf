@@ -214,10 +214,10 @@ See <a href="pos/pos-main.html#aux-ou-v">Verbe auxiliaire ou verbe principal?</a
 
 <blockquote>
 <pre>
-( (IP-MAT (NP-SBJ (PRO Il))
-          (VJ avoit)
-          (NP-ACC (NCS nom))
-          (NP-SPR (NPRS Jean))))
+(IP-MAT (NP-SBJ (PRO Il))
+        (VJ avoit)
+        (NP-ACC (NCS nom))
+        (NP-SPR (NPRS Jean)))
 </pre>
 </blockquote>
 
@@ -1851,12 +1851,12 @@ treated as a subordinating conjunction (<TT>CONJS</tt>), not as a wh-
 pronoun (<TT>WPRO</TT>).
 
 <pre>
-(IP-MAT (NP-SBJ (PRO Je))
-        (NEG ne)
-        (VJ sais)
-        (CP-QUE (WNP-1 (WPRO que))
-                (IP-INF (NP-ACC *T*-1)
-			(VX faire))))
+( (IP-MAT (NP-SBJ (PRO Je))
+          (NEG ne)
+          (VJ sais)
+          (CP-QUE-SUB (WNP-1 (WPRO que))
+                      (IP-INF (NP-ACC *T*-1)
+       			      (VX faire)))))
 		    
 (NP (D la) (NCS fille)
     (CP-REL (WNP-1 (WPRO que))

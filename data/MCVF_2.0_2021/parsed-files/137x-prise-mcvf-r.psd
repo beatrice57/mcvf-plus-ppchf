@@ -58662,8 +58662,7 @@
   (ID 137X-PRISE-MCVF-R,7520.3974))
 
 ( (IP-MAT (CONJO &)
-	  (NP-MSR (CP-FRL (WNP-1 0)
-			  (CONJS quant)
+	  (NP-MSR (CP-FRL (WNP-1 (WPRO quant))
 			  (IP-SUB (NP-MSR *T*-1)
 				  (NP-SBJ *proimp*)
 				  (VJ est)
