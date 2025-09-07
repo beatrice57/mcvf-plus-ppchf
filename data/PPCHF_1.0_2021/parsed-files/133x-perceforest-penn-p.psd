@@ -15871,7 +15871,7 @@
   (ID 133X-PERCEFOREST-PENN-P,105.763))
 
 ( (IP-MAT (CONJO Et)
-	  (CP-ADV (WADV comme)
+	  (CP-ADV (CONJS comme)
 		  (IP-SUB (NP-SBJ (D la) (NCS victoire))
 			  (EJ fust)
 			  (VPP escheue)

@@ -19626,7 +19626,7 @@
   (ID 1372-FROISSART-4-MCVF-P,417.1378))
 
 ( (IP-MAT (IP-MAT-1 (CONJO car)
-		    (CP-ADV (WADV conment)
+		    (CP-ADV (ADV conment)
 			    (CONJS que)
 			    (CODE <lb_n="30"$$>)
 			    (IP-SUB (NP-SBJ (NCS messires)
