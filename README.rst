@@ -18,7 +18,7 @@ French, which together contain over 1.6 million words of running text.
 **Note:** Here and throughout the documentation, "number of words"
 excludes punctuation and metadata and reflects word tokenization in
 accordance with the annotation guidelines
-(<https://www.ling.upenn.edu/~beatrice/corpus-ling/annotation-french>).
+(https://www.ling.upenn.edu/~beatrice/corpus-ling/annotation-french).
 
 The repository also contains:
 
@@ -32,7 +32,7 @@ License
 
 The files in this repository are distributed under Creative
 Commons License Attribution-NonCommercial-ShareAlike 4.0 International
-CC BY-NC-SA 4.0 (<https://creativecommons.org/licenses/by-nc-sa/4.0>).
+CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0).
 
 Contact
 =======
@@ -49,7 +49,7 @@ Acknowledgments
   for entrusting us with the ongoing curation and distribution of the
   resulting MCVF Corpus.
 * The philological infrastructure provided by the Base Français Médiéval
-  (BFM) project (<http://txm.bfm-corpus.org>) has been invaluable,
+  (BFM) project (http://txm.bfm-corpus.org) has been invaluable,
   especially in the construction of the PPCHF, more than half of which
   is based on BFM's online editions.  We thank the BFM administrators,
   Céline Guillot-Barbance and Alexei Lavrentiev, for permission to
@@ -67,9 +67,9 @@ Annotation guidelines
 The POS-tagged and parsed files in this repository are annotated
 according to guidelines developed by Beatrice Santorini and Rodica
 Diaconescu, which extend guidelines for annotating historical English
-(<https://www.ling.upenn.edu/~beatrice/corpus-ling/annotation>).  The
+(https://www.ling.upenn.edu/~beatrice/corpus-ling/annotation).  The
 guidelines for historical French are also available at
-<https://www.ling.upenn.edu/~beatrice/corpus-ling/annotation-french>.
+https://www.ling.upenn.edu/~beatrice/corpus-ling/annotation-french.
 All of the parsed files in MCVF v2.0 and in PPCHF have been brought to
 the same level of consistency and adherence to the guidelines.
 
@@ -79,10 +79,10 @@ Searching the corpora
 The parsed files in the repository can be searched with CorpusSearch 2,
 a Java program developed by Tony Kroch and Beth Randall for searching,
 revising, and coding parsed corpora.  The program can be downloaded at
-<https://sourceforge.net/projects/corpussearch>.
+https://sourceforge.net/projects/corpussearch/.
 
-<p> The original users guide site is no longer being maintained.  Please
+The original users guide site is no longer being maintained.  Please
 refer instead to the corrected and revised live version
-(<https://www.ling.upenn.edu/~beatrice/corpus-ling/CS-users-guide>).
+(https://www.ling.upenn.edu/~beatrice/corpus-ling/CS-users-guide).
 
 
